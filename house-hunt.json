@@ -6,7 +6,7 @@
  "profiles": {
   "sheffield-bill": {
    "owner": "Bill",
-   "schedule": null,
+   "schedule": "weekly, Sunday 18:44 Europe/London, scheduled task House hunt weekly (trig_01J8YcMGnbVLfqM5FF6KxqtM)",
    "notify": "push when a new house enters the shortlist"
   }
  },
