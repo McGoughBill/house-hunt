@@ -1,0 +1,50 @@
+{
+  "id": "H084-s8-pearson-place",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.blundells.com/properties/21627026/sales",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 Meersbrook, Pearson Place, per https://www.blundells.com/properties/21627026/sales"},
+    "budget":    {"pass": true, "reason": "Asking 240000 <= 300000. Asking + 1.15W + C = 240000 + 87400 + 3000 = 330400 <= 400000 (W est.)"},
+    "tenure":    {"pass": true, "reason": "Freehold per https://www.blundells.com/properties/21627026/sales"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state occupancy, so vacant possession is not confirmed"},
+    "hall":      {"pass": true, "reason": "Listing says the house opens into a lounge positioned to the front, so the hall clause is not met as bought; a hall can be made for est. 3000 (<= 5000), so the gate passes on that clause (est.)"}
+  },
+  "V": 227500,
+  "v_basis": "61 Pearson Place 05 Jun 2026 227500; 54 Pearson Place 29 Apr 2026 215000; 66 Pearson Place 10 Jul 2026 242000 (median 227500). These are the three most recent terraced sales in the last 2 years, Land Registry via https://www.rightmove.co.uk/house-prices/s8-9de.html. Done-up condition not verified for any of them (est.). Median is unchanged if 66 is excluded, since housemetric types it as semi-detached (https://housemetric.co.uk/house-prices/Pearson-Place/S8-9D)",
+  "W": 76000,
+  "w_basis": "All est., no floorplan or photos reached: hall 3000; single-storey rear extension for 25 m2+ kitchen-diner 28000; attic bedroom sign-off 5000; rewire 6000; heating 2000; kitchen 9000; bathroom 5000; decor, floors and doors 9000; windows, roof and damp allowance 4000; cellar damp 2000; professional fees 3000. Total before 15% contingency",
+  "C": 3000,
+  "margin": -125650,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 240000 / est. 85 m2 = 2824 per m2; done-up street median (61, 54, 66 Pearson Place, 82-83 m2 per https://housemetric.co.uk/house-prices/Pearson-Place/S8-9D) = 2741 per m2; ratio 103%"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 227500 - 1.15 x 76000 (est.) - 3000 - 240000 = -125650; still -38250 at zero works. Asking 240000 per task file, not shown in the listing text I could read"},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 227500 / street max 278500 (40 Pearson Place, 15 Sep 2025, https://www.rightmove.co.uk/house-prices/s8-9de.html) = 82%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S8 0 sector 2-year max not checked; est. well above 325000, so V is under 70% of it (est.)"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not stated in listing; est. 85 m2 from 3-bed terrace comps of 80-90 m2 (https://housemetric.co.uk/house-prices/Pearson-Place/S8-9D)"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing gives 3 bedrooms, two on first floor and one in attic room with skylights that could serve as a home office (https://www.blundells.com/properties/21627026/sales); 3rd needs attic sign-off (est.)"},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen is at the rear with cellar access (https://www.blundells.com/properties/21627026/sales); size not stated; est. single-storey rear extension needed for 25 m2+ kitchen-diner"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "South-facing rear garden per listing, length not stated; loft already an attic room so loft headroom is limited; neighbours not checked (est.)"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Rear extension is the most complex item, plus attic sign-off, rewire and heating (est.)"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7-12 months for extension, rewire, kitchen, bathroom and attic sign-off"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar present per listing; damp and roof not mentioned; minor issues with unclear cause (est.)"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Residential Meersbrook street; owner-occupier share and letting boards not checked; est. one fail"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing says near Meersbrook Park, distance not stated; est. 5-10 min walk"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket walk not checked; est. 15-20 min"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking not stated; est. hard on-street parking on a level street in hilly Meersbrook"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing says well-presented, three floors, cellar, attic skylights (https://www.blundells.com/properties/21627026/sales); period features and ceiling heights not stated"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front elevation and photos not reached; est. plain, tidy terrace"}
+  ],
+  "total": 51.2,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 240000 sits above the done-up comp median of 227500 (2026 Land Registry sales), so the margin is negative even at zero works cost; floorplan and photos were not reached, so the hall, attic and extension scope are unverified.",
+  "sources": [
+    "https://www.blundells.com/properties/21627026/sales",
+    "https://www.rightmove.co.uk/house-prices/s8-9de.html",
+    "https://housemetric.co.uk/house-prices/Pearson-Place/S8-9D"
+  ]
+}

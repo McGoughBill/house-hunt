@@ -1,0 +1,50 @@
+{
+  "id": "H017-s10-western-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/172554416",
+  "asking": 270000,
+  "floor_area_m2": 100,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes (listing address)"},
+    "budget":    {"pass": true, "reason": "asking 270000 + 1.15 x W 55000 + C 3000 = 336250, under 400000 (W est.)"},
+    "tenure":    {"pass": true, "reason": "freehold per listing https://www.rightmove.co.uk/properties/172554416"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing gives no movement, subsidence, knotweed, spray foam or dry rot report; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says no chain and 'neutrally decorated' but does not state vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front composite door opens straight into the lounge per listing; passes only if a hall can be made for 5000 or less (est.)"}
+  },
+  "V": 230000,
+  "v_basis": "Condition of sold homes is not stated on the sources, so none could be confirmed as done up (est.). Proxy: the 3 most recent terraced sales on Western Road: 262 Western Road S10 1LF, 1 Jul 2026, 285000; 107 Western Road S10 1LB, 12 Jun 2026, 230000; 71 Western Road S10 1LB, 16 Apr 2026, 215000. Median 230000. Source: https://www.rightmove.co.uk/house-prices/s10/western-road.html",
+  "W": 55000,
+  "w_basis": "est. before contingency, from listing text only (no floorplan or usable photos). Decor 15000; kitchen 12000; shower room 8000; hall creation 4000; rewire/heating allowance 8000 (unknown, est.); sash repair and windows 3000; plaster and floors 4000; misc 1000. Attic bedroom and kitchen-diner already exist, so no extension needed.",
+  "C": 3000,
+  "margin": -129250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 2700/m2 (270000/100). Done-up street proxy 2300/m2 (230000/100, sold floor areas assumed 100 m2). Ratio 117%, above 85%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -129250 (0.9x230000 - 1.15x55000 - 3000 - 270000)."},
+    {"n": 3,  "score": 4, "est": false, "evidence": "V 230000 / street max 285000 (262 Western Road, 1 Jul 2026) = 81%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S10 two-year max sale not checked; S10 is a large sector and almost certainly has sales well over 600000, so V is under 70% (est.)."},
+    {"n": 5,  "score": 4, "est": false, "evidence": "100 m2 floor area per listing (1079 sq ft), 90-100 band."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms now: two first-floor rooms plus attic bedroom with dormer and two Velux. Room sizes not known, so 'one small' assumed (est.)."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Kitchen/diner with integrated appliances and oak worktops already exists per listing. Size not stated."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Loft already converted, so no loft headroom. Rear garden is south-west facing with no third-party access; length and neighbours' extensions unknown (est.)."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen, shower room, plus a hall partition. Electrics and heating unknown, so rewire or heating assumed (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "About 4 to 6 months of works, est., from the scope in w_basis."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar, roof, damp and drainage not reported. Minor issues, cause unclear (est.)."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Western Road is a long through road in Crookes with buses and many sales, so the main-road test likely fails (est.). No letting-board data checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park about 5 to 10 minutes away on foot (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Nearest big supermarket about 15 to 20 minutes on foot (est.)."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Listing says 'Parking: Ask agent'. Hillside Crookes location, so hard parking on a slope assumed (est.)."},
+    {"n": 16, "score": 4, "est": false, "evidence": "Listing: high ceilings, sash windows, bay window, original features, cast-iron multi-fuel stove, cellar. Good bones."},
+    {"n": 17, "score": 4, "est": false, "evidence": "Listing: stone and bay-fronted terrace, end of terrace. Front garden not stated."}
+  ],
+  "total": 62,
+  "verdict": "PASS",
+  "biggest_risk": "Finished value proxy (230000) is below asking plus works, so margin is about -129000; the house only works if done-up sales near the 285000 top are achievable.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/172554416",
+    "https://www.rightmove.co.uk/house-prices/s10/western-road.html",
+    "https://resi.co.uk/house-prices/western-road-s10?page=4"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "H013-s10-ramsey-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/70349400",
+  "asking": 270000,
+  "floor_area_m2": 87,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, as stated in brief. Zoopla shows Ramsey Road, Crookes S10 at £270,000 for sale, https://www.zoopla.co.uk/for-sale/details/70349400"},
+    "budget":    {"pass": true, "reason": "est. asking 270000 + 1.15W 69000 + C 3000 = 342000, under 400000. Asking under 300000."},
+    "tenure":    {"pass": true, "reason": "Zoopla: freehold, https://www.zoopla.co.uk/for-sale/details/70349400"},
+    "structure": {"pass": true, "reason": "unconfirmed: no survey or structural mention found; Hunters page could not be opened"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: occupancy not stated in any source found"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door and hall position not stated in any source found"}
+  },
+  "V": 280000,
+  "v_basis": "Fewer than 3 done-up sales on Ramsey Road in 2 years, so nearest like streets used. Ramsey Road: 37 Ramsey Rd 280000 (20 Feb 2025, 3 bed, 84 m2, https://housemetric.co.uk/house-prices/Ramsey-Road/S10-1L); 21 Ramsey Rd 225500 (31 Oct 2025, pre-works, https://domovita.co.uk/sold-prices/street/s10/ramsey-road). Nearest like: 262 Western Rd 285000 (1 Jul 2026, freehold 3 bed terrace) and 2 Ivy Grove 245000 (22 May 2026, freehold 3 bed terrace), https://www.rightmove.co.uk/house-prices/crookes.html. Median of 280000, 285000, 245000 = 280000. None confirmed done-up.",
+  "W": 60000,
+  "w_basis": "est. from brief only; no floorplan or photos reached. Strip and decorate 20000; kitchen 12000; bathroom 6000; rewire 7000; heating 4000; flooring 4000; hall and front door 3000; skip, scaffold, misc 3000. Sum 59000, rounded to 60000 before the 1.15 contingency in margin.",
+  "C": 3000,
+  "margin": -90000,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 3103/m2 (270000/87) vs 3333/m2 for 37 Ramsey Rd (280000/84, https://housemetric.co.uk/house-prices/Ramsey-Road/S10-1L). Ratio 93%. Comp not confirmed done-up."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin 0.9x280000 - 1.15x60000 - 3000 - 270000 = -90000 (est.)."},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 280000 is 100% of street max 2 yr sale (37 Ramsey Rd 280000). Est. because V is not confirmed done-up."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "V 280000 vs S10 max 2 yr of at least 372000 (9 Tinker Lane, 2 Jun 2026, https://www.rightmove.co.uk/house-prices/crookes.html) = 75%. Sector max may be higher."},
+    {"n": 5,  "score": 3, "est": false, "evidence": "87 m2 per brief; 941 sq ft (87.4 m2) per Zoopla, https://www.zoopla.co.uk/for-sale/details/70349400"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms per Zoopla. Room sizes unknown. Est. one small room."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "No kitchen info for this house. Est. rear kitchen-diner reachable by one knock-through; size unknown, so 25 m2 unconfirmed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length, loft and neighbour extensions not stated. Est. one weak option."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Assumed rewire and heating plus kitchen, bathroom and decor. No survey; the rewire and heating are guesses."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 9 months for the works above, band 7 to 12."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or cellar info. Est. minor issues, cause unclear."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "Ramsey Road described as quiet and dead-end, https://www.guildproperty.co.uk/property-for-sale/Sheffield/S10+1LR/4152937. Letting boards unknown."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Crookes Valley Park est. 10 to 15 min walk."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket est. 15 to 20 min walk."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not stated. Est. hard parking, level."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Layout and period features not stated. Est. average."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Brick-built per Zoopla, https://www.zoopla.co.uk/for-sale/details/70349400. Front and bay not stated. Est. plain, tidy."}
+  ],
+  "total": 53.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -90000 (est.): the price is near finished value, and the works are unseen. The Hunters listing could not be opened, so there are no photos, floorplan or layout, and V rests on thin comparables.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/70349400",
+    "https://www.guildproperty.co.uk/property-for-sale/Sheffield/S10+1LR/4152937",
+    "https://housemetric.co.uk/house-prices/Ramsey-Road/S10-1L",
+    "https://domovita.co.uk/sold-prices/street/s10/ramsey-road",
+    "https://www.rightmove.co.uk/house-prices/crookes.html"
+  ]
+}

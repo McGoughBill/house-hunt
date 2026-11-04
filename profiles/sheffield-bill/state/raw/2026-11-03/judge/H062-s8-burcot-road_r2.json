@@ -1,0 +1,53 @@
+{
+  "id": "H062-s8-burcot-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74448042",
+  "asking": 300000,
+  "floor_area_m2": 128,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Burcot Road, S8, Meersbrook (other listings place the road there). Rightmove 94045860 would not open (not on allowlist); matched on Zoopla 74448042: Highgates, 3 bed, 1375 sq ft, leasehold, asking 300000. Rightmove 173755001 is a different Highgates listing (133 m2, 1 bath)."},
+    "budget": {"pass": true, "reason": "asking 300000 + 1.15 x W 10000 (est.) + C 3000 = 314500, under 400000."},
+    "tenure": {"pass": true, "reason": "unconfirmed: leasehold 669 years, ground rent 0 (Zoopla 74448042); no covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam, non-standard build or dry rot mentioned; no survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated; listing says only no onward chain."},
+    "hall": {"pass": true, "reason": "unconfirmed: hall and front-door layout not described; floorplan tab not readable."}
+  },
+  "V": 340000,
+  "v_basis": "est.: fewer than 3 done-up same-street sales in 2 years found, so V is a guess. Burcot Road: 18683774 and 172044884 (likely same house) sold STC at 320000, listed 10 Feb 2026, 4 bed, not stated as done up; 88365168 sold STC, 3 bed 105 m2 'refurbished and extended', guide 300000 to 325000, price and date not shown; 11 Burcot Road sold Sep 2025 at 271000, terraced leasehold, condition unknown (Land Registry via Doogal). Older context: 110 Burcot Road sold Dec 2023 at 310000 (pcdb.uk). Median not computed; Rightmove and Zoopla sold pages not on allowlist.",
+  "W": 10000,
+  "w_basis": "est.: listing says main works are done (upgraded electrics, new radiators, fresh decoration, new flooring, modern kitchen, top-floor en-suite room). W covers decor, snagging, finishes and a small hall or kitchen allowance. Before contingency. Floorplan not read.",
+  "C": 3000,
+  "margin": -8500,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "asking 300000 / 128 m2 = 2344 per m2 vs V 340000 / 128 = 2656 per m2; ratio 88%, almost no discount."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "margin = 0.9 x 340000 - 1.15 x 10000 - 3000 - 300000 = -8500 (V and W est.)."},
+    {"n": 3,  "score": 1, "est": true,  "evidence": "V 340000 vs street max about 325000 (guide top of 88365168, sold STC, price not shown) = about 105%."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "S8 sector max sale not found; est. 450000 (Lees House Court detached, guide only, Zoopla search table); 340000 / 450000 = 76%."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1375 sq ft = 128 m2 (Zoopla 74448042)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Zoopla 74448042: upstairs three genuine doubles, one top-floor room with en-suite; room sizes and loft sign-off not stated."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Zoopla 74448042: two receptions and a modern kitchen; kitchen-diner size and knock-through not stated; floorplan not read."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "garden size not described; top floor already converted; neighbours' extensions unknown."},
+    {"n": 9,  "score": 5, "est": false, "evidence": "Zoopla 74448042: the expensive and disruptive work has already been undertaken (agent claim, unsurveyed)."},
+    {"n": 10, "score": 5, "est": true,  "evidence": "works largely done per listing; decor and snagging only, est. 2 to 3 months."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "no survey; damp, roof and cellar not mentioned in listing."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "owner-occupied and chain free likely; fronts, letting boards and rat-run not seen."},
+    {"n": 13, "score": 5, "est": false, "evidence": "Zoopla 74448042: Burcot Road is within a stone's throw of Meersbrook Park."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "supermarket distance not checked; 15 to 20 min walk assumed."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "parking and slope not stated; Meersbrook streets are often steep."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "light, ceiling height and period features not described in listing."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "type is terrace only; front elevation and bay not seen."}
+  ],
+  "total": 59.6,
+  "verdict": "PASS",
+  "biggest_risk": "Already done up, so almost no discount: margin about -8500 at est. V 340000, and V rests on one sold STC and one Land Registry sale, not three done-up comparables.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74448042",
+    "https://www.rightmove.co.uk/properties/88365168",
+    "https://www.rightmove.co.uk/properties/172044884",
+    "https://www.onthemarket.com/details/18683774",
+    "https://www.doogal.co.uk/PropertySales?area=S8+9",
+    "https://pcdb.uk/s89fg"
+  ]
+}

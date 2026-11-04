@@ -1,0 +1,53 @@
+{
+  "id": "H009-s10-mulehouse-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/171827096",
+  "asking": 270000,
+  "floor_area_m2": 104,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes: 71 Mulehouse Road, Crookes, Sheffield S10 1TB"},
+    "budget":    {"pass": true, "reason": "Asking 270000 under 300000. Asking + 1.15W + C = 270000 + 23000 + 3000 = 296000, under 400000"},
+    "tenure":    {"pass": true, "reason": "Freehold per Hunters listing and Rightmove media PDF"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, damp, knotweed, spray foam, build type"},
+    "vacant":    {"pass": true, "reason": "Vacant possession will be given on completion (Rightmove PDF, Hunters)"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not describe hall or front door position"}
+  },
+  "V": 280000,
+  "v_basis": "Terraced, Mulehouse Road, last 2 years: 96 Mulehouse Road 21 Apr 2026 £280,000 (leasehold); 151 Mulehouse Road 28 Jul 2025 £305,000 (freehold); 153 Mulehouse Road 4 Apr 2025 £255,000 (freehold). Median £280,000. Done-up status of comps not verified.",
+  "W": 20000,
+  "w_basis": "est. No floorplan or photos reached (Rightmove page not on allowlist). Listing says recently refurbished with modern kitchen diner, so allowance for decor, flooring, hall, bathroom check and snagging. Before contingency.",
+  "C": 3000,
+  "margin": -44000,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "est. As bought £2,599/m² (270000/104) vs comps 151 at £3,389/m² and 153 at £3,000/m², median £3,194; 81%"},
+    {"n": 2,  "score": 1, "est": false, "evidence": "Margin -44000 = 0.9×280000 − 1.15×20000 − 3000 − 270000"},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 280000 is 70% of street max 400000 (177 Mulehouse Road detached, May 2025). Terrace-only max 305000 would give 92%, score 3"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "est. Sector S10 max sale in 2 years not checked; large S10 houses likely above 500000, so V under 70%"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1118 sq ft = 104 m² (Hunters); Rightmove PDF gives no area"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "est. 3 bedrooms listed; room sizes not given, so two ≥11.5 m² unknown"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Modern kitchen diner exists (Rightmove PDF, Hunters); size not given"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "est. Rear garden faces south, length not given; loft and neighbour extensions unknown"},
+    {"n": 9,  "score": 5, "est": true,  "evidence": "est. Listing says recently refurbished; remaining work is decor, kitchen, bath, maybe hall"},
+    {"n": 10, "score": 5, "est": true,  "evidence": "est. Hunters says ready for you to move in; under 3 months if refurb claim holds"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "est. No survey; listing silent on damp, roof, electrics"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est. Many leasehold terraces and flats in sales data; share of letting boards unknown"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "est. Walk to park not checked; guess 10-15 min"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est. Walk to big supermarket not checked; guess 15-20 min"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "est. On-street parking likely; slope not checked"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "est. Lounge has central chimney breast and feature fireplace (Rightmove PDF); light and ceiling height unknown"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "est. Front elevation not described; plain terrace assumed"}
+  ],
+  "total": 67.2,
+  "verdict": "PASS",
+  "biggest_risk": "Negative margin: asking £270k leaves no uplift over the £280k street comp, and the refurb claim, room sizes and structure are all unverified.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/171827096",
+    "https://media.rightmove.co.uk/15k/14314/171827096/14314_34445340_DOC_00_0000.pdf",
+    "https://www.hunters.com/?p=210609",
+    "https://primelocation.com/house-prices/sheffield/mulehouse-road",
+    "https://domovita.co.uk/sold-prices/street/s10/mulehouse-road",
+    "https://housemetric.co.uk/house-prices/Mulehouse-Road/S10-1TD"
+  ]
+}

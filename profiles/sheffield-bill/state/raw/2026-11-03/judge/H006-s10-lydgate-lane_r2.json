@@ -1,0 +1,51 @@
+{
+  "id": "H006-s10-lydgate-lane",
+  "run": 2,
+  "live": null,
+  "listing_url": "https://www.rightmove.co.uk/properties/164816333",
+  "asking": 260000,
+  "floor_area_m2": null,
+  "house_type": null,
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes is in the area list."},
+    "budget":    {"pass": true, "reason": "Asking 260000 is under 300000. Asking + W 70000 (est.) + C 3000 = 333000, under 400000."},
+    "tenure":    {"pass": null, "reason": "Not confirmed. Haus page returned Property Not Found. Rightmove listing blocked. Other Lydgate Lane sales are freehold and leasehold."},
+    "structure": {"pass": null, "reason": "Not checked. No survey or listing text could be read."},
+    "vacant":    {"pass": null, "reason": "Not checked. No listing text could be read."},
+    "hall":      {"pass": null, "reason": "Not checked. No floorplan could be read."}
+  },
+  "V": 248000,
+  "v_basis": "est. Median of 3 Lydgate Lane terraced freehold sales, not checked for done-up condition: 104 Lydgate Lane, 9 Apr 2026, 248000 (https://www.rightmove.co.uk/house-prices/s10/lydgate-lane.html); 54 Lydgate Lane, 30 Jan 2026, 285000 (same URL); 208 Lydgate Lane, 31 Jan 2025, 240000 (same URL).",
+  "W": 70000,
+  "w_basis": "est. No floorplan or photos could be read. Assumed full refurb of decor, kitchen, bathroom, rewire and heating at about 60000, plus 15 percent contingency, rounded to 70000. Buying costs are separate.",
+  "C": 3000,
+  "margin": -120300,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true, "evidence": "est. No floor area given, so £/m² cannot be computed. Neutral guess."},
+    {"n": 2,  "score": 1, "est": true, "evidence": "0.9×248000 − 1.15×70000 − 3000 − 260000 = −120300 (brief formula, applied as written; 1.15 is applied on top of W, which already includes contingency)."},
+    {"n": 3,  "score": 4, "est": true, "evidence": "V 248000 ÷ 285000 (54 Lydgate Lane, Jan 2026) = 87 percent, so 80–90 band."},
+    {"n": 4,  "score": 3, "est": true, "evidence": "est. Sector max not checked. Neutral guess."},
+    {"n": 5,  "score": 3, "est": true, "evidence": "est. Floor area not given. Neutral guess."},
+    {"n": 6,  "score": 3, "est": true, "evidence": "est. Listing says 3 beds. Whether the third is a real bedroom is unknown."},
+    {"n": 7,  "score": 3, "est": true, "evidence": "est. No floorplan, so kitchen-diner route is unknown."},
+    {"n": 8,  "score": 3, "est": true, "evidence": "est. Garden and extension neighbours unknown."},
+    {"n": 9,  "score": 3, "est": true, "evidence": "est. Assumed decor, kitchen, bath plus services. Scope not confirmed."},
+    {"n": 10, "score": 4, "est": true, "evidence": "est. Assumed 4–6 months for a full refurb."},
+    {"n": 11, "score": 3, "est": true, "evidence": "est. No survey or listing notes read."},
+    {"n": 12, "score": 3, "est": true, "evidence": "est. Mixed street of terraces with many leasehold sales. Not checked on the ground."},
+    {"n": 13, "score": 3, "est": true, "evidence": "est. Park distance not checked."},
+    {"n": 14, "score": 3, "est": true, "evidence": "est. Supermarket distance not checked."},
+    {"n": 15, "score": 3, "est": true, "evidence": "est. Parking and slope not checked."},
+    {"n": 16, "score": 3, "est": true, "evidence": "est. No photos or room sizes read."},
+    {"n": 17, "score": 3, "est": true, "evidence": "est. No photos read. Lydgate Lane is mainly stone-built terraces, not confirmed for this house."}
+  ],
+  "total": 58,
+  "verdict": "REJECT",
+  "biggest_risk": "The listing could not be opened and may be gone, so the tenure, structure, vacancy and hall gates are unverified and most scores are guesses.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/164816333",
+    "https://www.haushomes.co.uk/properties-for-sale/property/12713028-lydgate-lane-crookes-sheffield",
+    "https://www.rightmove.co.uk/house-prices/s10/lydgate-lane.html",
+    "https://www.zoopla.co.uk/for-sale/details/70849971"
+  ]
+}

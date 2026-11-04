@@ -1,0 +1,52 @@
+{
+  "id": "H015-s10-school-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769382/",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes per listing address"},
+    "budget":    {"pass": true, "reason": "asking 240000 + 1.15 x W 75000 (86250) + C 3000 = 329250, under 400000; asking under 300000"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold; lease length, ground rent and service charge not stated on listing"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing mentions no structural issues; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacant possession not stated; listing says offered to market chain free and ideally suited to investors"},
+    "hall":      {"pass": true, "reason": "unconfirmed: hall/entrance not described and no floorplan; hall creation costed at est. 4000 in W, under the 5000 limit"}
+  },
+  "V": 230000,
+  "v_basis": "est. done-up status not verifiable from price-paid data; 3 most recent 3-bed terraces on School Road in 2 years: 298 School Road 9 Jan 2026 222000; 340 School Road 19 Sep 2025 230000 (bed count inferred from 2019 record); 304 School Road 19 Sep 2025 236000 (bed count conflicts: Housemetric says 3, Rightmove says 4). Median 230000.",
+  "W": 75000,
+  "w_basis": "all est., before contingency: single-storey rear extension (about 14 m2) for 25 m2+ kitchen-diner 30000; kitchen 10000; bathroom refresh 3000 (listing calls bathroom modern); rewire 7000; heating 3500; basement damp and egress 3000; hall allowance 4000; decoration, flooring, doors 10000; roof and external allowance 2000; fees and building control 2500",
+  "C": 3000,
+  "margin": -122250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. asking 240000 / 86 m2 = 2791 per m2 vs est. finished 230000 / 86 = 2674 per m2 (104%); no done-up street per m2 data found"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 230000 - 1.15 x 75000 - 3000 - 240000 = -122250"},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 230000 / street max 387000 (232 School Road, 4 bed, 9 Apr 2026) = 59%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S10 sector max over 2 years not checked; est. well above 329000 so V under 70%"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "no floor area given; listed room sizes sum to 76.5 m2, plus est. hall, stairs and walls gives about 86 m2"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "3 listed beds but only Bed 3 (3.66 x 5.49 m, 20 m2) reaches 11.5 m2; Beds 1 and 2 are 7.8 and 7.5 m2; basement room not counted"},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "kitchen 3.05 x 3.66 m (11 m2); 25 m2+ needs rear single-storey extension; no floorplan to check side return or knock-through"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "garden not described; loft already used (rear Velux in Bed 3); neighbours' extensions unknown"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "main works are a single-storey rear extension, plus rewire and heating (est.)"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 9 to 12 months: extension, rewire, kitchen, bathroom and hall all needed before comfortable living"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "basement bedroom damp and egress unknown (one serious); lease length, heating, electrics and roof unknown; no survey"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "School Road is a busy through road (est.); listing marketed to investors; many flats and leasehold sales on the street"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "nearest park walk est. 10 to 15 min (not checked)"},
+    {"n": 14, "score": 2, "est": true,  "evidence": "big supermarket walk est. 20 to 25 min (not checked)"},
+    {"n": 15, "score": 2, "est": true,  "evidence": "front basement window suggests a sloping site (est.); on-street parking only, not stated"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "bay-fronted living room 16.7 m2; loft bedroom with Velux; basement light and ceiling height unknown; period features not described"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "mid-terrace with front bay per listing; facade material and frontage condition not confirmed (photo not reachable)"}
+  ],
+  "total": 48.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -122250 on est. finished value 230000: break-even needs about 365833; comparable done-up status unverified and lease length and vacant possession unconfirmed",
+  "sources": [
+    "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769382/",
+    "https://www.rightmove.co.uk/house-prices/s10/school-road.html",
+    "https://domovita.co.uk/sold-prices/street/s10/school-road",
+    "https://housemetric.co.uk/house-prices/School-Road/S10-1GR",
+    "https://www.gov.uk/government/publications/stamp-duty-land-tax-relief-for-first-time-buyers/stamp-duty-land-tax-relief-for-first-time-buyers"
+  ]
+}

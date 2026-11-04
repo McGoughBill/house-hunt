@@ -1,0 +1,51 @@
+{
+  "id": "H084-s8-pearson-place",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.blundells.com/properties/21627026/sales",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 Meersbrook, Pearson Place (https://resi.co.uk/house-prices/pearson-place-s8)"},
+    "budget": {"pass": true, "reason": "asking 240000 + 1.15 x W 89500 (est.) + C 3000 = 345925, under 400000; asking under 300000"},
+    "tenure": {"pass": true, "reason": "Freehold per Blundells listing (https://www.blundells.com/properties/21627026/sales)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; flood history and rights marked 'Ask agent'"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state vacant possession; cached page shows no price or status, only a viewing slot dated 24 Apr"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing says the property 'opens into a lounge positioned to the front'; a hall would need a front-room partition, est. 4500 within W, so passes only on that estimate"}
+  },
+  "V": 227500,
+  "v_basis": "Median of 3 terraced sales in last 2 years: 54 Pearson Place 29 Apr 2026 £215000 (freehold); 61 Pearson Place 5 Jun 2026 227500; 66 Pearson Place 10 Jul 2026 242000 (resi lists terraced, housemetric lists its 2019 sale as semi). Sale records show no condition, so done-up status is est. Sources: https://resi.co.uk/house-prices/pearson-place-s8 and https://housemetric.co.uk/house-prices/Pearson-Place/S8-9D",
+  "W": 89500,
+  "w_basis": "est., before contingency, no floorplan seen: hall partition 4500; single-storey rear extension for 25 m2 kitchen-diner 36000; steel for knock-through 3000; kitchen 9000; family bathroom 6500; rewire 6000; attic third bedroom stair, fire and sign-off 6000; decoration, plaster, floors 10000; heating 1500; professional fees 4000; skip and scaffold 3000",
+  "C": 3000,
+  "margin": -141175,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true, "evidence": "asking 240000 / V 227500 = 105%, above done-up street level; floor area est. so same ratio used"},
+    {"n": 2,  "score": 1, "est": true, "evidence": "margin -141175 = 0.9x227500 - 1.15x89500 - 3000 - 240000; 0.9V is already below asking plus costs before any works"},
+    {"n": 3,  "score": 4, "est": true, "evidence": "V 227500 / street max 278500 (40 Pearson Place, 15 Sep 2025, housemetric) = 82%"},
+    {"n": 4,  "score": 4, "est": true, "evidence": "sector S8 9 max not checked; street max used as proxy at 82%; true sector max likely higher so could be 5"},
+    {"n": 5,  "score": 3, "est": true, "evidence": "floor area not given; 3-bed Pearson Place terraces sold at 80-95 m2 (housemetric); est. 80-90 m2"},
+    {"n": 6,  "score": 3, "est": true, "evidence": "two first-floor bedrooms plus attic room with skylights as possible third bedroom (Blundells); attic needs sign-off, room sizes unknown"},
+    {"n": 7,  "score": 3, "est": true, "evidence": "kitchen at rear with direct garden access, no diner described (Blundells); route is single-storey rear extension (est.)"},
+    {"n": 8,  "score": 2, "est": true, "evidence": "garden length not stated; attic already in use so little loft headroom; neighbours' extensions unknown"},
+    {"n": 9,  "score": 2, "est": true, "evidence": "single-storey rear extension plus hall partition, knock-through steel and likely rewire"},
+    {"n": 10, "score": 3, "est": true, "evidence": "est. 9-12 months for extension and hall before living there in finished spec"},
+    {"n": 11, "score": 3, "est": true, "evidence": "cellar, flood history and rights marked 'Ask agent'; damp and roof unknown; causes unclear"},
+    {"n": 12, "score": 4, "est": true, "evidence": "no street-quality evidence beyond residential sales; mix of leasehold and freehold; est. all pass, plain"},
+    {"n": 13, "score": 4, "est": true, "evidence": "Meersbrook Park nearby; walk time not measured, est. 5-10 min"},
+    {"n": 14, "score": 3, "est": true, "evidence": "no supermarket distance given; est. 15-20 min walk to Chesterfield Road shops"},
+    {"n": 15, "score": 3, "est": true, "evidence": "parking not mentioned; terraced street, on-street parking likely, slope unknown"},
+    {"n": 16, "score": 3, "est": true, "evidence": "described as well-presented with skylights and south-facing garden; ceiling height and period features not stated"},
+    {"n": 17, "score": 3, "est": true, "evidence": "front elevation not described; mid-terrace brick est. plain, tidy"}
+  ],
+  "total": 51,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 240000 is above estimated done-up value V 227500, so margin is negative even with zero works, and V's done-up condition is unverified.",
+  "sources": [
+    "https://www.blundells.com/properties/21627026/sales",
+    "https://resi.co.uk/house-prices/pearson-place-s8",
+    "https://housemetric.co.uk/house-prices/Pearson-Place/S8-9D",
+    "https://www.rightmove.co.uk/house-prices/S8-9DE.html"
+  ]
+}

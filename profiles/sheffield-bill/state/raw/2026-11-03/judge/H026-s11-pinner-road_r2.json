@@ -1,0 +1,51 @@
+{
+  "id": "H026-s11-pinner-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89597571",
+  "asking": 270000,
+  "floor_area_m2": 99,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S11, Hunters Bar, per https://www.rightmove.co.uk/properties/89597571 (matches agent, price, beds and area; OnTheMarket 19701138 could not be opened, so match is by agent, price and layout)"},
+    "budget": {"pass": true, "reason": "est.: 270000 + 1.15 x 65000 (W) + 3000 (C) = 347750, under 400000"},
+    "tenure": {"pass": true, "reason": "Freehold per https://www.rightmove.co.uk/properties/89597571"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot; no survey seen"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state vacant possession or tenancy"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into the lounge or a hall; floorplan not read"}
+  },
+  "V": 274000,
+  "v_basis": "est. median of 3 (only 2 Pinner Road terrace sales in 2 years, neither shown as done-up): 24 Pinner Road S11 8UH, 25 Jul 2025, 274000 (2 bed, 74 m2, https://housemetric.co.uk/house-prices/Pinner-Road/S11-8UH); 46 Pinner Road S11 8UH, 1 Apr 2026, 257500 (leasehold, beds and type not shown, https://domovita.co.uk/sold-prices/s11); 9 Meadow Terrace S11 8QN, 2 Mar 2026, 281011 (freehold, nearby street, type and condition not checked, https://domovita.co.uk/sold-prices/s11)",
+  "W": 65000,
+  "w_basis": "est. before contingency, finished spec: rewire 7000; heating 4000; kitchen-diner refit and wall opening 22000; bathroom 6000; decoration and flooring 14000; hall 4000; study to bedroom and 2nd-floor sign-off 5000; cellar damp and minor repairs 3000. Brief says W includes contingency; prompt says W is before contingency, so prompt followed.",
+  "C": 3000,
+  "margin": -101150,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "est. as bought 2727 per m2 (270000 / 99 m2) vs 3703 per m2 (24 Pinner Road, 274000 / 74 m2), i.e. 74%; one comp with area"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "est. margin -101150 (0.9 x 274000 - 1.15 x 65000 - 3000 - 270000)"},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "est. V 274000 equals 100% of Pinner Road 2-year max (24 Pinner Road, 274000); band 95-100%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "est. V is 69% of S11 2-year max seen (73 Cowlishaw Road, 396000, 12 Mar 2026, https://domovita.co.uk/sold-prices/s11); full S11 max not checked, a higher max only lowers the ratio"},
+    {"n": 5,  "score": 4, "est": false, "evidence": "99 m2 (1062 sq ft), https://www.rightmove.co.uk/properties/89597571"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 beds listed: 1st-floor master, 1st-floor third used as study, 2nd-floor large double (https://www.rightmove.co.uk/properties/89597571); room sizes not given, third may be small"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "kitchen/diner exists on ground floor (https://www.rightmove.co.uk/properties/89597571); size not given, 25 m2 spec unconfirmed"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "courtyard garden, fails 10 m test (https://www.rightmove.co.uk/properties/89597571); 2nd floor already used; neighbour extensions unknown"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "est. kitchen, bath and decor plus likely rewire and heating"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4-6 months for the W scope"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "cellar for storage (https://www.rightmove.co.uk/properties/89597571); no survey or EPC rating shown; damp and roof unknown"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est. no evidence on fronts, letting boards or traffic either way"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Endcliffe Park named in listing (https://www.rightmove.co.uk/properties/89597571); est. walk 5-10 min"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est. 15-20 min walk to a big supermarket; no walk time given"},
+    {"n": 15, "score": 4, "est": true,  "evidence": "on-street parking to the front (https://www.rightmove.co.uk/properties/89597571); slope not stated"},
+    {"n": 16, "score": 4, "est": true,  "evidence": "bay window and feature fireplace (https://www.rightmove.co.uk/properties/89597571); light and ceiling height unknown"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "est. plain and tidy; bay in lounge; stone or brick and front garden not stated"}
+  ],
+  "total": 65,
+  "verdict": "PASS",
+  "biggest_risk": "Finished value does not cover cost: margin est. -101150 even at the best local sale (274000), so the buy fails on value, not on gates; V rests on 2 Pinner Road sales, none shown as done-up.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89597571",
+    "https://housemetric.co.uk/house-prices/Pinner-Road/S11-8UH",
+    "https://housemetric.co.uk/house-prices/Pinner-Road/S11-8U/?page=2",
+    "https://domovita.co.uk/sold-prices/s11"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "H017-s10-western-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/172554416",
+  "asking": 270000,
+  "floor_area_m2": 100,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, per listing address."},
+    "budget":    {"pass": true, "reason": "asking 270000 + 1.15 x W 50000 (est.) + C 3000 = 330500, which is at or under 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold per listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing has no structural statement and no survey."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing is silent on vacant possession."},
+    "hall":      {"pass": true, "reason": "Listing says front composite door opens into the lounge, with an inner lobby to kitchen and stairs. Hall partition est. under 5000 (est.)."}
+  },
+  "V": 230000,
+  "v_basis": "Three most recent terraced sales on Western Road: 262 Western Road, terraced, 1 Jul 2026, 285000; 107 Western Road, terraced, 12 Jun 2026, 230000; 71 Western Road, terraced, 16 Apr 2026, 215000. Median 230000. Done-up status not shown in sold data, so V is est.",
+  "W": 50000,
+  "w_basis": "est., before contingency: kitchen 15000; bathroom 8000; rewire or heating allowance 10000; hall partition 3000; attic sign-off and works 3000; decor and floors 8000; cellar and damp check 3000. No floorplan or photos were readable, so quantities are est.",
+  "C": 3000,
+  "margin": -123500,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 2700 per m² against done-up street 2300 per m² (V 230000 / 100 m²), about 117%. V is est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -123500 = 0.9 x 230000 - 1.15 x 50000 - 3000 - 270000."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 230000 / street max 285000 (262 Western Road, Jul 2026) = 81%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector max S10 2 years not checked; est. well above 285000, so V is under 70% of it."},
+    {"n": 5,  "score": 4, "est": false, "evidence": "100 m² floor area per listing (1,079 sq ft)."},
+    {"n": 6,  "score": 3, "est": false, "evidence": "Three bedrooms per listing: two first floor and one attic with dormer and two Velux. Attic needs sign-off, not evidenced."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Kitchen/diner with integrated appliances exists per listing."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear garden south-west, fully enclosed, length not stated. Loft already converted. Neighbours unknown."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Likely rewire or heating, plus attic sign-off and hall partition. No survey."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4 to 6 months of works before comfortable living."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar mentioned, damp unknown. Cause unclear."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Western Road looks like a busy through road. Letting boards and tenure mix unknown. est."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Est. 10 to 15 min walk to Crookes Valley or Endcliffe Park."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Est. 15 to 20 min walk to a big supermarket."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking listed as Ask agent. Slope est. moderate."},
+    {"n": 16, "score": 4, "est": false, "evidence": "Sash windows, high ceilings, original features, multi-fuel stove per listing. Neutrally decorated."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Stone and bay-fronted end terrace per listing. Photos not read, so est."}
+  ],
+  "total": 59,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 270000 is above the 230000 V median, so the margin is about -123500 before any surprise in the works.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/172554416",
+    "https://www.rightmove.co.uk/house-prices/s10/western-road.html",
+    "https://primelocation.com/house-prices/sheffield/western-road"
+  ]
+}

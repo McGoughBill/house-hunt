@@ -1,0 +1,53 @@
+{
+  "id": "H045-s7-hastings-grange",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/71090131",
+  "asking": 290000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7 (Hastings Grange, Millhouses) per https://www.zoopla.co.uk/for-sale/details/71090131"},
+    "budget":    {"pass": true, "reason": "asking 290000 + 1.15 x W 66000 (75900) + C 3000 = 368900, under 400000. W is est."},
+    "tenure":    {"pass": true, "reason": "leasehold 500 yrs from 2017 per brief, about 491 yrs left (https://www.rightmove.co.uk/properties/167036042); over 150 yrs; no covenant dispute seen"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on defects; 2017 build, UPVC, no movement, knotweed or non-standard build flagged"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacant possession not stated on any page I could read"},
+    "hall":      {"pass": true, "reason": "unconfirmed: entrance hall not described on any page I could read; a hall if needed is est. 3000 and sits inside W, under the 5000 limit"}
+  },
+  "V": 420000,
+  "v_basis": "Same street, last 2 yrs, Land Registry via https://domovita.co.uk/sold-prices/street/s7/hastings-grange: 23 Hastings Grange semi 6 Dec 2024 420000; 25 Hastings Grange semi 28 Nov 2025 422500; 29 Hastings Grange semi 17 Nov 2025 318000. Median 420000. Only one same-type sale in 2 yrs (13 Hastings Grange terraced, 9 Jan 2026, 385000), so the fallback applies and semis are used as nearest type on the same street. Condition of sold homes not in Land Registry data. Semis likely overstate a mid-terrace.",
+  "W": 66000,
+  "w_basis": "All est., before contingency, no floorplan or photos opened: decor, flooring, lighting throughout 12000; kitchen-diner and living tidy-up 6000; third bedroom by loft conversion 45000 (roof form unseen, trusses would add cost); entrance hall partition if needed 3000. Costs: none on floorplan.",
+  "C": 3000,
+  "margin": 9100,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "as bought about 4460 per m2 (290000 / est. 65 m2) vs done-up street about 4520 per m2 (420000 / est. 93 m2): about 99 percent, est."},
+    {"n": 2,  "score": 2, "est": true,  "evidence": "margin 9100 = 0.9 x 420000 - 1.15 x 66000 - 3000 - 290000, band 0 to 10000. Inputs est."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 420000 / street max 815000 (35 Hastings Grange detached, 29 Jan 2026) = 52 percent, from https://domovita.co.uk/sold-prices/street/s7/hastings-grange"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V / sector max: sector max assumed about 815000 (35 Hastings Grange) = 52 percent. Wider S7 2 sales not checked, est."},
+    {"n": 5,  "score": 1, "est": true,  "evidence": "floor area not given. Comparable 2-bed Hastings Grange semi for sale 703 sq ft (about 65 m2) at https://street.co.uk/platform/properties/ec718f2b-4c81-4591-83bc-420d4913cd2b. Est. 65 m2."},
+    {"n": 6,  "score": 2, "est": true,  "evidence": "2 beds now; third bedroom needs a loft conversion (roof form unseen). est."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "mid-terrace, so no side return; open-plan kitchen and living room may exist but size not known; 25 m2+ kitchen-diner needs a single-storey rear extension. est."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "garden length, loft fit and neighbours' extensions not given; one weak option assumed. est."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "loft conversion for third bedroom is structural roof work; decor, kitchen and bath are light. est."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "decor about 2 months plus loft works and approvals: est. 8 to 10 months before fully living there. est."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "no survey, no defects reported in listing; 2017 build; cause of unknowns unclear. est."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "cul-de-sac off Abbeydale Road; mostly owner-occupied; some letting on the street (Redbrik 2-bed let at https://street.co.uk/platform/properties/d03faf05-2f1e-4382-a3fa-8df54b73d1d0); letting boards not checked. est."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "listing says near Millhouses Park; walk est. 10 to 15 min. est."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "listing says shops and supermarkets nearby; walk est. 15 to 20 min. est."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "parking not confirmed for this townhouse; other Hastings Grange homes have driveways for 2 to 3 cars. est."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "2017 build, open-plan living with bi-folds to rear per comparable listings; no period features. est."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "2017 modern brick cul-de-sac build; plain but tidy. est."}
+  ],
+  "total": 52.2,
+  "verdict": "PASS",
+  "biggest_risk": "The Haus listing page never opened; facts come from a Zoopla search snapshot. The margin of about 9100 is thin and rests on est. works of 66000 (third bedroom by loft) and a V of 420000 taken from semis, which likely overstates a mid-terrace.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/71090131",
+    "https://domovita.co.uk/sold-prices/street/s7/hastings-grange",
+    "https://street.co.uk/platform/properties/ec718f2b-4c81-4591-83bc-420d4913cd2b",
+    "https://street.co.uk/platform/properties/d03faf05-2f1e-4382-a3fa-8df54b73d1d0",
+    "https://onthemarket.com/details/15145349",
+    "https://www.rightmove.co.uk/properties/167036042"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "H042-s7-carter-knowle-road",
+  "run": 3,
+  "live": false,
+  "listing_url": "https://propertyauctions.io/listings/7fe7dbf2ce1a6c166c2627ab8f869249",
+  "asking": 280000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": null, "reason": "not checked: listing not live"},
+    "budget":    {"pass": null, "reason": "not checked: listing not live"},
+    "tenure":    {"pass": null, "reason": "not checked: listing not live"},
+    "structure": {"pass": null, "reason": "not checked: listing not live"},
+    "vacant":    {"pass": null, "reason": "not checked: listing not live"},
+    "hall":      {"pass": null, "reason": "not checked: listing not live"}
+  },
+  "V": null,
+  "v_basis": "not run: listing not live",
+  "W": null,
+  "w_basis": "not run: listing not live",
+  "C": null,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: listing not live"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Not live: 84 Carter Knowle Road (the S7 2DZ address matching this listing) sold 30 Jan 2026 for £263,000 per housemetric (source unnamed), after a 10 Dec 2025 auction at Offers Around £280,000 and a 28 Jan 2026 lot at £249k guide; OnTheMarket 18353710 could not be opened.",
+  "sources": [
+    "https://propertyauctions.io/listings/7fe7dbf2ce1a6c166c2627ab8f869249",
+    "https://manchester.townandcountrypropertyauctions.co.uk/lot/details/168786",
+    "https://media.rightmove.co.uk/10k/9405/169648277/9405_34190292_DOC_00_0000.pdf",
+    "https://housemetric.co.uk/house-prices/Carter-Knowle-Road/S7-2DZ"
+  ]
+}

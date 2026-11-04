@@ -1,0 +1,52 @@
+{
+  "id": "H001-s10-bole-hill-lane",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769242/",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, listing postcode S10 1SD"},
+    "budget":    {"pass": true, "reason": "Asking 300000 is at the cap. Asking + W 40250 + C 3000 = 343250, under 400000. Listing also shows a guide of 300000-325000 in one place and 325000-350000 in another (rightmove)."},
+    "tenure":    {"pass": true, "reason": "Freehold per listing"},
+    "structure": {"pass": true, "reason": "No movement, subsidence, knotweed, spray foam or dry rot mentioned. No survey seen, so unverified."},
+    "vacant":    {"pass": true, "reason": "Not stated in listing. Listing reads as owner-occupied and invites viewings. Unverified, must confirm with agent."},
+    "hall":      {"pass": true, "reason": "Rightmove lists a separate 'Entrance' room 3ft x 7ft, which reads as a hall. Not explicitly confirmed."}
+  },
+  "V": 234111,
+  "v_basis": "est. Median of 3 most recent terraced sales on Bole Hill Lane since Nov 2024 (no condition data, so 'done-up' not confirmed): 11 Bole Hill Lane 9 Mar 2026 200000; 62 Bole Hill Lane 12 Feb 2026 234111; 59 Bole Hill Lane 18 Jul 2025 264000. Source: https://domovita.co.uk/sold-prices/street/s10/bole-hill-lane",
+  "W": 40250,
+  "w_basis": "est. Decor and flooring throughout, 3 beds and bath 10000; knock-through of living room into kitchen-diner (steel, make-good) 25000; base 35000 + 15% contingency = 40250. Listing already says 'modern' kitchen and bathroom, so works are light. Kitchen-diner today is 2.74m x 4.57m (about 12.5 m2), well short of the 25 m2 target.",
+  "C": 3000,
+  "margin": -138588,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. Floor area not given; est. ~79 m2 from room sizes, so asking is ~3800/m2 vs ~2960/m2 on V (~128%), above 85%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin = 0.9V - 1.15W - costs - asking = -138588, below 0."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 234111 vs 2-yr street max 325000 (93 Bole Hill Lane, 28 Mar 2025, domovita) = 72%, under 80%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "est. S10 2-yr sector max not checked; V is almost certainly under 70% of it."},
+    {"n": 5,  "score": 2, "est": true,  "evidence": "est. ~79 m2 from listing room sizes (living 15.6, kitchen 12.5, beds 7.5/10.0/13.4, landing 7.4, bath 2.8, ensuite and entrance ~4.4, plus circulation). Floor area not stated by agent."},
+    {"n": 6,  "score": 4, "est": false, "evidence": "3 beds now: bed 1 9ft x 9ft (~7.5 m2), bed 2 9ft x 12ft (~10 m2), bed 3 12ft x 12ft (~13.4 m2). Only one reaches 11.5 m2, so 'one small'."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Kitchen-diner exists (9ft x 15ft, rear window), so one knock-through to the living room gives ~28 m2. Steel and wall type not checked."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "est. Garden length not given. Bed 3 has a front Velux, so loft space is likely already used. Neighbour extensions not checked."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Decor, kitchen and bath plus a knock-through needing a steel beam, which is structural work."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4-6 months to live there with decor and a steel knock-through, if done while renting."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "est. No survey, damp, roof or cellar info. Nothing serious flagged, but cause of any issue unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est. Bole Hill Lane is a through road with mixed tenure and some letting, so one fail on the rubric. Not checked on the ground."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "est. Crookes Valley Park about 10-15 min walk (est., not measured)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est. Nearest big supermarket about 15-20 min walk (est.)."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Off-street parking and a larger-than-average garage with EV charger (haybrook and rightmove). Slope est. as uphill, so 4 not 5."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Front bay in living room, multi-fuel fireplace, Velux in bed 3. No photos or floorplan read, so est."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "est. Front bay visible in listing. Terrace condition and stone or brick not checked from photos."}
+  ],
+  "total": 56,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 300000 is about 28% above the V of 234111 from the three most recent sales. Sales have no condition data, so V may be low; even so, the house is already modernised, so the margin is negative.",
+  "sources": [
+    "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769242/",
+    "https://www.haybrook.com/HAY030769242",
+    "https://www.rightmove.co.uk/properties/173150339",
+    "https://domovita.co.uk/sold-prices/street/s10/bole-hill-lane",
+    "https://housemetric.co.uk/house-prices/Bole-Hill-Lane/S10-1S"
+  ]
+}

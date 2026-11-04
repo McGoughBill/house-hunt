@@ -1,0 +1,53 @@
+{
+  "id": "H069-s8-coniston-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.onthemarket.com/details/19798312/",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 (Woodseats), on the area list."},
+    "budget":    {"pass": true, "reason": "asking 220000 + 1.15 x W 60000 + C 3000 = 292000, under 400000; asking under 300000. W and C est."},
+    "tenure":    {"pass": true, "reason": "Freehold (https://www.onthemarket.com/details/19798312/)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build, dry rot; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says 'no onward chain' but does not state vacant possession (https://www.onthemarket.com/details/19798312/)."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into the living room; a hall would be needed if it does."}
+  },
+  "V": 176750,
+  "v_basis": "Fewer than 3 sales in 2 years on Coniston Road, so nearest like street used. Median of: 34 Coniston Road, 17 Feb 2025, 225000, terraced (https://www.streetcheck.co.uk/houseprices/s80ut); 6 Coniston Terrace, 17 Oct 2025, 176750, terraced (https://domovita.co.uk/sold-prices/street/s8/coniston-terrace); 8 Coniston Terrace, 15 Oct 2025, 161000, terraced (same). Excluded: 31 Coniston Road, 15 May 2025, 120000, 2-bed, EPC C, no works recorded (https://housemetric.co.uk/30615449/S8-0UT/31+Coniston+Road). No sale confirmed as done-up; V is est.",
+  "W": 60000,
+  "w_basis": "est., no floorplan or room sizes. Kitchen 10000; dining-to-kitchen knock-through with steel 8000; wet room removal and family bathroom 7000; rewire 5000; heating 4000; attic bedroom to sign-off 6000; roof, damp and cellar reserve 6000; decoration, flooring, doors 10000; hall partition 4000. Before 1.15 contingency. C 3000 = FTB stamp duty nil at 220000 plus 3000 fees.",
+  "C": 3000,
+  "margin": -132925,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 220000 is about 124% of V 176750 (floor area est., so ratio taken as asking/V). Done-up status unverified."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -132925 est. Still negative at V 225000, the highest recent Coniston Road sale. Guide range also quoted as 220000-230000 on the listing."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 176750 divided by Coniston Road max 225000 (34 Coniston Road, Feb 2025, https://www.streetcheck.co.uk/houseprices/s80ut) = 79%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 176750 divided by S8 0 max 305000 (9 Mitchell Road Jun 2026; 100 Archer Road Jul 2026; https://www.rightmove.co.uk/house-prices/woodseats.html) = 58%. Page only partly read."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "No floor area given (https://www.onthemarket.com/details/19798312/). Est. 85 m2 from 3 beds, attic, cellar and dining room."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "3 beds listed including attic bedroom (https://www.onthemarket.com/details/19798312/). Attic bedroom needs sign-off; no room sizes given."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Rear dining room leads straight into the fitted kitchen (https://www.onthemarket.com/details/19798312/), so one knock-through gives a kitchen-diner. No plan seen, so est."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length unknown; attic already converted; no evidence neighbours extended. End terrace has side-return possibility. est."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through (probably steel), wet room removal, attic sign-off, rewire and heating all likely. est."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 7-12 months: structural knock-through, rewire, attic sign-off, kitchen and bathroom."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey. Cellar 'subject to any necessary consents' (https://www.onthemarket.com/details/19798312/). Attic and damp unknown. Sceptical score."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Most recent Coniston Road terraced sales are leasehold (https://www.streetcheck.co.uk/houseprices/s80ut). No street or letting-board check done. est."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not measured. est. 10-15 min to a park."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not measured. est. 15-20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not stated in listing. est. on-street parking, level."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Front living room has a fireplace (https://www.onthemarket.com/details/19798312/). Light and ceiling height unknown. est. average."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front photo seen only as alt text (https://www.onthemarket.com/details/19798312/). Brick and detail unknown. est. plain, tidy."}
+  ],
+  "total": 54.6,
+  "verdict": "PASS",
+  "biggest_risk": "Price: asking 220000 is about 25% above the nearest recent sales (V 176750 est.), so margin is about -132925 est.; gates pass only as 'unconfirmed'.",
+  "sources": [
+    "https://www.onthemarket.com/details/19798312/",
+    "https://www.streetcheck.co.uk/houseprices/s80ut",
+    "https://domovita.co.uk/sold-prices/street/s8/coniston-terrace",
+    "https://housemetric.co.uk/30615449/S8-0UT/31+Coniston+Road",
+    "https://www.rightmove.co.uk/house-prices/woodseats.html",
+    "https://resi.co.uk/house-prices/coniston-road-s8"
+  ]
+}

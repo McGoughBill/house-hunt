@@ -1,0 +1,52 @@
+{
+  "id": "H062-s8-burcot-road",
+  "run": 3,
+  "live": null,
+  "listing_url": "https://www.rightmove.co.uk/properties/94045860",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": null,
+  "gates": {
+    "area": {"pass": true, "reason": "Burcot Road is in S8 (Land Registry extract lists S8 9FD, 9FE, 9FF and 9FG sales): https://domovita.co.uk/sold-prices/street/s8/burcot-road"},
+    "budget": {"pass": true, "reason": "unconfirmed: W not priced (no floorplan or photos reached); asking 300000 is from the task brief, not from a listing I opened"},
+    "tenure": {"pass": true, "reason": "unconfirmed: listing 94045860 not opened; nearest Highgates listing https://www.rightmove.co.uk/properties/173755001 does not state tenure"},
+    "structure": {"pass": true, "reason": "unconfirmed: no structural or survey notes found for this house"},
+    "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated on any listing found for this house"},
+    "hall": {"pass": true, "reason": "unconfirmed: front door layout not stated for this house"}
+  },
+  "V": 270000,
+  "v_basis": "11 Burcot Road, 4 Sep 2025, £271,000 (leasehold terrace); 16 Burcot Road, 8 Jan 2025, £222,500 (leasehold terrace); 76 Burcot Road, 29 Nov 2024, £270,000 (leasehold terrace). Median £270,000. Done-up condition of these sales not verified (est.). Source: https://domovita.co.uk/sold-prices/street/s8/burcot-road (HM Land Registry data)",
+  "W": null,
+  "w_basis": "not priced: no floorplan or photos reached for this house, so no works estimate (est. not attempted)",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: W unknown, so margin not computed"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: floor area not confirmed for this house"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or structural notes found"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: street quality not assessed for this house"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing 94045860 not opened or found"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: parking and slope not confirmed"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: no interior photos or floorplan reached"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: no exterior photos reached"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Listing 94045860 could not be opened (URL not on fetch allowlist) or found by search; nearest Highgates Burcot Road listing https://www.rightmove.co.uk/properties/173755001 is guide £300,000-£325,000, 133 m², tenure not stated, so identity is unconfirmed",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/173755001",
+    "https://www.rightmove.co.uk/estate-agents/agent/Highgates/Sheffield-285350.html",
+    "https://domovita.co.uk/sold-prices/street/s8/burcot-road",
+    "https://www.rightmove.co.uk/properties/144059936",
+    "https://www.primelocation.com/for-sale/details/67712704"
+  ]
+}

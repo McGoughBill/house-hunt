@@ -1,0 +1,51 @@
+{
+  "id": "H057-s8-868-chesterfield-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.vebra.com/details/property/33512055",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 Woodseats: listing address 868 Chesterfield Road, Woodseats, S8 0SH. A second listing for the same address (vebra 34094789) shows a mid-terrace at guide 250000-275000; not reconciled."},
+    "budget":    {"pass": true, "reason": "Asking 220000 + 1.15 x W 70000 (80500) + C 3000 = 303500, which is <= 400000. Asking <= 300000."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: listed as leasehold; lease length, ground rent and covenant position not stated."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: occupancy not stated; listing says NO CHAIN only."},
+    "hall":      {"pass": true, "reason": "Side door into porch, then part-glazed door into entrance hallway with stairs (listing). Front door does not open into the lounge."}
+  },
+  "V": 277270,
+  "v_basis": "Only 1 semi-detached sale on Chesterfield Road in the last 2 years. Used the 3 most recent semi sales on the street: 547 Chesterfield Road, 7 Oct 2024, 190000 (freehold, 4 weeks outside the 2-year window); 295 Chesterfield Road, 25 Jul 2025, 277270 (leasehold); 933 The Studio, Chesterfield Road, 7 Nov 2023, 345000 (freehold, outside window). Median 277270. No sale verified as done-up: est.",
+  "W": 70000,
+  "w_basis": "est., no floorplan and photos not viewed. Kitchen 10000; single-storey kitchen-diner extension of about 15 m2 at about 2000/m2 30000; shower room and ground-floor WC 6000; electrics 5000; heating check 2000; floors and decor 10000; fees 3000; skip and sundries 4000. Total 70000 before the 15 percent contingency added in the margin formula.",
+  "C": 3000,
+  "margin": -53957,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "Asking 220000 / V 277270 = 79%, band 78-85%. Floor area unknown, so price ratio used. V est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 277270 - 1.15 x 70000 - 3000 - 220000 = -53957. Negative under any plausible W."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 277270 / house max 330000 (919 Chesterfield Rd, terraced, 14 Mar 2025) = 84%. Literal max incl. flats and Other (798 Chesterfield Rd, 3606800, 7 Feb 2025) would give 5."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "Only Chesterfield Rd sales checked. Max house sale found in 2 yrs is 330000, so 84%. Wider S8 0 max is unchecked and likely higher, which would lower the ratio."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given. Est. about 84 m2: lounge/dining 26.99, kitchen 9.60, bed1 12.82, bed2 12.27, bed3 4.86, shower 3.34, plus hall, porch, landing and WCs about 13."},
+    {"n": 6,  "score": 5, "est": false, "evidence": "3 bedrooms now. Bed1 12.82 m2 and bed2 12.27 m2 are both >= 11.5 (listing room sizes). Bed3 is small at 4.86 m2."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen 9.60 m2 is separate from open-plan lounge/dining (27 m2). Adjacency not given. Base case is a single-storey extension (est.)."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Garden described as larger than average and backing onto woodland (one of three tests). Loft hatch present but loft fit and neighbour extensions not checked."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Base works need a single-storey extension, plus kitchen, bathroom, electrics and decor."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7-12 months with extension, kitchen, bathroom and decor."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey. One serious unknown (lease length not stated). Garden backs onto woodland. Carport and garage condition not described."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Chesterfield Road is a main through road (est., not sourced), so the no main road test fails. Letting boards and tidy fronts not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk to park not checked. Est. 10-15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk to big supermarket not checked. Est. 15-20 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Paved driveway to carport and garage (drive present). Slope not described, so not scored as level."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Lounge/dining 8.08 m deep gives good daylight. UPVC throughout, no period features listed. Scope for wood not checked."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Brick or stone not stated. Semi with lawned front garden and shrub borders. Busy road frontage."}
+  ],
+  "total": 55.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -54000: V rests on one in-window semi sale plus two outside it, done-up status is unconfirmed, and the extension cost is an estimate.",
+  "sources": [
+    "https://www.vebra.com/details/property/33512055",
+    "https://www.vebra.com/details/property/34094789",
+    "https://domovita.co.uk/sold-prices/street/s8/chesterfield-road",
+    "https://www.onthemarket.com/uk-house-prices/chesterfield-road-sheffield-s8/"
+  ]
+}

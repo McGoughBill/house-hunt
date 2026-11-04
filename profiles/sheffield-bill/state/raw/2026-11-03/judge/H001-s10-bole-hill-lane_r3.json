@@ -1,0 +1,52 @@
+{
+  "id": "H001-s10-bole-hill-lane",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/HAY030769242",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes (listing address Bole Hill Lane, S10 1SD)"},
+    "budget":    {"pass": true, "reason": "Asking £300,000 per Haybrook page title (body says guide £300k-£325k; Rightmove says £325k-£350k). Asking + W 33,350 + C 3,000 = 336,350, under 400,000."},
+    "tenure":    {"pass": true, "reason": "Freehold, stated on Haybrook and Rightmove"},
+    "structure": {"pass": true, "reason": "No movement, subsidence, knotweed or damp mentioned. No survey seen, so unverified."},
+    "vacant":    {"pass": true, "reason": "Vacant possession not stated. Owner-occupied sale assumed, not verified."},
+    "hall":      {"pass": true, "reason": "Entrance room listed at 0.91 m x 2.13 m. Front door and hall layout not described. Unverified."}
+  },
+  "V": 234111,
+  "v_basis": "Three most recent terraced sales on Bole Hill Lane in last 2 years (done-up status not in Land Registry data): 11 Bole Hill Lane, 9 Mar 2026, £200,000; 62 Bole Hill Lane, 12 Feb 2026, £234,111; 59 Bole Hill Lane, 18 Jul 2025, £264,000. Median £234,111. Sources: domovita.co.uk street list.",
+  "W": 33350,
+  "w_basis": "est. Floorplan not read. Knock-through of kitchen/diner (12.5 m² now, 9x15 ft) into living room with steel to reach 25 m²+: £8k. Decor throughout: £12k. Floor coverings: £4k. Electrics and heating checks: £5k. Subtotal £29k + 15% contingency = £33,350. Kitchen and both bathrooms already described as modern, so no refit.",
+  "C": 3000,
+  "margin": -130653,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "est. 85 m² gives £3,529/m² as bought (300k). 93 Bole Hill Lane 68 m², £325k, Mar 2025 gives £4,779/m². Ratio 74%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -£130,653 using 0.9V - 1.15W - C - asking as written."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V £234,111 vs 2-yr street max £325,000 (93 Bole Hill Lane, Mar 2025). Ratio 72%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S10 2-yr sector max not checked. Likely over £1m (Broomhill, Ranmoor), so ratio under 25%."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given. est. 80-90 m² for a 3-bed end-terrace. Kitchen/diner 12.5 m² and entrance 1.9 m² are listed."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed, principal has ensuite. Landing is used as a study, and the third bedroom size is not given. Treated as one small."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Kitchen/diner exists at 9x15 ft (12.5 m²). One knock-through into bay-windowed living room gives 25 m²+. Structural status of the wall unknown."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Rear garden described as private, length not given. Loft and neighbour extensions not checked. Large garage with EV point."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through likely needs steel (structural). Decor, kitchen and bath otherwise sound. Rewire not checked."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4-6 months: knock-through, steel, decor and floors. Listing says ready to move straight into."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, roof or cellar information seen. No serious flags reported."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Many leasehold flats and terraces nearby. Letting boards and traffic not checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "est. 10-15 min to Crookes Valley Park or Bole Hill Woods."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est. 15-20 min walk to a large supermarket. Not checked."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Bole Hill is steep. Large garage with EV point gives drive access, level not checked."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Modern throughout, bay window, multi-fuel fireplace. Ceiling height and period features not given."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "End-terrace with stone patios and garden. Front elevation not seen in text, so material and tidiness unverified."}
+  ],
+  "total": 65.2,
+  "verdict": "PASS",
+  "biggest_risk": "Asking £300k is about 28% above the £234k street median V. Margin is about -£131k, so the house does not pay on the stated numbers, and the done-up status of the comparables is unverified.",
+  "sources": [
+    "https://www.haybrook.com/HAY030769242",
+    "https://www.rightmove.co.uk/properties/173150339",
+    "https://domovita.co.uk/sold-prices/street/s10/bole-hill-lane",
+    "https://housemetric.co.uk/house-prices/Bole-Hill-Lane/S10-1SD",
+    "https://primelocation.com/house-prices/sheffield/bole-hill-lane"
+  ]
+}

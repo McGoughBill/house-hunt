@@ -1,0 +1,50 @@
+{
+  "id": "H050-s7-south-view-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89438514",
+  "asking": 260000,
+  "floor_area_m2": 108,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7, Nether Edge (listing address)."},
+    "budget": {"pass": true, "reason": "unconfirmed: listing shows no asking price; 260000 is the run-spec figure. 260000 + 1.15 x 47500 + 3000 = 317625, under 400000."},
+    "tenure": {"pass": true, "reason": "Freehold (listing)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing is silent on occupancy."},
+    "hall": {"pass": true, "reason": "Listing says you enter straight into the lounge, so no hall now. Est. hall partition 3500 is in W, under 5000."}
+  },
+  "V": 257000,
+  "v_basis": "193 South View Road, 20 Feb 2025, £281,000 (105 m2); 66 South View Road, 31 Jan 2025, £257,000 (102 m2); 161 South View Road, 11 Nov 2024, £246,000 (96 m2). Done-up status not verified. 218 South View Road (24 Jun 2025, £158,000, 93 m2) excluded as far below the others per m2. Source data runs to Oct 2025 only.",
+  "W": 47500,
+  "w_basis": "Est., before contingency: hall partition and door 3500; kitchen-dining knock-through with steel 6000; new kitchen 10000; bathroom refresh 1500; rewire 6000; heating check 1500; attic bedroom sign-off 4000; decoration and flooring 9000; front and courtyard 1500; fees 2500; skip and sundry 2000.",
+  "C": 3000,
+  "margin": -86325,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Ask 260000 / 108 m2 = 2407 per m2 vs comp median 2563 per m2 (161, 66, 193 South View Rd) = 94%, above 85%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -86325 = 0.9 x 257000 - 1.15 x 47500 - 3000 - 260000."},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "V 257000 / street max 281000 (193 South View Rd, Feb 2025) = 91%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S7 sector max 2-yr sale not checked. Est. above about 367000, so V is under 70%."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "Listing: 1158 sq ft = 108 m2, over 100."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing: 3 bedrooms (double front, smaller single, attic). Attic room needs sign-off (est.)."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Listing: off-shot kitchen opens into dining room. Dining room size not stated, so 25 m2 is unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Listing: rear courtyard, no through access, est. under 10 m; attic already converted; neighbours unknown. One weak."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Steel knock-through for kitchen-diner, hall partition and attic sign-off. Rewire may be needed (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 5 to 6 months: design, building control, works."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar under dining room not described. No damp or structural flags in listing; cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Listing silent on letting boards and front tidiness; not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not checked; est. 10 to 15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not checked; est. 15 to 20 min via Abbeydale Road or London Road."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Listing: on-street parking only. Slope not stated."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Listing: bay-windowed lounge, original fireplace, stripped floorboards, described as bright. Ceiling heights not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Listing: bay window. Stone or brick and front garden not stated; est. plain, tidy."}
+  ],
+  "total": 58.4,
+  "verdict": "PASS",
+  "biggest_risk": "Asking (not shown on listing) sits above the done-up median of 257000, so the margin is negative before any works.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89438514",
+    "https://housemetric.co.uk/house-prices/South-View-Road/S7-1D",
+    "https://www.rightmove.co.uk/house-prices/S7-1DE.html"
+  ]
+}

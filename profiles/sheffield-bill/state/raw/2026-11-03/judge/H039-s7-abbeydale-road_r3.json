@@ -1,0 +1,52 @@
+{
+  "id": "H039-s7-abbeydale-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89214852",
+  "asking": 265000,
+  "floor_area_m2": 116,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Abbeydale Road, S7 (rightmove 89214852; full postcode not stated)"},
+    "budget": {"pass": true, "reason": "asking 265000 + 1.15 x W 50000 (est.) + C 3000 = 325500, under 400000"},
+    "tenure": {"pass": true, "reason": "unconfirmed: leasehold, lease length not stated; ground rent 0 (zoopla 73355656)"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed or dry rot mentioned; no survey seen"},
+    "vacant": {"pass": true, "reason": "vacant possession on completion (rightmove 89214852)"},
+    "hall": {"pass": true, "reason": "welcoming entrance hall (rightmove 89214852)"}
+  },
+  "V": 261500,
+  "v_basis": "Median of 3 terraced leasehold sales on Abbeydale Road in last 2 years: 943 Abbeydale Road S7 2QD 24 Jul 2025 400000; 845 Abbeydale Road S7 2BH 19 Dec 2025 261500; 909 Abbeydale Road S7 2BJ 11 Mar 2025 260000. Done-up status inferred from price jumps (845 sold 147500 in Jan 2025), not verified (est.). Comp floor areas not given (est.).",
+  "W": 50000,
+  "w_basis": "est. total 50000 before contingency: knock-through with steel for kitchen-diner 10000; new kitchen 10000; bathroom 5000; full redecoration and joinery 12000; rewire allowance 5000; heating, damp, roof and window allowance 5000; fees, skip and building control 3000. No floorplan, photos or survey seen. C is 3000 fees plus nil stamp duty as first-time buyer.",
+  "C": 3000,
+  "margin": -90150,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 2284 per m2 vs done-up comps about 2254 per m2 (comp areas assumed 116 m2) = 101%"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -90150 using V 261500, W 50000 (est.), C 3000"},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 261500 vs street max house sale 400000 (943 Abbeydale Road, Jul 2025) = 65%"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 261500 vs S7 max sale 1150000 (37 Kenwood Park Road, Aug 2026, doogal) = 23%"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "116 m2 (1247 sq ft) stated in rightmove 89214852 and zoopla 73355656"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms described as good sized; room sizes not given; third likely on top floor"},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Separate kitchen and dining room; whether they adjoin is not shown"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length not stated; three floors so no loft space; rear offshoot already built; neighbours unknown"},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through likely needs steel; kitchen, bathroom and decor; rewire and heating unknown"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Works estimated at 7 to 9 months"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; no defects listed; EPC rated D in one place and E in another; Victorian build"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Abbeydale Road is a main road, so it fails the no-main-road test; letting boards not checked"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk to park not measured"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Walk to big supermarket not measured; shops along the road"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Timed on-street parking to the front; slope not stated"},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay window, period features, generous room proportions; ceiling height and light not stated"},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Victorian bay-fronted terrace with double rear offshoot; stone or brick not stated"}
+  ],
+  "total": 60,
+  "verdict": "PASS",
+  "biggest_risk": "Asking is about 90150 above what the done-up comps support (est.), so the deal loses money on the brief's formula; listing URL 94608372 could not be opened, so the match to 89214852 rests on street, agent, price and area.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89214852",
+    "https://app.zoopla.co.uk/for-sale/details/73355656/",
+    "https://domovita.co.uk/sold-prices/street/s7/abbeydale-road",
+    "https://www.rightmove.co.uk/house-prices/S7-2QD.html",
+    "https://www.doogal.co.uk/PropertySales?area=S7"
+  ]
+}

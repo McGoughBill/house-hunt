@@ -1,0 +1,52 @@
+{
+  "id": "H024-s11-neill-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://app.zoopla.co.uk/for-sale/details/73343301/",
+  "asking": 200000,
+  "floor_area_m2": 89,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S11 (Neill Road, Sharrow Vale). https://app.zoopla.co.uk/for-sale/details/73343301/"},
+    "budget": {"pass": true, "reason": "asking 200000 + 1.15 x W 64000 (est.) + C 3000 = 276600, under 400000; asking under 300000."},
+    "tenure": {"pass": true, "reason": "Freehold per https://app.zoopla.co.uk/for-sale/details/73343301/ and https://media.rightmove.co.uk/66k/65105/165048707/65105_34066361_DOC_00_0002.pdf"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing mentions no movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen. https://app.zoopla.co.uk/for-sale/details/73343301/"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing silent on occupancy. One Zoopla extraction reports about 18000 a year rental income, which would mean tenanted; the Hunters PDF and the Zoopla search page give no rent or tenancy detail. https://app.zoopla.co.uk/for-sale/details/73343301/ https://media.rightmove.co.uk/66k/65105/165048707/65105_34066361_DOC_00_0002.pdf"},
+    "hall": {"pass": true, "reason": "unconfirmed: ground-floor hallway is listed; whether the front door opens into it is not stated. https://media.rightmove.co.uk/66k/65105/165048707/65105_34066361_DOC_00_0002.pdf"}
+  },
+  "V": 207500,
+  "v_basis": "Median of the 3 most recent same-street terraced sales, excluding 151 Neill Road (apparent address of this listing): 109 Neill Road 27 Mar 2026 225000; 20 Neill Road 15 Dec 2025 207500; 15 Neill Road 19 Sep 2025 202000 (2-bed, 65 m2). Done-up status of these sales not verified (est.). Cross-check: 24 Neill Road 24 Feb 2025 217500 (4-bed, 87 m2). Sources: https://www.onthemarket.com/uk-house-prices/neill-road-sheffield-s11/ and https://housemetric.co.uk/house-prices/Neill-Road/S11-8QG",
+  "W": 64000,
+  "w_basis": "est.; no floorplan or photos reached. Decor and floors 14000; kitchen and kitchen-diner works 20000; bathroom 7000; rewire 6000; heating 3000; repairs and damp 6000; attic bedroom regs 3000; fees and skip 4000; yard 1000. Before contingency per prompt step 3; the scoring brief says W includes contingency, so the prompt governs and the 1.15 is applied once in the margin.",
+  "C": 3000,
+  "margin": -89850,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 200000 / 89 m2 = 2247 per m2 vs done-up street 207500 / 89 = 2331 per m2, ratio 96%; done-up status unverified. https://www.onthemarket.com/uk-house-prices/neill-road-sheffield-s11/"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin 0.9 x 207500 - 1.15 x 64000 - 3000 - 200000 = -89850 (W is an estimate)."},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "V 207500 / street max 230000 (151 Neill Road, 8 Jun 2026) = 90%. https://www.onthemarket.com/uk-house-prices/neill-road-sheffield-s11/"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S11 sector sales not searched; any S11 sale above 296429 (V / 0.7) scores 5; est. such sales exist."},
+    {"n": 5,  "score": 3, "est": false, "evidence": "958 sq ft listed = 89 m2. https://app.zoopla.co.uk/for-sale/details/73343301/"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms above ground: front double, rear double, attic reached by stairs (sizes and sign-off not stated); ground-floor front room is living room/bedroom. https://media.rightmove.co.uk/66k/65105/165048707/65105_34066361_DOC_00_0002.pdf"},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Rear kitchen-diner exists per listing; size not stated, so the 25 m2 target is unconfirmed and likely needs more than one knock-through. https://app.zoopla.co.uk/for-sale/details/73343301/"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Private south-facing rear yard, no through access, length not stated; attic already converted, so loft headroom is used. https://media.rightmove.co.uk/66k/65105/165048707/65105_34066361_DOC_00_0002.pdf"},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Likely structural knock-through (possibly steel), plus rewire and attic regs; est."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "About 5 months of works, est., before comfortable occupation."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar head only; cellar not described; no survey seen."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Pitched to investors and HMO use; street letting share not checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Endcliffe Park described as close; walk time not stated, est. 5 to 10 min. https://app.zoopla.co.uk/for-sale/details/73343301/"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Walk to a big supermarket not checked; est. 10 to 15 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not stated; est."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Light, ceiling height and period features not described; est."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front elevation not seen; mid-terrace; est."}
+  ],
+  "total": 55,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (est. -89850), and Land Registry data shows 151 Neill Road (likely this address) sold 8 Jun 2026 for 230000, so the listing may already be sold; live status unconfirmed.",
+  "sources": [
+    "https://app.zoopla.co.uk/for-sale/details/73343301/",
+    "https://www.zoopla.co.uk/for-sale/details/70901645",
+    "https://media.rightmove.co.uk/66k/65105/165048707/65105_34066361_DOC_00_0002.pdf",
+    "https://www.onthemarket.com/uk-house-prices/neill-road-sheffield-s11/",
+    "https://housemetric.co.uk/house-prices/Neill-Road/S11-8QG"
+  ]
+}

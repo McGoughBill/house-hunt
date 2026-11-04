@@ -1,0 +1,53 @@
+{
+  "id": "H059-s8-artisan-view",
+  "run": 3,
+  "live": null,
+  "listing_url": "https://www.onthemarket.com/details/20644915/",
+  "asking": 225000,
+  "floor_area_m2": null,
+  "house_type": null,
+  "gates": {
+    "area": {"pass": true, "reason": "Artisan View is in Meersbrook, S8 (https://primelocation.com/for-sale/details/67489552 names it 'Artisan View, Meersbrook, Sheffield S8')."},
+    "budget": {"pass": true, "reason": "unconfirmed: asking 225000 is from the task card, not a listing. Works not priced, so 225000 + 1.15W + 3000 <= 400000 is not checked."},
+    "tenure": {"pass": true, "reason": "unconfirmed: 741-year leasehold is from the task card; listing not opened. 741 years would pass the 150-year test if confirmed."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing not opened; no survey or description seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing not opened; vacant possession not seen."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing not opened; front door position not seen."}
+  },
+  "V": null,
+  "v_basis": "not computed: listing could not be opened or found, so house type is unknown and no like-for-like sales were chosen",
+  "W": null,
+  "w_basis": "not priced: no floorplan or photos seen",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: listing could not be opened or found"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "The house could not be opened or matched, so nothing about its condition, layout or works is verified; a Reeds Rains semi on Artisan View (WOO220202) may be it, but that page would not open.",
+  "sources": [
+    "https://www.onthemarket.com/details/20644915/",
+    "https://primelocation.com/for-sale/details/67489552",
+    "https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-artisan-view-sheffield-s8-id-woo220202",
+    "https://www.primelocation.com/for-sale/property/sheffield/artisan-view/",
+    "https://www.primelocation.com/for-sale/details/67051181/",
+    "https://www.guildproperty.co.uk/property-for-sale/sheffield/s8-9tg/4071923"
+  ]
+}

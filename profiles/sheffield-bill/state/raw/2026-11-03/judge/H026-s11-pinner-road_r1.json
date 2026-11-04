@@ -1,0 +1,53 @@
+{
+  "id": "H026-s11-pinner-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89597571",
+  "asking": 270000,
+  "floor_area_m2": 99,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11, Hunters Bar (Rightmove 89597571). OnTheMarket URL 19701138 could not be fetched, so the listing was read on Rightmove; matched on agent, street, price, 3 beds, 99 m2, freehold."},
+    "budget":    {"pass": true, "reason": "Per prompt formula: asking 270000 + 1.15 x W 53000 (60950) + C 3000 = 333950, under 400000. W and C are est."},
+    "tenure":    {"pass": true, "reason": "Freehold per Rightmove 89597571."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state vacant possession or a tenancy."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not mention a hall or front door position; floorplan image could not be read."}
+  },
+  "V": 340000,
+  "v_basis": "No 3 done-up same-street sales found. Pinner Road had one sale in 2 years: 24 Pinner Rd, 2-bed terrace, 25/07/2025, 274000 (housemetric). Used nearest like street, Penrhyn Road terraces (domovita): 33 Penrhyn Rd, Jun 2025, 370100; 123 Penrhyn Rd, Mar 2025, 340000; 117 Penrhyn Rd, Mar 2025, 246000. Median 340000. None confirmed done-up, so V is est.",
+  "W": 53000,
+  "w_basis": "est. before contingency: decor and flooring 14000; new kitchen 12000; bathroom refresh 2000; rewire 6000; heating check 2500; damp, roof and cellar allowance 4000; joinery 3000; second-floor room sign-off 2000; hall/door allowance 2000; courtyard 1500; skip, scaffold and fees 4000. Floorplan not read; no survey in listing.",
+  "C": 3000,
+  "margin": -27950,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 2727/m2 (270000/99) vs comp median about 3208/m2 (123 Penrhyn 340000/106 m2; 33 Penrhyn area assumed 106). Ratio about 85%, just over the line. Comp areas est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -27950 est.: 0.9 x 340000 - 1.15 x 53000 - 3000 - 270000. Break-even needs V about 371000."},
+    {"n": 3,  "score": 1, "est": true,  "evidence": "V 340000 is 124% of the Pinner Road 2-year max of 274000 (24 Pinner Rd, Jul 2025). Recent 8UG sales not fully visible."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 340000 is 68% of the S11 8 2-year max of 499000 (148 Hunter House Rd, Mar 2025; domovita). Score stays 5 for any max above 486000."},
+    {"n": 5,  "score": 4, "est": false, "evidence": "99 m2 (1062 sq ft) per Rightmove 89597571, in the 90-100 band."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three beds per listing: first-floor master with feature fireplace, first-floor third room 'currently used as a study' (size not given), second-floor large double. Third room probably small."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Kitchen-diner exists per Rightmove 89597571 ('bright and generously sized'). Size against the 25 m2 spec not verified."},
+    {"n": 8,  "score": 1, "est": true,  "evidence": "Garden is a courtyard (listing), top floor is already a bedroom so no loft room is left, neighbours' extensions unknown. Est. none."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Old 3-storey terrace (est.); rewire and heating work likely; no survey in listing. Scored as rewire or heating."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4 to 6 months for rewire, kitchen, decor and damp checks before moving in."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Cellar (damp unknown), second-floor room sign-off unknown, no survey or EPC in listing. Several unknowns, one serious."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Residential street. No sourced check on lets, letting boards or through traffic. Est. one fail."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Walk to nearest park est. 5 to 10 min. Not checked."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Walk to a big supermarket est. 10 to 15 min. Not checked."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking to the front (Rightmove 89597571). Slope and permit rules not checked."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay lounge, feature fireplace, plenty of light on top floor (Rightmove). Ceiling heights and scope to open up not seen."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay window per listing; no front garden noted; facade material not stated. Est. plain and tidy."}
+  ],
+  "total": 56.8,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative at est. V 340000 and W 53000; break-even needs finished value near 371000. Also the listing shows a guide range of 270000 to 280000, and attic sign-off and cellar damp are unverified.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89597571",
+    "https://domovita.co.uk/sold-prices/street/s11/penrhyn-road",
+    "https://domovita.co.uk/sold-prices/street/s11/hunter-house-road",
+    "https://housemetric.co.uk/house-prices/Pinner-Road/S11-8UH",
+    "https://housemetric.co.uk/30564410/S11-8UP/123+Penrhyn+Road",
+    "https://housemetric.co.uk/30562548/S11-8UP/117+Penrhyn+Road"
+  ]
+}

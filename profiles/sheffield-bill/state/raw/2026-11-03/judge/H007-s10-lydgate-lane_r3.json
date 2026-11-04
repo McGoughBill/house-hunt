@@ -1,0 +1,49 @@
+{
+  "id": "H007-s10-lydgate-lane",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/2642-lydgate-lane-crookes-sheffield",
+  "asking": 265000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes is on the allowed list."},
+    "budget":    {"pass": true, "reason": "Asking 265000 is within 300000. Asking + 1.15 x W (58000 est.) + C (3000 est.) = 334700, within 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold per listing description (https://www.saxtonmee.co.uk/properties-for-sale/property/2642-lydgate-lane-crookes-sheffield). Floorplan section says tenure Unknown; conflict noted."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing mentions no movement, subsidence, knotweed, spray foam, non-standard build or dry rot. No survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says only 'offered for sale with no chain'. Occupancy not stated."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing says the front door opens directly into the lounge. Passes only if a hall can be made for 5000 or less; est. 5000 included in W."}
+  },
+  "V": 285000,
+  "v_basis": "Not done-up sales. Sold data does not show condition, so these are the 3 most recent terraced sales in the last 2 years, used as proxy: 104 Lydgate Lane, 9 Apr 2026, 248000; 54 Lydgate Lane, 30 Jan 2026, 285000; 150 Lydgate Lane, 5 Dec 2025, 312500. Median 285000. Source: https://www.rightmove.co.uk/house-prices/s10/lydgate-lane.html",
+  "W": 58000,
+  "w_basis": "All est., before 15% contingency. Kitchen 12000; bathroom 6000; rewire 7000; heating and service 3000; hall partition 5000; attic regs sign-off and works 3000; plaster and decor 10000; flooring 4000; joinery 3000; cellar damp 2000; misc 3000.",
+  "C": 3000,
+  "margin": -78200,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. Floor area not given. Asking/V = 265000/285000 = 93%, used as proxy (V not done-up). Over 85% scores 1."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "est. 0.9x285000 - 1.15x58000 - 3000 - 265000 = -78200. Below 0 scores 1."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "Street max, 2 years: 535000 (264 Lydgate Lane, semi-detached, 14 May 2025, https://www.rightmove.co.uk/house-prices/s10/lydgate-lane.html). 285000/535000 = 53%. Semi used as max, so the comparison is weak."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector max not checked. Same-street 535000 sale is a floor for the S10 max, so V/sector max is at most 53%."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "est. about 95 m2. No floor area given. 3-bed end terrace with rear extension and attic room."},
+    {"n": 6,  "score": 3, "est": false, "evidence": "Listing: three double bedrooms, two on first floor and one in attic with dormers. Attic bedroom needs sign-off, not confirmed. https://www.saxtonmee.co.uk/properties-for-sale/property/2642-lydgate-lane-crookes-sheffield"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing: 'largely extended open plan dining room and kitchen'. Route exists. Size against 25 m2 not confirmed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear already extended and attic already converted, so little headroom left. Garden length not stated (lawn, side access)."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Listing shows kitchen, bathroom and decor work. Rewire, heating and hall partition are est. Rewire or heating scores 4."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 4 to 6 months of works, but rewire, hall and attic sign-off push it to 7 to 12 months."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar of lounge size, damp risk unknown. Listing flags no damp, roof or survey issues but gives no survey. Attic sign-off unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est. Owner-occupied share unknown. Flat block on the street. Main-road or rat-run status not verified."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "est. Park about 5 to 10 min walk. Not checked."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est. Large supermarket about 15 to 20 min walk. Not checked."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "est. Lydgate area is hilly. Parking not mentioned in listing."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Listing: cast-iron fireplaces, original cupboards, large bay window in lounge. Ceiling height and light not seen."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Listing: 'stone and bay fronted', front garden set back. Photos not seen, only file names."}
+  ],
+  "total": 60.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -78200 est. under V of 285000 (not done-up) and W of 58000. Works and hall/attic sign-off could cost more.",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/2642-lydgate-lane-crookes-sheffield",
+    "https://www.rightmove.co.uk/house-prices/s10/lydgate-lane.html"
+  ]
+}

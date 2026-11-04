@@ -1,0 +1,50 @@
+{
+  "id": "H014-s10-salisbury-road",
+  "run": 1,
+  "live": false,
+  "listing_url": "https://www.rightmove.co.uk/properties/162739307",
+  "asking": 260000,
+  "floor_area_m2": null,
+  "house_type": null,
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, per the listed address"},
+    "budget":    {"pass": true, "reason": "unconfirmed: asking 260000 but W and C not computed; listing not readable"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: freehold per the brief, not checked against a listing"},
+    "structure": {"pass": true, "reason": "unconfirmed: no survey or listing text read"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing not readable"},
+    "hall":      {"pass": true, "reason": "unconfirmed: layout not seen"}
+  },
+  "V": null,
+  "v_basis": "Not computed. Rightmove and haus listing pages not readable (Rightmove not on allowlist; haus page returned Property Not Found). Only sales found on Salisbury Road S10 1WB: 20 (Jan 2021, 225000), 22 (Feb 2021, 203000), 28 (Mar 2022, 352155). None within 2 years and none confirmed done-up.",
+  "W": null,
+  "w_basis": "Not estimated: no floorplan or photos read.",
+  "C": null,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true, "evidence": "not scored: listing not readable"},
+    {"n": 2,  "score": 3, "est": true, "evidence": "not scored: no V or W"},
+    {"n": 3,  "score": 3, "est": true, "evidence": "not scored: no V"},
+    {"n": 4,  "score": 3, "est": true, "evidence": "not scored: no V"},
+    {"n": 5,  "score": 3, "est": true, "evidence": "not scored: floor area not given"},
+    {"n": 6,  "score": 3, "est": true, "evidence": "not scored: no floorplan"},
+    {"n": 7,  "score": 3, "est": true, "evidence": "not scored: no floorplan"},
+    {"n": 8,  "score": 3, "est": true, "evidence": "not scored: no floorplan"},
+    {"n": 9,  "score": 3, "est": true, "evidence": "not scored: no photos read"},
+    {"n": 10, "score": 3, "est": true, "evidence": "not scored: no photos read"},
+    {"n": 11, "score": 3, "est": true, "evidence": "not scored: no survey or listing text"},
+    {"n": 12, "score": 3, "est": true, "evidence": "not scored: street not assessed"},
+    {"n": 13, "score": 3, "est": true, "evidence": "not scored: not assessed"},
+    {"n": 14, "score": 3, "est": true, "evidence": "not scored: not assessed"},
+    {"n": 15, "score": 3, "est": true, "evidence": "not scored: not assessed"},
+    {"n": 16, "score": 3, "est": true, "evidence": "not scored: no photos read"},
+    {"n": 17, "score": 3, "est": true, "evidence": "not scored: no photos read"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Listing could not be confirmed live. Haus listing for Salisbury Road, Crookes (guide GBP 260,000 to 280,000) now returns Property Not Found; Rightmove not readable. Stopped per step 1 without scoring.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/162739307",
+    "https://www.haushomes.co.uk/properties-for-sale/property/12664335-salisbury-road-crookes-sheffield",
+    "https://primelocation.com/house-prices/sheffield/salisbury-road"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "H042-s7-carter-knowle-road",
+  "run": 2,
+  "live": false,
+  "listing_url": "https://manchester.townandcountrypropertyauctions.co.uk/lot/details/168786",
+  "asking": 280000,
+  "floor_area_m2": 82,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": null, "reason": "not assessed: listing not live. Address is 84 Carter Knowle Road, S7 2DZ. Floor area 82 m2 comes from the HouseMetric sold record, not the listing."},
+    "budget": {"pass": null, "reason": "not assessed: listing not live. Asking 280000 per propertyauctions.io; works not priced."},
+    "tenure": {"pass": null, "reason": "not assessed: listing not live. Leasehold per propertyauctions.io; length not stated."},
+    "structure": {"pass": null, "reason": "not assessed: listing not live. Pages read do not mention movement, damp or build issues."},
+    "vacant": {"pass": null, "reason": "not assessed: listing not live. Occupancy not stated on pages read."},
+    "hall": {"pass": null, "reason": "not assessed: listing not live. T&C lot page says the front door opens into an entrance hall."}
+  },
+  "V": null,
+  "v_basis": "not done: listing not live, so steps 2 to 6 skipped",
+  "W": null,
+  "w_basis": "not priced: listing not live",
+  "C": null,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: listing not live"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: listing not live"}
+  ],
+  "total": null,
+  "verdict": "REJECT",
+  "biggest_risk": "Probably sold, not live: T&C lot 16 at 84 Carter Knowle Road closed 28/01/2026 and HouseMetric records that address sold 30/01/2026 for 263000 (est. same house as the OnTheMarket 18353710 listing, which could not be opened).",
+  "sources": [
+    "https://manchester.townandcountrypropertyauctions.co.uk/lot/details/168786",
+    "https://propertyauctions.io/listings/7fe7dbf2ce1a6c166c2627ab8f869249",
+    "https://housemetric.co.uk/house-prices/Carter-Knowle-Road/S7-2DZ"
+  ]
+}

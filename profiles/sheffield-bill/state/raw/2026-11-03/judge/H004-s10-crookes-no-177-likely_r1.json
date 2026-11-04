@@ -1,0 +1,49 @@
+{
+  "id": "H004-s10-crookes-no-177-likely",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/2916-crookes-crookes-sheffield",
+  "asking": 270000,
+  "floor_area_m2": 112,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes (listing address is only 'Crookes, Crookes, Sheffield'; no. 177 not confirmed on page)"},
+    "budget":    {"pass": true, "reason": "Asking 270000 + W 46000 + C 3000 = 319000 <= 400000 (W est)"},
+    "tenure":    {"pass": true, "reason": "Leasehold, 726 years left; vendor buying freehold. Listing tenure field says 'Unknown', conflict noted"},
+    "structure": {"pass": true, "reason": "est. No defects listed; no survey seen; stone-fronted mid-terrace"},
+    "vacant":    {"pass": true, "reason": "est. Listed For Sale; no tenant mentioned"},
+    "hall":      {"pass": true, "reason": "est. Hall not described on listing; hall status unverified"}
+  },
+  "V": 295000,
+  "v_basis": "est. Median of 3 nearby terraced sales, not confirmed done-up or same street: 285000 (262 Western Road S10 1LF, 1 Jul 2026); 295000 (111 Forres Road S10 1WD, 15 May 2026); 311500 (21 Melbourn Road S10 1NR, 8 Jul 2026). Source: Rightmove house-prices list",
+  "W": 46000,
+  "w_basis": "est. No floorplan seen; listing shows fitted kitchen, bathroom and combi boiler. Assumes decor throughout 12000, rewire/heating check 8000, bathroom refresh 5000, attic bedroom finish and sign-off 5000, structural and hall allowance 10000, make-good 0; subtotal 40000 + 15% contingency = 46000",
+  "C": 3000,
+  "margin": -60400,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. 270000/112 m2 = 2411/m2 vs done-up street 295000/112 = 2634/m2 (V est); ratio 91.5%, band >85%"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9*295000 - 1.15*46000 - 3000 - 270000 = -60400 (formula as written; W already includes contingency so 1.15 double counts)"},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "V 295000 / highest of 3 nearby sales 311500 = 94.7%"},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "V 295000 / S10 2-yr max seen 350000 (18 Lydgate Court) = 84%"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "Listing: over 1,200 sq ft (about 112 m2)"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms now: two floors plus attic double with Velux; room sizes not given, so one small"},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Off-shot kitchen and rear dining room with cellar-head access; one knock-through would make kitchen-diner; layout unverified"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Private west-facing rear garden, length unknown; attic already has dormers; neighbour extensions unknown"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor and bath likely; rewire or heating condition unknown; kitchen already fitted"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months to live in with cosmetic and rewire checks"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; cellar and attic condition unknown; minor flags likely, cause unclear"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street not checked; stone frontages and set-back gardens suggest tidy, few boards seen (unverified)"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Crookes Valley Park est. 10-15 min walk"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Est. 15-20 min walk to a big supermarket; not checked"},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Crookes is hilly; set-back front garden; on-street parking only, est. one bad"},
+    {"n": 16, "score": 4, "est": false, "evidence": "Bay-windowed lounge with coving and feature fireplace; dual-aspect attic Velux; period features"},
+    {"n": 17, "score": 4, "est": false, "evidence": "Stone-fronted, stone wall and privet hedge, terrace line unchecked"}
+  ],
+  "total": 60.4,
+  "verdict": "PASS",
+  "biggest_risk": "Value and works are guesses: V is 3 nearby sales not shown as done-up, W has no floorplan, and the hall gate is unverified. Margin is -60400 on the brief formula.",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/2916-crookes-crookes-sheffield",
+    "https://www.rightmove.co.uk/house-prices/crookes.html"
+  ]
+}

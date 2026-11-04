@@ -1,0 +1,50 @@
+{
+  "id": "H001-s10-bole-hill-lane",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/HAY030769242",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, Bole Hill Lane (Haybrook listing)"},
+    "budget":    {"pass": true, "reason": "Asking 300000 (listing shows guide 300000-325000; at 325000 this gate fails). Asking + W + C = 365100, under 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold per listing"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam or dry rot stated; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacancy not stated; listing says ready to move straight into"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position not stated; hall creation allowed at 4000 within W"}
+  },
+  "V": 195000,
+  "v_basis": "No done-up sales on Bole Hill Lane in the last 2 years found; no sales after Aug 2024 found. Fallback: 3 most recent 3-bed terrace sales on the same street, as sold, condition unknown: 28 Bole Hill Lane S10 1SB, 23 Aug 2024, 180000; 93 Bole Hill Lane S10 1SD, 28 Jun 2024, 195000; 38 Bole Hill Lane S10 1SB, 30 Nov 2023, 255000. Median 195000 (est.).",
+  "W": 54000,
+  "w_basis": "All est., no survey, before contingency: knock-through living/kitchen with steel 12000; hall creation 4000; kitchen refit 10000; bathroom/ensuite refresh 2000; rewire/heating allowance 6000; roof/damp/general repair 5000; decor 8000; garden 3000; professional fees and building control 4000. Subtotal 54000; 1.15W = 62100 in margin and budget gate.",
+  "C": 3000,
+  "margin": -198915,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking about 4000/m2 (floor area est. 77 m2) vs about 2600/m2 on V basis (est.); ratio about 154%, above 85%."},
+    {"n": 2,  "score": 1, "est": false, "evidence": "Margin -198915 (below 0)."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 195000 vs street max 515000 (118 Bole Hill Lane, Sep 2023, semi), about 38%. Max is outside the 2-year window."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V vs S10 sector max sale in 2 years not found; est. well under 70% of a typical S10 top sale."},
+    {"n": 5,  "score": 2, "est": true,  "evidence": "Floor area not given; est. 77 m2 from room sizes (living 15.6, kitchen 12.5, principal 13.4, bedroom two 10.0, bedroom 7.5, study/landing 7.4, bathroom 2.8, ensuite and hall est.)."},
+    {"n": 6,  "score": 4, "est": false, "evidence": "3 bedrooms now; only the principal (13.4 m2) reaches 11.5 m2. Bedroom two is 10.0 m2 and bedroom is 7.5 m2."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Kitchen-diner 12.5 m2 today; knock-through of living room (15.6 m2) gives about 28 m2 combined. Wall type unknown."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Principal bedroom has front and rear Velux, so loft is likely already converted. Garden length and neighbour extensions unknown."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through needs steel beam and structural work. Rewire and heating condition not stated (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Livable now per listing. Kitchen-diner work and decor est. 4-6 months."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey and no damp, roof or cellar information. Minor issues likely, cause unclear (est.)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Owner-occupied terraces in sale history. Through-road status and letting boards not checked (est.)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Nearest park est. 10-15 min walk (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket est. 15-20 min walk (est.)."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Larger-than-average garage with EV charging point implies drive access. Slope not stated (est.)."},
+    {"n": 16, "score": 3, "est": false, "evidence": "Front bay window, multi-fuel feature fireplace, Velux; modern finishes. Ceiling height and period features not stated."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "End-of-terrace with front bay and riven stone rear patio. Front elevation not seen in detail (est.)."}
+  ],
+  "total": 57,
+  "verdict": "PASS",
+  "biggest_risk": "Asking is about 300000 against street 3-bed terrace sales of 180000-255000 with no done-up comps found, so the finished value is unproven and the margin is about -198915.",
+  "sources": [
+    "https://www.haybrook.com/HAY030769242",
+    "https://housemetric.co.uk/house-prices/Bole-Hill-Lane/S10-1S",
+    "https://primelocation.com/house-prices/sheffield/bole-hill-lane"
+  ]
+}

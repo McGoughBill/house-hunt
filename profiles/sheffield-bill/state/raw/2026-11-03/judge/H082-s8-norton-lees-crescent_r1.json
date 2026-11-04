@@ -1,0 +1,52 @@
+{
+  "id": "H082-s8-norton-lees-crescent",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/90035343",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 8SR, Norton Lees, S8 (listing address)."},
+    "budget":    {"pass": true, "reason": "Headline asking £300,000 is at the £300,000 cap. Asking + 1.15W + C = 300000 + 51750 + 3000 = 354750, under 400000. Listing also gives a guide of £300,000 to £325,000, so true asking may sit above the cap."},
+    "tenure":    {"pass": true, "reason": "Long leasehold, 800 years from 25 March 1936 (listing). Ground rent £4 pa. No covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. Agent has not tested services or appliances."},
+    "vacant":    {"pass": true, "reason": "Vacant possession will be given on completion (listing)."},
+    "hall":      {"pass": true, "reason": "Entrance hall leads to the living room (listing and brochure). Front door position not stated, but a hall exists."}
+  },
+  "V": 325000,
+  "v_basis": "14 Norton Lees Crescent (semi, 89 m²) 13 Dec 2024 £337,000; 70 Norton Lees Crescent (semi, 68 m²) 31 Mar 2025 £325,000; 48 Norton Lees Crescent (semi, 53 m²) 14 Feb 2025 £275,000. Median £325,000. Done-up status of these three not verified from sources; est.",
+  "W": 45000,
+  "w_basis": "est, floorplan and photos could not be opened. Decor and flooring 14k; new kitchen 12k (existing extended kitchen-diner kept); bathroom 7k; electrics 5k; heating 3k; misc 4k. Before 15% contingency.",
+  "C": 3000,
+  "margin": -62250,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "As bought ~£3,529/m² (£300k ÷ est 85 m²) vs done-up median £4,779/m² (70 Norton Lees Cres) = 74%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9×325000 − 1.15×45000 − 3000 − 300000 = −£62,250."},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "V £325k ÷ street max £358k (75 Norton Lees Cres, detached, 3 Oct 2025) = 91%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V £325k ÷ S8 8 sector max ≥ £555k (13 Ketton Avenue S8 8PA, 10 Jul 2026) = 59% or less."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given. Est ~85 m² against street semis of 53–106 m²."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms off the landing (listing). Room sizes not given, so one assumed small."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing says 'extended dining kitchen' with matching units and built-in pantry already exists. Size against 25 m² not stated."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear garden faces SW but length not given; loft unknown; rear already extended. One weak option."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen and bathroom work, plus likely rewire or heating: services untested by agent, EPC D."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est 4–6 months to live in after decor, kitchen and bathroom."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Services untested. No serious issue listed, but cause of unknowns unclear."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "Residential crescent, no main road shown. Letting boards and front condition not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Norton Lees sits in the Graves Park ward (Wikipedia). Walk time from this house not measured; est 10–15 min."},
+    {"n": 14, "score": 2, "est": true,  "evidence": "Nearest big store likely Asda Woodseats, Chesterfield Road. Walk time not measured; est 20–25 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Driveway at side for two cars (listing). Slope not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Front bay window, spacious hall, neutral decor (listing). No period features or light data; photos not opened."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Front bay window and front garden on a semi (listing). Materials and frontage condition not confirmed from photos."}
+  ],
+  "total": 64.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is −£62k because 0.9 × £325k V is already below the £300k asking before works; zero margin needs asking near £238k. Floorplan and photos could not be opened, and the listing was reduced on 21/09/2026.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/90035343",
+    "https://media.rightmove.co.uk/property-brochure/bdd045982/90035343/bdd045982a689d1c89ff609b5d9aa37c.pdf",
+    "https://housemetric.co.uk/house-prices/Norton-Lees-Crescent/S8-8S",
+    "https://www.rightmove.co.uk/house-prices/norton-lees.html",
+    "https://en.wikipedia.org/wiki/Norton_Lees"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "H007-s10-lydgate-lane",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/174492107",
+  "asking": 265000,
+  "floor_area_m2": 111,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes (listing 2642 Lydgate Lane, per brief)"},
+    "budget":    {"pass": true, "reason": "Asking 265k + W 52k + C 3k = 320k, under 400k. Listings show 275k-285k guide, which gives 330k, still a pass"},
+    "tenure":    {"pass": true, "reason": "Freehold (Rightmove 174492107; Primelocation 72939826)"},
+    "structure": {"pass": true, "reason": "No movement, subsidence, damp or knotweed stated. Extension quality unverified (est.)"},
+    "vacant":    {"pass": false, "reason": "Vacant possession not stated in either listing. Chain free, so occupancy unknown. Fails until confirmed"},
+    "hall":      {"pass": true, "reason": "Front door opens straight into lounge (Primelocation 72939826). Hall can be made for about 4k (est.), included in W"}
+  },
+  "V": 312500,
+  "v_basis": "Median of 3 terraced sales on Lydgate Lane, last 2 yrs: 132 Lydgate Lane 31 Jul 2026 £345,000; 150 Lydgate Lane 5 Dec 2025 £312,500; 105 Lydgate Lane 22 Aug 2025 £300,000 (domovita.co.uk street sold list). Done-up status and floor areas not verified (est.). Most Lydgate sales on 5FN are leasehold; subject is freehold.",
+  "W": 52000,
+  "w_basis": "est. Kitchen 12k, bathroom 7k, redecoration and flooring 12k, hall 4k, electrics and heating check 6k, insulation and misc 4k = 45k, plus 15% contingency = 51.75k, rounded to 52k. No floorplan or photos seen.",
+  "C": 3000,
+  "margin": -46550,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "Asking 265k / V 312.5k = 85%; no floor areas for comps, so price ratio used (est.). Listing guide 275k would give 88%, score 1"},
+    {"n": 2,  "score": 1, "est": false, "evidence": "0.9V 281,250 - 1.15W 59,800 - C 3,000 - asking 265,000 = -46,550"},
+    {"n": 3,  "score": 3, "est": false, "evidence": "V 312,500 / street max 2 yrs 345,000 (132 Lydgate Lane, Jul 2026) = 91%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 312,500 / sector max 2 yrs about 535,000 (264 Lydgate Lane, May 2025, semi, domovita) = 58% (est.)"},
+    {"n": 5,  "score": 5, "est": true,  "evidence": "111 m² (1,190 sq ft) per Rightmove 174492107, which quotes 110 Lydgate Lane; not confirmed for this listing"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "3 beds stated. Third is an attic bedroom with dormers; sign-off not seen, so score 3 (est.)"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing says rear kitchen and dining area are extended, open-plan. Route exists"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "End terrace with side access. Loft already converted (dormer attic), so little loft headroom. Garden size and neighbour extensions unknown (est.)"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen, bath, plus likely electrics or heating check (EPC E, gas CH) and hall creation (est.)"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Estimated 4 to 6 months of works (est.), assuming no structural work"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar listed (damp risk, unverified). No survey. Minor and cause unclear (est.)"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Lydgate Lane is a through road with a mix of leasehold terraces and flats; letting or road-noise status unknown (est.)"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Crookes Valley Park about 10 to 15 min walk (est.)"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Nearest big supermarket about 15 to 20 min walk (est.)"},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Lydgate Lane climbs steeply; on-street parking hard (est.)"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay window, cast-iron fireplace, period stone. Front door into lounge and light unknown. Average (est.)"},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Stone and bay-fronted end terrace, front and rear gardens, brick outbuilding. Photos not seen (est.)"}
+  ],
+  "total": 62.4,
+  "verdict": "REJECT",
+  "biggest_risk": "Vacant possession unproven and the margin is -46.5k at V 312.5k. At the 275k guide, margin falls to -56.6k and criterion 1 drops to 1.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/174492107",
+    "https://www.primelocation.com/for-sale/details/72939826/",
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/2642-lydgate-lane-crookes-sheffield",
+    "https://domovita.co.uk/sold-prices/street/s10/lydgate-lane",
+    "https://www.rightmove.co.uk/house-prices/S10-5FN.html"
+  ]
+}

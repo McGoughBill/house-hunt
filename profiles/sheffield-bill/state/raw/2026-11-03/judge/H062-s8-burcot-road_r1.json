@@ -1,0 +1,52 @@
+{
+  "id": "H062-s8-burcot-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74448042",
+  "asking": 300000,
+  "floor_area_m2": 128,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 Meersbrook, Burcot Road (https://www.zoopla.co.uk/for-sale/details/74448042)."},
+    "budget": {"pass": true, "reason": "Asking used as 300000 (headline). Zoopla guide text runs 300000-325000; if 325000 is the real ask, the asking under 300000 gate fails. Agent to confirm. Asking + 1.15W + C = 300000 + 17250 + 3000 = 320250 with W est 15000, under 400000."},
+    "tenure": {"pass": true, "reason": "Leasehold, 669 years remaining, ground rent 0 (https://www.zoopla.co.uk/for-sale/details/74448042)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. No survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says chain free (https://www.zoopla.co.uk/for-sale/details/74448042) but does not state vacant possession."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not state hall or front door position. Floorplan not readable in the extract."}
+  },
+  "V": null,
+  "v_basis": "0 of 3. No completed sale price found for Burcot Road or nearby streets. Zoopla sold section absent on every page read, and Land Registry and WebSearch were rate-limited. Same-street done-up listings are asking or SOLD STC only: Redbrik Beautifully Refurbished and Extended, SOLD STC, guide 300000-325000, date not shown (https://www.rightmove.co.uk/properties/88365168). V not set.",
+  "W": 15000,
+  "w_basis": "est. No floorplan or photos read. Listing says electrics upgraded, radiators new, decoration and flooring done, kitchen-diner and attic en-suite in place (https://www.zoopla.co.uk/for-sale/details/74448042). Est allowance: decor touch-up 3000, attic building-regs proof or remedial 5000, bathroom and en-suite snagging 2000, survey-led repairs 5000. Total 15000 before contingency.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est: no completed sales. Asking 300000 over 128 m2 is about 2344 per m2, and the house is already reworked, so as-bought sits near done-up level (over 85 percent)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "est: at V = asking, margin = 0.9*300000 - 17250 - 3000 - 300000 = -50250. Margin reaches 0 only if V is about 355833."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "est: street max sale not found. Burcot Road asking guides run 300000-350000 (https://www.zoopla.co.uk/for-sale/details/73440522/), so V/max est 80-90 percent."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "est: sector max sale not found. S8 asking maxima run to 450000 (Lees House Court, https://www.zoopla.co.uk/for-sale/details/71423746), so V/sector max est 70-80 percent."},
+    {"n": 5,  "score": 4, "est": false, "evidence": "1375 sq ft = about 128 m2 (https://www.zoopla.co.uk/for-sale/details/74448042), in the 90-100 band."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says 3 bedrooms, but also three double bedrooms on the first floor and an attic room with en-suite. Room sizes unknown, so 3 now with one unclear (https://www.zoopla.co.uk/for-sale/details/74448042)."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Kitchen-diner exists: modern kitchen with adjoining dining space (https://www.zoopla.co.uk/for-sale/details/74448042); off-shot opened to full width (https://www.rightmove.co.uk/properties/173755001). 25 m2 not confirmed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "est: loft already converted (attic en-suite) and rear already extended, so headroom is thin. Garden length and neighbours' extensions unknown."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "est: listed works are done (electrics, radiators, decoration, flooring, kitchen). Attic conversion sign-off not shown, so scored one band down."},
+    {"n": 10, "score": 5, "est": true,  "evidence": "est: works listed as done, so time to live is mainly conveyancing. Scored 3 months or less."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "est: no survey, damp, roof or cellar detail. EPC D (https://www.zoopla.co.uk/for-sale/details/74448042). Victorian terrace, minor cause unclear."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "est: tidy fronts and letting boards not seen. Listing gives no street detail."},
+    {"n": 13, "score": 5, "est": true,  "evidence": "Listing says stones throw from Meersbrook Park (https://www.zoopla.co.uk/for-sale/details/74448042). Minutes not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est: big supermarket distance not in listing. Assumed 15-20 min walk."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "est: parking not stated in listing. Assumed on-street with moderate slope."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "est: Victorian terrace with open rear and new log burner (https://www.rightmove.co.uk/properties/173755001). Period features and light not confirmed."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "est: front elevation and bay not seen in the extract. Assumed plain, tidy."}
+  ],
+  "total": 63,
+  "verdict": "PASS",
+  "biggest_risk": "Already reworked, so little value gap: margin is about -50250 at V near asking and turns positive only if done-up street sales exceed about 355833. No completed sales found to set V.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74448042",
+    "https://www.rightmove.co.uk/properties/173755001",
+    "https://www.rightmove.co.uk/properties/88365168",
+    "https://www.zoopla.co.uk/for-sale/details/73440522/",
+    "https://www.zoopla.co.uk/for-sale/details/71423746"
+  ]
+}

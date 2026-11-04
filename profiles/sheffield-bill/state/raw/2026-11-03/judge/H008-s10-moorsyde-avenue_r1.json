@@ -1,0 +1,50 @@
+{
+  "id": "H008-s10-moorsyde-avenue",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-walkley-s10/hay030769168/",
+  "asking": 260000,
+  "floor_area_m2": 68,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes per listing (haybrook page, est. same as prompt address)"},
+    "budget":    {"pass": true, "reason": "asking 260000 + 1.15 x W 95000 (est.) + C 3000 = 372250, under 400000"},
+    "tenure":    {"pass": true, "reason": "listing says Freehold"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on structure and construction; no fail evidence"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing shows porch (4ft x 6ft) then living room; no hall listed; a hall could be made for up to 5000 but cost not in W beyond est."}
+  },
+  "V": 242000,
+  "v_basis": "No done-up sales on Moorsyde Avenue in the last 2 years found (latest sales on the street are 2022). Fallback, all est. and condition unknown: 29 Moorsyde Ave 286000 (Apr 2022); 26 Moorsyde Ave 242000 (Oct 2022); 36 Moorsyde Ave 230000 (Mar 2022). Median = 242000. Source: primelocation.com Moorsyde Avenue sold prices. Done-up value likely higher (est. about 310000 if done up); margin would still be negative at that figure (about -93000).",
+  "W": 95000,
+  "w_basis": "est. before contingency: strip-out and full refurb ~45000 (rewire 6000, heating 4000, kitchen 12000, bathroom 7000, flooring and decor 8000, knock-through with steel beam 7000, hall 4000, roof/windows/damp allowance 3000); loft conversion for third real bedroom ~45000 (est.). No floorplan text or survey seen.",
+  "C": 3000,
+  "margin": -154450,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 260000/68 m2 est. = 3824 per m2; done-up street 3559 per m2 (V/68 est.), ratio about 107%, so >85% band"},
+    {"n": 2,  "score": 1, "est": false, "evidence": "0.9x242000 - 1.15x95000 - 3000 - 260000 = -154450 (W and V est.)"},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "No street sales in last 2 years found, so ratio cannot be computed; neutral 3 est."},
+    {"n": 4,  "score": 3, "est": true,  "evidence": "No S10 sector 2-year max sale found; neutral 3 est."},
+    {"n": 5,  "score": 1, "est": true,  "evidence": "Room sizes from listing: living 3.05x5.49, kitchen 2.44x5.18, master 3.35x3.96, bed2 2.13x2.13, bed3 2.44x3.05, bath 1.52x2.13; sums about 60 m2 plus hall/landing est. 68 m2 total, under 70"},
+    {"n": 6,  "score": 2, "est": true,  "evidence": "Master 3.35x3.96 (13.3 m2) is real; bed2 4.5 m2 and bed3 7.4 m2 are small, so a third real bedroom needs a loft (est.)"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Kitchen 12.6 m2 at rear next to living room 16.7 m2; knock-through would give about 29 m2 (est. layout, wall type unconfirmed)"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear garden listed; length and neighbour extensions not stated; est. one weak headroom"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Loft conversion plus steel-beam knock-through plus rewire and heating: loft is the hard item (est.)"},
+    {"n": 10, "score": 2, "est": true,  "evidence": "Full refurb plus loft conversion est. 13 to 18 months before comfortable living (est.)"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey; EPC D (listing); structure, damp, roof and age unknown: one serious unknown est."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Mid-terrace residential road; no letting-board evidence seen; owner-occupancy not checked (est.)"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Crookes Valley Park walk est. 10 to 15 min (est.)"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Nearest big supermarket walk est. 15 to 20 min (est.)"},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Driveway with off-street parking (listing); slope not stated, Walkley is hilly (est.)"},
+    {"n": 16, "score": 2, "est": true,  "evidence": "Small bedrooms, porch then living room, log burner, no period features listed (est.)"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Mid-terrace; facade material not stated (est.)"}
+  ],
+  "total": 43.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -154450 even if the 242000 fallback value holds: the works to reach 3 real bedrooms and a 25 m2 kitchen-diner cost more than the house gains; V and W are both est. and no done-up street sales were found.",
+  "sources": [
+    "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-walkley-s10/hay030769168/",
+    "https://primelocation.com/house-prices/walkley/moorsyde-avenue",
+    "https://housemetric.co.uk/graphs/Moorsyde-Avenue/S10-1QH"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "H050-s7-south-view-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89438514",
+  "asking": 265000,
+  "floor_area_m2": 108,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7 1DE. Agent particulars name the house as 179 South View Road, Nether Edge, S7 1DE: https://media.rightmove.co.uk/33k/32340/167840051/32340_34218441_DOC_02_0011.pdf"},
+    "budget": {"pass": true, "reason": "Asking 265000 + 1.15W 82225 + C 3000 = 350225, under 400000. Asking under 300000."},
+    "tenure": {"pass": true, "reason": "Freehold per https://www.rightmove.co.uk/properties/89438514 and the agent particulars."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. No survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing is silent on vacant possession and chain. Agent Vebra page reads 'currently not marketed' (https://www.vebra.com/details/property/34218441), so status is unclear."},
+    "hall": {"pass": true, "reason": "unconfirmed: no hall is listed (lounge, kitchen, dining room). Floorplan not readable. Hall allowance of est. 3500 is inside W."}
+  },
+  "V": 265000,
+  "v_basis": "Done-up status not verified for any sale. Used the 3 most recent terraced sales on South View Road in the last 2 years, excluding 156 (23 Oct 2025, 122500, outlier, likely not done up): 186 South View Road (31 Jul 2026, 257500); 78 South View Road (27 Jan 2026, 265000); 64 South View Road (28 Jul 2025, 278000). Median 265000. All three are leasehold; subject is freehold. Source: https://www.rightmove.co.uk/house-prices/s7/south-view-road.html",
+  "W": 71500,
+  "w_basis": "est., before 1.15 contingency. Rewire 7000; heating 4500; bathroom 5500; kitchen 9000; kitchen-diner knock-through with steel 8000; hall 3500; attic bedroom sign-off and upgrade 5000; plaster, floors, decoration 12000; windows and doors 6000; cellar damp 2500; rear courtyard and outhouse 2000; professional fees 3500; scaffold and skip 3000. No floorplan, room sizes or photos readable.",
+  "C": 3000,
+  "margin": -111725,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 265000/108 = 2454 per m2. Comp 78 South View Rd is 105 m2 (https://housemetric.co.uk/27521701/S7-1DD/78+South+View+Road), giving about 2524 per m2 on V. Ratio about 97%. est: other comp areas and done-up status unknown."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin = 0.9x265000 - 1.15x71500 - 3000 - 265000 = -111725 (est. works)."},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "V 265000 / street max 281000 (193 South View Rd, 20 Feb 2025) = 94%. Max from https://www.rightmove.co.uk/house-prices/s7-1de.html. est: done-up status of V comps unknown."},
+    {"n": 4,  "score": 2, "est": true,  "evidence": "Sector S7 1 max not checked. Assumed equal to street max 281000, giving 94%. est."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "108 m2 (1,158 sq ft) per https://www.rightmove.co.uk/properties/89438514"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listed as 3 bedrooms: front double, smaller single (guest or study), attic bedroom. No room sizes. Attic sign-off not stated. est."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Off-shot kitchen opens into dining room (https://www.rightmove.co.uk/properties/89438514), so at most one knock-through. est. from text only."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear courtyard garden with outhouse, so 10 m+ garden doubtful. Loft already an attic bedroom. Neighbour extensions unknown. est."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Rewire and heating plus steel knock-through and attic upgrade. Worst item is structural. est."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 8 months from works to comfortable living, given rewire, heating, kitchen, bath and attic sign-off."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "1900 build with cellar store (https://www.rightmove.co.uk/properties/89438514). No survey, roof or damp data. Cause of any fault unknown. est."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street has many leasehold houses. EPC history of no. 78 shows a private-rental record (2017), per https://housemetric.co.uk/27521701/S7-1DD/78+South+View+Road. Not checked on the ground. est."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "est. 10 to 15 min walk to a park (Endcliffe or similar). Not measured."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "est. 10 to 15 min walk to a big supermarket. Not measured."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking only (https://www.rightmove.co.uk/properties/89438514). Slope not stated. est."},
+    {"n": 16, "score": 4, "est": false, "evidence": "Bay-windowed lounge, original fireplace, stripped floorboards (https://www.rightmove.co.uk/properties/89438514). Light and ceiling height not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "1900 mid-terrace with bay window (agent particulars). Stone or brick and front garden not stated. est."}
+  ],
+  "total": 56,
+  "verdict": "PASS",
+  "biggest_risk": "Works plus costs (est. 71500 before contingency) exceed the gap between 0.9V and asking, so margin is est. -111725. Asking conflicts: brief says 260000, agent particulars say Offers Around 265000. All comps leasehold and done-up status unverified.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89438514",
+    "https://media.rightmove.co.uk/33k/32340/167840051/32340_34218441_DOC_02_0011.pdf",
+    "https://www.vebra.com/details/property/34218441",
+    "https://www.rightmove.co.uk/house-prices/s7/south-view-road.html",
+    "https://www.rightmove.co.uk/house-prices/s7-1de.html",
+    "https://housemetric.co.uk/27521701/S7-1DD/78+South+View+Road"
+  ]
+}

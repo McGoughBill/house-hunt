@@ -1,0 +1,51 @@
+{
+  "id": "H072-s8-harvey-clough-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.reedsrains.co.uk/property/WOO260003",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 (Norton Lees) is an approved area."},
+    "budget": {"pass": true, "reason": "Asking 220000 is under 300000. Asking + 1.15W + C = 220000 + 13800 + 3000 = 236800, under 400000 (W est.). Listing guide is 220000 to 230000."},
+    "tenure": {"pass": true, "reason": "Freehold per listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no structural issues stated."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing silent on vacancy and chain status."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens. Hall creation allowance of 4000 est. in W is within the 5000 limit."}
+  },
+  "V": 217500,
+  "v_basis": "Fewer than 3 same-street, same-type sales in the last 2 years, so nearest like sales used: 84 Harvey Clough Road, terrace, 30 Oct 2025, 165000 (Rightmove S8-8PG); 13 Norton Lees Road, semi-detached, 4 Mar 2025, 217500 (Rightmove S8-9BW); 94 Harvey Clough Road, semi-detached, 8 Nov 2024, 419000 (Rightmove S8-8PG). Median 217500. Done-up status of these sales not confirmed. Excluded: 12 Norton Lees Road terrace (3 Oct 2024, 195000) and 14 Norton Lees Road terrace (20 Sep 2024, 225001), which fall just outside 2 years. Their terrace median with 84 Harvey Clough Road would be 195000; margin stays negative either way.",
+  "W": 12000,
+  "w_basis": "All est., before 1.15 contingency. Hall/lobby creation 4000 (front door position unknown); redecoration and snagging 3000; allowance for loft, heating or ventilation given EPC D (68) 3000; minor electrics and lighting 2000. Listing says kitchen newly fitted, 'Expertly Designed and Decorated' and bathroom fully tiled, so little strip-out. No floorplan or room measurements were available in the listing text, so kitchen-diner size and the 25 m2 spec could not be checked.",
+  "C": 3000,
+  "margin": -41050,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 220000 is about 101% of V 217500 (same-street sold median). Listing already says 'Expertly Designed and Decorated', so no discount to finished value. Floor area not given, so est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -41050 = 0.9 x 217500 - 1.15 x 12000 - 3000 - 220000. V and W are estimates."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 217500 is 52% of the street max of 419000 (94 Harvey Clough Road, semi-detached, 8 Nov 2024, Rightmove S8-8PG)."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "The 419000 sale is in S8 in the window, so the S8 2-yr max is at least 419000 and V is at most 52% of it. Brief example 'S8 0' is unclear and not used."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not stated. Est. 80 to 90 m2 from 3 doubles, separate reception, kitchen-dining, utility and cellar."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 doubles per listing. Bedrooms 2 and 3 are 'generous doubles' but no m2 given, so one small is assumed."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing: 'Kitchen with dining space', newly fitted, so a kitchen-diner route already exists."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden low maintenance with brick outhouse. Garden depth, loft and neighbour extensions not stated (est.)."},
+    {"n": 9,  "score": 5, "est": true,  "evidence": "Listing shows decor, kitchen and bathroom already done. Rewire and heating not confirmed (EPC D, 68)."},
+    {"n": 10, "score": 5, "est": true,  "evidence": "Listing calls the house 'immaculate' and already finished. With W est. 12000, under 3 months to live there (est.)."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar used for meters and storage. No damp or roof information, so cause of any issue unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Letting boards, owner-occupier share and traffic not checked. Plain residential street (est.)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not sourced. Est. 10 to 15 min to Meersbrook Park."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not sourced. Est. 15 to 20 min."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Parking and slope not stated in listing. Norton Lees is hilly (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Wood flooring, shutters and electric fire in reception. Light, ceiling heights and period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Photos not reviewed. Plain mid-terrace presumed (est.)."}
+  ],
+  "total": 60.6,
+  "verdict": "PASS",
+  "biggest_risk": "Listing says the house is already finished (newly fitted kitchen, 'Expertly Designed and Decorated'), so there is no refurb margin. Asking (guide 220000 to 230000) is at or above the recent sold median of 217500, giving margin -41050 (-51050 at the 230000 guide).",
+  "sources": [
+    "https://www.reedsrains.co.uk/property/WOO260003",
+    "https://www.rightmove.co.uk/house-prices/S8-8PG.html",
+    "https://www.rightmove.co.uk/house-prices/S8-9BW.html",
+    "https://primelocation.com/house-prices/sheffield/harvey-clough-road/s8-8pg"
+  ]
+}

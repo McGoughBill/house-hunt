@@ -1,0 +1,50 @@
+{
+  "id": "H022-s11-marmion-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield",
+  "asking": 210000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "Marmion Road, Ecclesall, S11 (listing)."},
+    "budget":    {"pass": true, "reason": "asking 210000 + 1.15 x W 60000 est. + C 3000 = 282000, under 400000; asking under 300000."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: Saxton Mee lists tenure as Unknown; job brief says freehold."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam and dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on vacant possession."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say what the front door opens into."}
+  },
+  "V": 230000,
+  "v_basis": "Only 1 Marmion Rd sale in last 2 yrs (181 Marmion Rd, terrace, freehold, 18 Jul 2025, 230000). Median of the 3 most recent Marmion Rd terrace sales used: 181 (18 Jul 2025, 230000); 183 (3 Jun 2024, 245000); 183 (1 Mar 2023, 222500). Median 230000. Two of three are older than 2 yrs and none is verified as done-up: est.",
+  "W": 60000,
+  "w_basis": "est. Full refurb of a 3-storey, 3-bed terrace with cellar: kitchen, family bathroom, W/C, decor, rewire and heating likely, attic bedroom check, cellar damp check. Ballpark 52000 works plus contingency applied by the 1.15 in the margin formula. Not priced from floorplan (not read).",
+  "C": 3000,
+  "margin": -75000,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 210k / V 230k = 91% of done-up street value; floor areas not given, so est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -75000 = 0.9 x 230000 - 1.15 x 60000 - 3000 - 210000."},
+    {"n": 3,  "score": 2, "est": false, "evidence": "V 230000 / 2-yr Marmion Rd max 230000 (181, Jul 2025) = 100%."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 230000 / 2-yr S11 max 2825000 (479 Whirlowdale Rd, Apr 2026) = 8%; literal rubric result, sector max is far above typical sales."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est. 80-90 m2 for a 3-storey terrace."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Two first-floor bedrooms plus second-floor dormer attic bedroom; attic sign-off unknown."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing describes an existing 'generous kitchen/dining room'; 25 m2 size unconfirmed."},
+    {"n": 8,  "score": 1, "est": true,  "evidence": "Rear is a paved courtyard, not a 10 m garden; loft already a dormer bedroom."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Listing says needs modernising; 3-storey house with cellar, rewire or heating likely."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4-6 months of works before living there."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar present; condition unknown; no survey in listing."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Residential Ecclesall terrace; tenure mix and rat-run status not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park distance not checked; est. 10-15 min."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Listing says close to shops; est. 10-15 min walk to a large supermarket."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not mentioned."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing notes natural light in attic; ceiling height and period features unknown."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Photos not seen; plain terrace description."}
+  ],
+  "total": 54,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -75000: asking is above the est. finished value of 230000 once 60000 of works is added, and no done-up comparable on the street is confirmed.",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield",
+    "https://domovita.co.uk/sold-prices/street/s11/marmion-road",
+    "https://domovita.co.uk/sold-prices/s11"
+  ]
+}

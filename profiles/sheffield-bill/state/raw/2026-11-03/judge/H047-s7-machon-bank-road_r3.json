@@ -1,0 +1,53 @@
+{
+  "id": "H047-s7-machon-bank-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/173778650",
+  "asking": 280000,
+  "floor_area_m2": 84,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7 per listing (Machon Bank Road, Nether Edge, S7)."},
+    "budget":    {"pass": true, "reason": "asking 280000 + 1.15 x W 47500 (54625) + C 3000 = 337625 (est., W is est.), under 400000."},
+    "tenure":    {"pass": true, "reason": "Leasehold, 500-year term from 29 Sep 1837, about 311 years left (Zoopla). No covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. No survey supplied."},
+    "vacant":    {"pass": true, "reason": "Listing: 'Vacant possession will be given on completion.'"},
+    "hall":      {"pass": true, "reason": "Listing: 'Upon entering, you are welcomed into a front living room', so the door opens into the living room. A hall lobby is in W at est. 3000, under the 5000 limit."}
+  },
+  "V": 366000,
+  "v_basis": "3 same-street terraced freehold sales, last 2 years (Rightmove/Land Registry, Machon Bank Road S7 1PG): 94 Machon Bank Road 14 Apr 2026 387000; 28 Machon Bank Road 30 Jan 2026 255000; 86 Machon Bank Road 25 Mar 2025 366000. Median 366000. Condition of the three is not verified, so done-up status is est. Housemetric records 86 as a 2-bed, 87 m2.",
+  "W": 47500,
+  "w_basis": "All est. (no survey, floorplan or room sizes). Rear single-storey extension to reach a 25 m2 kitchen-diner, incl. scaffolding: 32000. Hall lobby from front room: 3000. Electrics allowance: 4000. Decorate and floors: 4000. Attic bedroom sign-off: 1500. Professional and building control fees: 3000. Total 47500. Existing modern kitchen and tiled bathroom need no works (listing).",
+  "C": 3000,
+  "margin": -8225,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "As bought 280000/84 = 3333 per m2; done-up street median 4207 per m2 (86 Machon Bank Rd, 366000/87 m2); ratio 79%. Floor areas of 94 and 28 unknown."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin = 0.9 x 366000 - 1.15 x 47500 - 3000 - 280000 = -8225 (est., W is est.)."},
+    {"n": 3,  "score": 3, "est": false, "evidence": "V 366000 / street max 387000 (94 Machon Bank Rd, 14 Apr 2026) = 94.6%, in the 90-95% band."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 366000 / S7 1 sector max of at least 630000 (6 Machon Bank, 9 Dec 2024) = at most 58%."},
+    {"n": 5,  "score": 3, "est": false, "evidence": "84 m2 (907 sq ft) per Zoopla and Rightmove; 80-90 band."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms listed, two first-floor doubles (one used as office). Third bed is a second-floor room, likely small. Room sizes not given."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Rear dining kitchen exists, size not given (est. 13-15 m2). Reaching 25 m2 needs a single-storey rear extension (est.)."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear is a yard, not a 10 m garden. Loft already converted. Neighbour extensions not evidenced."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Main work is a single-storey rear extension, plus hall lobby and electrics allowance (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months to live happily: extension and electrics work while living in the house."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar access. EPC D. No damp, roof or structure flags in listing, but cause of any defect unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street tenure mixed (freehold and leasehold sales). Letting boards, tidiness and traffic not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Chelsea Park lies between Nether Edge and Ecclesall (Wikipedia). Walk time est. 10-15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Sainsbury's Local at 9 Machon Bank Road is convenience only. Big supermarket walk est. 15-20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking per Rightmove. Slope and permit status not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Feature fireplace and traditional character per listing. Cramped three-storey layout, light and ceiling heights not evidenced."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Traditional terrace (est.). No exterior photos checked. Materials and street appearance not stated."}
+  ],
+  "total": 54,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (-8225 est.) once the 25 m2 kitchen-diner extension is priced, and V rests on 3 sales of unverified condition.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/173778650",
+    "https://app.zoopla.co.uk/for-sale/details/72774542",
+    "https://www.rightmove.co.uk/house-prices/s7-1pg.html",
+    "https://housemetric.co.uk/house-prices/Machon-Bank-Road/S7-1PG",
+    "https://domovita.co.uk/sold-prices/street/s7/machon-bank",
+    "https://en.wikipedia.org/wiki/Chelsea_Park_(Sheffield)"
+  ]
+}

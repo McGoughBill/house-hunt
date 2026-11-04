@@ -1,0 +1,52 @@
+{
+  "id": "H079-s8-marshall-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.haushomes.co.uk/properties-for-sale/property/12793767-marshall-road-woodseats-sheffield",
+  "asking": 260000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "Listing postcode S8 0GN (https://www.haushomes.co.uk/properties-for-sale/property/12793767-marshall-road-woodseats-sheffield); Woodseats is in S8."},
+    "budget": {"pass": true, "reason": "asking 260000 + 1.15W 104075 + C 3000 = 367075, under 400000 (W est.). Listing guide is £260k-£270k; at £270k the total is 377075, still a pass. First-time buyer stamp duty is nil to £300k, so C is fees only."},
+    "tenure": {"pass": true, "reason": "Freehold per listing (https://www.haushomes.co.uk/properties-for-sale/property/12793767-marshall-road-woodseats-sheffield)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot; no survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state vacant possession or tenancy."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not describe the entrance; photos are captioned Front then Lounge. If the door opens straight into the lounge, a hall (up to £5k) is priced in W at £4000 est."}
+  },
+  "V": 297000,
+  "v_basis": "Fewer than 3 same-street semi sales in the last 2 years, and no like-street set of 3 found in the sources checked. Used: 1 Marshall Rd, 23 Jan 2026, £272,500 (https://domovita.co.uk/sold-prices/street/s8/marshall-road); 54 Marshall Rd, 27 May 2026, £297,000 (https://www.rightmove.co.uk/house-prices/s8-0gp.html); 3rd = 92 Marshall Rd, 2 Sep 2024, £322,000 (same Rightmove page), which is 2 months outside the window and used as the nearest same-street fallback. Median £297,000 est. Done-up status of comps not verifiable from sold records (est.). Subject may be No. 3 (EPC file name on listing); 3 Marshall Rd sold 30 Jun 2022 for £260,000 (https://domovita.co.uk/sold-prices/street/s8/marshall-road).",
+  "W": 90500,
+  "w_basis": "All est., before contingency, no floorplan or room sizes readable: rewire 6000; kitchen 10000; single-storey kitchen-diner extension to 25 m2+ 40000; bathroom refresh 3000; hall if needed 4000; plaster, decor, flooring 12000; attic/building-control sign-off 3000; rear single-bed cupboard conversion 1000; heating service 500; fees (architect, building control) 4000; skip, scaffold, prelims 4000; doors, lighting, misc 3000. Margin applies 1.15 to give 104075.",
+  "C": 3000,
+  "margin": -99775,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "asking 260000 / V 297000 = 87.5%, assumes similar floor area (est.); V comps at https://www.rightmove.co.uk/house-prices/s8-0gp.html"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "margin -99775 (est.): 0.9 x 297000 less 104075, 3000 and 260000"},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 297000 / street max 357000 (86 Marshall Rd terraced, 4 Jul 2025, https://www.rightmove.co.uk/house-prices/s8-0gp.html) = 83%"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V / S8 0 sector max of at least 612000 (62 Dalewood Ave detached, 17 Jul 2026, https://www.rightmove.co.uk/house-prices/s8.html) = under 49%; sector max is a lower bound from a partial list"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "floor area not given on listing (https://www.haushomes.co.uk/properties-for-sale/property/12793767-marshall-road-woodseats-sheffield); est. about 85 m2 for a three-level 3-bed semi"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 beds per listing: front double, rear single with boiler cupboard, second-floor attic double; est. rear single is small, attic sizes unknown"},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "rear dining kitchen exists per listing but size not given; est. under 25 m2, so an extension is needed"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "garden length not given (est. 10 m+); loft already converted to attic bedroom so little upward headroom; neighbours' extensions unknown"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "single-storey kitchen-diner extension is the heaviest item, plus likely rewire (est.)"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 7-9 months: extension plus kitchen, bathroom and rewire"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "no survey; cellar head and attic sign-off unknown per listing; EPC rating E per listing; est. minor, cause unclear"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "tenure mix and through-traffic on Marshall Rd not verified; est. one fail"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "listing says near Graves Park; walk est. 5-10 min"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "walk to big supermarket est. 15-20 min, not checked"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "parking not stated on listing; front garden suggests no drive; est. hard on-street parking"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "listing: modern bathroom, log burner, warm decor; no room sizes; est. average bones"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "listing: well-maintained front garden; brick and bay not stated; est. plain tidy semi"}
+  ],
+  "total": 53,
+  "verdict": "PASS",
+  "biggest_risk": "Margin about minus £100k: 0.9 x est. V £297k cannot cover 1.15 x est. W £90.5k plus asking and fees; V rests on 2 in-window sales with condition unknown, and floor area, cellar, attic sign-off and entrance are unverified.",
+  "sources": [
+    "https://www.haushomes.co.uk/properties-for-sale/property/12793767-marshall-road-woodseats-sheffield",
+    "https://domovita.co.uk/sold-prices/street/s8/marshall-road",
+    "https://www.rightmove.co.uk/house-prices/s8-0gp.html",
+    "https://propertyengine.co.uk/area-overview/s8-0gn/house-prices",
+    "https://www.rightmove.co.uk/house-prices/s8.html"
+  ]
+}

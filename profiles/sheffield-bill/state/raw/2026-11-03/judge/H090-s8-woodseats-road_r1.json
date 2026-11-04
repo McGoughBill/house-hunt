@@ -1,0 +1,51 @@
+{
+  "id": "H090-s8-woodseats-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/90052179",
+  "asking": 215000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Woodseats Road, Woodseats, S8 per the listing (https://www.rightmove.co.uk/properties/90052179). S8 Woodseats is an allowed area."},
+    "budget": {"pass": true, "reason": "Asking 215000 is under 300000. Asking + 1.15W + C = 215000 + 51750 + 3000 = 269750, under 400000 (W is est.)."},
+    "tenure": {"pass": true, "reason": "unconfirmed: listing says leasehold (https://www.rightmove.co.uk/properties/90052179) but gives no lease length, ground rent or covenant status."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing mentions no movement, subsidence, knotweed, spray foam, non-standard build or dry rot (https://www.rightmove.co.uk/properties/90052179). No survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not say whether the house is vacant or chain status (https://www.rightmove.co.uk/properties/90052179)."},
+    "hall": {"pass": true, "reason": "unconfirmed: front door position not stated; listing describes an inner hallway (https://www.rightmove.co.uk/properties/90052179)."}
+  },
+  "V": 185200,
+  "v_basis": "Median of the 3 most recent terraced sales on Woodseats Road in the last 2 years, Land Registry via Rightmove (https://rightmove.co.uk/house-prices/s8/woodseats-road.html): 133 Woodseats Road S8 0PH, 19 Jun 2026, 185200; 179 Woodseats Road S8 0PL, 8 May 2026, 197500; 90 Woodseats Road S8 0PJ, 30 Apr 2026, 173000. Done-up status of these sales was not checked, so V is unverified as a finished value.",
+  "W": 45000,
+  "w_basis": "est., floorplan and photos could not be opened. Decor and floors 12000; kitchen 8000; bathroom 6000; rewire allowance 6000; heating 3000; loft sign-off and cellar damp check 3000; joinery and making good 4000; sundries 3000. Before contingency.",
+  "C": 3000,
+  "margin": -103070,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 215000 is 16% above V 185200. Floor areas not given, so est.: ratio is over 85% unless the house is more than 37% larger than the comps (https://www.rightmove.co.uk/properties/90052179)."},
+    {"n": 2,  "score": 1, "est": false, "evidence": "Margin -103070 at est. W 45000. Still negative at W=0 (-51320) and at the street's top 2-year sale of 225500 (-66800). Sales: https://rightmove.co.uk/house-prices/s8/woodseats-road.html"},
+    {"n": 3,  "score": 4, "est": false, "evidence": "V 185200 / street max 225500 (72 Woodseats Road, terraced, 2 May 2025) = 82%. Source: https://rightmove.co.uk/house-prices/s8/woodseats-road.html"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S8 0 sector max over 2 years not pulled. Est. above 265000, which is needed for V to be under 70% of max."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given ('Ask agent', https://www.rightmove.co.uk/properties/90052179). Est. 90-100 m2 for a 3-storey terrace with a roof-space bedroom."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing shows front double, rear single (first floor) and second-floor double with rear dormer and front Velux (https://www.rightmove.co.uk/properties/90052179). Loft room sign-off not mentioned, so the third bedroom needs attic sign-off."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing describes an existing 'impressive dining kitchen' with wall and base units (https://www.rightmove.co.uk/properties/90052179). Room size not given."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden described as large with a long lawn (listing), so length is likely 10 m+ but unmeasured (est.). Loft already converted, so no headroom. Neighbours' extensions unknown. One weak."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen and bathroom work plus an est. rewire allowance. Listing does not state wiring or boiler age (https://www.rightmove.co.uk/properties/90052179)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months: kitchen, bathroom, electrics and loft sign-off in a 3-storey house. No structural work seen."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Unverified: cellar used as workshop (damp unknown), loft conversion sign-off, lease length and EPC not given (https://www.rightmove.co.uk/properties/90052179). Judged one serious."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Woodseats Road carries bus routes and is a main road (https://www.firstbus.co.uk/south-yorkshire/news-and-service-updates/updates/24-75-75a-76-76a-76e-woodseats-road-updated). Owner-occupancy and letting boards not checked. One fails."},
+    {"n": 13, "score": 2, "est": true,  "evidence": "No house number given. Est. 15-20 min walk to Meersbrook Park from much of Woodseats Road."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Lidl Woodseats is a discounter (https://www.openingtimesin.uk/lidl-woodseats-sheffield). No big supermarket walk checked; est. 15-20 min."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Parking not stated ('Ask agent', https://www.rightmove.co.uk/properties/90052179). Main bus road in a hilly area, so est. on-street only with a slope. One bad."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing mentions a feature fireplace, large front window, dormer and cellar (https://www.rightmove.co.uk/properties/90052179). No photos or ceiling heights seen, so est. average."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "No description of brick, stone, bay or front garden in the listing (https://www.rightmove.co.uk/properties/90052179). Est. plain, tidy."}
+  ],
+  "total": 56,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 215000 is already above the 185200 V, so margin is about -103000 even before the works; the price is the problem, not the refurb.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/90052179",
+    "https://rightmove.co.uk/house-prices/s8/woodseats-road.html",
+    "https://www.firstbus.co.uk/south-yorkshire/news-and-service-updates/updates/24-75-75a-76-76a-76e-woodseats-road-updated",
+    "https://www.openingtimesin.uk/lidl-woodseats-sheffield"
+  ]
+}

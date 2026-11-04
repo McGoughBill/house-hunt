@@ -1,0 +1,51 @@
+{
+  "id": "H007-s10-lydgate-lane",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.primelocation.com/for-sale/details/72939826/",
+  "asking": 265000,
+  "floor_area_m2": 111,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, in scope"},
+    "budget":    {"pass": true, "reason": "Asking 265000 is under 300000. Asking + W + C = 324350, under 400000. Note live listing guide is 275000-285000, so budget still passes at that price (asking + W + C = 344350-354350)."},
+    "tenure":    {"pass": true, "reason": "Freehold per primelocation and Rightmove listings"},
+    "structure": {"pass": true, "reason": "No movement, subsidence, knotweed, spray foam or dry rot mentioned. Extension and attic building-regs sign-off unverified (est.)"},
+    "vacant":    {"pass": false, "reason": "Vacant possession not stated. Only chain free is given (primelocation). Not confirmed"},
+    "hall":      {"pass": true, "reason": "Front door opens straight into the lounge. Hall by stud partition across the front, est. 4000, included in W"}
+  },
+  "V": 285000,
+  "v_basis": "est. proxy, no done-up flag in sold data. 3 most recent terraced sales on Lydgate Lane: 132 Lydgate Lane (S10 5FP) 31 Jul 2026 345000 leasehold; 104 Lydgate Lane (S10 5FP) 9 Apr 2026 248000 freehold; 54 Lydgate Lane (S10 5FH) 30 Jan 2026 285000 freehold. Median 285000. Done-up status of each sale unverified",
+  "W": 56350,
+  "w_basis": "est. Hall partition and door 4000; full redecor and flooring 12000; kitchen refit 10000; bathroom refit 7000; rewire 6000 (est., age unknown); heating service 2000; building-regs and structural checks on extension and attic 3000; cellar damp check and tanking 2000; lighting and sundries 3000. Subtotal 49000. Plus 15 pct contingency 7350. Total 56350",
+  "C": 3000,
+  "margin": -76303,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 265000 / 111 m2 is about 2387 per m2. V 285000 / 111 m2 is about 2568 per m2. Asking is 93 pct of V, which is over 85 pct, so score 1. V is a proxy (est.)"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9V 256500 - 1.15W 64803 - C 3000 - asking 265000 = -76303, below 0"},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "Street max sale in last 2 years is 535000 (264 Lydgate Lane, semi, 14 May 2025). V/max = 53 pct, under 80 pct"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S10 max sale in last 2 years not checked. At least 535000 from street max, so V/sector max is at most 53 pct, under 70 pct (est.)"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "111 m2 (1190 sq ft) per Rightmove listing, over 100 m2"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Bedroom 3 is an attic room with front and rear dormers, so it needs attic sign-off. Bedroom 2 extended, size unknown"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Open-plan extended dining room and kitchen already exists per primelocation. Size vs 25 m2 not confirmed"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Loft already converted, so little loft headroom. Rear garden length and neighbour extensions unknown. One weak option"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Work needs rewire (est.), hall partition, attic and extension sign-off, heating unknown. Rewire or heating scale"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7 to 12 months of works while renting, including sign-off and rewire"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Cellar roughly lounge-sized, reached by trap doors, damp risk unchecked. Extension and attic sign-off unknown. No survey. One serious unknown set"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Lydgate Lane is a through road with many terraces. Letting share unknown. Est. one criterion fails"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Est. 10 to 15 min walk to Crookes Valley Park. Not measured"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Est. 15 to 20 min walk to a big supermarket. Not measured"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking likely hard in this area. Slope and drive unknown. Est. hard parking, level"},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay window, cast-iron fireplaces in lounge and dining room, original cupboards. Ceiling height and light unknown"},
+    {"n": 17, "score": 4, "est": false, "evidence": "Stone-built, bay-fronted end-terrace with set-back front garden per primelocation"}
+  ],
+  "total": 58.4,
+  "verdict": "REJECT",
+  "biggest_risk": "Finished value is an unverified proxy. Asking is 93 pct of it, so the margin is about -76000. Vacant possession is not confirmed. Live guide is 275000-285000, not the 265000 asked.",
+  "sources": [
+    "https://www.primelocation.com/for-sale/details/72939826/",
+    "https://www.rightmove.co.uk/properties/174492107",
+    "https://www.rightmove.co.uk/house-prices/s10/lydgate-lane.html",
+    "https://domovita.co.uk/sold-prices/street/s10/lydgate-lane"
+  ]
+}

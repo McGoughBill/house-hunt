@@ -1,0 +1,53 @@
+{
+  "id": "H064-s8-chesterfield-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/88806300",
+  "asking": 230000,
+  "floor_area_m2": 95,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Listing address Chesterfield Road, Woodseats, S8 (Rightmove 88806300). Inside the S8 area gate."},
+    "budget": {"pass": true, "reason": "asking 230000 + 1.15 x W 78200 + C 3000 = 311200, under 400000. W is est."},
+    "tenure": {"pass": true, "reason": "Leasehold. Rightmove lease end 28/09/2786, about 760 years left. unconfirmed: no covenant dispute mentioned; ground rent and service charge amounts not stated."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, dry rot and non-standard build."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing is silent on vacant possession and tenancy."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; it says the living room leads through to the kitchen. Floorplan image not readable with my tools."}
+  },
+  "V": 231000,
+  "v_basis": "Chesterfield Road terraced sales in the last 2 years (since 3 Nov 2024), 3 most recent: 189 Chesterfield Road S8 0RP, 17 Aug 2026, 286000; 193 Chesterfield Road S8 0RP, 7 Jan 2026, 142000; 549 Chesterfield Road S8 0RW, 11 Dec 2025, 231000. Median 231000. Done-up condition NOT verified for any of the three, so V is est. Sources: Rightmove S8-0RP sold list and domovita Chesterfield Road sold list.",
+  "W": 68000,
+  "w_basis": "est. before contingency: kitchen 12000; bathroom and WC 6000; full rewire 6000; heating 5000; living-kitchen knock-through with steel beam and making good 7000; hall creation 4000 (only if front door opens into living room); cellar damp and waterproofing 5000; floors, plaster and decor across 4 levels 12000; windows and doors 3000; stair works 3000; design, structural engineer and building control 3000; skips and scaffold 2000.",
+  "C": 3000,
+  "margin": -103300,
+  "scores": [
+    {"n": 1, "score": 1, "est": true, "evidence": "Asking 230000 vs done-up proxy V 231000 is about 100% of street price; comp floor areas not known. Above 85% scores 1."},
+    {"n": 2, "score": 1, "est": true, "evidence": "Margin = 0.9 x 231000 - 1.15 x 68000 - 3000 - 230000 = -103300, below 0 so scores 1."},
+    {"n": 3, "score": 5, "est": true, "evidence": "V 231000 vs highest 2-yr house sale on Chesterfield Rd, 919 Chesterfield Rd 330000 (14 Mar 2025), is 70%, under 80%. Source: Rightmove S8-0RP / domovita. est. because V is a proxy."},
+    {"n": 4, "score": 5, "est": true, "evidence": "S8 sector 2-yr max not checked. Chesterfield Rd alone has sales far above V (e.g. 665 Chesterfield Rd 1623926, 22 Jul 2025, type unclear). Assumed under 70% of sector max. est."},
+    {"n": 5, "score": 4, "est": true, "evidence": "est. about 95 m2 above ground: listing room sizes sum to about 83 m2 (living 13.5, kitchen 15.6, principal 13.6, study 7.3, bedrooms 16.3 and 16.3) plus hall, bath, WC and stairs. Cellar about 17 m2 excluded. Floor area not given by agent. 90-100 scores 4."},
+    {"n": 6, "score": 5, "est": false, "evidence": "Listing room sizes: principal 3.75 x 3.64, bedroom two 4.35 x 3.74, bedroom three 4.34 x 3.76. Three bedrooms now, and two are 11.5 m2 or more, so 5. Dimensions are the agent's, not measured."},
+    {"n": 7, "score": 5, "est": true, "evidence": "Listing: living room leads through to 15.6 m2 kitchen, so a through-opening exists or one knock-through gives about 29 m2 combined, over the 25 m2 target. est. on whether the wall can be opened."},
+    {"n": 8, "score": 2, "est": true, "evidence": "Rear yard only, described as low-maintenance; length unknown and likely under 10 m (est.). Second floor already has bedrooms, so loft headroom is doubtful (est.). Neighbours' extensions not known. One weak item = 2."},
+    {"n": 9, "score": 3, "est": true, "evidence": "Knock-through of living-kitchen wall probably needs a steel beam; rewire and heating age unknown. Hardest item sets the score: steel beam or structural = 3. est."},
+    {"n": 10, "score": 3, "est": true, "evidence": "Scope (knock-through, rewire, heating, kitchen, bathroom, cellar, decor over 4 levels) est. 7-12 months before happy to live there. est."},
+    {"n": 11, "score": 2, "est": true, "evidence": "Cellar 4.63 x 3.72 with no damp or survey information; EPC rating not shown; no survey flags given. Cellar damp is one serious unknown = 2. est."},
+    {"n": 12, "score": 3, "est": true, "evidence": "Chesterfield Road is the A61, a main road (Sheffield council A61 page: 'The A61 is a main road'). That is one fail. Owner-occupied, tidy fronts and letting boards unverified. est."},
+    {"n": 13, "score": 3, "est": true, "evidence": "Graves Park in Woodseats is the nearest large park. House position on the road unknown, so est. 10-15 min walk. est."},
+    {"n": 14, "score": 4, "est": true, "evidence": "Asda Woodseats is at 801 Chesterfield Road, on the same road (localopeningtimes listing). House position unknown, so est. 10-15 min walk. est."},
+    {"n": 15, "score": 2, "est": true, "evidence": "Street parking to the front (listing). Council notes a Woodseats parking shortage. Wikipedia: first section of the road is an almost constant incline to Woodseats. Gradient at this house unknown. One bad = 2. est."},
+    {"n": 16, "score": 3, "est": true, "evidence": "Listing says good size rooms and well presented; no period features, ceiling heights or light details. Photos not readable. Average = 3. est."},
+    {"n": 17, "score": 3, "est": true, "evidence": "Front on the road with street parking; no front garden listed; facing material not stated. Plain, tidy = 3. est."}
+  ],
+  "total": 58.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -103300 on the brief formula because V (231000) is about equal to asking, and V itself is not verified as done-up. Front-door position, cellar condition and lease charges are unstated, and the gates are only unconfirmed.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/88806300",
+    "https://www.rightmove.co.uk/house-prices/S8-0RP.html",
+    "https://domovita.co.uk/sold-prices/street/s8/chesterfield-road",
+    "https://haveyoursay.sheffield.gov.uk/a61-chesterfield-road",
+    "https://en.wikipedia.org/wiki/Chesterfield_Road_(Sheffield)",
+    "https://localopeningtimes.co.uk/asda/asda-woodseats-supermarket-woodseats-801-chesterfield-road-opening-hours.html"
+  ]
+}

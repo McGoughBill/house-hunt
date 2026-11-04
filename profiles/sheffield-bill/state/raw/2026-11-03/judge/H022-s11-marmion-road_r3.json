@@ -1,0 +1,51 @@
+{
+  "id": "H022-s11-marmion-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield",
+  "asking": 210000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11, Marmion Road, Ecclesall (https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield)"},
+    "budget":    {"pass": true, "reason": "asking 210000 + 1.15W 74750 + C 3000 = 287750, under 400000; asking under 300000"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: listing shows tenure as unknown; sold records for 181 and 183 Marmion Road are freehold (https://domovita.co.uk/sold-prices/street/s11/marmion-road)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, dry rot or build type"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state occupancy"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; it says the living room leads to the kitchen/dining room, so a front door into the living room is possible"}
+  },
+  "V": 230000,
+  "v_basis": "Only one in-window sale on Marmion Road: 181 Marmion Road, 18 Jul 2025, 230000 (terraced, freehold; condition not stated, so not confirmed done-up) (https://domovita.co.uk/sold-prices/street/s11/marmion-road). 183 Marmion Road sold 3 Jun 2024 for 245000, outside the 2-year window. No other same-street or nearby like-street done-up sales found, so V is a single data point and est.",
+  "W": 65000,
+  "w_basis": "est. Full refurb to spec: rewire, heating, kitchen, bathroom, plaster and decor, damp and roof checks, attic and dormer sign-off, cellar check, hall/front-door reconfiguration if needed, and 25 m2+ kitchen-diner if the existing one is short. Includes contingency. No floorplan dimensions or quotes available.",
+  "C": 3000,
+  "margin": -80750,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. Floor area not given; assumed about 95 m2, so 210000 as bought is about 91% of V 230000/95 m2 basis; above 85% scores 1"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9*230000 - 1.15*65000 - 3000 - 210000 = -80750, below 0"},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 230000 equals the street max in 2 years (181 Marmion Road, 18 Jul 2025), so 100%, scores 2 at the 95-100% band"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "3 Wentworth Avenue sold 862000 (Aug 2026, https://www.doogal.co.uk/PropertySales?area=S11); V is about 27% of that, under 70%"},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "est. Floor area not stated; three-storey 3-bed terrace, guessed about 95 m2, which is 90-100"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing: two first-floor bedrooms plus a dormer attic bedroom (https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield); attic conversion sign-off and room sizes not stated"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing: ground-floor living room leads to a kitchen/dining room (https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield); size not given, so 25 m2+ unconfirmed"},
+    {"n": 8,  "score": 1, "est": false, "evidence": "Listing: rear is a low-maintenance paved courtyard, so the 10 m garden test is unlikely to pass; loft already used as a dormer bedroom"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "est. Listing says 'requiring some modernisation'; decor, kitchen and bath plus likely rewire or heating, cellar unknown"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. Full refurb with a house that is not yet liveable, about 4-6 months to happily live in"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "est. No survey or flags in listing; cellar mentioned, damp and roof not described"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est. Listing calls it close to shops and schools in a desirable suburb; tenure mix and letting boards not checked"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "est. Ecclesall area, park walk assumed 10-15 min; not checked"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "est. Ecclesall Road shops nearby per listing (https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield); walk assumed 10-15 min"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "est. Terraced street, parking and slope not described"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "est. Dormer attic gives light (listing); period features and ceiling height not described"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "est. Terrace with rear courtyard; stone or brick, bay and front garden not described"}
+  ],
+  "total": 55.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -80750: V rests on one 2025 sale of unknown condition, and W is an estimate with no quote or floorplan dimensions; the front-door-into-living-room issue is unconfirmed.",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield",
+    "https://primelocation.com/house-prices/sheffield/marmion-road",
+    "https://domovita.co.uk/sold-prices/street/s11/marmion-road",
+    "https://www.doogal.co.uk/PropertySales?area=S11"
+  ]
+}

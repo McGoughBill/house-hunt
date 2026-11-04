@@ -1,0 +1,51 @@
+{
+  "id": "H010-s10-mulehouse-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/5-bedrooms-house-in-mulehouse-road-sheffield-s10/34532546",
+  "asking": 270000,
+  "floor_area_m2": 113,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 (Crookes), listed as Crookes, S10."},
+    "budget":    {"pass": true, "reason": "Asking 270000 is at most 300000. Asking + 1.15W + C = 376500 at est. W 90000, under 400000. W is est."},
+    "tenure":    {"pass": true, "reason": "Leasehold, 672 years left, ground rent 3 (listing). No covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on structure; no survey seen."},
+    "vacant":    {"pass": false, "reason": "Listing markets it as an investment: HMO licence in place, Article Four compliant, income 22880 for 2025/26 rising to 23660 for 2026/27. That points to a current letting. Vacant possession not confirmed."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing gives no entrance detail; floorplan is an image only."}
+  },
+  "V": 280000,
+  "v_basis": "3 terraced sales on Mulehouse Road, last 2 years (Land Registry via domovita): 96 Mulehouse Road, 21 Apr 2026, 280000; 151 Mulehouse Road, 28 Jul 2025, 305000; 153 Mulehouse Road, 4 Apr 2025, 255000. Median 280000. Done-up condition NOT verified; Land Registry gives none. https://domovita.co.uk/sold-prices/street/s10/mulehouse-road",
+  "W": 90000,
+  "w_basis": "est. 90000 before contingency, from listing description only (floorplan is an image, not readable as text). Strip-out and reconfigure to 3 bedrooms 15000; steel and kitchen-diner knock-through 15000; rewire 8000; heating 6000; kitchen 12000; bathroom and WC 9000; hall 5000; decor and floors 12000; roof, windows, repairs 8000. Conflict: brief says W includes contingency, prompt says W is before it; used prompt.",
+  "C": 3000,
+  "margin": -124500,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. as-bought 2389/m2 (270000/113) vs done-up street about 2478/m2 (280000/113 proxy); ratio about 96%, above 85%."},
+    {"n": 2,  "score": 1, "est": false, "evidence": "Margin -124500 at est. W 90000; still -21000 at zero works."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 280000 vs street max 400000 (177 Mulehouse Rd, detached, 19 May 2025) = 70%. https://domovita.co.uk/sold-prices/street/s10/mulehouse-road"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "est. sector max not checked; S10 max sale over 2 years very likely above 400000, so V is under 70%."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "113 m2 (1217 sq ft, listing via Zoopla page conversion)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says 5 beds (HMO layout). Room sizes unknown. est. 3 real bedrooms plus one small."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing: dining kitchen on ground floor, so the kitchen-diner exists."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "est. mid-terrace; garden length, loft and neighbour extensions not seen. One weak route at best."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "est. knock-through needs steel; rewire and heating likely in an HMO conversion."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. about 9 months of works, in the 7 to 12 band."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "est. no survey, EPC or council tax seen. Listing silent on defects."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "est. HMO and letting use on the street; two checks likely fail (letting boards, mixed use)."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "est. Crookes Valley Park about 5 to 10 min walk."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est. nearest big supermarket about 15 to 20 min walk."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "est. on-street parking; slope not seen."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing: ground-floor dining kitchen; 1 bathroom plus separate WC (Hunters) or 2 bathrooms (Zoopla). Light and ceiling height unknown."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "est. mid-terrace, listed as well presented; facade and materials not seen."}
+  ],
+  "total": 59,
+  "verdict": "REJECT",
+  "biggest_risk": "Vacant possession fails on the HMO letting evidence, and the margin is negative even at zero works (-21000 before works).",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/5-bedrooms-house-in-mulehouse-road-sheffield-s10/34532546",
+    "https://www.zoopla.co.uk/for-sale/details/72662277",
+    "https://domovita.co.uk/sold-prices/street/s10/mulehouse-road",
+    "https://primelocation.com/house-prices/sheffield/mulehouse-road"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "H018-s11-ecclesall-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://app.zoopla.co.uk/for-sale/details/73054531/",
+  "asking": 285000,
+  "floor_area_m2": 106,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11 Ecclesall Road is in the allowed area list"},
+    "budget":    {"pass": true, "reason": "asking 285000 is at most 300000; asking + 1.15W + C = 305250 is at most 400000"},
+    "tenure":    {"pass": true, "reason": "Freehold, ground rent 0 per listing"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into the living room"}
+  },
+  "V": 275000,
+  "v_basis": "Median of 3 most recent terraced sales on Ecclesall Road S11: 791 Ecclesall Rd 26 Feb 2026 250000; 811 Ecclesall Rd 16 Jan 2026 275000; 532 Ecclesall Rd 13 Oct 2025 320000. Done-up status of these sales is not verified.",
+  "W": 15000,
+  "w_basis": "est. Listing says finished to highest standard, so works are light: second shower room est. 8000, decor/flooring/lighting est. 5000, kitchen-diner opening est. 2000. No floorplan or survey. Before contingency.",
+  "C": 3000,
+  "margin": -57750,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 285000 is 104% of V (275000); comp floor areas not found, so price ratio used as proxy"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -57750 = 0.9x275000 - 1.15x15000 - 3000 - 285000; W is est."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 275000 is 61% of street max 452400 (735 Ecclesall Rd, 9 May 2025) https://www.rightmove.co.uk/house-prices/s11/ecclesall-road.html"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S11 sector max not searched; any sector sale above 393000 puts V under 70%, which is near certain"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1145 sq ft is about 106 m2 per listing https://app.zoopla.co.uk/for-sale/details/73054531/"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 double bedrooms per listing; room sizes unknown, so the two-at-11.5 m2 test is not shown"},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Dining room leads through to rear off-shot kitchen; kitchen size unknown, so a knock-through is needed to reach 25 m2"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "No garden length, loft or neighbour-extension data; no floorplan"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Finished house; work is a second shower room and open-plan changes, with steel or heating work possible"},
+    {"n": 10, "score": 5, "est": true,  "evidence": "Listing says finished to very highest standard; est. under 3 months to settle in"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, damp or roof information in listing; nothing serious claimed, nothing confirmed"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Ecclesall Road is a main road (one fail); letting boards and owner-occupancy not checked"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk to park not measured; est. 10-15 min"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Walk to big supermarket not measured; est. 10-15 min along Ecclesall Road"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking only per listing; main-road restrictions likely"},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Victorian, bay-fronted lounge, three floors; light and ceiling heights not seen"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Victorian with bay window; brick or stone and front garden not stated"}
+  ],
+  "total": 62,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -57750 because the house is already finished, so the refurb plan adds no value, and the 285000 ask sits above the 275000 comp median.",
+  "sources": [
+    "https://app.zoopla.co.uk/for-sale/details/73054531/",
+    "https://www.primelocation.com/for-sale/details/73054531/",
+    "https://www.rightmove.co.uk/house-prices/s11/ecclesall-road.html",
+    "https://domovita.co.uk/sold-prices/street/s11/ecclesall-road"
+  ]
+}

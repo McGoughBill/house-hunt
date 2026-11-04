@@ -1,0 +1,53 @@
+{
+  "id": "H046-s7-lynmouth-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.haushomes.co.uk/properties-for-sale/property/12855986-lynmouth-road-abbeydale-sheffield",
+  "asking": 200000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7 Abbeydale. Haus listing 12855986 shows 'Offers in the Region Of £200,000'; a search snippet showed £210,000, possibly an older price. Jitty URL in prompt not reachable."},
+    "budget": {"pass": true, "reason": "asking 200000 + 1.15W 80500 (W 70000 est.) + C 3000 (SDLT nil as first-time buyer at £200k, plus £3000 fees) = 283500, under 400000"},
+    "tenure": {"pass": true, "reason": "unconfirmed: leasehold; lease length and ground rent not stated in listing"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam, non-standard build or dry rot mentioned; no survey seen"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says no onward chain but does not state vacant possession"},
+    "hall": {"pass": true, "reason": "unconfirmed: floorplan not reachable; listing names no hall and front door position is unknown; hall can be made for est. £4k, under £5k"}
+  },
+  "V": 239500,
+  "v_basis": "Done-up status not verified (no EPC or photos for comps). Three most recent same-street terraced sales in last 2 years: 46 Lynmouth Road 26 Jun 2026 £175560; 35 Lynmouth Road 27 Nov 2025 £277100; 6 Lynmouth Road 24 Sep 2025 £239500. Median 239500 (est.). Fourth sale 16 Lynmouth Road 29 Aug 2025 £162500 left out.",
+  "W": 70000,
+  "w_basis": "est. before contingency, floorplan and photos not reachable so priced from listing text: single-storey rear extension ~12 m² 26000; kitchen-diner fit 12000; hall partition 4000; bathroom 7000; rewire 6000 (est.); loft room and stair change 4000; plaster, floors, decor 9000; fees and building control 2000",
+  "C": 3000,
+  "margin": -68000,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true, "evidence": "As bought about £2667/m² (asking ÷ est. 75 m²) vs done-up street £2664/m² (35 Lynmouth Rd) and £2691/m² (6 Lynmouth Rd); ratio about 100%"},
+    {"n": 2,  "score": 1, "est": true, "evidence": "Margin -68000 on the est. W of 70000 and V of 239500"},
+    {"n": 3,  "score": 4, "est": true, "evidence": "V 239500 ÷ street max 277100 (35 Lynmouth Rd, Nov 2025) = 86%"},
+    {"n": 4,  "score": 5, "est": true, "evidence": "V 239500 ÷ S7 max 1150000 (37 Kenwood Park Rd, detached, Aug 2026) = 21%"},
+    {"n": 5,  "score": 2, "est": true, "evidence": "Floor area not given; est. 70-80 m² for 3-storey end-terrace with cellar; street 2-bed EPCs 48-60 m², 6 Lynmouth Rd 89 m²"},
+    {"n": 6,  "score": 3, "est": true, "evidence": "Listing: 2 beds plus flexible occasional bedroom and 2nd-floor loft bedroom reached through it; third room needs sign-off, unconfirmed"},
+    {"n": 7,  "score": 3, "est": true, "evidence": "Existing kitchen small (white units, space for fridge/freezer); single-storey rear extension most likely route to kitchen-diner"},
+    {"n": 8,  "score": 2, "est": true, "evidence": "Garden length not given (enclosed, south-facing); loft already used as bedroom; neighbour extension unclear (35 Lynmouth Rd EPC area 83 to 104 m², est.)"},
+    {"n": 9,  "score": 2, "est": true, "evidence": "Single-storey rear extension plus kitchen, bathroom, rewire (est.), hall partition and loft/stair change"},
+    {"n": 10, "score": 3, "est": true, "evidence": "Est. 9-12 months: design, approvals, extension build, then fit-out; no timeline given"},
+    {"n": 11, "score": 3, "est": true, "evidence": "Cellar (boiler on cellar head), 1900-1929 solid brick build, EPC E per listing, no survey; damp and roof cause unclear"},
+    {"n": 12, "score": 3, "est": true, "evidence": "Some letting history on street (6 Lynmouth Rd 2012 rental listing; 35 Lynmouth Rd 2018 EPC private rental); main road nearby (est.)"},
+    {"n": 13, "score": 3, "est": true, "evidence": "Listing says close to Millhouses Park, no distance given; est. 10-15 min walk"},
+    {"n": 14, "score": 4, "est": true, "evidence": "Listing says close to Abbeydale Road shops and supermarkets, no distance given; est. 10-15 min walk"},
+    {"n": 15, "score": 3, "est": true, "evidence": "Small front garden set back from road; no parking or gradient information; est. hard on-street parking"},
+    {"n": 16, "score": 3, "est": true, "evidence": "Bay-windowed living room with fireplace, granite-effect worktops, white bathroom suite; light and ceiling height not given"},
+    {"n": 17, "score": 3, "est": true, "evidence": "Terrace with small set-back front garden; solid brick walls per neighbour EPCs; front elevation not seen, plain assumed"}
+  ],
+  "total": 49.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -68000 at asking: est. finished value 239500 against 200000 asking plus about 80500 works with contingency, and the floorplan, lease length and vacancy are unseen.",
+  "sources": [
+    "https://www.haushomes.co.uk/properties-for-sale/property/12855986-lynmouth-road-abbeydale-sheffield",
+    "https://www.rightmove.co.uk/house-prices/S7-2DF.html",
+    "https://housemetric.co.uk/31296814/S7-2DF/35+Lynmouth+Road",
+    "https://housemetric.co.uk/30946407/S7-2DF/6+Lynmouth+Road",
+    "https://resi.co.uk/house-prices/lynmouth-road-s7",
+    "https://www.doogal.co.uk/PropertySales?area=S7"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "H033-s7-117-vincent-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74145019/",
+  "asking": 215000,
+  "floor_area_m2": 112,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7 (Sharrow) per listing https://www.zoopla.co.uk/for-sale/details/74145019/"},
+    "budget": {"pass": true, "reason": "asking 215000 + 1.15 x W 60000 + C 3595 = 287595, under 400000; W is est."},
+    "tenure": {"pass": true, "reason": "Freehold per listing; vendors recently bought the freehold (https://www.zoopla.co.uk/for-sale/details/74145019/)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state occupation; 'Chain free' and 'No onward chain' do not confirm vacant possession"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; it lists a front lounge, rear dining room and offshot kitchen"}
+  },
+  "V": 215000,
+  "v_basis": "est. Median of the 3 most recent Vincent Road (S7) terraced sales in the last 2 years: 9 Vincent Rd 16 Jan 2026 223000 (https://www.rightmove.co.uk/house-prices/S7-1BW.html); 152 Vincent Rd 11 Aug 2025 140000 leasehold (https://domovita.co.uk/sold-prices/street/s7/vincent-road); 56 Vincent Rd 25 Jul 2025 215000 (both sites). No sale source gives condition, so none is confirmed done-up. Two 2025 sales (127 Vincent Rd 281611, 133 Vincent Rd 279950) may be done-up; if so V is higher and the margin less negative.",
+  "W": 60000,
+  "w_basis": "est. Before contingency: strip-out and skip 6000; knock-through of rear dining room into offshot kitchen incl. steel and building control 5000; new kitchen 14000; new bathroom 7000; partial rewire 4500; heating 2500; decoration and flooring 12000; hall allowance 3000; design and building control fees 2000; garden 4000. No floorplan or room sizes could be read (photos not viewable), so the 25 m2 kitchen-diner is unconfirmed; if an extension is needed add about 30000 (est.).",
+  "C": 3595,
+  "margin": -94095,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "As bought 215000/112 m2 = 1920 per m2; street proxy 215000/86 m2 = 2500 per m2 (86 m2 street average, https://housemetric.co.uk/house-prices/Vincent-Road/S7-1BX/?imperial=T); ratio 77%"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 215000 - 1.15 x 60000 - 3595 - 215000 = -94095"},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 215000 / street 2-year max 281611 (127 Vincent Rd, 30 May 2025, https://domovita.co.uk/sold-prices/street/s7/vincent-road) = 76%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S7 sector 2-year max not checked; score 5 needs a sector sale above 307000, which is very likely in S7 (est.)"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1207 sq ft = 112 m2 per listing https://www.zoopla.co.uk/for-sale/details/74145019/"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms per listing; room sizes not published, so the 11.5 m2 test is unconfirmed"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Offshot kitchen beside rear dining room per listing; one knock-through likely; plan not seen"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Larger-than-average rear garden per listing (length unknown); loft and neighbour extensions unknown"},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through needs steel and building control; rewire and heating condition unknown"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Strip-out, kitchen, bathroom, knock-through and decoration: about 4 to 6 months (est.)"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; roof, damp and cellar not stated; three floors; cause of any fault unclear"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Two room-to-rent adverts on Vincent Road (https://primelocation.com/to-rent/details/67392428) and many leasehold terrace sales; owner-occupied share and fronts not checked"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Endcliffe Park walk not measured; est. 10 to 15 minutes"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "London Road and Abbeydale Road amenities per listing; big supermarket distance est. 10 to 15 minutes"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking likely; permit status and slope not checked"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "1207 sq ft over three floors per listing; light, ceiling height and period features not stated"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front exterior photo exists (not viewable); bay, stone and front garden not stated"}
+  ],
+  "total": 67,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 215000 equals the recent street median, so the 0.9V discount plus about 60000 of works gives a margin near minus 94000 unless done-up value is well above the comps.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74145019/",
+    "https://www.zoopla.co.uk/for-sale/details/71238566",
+    "https://www.rightmove.co.uk/house-prices/S7-1BW.html",
+    "https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+    "https://housemetric.co.uk/house-prices/Vincent-Road/S7-1BX/?imperial=T",
+    "https://primelocation.com/to-rent/details/67392428"
+  ]
+}

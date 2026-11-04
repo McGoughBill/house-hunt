@@ -1,0 +1,51 @@
+{
+  "id": "H053-s7-vincent-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://media.rightmove.co.uk/15k/14323/159212978/14323_33727897_DOC_00_0011.pdf",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7 (Nether Edge), Vincent Road S7 1BW per agent particulars: https://media.rightmove.co.uk/15k/14323/159212978/14323_33727897_DOC_00_0011.pdf"},
+    "budget":    {"pass": true, "reason": "Asking 220000 is under 300000. Asking + 1.15W + C = 220000 + 86250 + 3000 = 309250, under 400000 (W est., see w_basis)."},
+    "tenure":    {"pass": true, "reason": "Listing says freehold (particulars PDF above). Conflict: Rightmove sold data tags 9 Vincent Rd leasehold for the 16 Jan 2026 sale: https://www.rightmove.co.uk/house-prices/S7-1BW.html. Check title."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam and dry rot. Listing says built at the turn of the century (est. standard build)."},
+    "vacant":    {"pass": true, "reason": "Listing: 'Vacant possession on completion' (particulars PDF above)."},
+    "hall":      {"pass": true, "reason": "Listing: 'Upon entering, you are greeted by two inviting reception rooms' (particulars PDF above), so the front door opens into a room, not a hall. Passes only if a hall can be made for 5000 or less: est. 3000 lobby, in W, not checked on a floorplan."}
+  },
+  "V": 215000,
+  "v_basis": "Same street, terraced, sold in last 2 years, subject excluded: 56 Vincent Rd S7 1BW, 25 Jul 2025, 215000 (freehold); 33 Vincent Rd S7 1BW, 12 Dec 2024, 200000 (freehold); 120 Vincent Rd S7 1BX, 15 Nov 2024, 230000 (leasehold). Median 215000. Sold data shows price only, so done-up status is est. Only 2 S7 1BW sales fall in the window, so the third is from the next postcode on the same street. Sources: https://www.rightmove.co.uk/house-prices/S7-1BW.html and https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+  "W": 75000,
+  "w_basis": "All est., before contingency: hall lobby 3000; single-storey rear extension of about 12 m2 to reach a 25 m2+ kitchen-diner 30000; kitchen 10000; rewire 6000; heating 4500; bathroom 4000; windows 5000; decor and floors 8000; cellar and damp check 1500; architect and building regs 3000. No survey, no floorplan, no photos checked.",
+  "C": 3000,
+  "margin": -115750,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 220000 / est. 89 m2 = 2472 per m2; V 215000 / 89 = 2416 per m2; ratio about 102%. Area est. from 9 Vincent Rd 2019 record, 89 sqm: https://resi.co.uk/house-prices/vincent-road-s7"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -115750 = 0.9 x 215000 - 1.15 x 75000 - 3000 - 220000 (V and W est.). Still -55800 at the top street sale of 281611."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 215000 / street max 281611 (127 Vincent Rd, 30 May 2025) = 76%: https://domovita.co.uk/sold-prices/street/s7/vincent-road"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S7 two-year sector max not checked. Any S7 max above 307000 puts V under 70%, which is very likely."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given. Est. 89 m2 from the 9 Vincent Rd record, which that source lists as semi-detached: https://resi.co.uk/house-prices/vincent-road-s7"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms listed (particulars PDF above), no room sizes. Assumed one is small."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Off-shot kitchen, dining room with cellar access (particulars PDF above). One knock-through alone is likely under 25 m2; the rear extension in W reaches the target."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Listing says only 'level and enclosed garden' (particulars PDF above). No garden length, loft or neighbour extension evidence."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Worst item is the single-storey rear extension in W. Rewire and heating add to it."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7 to 12 months for extension, rewire, heating, kitchen and bathroom."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar, roof and damp untested. Agent says services not tested (particulars PDF above). No survey seen."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Vincent Rd has many leasehold terrace sales in 2024 to 2026: https://www.rightmove.co.uk/house-prices/S7-1BW.html. Road character not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Est. 10 to 15 min walk to Endcliffe Park. Not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Est. 15 to 20 min walk to a large supermarket. Not measured."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking not stated. Assumed hard on-street parking, level."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Victorian end-terrace with two reception rooms (particulars PDF above). Light, ceiling height and period features not evidenced."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "End-terrace. Front brickwork, bay and front garden not described in the listing text."}
+  ],
+  "total": 52.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative even at the top street sale (-55800). The front door opens into a room. 9 Vincent Rd sold 16 Jan 2026 for 223000 and is listed again at 220000, so ask why it is back on the market.",
+  "sources": [
+    "https://media.rightmove.co.uk/15k/14323/159212978/14323_33727897_DOC_00_0011.pdf",
+    "https://www.rightmove.co.uk/house-prices/S7-1BW.html",
+    "https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+    "https://resi.co.uk/house-prices/vincent-road-s7"
+  ]
+}

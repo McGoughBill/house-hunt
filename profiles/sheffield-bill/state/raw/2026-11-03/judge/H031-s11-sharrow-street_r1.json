@@ -1,0 +1,53 @@
+{
+  "id": "H031-s11-sharrow-street",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74059183/",
+  "asking": 175000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S11 per listing (https://www.zoopla.co.uk/for-sale/details/74059183/). The OnTheMarket URL in the brief would not open (not on allowlist), so the house was matched by street, agent (Blundells Banner Cross) and price on Zoopla."},
+    "budget": {"pass": true, "reason": "Asking 175000 + 1.15 x W 60000 + C 3000 = 247000 (est.), under 400000."},
+    "tenure": {"pass": false, "reason": "Listing says 'short leasehold title of approx. 55 years remaining' (https://www.zoopla.co.uk/for-sale/details/74059183/). Gate needs freehold or 150+ years. Fails on evidence."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. It says only 'requiring a scheme of modernisation'."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state vacant possession. It says 'cash buyers only' and gives no chain status."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens."}
+  },
+  "V": 375000,
+  "v_basis": "No Sharrow Street sale in the last 2 years; latest in the data is 99 Sharrow Street, May 2022 (https://primelocation.com/house-prices/sheffield/sharrow-street/s11-8bz). Nearest like street used: Sharrow Vale Road leasehold terraces (https://domovita.co.uk/sold-prices/street/s11/sharrow-vale-road): 141 Sharrow Vale Road, 20 Jan 2026, £375,000; 145 Sharrow Vale Road, 16 Jan 2026, £390,000; 408 Sharrow Vale Road, 14 Nov 2025, £275,000. Median £375,000. Done-up status, beds and floor area are not shown, so V is est.",
+  "W": 60000,
+  "w_basis": "est., before 15% contingency; no survey or floorplan. Rewire 6000; heating 4500; kitchen 9000; bathroom 5000; windows 5000; damp, roof and cellar allowance 8000; insulation for EPC F 3000; decor, plaster and floors 9000; scaffold, skips and fees 4500; hall or knock-through allowance 6000. EPC F stated at https://www.zoopla.co.uk/for-sale/details/74059183/",
+  "C": 3000,
+  "margin": 90500,
+  "scores": [
+    {"n": 1,  "score": 5, "est": true,  "evidence": "Asking 175000 vs V 375000 = 47%. Floor area unknown, so equal m2 assumed; V comps unverified for condition."},
+    {"n": 2,  "score": 5, "est": true,  "evidence": "Margin 90500 (est.) = 0.9 x 375000 - 1.15 x 60000 - 3000 - 175000."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 375000 vs Sharrow Vale Road 2-yr max 461000 (161 Sharrow Vale Road, 11 Nov 2024) = 81%. No Sharrow Street sale in 2 yrs."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 375000 vs S11 2-yr max found 560000 (323 Sharrow Lane, 9 Feb 2026, https://domovita.co.uk/sold-prices/street/s11/sharrow-lane) = 67%. Partial data: 50 of 230 rows."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given. Est. 85 m2 for a 3-bed bay terrace. Sharrow Street comps 71-97 m2 (https://housemetric.co.uk/house-prices/Sharrow-Street/S11-8BY/?page=2)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms stated (https://www.zoopla.co.uk/for-sale/details/74059183/). Room sizes not given; est. one small."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Open-plan dining kitchen exists (https://www.zoopla.co.uk/for-sale/details/74059183/). Size not stated, so the 25 m2 target is unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Enclosed private rear garden, length not given (https://www.zoopla.co.uk/for-sale/details/74059183/). Loft and neighbour extensions not stated. Est. one weak."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "'Requiring a scheme of modernisation' and EPC F (https://www.zoopla.co.uk/for-sale/details/74059183/). Rewire and heating likely (est.)."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Full scheme (rewire, heating, kitchen, bath, insulation, decor) est. 7-12 months."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar and roof unknown. No serious flag in listing. Est. minor, cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "No street tenure or condition data found. Listing calls it a 'popular area' (marketing copy only)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park distance not checked. Est. 10-15 min walk to Endcliffe Park."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket distance not checked. Est. 15-20 min walk."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking not mentioned; front forecourt garden (https://www.zoopla.co.uk/for-sale/details/74059183/). Est. hard on-street parking, level."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay-window period terrace (https://www.zoopla.co.uk/for-sale/details/74059183/). Ceiling height and light not given."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Bay window and front forecourt (https://www.zoopla.co.uk/for-sale/details/74059183/). Facing material unknown."}
+  ],
+  "total": 78.6,
+  "verdict": "REJECT",
+  "biggest_risk": "Short lease (about 55 years left) fails the 150-year gate; lenders often refuse or price short leases, which fits the 'cash buyers only' wording, and a lease extension adds cost (est.).",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74059183/",
+    "https://www.zoopla.co.uk/for-sale/details/72785527",
+    "https://domovita.co.uk/sold-prices/street/s11/sharrow-vale-road",
+    "https://domovita.co.uk/sold-prices/street/s11/sharrow-lane",
+    "https://housemetric.co.uk/house-prices/Sharrow-Street/S11-8BY/?page=2",
+    "https://primelocation.com/house-prices/sheffield/sharrow-street/s11-8bz"
+  ]
+}

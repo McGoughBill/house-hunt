@@ -1,0 +1,53 @@
+{
+  "id": "H064-s8-chesterfield-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/88806300",
+  "asking": 230000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 (Woodseats) is an included area. Listing address: Chesterfield Road, Woodseats, S8."},
+    "budget": {"pass": true, "reason": "asking 230000 + 1.15 x W 69500 (79925) + C 3080 = 313005, under 400000."},
+    "tenure": {"pass": true, "reason": "Leasehold. Listing gives lease end 28/09/2786 (about 760 years, to verify). Ground rent and service charge not stated. No covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing is silent on vacant possession."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; the first room described is the living room. A hall partition is included in W (est. 4000)."}
+  },
+  "V": 238500,
+  "v_basis": "Median of the 3 most recent like-for-like terraced sales on Chesterfield Road, S8, in the 2 years to 2026-11-03: 549 Chesterfield Road, 11 Dec 2025, 231000; 537 Chesterfield Road, 9 May 2025, 238500; 919 Chesterfield Road, 14 Mar 2025, 330000. est.: none could be confirmed as done-up. 537 has an EPC D (58) inspected 18 Nov 2024. 921 Chesterfield Road (EPC D 2023, no refurbishment wording) sold 23 Jan 2025 at 226000 and was not in the three. 851 (145000) and 628a (110000) excluded as not comparable.",
+  "W": 69500,
+  "w_basis": "est. before contingency, from listing room sizes (floorplan image not readable): knock-through of living room and kitchen with steel and builder's work 9000; kitchen 13000; bathroom 6500; WC refit 1500; rewire 6000; heating 4500; hall partition 4000; plaster and decor 11000; flooring 4000; joinery and stairs 3000; roof and damp allowance 3000; skip, scaffold and project management 4000. Cellar not costed. Total 69500 (est.).",
+  "C": 3080,
+  "margin": -98355,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. 2233/m2 as bought (230000 / est. 103 m2) vs est. 2315/m2 done-up (V over same area): 96%, above the 85% band."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -98355 (0.9 x 238500 - 1.15 x 69500 - 3080 - 230000)."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 238500 is 72% of the 330000 top same-type sale on the street in 2 years (919 Chesterfield Road, Mar 2025)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V is under 7% of the S8 0 sector top sale in 2 years (3606800, 798 Chesterfield Road, Feb 2025; flats, so a weak comparison)."},
+    {"n": 5,  "score": 5, "est": true,  "evidence": "est. about 103 m2: six listed rooms total 82.7 m2 plus est. 20 m2 for bath, WC, hall and stairs; cellar excluded; same-street EPCs 107 to 115 m2 (streetguide)."},
+    {"n": 6,  "score": 5, "est": false, "evidence": "Three bedrooms of 13.7, 16.3 and 16.3 m2 (listing dimensions); all three at least 11.5 m2."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Living 13.5 m2 and kitchen 15.6 m2 (listing); one knock-through gives about 29 m2 kitchen-diner. Adjacency est., floorplan not readable."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear yard only (listing), so a 10 m garden is unlikely; second-floor bedrooms suggest the loft is already converted (est.); neighbours unknown."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through likely needs steel (est.), the hardest item; rewire and heating also est. needed."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 5 months of works (knock-through, rewire, heating, kitchen, bathroom, decor) if no hidden defects."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Basement cellar with no damp information; 1900s roof, wiring and heating unknown; no survey or EPC rating shown (listing)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Chesterfield Road is part of the A61 and a shopping street (Wikipedia), so no main road fails. Owner-occupancy and letting boards unknown."},
+    {"n": 13, "score": 2, "est": true,  "evidence": "est. 15 to 20 min walk to Meersbrook Park; listing gives no house number, so the exact location is unknown."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Asda Woodseats is at 801 Chesterfield Road, on the same road (localopeningtimes); est. 10 to 15 min walk."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Listing: street parking to the front. Main road likely limits parking; slope unknown (Wikipedia notes an incline near Meersbrook)."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Listing says 'Well Presented' and 'Good Size Rooms'; ceiling height, light and period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "No exterior description in listing; terrace on the A61 (est. plain and tidy)."}
+  ],
+  "total": 61.6,
+  "verdict": "PASS",
+  "biggest_risk": "Done-up value is unverified: none of the street's recent terraced sales is confirmed as refurbished, so V 238500 may be an as-is price. On that V the margin is -98355 before finance costs; the deal only works if done-up sales near 330000 exist.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/88806300",
+    "https://domovita.co.uk/sold-prices/street/s8/chesterfield-road",
+    "https://housemetric.co.uk/30376893/S8-0SS/921+Chesterfield+Road",
+    "https://streetguide.co.uk/energy/s80rw",
+    "https://en.wikipedia.org/wiki/Chesterfield_Road_(Sheffield)",
+    "https://localopeningtimes.co.uk/asda/asda-woodseats-supermarket-woodseats-801-chesterfield-road-opening-hours.html"
+  ]
+}

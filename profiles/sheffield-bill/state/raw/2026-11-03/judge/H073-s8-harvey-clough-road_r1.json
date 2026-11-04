@@ -1,0 +1,51 @@
+{
+  "id": "H073-s8-harvey-clough-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74529468/",
+  "asking": 285000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8, Norton Lees (Zoopla 74529468: Harvey Clough Road, Sheffield S8; sold data for S8 8PG and 8PE)."},
+    "budget":    {"pass": true, "reason": "Asking 285000 + 1.15 x W 24000 (27600) + C 3000 = 315600, under 400000. Asking is under 300000 (Zoopla guide is 285000-300000)."},
+    "tenure":    {"pass": true, "reason": "Freehold (Zoopla 74529468)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. Rewire and re-plumb are stated as done."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state vacant possession. It says chain free and 'current owners' only."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens or describe a hall."}
+  },
+  "V": 155000,
+  "v_basis": "Median of the 3 most recent terraced sales on Harvey Clough Road in the last 2 years: 58 (09 Apr 2026) 135000; 28 (05 Dec 2025) 155000; 84 (30 Oct 2025) 165000. 34 (03 Mar 2025) 195000 is also in the window and was left out by the 3-sale rule. None is confirmed done-up, so V may understate a finished value (est.). Sources: OnTheMarket and Rightmove sold-price pages for Harvey Clough Road.",
+  "W": 24000,
+  "w_basis": "est. from listing text only; no floorplan dimensions or photos were viewed. Listing already has rewire, re-plumb, boiler, modern kitchen and bathroom. Items: decor and flooring 12000; kitchen-diner opening, possibly steel 6000; hall/entrance 3000; room 3 fit-out 1000; garden tidy 2000. C = stamp duty 0 (first-time buyer, nil to 300000) + fees 3000.",
+  "C": 3000,
+  "margin": -176100,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 285000 is 184% of V 155000 on a price basis; floor area not given, so the £/m² split is est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 155000 - 1.15 x 24000 (W est.) - 3000 - 285000 = -176100."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 155000 is 37% of the street max sale 419000 (94 Harvey Clough Rd semi, 8 Nov 2024), under 80%."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "S8 max sale not searched; it is at least the street max 419000, so V is 37% or less of it, under 70%."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est. 80-90 m2 for a 3-bed stone mid-terrace with rear extension."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says 3 bedrooms; the room over the driveway is 'suitable as a bedroom or home study', so likely one small room (est.)."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Kitchen in rear extension beside a dining room with French doors; one knock-through gives a kitchen-diner (layout est.)."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Garden is extensive and tiered, length not given; loft not mentioned; neighbours' extensions not stated; est. 1 of 3."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Rewire, re-plumb and boiler already done (listing); remaining work is decor, floors, garden and a kitchen-diner opening that may be structural (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months for decor, floors, garden and the kitchen-diner opening; hall scope unknown."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; cellar off dining room (damp risk, est.); roof and damp not mentioned; minor, cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Road mixes houses with flat blocks (e.g. 104, 147 Harvey Clough Rd); letting share and traffic not stated (est.)."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing says Graves Park is nearby; walk est. 5-10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "No big supermarket named in listing; walk est. 15-20 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Driveway referenced (room over it); slope not stated; Norton Lees is hilly (est.)."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Stone fireplace, bay window, 'light and airy', wrap-around windows in extension; ceiling heights not stated."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Stone-fronted with bay window (Zoopla); front garden and terrace uniformity not stated."}
+  ],
+  "total": 63,
+  "verdict": "PASS",
+  "biggest_risk": "Asking is about 1.8x recent street terrace sales: margin -176100, so break-even needs a finished V of about 350667. The Rightmove link 94397208 could not be opened; the match rests on Zoopla (haus, 285000, 3-bed freehold).",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74529468/",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/harvey-clough-road/",
+    "https://www.onthemarket.com/uk-house-prices/harvey-clough-road-sheffield-s8/",
+    "https://www.rightmove.co.uk/house-prices/s8-8pg.html"
+  ]
+}

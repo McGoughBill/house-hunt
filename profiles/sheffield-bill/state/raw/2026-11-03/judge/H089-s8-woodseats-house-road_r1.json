@@ -1,0 +1,50 @@
+{
+  "id": "H089-s8-woodseats-house-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-woodseats-house-road-woodseats-sheffield-s8-8qf-s8/34996043/",
+  "asking": 280000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 8QF, Woodseats, which is in the S8 gate area (Hunters listing)."},
+    "budget":    {"pass": true, "reason": "asking 280000 + 1.15W 20125 + C 3000 = 303125, under 400000 (W and C est.)."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold, 678 years left, ground rent £7 (Hunters); no covenant dispute mentioned and none checked."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam or dry rot; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says no chain and ready to move in, but does not state the house is empty."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing says you enter straight into the bay-windowed living room (first limb fails); a hall for £5k or less (est. £4500) is not shown to be impossible, and the floorplan could not be read."}
+  },
+  "V": 260000,
+  "v_basis": "Same-street terrace sales, 3 bed, leasehold, median of the 3 most recent in the last 2 years: 20 Woodseats House Road, 4 Mar 2026, £272,500; 31 Woodseats House Road, 16 Jan 2026, £260,000; 49 Woodseats House Road, 8 Aug 2025, £260,000. Median £260,000. Sold records do not show condition, so done-up status is unverified (est.). Other in-window terrace sales not used: 39 (27 Mar 2025, £270,000), 32 (12 Sep 2025, £250,000, beds not shown), 14 (27 Mar 2025, £200,000), 27 (4-bed freehold, 6 Nov 2025, £297,650).",
+  "W": 17500,
+  "w_basis": "All est.: floorplan image could not be fetched and photos could not be viewed, so works are priced from listing text only, which says renovated throughout. Hall partition to make an entrance hall 4500; second-floor bedroom sign-off and fire/escape work 3000; redecoration and flooring throughout 7000; electrical check and remedial 2000; boiler service and minor items 1000. Total 17500 before the 1.15 contingency in the margin formula.",
+  "C": 3000,
+  "margin": -69125,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 280000 divided by V 260000 is about 108% on the same-area assumption; floor area not given."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -69125 = 0.9 x 260000 - 1.15 x 17500 - 3000 - 280000."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 260000 divided by street max 297650 (27 Woodseats House Road, 4-bed freehold, Nov 2025) is about 87%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 260000 divided by S8 max seen 440000 (66 Bromwich Road, Jun 2026) is about 59%; the sample was not exhaustive, so the true max could only lower the ratio."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; estimated about 85 m2 for a 3-bed mid-terrace."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Three bedrooms, the third on the second floor; no sign-off or room size stated, so attic sign-off is needed."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Open-plan dining kitchen already exists per listing; size not stated, so the 25 m2 spec is unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden size not given (south-facing, raised deck); second-floor room already exists, so loft headroom is unclear; neighbours not checked."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Hall partition, second-floor room sign-off, and unknown electrics and heating; not decor-only."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Estimated 4 to 6 months: hall, sign-off, redecoration and electrical check."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey; cellar access noted in listing; loft room sign-off and cellar damp are open unknowns."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Mid-terrace on a residential street with many leasehold sales; letting boards and rat-run not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not verified; estimated 10 to 15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not verified; estimated 15 to 20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking not mentioned in listing; slope not checked; on-street parking assumed."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay window and fireplace noted in listing; light and ceiling height not stated; photos not viewed."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay window present; facing material and front garden not stated; photos not viewed."}
+  ],
+  "total": 56,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 280000 is above the same-street 3-bed comp median of 260000, so the margin is about -69125 before any unknown loft-room sign-off or hall cost; the front door opens into the living room, so the hall gate rests on an unverified works estimate.",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-woodseats-house-road-woodseats-sheffield-s8-8qf-s8/34996043/",
+    "https://www.rightmove.co.uk/house-prices/s8-8qf.html",
+    "https://www.rightmove.co.uk/house-prices/woodseats.html"
+  ]
+}

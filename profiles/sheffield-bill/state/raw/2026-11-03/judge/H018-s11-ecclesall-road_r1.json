@@ -1,0 +1,52 @@
+{
+  "id": "H018-s11-ecclesall-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/73054531/",
+  "asking": 285000,
+  "floor_area_m2": 106,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11 Ecclesall. Listing: https://app.zoopla.co.uk/for-sale/details/73054531/"},
+    "budget":    {"pass": true, "reason": "asking 285000 <= 300000; asking + 1.15W + C = 285000 + 40250 + 3000 = 328250 <= 400000. W is est."},
+    "tenure":    {"pass": true, "reason": "Freehold, ground rent 0 (https://app.zoopla.co.uk/for-sale/details/73054531/)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on occupancy"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing silent on front door layout; Victorian terrace probably has a hall, not seen"}
+  },
+  "V": 275000,
+  "v_basis": "est. Median of 3 most recent terraced sales on Ecclesall Road, last 2 years: 791 Ecclesall Rd 26 Feb 2026 £250,000; 811 Ecclesall Rd 16 Jan 2026 £275,000; 532 Ecclesall Rd 13 Oct 2025 £320,000. Done-up status not verifiable from sold data; none show floor area. Sources: https://www.rightmove.co.uk/house-prices/s11/ecclesall-road.html and https://domovita.co.uk/sold-prices/street/s11/ecclesall-road",
+  "W": 35000,
+  "w_basis": "est. Kitchen knock-through from dining room with steel beam ~12000; kitchen fit ~10000; bathroom refresh ~4000; heating and electrics check, EPC D upgrade ~5000; decor and flooring ~4000. Contingency sits in the 1.15 factor. Listing says 'finished internally to the very highest of standards' (agent claim, unverified).",
+  "C": 3000,
+  "margin": -80750,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 285000 is 104% of V 275000; no comp floor areas to get £/m2 exactly. Listing £249/sq ft (https://app.zoopla.co.uk/for-sale/details/73054531/)"},
+    {"n": 2,  "score": 1, "est": false, "evidence": "Margin = 0.9*275000 - 1.15*35000 - 3000 - 285000 = -80750"},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 275000 vs 2-yr street max 650000 (902-904 Ecclesall Rd, Nov 2025) = 42%; max terraced 452400 (735) = 61%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S11 sector 2-yr max not checked; V far below S11 high-end sales seen in search results"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1145 sq ft = 106 m2 per listing (https://app.zoopla.co.uk/for-sale/details/73054531/)"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says three double bedrooms; no room dimensions, so the 11.5 m2 test is unknown"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Dining room leads to rear off-shot kitchen; one knock-through should give a kitchen-diner. Combined size unknown"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden size not given; loft and neighbour extensions not checked"},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Kitchen knock-through likely needs steel beam; EPC D may mean heating work"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months of works before living there"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or flags in listing; 'no expense spared' claim unverified"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Ecclesall Road is a main road (fail). Flats and mixed letting on the street in sold data (https://domovita.co.uk/sold-prices/street/s11/ecclesall-road)"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing says close to Endcliffe Park; walk time est. 5-10 min"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Walk to big supermarket est. 10-15 min; not checked"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking per listing; slope and permit parking not checked"},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay-fronted lounge, Victorian, three floors (listing marketing). Light and ceilings not seen"},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Victorian bay terrace per listing; stone or brick, front garden and terrace condition not seen"}
+  ],
+  "total": 62.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -80750: asking 285000 sits above the est. finished value of 275000, so buying and refurbing loses money on these numbers.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/73054531/",
+    "https://app.zoopla.co.uk/for-sale/details/73054531/",
+    "https://www.primelocation.com/for-sale/details/73054531/",
+    "https://www.rightmove.co.uk/house-prices/s11/ecclesall-road.html",
+    "https://domovita.co.uk/sold-prices/street/s11/ecclesall-road"
+  ]
+}

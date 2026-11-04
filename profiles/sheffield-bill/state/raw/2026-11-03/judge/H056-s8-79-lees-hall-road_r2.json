@@ -1,0 +1,52 @@
+{
+  "id": "H056-s8-79-lees-hall-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/93636120",
+  "asking": 300000,
+  "floor_area_m2": 84,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 9JL, Norton Lees, S8 (https://www.rightmove.co.uk/properties/93636120)"},
+    "budget": {"pass": true, "reason": "asking 300000 + 1.15 x W 8000 (9200) + C 3000 = 312200, under 400000; W is est."},
+    "tenure": {"pass": true, "reason": "leasehold, 962 years remaining, ground rent £6.10 (https://www.rightmove.co.uk/properties/93636120)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not say whether the house is vacant or tenanted"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing says 'The moment you walk through the door into the size extension' and describes no hall; floorplan text not readable; a hall may be possible for est. under £5k"}
+  },
+  "V": 268000,
+  "v_basis": "Median of 3 most recent semi-detached sales on Lees Hall Road in last 2 yrs: 115 Lees Hall Road 13 Feb 2026 £300,000 (4 bed); 101 Lees Hall Road 24 Sep 2025 £180,000 (3 bed); 117 Lees Hall Road 15 Jul 2025 £268,000 (3 bed). Done-up status not verifiable from sold records. Other 2-yr sales: 105 Lees Hall Road 20 Jan 2025 £255,000; 99 Lees Hall Road 31 Jan 2025 £340,000. Median of all five is also £268,000. Detached 121 Lees Hall Road (6 Mar 2026, £250,000) excluded as a different type.",
+  "W": 8000,
+  "w_basis": "est. hall lobby partition ~£4,000; decor and floor refresh ~£3,000; snagging and misc ~£1,000. No survey, no room sizes and no readable floorplan, so no kitchen or bedroom works priced. Contingency added by the 1.15 margin factor.",
+  "C": 3000,
+  "margin": -71000,
+  "scores": [
+    {"n": 1,  "score": 1, "est": false, "evidence": "As bought £3,571/m² (300000/84) vs done-up street median £3,820/m² (117: £3,884; 105: £3,592; 99: £3,820); ratio 93%, above 85% for any comp set in window (https://housemetric.co.uk/house-prices/Lees-Hall-Road/S8-9JL)"},
+    {"n": 2,  "score": 1, "est": false, "evidence": "0.9 x 268000 − 1.15 x 8000 − 3000 − 300000 = −71000; still negative at W 0 (−61800) and at size-adjusted V 84 x £3,820 = £320,880 with W 8000 (about −23400)"},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 268000 ÷ street max 340000 (99 Lees Hall Road, 31 Jan 2025) = 79%; if 115 at £300,000 is in the V set the ratio is 88% and the score is 4 (https://www.rightmove.co.uk/house-prices/S8-9JL.html)"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 268000 ÷ S8 9 sector high 527500 (8 Meersbrook Road, Sep 2026, first page of 73, not price-sorted) = 51%; a higher sector max only lowers the ratio (https://www.doogal.co.uk/PropertySales?area=S8+9)"},
+    {"n": 5,  "score": 3, "est": false, "evidence": "Listing shows 899 sq ft / 84 m², in the 80–90 m² band (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms listed as 'three well proportioned bedrooms'; sizes not published and floorplan not readable, so two ≥ 11.5 m² not confirmed (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Modern kitchen with bay window in the side extension, next to the living room; no dining area or size stated, so kitchen-diner 25 m²+ not confirmed (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Tiered rear garden backs onto woodland (length not stated, est. 10 m+); loft and neighbour extensions unverified, so one headroom factor assumed (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 9,  "score": 5, "est": true,  "evidence": "Listing presents the house as immaculate and ready to move in; est. work limited to hall partition, decor and flooring; no survey so rewire or heating unknown (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 10, "score": 5, "est": true,  "evidence": "est. 3 months or less for hall partition and decor; listing says no work needed (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, EPC rating or damp, roof or cellar information published; default to minor with cause unclear (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Listing describes a short bus ride to the city centre, suggesting a bus through-road; letting boards and tidy fronts not checked; est. one fail (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing names Graves and Meersbrook parks as close; walk time not measured, est. 5–10 min (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "No supermarket walk time published; est. 15–20 min to a big supermarket, not checked"},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Private driveway and on-street parking listed; slope not stated and Norton Lees is hilly (est.) (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Living room is bright with an open staircase; ceiling height, period features and wood scope not stated (https://www.rightmove.co.uk/properties/93636120)"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front elevation and front garden not described in listing text; est. plain and tidy (https://www.rightmove.co.uk/properties/93636120)"}
+  ],
+  "total": 62.2,
+  "verdict": "PASS",
+  "biggest_risk": "Priced at done-up level (about 93% of street £/m²) with a negative margin of about £71k, so there is no refurb gain; hall entrance and bedroom sizes are unconfirmed.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/93636120",
+    "https://housemetric.co.uk/house-prices/Lees-Hall-Road/S8-9JL",
+    "https://www.rightmove.co.uk/house-prices/S8-9JL.html",
+    "https://housemetric.co.uk/30859636/S8-9JL/117+Lees+Hall+Road",
+    "https://www.doogal.co.uk/PropertySales?area=S8+9"
+  ]
+}

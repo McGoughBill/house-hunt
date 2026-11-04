@@ -1,0 +1,50 @@
+{
+  "id": "H090-s8-woodseats-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/90052179",
+  "asking": 215000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8, Woodseats Road, Woodseats (https://www.rightmove.co.uk/properties/90052179)"},
+    "budget":    {"pass": true, "reason": "asking 215000 + 1.15 x W 55500 (63825) + C 3000 = 281825, under 400000"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: listed as leasehold; lease length, ground rent and covenants not stated, solicitor to check"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on vacant possession, tenancy or chain"},
+    "hall":      {"pass": true, "reason": "unconfirmed: lounge is the front room and an inner hallway leads to stairs, so front door position is not stated; a hall by partition is est. 4000 in W, under the 5000 limit"}
+  },
+  "V": 185200,
+  "v_basis": "3 most recent terraced sales on Woodseats Road in the last 2 years: 133 Woodseats Rd 19 Jun 2026 £185,200; 179 Woodseats Rd 8 May 2026 £197,500; 90 Woodseats Rd 30 Apr 2026 £173,000. Median £185,200. Sold records give no condition, so done-up status is unverified (est.). Source: https://rightmove.co.uk/house-prices/s8/woodseats-road.html",
+  "W": 55500,
+  "w_basis": "est., before contingency: rewire 7000; hall partition 4000; loft sign-off and remedial 5000; kitchen 10000; bathroom 6000; decor and flooring 9000; heating 2500; cellar damp check and works 3000; kitchen-diner knock-through 4500; garden 2000; fees 2500",
+  "C": 3000,
+  "margin": -115145,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "asking 215000 is 116% of V 185200; floor area not given so per-m2 ratio assumed equal (est.)"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "margin -115145 at W 55500; still negative at W=0 because 0.9V 166680 is below asking plus C 218000"},
+    {"n": 3,  "score": 4, "est": false, "evidence": "V 185200 / street max 225500 (72 Woodseats Rd, 2 May 2025) = 82%"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 185200 / S8 0 sector max 440000 (66 Bromwich Rd S8 0GG, 15 Jun 2026) = 42%"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "floor area not given; est. 85-90 m2 from layout, cellar excluded"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "3 bedrooms listed: front double, rear single, second-floor double under loft conversion with no sign-off stated"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "kitchen-diner exists at rear with garden door per listing; size against 25 m2 not verified"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "large enclosed rear garden per listing (length est. 10 m+); loft already converted; neighbours' extensions unknown"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "est. rewire or heating needed; hall partition; loft sign-off; plus decor, kitchen and bathroom"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 7-12 months of works (rewire, hall, kitchen, bathroom, loft, cellar)"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "no survey; loft conversion sign-off not stated and a cellar is present, so one serious unknown est."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Woodseats Road is a main road (fails the no-main-road test, est.); letting and owner-occupier mix unknown"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Graves Park est. 10-15 min walk, not verified"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "big supermarket est. 15-20 min walk, not verified"},
+    {"n": 15, "score": 2, "est": true,  "evidence": "parking not stated (ask agent); main-road frontage likely restricts on-street parking (est.)"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "front lounge with large window and feature fireplace per listing; ceiling height and light not given"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "front elevation not described in listing; plain terrace assumed"}
+  ],
+  "total": 53.4,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 215000 is 116% of comparable sales (V 185200), so margin is about -115k before any works overrun; leasehold length, loft sign-off and front door position are unconfirmed.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/90052179",
+    "https://rightmove.co.uk/house-prices/s8/woodseats-road.html",
+    "https://www.rightmove.co.uk/house-prices/Woodseats.html"
+  ]
+}

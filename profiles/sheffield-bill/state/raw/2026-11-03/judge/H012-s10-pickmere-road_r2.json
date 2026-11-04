@@ -1,0 +1,53 @@
+{
+  "id": "H012-s10-pickmere-road",
+  "run": 2,
+  "live": false,
+  "listing_url": "https://www.onthemarket.com/details/18534972",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, per OTM 18534972 (Pickmere Road, S10 1GY)."},
+    "budget":    {"pass": true, "reason": "unconfirmed: works W not priced; listing says refurbished in last 2-3 years, so W est. small. 300000 + 1.15W + 3000 est. about 303000, under 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold, per OTM 18534972."},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam, or dry rot mentioned; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacant possession not stated in OTM 18534972."},
+    "hall":      {"pass": true, "reason": "unconfirmed: Saxton Mee 18544989 says front door opens into bay-windowed lounge, no hall mentioned; cost of a hall not priced."}
+  },
+  "V": null,
+  "v_basis": "No done-up same-street sales confirmed; not computed as house is not live. Pickmere Rd sales since late 2024 (domovita.co.uk, Land Registry): no. 51 (15 Apr 2026) 228000 freehold terrace; no. 88 (22 Aug 2025) 230000 leasehold terrace; no. 8 (14 Feb 2025) 195000 freehold terrace. Condition of these not known.",
+  "W": null,
+  "w_basis": "Not priced: listing is marketed as already refurbished (upgrades in last 2-3 years), so no works estimated.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: listing sold STC"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: listing sold STC"}
+  ],
+  "total": null,
+  "verdict": "REJECT",
+  "biggest_risk": "Not live: OTM marks it Sold STC and no longer on market; Rightmove 171295850 could not be read, so not scored.",
+  "sources": [
+    "https://www.onthemarket.com/details/18534972",
+    "https://www.onthemarket.com/details/18544989",
+    "https://www.zoopla.co.uk/for-sale/details/72220522",
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-pickmere-road-crookes-sheffield-s10/34847622/",
+    "https://primelocation.com/house-prices/sheffield/pickmere-road",
+    "https://domovita.co.uk/sold-prices/street/s10/pickmere-road"
+  ]
+}

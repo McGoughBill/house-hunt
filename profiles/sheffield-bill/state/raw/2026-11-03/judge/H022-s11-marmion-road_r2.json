@@ -1,0 +1,51 @@
+{
+  "id": "H022-s11-marmion-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield",
+  "asking": 210000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11 (Ecclesall), per listing address and prompt"},
+    "budget":    {"pass": true, "reason": "asking 210000 <= 300000; asking + 1.15W + C = 210000 + 74750 + 3000 = 287750 <= 400000 (W and C est.)"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: Saxton Mee lists tenure as Unknown; brief says freehold; Marmion Rd sales record freehold"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam or dry rot mentioned; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state occupancy or vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position not described; listing says living room leads through to kitchen-diner"}
+  },
+  "V": 359200,
+  "v_basis": "Marmion Rd has only one sale in the 2-year window (181 Marmion Rd, 18 Jul 2025, 230000), so the nearest like street is used: Murray Rd S11 7GH terraces. 133 Murray Rd, 8 Apr 2026, 360000 (freehold); 109 Murray Rd, May 2026, 359200 (leasehold); 134 Murray Rd, Mar 2026, 230000 (freehold). Median 359200. Done-up status of these sales is not verified; range is 230000 to 360000. est.",
+  "W": 65000,
+  "w_basis": "est. Full refit to brief spec: kitchen and kitchen-diner 12000; bathroom and downstairs WC 7000; rewire 6000; heating and boiler 4000; windows and doors 6000; decor, floors and plaster 10000; hall or front-door rearrangement 5000; attic bedroom and dormer compliance 4000; structural and opening-up allowance 5000; scaffold, skips and fees 6000. Before 15% contingency (added in margin formula). Floorplan image not readable from text; cost is a guess.",
+  "C": 3000,
+  "margin": 35530,
+  "scores": [
+    {"n": 1,  "score": 5, "est": true,  "evidence": "Asking 210000 is 58% of V 359200; floor area not given so assumes same area as comparables. est."},
+    {"n": 2,  "score": 4, "est": false, "evidence": "0.9V - 1.15W - C - asking = 323280 - 74750 - 3000 - 210000 = 35530, in the 25k-40k band."},
+    {"n": 3,  "score": 1, "est": false, "evidence": "V 359200 is 156% of the only Marmion Rd sale in 2 years (230000, 18 Jul 2025, domovita)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S11 2-year sales include Ringinglow Gardens detached 1060500 (Apr 2026, doogal); V is under 70% of that. Sector scan covered 1 of 81 pages. est."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given; 3-storey terrace with cellar and attic bedroom, so guessed 90-100 m2. est."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Two first-floor bedrooms plus attic bedroom with dormer (Saxton Mee); attic room size and sign-off unknown. est."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Saxton Mee: spacious kitchen/dining room already exists. Size vs 25 m2 spec not confirmed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear garden is a low-maintenance paved courtyard, so likely under 10 m; extension not mentioned. est."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Kitchen, bathroom, decor and cellar work; rewire or heating likely. Age and condition not given. est."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Estimated 4-6 months for refit to brief spec. est."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar access from kitchen; no survey or damp, roof or cellar report. est."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Residential street with 9 recorded sales; tenure mix and letting boards not checked. est."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Endcliffe Park roughly 10-15 min walk from S11 8 (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Ecclesall Road shops nearby; big supermarket walk estimated 15-20 min. est."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking assumed hard in S11; slope not described. est."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing: 'requiring some modernisation', dormer 'bright'; period features not listed. est."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front elevation not described; terrace type only. est."}
+  ],
+  "total": 74.2,
+  "verdict": "PASS",
+  "biggest_risk": "Guide is 210000 to 220000 per Saxton Mee, and V rests on Murray Rd sales of unknown condition; Marmion Rd's only recent sale (230000) gives a margin near -80750.",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/3154-marmion-road-ecclesall-sheffield",
+    "https://domovita.co.uk/sold-prices/street/s11/marmion-road",
+    "https://primelocation.com/house-prices/sheffield/marmion-road",
+    "https://www.doogal.co.uk/PropertySales?area=S11+7"
+  ]
+}

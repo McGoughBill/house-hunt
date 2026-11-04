@@ -1,0 +1,50 @@
+{
+  "id": "H088-s8-upper-valley-road",
+  "run": 1,
+  "live": false,
+  "listing_url": "https://www.rightmove.co.uk/properties/93995574",
+  "asking": 275000,
+  "floor_area_m2": 107,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 Meersbrook, per https://www.rightmove.co.uk/properties/93995574"},
+    "budget": {"pass": true, "reason": "unconfirmed: asking 275000 is under 300000 and C is 3000, but W was not priced so the 1.15W test against 400000 was not run"},
+    "tenure": {"pass": true, "reason": "leasehold, lease ends 24 Sept 2695 (669 years) and ground rent 0 per year, per https://www.onthemarket.com/details/20487997/ and https://www.redbrik.co.uk/properties-for-sale/upper-valley-road-sheffield-s-8/40de34a7-61fb-47ef-9931-4b27a2f7f01e; no covenant dispute stated"},
+    "structure": {"pass": true, "reason": "unconfirmed: no survey or structural report on any listing page; described only as converted and extended"},
+    "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated on Rightmove, Redbrik or OnTheMarket"},
+    "hall": {"pass": true, "reason": "unconfirmed: hall and front door position not described; the front lounge is at the front so the door may open straight into it"}
+  },
+  "V": null,
+  "v_basis": "not searched: house not live, step 1 stop",
+  "W": null,
+  "w_basis": "not priced: house not live, step 1 stop. Listing says converted and extended with modern basement bathroom and open-plan dining kitchen; no floorplan text available",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: listing shows SOLD STC on Redbrik and OnTheMarket"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Status conflict: Redbrik and OnTheMarket show SOLD STC (seller rejects other offers) while the Rightmove copy shows for sale; treated as not live and not scored.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/93995574",
+    "https://www.redbrik.co.uk/properties-for-sale/upper-valley-road-sheffield-s-8/40de34a7-61fb-47ef-9931-4b27a2f7f01e",
+    "https://www.onthemarket.com/details/20487997/"
+  ]
+}

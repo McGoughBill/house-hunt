@@ -1,0 +1,53 @@
+{
+  "id": "H041-s7-carter-knowle-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/160366685",
+  "asking": 335000,
+  "floor_area_m2": 82,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "S7. Carter Knowle Road, Carterknowle, S7 (https://www.rightmove.co.uk/properties/160366685). Brochure gives 84 Carter Knowle Road, S7 2DZ (https://media.rightmove.co.uk/33k/32340/160366685/32340_33798265_DOC_02_0004.pdf)."},
+    "budget": {"pass": false, "reason": "Asking 335000 is over the 300000 limit. Brochure attached to the listing says Offers Around 335000 (https://media.rightmove.co.uk/33k/32340/160366685/32340_33798265_DOC_02_0004.pdf); the portal shows no price. Also asking + 1.15W + C = 335000 + 69000 + 4750 = 408750 (est.), over 400000."},
+    "tenure": {"pass": true, "reason": "Leasehold, 800 years from 1933, ground rent 6 a year (https://www.rightmove.co.uk/properties/160366685). About 707 years left (est.), well over 150. No covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing and brochure are silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says no chain but does not say vacant possession (https://www.rightmove.co.uk/properties/160366685)."},
+    "hall": {"pass": true, "reason": "Front door appears to open into an entrance hall, not straight into the lounge (https://www.rightmove.co.uk/properties/160366685)."}
+  },
+  "V": 425000,
+  "v_basis": "Only 2 same-street semi sales in the last 2 years, so I used the nearest like street, Bannerdale Road (3-bed semis): 145 Bannerdale Road, 23 Mar 2026, 382500; 89 Bannerdale Road, 17 Jun 2026, 425000; 211 Bannerdale Road, 2 Feb 2026, 447000. Median 425000. Done-up status and bedroom counts are not in the sold data (est.). Same-street sales were higher: 36 Carter Knowle Road, 17 Dec 2024, 510000; 35a Carter Knowle Road, 25 Feb 2025, 545000. 8 Carter Knowle Road, 15 Oct 2024, 380000 falls just outside the window.",
+  "W": 60000,
+  "w_basis": "est. Itemised 50000: knock-through kitchen-diner with steel and making good 15000; full rewire 5000; heating 3000; bathroom and WC 7000; decoration, floors, plastering and doors 15000; fees, skip, scaffold and building control 5000. Plus est. 10000 for unknown roof, windows, drainage and damp. No floorplan dimensions were available, so this is an estimate.",
+  "C": 4750,
+  "margin": -26250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 335000 / 82 m2 = 4085 per m2. Bannerdale comp floor areas not found; at 90 m2 the done-up rate is about 4722 per m2, so as-bought is about 86% of done-up (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -26250 = 0.9 x 425000 - 1.15 x 60000 - 4750 - 335000. V and W are estimates."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 425000 is about 78% of the street max 2-year sale, 545000 (35a Carter Knowle Road, 25 Feb 2025, https://www.rightmove.co.uk/house-prices/S7-2DW.html). V comes from another street, so est."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "V is about 78% of the S7 2-year max, 545000 (35a Carter Knowle Road). Band 70-80%. Full sector check not done."},
+    {"n": 5,  "score": 3, "est": false, "evidence": "82 m2 (880 sq ft) per https://www.rightmove.co.uk/properties/160366685. Band 80-90."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 beds listed: master double, rear double, rear single (https://www.rightmove.co.uk/properties/160366685). The single is small. No room sizes given, so band is one small (est.)."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Kitchen has a side door and no confirmed link to the dining room. Dining room has patio doors to the garden. Route to a 25 m2 kitchen-diner is probably side-return infill (est.)."},
+    {"n": 8,  "score": 4, "est": true,  "evidence": "Two of three: long rear garden (listing, not measured) and loft that could potentially convert (agent wording). Neighbours' extensions not checked."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Finished spec needs a kitchen-diner knock-through, probably with a steel (est.). Rewire and heating also likely. Most complex item sets the score."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 7-12 months including design, building control, structural work, rewire, heating, bathroom and decoration."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Listing is silent on damp, roof and cellar, and says only needs modernisation (https://www.rightmove.co.uk/properties/160366685). Cause unknown."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "Opposite Carterknowle School in a sought-after catchment (https://www.rightmove.co.uk/properties/160366685). Owner-occupation, letting boards and through traffic not checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Woodland overlooked from the rear bedroom (listing). No park walk time found; est. 5-10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "No walk time found; est. 15-20 min to a large food store."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Driveway and off-street parking (listing). Slope and level not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay windows and through lounge-dining room with patio doors (listing). Ceiling heights and period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Semi with front bay windows (listing). Brick, front garden and terrace match not described."}
+  ],
+  "total": 58.8,
+  "verdict": "REJECT",
+  "biggest_risk": "Asking 335000 breaks the 300000 budget gate. The margin is negative only on V taken from another street and an unsurveyed works cost; the same-street sales of 510000 to 545000 would turn it positive (about +50000 to +66000, est.).",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/160366685",
+    "https://media.rightmove.co.uk/33k/32340/160366685/32340_33798265_DOC_02_0004.pdf",
+    "https://www.rightmove.co.uk/house-prices/S7-2DX.html",
+    "https://www.rightmove.co.uk/house-prices/S7-2DW.html",
+    "https://www.rightmove.co.uk/house-prices/carter-knowle.html",
+    "https://housepricehistory.co.uk/sold_house_prices/property/8~-/carter_knowle_road/-/sheffield/S7_2DX"
+  ]
+}

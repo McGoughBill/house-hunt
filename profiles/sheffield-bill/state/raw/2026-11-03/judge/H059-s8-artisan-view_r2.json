@@ -1,0 +1,50 @@
+{
+  "id": "H059-s8-artisan-view",
+  "run": 2,
+  "live": null,
+  "listing_url": "https://www.onthemarket.com/details/20644915/",
+  "asking": 225000,
+  "floor_area_m2": null,
+  "house_type": null,
+  "gates": {
+    "area": {"pass": true, "reason": "Artisan View, Meersbrook, S8 9TG per https://app.zoopla.co.uk/for-sale/details/69799866"},
+    "budget": {"pass": true, "reason": "unconfirmed: W not priced (no floorplan or photos reached). Asking 225000 is under 300000. Asking + 1.15W + C is within 400000 only if W is at most about 149565."},
+    "tenure": {"pass": true, "reason": "unconfirmed: 741-year lease is from the task brief, not seen on a live listing. Above 150 years; no covenant dispute found."},
+    "structure": {"pass": true, "reason": "unconfirmed: no listing or survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: no listing seen."},
+    "hall": {"pass": true, "reason": "unconfirmed: no floorplan seen."}
+  },
+  "V": 223000,
+  "v_basis": "46 Artisan View, terraced, 11 Nov 2025, 225000; 56 Artisan View, terraced, 3 Jun 2025, 223000; 80 Artisan View, type Other, 6 Dec 2024, 202000 (https://domovita.co.uk/sold-prices/street/s8/artisan-view). Done-up condition est.; that page gives no bedroom or refurb data.",
+  "W": null,
+  "w_basis": "Not priced: listing and floorplan not reached, so no works list or cost.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: listing not found"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: listing not found"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Listing not reachable and no Rightmove, Zoopla or OnTheMarket match for Reeds Rains, Artisan View, 225000, so live status is unknown and nothing can be scored.",
+  "sources": [
+    "https://domovita.co.uk/sold-prices/street/s8/artisan-view",
+    "https://app.zoopla.co.uk/for-sale/details/69799866",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/artisan-view/"
+  ]
+}

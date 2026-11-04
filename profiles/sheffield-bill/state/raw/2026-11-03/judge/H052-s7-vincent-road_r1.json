@@ -1,0 +1,52 @@
+{
+  "id": "H052-s7-vincent-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/HAY030769288",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Vincent Road, Nether Edge, S7 (postcode S7 1BW from the listing page's broadband link)."},
+    "budget": {"pass": true, "reason": "Asking £220,000 is under £300,000. Asking + 1.15W + C = 220,000 + 101,200 + 3,000 = £324,200, under £400,000 (W est.)."},
+    "tenure": {"pass": true, "reason": "Freehold, per listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. EPC D; no survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says chain free but does not state vacant possession or a tenancy."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens. Floorplan image could not be opened. A hall allowance of £3,000 is in W, under the £5,000 limit."}
+  },
+  "V": 215000,
+  "v_basis": "Three most recent freehold terraced sales on Vincent Road in the last 2 years: 134 Vincent Rd (S7 1BX), 27 Oct 2025, £209,000 (85 m²); 56 Vincent Rd (S7 1BW), 25 Jul 2025, £215,000 (84 m²); 133 Vincent Rd (S7 1BY), 16 Jun 2025, £279,950 (97 m² per EPC). Median £215,000. Sold data does not show done-up status, so V is est. Excluded: 33 Vincent Rd (S7 1BW), 12 Dec 2024, £200,000 (fourth freehold sale in window). If tenure is ignored, the three most recent terraces of any tenure give £209,000 (111 Vincent Rd £205,000, 9 Vincent Rd £223,000, 134 Vincent Rd £209,000).",
+  "W": 88000,
+  "w_basis": "Est. 2026 prices, before 15% contingency: single-storey rear extension about 12 m² £35,000; steel for kitchen-dining knock-through £4,000; kitchen £15,000; bathroom £7,000; rewire £6,000; decoration and floors £9,000; hall allowance £3,000; loft sign-off and cellar checks £3,000; architect, building control and surveys £4,000; windows and externals £2,000. Heating not costed (no evidence either way).",
+  "C": 3000,
+  "margin": -130700,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought £2,391/m² (£220,000 ÷ est. 92 m²) against done-up comps of about £2,560/m² (134 Vincent Rd £2,459; 56 £2,560; 133 £2,886). Ratio about 93%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin −£130,700 (est.). Asking is above 0.9V before any works: 193,500 − 220,000 = −26,500."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V £215,000 ÷ street max £281,611 (127 Vincent Rd, leasehold, 30 May 2025) = 76%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector max is at least the street max, so V ÷ sector max is at most 76%."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given. Est. 92 m² from listed room sizes (about 78 m² of rooms, plus hall, stairs, landing and loft)."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Three bedrooms listed: 14.5 m² and 18.2 m² (loft; conversion sign-off not seen) and a 6.7 m² box room."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen 5 m² plus dining 12.3 m² knocked through gives about 17 m², short of 25 m². Needs a single-storey rear extension."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Loft already converted, so little headroom left. Garden length and neighbours' extensions not given."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Single-storey rear extension plus steel knock-through, kitchen, bathroom, rewire and decoration. W est. £88,000."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7 to 12 months to a livable finished house (extension, kitchen, bathroom, rewire)."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Cellar (door off dining room) and loft sign-off unverified. No survey. EPC D."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Many leasehold sales on the street. Lettings, front gardens and traffic not checked; one possible fail."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not measured; est. 10 to 15 minutes."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Large supermarket walk not measured; est. 15 to 20 minutes."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking assumed; slope not checked."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Front bay, fireplace in bedroom one, cellar. Light, ceiling height and period detail not given."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front bay on a Victorian mid-terrace. Facing material and frontage not seen (photos not viewable)."}
+  ],
+  "total": 52.4,
+  "verdict": "PASS",
+  "biggest_risk": "The asking price is above 0.9 × V before any works, so the refurb cannot pay back on the brief's formula (margin est. −£130,700); V rests on sold prices of unknown condition.",
+  "sources": [
+    "https://www.haybrook.com/HAY030769288",
+    "https://www.onthemarket.com/uk-house-prices/vincent-road-sheffield-s7/",
+    "https://housemetric.co.uk/house-prices/Vincent-Road/S7-1BW",
+    "https://housemetric.co.uk/28333302/S7-1BY/133+Vincent+Road",
+    "https://www.zoopla.co.uk/house-prices/sheffield/vincent-road/s7-1bx/"
+  ]
+}

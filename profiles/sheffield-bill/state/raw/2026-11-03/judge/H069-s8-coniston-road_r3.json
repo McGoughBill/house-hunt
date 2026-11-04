@@ -1,0 +1,53 @@
+{
+  "id": "H069-s8-coniston-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.onthemarket.com/details/19798312/",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 (Woodseats/Abbeydale), Coniston Road, S8 0UT per https://www.onthemarket.com/details/19798312/"},
+    "budget": {"pass": true, "reason": "asking 220000 + 1.15 x W 60000 (est.) + C 3000 = 292000, within 400000"},
+    "tenure": {"pass": true, "reason": "Tenure: Freehold stated in https://www.onthemarket.com/details/19798312/"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says no onward chain only; occupancy not stated"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; a hall is priced inside W at est. 4000, under the 5000 cap"}
+  },
+  "V": 176750,
+  "v_basis": "Fewer than 3 same-street sales in last 2 yrs. Used: 34 Coniston Road, Feb 2025, £225,000 (same street); 6 Coniston Terrace, Oct 2025, £176,750 (nearest like street); 8 Coniston Terrace, Oct 2025, £161,000 (nearest like street). Median £176,750. 31 Coniston Road (May 2025, £120,000) excluded: 2-bed, 58 m2. Done-up status not verifiable from sold data.",
+  "W": 60000,
+  "w_basis": "est. before contingency; floor area unknown so ~95 m2 assumed. Decor, flooring, plaster 8000; kitchen-diner with knock-through and steel 16000; first-floor bathroom 6000; ground-floor wet room to shower room 4000; hall formed from front room 4000; attic bedroom sign-off 4000; rewire 6000; boiler/heating 3000; roof, window, damp and cellar allowance 4000; loft insulation and garden 2500; professional fees 2500.",
+  "C": 3000,
+  "margin": -132925,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking/V = 220000/176750 = 124% of done-up street £/m2 (floor area cancels); V est. and done-up unverified. Reduced 22/07/2026 per https://www.rightmove.co.uk/properties/90131157"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -132925 = 0.9x176750 - 1.15x60000 - 3000 - 220000; W est. Break-even V about 324000"},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 176750 / Coniston Road 2-yr max 225000 (34 Coniston Rd, Feb 2025, https://www.streetcheck.co.uk/houseprices/s80ut) = 79%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V / S8 0 2-yr max 440000 (66 Bromwich Road, Jun 2026, https://www.rightmove.co.uk/house-prices/Woodseats.html) = 40%; sector max taken from one page of sales"},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given (listing: size 'Ask agent'); est. ~95 m2 from room list in https://www.onthemarket.com/details/19798312/"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "3 bedrooms advertised: two first floor plus attic bedroom; attic sign-off and bedroom sizes unknown"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Separate rear dining room and fitted kitchen at ground floor; one knock-through assumed, floorplan dimensions not readable"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Attic already converted to bedroom (little loft headroom left); garden length and neighbour extensions unknown"},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through implies steel/structural work; rewire and heating condition unknown"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 9 to 12 months for kitchen-diner, bathrooms, attic sign-off and rewire"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey; cellar 'subject to any necessary consents' per listing; roof, heating and damp unknown"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Coniston Road sold data shows several flats and leasehold entries (19, 21, 23, 25) suggesting a letting share; boards and owner-occupancy unknown"},
+    {"n": 13, "score": 2, "est": true,  "evidence": "Nearest park walk not checked; est. 15 to 20 min"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not checked; est. 15 to 20 min"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Listing gives no parking or slope information; on-street parking assumed"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Area built c.1900-1929 per EPC of 31 Coniston Rd (https://housemetric.co.uk/30615449/S8-0UT/31+Coniston+Road); light, ceiling heights and period detail unseen; focal fireplace noted in listing"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Solid brick terrace assumed; front elevation and photos not viewable, text only"}
+  ],
+  "total": 55.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -£132,925: 0.9 x V cannot cover asking, works and costs unless V exceeds about £324,000, above the highest 2026 terraced sale in the Woodseats sample (£305,000).",
+  "sources": [
+    "https://www.onthemarket.com/details/19798312/",
+    "https://www.rightmove.co.uk/properties/90131157",
+    "https://www.streetcheck.co.uk/houseprices/s80ut",
+    "https://domovita.co.uk/sold-prices/street/s8/coniston-terrace",
+    "https://housemetric.co.uk/30615449/S8-0UT/31+Coniston+Road",
+    "https://www.rightmove.co.uk/house-prices/Woodseats.html"
+  ]
+}

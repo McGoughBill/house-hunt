@@ -1,0 +1,52 @@
+{
+  "id": "H086-s8-tyzack-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-tyzack-road-sheffield-south-yorkshire-s8/34981945/",
+  "asking": 250000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "Woodseats, S8 0GL (Hunters listing enquiry link); S8 Woodseats is in the area list."},
+    "budget":    {"pass": true, "reason": "Asking 250000 is under the 300000 cap; asking + 1.15W + C = 250000 + 117300 + 3000 = 370300, under 400000 (W est.). At the 260000 top of the guide range it is 380300, still a pass."},
+    "tenure":    {"pass": true, "reason": "Freehold per Hunters listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing shows status 'Available' with no tenancy stated."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into the lounge; any hall creation is assumed within 5000 (est.) and costed in W."}
+  },
+  "V": 305000,
+  "v_basis": "Tyzack Rd has fewer than 3 sales in 2 yrs (7 Tyzack Rd semi-detached, Nov 2024, 285000, at the edge of the window; 47 Tyzack Rd 170000 is Jun 2024, outside). Nearest like streets, terraced 3-bed: 9 Mitchell Road S8 0GQ, 19 Jun 2026, 305000; 100 Archer Road S8 0JT, 1 Jul 2026, 305000; 102 Fraser Road S8 0JN, 21 Aug 2026, 268000. Median 305000. Done-up status cannot be verified from sold data, so V is est.",
+  "W": 102000,
+  "w_basis": "All est. Floorplan and photos were not accessible and floor area is not given, so an 85-90 m2 3-bed end-terrace is assumed. Items: strip-out and prep 4000; rewire 6000; heating 6000; plumbing and drainage 2000; single-storey rear extension of about 15 m2 to reach a 25 m2 kitchen-diner 35000; extension design and building control 3000; kitchen 10000; bathroom refresh 4000; hall and door reconfiguration 4000; plaster, joinery, doors 8000; decoration and flooring 6000; windows and external doors 5000; roof and damp allowance 4000; surveys and fees 2000; skip, scaffold, waste 3000. Total 102000 before contingency (prompt rule; the brief says including contingency, and the 1.15 factor is applied in the formulas). C = 3000 assumes first-time-buyer SDLT nil under 300000 plus 3000 fees.",
+  "C": 3000,
+  "margin": -95800,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "Asking 250000 / V 305000 = 82%; floor area not given, so est. same-size comparison."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin = 274500 - 117300 - 3000 - 250000 = -95800 (W 102000 est.)."},
+    {"n": 3,  "score": 1, "est": true,  "evidence": "V 305000 / street max 285000 (7 Tyzack Rd, Nov 2024, primelocation house-prices) = 107%; V itself is from other streets."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 305000 / S8 0 max 440000 (66 Bromwich Rd semi 4-bed, 15 Jun 2026, rightmove Woodseats page) = 69%; detached sales not checked."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est. 85 m2 for a 3-bed end-terrace (Tyzack Rd sales average about 90 m2 per housemetric, so this may be generous)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says '3 cosy bedrooms'; room sizes not given, so assumed one small bedroom."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "No kitchen described; the 25 m2 kitchen-diner is assumed to need a single-storey rear extension."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Listing says 'Enclosed rear yard', which suggests under 10 m of garden; loft and neighbour extensions unknown."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Works include a single-storey rear extension plus rewire, heating, kitchen and bathroom."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 9-12 months of works before the house is liveable."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, EPC rating or condition report available; unknowns not scoped."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "Listing says 'Quiet cul-de-sac location'; tenure mix and letting boards not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk time to a park not verified; est. 10-15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk time to a big supermarket not verified; est. 15-20 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Listing says 'Off-road parking available'; slope not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing mentions only a 'modern bathroom'; light, ceiling heights and period features unknown."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Exterior photos not accessible; listing calls it a 'charming end terrace house'."}
+  ],
+  "total": 53,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -95800 on est. figures (works plus contingency cost more than the value gain), and with no floorplan or photos accessible, W, floor area and layout are all est.",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-tyzack-road-sheffield-south-yorkshire-s8/34981945/",
+    "https://primelocation.com/house-prices/sheffield/tyzack-road",
+    "https://resi.co.uk/house-prices/tyzack-road-s8",
+    "https://housemetric.co.uk/graphs/Tyzack-Road/S8-0G",
+    "https://www.rightmove.co.uk/house-prices/woodseats.html"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "H044-s7-falmouth-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+  "asking": 210000,
+  "floor_area_m2": 108,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Falmouth Road, postcode S7 2DG (listing enquiry link). S7 is in the area gate. https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/"},
+    "budget": {"pass": true, "reason": "262450 = asking 210000 + 1.15 x est. W 43000 + C 3000. Under 400000. Asking is under 300000."},
+    "tenure": {"pass": true, "reason": "unconfirmed: leasehold with 672 years remaining per listing. Covenant dispute not mentioned and not checked. https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing says nothing on movement, subsidence, knotweed, spray foam, non-standard build or dry rot. No survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing shows status Available. Occupancy (vacant or tenanted) is not stated."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing says on entry you are greeted by the bay living room, so the front door likely opens into the living room. Pass rests on a hall for est. 4000 (included in W), under the 5000 cap. Floorplan not viewed. https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/"}
+  },
+  "V": 239500,
+  "v_basis": "Same street has only one sale in the last 2 years: 33 Falmouth Rd, 31 Jul 2026, 240000 (https://propertyengine.co.uk/area-overview/s7-2dg/house-prices). So nearest like street used: Lynmouth Rd (S7 2DF), 3 most recent terraced sales: 46 Lynmouth Rd 26 Jun 2026 175560; 35 Lynmouth Rd 27 Nov 2025 277100; 6 Lynmouth Rd 24 Sep 2025 239500. Median 239500. Source: https://propertyengine.co.uk/area-overview/s7-2df/house-prices. Done-up status NOT verified for any sale (price data only, no floor areas or EPCs on these pages). Land Registry lags up to 3 months, so Aug to Oct 2026 sales may be missing.",
+  "W": 43000,
+  "w_basis": "est. 43000 before contingency: hall partition and door 4000; kitchen-diner knock-through with steel 4500; new kitchen 8000; bathroom refresh 2000 (listing calls it a modern white bathroom); plaster and skim 6500; floors 3500; electrics 6000 (age unknown); heating 3500 (boiler age unknown); doors, joinery, decoration 2500; fees 1500; skip and misc 1000. Floorplan and photos were not viewable (image URLs not on the fetch allowlist), so layout and condition are guesses. C 3000 = stamp duty nil (first-time buyer, under 300k) plus 3000 fees; no auction fee. Listing: https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+  "C": 3000,
+  "margin": -46900,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "As bought 1944 GBP/m² (210000 / 108). Done-up street est. 2521 GBP/m² (V 239500 over an est. 95 m² comp). Ratio est. 77%. Comp floor areas not sourced."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin est. -46900 = 0.9 x 239500 - 1.15 x 43000 - 3000 - 210000. Break-even V is about 291600."},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 239500 vs street max 240000 (33 Falmouth Rd, Jul 2026) = 99.8%. https://propertyengine.co.uk/area-overview/s7-2dg/house-prices"},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "Sector S7 2 known max 277100 (35 Lynmouth Rd, Nov 2025) = 86%. Full sector max not checked; a higher S7 2 sale would lower the ratio. https://propertyengine.co.uk/area-overview/s7-2df/house-prices"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1163 sq ft = 108 m² per listing. Over 100 m². https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms per listing: front primary, a 'larger than average' second, and one second-floor room (size not given, likely the small one). 3 now, one small."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Off-shot kitchen beside rear dining room per listing. One knock-through should give a kitchen-diner. Layout not checked against floorplan."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden is a 'pleasant rear yard with no through access' per listing, so under 10 m is likely. Second floor already used as a bedroom. Neighbour extensions not checked. One weak."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through likely needs steel. Hall partition, possible rewire and heating. Steel or structural tier."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4 to 6 months: kitchen, knock-through, plaster, electrics and heating across three floors."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Cellar and EPC (image only, not read) unknown. No survey. Cause of any defects unknown. One serious unknown is a judgement."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "No street-quality data. All Falmouth Rd sales leasehold. Many low-price sales 1996 to 2004 (https://primelocation.com/house-prices/sheffield/falmouth-road). Tidy fronts and letting boards not checked. One fail assumed."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Nearest park est. 10 to 15 min walk. Not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket est. 15 to 20 min walk. Not measured."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking not mentioned in listing. Slope unknown. Assumed hard on-street parking on level ground."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay-fronted living room, 'traditional features', existing wood floor in rear dining room per listing. Good bones."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front bay per listing. Front elevation and front garden not seen (photos not viewable). Plain, tidy assumed."}
+  ],
+  "total": 63,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (est. -46900): finished value 239500 (Lynmouth Rd median, done-up status unverified) barely covers asking plus works, and break-even needs V of about 291600. Floorplan and photos were not viewable, so layout and works are guesses.",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+    "https://propertyengine.co.uk/area-overview/s7-2dg/house-prices",
+    "https://propertyengine.co.uk/area-overview/s7-2df/house-prices",
+    "https://primelocation.com/house-prices/sheffield/falmouth-road",
+    "https://domovita.co.uk/sold-prices/s7"
+  ]
+}

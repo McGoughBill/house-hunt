@@ -1,0 +1,52 @@
+{
+  "id": "H034-s7-66-vincent-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89371416",
+  "asking": 225000,
+  "floor_area_m2": 107,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7 1BW, Vincent Road, Nether Edge (rightmove.co.uk/properties/89371416)"},
+    "budget":    {"pass": true, "reason": "225000 + 1.15 x 70000 + 3000 = 308500, under 400000 (est. W)"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold; lease length, ground rent and service charge not stated"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, knotweed, spray foam, dry rot; only 'Victorian' given"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: occupancy not stated; 'no upward chain' is not vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into a hall or a room"}
+  },
+  "V": 279950,
+  "v_basis": "est. Three highest-priced 3-bed terrace sales on Vincent Road in the last 2 years; none confirmed done-up: (1) 133 Vincent Road, 16 Jun 2025, 279950, freehold; (2) 127 Vincent Road, 30 May 2025, 281611, leasehold; (3) 120 Vincent Road, 15 Nov 2024, 230000, leasehold. Median 279950. Picking the top prices biases V upward.",
+  "W": 70000,
+  "w_basis": "est. Pre-contingency: rewire 6000; heating 4000; knock-through to kitchen-diner with steel and kitchen 25000; bathroom 7000; hall 3000; plaster, floors, decor 12000; windows 5000; scaffold, skips, prelims 4000. Sum 66000, rounded to 70000. Floorplan dimensions not readable.",
+  "C": 3000,
+  "margin": -56545,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "As bought 2103/m2 (225000/107) vs est. done-up street 2886/m2 (133 Vincent Rd, 279950/97 m2) = 73%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -56545 (0.9 x 279950 - 1.15 x 70000 - 3000 - 225000); negative."},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 279950 / street max 281611 (127 Vincent Rd, 30 May 2025) = 99%."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "Sector max not searched; est. S7 1 two-year max about 370000 gives about 76%."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "107 m2 (1,153 sq ft) per listing (rightmove.co.uk/properties/89371416)."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Three bedrooms over three floors; no room sizes; third bedroom may be a small top-floor room."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Off-shot kitchen plus two ground-floor reception rooms; knock-through to a 25 m2 kitchen-diner plausible but not shown."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Sunny rear garden; length, loft and neighbour extensions not stated."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through likely needs steel; rewire and heating likely at EPC D (rightmove.co.uk/properties/89371416)."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7 to 12 months for rewire, kitchen-diner and bathroom."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or flags; listing says only 'well presented'."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Leasehold-heavy street with some ex-rental (127 Vincent Rd EPC 2010 and 2013 private rental, housemetric.co.uk); fronts and main-road status not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not measured; est. 10 to 15 min to Bingham or Endcliffe Park."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not measured; est. 15 to 20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Listing says on-road parking to front but parking field says off street; slope not stated."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Victorian, bay-fronted, two reception rooms; period features not confirmed (no photo captions)."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Bay window on Victorian terrace; brick or stone and front garden not confirmed."}
+  ],
+  "total": 61,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (est. -56545): 0.9 x done-up value does not cover works, fees and asking at est. W 70000, and the done-up status of the comparables is unconfirmed.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89371416",
+    "https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+    "https://www.rightmove.co.uk/house-prices/s7/vincent-road.html",
+    "https://housemetric.co.uk/24157868/S7-1BY/127+Vincent+Road",
+    "https://housemetric.co.uk/28333302/S7-1BY/133+Vincent+Road"
+  ]
+}

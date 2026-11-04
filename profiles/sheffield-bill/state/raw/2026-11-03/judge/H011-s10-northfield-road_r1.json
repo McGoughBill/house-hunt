@@ -1,0 +1,50 @@
+{
+  "id": "H011-s10-northfield-road",
+  "run": 1,
+  "live": false,
+  "listing_url": "https://www.rightmove.co.uk/properties/88775814",
+  "asking": null,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, per listing text (Rightmove 88775814)"},
+    "budget":    {"pass": true, "reason": "unconfirmed: asking not stated on listing. est. asking 225000 + 1.15W 46000 + C 3000 = 274000, under 400000"},
+    "tenure":    {"pass": true, "reason": "Leasehold, 800 years from 1894 (Rightmove 88775814). Ground rent not stated. Other portal (primelocation 67850431) says 800 years from 1906, ground rent 10 a year. No dispute mentioned"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing says nothing on movement, subsidence, knotweed, spray foam, or dry rot. No survey seen"},
+    "vacant":    {"pass": true, "reason": "Primelocation 67850431 says vacant possession on completion. Rightmove 88775814 says no onward chain but does not state vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position not stated. Lounge is at the front with no hall described"}
+  },
+  "V": 305000,
+  "v_basis": "Domovita sold prices, Northfield Road S10 (https://domovita.co.uk/sold-prices/street/s10/northfield-road). The 3 most recent terraced sales in the last 2 years: 178 Northfield Road, 21 Nov 2025, 175000; 126 Northfield Road, 24 Oct 2025, 305000; 119 Northfield Road, 21 Jul 2025, 315500. Median 305000. Condition not shown on source, so these are not confirmed as done-up. est.",
+  "W": 40000,
+  "w_basis": "est. Listing says well presented, scope for cosmetic updating only. Estimate covers decor, bathroom refresh, kitchen tidy, rewire or electrical check, boiler check, and a hall partition at up to 5000. Not measured from a floorplan (none published). Before contingency.",
+  "C": 3000,
+  "margin": 500,
+  "scores": [
+    {"n": 1,  "score": null, "est": true, "evidence": "not scored: listing marked recently sold and under offer; floor area not stated"},
+    {"n": 2,  "score": null, "est": true, "evidence": "not scored: asking not stated. With est. asking 225000 margin is about 500 (est.)"},
+    {"n": 3,  "score": null, "est": true, "evidence": "not scored"},
+    {"n": 4,  "score": null, "est": true, "evidence": "not scored"},
+    {"n": 5,  "score": null, "est": true, "evidence": "not scored: floor area not stated"},
+    {"n": 6,  "score": null, "est": true, "evidence": "not scored"},
+    {"n": 7,  "score": null, "est": true, "evidence": "not scored"},
+    {"n": 8,  "score": null, "est": true, "evidence": "not scored"},
+    {"n": 9,  "score": null, "est": true, "evidence": "not scored"},
+    {"n": 10, "score": null, "est": true, "evidence": "not scored"},
+    {"n": 11, "score": null, "est": true, "evidence": "not scored"},
+    {"n": 12, "score": null, "est": true, "evidence": "not scored"},
+    {"n": 13, "score": null, "est": true, "evidence": "not scored"},
+    {"n": 14, "score": null, "est": true, "evidence": "not scored"},
+    {"n": 15, "score": null, "est": true, "evidence": "not scored"},
+    {"n": 16, "score": null, "est": true, "evidence": "not scored"},
+    {"n": 17, "score": null, "est": true, "evidence": "not scored"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Rightmove marks the house recently sold and under offer, so it is probably not available to buy. Asking price is not stated, so the margin of 500 rests on an est. asking of 225000 taken from a Rightmove calculator default, not a real price",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/88775814",
+    "https://primelocation.com/for-sale/details/67850431",
+    "https://domovita.co.uk/sold-prices/street/s10/northfield-road"
+  ]
+}

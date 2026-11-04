@@ -1,0 +1,51 @@
+{
+  "id": "H026-s11-pinner-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89597571",
+  "asking": 270000,
+  "floor_area_m2": 99,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Pinner Road, Hunters Bar, S11 (Rightmove)."},
+    "budget": {"pass": true, "reason": "Asking £270,000 + 1.15 × £45,000 works + £3,000 costs = £324,750, under £400,000. Works figure is est."},
+    "tenure": {"pass": true, "reason": "Freehold per Rightmove. Saxton Mee page says tenure unknown."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot; no survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing silent on vacant possession."},
+    "hall": {"pass": true, "reason": "unconfirmed: front door position not stated; floorplan not readable."}
+  },
+  "V": 326500,
+  "v_basis": "No done-up Pinner Road sale in 2 years. Only recent Pinner Road sale: 24 Pinner Road, 25 Jul 2025, £274,000 (2-bed, 74 m²). Nearest like street used, as no sale is marked done-up: Hunter House Road terraced sales, bed count and area not shown: 32 Hunter House Road, 17 Mar 2026, £326,500; 61 Hunter House Road, 5 Mar 2026, £347,500; 46 Hunter House Road, 8 Oct 2025, £307,000. Median £326,500.",
+  "W": 45000,
+  "w_basis": "est. Decorate throughout £8,000; kitchen-diner refit £15,000; bathroom £5,000; rewire £6,000; heating and boiler check £3,000; flooring £3,000; joinery and minor £3,000; access, skip and fees £2,000. Total £45,000 before 15% contingency. No floorplan read, no survey, no hall works included.",
+  "C": 3000,
+  "margin": -30900,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "As bought £2,727/m² (£270,000 / 99 m²) vs V £3,298/m² (£326,500 / 99 m²); ratio 83%. Comparable areas not shown."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -30,900 = 0.9 × 326,500 − 1.15 × 45,000 − 3,000 − 270,000."},
+    {"n": 3,  "score": 1, "est": true,  "evidence": "V £326,500 is 119% of £274,000, the only 2-year Pinner Road sale (24 Pinner Road, Jul 2025)."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V £326,500 is at most 65% of £499,000, the highest 2-year S11 sale found (148 Hunter House Road, Mar 2025). Not a full S11 search."},
+    {"n": 5,  "score": 4, "est": false, "evidence": "1,062 sq ft = 99 m² (Rightmove)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms listed: first-floor master with feature fireplace, first-floor single used as a study, second-floor large double. Room sizes not given."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Kitchen-diner exists: 'bright and spacious kitchen/diner' (Rightmove, Saxton Mee)."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden is a courtyard with planting, not 10 m deep. Second-floor double suggests loft already used. Neighbour extensions unknown."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Rewire and heating are in W as est. allowances. Listing says 'beautifully presented', so scope may be lower."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4 to 6 months for decor, kitchen-diner, bathroom, rewire and heating."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar for storage; damp, roof and cause of any fault unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "No street-level data; letting share and traffic unknown."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "est. Endcliffe Park roughly 10 to 15 min walk; not checked."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "est. Big supermarket on Ecclesall Road roughly 10 to 15 min walk; not checked."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking to the front (Saxton Mee). Slope and permit status unknown."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay-windowed lounge, feature fireplace, dormer. Room heights and light unknown."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay window and terrace. Forecourt, no front garden. Stone or brick unknown."}
+  ],
+  "total": 60.8,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -30,900: V is a Hunter House Road proxy, not a done-up Pinner Road sale, and the works, layout and condition are unsurveyed.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89597571",
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/2968-pinner-road-hunters-bar-sheffield",
+    "https://domovita.co.uk/sold-prices/street/s11/hunter-house-road",
+    "https://housemetric.co.uk/house-prices/Pinner-Road/S11-8UH"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "H067-s8-cliffefield-road",
+  "run": 1,
+  "live": null,
+  "listing_url": "https://www.rightmove.co.uk/properties/94545507",
+  "asking": 260000,
+  "floor_area_m2": 103,
+  "house_type": null,
+  "gates": {
+    "area":      {"pass": true, "reason": "Cliffefield Road is in S8 Meersbrook; Land Registry and listing pages show S8 9BS, 9DH, 9DJ, 9DL and 9DN."},
+    "budget":    {"pass": true, "reason": "unconfirmed: asking 260000 (from the brief) is under 300k; asking + 1.15W + C cannot be computed because W is unknown."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: no source gives a lease length; the candidate Whitehornes listing says leasehold in one section and freehold in another."},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam or dry rot notes in the candidate listing."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: occupancy is not stated in the candidate listing."},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door and entrance layout are not described in the candidate listing."}
+  },
+  "V": null,
+  "v_basis": "Not formed: no 3 same-type sales. Cliffefield Road sales since Nov 2024 are all detached or semi, none terrace or end-terrace: 157 (10 Dec 2025, 350000, detached, leasehold); 145 (28 Apr 2025, 345750, detached, leasehold); 168 (17 Oct 2025, 270000, semi, freehold); 153 (10 Nov 2025, 108000, semi, leasehold). None shown as done-up. Nearest-street fallback not run.",
+  "W": null,
+  "w_basis": "Not priced: no floorplan or photos could be viewed in this run. The candidate Whitehornes listing says only 'finished to a high standard' with no works list.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing not confirmed live, no floorplan or photos reachable"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: W and V not formed"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: V not formed"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: V not formed"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: brief gives 103 m2, not verified against a floorplan"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: no floorplan reachable"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: no floorplan reachable"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: no floorplan or garden survey reachable"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or condition report found"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: street quality not assessed on site"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listings say Meersbrook Park is nearby, distance not measured"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: supermarket distance not measured"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: candidate listing says on-road parking to front and side, slope not checked"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: no interior photos or floorplan reachable"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: no exterior photos reachable"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "House not confirmed: Rightmove 94545507 could not be opened (URL not on the allowlist). The nearest Whitehornes Cliffefield Road listing found shows a 285000-295000 guide, 1,168 sq ft and conflicting tenure, not the brief's 260000, 103 m² leasehold, so identity and live status are unverified.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/94545507",
+    "https://www.guildproperty.co.uk/property-for-sale/sheffield/s8-9dn/4143404",
+    "https://street.co.uk/platform/properties/6d30b4b3-4ed5-4316-bd7a-776fe4acb3b6",
+    "https://www.rightmove.co.uk/house-prices/S8-9BS.html",
+    "https://primelocation.com/house-prices/sheffield/cliffefield-road"
+  ]
+}

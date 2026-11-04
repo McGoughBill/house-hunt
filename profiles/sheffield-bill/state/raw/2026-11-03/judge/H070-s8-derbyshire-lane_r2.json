@@ -1,0 +1,51 @@
+{
+  "id": "H070-s8-derbyshire-lane",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/72696650/",
+  "asking": 215000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8, Norton Lees (Zoopla 72696650; Staves 224 Derbyshire Lane page)."},
+    "budget":    {"pass": true, "reason": "asking 215000 + 1.15 x W 30000 + C 3000 = 252500, within 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold per Zoopla 72696650 and Staves 224 page. Rightmove 173434577 could not be opened (not on allowlist); matched to Staves 224 Derbyshire Lane on street, agent, price and bedrooms."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on tenancy or vacant possession (Zoopla 72696650; Staves 224 page)."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing lists a generous dining room then an inner lobby with stairs; does not say whether the front door opens into a hall or into the front room. A hall could likely be made for under 5000 (est.)."}
+  },
+  "V": 201000,
+  "v_basis": "Proxy, not verified as done-up. Three most recent terraced sales on Derbyshire Lane (Rightmove sold prices): 210 Derbyshire Lane, 20 Feb 2026, 193000; 212 Derbyshire Lane, 4 Dec 2025, 201000; 312 Derbyshire Lane, 11 Jul 2025, 279000. Median 201000. Likely understates a done-up value.",
+  "W": 30000,
+  "w_basis": "est. before contingency: redecorate throughout, floor coverings, electrics and lighting check, knock-through of dining/kitchen wall with steel for kitchen-diner, hall/lobby make-good, boiler service. No floorplan or photos could be reviewed. Contingency added by the 1.15 factor in margin. Buying costs C 3000 = 0 SDLT (first-time buyer nil band, asking under 300000) + 3000 fees; no auction premium.",
+  "C": 3000,
+  "margin": -71600,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 215000 is 107% of the V-based value (V 201000, proxy); floor area not given so ratio taken as asking over V."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -71600 = 0.9 x 201000 - 1.15 x 30000 - 3000 - 215000."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 201000 is 56% of the 2-year street max 359400 (16 Derbyshire Lane, sold 5 Nov 2024, Rightmove sold prices)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S8 2-year sector max not looked up; est. well above 400000, so V is under 70% of it."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est. about 85 m2 for a three-storey Victorian mid-terrace."},
+    {"n": 6,  "score": 4, "est": false, "evidence": "Listing: two doubles (one with dressing room) and one single bedroom; the single is the small room, room sizes not given (Staves 224 page)."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Separate dining room; kitchen opens off the living room (Zoopla 72696650). Kitchen-diner size not stated, so one knock-through is the likely route."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Three storeys so loft is partly used already; garden length and neighbour extensions not stated."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Likely knock-through needs a steel (structural) item; age of electrics and heating unknown."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Presented to a good standard, but knock-through, redecoration and floors est. 4 to 6 months."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; damp, roof and cellar condition not stated, cause unclear."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Derbyshire Lane is a busy through road (main-road fail, est.); owner-occupation and letting boards not checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Meersbrook Park est. 5 to 10 min walk; not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Large supermarket est. 15 to 20 min walk; not measured."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking on a busy road, level (est.); no drive stated in listing."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Victorian with bay-windowed lounge, modern kitchen and contemporary shower room (Staves 224 page); period features and light not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Victorian mid-terrace with bay (Zoopla 72696650); stone or brick and front condition not seen."}
+  ],
+  "total": 55.6,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 215000 is above the 2-year terrace sales median (201000), so the margin is about -71600 before any survey findings; tenancy, hall layout, structure and floorplan are unverified.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/72696650/",
+    "https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-terrace-in-sheffield-50",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/derbyshire-lane/",
+    "https://www.rightmove.co.uk/house-prices/s8/derbyshire-lane.html"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "H036-s7-abbeydale-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89528085",
+  "asking": 225000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "Abbeydale Road, Sheffield, S7; Blundells Woodseats, 225000 offers in region of, leasehold, 3 beds (Rightmove 89528085). Matched by agent, street, price and tenure; OnTheMarket 19688410 could not be opened."},
+    "budget":    {"pass": true, "reason": "Asking 225000 + 1.15 x W 64500 (est.) 74175 + C 3000 = 302175, under 400000."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold per Rightmove 89528085; lease length and ground rent not stated."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says offered with no upward chain; occupancy not stated (Rightmove 89528085)."},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door opens into a side entrance lobby that leads straight into the bay-windowed living room, so no hall as listed. A hall could be formed by partitioning the lobby, est. under 5000."}
+  },
+  "V": 250000,
+  "v_basis": "Median of the 3 most recent 3-bed terraced sales on Abbeydale Road: 686 Abbeydale Road S7 2BL, 23 Jul 2026, 250000; 845 Abbeydale Road S7 2BH, 19 Dec 2025, 261500; 871 Abbeydale Road S7 2BH, 13 Mar 2026, 225000. Done-up status of these sales not verified (est.). Sources: rightmove.co.uk/house-prices/s7/abbeydale-road.html and domovita.co.uk/sold-prices/street/s7/abbeydale-road.",
+  "W": 64500,
+  "w_basis": "est., from listing text only; photos and floorplan not viewed. Rewire 5000; heating 4000; kitchen-diner by knock-through with steel and new kitchen 25000; hall partition and door 3000; bathroom 5000; strip-out and decor 12000; attic and fire-safety sign-off 3000; roof, damp and cellar allowance 3000; design and Building Control 2500; garden and make-good 2000. Total 64500 before contingency.",
+  "C": 3000,
+  "margin": -77175,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. 90 pct: asking 225000 against V 250000 at the same est. floor area of 95 m2 (floor area not given)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -77175 = 0.9 x 250000 - 1.15 x 64500 - 3000 - 225000. Still negative at zero works (-3000), so the score holds on any plausible V and W."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 250000 is under 80 pct of the street max: 850000 (1 Abbeydale Road, Dec 2025, type Other) or 577000 (The Lodge, Apr 2026, detached)."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "S7 sector max in the last 2 years is at least 850000 (1 Abbeydale Road), so V is under 30 pct of it."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given. est. 95 m2 from a same-road 3-bed mid-terrace of about 1036 sq ft (about 96 m2) at street.co.uk a93e921a-1fa7-4ae8-b89e-da7eb2a47ba9."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing shows front double, rear single (small) and an attic bedroom with a front dormer. Attic sign-off and room sizes are unconfirmed, so the third bedroom needs sign-off."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Off-shot kitchen with a separate dining room: one knock-through is likely, but reaching 25 m2 is unverified and may need a side-return infill."},
+    {"n": 8,  "score": 1, "est": true,  "evidence": "Rear garden is a small enclosed courtyard (fails the 10 m test); the loft is already a bedroom; neighbours' extensions not checked. None proven."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Full rewire and heating, plus a kitchen-diner knock-through that likely needs steel (structural), and a hall partition."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 7 to 12 months: design, Building Control, knock-through, rewire and heating before the house is ready to live in."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey. Lease length, roof, damp and cellar condition are all unknown; the lease length alone could be serious."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Abbeydale Road is an arterial main road and bus route (fail; en.wikipedia.org/wiki/Abbeydale_Road). Many flats on the road; owner-occupation, letting boards and fronts unverified."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "House number not given, so park distance is unknown. est. 10 to 15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "A Tesco at Millhouses is listed (openingtimesin.uk). Store size and walk time from this house are unverified; est. 15 to 20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking given as Ask agent. est. hard on-street parking on a main road, level ground."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Listing cites a bay-windowed living room, cast-iron fireplace and character features (Rightmove 89528085). Photos not viewed, so ceiling height and light are unchecked."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front elevation and garden not seen; est. plain, tidy mid-terrace with a bay."}
+  ],
+  "total": 53.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -77175 because asking (225000) already equals 0.9V, so any works take it negative; V is est. with done-up status unverified and floorplan and photos were not seen.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89528085",
+    "https://www.rightmove.co.uk/house-prices/s7/abbeydale-road.html",
+    "https://domovita.co.uk/sold-prices/street/s7/abbeydale-road",
+    "https://street.co.uk/platform/properties/a93e921a-1fa7-4ae8-b89e-da7eb2a47ba9",
+    "https://en.wikipedia.org/wiki/Abbeydale_Road",
+    "https://www.openingtimesin.uk/tesco-sheffield-millhouses"
+  ]
+}

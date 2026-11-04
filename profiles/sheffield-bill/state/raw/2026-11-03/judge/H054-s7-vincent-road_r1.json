@@ -1,0 +1,53 @@
+{
+  "id": "H054-s7-vincent-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89349750",
+  "asking": 220000,
+  "floor_area_m2": 98,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7, Vincent Road, Nether Edge (listing)."},
+    "budget":    {"pass": true, "reason": "220000 + 1.15 x 72000 + 3000 = 305800, under 400000. If asking is 230000 (heading), 315800, still passes."},
+    "tenure":    {"pass": true, "reason": "Freehold (listing)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. Described as Victorian brick mid-terrace."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state vacant possession or tenancy."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not describe the entrance. A 5000 hall allowance is inside W, so the 5k route passes."}
+  },
+  "V": 215000,
+  "v_basis": "Median of 3 freehold terraced sales in last 2 yrs, Vincent Road S7 (Land Registry via domovita): 200000 (33 Vincent Rd, 12 Dec 2024); 215000 (56 Vincent Rd, 25 Jul 2025, 84 m2); 279950 (133 Vincent Rd, 16 Jun 2025, 97 m2 EPC). Sale records do not show done-up status (est.). Housemetric lists 133 Vincent Rd latest sale as Nov 2022 at 250000, so the 2025 sale is unconfirmed. Leasehold entries excluded.",
+  "W": 72000,
+  "w_basis": "est. No readable floorplan (thumbnail only). Rewire 7000; heating 3000; kitchen-diner knock-through with steel and new kitchen 22000; bathroom 7000; plaster, decor, floors 14000; roof, windows, damp 8000; hall allowance 5000; skip, scaffold, fees, building control 6000. Total 72000 before contingency. No rear extension included.",
+  "C": 3000,
+  "margin": -112300,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "As bought 2245/m2 (220000/98). Done-up comps: 56 Vincent Rd 2560/m2 (domovita, housemetric-56); 133 Vincent Rd 2886/m2 (domovita, housemetric-133). Median 2723 gives 82%. Comp condition unverified."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -112300 = 0.9 x 215000 - 1.15 x 72000 - 3000 - 220000. W is an estimate."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 215000 is 76% of street max 281611 (127 Vincent Rd, leasehold, 30 May 2025, domovita)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S7 sector 2-year max not searched. Street max alone is 281611. Sector max assumed well above 300000 (est.), so ratio under 70%."},
+    {"n": 5,  "score": 4, "est": false, "evidence": "Listing: 1,058 sq ft across three floors, about 98 m2 (listing)."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing says 3 bedrooms over three floors. Room sizes and whether the top floor is an attic bedroom needing sign-off are not given."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Listing photo caption 'KITCHEN, DINER AND LIVING ROOM' suggests open plan. W assumes one knock-through. 25 m2 not confirmed; floorplan is a thumbnail only."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length, loft use and neighbour extensions not stated. Three-floor layout suggests loft may already be used (est.)."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through likely needs steel (est.). Rewire likely for a Victorian house rated EPC D (est.). Mains gas boiler per comparable EPC (housemetric-133)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4 to 6 months for rewire, kitchen-diner, bathroom and decor while renting in Cambridge."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey in listing. EPC D (listing). Comparable 133 Vincent Rd EPC: solid brick, no wall insulation (housemetric-133). Any defect cause unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "No data on letting boards, traffic or tidiness. Street sales include many leasehold entries (domovita)."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing names Chelsea Park. Walk time not measured; est. 5 to 10 minutes."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk time to a big supermarket not measured; est. 15 to 20 minutes."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Listing: 'ample on road parking'. No drive. Street slope not checked."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing: bay-windowed Victorian, 'light and bright'. Ceiling heights and period features not shown; floorplan unreadable."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Listing: bay-windowed Victorian mid-terrace. Exterior photos not seen; front garden not stated."}
+  ],
+  "total": 62,
+  "verdict": "PASS",
+  "biggest_risk": "Value gap: the 215000 street median is below asking, so the margin is about -112300 before any extension. Asking price also conflicts: 220000 in the price box, 'offers around 230000' in the heading.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89349750",
+    "https://media.rightmove.co.uk/dir/property-floorplan/c80d32ec9/89349750/c80d32ec97cca2f6f5f97206ca30953d_max_296x197.jpeg",
+    "https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+    "https://housemetric.co.uk/house-prices/Vincent-Road/S7-1B/?imperial=T",
+    "https://housemetric.co.uk/28333302/S7-1BY/133+Vincent+Road",
+    "https://housemetric.co.uk/30845544/S7-1BW/56+Vincent+Road"
+  ]
+}

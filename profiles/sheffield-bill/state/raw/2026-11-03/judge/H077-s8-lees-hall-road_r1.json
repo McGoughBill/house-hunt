@@ -1,0 +1,53 @@
+{
+  "id": "H077-s8-lees-hall-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/73895521/",
+  "asking": 299950,
+  "floor_area_m2": 87,
+  "house_type": "detached",
+  "gates": {
+    "area": {"pass": true, "reason": "Norton Lees, S8 is a listed area. Rightmove 91657062 could not be opened (not on allowlist), so matched to Zoopla 73895521 on street, price, 941 sq ft and freehold."},
+    "budget": {"pass": true, "reason": "Asking 299950 is at or under 300000. Asking + 1.15W + C = 335150, under 400000."},
+    "tenure": {"pass": true, "reason": "Freehold per https://www.zoopla.co.uk/for-sale/details/73895521/"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing silent on vacant possession."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing silent on whether the front door opens into a hall. No hall cost in W."}
+  },
+  "V": 275000,
+  "v_basis": "Median of 3 most recent 3-bed semi-detached sales on Lees Hall Rd in last 2 years: 117 Lees Hall Rd 15 Jul 2025 £268000 (69 m2); 26 Lees Hall Rd 7 May 2025 £275000 (84 m2); 99 Lees Hall Rd 31 Jan 2025 £340000 (89 m2). Done-up status not shown in sources. No detached sales in window found, so same-street semis used. No sales after 15 Jul 2025 found. https://primelocation.com/house-prices/sheffield/lees-hall-road",
+  "W": 28000,
+  "w_basis": "est., no photos or floorplan read. Decor and flooring 13000; kitchen-diner refresh 8000; bathroom refresh 4000; heating and electrics check 3000; no hall or structural allowance. Before 1.15 contingency. Listing calls it modern throughout, so works may be smaller.",
+  "C": 3000,
+  "margin": -87650,
+  "scores": [
+    {"n": 1,  "score": 1, "est": false, "evidence": "Asking 3448 per m2 (299950 / 87) vs done-up median 3820 per m2 from the 3 comps = 90%, over 85%. https://primelocation.com/house-prices/sheffield/lees-hall-road"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -87650 = 0.9 x 275000 - 1.15 x 28000 - 3000 - 299950. Still negative at W=0 (-55450). V and W are est."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 275000 / 2-yr street max 551551 (13 Lees Hall Rd, 24 Jan 2025) = 50%. https://www.rightmove.co.uk/house-prices/s8-9jh.html"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector max not checked. Score 5 needs a sector max above 392857; the S8 9 sample max is 551551 (https://www.rightmove.co.uk/house-prices/s8-9jh.html). est."},
+    {"n": 5,  "score": 3, "est": false, "evidence": "941 sq ft = 87 m2 per Zoopla, in the 80-90 band. https://www.zoopla.co.uk/for-sale/details/73895521/"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Header says 3 beds; description says two/three bedroomed, so third room likely small. Room sizes not stated. est."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Listing cites a large open plan area (https://www.zoopla.co.uk/for-sale/details/73895521/). Kitchen-diner size not stated, so the 25 m2 target is unverified. est."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Neighbours extended: sales at 15, 19 and 21 Lees Hall Rd are 111-128 m2 (https://primelocation.com/house-prices/sheffield/lees-hall-road). Garden length and loft not stated. est."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, floors, kitchen and bath work likely. EPC D and heating not stated, so heating and electrics allowance is in W. est."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months for decor, kitchen, bath and heating checks."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, damp, roof or cellar information in listing. Nothing flagged, cause unknown. est."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Bus stop adjacent to Lees Hall Rd (https://bustimes.org/stops/370022249) suggests a through bus route, so likely fails the no-main-road test. Owner-occupier and letting-board checks not possible from listing. est."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Listing says walking distance of Meersbrook Park and Graves Park; minutes not checked. Est. 10-15 min."},
+    {"n": 14, "score": 2, "est": true,  "evidence": "Only a Co-op convenience store found in Norton Lees (https://www.openingtimesin.uk/co-op-food-sheffield-norton-lees). Nearest big supermarket not verified. Est. 20-25 min walk."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Integral garage and front driveway per listing (drive confirmed). Slope not stated, so level is unconfirmed. est."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Agent says modern and stylish throughout, open plan. Age, light, ceiling height and period features not stated. est."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Detached with front driveway and integral garage per listing. Brick or stone, bay and front garden not stated, so plain assumed. est."}
+  ],
+  "total": 59.6,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 299950 is above the 275000 done-up comp median, so there is no margin before works; hall, structure and vacant possession are unconfirmed.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/73895521/",
+    "https://primelocation.com/house-prices/sheffield/lees-hall-road",
+    "https://www.rightmove.co.uk/house-prices/s8-9jh.html",
+    "https://domovita.co.uk/sold-prices/street/s8/lees-hall-road?start=200",
+    "https://bustimes.org/stops/370022249",
+    "https://www.openingtimesin.uk/co-op-food-sheffield-norton-lees"
+  ]
+}

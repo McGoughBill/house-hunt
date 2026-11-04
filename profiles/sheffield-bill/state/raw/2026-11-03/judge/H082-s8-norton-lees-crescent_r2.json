@@ -1,0 +1,50 @@
+{
+  "id": "H082-s8-norton-lees-crescent",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/90035343",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "Norton Lees Crescent, S8 8SR/8SQ, Norton Lees, S8 is in the included area (listing and housemetric URLs in sources)."},
+    "budget": {"pass": true, "reason": "Asking 300000 meets the 300k cap. Asking + 1.15W + C = 300000 + 40250 + 3000 = 343250, under 400000 (W is est.). Caveat: the listing description says guide 300000-325000; if that is the real asking the cap fails."},
+    "tenure": {"pass": true, "reason": "Long leasehold, 800 years from 25 March 1936, ground rent 4 per year (listing). No covenant dispute seen."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. Listing says built 1930-1939."},
+    "vacant": {"pass": true, "reason": "Listing: vacant possession given on completion."},
+    "hall": {"pass": true, "reason": "Listing: 'Upon entering, you are greeted by a spacious entrance hall that leads to a bright and inviting living room.' Front door position not stated."}
+  },
+  "V": 325000,
+  "v_basis": "Three most recent same-type (semi-detached) sales on the street in the last 2 years: 70 Norton Lees Crescent (SR), 31 Mar 2025, 325000 (68 m2); 48 Norton Lees Crescent (SR), 14 Feb 2025, 275000 (53 m2); 14 Norton Lees Crescent (SR), 13 Dec 2024, 337000 (89 m2). Median 325000. Done-up status of these sales NOT verified (no condition or EPC data).",
+  "W": 35000,
+  "w_basis": "est. Decor throughout 8000; kitchen-diner refresh 10000; bathroom refresh 2000; electrics 5000; heating 4000; floors, doors and lighting 4000; externals 2000. Based on listing wording ('neutrally decorated throughout', extended dining kitchen, modern white shower room, EPC D, 1930s build). Floorplan could not be read. W is before contingency.",
+  "C": 3000,
+  "margin": -50750,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "As bought est. 3529/m2 (300000 / est. 85 m2) vs street done-up median 4779/m2 (70 NLC, 68 m2): about 74%. Area is est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -50750 = 0.9 x 325000 - 1.15 x 35000 - 3000 - 300000. Still negative at W 20000 (-33500). V and W are est."},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "V 325000 / street max 358000 (75 NLC detached, 3 Oct 2025, housemetric) = about 91%. Done-up status of V unverified."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector S8 8 max is at least 555000 (13 Ketton Avenue, S8 8PA, detached, 10 Jul 2026, Rightmove), so V is under 59% of it. Robust to the done-up question."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given (listing: 'Ask agent'). Est. 85 m2 from comparable semis of 68-89 m2 on the street."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms listed (listing). Bedroom sizes not given; est. one is small."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing: 'extended dining kitchen' already exists. Size not given, so the 25 m2 target is unchecked."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden is south-west facing with decks, lawn and a shed (listing), length not given. Loft not mentioned. Neighbours' extensions not checked. Est."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen and bathroom work, plus likely electrics or heating for a 1930s house at EPC D. Est."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months for about 35000 of works. Est."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or flags in the listing. 1930s build; roof, damp and cellar unknown."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "Quiet residential crescent, no main road in listing. Owner-occupier share, letting boards and fronts not verified (photos labels only)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk to park est. 10-15 min (Graves Park nearby). Est."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk to big supermarket est. 15-20 min. Est."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Driveway for two vehicles plus on-street parking (listing). Gradient not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay-windowed living room, 'bright and inviting', modern shower room (listing). Ceilings, light and period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "1930s semi with bay window, front garden and driveway. Brick or render and street appearance not verified from photos."}
+  ],
+  "total": 64.2,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -50750 even at 90% of V: asking 300k is above the 0.9V break-even of 292500 before works. V rests on unverified done-up status, and W and floor area are estimates.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/90035343",
+    "https://housemetric.co.uk/house-prices/Norton-Lees-Crescent/S8-8S",
+    "https://www.rightmove.co.uk/house-prices/norton-lees.html"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "H003-s10-cobden-view-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.haushomes.co.uk/properties-for-sale/property/12893740-cobden-view-road-crookes-sheffield",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes. Listing address S10 1HR."},
+    "budget":    {"pass": true, "reason": "Asking 240000 is under 300000. Asking + W 59800 + C 3000 = 302800, under 400000. Listing guide is 240000-250000; upper end gives 312800, still under 400000."},
+    "tenure":    {"pass": true, "reason": "Leasehold, 800 years from 25 Dec 1907. No covenant dispute mentioned (est.)."},
+    "structure": {"pass": true, "reason": "No movement, subsidence, knotweed, spray foam or dry rot stated. Cellar described as tanked, cause unknown (est.)."},
+    "vacant":    {"pass": false, "reason": "Vacant possession not stated. Listing says only 'no onward chain'. Fails until the agent confirms."},
+    "hall":      {"pass": false, "reason": "Front door and hall not described. Living room is the front bay room, so hall entry is unconfirmed. Fails until confirmed."}
+  },
+  "V": 260000,
+  "v_basis": "Terraced sales on Cobden View Road S10, last 2 years (from 3 Nov 2024), from Rightmove sold prices: 184 (27 Oct 2025, 260000), 176 (27 Oct 2025, 253500), 108 (23 Oct 2025, 365000). Median 260000. Done-up status of these sales is not shown on the page, so this is est.",
+  "W": 59800,
+  "w_basis": "Base 52000 (all est.): kitchen-diner knock-through with steel and structural work plus new kitchen 25000; bathroom refit 8000; rewire 6000 (est., not stated); heating service 1000; decor, plaster and floors 10000; cellar damp check and tanking review 2000. Base x 1.15 contingency = 59800. No floorplan or measured survey found.",
+  "C": 3000,
+  "margin": -77770,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Floor area not given, est. 95 m2 for both houses, so the ratio is about asking/V = 240000/260000 = 92%, above 85%."},
+    {"n": 2,  "score": 1, "est": false, "evidence": "Brief formula: 0.9x260000 - 1.15x59800 - 3000 - 240000 = -77770, below 0."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 260000 vs street max sale 400000 (214 Cobden View Road, 21 Mar 2025) = 65%, under 80%."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "Street max 400000 is inside S10, so the S10 2-year max is at least 400000. V/max is 65% or less, under 70%."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given. Est. 90-100 m2 for 3 levels, 2 receptions and an off-shot kitchen."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms now: front double, rear single (small), second-floor double with rear dormer. Only one is clearly a double. Rear single is small, so band 4."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Off-shot kitchen sits beside the rear dining room. One knock-through assumed. Layout and combined size not confirmed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length not given. Second floor already has a rear dormer, so loft headroom is limited. Neighbours' extensions not checked. One weak option."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through needs steel or structural work. Rewire and heating are unknown. Kitchen, bath and decor are plain."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 5-6 months to live there with a steel knock-through, new kitchen and bathroom, and rewire."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Tanked cellar suggests past damp, cause unclear. EPC D. Minor flags, cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street tenure and letting-board count not checked. Assumed one fail on the criteria."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park is est. 5-10 min walk. Not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Nearest large supermarket est. 15-20 min walk. Not measured."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Parking not stated. Raised forecourt. Cobden View Road is on a steep hillside (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Agent says light and spacious, with bay windows, exposed brick and a log burner. No dimensions or ceiling heights, so average (est.)."},
+    {"n": 17, "score": 4, "est": false, "evidence": "Listing describes a stone-fronted mid-terrace with bay windows and a raised forecourt. Photos not checked."}
+  ],
+  "total": 60,
+  "verdict": "REJECT",
+  "biggest_risk": "Margin is -77770 on the brief formula, even at V 260000 (V based on 3 sales, condition unchecked). Vacant possession and hall entry are unconfirmed and fail the gates.",
+  "sources": [
+    "https://www.haushomes.co.uk/properties-for-sale/property/12893740-cobden-view-road-crookes-sheffield",
+    "https://www.rightmove.co.uk/house-prices/s10/cobden-view-road.html"
+  ]
+}

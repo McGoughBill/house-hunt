@@ -1,0 +1,53 @@
+{
+  "id": "H065-s8-chesterfield-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74639956/",
+  "asking": 250000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 Woodseats, Chesterfield Road (Zoopla 74639956)"},
+    "budget":    {"pass": true, "reason": "asking 250000 + 1.15W 51750 + C 3000 = 304750, under 400000; W is est."},
+    "tenure":    {"pass": true, "reason": "leasehold, 474 years remaining, ground rent 2 (Zoopla 74639956); no covenant dispute seen"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build, dry rot"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacant possession not stated (Zoopla 74639956)"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door and hall not described; first room listed is a bay-fronted living room, so the door may open straight into it"}
+  },
+  "V": 238500,
+  "v_basis": "3 sales, terraced, Chesterfield Road S8, last 2 yrs: 919 Chesterfield Road 14/03/2025 330000; 537 Chesterfield Road 09/05/2025 238500; 549 Chesterfield Road 11/12/2025 231000. Sold data does not show condition, so done-up status is est.; top three by price used as proxy",
+  "W": 45000,
+  "w_basis": "est. (no photos or floorplan could be read): decor and flooring 14000; kitchen 10000; bathroom refresh 4000; rewire/heating allowance 6000; steel knock-through dining/kitchen 5000; hall partition 3000; survey and misc 3000; all before 1.15 contingency",
+  "C": 3000,
+  "margin": -90100,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "asking 250000 is 105% of V 238500; area not given so est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "margin -90100 (0.9V 214650 - 1.15W 51750 - C 3000 - asking 250000); still -38350 with zero works"},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 238500 is 72% of 330000, the top terraced sale on the street in 2 yrs (OTM/Domovita)"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S8 house sales in 2 yrs not checked; est. max well above 340714 so V under 70%"},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "floor area not given; est. about 95 m2 from 2 reception rooms, 3 beds, cellar and attic (Zoopla 74639956)"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 beds: two doubles on first floor, one double on second floor; room sizes not given (Zoopla 74639956)"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "lounge leads through to dining room and kitchen; one knock-through gives a kitchen-diner (Zoopla 74639956)"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "attic bedroom suggests loft already converted; garden length and neighbours' extensions not given"},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "knock-through needs steel (structural); rewire possible at EPC D (est.)"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "decor, kitchen, bathroom and knock-through; est. 4 to 6 months"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "condition not stated; cellar and attic conversion unchecked; EPC D (Zoopla 74639956)"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Chesterfield Road is a main road (fails no-main-road test); letting boards and tidy fronts not checked"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Graves Park nearby, est. 5 to 10 min; exact street not given"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "big supermarket est. 10 to 15 min walk in Woodseats; not verified"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "parking not stated; on-street on a main road (est.)"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "bay-fronted living room with stove, four-piece bathroom; light, ceiling height and period detail not described"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "bay window at front; brick or stone and front garden not stated"}
+  ],
+  "total": 60,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 250000 is above the done-up comparables (margin -90100), and the Hunters listing page could not be opened; ID 35029020 matched via Hunters office page and Zoopla 74639956",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74639956/",
+    "https://hunters.com/office/woodseats",
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-chesterfield-road-sheffield-s8/35029020/",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/chesterfield-road/",
+    "https://www.onthemarket.com/uk-house-prices/chesterfield-road-sheffield-s8/",
+    "https://domovita.co.uk/sold-prices/street/s8/chesterfield-road"
+  ]
+}

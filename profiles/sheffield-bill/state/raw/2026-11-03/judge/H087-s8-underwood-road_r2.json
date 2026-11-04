@@ -1,0 +1,53 @@
+{
+  "id": "H087-s8-underwood-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/",
+  "asking": 220000,
+  "floor_area_m2": 85,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "Underwood Road, Woodseats, S8 per https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/"},
+    "budget":    {"pass": true, "reason": "asking 220000 + 1.15 x W 90000 + C 3000 = 326500, under 400000 (W est.)"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold, but lease length, ground rent and service charge not stated at https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing mentions no movement, subsidence, knotweed, spray foam or dry rot; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacancy and chain status shown as not stated on the listing"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position not stated on the listing; hall or 5000 fix cannot be confirmed"}
+  },
+  "V": 260000,
+  "v_basis": "Same street and type in last 2 yrs: 56 Underwood Road, terraced, 17 Jul 2025, 200000 (https://propertyengine.co.uk/area-overview/s8-8th/house-prices). Only one found, so fell back to nearest like street Woodseats House Road (terraced): 31 Woodseats House Road, 16 Jan 2026, 260000; 20 Woodseats House Road, 4 Mar 2026, 272500 (https://www.rightmove.co.uk/house-prices/s8/woodseats-house-road.html). Median 260000. Done-up status not verified for any of the three. Excluded 18 Underwood Road, 2 Dec 2025, 87500 (type conflict, implausibly low). Using 27 Woodseats House Road, 6 Nov 2025, 297650 instead would give V 272500.",
+  "W": 90000,
+  "w_basis": "est., excludes contingency: strip-out and skip 3000; rewire 6000; heating 5000; plaster and damp allowance 6000; kitchen 8000; bathroom 6000; floors, doors, joinery 4000; decoration 4000; windows and doors allowance 5000; hall partition 3000; single-storey rear extension for 25 m2 kitchen-diner 35000; professional fees 5000. Floorplan listed but no URL available, so layout is inferred from the listing text.",
+  "C": 3000,
+  "margin": -92500,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "As bought 2588 per m2 (220000 / 85) vs done-up proxy 3059 per m2 (V 260000 / 85), ratio 84.6 percent; no done-up street comps found; area from task brief"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -92500 = 0.9 x 260000 - 1.15 x 90000 - 3000 - 220000; W is an estimate"},
+    {"n": 3,  "score": 1, "est": true,  "evidence": "V 260000 vs street max 200000 (56 Underwood Road, 17 Jul 2025, https://propertyengine.co.uk/area-overview/s8-8th/house-prices) = 130 percent; only in-window street sale found"},
+    {"n": 4,  "score": 3, "est": true,  "evidence": "V 260000 vs sector max seen 297650 (27 Woodseats House Road, 6 Nov 2025, https://www.rightmove.co.uk/house-prices/s8/woodseats-house-road.html) = 87 percent; true S8 8 max is likely higher"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "85 m2 per task brief, not stated on https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/; band 80-90"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms per https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/; no room sizes given, one likely small"},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Listing describes one reception of kitchen, diner and living room; 25 m2 kitchen-diner likely needs single-storey rear extension"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Attic room already exists per https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/; garden described as spacious with no length; neighbour extensions unknown"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Needs single-storey rear extension plus rewire and heating; the extension is the worst item"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Extension, rewire, heating and kitchen-bath works estimated at 7-12 months before happy to live"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey; listing says needs renovation with no detail; roof, damp, wiring and lease unknown"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Mixed tenure in sales history (https://www.zoopla.co.uk/house-prices/sheffield/underwood-road/); owner-occupier share, letting boards and rat-run status not checked"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Graves Park named as nearby on https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/; walk time not measured"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Local shops named on the listing; walk time to a big supermarket not measured"},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Ample free on-street parking per the listing; slope not stated"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Room sizes, ceiling heights and period features not stated; 20 photos not viewed"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Mid-terrace; facade material and condition not described; photos not viewed"}
+  ],
+  "total": 50.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin about -92500 (est.): even the middle comp of 260000 cannot cover asking plus about 90000 works including a rear extension plus costs; no floorplan, lease length, survey or verified done-up comps.",
+  "sources": [
+    "https://whitehornes.co.uk/property-for-sale/underwood-road-woodseats-s8/",
+    "https://whitehornes.co.uk/properties/for-sale/",
+    "https://www.zoopla.co.uk/house-prices/sheffield/underwood-road/",
+    "https://propertyengine.co.uk/area-overview/s8-8th/house-prices",
+    "https://www.rightmove.co.uk/house-prices/s8/woodseats-house-road.html",
+    "https://primelocation.com/house-prices/sheffield/underwood-road"
+  ]
+}

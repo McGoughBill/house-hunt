@@ -1,0 +1,50 @@
+{
+  "id": "H075-s8-lees-hall-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/173537471",
+  "asking": 250000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 Norton Lees per Rightmove listing (Lees Hall Road, Sheffield, S8)."},
+    "budget":    {"pass": true, "reason": "asking 250000 + 1.15W 46000 + C 3000 = 299000, under 400000. W is est."},
+    "tenure":    {"pass": true, "reason": "Leasehold with 907 years remaining per Rightmove; over 150 years; no covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed or non-standard build mentioned; no condition report."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: occupancy not stated; listing says no chain, which does not confirm vacant possession."},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position and hallway not described; floorplan is a 296x197 thumbnail I could not read."}
+  },
+  "V": 275000,
+  "v_basis": "Median of the 3 most recent semi-detached 3-bed sales on Lees Hall Road in the last 2 years: 115 Lees Hall Road S8 9JL, 13 Feb 2026, 300000; 26 Lees Hall Road S8 9JJ, 7 May 2025, 275000; 117 Lees Hall Road S8 9JL, 15 Jul 2025, 268000. Land Registry and sold-price sites do not show condition, so done-up status is est.",
+  "W": 40000,
+  "w_basis": "est. kitchen refit 12000; bathroom 6000; decoration and flooring throughout 10000; electrics and heating allowance 5000; doors, joinery and windows 3000; skip, scaffold and sundries 4000. Total 40000 before the 1.15 contingency. Excludes rear or loft extension and any hall creation. Floorplan and photos not readable, so est.",
+  "C": 3000,
+  "margin": -51500,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 250000 is 91 percent of V 275000; floor area unknown so assumes equal size (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin 0.9x275000 - 1.15x40000 - 3000 - 250000 = -51500 (V and W est.)."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 275000 is 50 percent of 2-year street max 551551 (13 Lees Hall Road, 24 Jan 2025, housemetric)."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "Sector S8 9 has a 2-year sale of 551551 (13 Lees Hall Road), so V is at most 50 percent of sector max."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given anywhere; assumed about 85 m2 (est.), in the 80-90 band."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says 3 beds with two doubles; third room unmeasured and presumed small, so 3 now with one small (est.)."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Listing describes an open-plan living, dining and kitchen area that already exists; size unconfirmed."},
+    {"n": 8,  "score": 4, "est": true,  "evidence": "Large private garden and 'potential to extend' per listing; loft not described; 4 and 5-bed semis on the street (21 and 13 Lees Hall Road) suggest neighbours extended (est.)."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen and bathroom plus unknown electrics and heating; EPC C; rewire or heating allowance assumed (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months for kitchen, bathroom, decoration and services while renting in Cambridge."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No condition report or survey; no damp, roof or cellar flags stated, but nothing has been checked."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Lees Hall Road is a long through road with bus stops (est.); owner-occupancy and tidy fronts cannot be verified from the listing."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not sourced; est. 10-15 minutes."},
+    {"n": 14, "score": 2, "est": true,  "evidence": "Big supermarket not sourced; only a Co-op found locally; est. 20 or more minutes walk."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Block-paved driveway per listing; slope unknown (est. level)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing says modern and open-plan; no room sizes or photos assessed, so average assumed."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Semi-detached with front driveway; materials and bay not stated; plain and tidy assumed (est.)."}
+  ],
+  "total": 60.8,
+  "verdict": "PASS",
+  "biggest_risk": "Negative margin of -51500 under the formula: asking plus est. works and costs exceed 0.9 of the est. finished value, so the deal does not work at these inputs; floor area, layout and condition are unverified.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/173537471",
+    "https://housemetric.co.uk/house-prices/Lees-Hall-Road/S8-9J",
+    "https://www.rightmove.co.uk/house-prices/S8-9JL.html"
+  ]
+}

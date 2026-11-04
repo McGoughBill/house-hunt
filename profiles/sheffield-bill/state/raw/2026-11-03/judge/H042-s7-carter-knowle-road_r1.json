@@ -1,0 +1,49 @@
+{
+  "id": "H042-s7-carter-knowle-road",
+  "run": 1,
+  "live": false,
+  "listing_url": "https://manchester.townandcountrypropertyauctions.co.uk/lot/details/168786",
+  "asking": 280000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": null, "reason": "not assessed: stopped at step 1. Address is 84 Carter Knowle Road, S7 2DZ (T&C lot page)."},
+    "budget": {"pass": null, "reason": "not assessed: stopped at step 1. Asking 280000 per job and propertyauctions.io; T&C shows guide 249000 plus fees. W not estimated."},
+    "tenure": {"pass": null, "reason": "not assessed: stopped at step 1. Listed leasehold; lease length not stated."},
+    "structure": {"pass": null, "reason": "not assessed: stopped at step 1. Neither listing mentions structural issues."},
+    "vacant": {"pass": null, "reason": "not assessed: stopped at step 1. Occupancy not stated (propertyauctions.io says 'Available')."},
+    "hall": {"pass": null, "reason": "not assessed: stopped at step 1. T&C says 'welcoming entrance hall'; front door position not stated."}
+  },
+  "V": null,
+  "v_basis": "not run: stopped at step 1 because listing not live",
+  "W": null,
+  "w_basis": "not run: stopped at step 1",
+  "C": null,
+  "margin": null,
+  "scores": [
+    {"n": 1, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 2, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 3, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 4, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 5, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 6, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 7, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 8, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 9, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 10, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 11, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 12, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 13, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 14, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 15, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 16, "score": null, "est": null, "evidence": "not scored: listing not live"},
+    {"n": 17, "score": null, "est": null, "evidence": "not scored: listing not live"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Likely closed: auction dates passed (T&C closing 28/01/2026; propertyauctions.io 2025-12-10). OTM 18353710 not opened (not on allowlist, not surfaced by search), so live status is inferred. Asking 280000 vs T&C guide 249000 plus fees.",
+  "sources": [
+    "https://manchester.townandcountrypropertyauctions.co.uk/lot/details/168786",
+    "https://propertyauctions.io/listings/7fe7dbf2ce1a6c166c2627ab8f869249"
+  ]
+}

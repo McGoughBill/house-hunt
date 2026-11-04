@@ -1,0 +1,53 @@
+{
+  "id": "H033-s7-117-vincent-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74145019/",
+  "asking": 215000,
+  "floor_area_m2": 112,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7 (Sharrow). Listing: https://www.zoopla.co.uk/for-sale/details/74145019/"},
+    "budget":    {"pass": true, "reason": "215000 + 1.15 x 73000 (83950, est.) + C 3595 = 302545, under 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold. Listing says the vendors recently bought the freehold."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on structure; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not say whether the house is vacant or tenanted."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing is silent on where the front door opens; a hall partition is costed in W (est.)."}
+  },
+  "V": 209000,
+  "v_basis": "Terraced, Vincent Road, last 2 years, per https://www.rightmove.co.uk/house-prices/s7/vincent-road.html: 111 on 2026-03-27 at 205000 (leasehold); 9 on 2026-01-16 at 223000 (leasehold); 134 on 2025-10-27 at 209000 (freehold). Median 209000. Done-up status not verified for any of these (est.).",
+  "W": 73000,
+  "w_basis": "est., before contingency: strip-out and skip 6000; rewire 8000; heating and plumbing 9000; family bathroom 6000; kitchen 8000 plus steel knock-through 6000; hall partition 4000; plaster, decoration, doors 12000; flooring 4000; roof and damp allowance 6000; fees and building control 4000. Floorplan and photos could not be read, so all est.",
+  "C": 3595,
+  "margin": -114445,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 1920 per m2 (215000 / 112) against V 209000. Comp floor areas unknown, so ratio est. 85-100+%. 133 Vincent Rd (97 m2, sold 279950 in 2025) would give about 67%: https://housemetric.co.uk/28333302/S7-1BY/133+Vincent+Road"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -114445 = 0.9 x 209000 - 1.15 x 73000 - 3595 - 215000. Still negative at V 281611 (street max)."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 209000 / street max 281611 (127 Vincent Rd, sold 2025-05-30) = 74%: https://www.rightmove.co.uk/house-prices/s7/vincent-road.html"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector S7 1 two-year max not read directly. Detached median 677500 (8 sales, last 12 months) means the max is far above 298600, so V is under 70%: https://propertyengine.co.uk/area-overview/s7-1by/house-prices"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1207 sq ft, about 112 m2, per listing: https://www.zoopla.co.uk/for-sale/details/74145019/"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says three bedrooms on the upper floors. Room sizes not given, so one is probably small."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Offshot kitchen behind a rear dining room, so one knock-through is likely. 25 m2 not checked, as room sizes are not given: https://www.zoopla.co.uk/for-sale/details/74145019/"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden described as larger than average, maybe 10 m or more. No evidence on loft space or neighbour extensions."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Likely rewire (EPC D61, probably Victorian) plus steel for the knock-through. No survey."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Estimate of 7-12 months for rewire, steel, kitchen-diner and decoration."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Reduced 2026-10-12 per listing. No survey, damp, roof or cellar information. Cause unclear."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Many leasehold terraces and room-to-rent adverts on the street (est.). Owner-occupancy and letting boards not checked: https://primelocation.com/to-rent/details/67392428"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk to a park est. 10-15 min. No map check."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk to a big supermarket est. 15-20 min. No map check."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Mid-terrace with no drive mentioned. On-street parking and slope est."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "112 m2 over three floors. Light, ceiling heights and period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Victorian terrace. Facade and bay not described. Plain and tidy assumed."}
+  ],
+  "total": 57,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -114445: asking plus works costs more than the done-up value, and V is unverified as done-up.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74145019/",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/vincent-road/s7-1bw/",
+    "https://www.rightmove.co.uk/house-prices/s7/vincent-road.html",
+    "https://housemetric.co.uk/28333302/S7-1BY/133+Vincent+Road",
+    "https://propertyengine.co.uk/area-overview/s7-1by/house-prices",
+    "https://primelocation.com/to-rent/details/67392428"
+  ]
+}

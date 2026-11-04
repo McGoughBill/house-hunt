@@ -1,0 +1,52 @@
+{
+  "id": "H052-s7-vincent-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/HAY030769288",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7, Nether Edge. Postcode S7 1BW per Haybrook listing page."},
+    "budget":    {"pass": true, "reason": "asking 220000 + 1.15 x W 85500 (98325) + C 3000 = 321325, under 400000. Asking under 300000."},
+    "tenure":    {"pass": true, "reason": "Freehold per Haybrook listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build, dry rot. Sprift report 5243793 is referenced but not read."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacant possession not stated. Listing says chain free."},
+    "hall":      {"pass": true, "reason": "unconfirmed: no entrance hall described. Listing names living room, dining room, kitchen and cellar door only. Hall allowance is in W."}
+  },
+  "V": 215000,
+  "v_basis": "Median of the 3 most recent freehold terraced sales on Vincent Road in the last 2 years (Rightmove sold list): 134 Vincent Rd, 27 Oct 2025, 209000; 56 Vincent Rd, 25 Jul 2025, 215000; 133 Vincent Rd, 16 Jun 2025, 279950. Done-up status is not confirmed for any of them (est.).",
+  "W": 85500,
+  "w_basis": "All est., before 1.15 contingency: rear single-storey extension to reach 25 m2 kitchen-diner 30000; kitchen-diner fit 10000; knock-through with steel 3500; bathroom 4500; rewire 6500; heating 4500; windows and doors 4000; plaster, damp check, decoration, flooring 9000; hall allowance 3000; loft sign-off 2500; fees 4000; skip, scaffold, sundries 4000.",
+  "C": 3000,
+  "margin": -127825,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. as bought 2500/m2 (220000 / est. 88 m2) vs done-up 2443/m2 (215000 / 88); 134 Vincent Rd, 85 m2, sold 209000 (Zoopla), about 2459/m2. Ratio about 102%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -127825 est. (0.9 x 215000 - 1.15 x 85500 - 3000 - 220000). Break-even needs V of about 357000."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 215000 / street max 281611 (127 Vincent Rd, leasehold, 30 May 2025, Rightmove) = 76%."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 215000 / S7 1 sector max 780000 (15 Kenwood Park Rd, S7 1NE, 17 Jul 2026, Rightmove S7 list) = 28%."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "est. 88 m2 from listing room sizes plus hall and stairs. Haybrook floor area not stated. Comparables: 134 Vincent Rd 85 m2 (Zoopla); 133 Vincent Rd 97 m2 (EPC March 2025, housemetric)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed: bed 1 3.66 x 3.96 m; loft 4.27 x 4.27 m with Velux; bed 2 2.44 x 2.74 m (about 6.7 m2, small). Loft sign-off not stated (est.)."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen 1.83 x 2.74 m, separate from dining room 3.35 x 3.66 m. Knock-through gives about 17 m2 (est.); 25 m2 needs a rear extension, costed in W."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Loft already used as a bedroom, so up is used. Garden length not stated. Neighbour extensions unknown (est.)."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Rear extension, structural knock-through, rewire and heating (est.). Worst item is the single-storey extension."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 9 to 12 months for extension, rewire, heating, kitchen, bathroom and decoration. Permitted development likely, so no planning (est.)."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar (door off dining room) condition unknown. Sprift report 5243793 not read. EPC D. No survey flags stated (est.)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Terraced street. 6 of 10 sales in the last 2 years are leasehold (Rightmove sold list), which suggests lets or flats. Letting boards and tidy fronts unknown (est.)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Endcliffe Park est. 10 to 15 min walk (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Large supermarket est. 15 to 20 min walk (est.)."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking not stated. On-street parking likely (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay lounge 3.66 x 4.57 m; feature fireplace in bed 1. Kitchen about 5 m2 and bathroom about 4.2 m2 are small. Ceiling height and period detail not stated (est.)."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front bay window per listing. Brick, front garden and terrace condition not stated (est.)."}
+  ],
+  "total": 52.4,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 220000 already sits at done-up sale levels, so the margin is about -127825 (est.) and the works cannot be paid from the value gap.",
+  "sources": [
+    "https://www.haybrook.com/HAY030769288",
+    "https://www.rightmove.co.uk/house-prices/s7/vincent-road.html",
+    "https://www.zoopla.co.uk/house-prices/sheffield/vincent-road/s7-1bx/",
+    "https://housemetric.co.uk/28333302/S7-1BY/133+Vincent+Road",
+    "https://www.rightmove.co.uk/house-prices/s7.html"
+  ]
+}

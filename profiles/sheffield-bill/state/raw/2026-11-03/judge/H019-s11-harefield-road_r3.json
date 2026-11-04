@@ -1,0 +1,52 @@
+{
+  "id": "H019-s11-harefield-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield",
+  "asking": 275000,
+  "floor_area_m2": 98,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11 (Sharrow Vale), on the list."},
+    "budget":    {"pass": true, "reason": "275000 + 1.15 x 60000 (est. W) + 3000 = 347000, under 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold per listing features (https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield). Status panel says Unknown; confirm."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam or dry rot. No survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on occupancy. No Onward Chain refers to the seller's chain, not tenancy."},
+    "hall":      {"pass": true, "reason": "Front door opens to a side entrance lobby with stairs, not into the lounge (https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield)."}
+  },
+  "V": 390000,
+  "v_basis": "No done-up sales on Harefield Road in the last 2 years (latest Land Registry sale there is 2021: https://primelocation.com/house-prices/sheffield/harefield-road). Nearest like street used, so V is weak. Sharrow Vale Road sales: 161 Sharrow Vale Road 461000 (11 Nov 2024); 145 Sharrow Vale Road 390000 (16 Jan 2026); 141 Sharrow Vale Road 375000 (20 Jan 2026). Median 390000. Source: https://domovita.co.uk/sold-prices/street/s11/sharrow-vale-road. None confirmed done-up; 145 is leasehold, 113 m2, no refurb listed (https://house-price-finder.pages.dev/property/MTQ1LCBTSEFSUk9XIFZBTEUgUk9BRHxTMTEgOFpB). V is probably high.",
+  "W": 60000,
+  "w_basis": "est. 60000 before contingency: knock-through from dining room into off-shot kitchen to make a 25 m2+ kitchen-diner (steel likely), new kitchen, family bathroom, decor, floor coverings, electrical check, attic bedroom sign-off, cellar damp check. Based on listing text only; no floorplan or survey read.",
+  "C": 3000,
+  "margin": 4000,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "est. 2806/m2 as bought (275000 / 98 m2; 98 from job brief, not listing) vs 3451/m2 for 145 Sharrow Vale Rd (not done-up); ratio about 81%."},
+    {"n": 2,  "score": 2, "est": true,  "evidence": "Margin 4000 = 0.9 x 390000 - 1.15 x 60000 - 3000 - 275000. Band 0-10k."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 390000 / 461000 (161 Sharrow Vale Rd, Nov 2024; nearest street max, Harefield has none in 2 yrs) = 85%."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "V 390000 / 510000 (356 Sharrow Lane, S11, Jul 2026, highest S11 sale found; sector sample partial) = 76%."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "98 m2 from job brief; listing does not state floor area. Band 90-100."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Two first-floor doubles plus attic double with eaves storage; attic room needs sign-off (unconfirmed)."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Off-shot kitchen too small for diner; separate dining room with cellar access beside it; one knock-through likely. Room sizes not stated."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Private courtyard garden, so under 10 m likely; loft already used as bedroom; neighbours unknown."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Kitchen-diner knock-through likely needs steel beam, plus bath and decor."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7-12 months: knock-through, kitchen, bath, attic check, decor."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar, solid-wall house of 1900-29 build, no survey; cause of any damp unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Listing pitches to investor landlords and young families; estimate of one failing street test."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Endcliffe Park roughly 5-10 min walk; not timed."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Large supermarket on Ecclesall Road roughly 10-15 min walk; not timed."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Sharrow Vale on-street parking likely hard; slope not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay-windowed lounge, UPVC, modern bathroom, period house; period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Brick terrace with bay, well maintained, plain front; photos not read."}
+  ],
+  "total": 60,
+  "verdict": "PASS",
+  "biggest_risk": "V is weak: no done-up comps, so the 4000 margin could turn negative. The kitchen-diner knock-through and attic bedroom sign-off add cost and time.",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield",
+    "https://primelocation.com/house-prices/sheffield/harefield-road",
+    "https://domovita.co.uk/sold-prices/street/s11/sharrow-vale-road",
+    "https://house-price-finder.pages.dev/property/MTQ1LCBTSEFSUk9XIFZBTEUgUk9BRHxTMTEgOFpB",
+    "https://www.rightmove.co.uk/house-prices/Sharrow-Vale.html"
+  ]
+}

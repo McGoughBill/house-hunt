@@ -1,0 +1,52 @@
+{
+  "id": "H045-s7-hastings-grange",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74010627/",
+  "asking": 290000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7 Millhouses (zoopla 74010627). The prompt's jitty URL was not on the allowlist, so the Zoopla listing was used."},
+    "budget":    {"pass": true, "reason": "290000 + 1.15 x 92000 (W est.) + 3000 = 398800, under 400000 by 1200. Passes only on the estimated W. Fails if not a first-time buyer (SDLT about 4500 est.)."},
+    "tenure":    {"pass": true, "reason": "Leasehold, 500 years from 2017 (zoopla 74010627), so about 491 years left. No covenant dispute seen."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state occupancy. Listed as chain free."},
+    "hall":      {"pass": true, "reason": "Entrance hall with tiled floor and downstairs WC (zoopla 74010627)."}
+  },
+  "V": 400000,
+  "v_basis": "Same street, terraced, last 2 years: 33 Hastings Grange, 1 Dec 2025, £450,000 (2 bed); 13 Hastings Grange, 9 Jan 2026, £385,000 (3 bed). Only 2 found, so the third is the nearest like street: 943 Abbeydale Road, terraced, 24 Jul 2025, £400,000 (beds and condition not shown). Median £400,000. No sale shows done-up status. 33 Hastings Grange appears in the Rightmove Land Registry list but not in the domovita list, so check it. Using 16 Hastings Grange (3 May 2024, £375,000, terraced, 3 bed, just outside 2 years) instead gives V £385,000.",
+  "W": 92000,
+  "w_basis": "All est., no floorplan or survey. Before the 1.15 contingency. The brief says W includes contingency, but the prompt formula applies 1.15 once, so the prompt is followed. Loft conversion for 3rd bed 55000; rear extension to bring kitchen-diner toward 25 m2 20000; decor, floors, lights 8000; electrics and heating 4000; fees, drawings, party wall 5000. C = SDLT nil (first-time buyer rate) + 3000 fees. Kitchen-diner size and roof type unknown.",
+  "C": 3000,
+  "margin": -38800,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "Asking 290000 is 72.5% of V 400000, same area assumed. Floor area not given."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -38800 = 0.9 x 400000 - 1.15 x 92000 - 3000 - 290000. W is est."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V is 49% of 815000, 35 Hastings Grange detached, 29 Jan 2026 (Rightmove LR list)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V is 47% of 850000, 1 Abbeydale Road, 19 Dec 2025 (domovita). Sector max sampled, not exhaustive."},
+    {"n": 5,  "score": 2, "est": true,  "evidence": "Floor area not given. Est. 70-75 m2 from 2-bed Hastings Grange houses and a two-floor mid-terrace footprint."},
+    {"n": 6,  "score": 2, "est": true,  "evidence": "2 bedrooms listed. Third needs a loft conversion; loft access is on the landing. Roof type unknown."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Open-plan living/dining/kitchen exists, size not given. Est. under 25 m2, so a single-storey rear extension is needed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear garden has terraced levels, length not given. Loft fit and neighbour extensions unknown. One weak."},
+    {"n": 9,  "score": 1, "est": false, "evidence": "Loft conversion plus rear extension, both in W."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 6-9 months for loft and extension, plus finishing."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Listing mentions no defects. 2017 build. Roof type unknown."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "Cul-de-sac off Abbeydale Road. Tidy modern frontages. At least one rental listing on the street. Judgement."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing says near Millhouses Park. Walk time est. 5-10 min."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Listing says near shops. Walk time to a big supermarket est. 10-15 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "One designated off-street space (zoopla 74010627). Slope not stated. On-street parking in a cul-de-sac."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "2017 build, modern fittings, French doors to garden, no period features. Ceiling height not given."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "2017 terrace, brick assumed. Resin-bound forecourt and bin store, no front garden."}
+  ],
+  "total": 56.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -38800 even at V 400000. V rests on 2 same-street sales plus one Abbeydale Road sale, and W is an unsurveyed guess with no floorplan.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74010627/",
+    "https://www.rightmove.co.uk/house-prices/S7-2HJ.html",
+    "https://domovita.co.uk/sold-prices/street/s7/hastings-grange",
+    "https://domovita.co.uk/sold-prices/street/s7/abbeydale-road",
+    "https://www.zoopla.co.uk/for-sale/details/72646649"
+  ]
+}

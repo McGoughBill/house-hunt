@@ -1,0 +1,50 @@
+{
+  "id": "H004-s10-crookes-no-177-likely",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89237292",
+  "asking": 270000,
+  "floor_area_m2": 115,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S10 Crookes is an approved area. Listing address is 'Crookes, S10'; no. 177 comes from the floorplan file label only (https://www.rightmove.co.uk/properties/89237292)."},
+    "budget": {"pass": true, "reason": "Asking 270000 is at most 300000. Asking + W 28750 + C 3000 = 301750, at most 400000. est. on W."},
+    "tenure": {"pass": true, "reason": "Leasehold, 800-year lease from 1952, 726 years left (listing). Vendor is buying the freehold. No covenant dispute stated."},
+    "structure": {"pass": true, "reason": "No movement, subsidence, knotweed, spray foam, non-standard build or dry rot mentioned. Survey not seen. est."},
+    "vacant": {"pass": true, "reason": "Not stated. Vendor is the owner-occupier completing a freehold purchase, so vacancy on completion is likely. est."},
+    "hall": {"pass": true, "reason": "Entrance and hall not described in the listing text. Photos and floorplan not checked for this. est."}
+  },
+  "V": 280000,
+  "v_basis": "No done-up sales on Crookes Road found. The Crookes Road sold page (https://domovita.co.uk/sold-prices/street/s10/crookes-road?start=100) shows only 1995 sales. Nearest like data: 13 S10 terraced sales Apr-Jul 2026 (https://www.rightmove.co.uk/house-prices/crookes.html), median 232100 (not refurbished). V 280000 is an est. uplift for done-up condition, not a measured median. Sales used: 14 Spring View Road 220000 (13 Jul 2026); 21 Melbourn Road 311500 (8 Jul 2026); 262 Western Road 285000 (1 Jul 2026).",
+  "W": 28750,
+  "w_basis": "Est. base 25000: knock-through of off-shot kitchen into rear dining room with lintel or steel 12000; kitchen-diner finish and decor 8000; hall or entrance tidy 2000; attic sign-off and misc 3000. Plus 15% contingency = 28750. Listing says recent rewire, replaster, new bathroom, kitchen, and roof, so the base is low.",
+  "C": 3000,
+  "margin": -54063,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true, "evidence": "As bought 270000/115 = 2348 per m2 vs finished value 280000/115 = 2435 per m2: 96%, above 85%. Street comps not done-up, so est."},
+    {"n": 2,  "score": 1, "est": true, "evidence": "Margin = 0.9*280000 - 1.15*28750 - 3000 - 270000 = -54063, below 0."},
+    {"n": 3,  "score": 3, "est": true, "evidence": "V 280000 vs nearest known max 311500 (Melbourn Road, Jul 2026): 90%. Crookes Road max not known."},
+    {"n": 4,  "score": 4, "est": true, "evidence": "V 280000 vs S10 sector max 372000 (9 Tinker Lane, Jun 2026): 75%."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "Floor area 115 m2 (listing, 1239 sq ft)."},
+    {"n": 6,  "score": 3, "est": true, "evidence": "Three bedrooms, but third is attic-style with Velux windows; sign-off not confirmed."},
+    {"n": 7,  "score": 4, "est": true, "evidence": "Off-shot kitchen and separate rear dining room with cellar head. One knock-through likely; layout not confirmed."},
+    {"n": 8,  "score": 2, "est": true, "evidence": "Private west-facing rear garden, length not stated; attic already converted; neighbours unknown. One weak headroom point."},
+    {"n": 9,  "score": 4, "est": true, "evidence": "Rewire, replaster, bathroom, kitchen, roof already done. Remaining work is a kitchen-diner knock-through (possible steel) and decor."},
+    {"n": 10, "score": 4, "est": true, "evidence": "Est. 4-6 months: knock-through, decor, attic sign-off."},
+    {"n": 11, "score": 3, "est": true, "evidence": "No serious flags stated. Cellar head and survey unseen; cause of unknowns unclear."},
+    {"n": 12, "score": 2, "est": true, "evidence": "Crookes Road is a busy through road if no. 177 is on it; letting boards and tenure mix not checked. est."},
+    {"n": 13, "score": 4, "est": true, "evidence": "Crookes Valley Park est. 10-15 min walk. Not measured."},
+    {"n": 14, "score": 4, "est": true, "evidence": "Crookes shops est. 10-15 min walk. Not measured."},
+    {"n": 15, "score": 3, "est": true, "evidence": "Parking listed as 'Ask agent'. Crookes is hilly; slope not checked."},
+    {"n": 16, "score": 4, "est": true, "evidence": "Bay-windowed lounge, ceiling coving, feature fireplace, dual-aspect attic room. Photos not checked for light or ceiling height."},
+    {"n": 17, "score": 4, "est": true, "evidence": "Stone-fronted mid-terrace, front garden behind wall and hedge. Photos not checked."}
+  ],
+  "total": 58.8,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 270000 is above the est. done-up value of 280000 after works and costs (margin -54063); V rests on an est. uplift because no done-up same-street sales were found.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89237292",
+    "https://www.rightmove.co.uk/house-prices/crookes.html",
+    "https://domovita.co.uk/sold-prices/street/s10/crookes-road?start=100"
+  ]
+}

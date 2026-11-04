@@ -1,0 +1,53 @@
+{
+  "id": "H029-s11-ratcliffe-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/167696486",
+  "asking": 285000,
+  "floor_area_m2": 74,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S11 8YA, Hunters Bar, per https://www.rightmove.co.uk/properties/167696486"},
+    "budget": {"pass": true, "reason": "unconfirmed: asking 285000 is at most 300000 (listing guide range 285000-295000). Est. test: 285000 + 1.15 x est. W 101000 + C 3000 = 404150, over 400000 by 4150; passes only if W is at most 97391. C = SDLT nil (first-time buyer, price under 300000) + 3000 fees. No floorplan or survey, so W is est. and the gate is not shown to fail on evidence."},
+    "tenure": {"pass": true, "reason": "Freehold, per https://www.rightmove.co.uk/properties/167696486"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing gives no survey, movement, subsidence, knotweed, spray foam, non-standard build or dry rot information"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing offers early vacant possession with no onward chain, but also says the marketing photos predate the current tenancy, so the house appears let now. Tenancy end date not stated. Page also shows 'Recently sold & under offer', unclear whether this refers to this house. Per https://www.rightmove.co.uk/properties/167696486"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into a hall or the living room. If a hall is needed, est. at most 5000 and not included in W."}
+  },
+  "V": 326500,
+  "v_basis": "Ratcliffe Road has 1 sale in the last 2 years (31 Ratcliffe Road, 30 Oct 2025, 270000; https://www.rightmove.co.uk/house-prices/S11-8YA.html), so the nearest like street is used. Hunter House Road terraces, 3 most recent: 29 Hunter House Road, 2 Jul 2026, 303215; 32 Hunter House Road, 17 Mar 2026, 326500; 61 Hunter House Road, 5 Mar 2026, 347500 (all 4-bed; https://www.rightmove.co.uk/house-prices/s11/hunter-house-road.html). Median 326500. Floor areas and done-up status not shown, so V is est. and likely high for a 2-bed 74 m2 house.",
+  "W": 101000,
+  "w_basis": "est.; no floorplan and photos not viewed. Loft regularisation to a bedroom with building regs, stair, fire and insulation 30000; single-storey rear extension for a 25 m2+ kitchen-diner 25000; rewire 6000; heating 4000; kitchen 10000; shower room 5000; decor, plaster, flooring 10000; damp, roof, cellar and windows allowance 7000; design, building regs and fees 4000. Before contingency, per the prompt (the scoring brief says W includes contingency; the prompt was followed). The margin applies 1.15.",
+  "C": 3000,
+  "margin": -110300,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true, "evidence": "Asking 285000 / 74 m2 = 3851 per m2. Same-street sales 20 Sep 2024 (11 and 37 Ratcliffe Rd, 109 and 95 m2) = 3272 per m2, so 118%. Just outside 2 yrs; done-up status unknown (https://www.rightmove.co.uk/house-prices/S11-8YA.html, https://housemetric.co.uk/house-prices/Ratcliffe-Road/S11-8Y)."},
+    {"n": 2,  "score": 1, "est": true, "evidence": "Margin -110300 = 0.9 x 326500 - 1.15 x 101000 - 3000 - 285000. Depends on est. W and V."},
+    {"n": 3,  "score": 1, "est": true, "evidence": "V 326500 vs Ratcliffe Rd 2-yr max 270000 (31 Ratcliffe Rd, 30 Oct 2025) = 121% (https://www.rightmove.co.uk/house-prices/S11-8YA.html)."},
+    {"n": 4,  "score": 5, "est": true, "evidence": "V 326500 vs S11 2-yr max at least 499000 (148 Hunter House Rd, 17 Mar 2025) = 65% (https://www.rightmove.co.uk/house-prices/s11/hunter-house-road.html). Full sector max not checked."},
+    {"n": 5,  "score": 2, "est": false, "evidence": "74 m2 (792 sq ft) per https://www.rightmove.co.uk/properties/167696486; 70-80 band."},
+    {"n": 6,  "score": 3, "est": true, "evidence": "2 beds (front double, single). Part-converted loft room with no building regs approval per listing; third bedroom needs attic sign-off. Loft size and headroom unknown."},
+    {"n": 7,  "score": 3, "est": true, "evidence": "Dining kitchen exists per listing, size not given. 25 m2+ target est. needs a single-storey rear extension."},
+    {"n": 8,  "score": 2, "est": true, "evidence": "Loft partly converted (est. fits). Rear garden length not stated. Neighbours' extensions not shown. One weak."},
+    {"n": 9,  "score": 1, "est": true, "evidence": "Loft regularisation plus rear extension (est.) = loft + extension."},
+    {"n": 10, "score": 2, "est": true, "evidence": "Est. 13-18 months: loft approval, extension, then kitchen, shower room and decor. No source."},
+    {"n": 11, "score": 2, "est": true, "evidence": "Cellar (access per listing, condition unknown). Loft without building regs. No survey, damp or roof information. One serious."},
+    {"n": 12, "score": 3, "est": true, "evidence": "Quiet cul-de-sac off Sharrowvale Rd per https://www.rightmove.co.uk/properties/167696486. Current tenancy implies a let. Many leasehold terrace sales on the street (https://domovita.co.uk/sold-prices/street/s11/ratcliffe-road). Letting boards not checked. One fails."},
+    {"n": 13, "score": 4, "est": true, "evidence": "Endcliffe Park named as nearby in listing. Walk est. 5-10 min."},
+    {"n": 14, "score": 3, "est": true, "evidence": "No supermarket named. Walk est. 15-20 min."},
+    {"n": 15, "score": 4, "est": true, "evidence": "On-street parking per listing. Slope not stated; est. easy on-street."},
+    {"n": 16, "score": 3, "est": true, "evidence": "Feature fireplace and wood-burner, dated pine kitchen, Velux and exposed purlins in loft (listing). Light and ceiling height not stated. Average."},
+    {"n": 17, "score": 3, "est": true, "evidence": "Mid-terrace with small front garden per listing. Stone or brick and bay not stated. Plain, tidy (est.)."}
+  ],
+  "total": 44,
+  "verdict": "PASS",
+  "biggest_risk": "Budget gate fails on the central est. (404150 vs 400000) if a rear extension is needed, and V uses 4-bed Hunter House Road sales with unverified condition and size, so V is likely high.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/167696486",
+    "https://www.rightmove.co.uk/house-prices/s11/hunter-house-road.html",
+    "https://www.rightmove.co.uk/house-prices/S11-8YA.html",
+    "https://domovita.co.uk/sold-prices/street/s11/ratcliffe-road",
+    "https://housemetric.co.uk/house-prices/Ratcliffe-Road/S11-8Y",
+    "https://media.rightmove.co.uk/10k/9405/167696486/9405_34211622_DOC_02_0001.pdf"
+  ]
+}

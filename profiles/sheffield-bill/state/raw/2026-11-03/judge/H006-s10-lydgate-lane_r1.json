@@ -1,0 +1,52 @@
+{
+  "id": "H006-s10-lydgate-lane",
+  "run": 1,
+  "live": false,
+  "listing_url": "https://www.rightmove.co.uk/properties/164816333",
+  "asking": 260000,
+  "floor_area_m2": null,
+  "house_type": null,
+  "gates": {
+    "area":      {"pass": true, "reason": "Crookes, S10 (Lydgate Lane, Crookes per haus and Rightmove title)"},
+    "budget":    {"pass": true, "reason": "Asking 260000 is within 300000. W not priced because listing not readable; asking + W + C not checked"},
+    "tenure":    {"pass": null, "reason": "Unknown. Target listing unreadable. The only Lydgate Lane Crookes 260000 listing found (Hughes, zoopla 70195770) is leasehold, but it is a different agent and not confirmed as this house"},
+    "structure": {"pass": null, "reason": "Not known. No survey or listing condition notes readable"},
+    "vacant":    {"pass": null, "reason": "Not known. No vacant possession statement readable"},
+    "hall":      {"pass": null, "reason": "Not known. No layout or floorplan readable"}
+  },
+  "V": 312500,
+  "v_basis": "est. Median of last 3 terraced sales on Lydgate Lane in the last 2 years (since 3 Nov 2024): 132 Lydgate Lane 345000 (31 Jul 2026); 150 Lydgate Lane 312500 (5 Dec 2025); 54 Lydgate Lane 285000 (30 Jan 2026). Median 312500. Condition of these sales is not known, so not confirmed as done-up comparables",
+  "W": null,
+  "w_basis": "Not priced. No floorplan or photos readable",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": true, "evidence": "Not scored: listing not readable, no floor area"},
+    {"n": 2,  "score": null, "est": true, "evidence": "Not scored: W unknown"},
+    {"n": 3,  "score": null, "est": true, "evidence": "Not scored: street max sale not checked against V"},
+    {"n": 4,  "score": null, "est": true, "evidence": "Not scored: sector max not checked"},
+    {"n": 5,  "score": null, "est": true, "evidence": "Not scored: floor area not given"},
+    {"n": 6,  "score": null, "est": true, "evidence": "Not scored: layout not readable"},
+    {"n": 7,  "score": null, "est": true, "evidence": "Not scored: layout not readable"},
+    {"n": 8,  "score": null, "est": true, "evidence": "Not scored: garden and neighbour extensions not checked"},
+    {"n": 9,  "score": null, "est": true, "evidence": "Not scored: works not priced"},
+    {"n": 10, "score": null, "est": true, "evidence": "Not scored: works not priced"},
+    {"n": 11, "score": null, "est": true, "evidence": "Not scored: no survey or condition data"},
+    {"n": 12, "score": null, "est": true, "evidence": "Not scored: street quality not checked"},
+    {"n": 13, "score": null, "est": true, "evidence": "Not scored: not checked"},
+    {"n": 14, "score": null, "est": true, "evidence": "Not scored: not checked"},
+    {"n": 15, "score": null, "est": true, "evidence": "Not scored: not checked"},
+    {"n": 16, "score": null, "est": true, "evidence": "Not scored: no interior description readable for target"},
+    {"n": 17, "score": null, "est": true, "evidence": "Not scored: no photos readable"}
+  ],
+  "total": null,
+  "verdict": "REJECT",
+  "biggest_risk": "Target listing not readable: haus page returns no records and Rightmove is not on the allowlist, so it may be withdrawn or sold; status unconfirmed",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/164816333",
+    "https://www.haushomes.co.uk/properties-for-sale/property/12713028-lydgate-lane-crookes-sheffield",
+    "https://domovita.co.uk/sold-prices/street/s10/lydgate-lane",
+    "https://zoopla-web.prod.zoopla.co.uk/for-sale/details/70195770",
+    "https://saxtonmee.co.uk/properties-for-sale/property/6220-lydgate-lane-crookes-sheffield"
+  ]
+}

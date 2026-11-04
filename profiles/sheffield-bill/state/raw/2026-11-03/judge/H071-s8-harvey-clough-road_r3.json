@@ -1,0 +1,52 @@
+{
+  "id": "H071-s8-harvey-clough-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.blundells.com/properties/17801008/sales/WDS230309",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "Listed as Harvey Clough Road, Norton Lees, S8, which is inside the S8 gate area."},
+    "budget": {"pass": true, "reason": "Asking 220000 (listing guide 220000-230000) + 1.15 x W 14000 (16100) + C 3000 = 239100, under 400000."},
+    "tenure": {"pass": true, "reason": "unconfirmed: listing says 'Tenure: Contact branch'."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence and knotweed; no survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: vacant possession not stated."},
+    "hall": {"pass": true, "reason": "Listing lists an 'Entrance way' ahead of the lounge; no floorplan to confirm where the front door opens."}
+  },
+  "V": 250000,
+  "v_basis": "Same-street semi sales, last 2 yrs: 94 Harvey Clough Road, 8 Nov 2024, 419000; 146 Harvey Clough Road, 16 Jul 2026, 247500. Only 2 found, so filled with nearest like street: 34 Norton Lees Square (semi), 5 Jun 2026, 250000. Median 250000. Done-up status of all three unverified (est.).",
+  "W": 14000,
+  "w_basis": "est.: redecorate throughout 6000; flooring 3000; electrical and heating checks and minor works 2500; kitchen and bathroom touch-ups 1000; external and garden 1500. Total 14000 before 1.15 contingency. Listing says kitchen, bathroom, rear extension and double glazing already present. No photos or floorplan retrieved.",
+  "C": 3000,
+  "margin": -14100,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 220000 is 88% of V 250000; floor area unknown so equal m2 assumed, making ratio asking over V."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -14100 = 225000 - 16100 - 3000 - 220000; V and W are est."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 250000 is 60% of street max 419000 (94 Harvey Clough Road, 8 Nov 2024)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 250000 is 45% of sector S8 8 max 555000 (13 Ketton Avenue, detached, 10 Jul 2026)."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est. about 85 m2 for a 3-bed semi with rear extension."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms (two doubles, one single per listing); single room size unknown, treated as small."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Open-plan kitchen/dining room already exists via rear extension per listing."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear extension already built; garden described as large, but length, loft and neighbour extensions unknown."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, flooring and minor works; electrics and gas boiler age unknown, so a rewire or heating job is not ruled out."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Condition unseen; est. 4 to 6 months of works while living there."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; listing silent on damp, roof and cellar; cause of any issue unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Harvey Clough Road has flats (104, 147) and mixed tenure per sold data; letting boards and traffic not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk to park not measured; est. 10 to 15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk to big supermarket not measured; est. 15 to 20 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Driveway listed; gradient and whether it is level not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay-window lounge and open-plan extension; ceiling height and period features unseen."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay window, front garden and driveway listed; brick or stone and terrace unseen (no photos)."}
+  ],
+  "total": 59,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (-14100) at V 250000: the house is already extended and modernised so decor-only upside is thin, the 419000 same-street sale is an outlier, and no photos, floorplan or floor area were retrievable.",
+  "sources": [
+    "https://www.blundells.com/properties/17801008/sales/WDS230309",
+    "https://www.rightmove.co.uk/house-prices/s8-8pg.html",
+    "https://www.rightmove.co.uk/house-prices/norton-lees.html",
+    "https://housepricehistory.co.uk/sold_house_prices/property/94~-/harvey_clough_road/-/sheffield/S8_8PG",
+    "https://media.rightmove.co.uk/15k/14323/164621081/14323_34042503_DOC_01_0001.pdf"
+  ]
+}

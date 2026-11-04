@@ -1,0 +1,52 @@
+{
+  "id": "H019-s11-harefield-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield",
+  "asking": 275000,
+  "floor_area_m2": 83,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11 8NU, Sharrow Vale (Saxton Mee listing; postcode via domovita/StreetScan)"},
+    "budget":    {"pass": true, "reason": "unconfirmed: 275,000 + 1.15 x 100,000 (W est.) + 3,000 = 393,000, under 400,000. Fails if W is above about 106,000 (est.)."},
+    "tenure":    {"pass": true, "reason": "Freehold per Saxton Mee text and StreetScan; the listing's status block says Unknown"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, damp or knotweed noted; EPC shows solid brick walls; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says No Onward Chain and may suit an investor landlord; no tenancy stated, so vacant possession not confirmed"},
+    "hall":      {"pass": true, "reason": "Front door opens into a side entrance lobby with stairs rising, not into the living room (Saxton Mee)"}
+  },
+  "V": null,
+  "v_basis": "None found. Searched domovita, PrimeLocation, Doogal, Resi and StreetScan: no Harefield Road sales dated 2024-2026. Latest sales on the street are 2019 (16: 250,000; 42: 295,000) with no condition noted. Nearby Harley Road sale Sep 2023 (detached, 695,500) is not a like comparable. V remains unknown.",
+  "W": 100000,
+  "w_basis": "est. Knock-through kitchen/dining with steel 8k; kitchen 18k; bathroom 8k; rewire 10k; heating 6k; hall lobby 4k; roof, cellar and damp checks plus insulation 12k; decor, floors, doors, windows 17k; courtyard 5k; scaffold, skips, fees, building control 12k. Sum 100k before contingency (the 1.15 in the margin formula).",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "No done-up comps found, so street done-up £/m2 is unknown; asking is about 3,300/m2 on 83 m2 (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "V unknown. Margin is at least zero only if V is about 437,000 or more (est.), which is far above likely value for this 3-bed terrace."},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "Street max sale in the last 2 years unknown; none found."},
+    {"n": 4,  "score": 3, "est": true,  "evidence": "Sector max sale in the last 2 years unknown; not checked in full."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "83 m2 from StreetScan (893 sq ft). Task file says 98 m2, which conflicts; at 98 m2 this would score 5."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "3 bedrooms now: two first-floor doubles and an attic double (Saxton Mee). Attic sign-off and room sizes not confirmed."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Off-shot kitchen next to a separate dining room with cellar head; one knock-through likely (est.). Kitchen is small now."},
+    {"n": 8,  "score": 1, "est": true,  "evidence": "Private courtyard garden with no depth for an extension; attic already used; neighbours' extensions unknown."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through probably needs a steel (est.). Rewire and heating unknown; EPC E with gas central heating."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Full works plus rewire est. 7-12 months."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar damp risk unknown; roof and walls uninsulated per EPC; no survey. Minor concerns, cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Owner-occupier share, letting boards and traffic not seen; no evidence either way."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Endcliffe Park roughly 5-10 min walk (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Large supermarket roughly 15-20 min walk (est.)."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "On-street parking and slope not stated; Sharrow Vale is sloping (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Built 1900-1929 (StreetScan) with bay-window lounge; 'well maintained' per listing; period features not verified."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Mid-terrace, solid brick (EPC); front elevation not seen in text."}
+  ],
+  "total": 55.2,
+  "verdict": "PASS",
+  "biggest_risk": "No recent done-up comps found, so V is unknown. Margin is negative unless done-up value reaches about 437,000 (est.), and the budget gate fails if works exceed about 106,000 (est.).",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield",
+    "https://streetscan.co.uk/property/15-harefield-road-sheffield-s11-8nu",
+    "https://domovita.co.uk/sold-prices/street/s11/harefield-road?start=50",
+    "https://primelocation.com/house-prices/sheffield/harefield-road",
+    "https://resi.co.uk/house-prices/harley-road-s11"
+  ]
+}

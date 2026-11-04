@@ -1,0 +1,51 @@
+{
+  "id": "H077-s8-lees-hall-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/73895521/",
+  "asking": 299950,
+  "floor_area_m2": 87,
+  "house_type": "detached",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8, Norton Lees (Zoopla listing address)"},
+    "budget":    {"pass": true, "reason": "asking 299950 + 1.15 x W 45000 (est.) + C 3000 = 354700, under 400000"},
+    "tenure":    {"pass": true, "reason": "freehold, ground rent 0 (Zoopla listing)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build, dry rot"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into a hall; it says 'Large open plan area'"}
+  },
+  "V": 277500,
+  "v_basis": "Same type on Lees Hall Road in last 2 years: only 121 Lees Hall Road, detached, 3 bed, 06 Mar 2026, 250000 (fewer than 3), so nearest like street used: 2 Lees Hall Avenue, semi, 05 Mar 2026, 277500; 46 Lees Hall Avenue, semi freehold, 23 Jun 2025, 360000. Median 277500. Sold records do not show done-up status, so V is est. Sales shown only to 06 Mar 2026.",
+  "W": 45000,
+  "w_basis": "est. 45000 from listing text only (floorplan text not readable): decor and flooring 12000; kitchen 10000; bathroom and WC 6000; electrics check or partial rewire 6000; heating check 3000; third-bed and hall reconfiguration 4000; exterior and driveway 4000. Before the 1.15 contingency in the margin.",
+  "C": 3000,
+  "margin": -104950,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "est. as-bought 299950 / V 277500 = 108%, above 85% band"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 277500 - 1.15 x 45000 - 3000 - 299950 = -104950 (est.)"},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 277500 / Lees Hall Rd max 551551 (13 Lees Hall Rd, 24 Jan 2025) = 50%, under 80%"},
+    {"n": 4,  "score": 3, "est": true,  "evidence": "S8 sector max not established; brief example reads 'S8 0', so ratio undefined; neutral 3 used"},
+    {"n": 5,  "score": 3, "est": false, "evidence": "Zoopla: 941 sq ft, about 87 m2, in 80-90 band"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Zoopla: 'Two/three bedroomed'; third room likely small or flexible, not confirmed"},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Zoopla: 'Large open plan area perfect for family living'; kitchen-diner probably exists; no floorplan text"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length, loft and neighbour extensions not stated; integral garage and driveway only"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "EPC D; electrics and heating not stated; est. rewire or heating check"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Scope est. decor, kitchen, bath plus electrics check; est. 4-6 months"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, damp or roof information in listing; est. minor, cause unclear"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est. Lees Hall Rd is a through road with bus route (1 fail); letting share not checked"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Zoopla: Graves Park 'within walking distance'; est. 5-10 min walk"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "No supermarket distance stated; est. 15-20 min walk"},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Zoopla: integral garage and front driveway; slope not stated"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Zoopla: 'Modern and stylish finish throughout'; light, ceiling height and period features not stated; est. average"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Zoopla gives no elevation or front garden description; est. plain, tidy"}
+  ],
+  "total": 57.8,
+  "verdict": "PASS",
+  "biggest_risk": "Asking is about 8% above est. V and margin is est. -104950, so it is not a value buy on these comps; listing says 'Two/three bedroomed'. Matched via Zoopla 73895521 because Rightmove 91657062 could not be opened, and Zoopla names the agent 'Whitehorn Estate Agents' not Whitehornes.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/73895521/",
+    "https://www.rightmove.co.uk/house-prices/s8/lees-hall-road.html",
+    "https://www.rightmove.co.uk/house-prices/s8-9jh.html",
+    "https://www.onthemarket.com/uk-house-prices/lees-hall-avenue-sheffield-s8/"
+  ]
+}

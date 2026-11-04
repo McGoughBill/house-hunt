@@ -1,0 +1,50 @@
+{
+  "id": "H015-s10-school-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769382/",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, per Haybrook search index (School Road, S10, hay030769382)"},
+    "budget":    {"pass": true, "reason": "asking 240000 <= 300000; asking + 1.15W + C = 240000 + 81650 + 3000 = 324650 <= 400000 (W 71000 est)"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: tenure not stated in listing index; School Road terraces sell as both leasehold and freehold; lease length unknown"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing page not readable; no survey or structural notes seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: occupancy not stated in listing index"},
+    "hall":      {"pass": true, "reason": "unconfirmed: layout and front door position not readable; no floorplan seen"}
+  },
+  "V": 285000,
+  "v_basis": "Median of 3 most recent terraced sales on School Road S10, done-up status NOT verified: 232 School Road 2026-04-09 £387,000; 298 School Road 2026-01-09 £222,000; 253 School Road 2025-12-01 £285,000. Source: Rightmove house-prices page (first 25 of 112 sales, sorted by latest sale, covers the 2-year window).",
+  "W": 71000,
+  "w_basis": "est., no floorplan or photos read. Single-storey rear kitchen-diner ext 30000; kitchen 12000; bathroom 7000; rewire 5000; heating 4000; plaster, floors, doors, decor 10000; hall 3000. Total 71000 before contingency.",
+  "C": 3000,
+  "margin": -68150,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "asking/V = 240000/285000 = 84%, band 78-85%; floor area assumed 85 m2 (est), ratio is area-independent"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "margin 0.9*285000 - 1.15*71000 - 3000 - 240000 = -68150"},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 285000 / street max 387000 (232 School Road, 2026-04-09) = 74%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S10 sector 2-yr max sale not checked; assumed well above 400000 so V is under 70%"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "floor area not given; 85 m2 assumed"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed; room sizes unseen; one small room assumed"},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "rear kitchen-diner assumed via single-storey rear extension; layout unseen"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "garden length, loft and neighbour extensions unseen; one weak assumed"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "works include single-storey extension plus rewire and heating"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "7-12 months assumed for extension, rewire, kitchen and bathroom"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "no survey or inspection seen; cause of any defects unclear"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "School Road assumed to be a busy through route with buses (est.); 2 fail assumed"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Crookes Valley Park assumed 10-15 min walk"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "big supermarket assumed 15-20 min walk"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "on-street parking on a sloped Crookes street assumed; level not confirmed"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "room sizes, light and period features not seen"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "stone terrace frontage assumed; photos not seen"}
+  ],
+  "total": 54.2,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -68150 on an est. works cost of 71000, so the house fails the finished-value test; V rests on 3 unverified sales and the listing page itself could not be read.",
+  "sources": [
+    "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769382/",
+    "https://www.haybrook.com/search/?IsPurchase=True&Latitude=53.385984&Longitude=-1.5082198999999719&Location=Crookes&OfficeId=0307",
+    "https://www.rightmove.co.uk/house-prices/s10/school-road.html"
+  ]
+}

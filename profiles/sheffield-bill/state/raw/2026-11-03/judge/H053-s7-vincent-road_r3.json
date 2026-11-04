@@ -1,0 +1,53 @@
+{
+  "id": "H053-s7-vincent-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/159212978",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7, Vincent Road, Nether Edge (brochure). The Rightmove page could not be opened, so live status is unconfirmed; the brochure PDF sits under listing 159212978."},
+    "budget": {"pass": true, "reason": "220000 + 1.15 x 85000 (W, est.) + 3000 (C) = 320750, under 400000."},
+    "tenure": {"pass": true, "reason": "Freehold (brochure)."},
+    "structure": {"pass": true, "reason": "unconfirmed: brochure is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. No survey seen."},
+    "vacant": {"pass": true, "reason": "Vacant possession on completion (brochure)."},
+    "hall": {"pass": true, "reason": "unconfirmed: brochure says on entering you reach two reception rooms, so no hall is shown. A hall partition is est. 3000, inside the 5000 limit."}
+  },
+  "V": 215000,
+  "v_basis": "Median of 3 freehold terraced sales on Vincent Road in the last 2 years: 56 Vincent Rd 25 Jul 2025 215000 (4-bed, 84 m2, 2021 EPC shows original fabric, so probably not done up); 33 Vincent Rd 12 Dec 2024 200000 (3-bed, 91 m2); 133 Vincent Rd 16 Jun 2025 279950 (freehold per Domovita only, unverified). Sold data does not show done-up status, so V is est.",
+  "W": 85000,
+  "w_basis": "est. No floorplan or photos reachable; the brochure has no plan. Single-storey rear extension for a 25 m2 kitchen-diner 30000; rewire 5000; heating 4000; new kitchen 9000; hall partition 3000; decor, flooring and joinery 16000; windows, bathroom refresh and garden 5000; fees 4000; skips and sundries 3000. Sum 79000, rounded up to 85000 for scepticism. Before contingency.",
+  "C": 3000,
+  "margin": -127250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 220000 over V 215000 est. = 102%; comps 56 Vincent Rd 2560 per m2 and 33 Vincent Rd 2198 per m2; floor area est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -127250 = 0.9 x 215000 - 1.15 x 85000 - 3000 - 220000, with V and W est."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 215000 over 2-year street max 281611 (127 Vincent Rd, 30 May 2025, leasehold) = 76%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S7 sector 2-year max sale not sourced; est. above 307000, so V is under 70% of it."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given. Est. 88 m2 from comps: 33 Vincent Rd 91 m2, 67 Vincent Rd 89 m2, 120 Vincent Rd 85 m2 (domovita, housemetric)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Brochure: 3 bedrooms. Room sizes not given; sceptically assumed one is small."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Off-shot kitchen called functional, dining room behind (brochure). One knock-through will not reach 25 m2; est. single-storey rear extension needed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden level and enclosed (brochure), length not given. Loft and neighbour extensions unknown; est. one weak."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Single-storey rear extension in W; rewire likely in a c.1900 house (est.)."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 9 months: design, consent or permitted development, build, decoration."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar present (brochure). Condition, roof and damp not reported; no survey. Minor, cause unclear."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Many leasehold terraced sales on the street (domovita), a weak proxy for letting. No street check; est. two fails."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not sourced; est. 10 to 15 minutes."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not sourced; est. 15 to 20 minutes."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not in brochure; est. hard on-street parking, level."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Brochure: c.1900 end terrace, two reception rooms, cellar. No photos seen; est. average."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Brochure: c.1900 end terrace; front not described. Est. plain, tidy."}
+  ],
+  "total": 51,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is deeply negative: at W 85000 (est.) V must reach about 356000 (est.) to break even, and no sold comp is verified as done up.",
+  "sources": [
+    "https://media.rightmove.co.uk/15k/14323/159212978/14323_33727897_DOC_00_0011.pdf",
+    "https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+    "https://resi.co.uk/house-prices/vincent-road-s7",
+    "https://housemetric.co.uk/house-prices/Vincent-Road/S7-1BW",
+    "https://housemetric.co.uk/30845544/S7-1BW/56+Vincent+Road",
+    "https://www.rightmove.co.uk/house-prices/S7-1BW.html"
+  ]
+}

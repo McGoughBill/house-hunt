@@ -1,0 +1,53 @@
+{
+  "id": "H044-s7-falmouth-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+  "asking": 210000,
+  "floor_area_m2": 108,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7 2DG per Hunters listing; S7 is a listed area."},
+    "budget": {"pass": true, "reason": "asking 210000 + 1.15 x W 43000 (49450) + C 3000 = 262450, under 400000; W is est. Asking also under 300000."},
+    "tenure": {"pass": true, "reason": "Leasehold with 672 years remaining per Hunters listing; no covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated; 'No Chain' is listed, which does not confirm vacant possession."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing says on entering you are greeted by the living room, so the front door opens into the living room. A hall by stud wall and door is est. 3000, under 5000."}
+  },
+  "V": 240000,
+  "v_basis": "Falmouth Road has only 1 sale in the last 2 years, so the nearest like street, Lynmouth Road (S7 2DF), is used. Three most recent terraced sales: 33 Falmouth Road, 31 Jul 2026, 240000 (Falmouth Road); 46 Lynmouth Road, 26 Jun 2026, 175560; 35 Lynmouth Road, 27 Nov 2025, 277100. Median 240000. Done-up status of these sales is not confirmed (est.).",
+  "W": 43000,
+  "w_basis": "est. Floorplan and photos could not be read, so there are no room dimensions. Items: kitchen-diner knock-through with steel 3500; new kitchen and appliances 9000; redecoration and flooring for 108 m2 8000; rewire 5000; heating 3500; hall partition and door 3000; windows, roof and cellar allowance 4000; second-floor bedroom sign-off and upgrade 2500; bathroom refresh 1000; fees, skip and scaffold 3500. Total 43000 before 15 percent contingency.",
+  "C": 3000,
+  "margin": -46450,
+  "scores": [
+    {"n": 1,  "score": 5, "est": true,  "evidence": "Asking 210000 / 108 m2 = 1944 per m2. Comp median 3339 per m2 (35 Lynmouth 277100 / 83 m2). Ratio 58 percent. Comp floor areas come from older records."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -46450 with W est. 43000. Even at W 0 the margin is only +3000."},
+    {"n": 3,  "score": 2, "est": false, "evidence": "Only sale on Falmouth Road in last 2 years: 33 Falmouth Road 240000 on 31 Jul 2026. V 240000 is 100 percent of street max."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector S7 2 max found: 25 Abbey Crescent 775000 (3 Jul 2026). V is 31 percent. Rightmove list is partial; a higher true max would only lower the ratio."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1163 sq ft = 108 m2 per Hunters listing."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms listed: primary and second on first floor, third on second floor and recently plastered. Third is likely small; room sizes and sign-off not stated."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Rear dining room with cellar access and off-shot kitchen. One knock-through should give a kitchen-diner; room sizes not stated."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear yard with no through access, so garden under 10 m is likely (est.). Second-floor room already exists, so loft headroom is weak. Neighbours' extensions unknown."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Knock-through likely needs a steel beam. Rewire, heating and hall partition also in scope."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4 to 6 months for knock-through, rewire, kitchen, heating, hall and decor."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar mentioned, condition unknown. Damp and roof not mentioned; cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "No street-level tenure or letting-board data found. Terraces mostly leasehold. One criterion est. to fail."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Nether Edge location. Park walk est. 10 to 15 min; not checked."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Abbeydale Road shops a short walk per listing. Big supermarket est. 15 to 20 min walk; not checked."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "No drive or off-street parking noted ('rear yard'). Permit rules and slope not checked."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay window, traditional features and wood floor per listing. Photos not readable; average on listing text alone."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay window to front per listing. Brick or stone and front garden not confirmed."}
+  ],
+  "total": 69.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (est. -46450): nearby comps of unconfirmed condition set V at 240000, and works W (est. 43000) were priced without a readable floorplan or photos.",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+    "https://www.rightmove.co.uk/house-prices/s7-2dg.html",
+    "https://streetscan.co.uk/house-prices/s7-2dg",
+    "https://www.rightmove.co.uk/house-prices/S7-2DF.html",
+    "https://resi.co.uk/house-prices/lynmouth-road-s7",
+    "https://www.rightmove.co.uk/house-prices/s7.html"
+  ]
+}

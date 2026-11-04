@@ -1,0 +1,51 @@
+{
+  "id": "H020-s11-junction-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://whitehornes.co.uk/property-for-sale/junction-road-sharrowvale-s11/",
+  "asking": 290000,
+  "floor_area_m2": 104,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11 (Junction Road, Sharrowvale). Matched via Whitehornes page on street, agent and £290k; Rightmove 90668616 not reachable."},
+    "budget":    {"pass": true, "reason": "est. 290000 + 1.15 x 85000 + 3000 = 390750 <= 400000; fails if W > ~93000."},
+    "tenure":    {"pass": true, "reason": "Freehold per Whitehornes listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build, dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says no onward chain, which is not vacant possession; occupancy not stated."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; floorplan not reached."}
+  },
+  "V": 410000,
+  "v_basis": "No semi-detached sale on Junction Road in last 2 yrs (5 terrace sales Feb 2025 to May 2026), so fell back to nearest S11 semis: 1 Jowitt Road £410,000 (1 Jul 2026, 3 bed, leasehold); 101 Peveril Road £286,000 (24 Jun 2026, 3 bed, leasehold); 58 Muskoka Drive £610,000 (29 May 2026, 4 bed, freehold). Median £410,000. Not the nearest street; done-up status unverified.",
+  "W": 85000,
+  "w_basis": "est. Kitchen 15k; 2 bathrooms 16k; rewire 7k; heating 5k; redecoration/plaster 10k; joinery/flooring 6k; kitchen-diner knock-through 8k; hall allowance 3k; cellar damp allowance 5k; fees/skip/scaffold 5k; misc 5k. Total 85k before 1.15 contingency. Floorplan and photos not reached.",
+  "C": 3000,
+  "margin": -21750,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking £2,788/m² (290k / 104 m²); Junction Rd 2025-26 terraces £1,765-2,880/m² (Zoopla floor areas); ratio above 85% on any benchmark."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -£21,750 on V £410k, W £85k, C £3k, asking £290k."},
+    {"n": 3,  "score": 1, "est": true,  "evidence": "V £410k vs Junction Rd 2-yr max £360k (37 Junction Rd, Feb 2025) = 114%."},
+    {"n": 4,  "score": 3, "est": true,  "evidence": "V £410k vs S11 8 sector 2-yr max £510k (356 Sharrow Lane, 8 Jul 2026) = 80%."},
+    {"n": 5,  "score": 5, "est": true,  "evidence": "104 m² per task brief; listing silent on floor area, so not verified."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 beds per listing; no room sizes published, so one small bedroom assumed."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Photo group 'Kitchen/diner and living room' suggests a kitchen-diner exists or needs one knock-through; 25 m² unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear garden described as private, length not stated; loft and neighbour extensions unverified."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Works list includes rewire and heating (est. within W)."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Full works to finished spec est. 7-12 months."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Cellars open onto rear garden; period build; no survey or damp report found."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Junction Rd sales list is mostly leasehold terraces, suggesting lets or conversions; street not viewed."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing says close to Endcliffe Park; walk time est. 5-10 min."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Shops on Sharrowvale Road per listing; big supermarket distance est. 10-15 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street permit parking per listing (hard parking); slope not stated."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Period semi with character per listing; photos not reviewed."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Period semi; stone or brick and frontage not confirmed; photos not reviewed."}
+  ],
+  "total": 55.4,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (-£21,750) even on the fallback V, and the £85k works estimate is unverified because the floorplan and photos could not be reached.",
+  "sources": [
+    "https://whitehornes.co.uk/property-for-sale/junction-road-sharrowvale-s11/",
+    "https://www.rightmove.co.uk/house-prices/s11/junction-road.html",
+    "https://www.zoopla.co.uk/house-prices/sheffield/junction-road/",
+    "https://www.rightmove.co.uk/house-prices/s11.html"
+  ]
+}

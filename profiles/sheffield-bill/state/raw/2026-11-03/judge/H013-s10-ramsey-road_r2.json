@@ -1,0 +1,51 @@
+{
+  "id": "H013-s10-ramsey-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/70153722",
+  "asking": 270000,
+  "floor_area_m2": 87,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes (zoopla listing 70153722)"},
+    "budget":    {"pass": true, "reason": "270000 + 1.15 x 45000 (W est) + 3000 = 324750, under 400000"},
+    "tenure":    {"pass": true, "reason": "Freehold (zoopla listing 70153722)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing and search results do not mention structural issues"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not describe hall or front door layout"}
+  },
+  "V": 252750,
+  "v_basis": "Fewer than 3 same-street sales in 2 years. Ramsey Road: 37 Ramsey Road 20 Feb 2025 GBP 280,000 (3 bed, type Other); 21 Ramsey Road 31 Oct 2025 GBP 225,500 (terrace, leasehold, beds not listed). V = median of these 2 (est). Sources: housemetric.co.uk/house-prices/Ramsey-Road/S10-1L; domovita.co.uk/sold-prices/street/s10/ramsey-road. Condition of these sales unknown, so not confirmed done-up.",
+  "W": 45000,
+  "w_basis": "est. Light-to-mid refurb of 87 m2 3-bed terrace: kitchen-diner refit, bathroom, decor, floors, electrical and heating checks. No floorplan or photos reviewed; listing says neutrally decorated. Before 15% contingency.",
+  "C": 3000,
+  "margin": -97275,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true, "evidence": "As bought 3103/m2 vs street V-based 2905/m2 = about 107%; V est"},
+    {"n": 2,  "score": 1, "est": true, "evidence": "0.9x252750 - 1.15x45000 - 3000 - 270000 = -97275 (W and V est)"},
+    {"n": 3,  "score": 3, "est": true, "evidence": "V 252750 vs max 2-yr street sale 280000 = 90%"},
+    {"n": 4,  "score": 5, "est": true, "evidence": "S10 sector max sale in 2 yrs not confirmed; likely well above 350k so V under 70% (est)"},
+    {"n": 5,  "score": 3, "est": false, "evidence": "87 m2 (zoopla: 941 sq ft)"},
+    {"n": 6,  "score": 4, "est": true, "evidence": "3 bed listed; third bedroom likely small; room sizes not seen"},
+    {"n": 7,  "score": 4, "est": true, "evidence": "2 receptions listed; kitchen layout not described; side-return or knock-through unknown"},
+    {"n": 8,  "score": 3, "est": true, "evidence": "Garden, loft and neighbour extensions not checked"},
+    {"n": 9,  "score": 4, "est": true, "evidence": "Neutral decor, so likely decor, kitchen, bath; rewire or heating not known"},
+    {"n": 10, "score": 4, "est": true, "evidence": "Estimated 4-6 months for works at this scope"},
+    {"n": 11, "score": 3, "est": true, "evidence": "No survey seen; EPC and condition unknown"},
+    {"n": 12, "score": 3, "est": true, "evidence": "Ramsey Road street quality not checked; mixed terraces (est)"},
+    {"n": 13, "score": 4, "est": true, "evidence": "Crookes Valley Park roughly 5-10 min walk (est)"},
+    {"n": 14, "score": 3, "est": true, "evidence": "Crookes shops about 15-20 min walk (est)"},
+    {"n": 15, "score": 3, "est": true, "evidence": "On-street parking and slope not checked (est)"},
+    {"n": 16, "score": 3, "est": true, "evidence": "Victorian terrace; light and ceiling heights not seen"},
+    {"n": 17, "score": 3, "est": true, "evidence": "Brick terrace, plain; no photos reviewed"}
+  ],
+  "total": 57,
+  "verdict": "PASS",
+  "biggest_risk": "Value: only 2 same-street sales in 2 years and neither confirmed done-up, so V and the negative margin (-97275) rest on a thin base.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/70153722",
+    "https://housemetric.co.uk/house-prices/Ramsey-Road/S10-1L",
+    "https://domovita.co.uk/sold-prices/street/s10/ramsey-road",
+    "https://resi.co.uk/house-prices/ramsey-road-s10"
+  ]
+}

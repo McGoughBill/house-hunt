@@ -1,0 +1,53 @@
+{
+  "id": "H035-s7-83-sheldon-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/72384138",
+  "asking": 285000,
+  "floor_area_m2": 89,
+  "house_type": null,
+  "gates": {
+    "area": {"pass": true, "reason": "S7, Nether Edge Village, per Zoopla listing https://www.zoopla.co.uk/for-sale/details/72384138. The OnTheMarket link (20460101) could not be opened, so the Zoopla listing was used."},
+    "budget": {"pass": true, "reason": "Asking 285000 is at most 300000. Asking + 1.15 x W (60000, est.) + C (3000) = 357000, at most 400000."},
+    "tenure": {"pass": true, "reason": "Freehold, per https://www.zoopla.co.uk/for-sale/details/72384138"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing teaser is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says chain free; vacant possession is not stated."},
+    "hall": {"pass": true, "reason": "unconfirmed: teaser does not describe the front door or entrance. A hall, if needed, is assumed under 5000 (est.)."}
+  },
+  "V": 257500,
+  "v_basis": "Fewer than 3 same-street terraced sales in the last 2 years, so nearest like streets used. 59 Empire Road S7 1GJ, terraced 3-bed, 17 Jul 2026, 237000; 186 South View Road S7 1DF, terraced 3-bed, 31 Jul 2026, 257500; 71 South View Crescent S7 1DG, terraced 3-bed, 4 Aug 2026, 260500. Median 257500. Done-up status not confirmed (est.). Same-street terraced sale found but not used: 51 Sheldon Road, leasehold, Jun 2026, 230000. Sources: https://www.rightmove.co.uk/house-prices/nether-edge.html and https://www.doogal.co.uk/PropertySales?area=S7",
+  "W": 60000,
+  "w_basis": "est., before contingency. No floorplan or usable photos reachable. Decor and plaster 17000; kitchen 15000; bathroom 8000; rewire 7000; heating 4000; floors, doors and joinery 5000; skip, scaffold and design 4000. No extension costed. Kitchen-diner and hall costs unknown. C 3000: stamp duty nil for a first-time buyer under 300000, plus 3000 fees, no auction fee.",
+  "C": 3000,
+  "margin": -125250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 285000 / est. V 257500 = 111%, above the 85% line (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 257500 - 1.15 x 60000 - 3000 - 285000 = -125250 (est.). Still negative with W at 0 (-56250)."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "Est. V 257500 / Sheldon Road max 350000 (73 Sheldon Rd, detached, Jun 2026) = 74%. https://www.doogal.co.uk/PropertySales?area=S7"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Est. V 257500 / S7 1 max 780000 (15 Kenwood Park Rd, detached, Jul 2026) = 33%. https://www.rightmove.co.uk/house-prices/nether-edge.html"},
+    {"n": 5,  "score": 3, "est": false, "evidence": "959 sq ft = 89 m2 (Zoopla). https://www.zoopla.co.uk/for-sale/details/72384138"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed (Zoopla); room sizes not given, so one small is assumed (est.)."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "2 reception rooms and 1 bathroom listed; kitchen position not seen. Knock-through or side infill assumed (est.)."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Garden length, loft and neighbour extensions not stated. One usable route assumed (est.)."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Rewire or heating likely at this age; no survey or condition report seen (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Rewire, kitchen, bathroom and decor: est. 4 to 6 months to live in."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, condition report or flags found; cause of any issue unknown (est.)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "A Sheldon Road house is marketed to let (https://rightmove.co.uk/properties/151866752). Street scene not seen (est.)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Endcliffe or Weston Park est. 10 to 15 min walk. No map check (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Large supermarket est. 15 to 20 min walk (est.)."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not described (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Only 959 sq ft, 3 bed, 2 reception rooms listed; period features and layout not described (est.)."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Exterior not described in the teaser; one photo caption only (est.). https://www.zoopla.co.uk/for-sale/details/72384138"}
+  ],
+  "total": 58.6,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 285000 is above the est. comp median 257500, so the margin is about -125250 before any works; layout, condition and works are unseen.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/72384138",
+    "https://www.doogal.co.uk/PropertySales?area=S7",
+    "https://www.rightmove.co.uk/house-prices/nether-edge.html",
+    "https://www.onthemarket.com/details/18678278",
+    "https://www.rightmove.co.uk/properties/150325100",
+    "https://rightmove.co.uk/properties/151866752"
+  ]
+}

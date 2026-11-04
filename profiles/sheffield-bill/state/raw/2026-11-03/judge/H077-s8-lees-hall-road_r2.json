@@ -1,0 +1,51 @@
+{
+  "id": "H077-s8-lees-hall-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/73895521/",
+  "asking": 299950,
+  "floor_area_m2": 87,
+  "house_type": "detached",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 Norton Lees per Zoopla 73895521. Rightmove 91657062 could not be opened; matched on street, agent (Whitehorn / Whitehornes), price 299950 and 941 sq ft."},
+    "budget":    {"pass": true, "reason": "Asking 299950 is within 300000. Asking + 1.15W + C = 299950 + 28750 + 3000 = 331700, within 400000 (W est.)."},
+    "tenure":    {"pass": true, "reason": "Freehold per Zoopla 73895521."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing and Zoopla description are silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot. No survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on occupancy. Zoopla status is For sale."},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position and entrance not described; no floorplan reachable."}
+  },
+  "V": 320000,
+  "v_basis": "Only 1 same-street detached 3-bed sale in last 2 years, so nearest like street used. (1) 121 Lees Hall Road, 06 Mar 2026, 250000 (same street, Rightmove sold data). (2) 95 Norton Lees Crescent, 20 Jan 2026, 320000. (3) 75 Norton Lees Crescent, 03 Oct 2025, 358000. Median 320000. Done-up condition not verified for any sale.",
+  "W": 25000,
+  "w_basis": "est. (no floorplan or photos reachable; listing says modern and stylish finish throughout). Base before contingency: decorate throughout ~8000; kitchen-diner refit or opening ~9000; bathroom ~3000; hall/entrance and third bedroom reconfigure ~3000; electrical and heating checks ~2000. Contingency comes from the 1.15 in the margin.",
+  "C": 3000,
+  "margin": -43700,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking is 94 pct of V (299950 / 320000); comp floor areas not found, so assumed same size. Above 85 pct scores 1."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -43700 with W 25000 est.; still -14950 at zero works. Below 0 scores 1."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 320000 / street max 551551 (13 Lees Hall Road, 24 Jan 2025, 5-bed semi) = 58 pct. Max is an outlier. Under 80 pct scores 5."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V / S8 9 sector max = 58 pct using the same 551551. Sector not exhaustively checked; any max above 400000 still scores 5."},
+    {"n": 5,  "score": 3, "est": false, "evidence": "941 sq ft (about 87 m2) per Zoopla 73895521. 80-90 band."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Heading says 3 bed but description says Two/three bedroomed, so one room is likely small. No floorplan to check."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Description says open plan living area; kitchen-diner size and whether a kitchen is within it are not stated."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Detached with integral garage and front driveway, so side access likely. Rear garden length, loft and neighbour extensions not stated."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "EPC D. Modern finish suggests cosmetic work, but rewire and heating status unknown and layout may need reconfiguring."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4 to 6 months of works before comfortable living, on the W above."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Listing silent on damp, roof and cellar. Cause of any issue unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Lees Hall Road mixes semis and detached. Tenure mix, letting boards and through-traffic not checked; one fail est."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Zoopla says within walking distance of Graves Park. Walk time est. 5 to 10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "No supermarket distance given. est. 15 to 20 min walk."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Integral garage and front driveway (Zoopla). Slope not stated; S8 is hilly, so not scored 5."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Modern finish and open plan. Ceiling height, light and scope for wood not stated; average assumed."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Detached with driveway. Front elevation, brick and bay not described; no photo reachable. Plain, tidy assumed."}
+  ],
+  "total": 58.6,
+  "verdict": "PASS",
+  "biggest_risk": "Asking is above finished value: margin is negative (-43700 est.; -14950 even at zero works) on 3 sales, only one on this street, with done-up condition unverified.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/73895521/",
+    "https://www.rightmove.co.uk/house-prices/S8-9JL.html",
+    "https://housemetric.co.uk/house-prices/Norton-Lees-Crescent/S8-8S",
+    "https://housemetric.co.uk/house-prices/Lees-Hall-Road/S8-9JH"
+  ]
+}

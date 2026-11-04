@@ -1,0 +1,53 @@
+{
+  "id": "H036-s7-abbeydale-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89528085",
+  "asking": 225000,
+  "floor_area_m2": 107,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7, Abbeydale Road (Rightmove 89528085)."},
+    "budget": {"pass": true, "reason": "asking 225000 + 1.15 x W 48000 (55200) + C 3000 = 283200, under 400000; asking under 300000. W is est."},
+    "tenure": {"pass": true, "reason": "unconfirmed: leasehold 669 years, ground rent 2 (PrimeLocation 73420056); no covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam, non-standard build or dry rot mentioned; no survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says chain free but does not state vacant possession (Rightmove 89528085)."},
+    "hall": {"pass": true, "reason": "unconfirmed: front door opens to a side entrance lobby that leads straight into the living room; no hall listed (Rightmove 89528085). Hall-by-partition route assumed under 5000 (est.)."}
+  },
+  "V": 225000,
+  "v_basis": "845 Abbeydale Road, 19 Dec 2025, 261500 (EPC F to D, 97 to 105 m2: done-up); 871 Abbeydale Road, 13 Mar 2026, 225000 (2014 sale 89000); 103 Abbeydale Road, 22 Oct 2025, 212500 (2014 sale 129950). Done-up status of 871 and 103 inferred from price uplift, not confirmed (est.).",
+  "W": 48000,
+  "w_basis": "est., no photos or floorplan reached, before contingency: strip-out, replaster, decor, joinery 15000; kitchen-diner knock-through with steel and making good 4000; new kitchen 8000; hall partition 3000; bathroom refit 5000; electrics EICR and remedials 4000; attic and loft sign-off 1500; garden and outhouse 1500; cellar damp allowance 1000; prelims, design, building control 5000.",
+  "C": 3000,
+  "margin": -80700,
+  "scores": [
+    {"n": 1, "score": 1, "est": true, "evidence": "As bought 225000 / 107 m2 = 2103 per m2 vs done-up street about 2143 per m2 (V 225000 / est. 105 m2): ratio about 98 percent. 845 alone gives about 85 percent (housemetric 31343656)."},
+    {"n": 2, "score": 1, "est": true, "evidence": "0.9 x 225000 - 1.15 x 48000 - 3000 - 225000 = -80700."},
+    {"n": 3, "score": 5, "est": true, "evidence": "V 225000 / house max 400000 (943 Abbeydale Road, terraced, 24 Jul 2025; Rightmove house-prices) = 56 percent."},
+    {"n": 4, "score": 5, "est": true, "evidence": "V 225000 / S7 max sale 850000 (1 Abbeydale Road, other type, 19 Dec 2025; domovita) = 26 percent. House-only max 400000 = 56 percent."},
+    {"n": 5, "score": 5, "est": false, "evidence": "1149 sq ft = 107 m2 (PrimeLocation 73420056 bullets). Description says 1449 sq ft (135 m2). Both over 100 m2."},
+    {"n": 6, "score": 3, "est": true, "evidence": "Three beds listed: front double, rear single (small), attic with front dormer. Attic sign-off not evidenced (Rightmove 89528085)."},
+    {"n": 7, "score": 5, "est": true, "evidence": "Separate dining room and off-shot kitchen: one knock-through gives a kitchen-diner. Combined size unknown, may fall short of 25 m2 (est.)."},
+    {"n": 8, "score": 1, "est": true, "evidence": "Rear garden is an enclosed courtyard (likely under 10 m, est.); loft already converted; neighbours' extensions not known."},
+    {"n": 9, "score": 3, "est": true, "evidence": "Knock-through needs steel (structural). Electrics may need work (est.)."},
+    {"n": 10, "score": 4, "est": true, "evidence": "Est. 4 to 6 months for design, building control, steel, kitchen, bath and electrics."},
+    {"n": 11, "score": 3, "est": true, "evidence": "No survey seen. Cellar access only, damp not stated. Minor unknowns, cause unclear (est.)."},
+    {"n": 12, "score": 3, "est": true, "evidence": "Abbeydale Road is a main road, so it fails no main road. Owner-occupation and letting boards not stated. One fail (est.)."},
+    {"n": 13, "score": 3, "est": true, "evidence": "Exact spot in S7 not confirmed. Est. 10 to 15 min walk to a park."},
+    {"n": 14, "score": 4, "est": true, "evidence": "Shops on Abbeydale Road. Est. 10 to 15 min walk to a large supermarket."},
+    {"n": 15, "score": 3, "est": true, "evidence": "Parking and slope not stated. Main road, so on-street parking likely hard (est.)."},
+    {"n": 16, "score": 4, "est": true, "evidence": "Bay-fronted living room, cast-iron fireplaces, cellar, built-in storage in dining room. Ceiling height and light not stated. No photos reached."},
+    {"n": 17, "score": 4, "est": true, "evidence": "Victorian mid-terrace with bay and walled front garden (Rightmove 89528085). Brick and street view not seen."}
+  ],
+  "total": 60.8,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -80700 at asking: 0.9V cannot cover works and costs. The front door also opens straight into the living room.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89528085",
+    "https://www.primelocation.com/for-sale/details/73420056/",
+    "https://www.rightmove.co.uk/house-prices/s7/abbeydale-road.html",
+    "https://housemetric.co.uk/31343656/S7-2BH/845+Abbeydale+Road",
+    "https://www.onthemarket.com/uk-house-prices/abbeydale-road-sheffield-s7/",
+    "https://domovita.co.uk/sold-prices/street/s7/abbeydale-road"
+  ]
+}

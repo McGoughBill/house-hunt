@@ -1,0 +1,53 @@
+{
+  "id": "H029-s11-ratcliffe-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/167696486",
+  "asking": 285000,
+  "floor_area_m2": 74,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S11, Hunters Bar (listing address; agent office S11 8TN per https://www.rightmove.co.uk/properties/167696486)."},
+    "budget": {"pass": true, "reason": "unconfirmed: asking £285,000 + 1.15 x est. W £95,500 + est. C £3,000 = est. £397,825, under £400,000 by est. £2,175. W is an estimate. At the £295,000 top of the listed guide the total is est. £407,825 and fails."},
+    "tenure": {"pass": true, "reason": "Freehold per https://www.rightmove.co.uk/properties/167696486."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot; no survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing says vacant possession and no onward chain, but its photo note says the photos pre-date 'the current tenancy'. Agent to confirm."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; living room is the first ground-floor room listed. A hall, if needed, est. £3,000 (within £5,000 allowance)."}
+  },
+  "V": 326500,
+  "v_basis": "Ratcliffe Rd had only 1 sale in the last 2 years (31 Ratcliffe Rd, 30 Oct 2025, £270,000), so the nearest like street was used: Hunter House Rd, 3 most recent terraced sales in 2 years: 32 Hunter House Rd, 17 Mar 2026, £326,500 (freehold); 61 Hunter House Rd, 5 Mar 2026, £347,500 (leasehold); 46 Hunter House Rd, 8 Oct 2025, £307,000 (leasehold). Median £326,500. Not used: 139 Hunter House Rd, 22 Apr 2025, £409,500. Sold data shows no refurb, so done-up status is est.",
+  "W": 95500,
+  "w_basis": "est., before contingency: rear single-storey extension for 25 m2 kitchen-diner £30,000; loft made a bedroom with building regs £20,000; kitchen £9,000; rewire £6,000; heating £4,000; shower room £4,500; hall partition £3,000; decor, floors, doors and windows £10,000; damp, roof and cellar allowance £5,000; fees £4,000. No floorplan, room dimensions or photos could be read.",
+  "C": 3000,
+  "margin": -103975,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking £285,000 / V £326,500 = 87% (same 74 m2 basis assumed; comp floor areas unknown). V from https://domovita.co.uk/sold-prices/street/s11/hunter-house-road"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin est. -£103,975: 0.9 x £326,500 - 1.15 x £95,500 - £3,000 - £285,000."},
+    {"n": 3,  "score": 1, "est": true,  "evidence": "V £326,500 / Ratcliffe Rd 2-year max £270,000 (31 Ratcliffe Rd, 30 Oct 2025) = 121%. Source https://domovita.co.uk/sold-prices/street/s11/ratcliffe-road. V is from the fallback street."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "S11 2-year max is at least £499,000 (148 Hunter House Rd, 17 Mar 2025; source https://domovita.co.uk/sold-prices/street/s11/hunter-house-road). V is at most 65% of that."},
+    {"n": 5,  "score": 2, "est": false, "evidence": "74 m2 (792 sq ft) per https://www.rightmove.co.uk/properties/167696486."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Two bedrooms listed. Third would be the part-converted loft with no building regs approval, so it needs attic sign-off. Room size not given."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Dining kitchen exists but its size is not given. A 25 m2+ kitchen-diner likely needs a single-storey rear extension (est.)."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Loft already part-converted. Garden is south-facing but its length is not given. Neighbours' extensions unknown."},
+    {"n": 9,  "score": 1, "est": true,  "evidence": "Scope est.: loft regularised, rear extension, rewire, heating. Loft plus extension is the top complexity band."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 9 to 12 months for extension, loft sign-off, rewire and kitchen."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Cellar condition unknown; loft lacks building regs; tenancy conflict in listing; no survey."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Listing summary calls it a quiet cul-de-sac off Sharrowvale Road (not verified). Letting history unclear: photos pre-date a tenancy."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Endcliffe Park named in listing summary; walk time est. 8 to 10 minutes."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Est. 10 to 15 minute walk to Ecclesall Road shops. Supermarket not checked."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking only per https://www.rightmove.co.uk/properties/167696486. Slope not stated."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Feature fireplace, original pine cupboards, exposed purlins, south-facing garden. Room sizes and ceiling heights not given."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Terrace with small front garden. Facade material and bay not stated; photos not seen."}
+  ],
+  "total": 47.4,
+  "verdict": "PASS",
+  "biggest_risk": "Value gap: asking £285,000 is 87% of V, so the est. margin is -£103,975 and no works budget pays back; the budget gate is only est. £2,175 under £400,000 and fails at the £295,000 guide top.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/167696486",
+    "https://domovita.co.uk/sold-prices/street/s11/ratcliffe-road",
+    "https://housemetric.co.uk/house-prices/Ratcliffe-Road/S11-8Y",
+    "https://www.rightmove.co.uk/house-prices/s11-8ya.html",
+    "https://domovita.co.uk/sold-prices/street/s11/hunter-house-road",
+    "https://www.gov.uk/government/publications/stamp-duty-land-tax-relief-for-first-time-buyers/stamp-duty-land-tax-relief-for-first-time-buyers"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "H033-s7-117-vincent-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/71238566",
+  "asking": 215000,
+  "floor_area_m2": 112,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7 Sharrow, 117 Vincent Road (zoopla card, https://www.zoopla.co.uk/for-sale/details/71238566)"},
+    "budget":    {"pass": true, "reason": "asking 215000 + 1.15W 80500 (W 70000 est.) + C 3000 = 298500, under 400000; asking under 300000"},
+    "tenure":    {"pass": true, "reason": "freehold (zoopla card)"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam or dry rot mentioned on card or search pages; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacant possession not stated; card says chain free"},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door arrangement not stated; a hall would need to cost 5000 or less (est.)"}
+  },
+  "V": 279950,
+  "v_basis": "est. Median of 3 terraced 3-bed sales on Vincent Road in the last 2 years: 127 (30 May 2025, 281611), 133 (16 Jun 2025, 279950), 120 (15 Nov 2024, 230000). Done-up status est.; 127 and 133 both show EPC upgrades before sale. Any third sale below 279950 gives the same median. No sales after 11 Aug 2025 found.",
+  "W": 70000,
+  "w_basis": "est. No floorplan or photos reached. Rewire and heating 15000; kitchen-diner knock-through 25000; bathroom 5000; decor, floors and joinery 15000; hall and structure allowance 10000. Before 15 percent contingency.",
+  "C": 3000,
+  "margin": -46545,
+  "scores": [
+    {"n": 1,  "score": 4, "est": true,  "evidence": "As bought 1920/m2 (215000/112) vs done-up street median 2885/m2 (133: 279950/97; 127: 281611/90; 120: 230000/85) = 66.5%. Done-up status and comparable floor areas est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -46545 using V 279950, W 70000 est., C 3000, asking 215000. Margin is zero at W of about 29500."},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 279950 vs street max 281611 (127 Vincent Road, 30 May 2025) = 99.4%. V is est."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "S7 2-year sector max not checked; est. about 400000, so V is about 70% of it."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1207 sq ft (about 112 m2) per zoopla card; description says over 1206 sq ft."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed; room sizes not seen, and the top floor may be small (laid over three floors)."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Two reception rooms listed; kitchen position and size not seen. Single-storey rear extension or knock-through assumed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length, loft space and neighbouring extensions not seen."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Rewire and heating likely for an older terrace (est.), plus decor, kitchen and bathroom."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 7 to 12 months for rewire, heating and kitchen-diner works."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or condition report seen; cause of any issue unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street has room-to-rent and letting listings; owner-occupier share not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Nearest park est. 10 to 15 minutes on foot; not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket est. 15 to 20 minutes on foot; not measured."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking assumed; slope and permit rules not checked."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Victorian street stock (133 Vincent Road EPC est. 1900 to 1929); bay and period features not seen for this house."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Brick mid-terrace assumed plain and tidy; no photos reached."}
+  ],
+  "total": 62,
+  "verdict": "PASS",
+  "biggest_risk": "Margin turns negative once works cost more than about 29500 before contingency, and V rests on sales of unverified condition while the works are a guess with no floorplan or photos.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/71238566",
+    "https://www.zoopla.co.uk/for-sale/details/70412645",
+    "https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+    "https://housemetric.co.uk/house-prices/Vincent-Road/S7-1BX",
+    "https://housemetric.co.uk/24157868/S7-1BY/127+Vincent+Road",
+    "https://housemetric.co.uk/28333302/S7-1BY/133+Vincent+Road"
+  ]
+}

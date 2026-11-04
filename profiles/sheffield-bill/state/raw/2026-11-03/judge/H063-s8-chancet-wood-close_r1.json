@@ -1,0 +1,53 @@
+{
+  "id": "H063-s8-chancet-wood-close",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89411304",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 (Norton Lees) is on the area list. Listing address: Chancet Wood Close, Sheffield S8 (https://www.rightmove.co.uk/properties/89411304)."},
+    "budget":    {"pass": true, "reason": "Asking 240000 + 1.15 x W 90000 (est.) + C 3000 = 346500, which is <= 400000. Asking <= 300000. C = SDLT nil for first-time buyers up to 300000 (https://www.gov.uk/government/publications/stamp-duty-land-tax-relief-for-first-time-buyers/stamp-duty-land-tax-relief-for-first-time-buyers) plus 3000 fees. AML fee amount not stated, not included."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: listed as leasehold; lease length, ground rent and service charge not stated (https://www.rightmove.co.uk/properties/89411304)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing does not mention movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says no onward chain but does not state vacant possession."},
+    "hall":      {"pass": true, "reason": "Listing: steps up to a porch, then an entrance lobby with the staircase, which opens into the living and dining room (https://www.rightmove.co.uk/properties/89411304). Lobby treated as a hall; a closed hall would need a partition (included in W)."}
+  },
+  "V": 265000,
+  "v_basis": "3 sales: 4 Chancet Wood Close, 15 Oct 2025, 265000 (detached, same street, https://onthemarket.com/uk-house-prices/chancet-wood-close-sheffield-s8); 2 Chancet Wood View, 4 Nov 2024, 250000 (semi-D); 35 Chancet Wood View, 10 Jan 2025, 340000 (semi-D) (both https://www.rightmove.co.uk/house-prices/S8-7TS.html). Same street has no same-type sale in the last 2 years, so the nearest like street (Chancet Wood View) supplies the semi sales. Median 265000. Done-up status is not in sold data: est.",
+  "W": 90000,
+  "w_basis": "est. (floorplan image could not be opened; no room sizes). Single-storey rear extension about 16 m2 to reach kitchen-diner 25 m2+: 40000. Kitchen 12000. Bathroom 6000. Full rewire 6000. Heating adjustments 3000. Hall/lobby partition and door 4000. Plaster and decor 9000. Flooring 3000. Drawings, building control, structural check 4000. Skips and misc 3000. Total 90000 before 15% contingency.",
+  "C": 3000,
+  "margin": -108000,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 240000 / V 265000 = 91% of finished value, above the 85% band (V est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 265000 - 1.15 x 90000 - 3000 - 240000 = -108000 (est.). Negative even with zero works, because asking is above 90% of V."},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 265000 = 100% of Chancet Wood Close max 2-year sale (265000, 4 Chancet Wood Close, 15 Oct 2025), so the 95-100% band."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector S8 7 max 2-year sale is at least 550000 (1 Chancet Wood View, 4 Feb 2026, https://www.rightmove.co.uk/house-prices/S8-7TS.html). 265000 / 550000 = 48%, below 70%. Only some S8 7 streets checked; a larger sale would only lower the ratio."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given (listing says Ask agent). est. 85 m2 for a 3-bed semi; floorplan could not be read."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed (two doubles, one single). Single likely small (est.); room sizes not given, so the 'one small' band is the best fit."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Fitted kitchen is at the rear with a utility/storage room, separate from the living/dining room. Kitchen-diner 25 m2+ likely needs a rear single-storey extension (costed in W) unless a knock-through works (floorplan not readable)."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden depth not stated. Detached rear garage sits at the garden end and may cut headroom. Loft and neighbour extensions not mentioned."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Single-storey rear extension is the hardest item in W. Rewire, kitchen, bathroom and partition also needed (est.)."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 9-12 months for extension, rewire, kitchen, bathroom and decor, including design and building control."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Lease length, ground rent and service charge unstated. No EPC rating in listing. Shared driveway with two neighbours. No survey seen."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "est. quiet close with no letting boards or main road seen in listing text. Street photos could not be viewed."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk time not measured. est. 10-15 min to the nearest large park."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk time to a big supermarket not measured. est. 15-20 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Shared driveway with two neighbours plus detached rear garage (https://www.rightmove.co.uk/properties/89411304). Gradient not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing says only 'well-appointed'. No period features described. Inside not seen."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front garden and rear garden described. Brick and facade style not stated; photos could not be viewed."}
+  ],
+  "total": 50.4,
+  "verdict": "PASS",
+  "biggest_risk": "Asking (guide shown as 240000, description says 240000-250000) is about 91% of est. finished value, so the margin is negative (about -108000, est.) even with no works cost; floorplan and photos could not be viewed, so area, room sizes and works are est.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89411304",
+    "https://www.rightmove.co.uk/house-prices/S8-7TS.html",
+    "https://onthemarket.com/uk-house-prices/chancet-wood-close-sheffield-s8",
+    "https://domovita.co.uk/sold-prices/street/s8/chancet-wood-close",
+    "https://housemetric.co.uk/house-prices/Chancet-Wood-View/S8-7T",
+    "https://www.gov.uk/government/publications/stamp-duty-land-tax-relief-for-first-time-buyers/stamp-duty-land-tax-relief-for-first-time-buyers"
+  ]
+}

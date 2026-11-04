@@ -1,0 +1,52 @@
+{
+  "id": "H005-s10-heavygate-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://media.rightmove.co.uk/property-brochure/b8182a0e9/171921863/b8182a0e9a693048e0a53a576331e364.pdf",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, listed area"},
+    "budget":    {"pass": true, "reason": "asking 300000 at the cap; asking + W 83000 + C 3000 = 386000, under 400000"},
+    "tenure":    {"pass": true, "reason": "freehold per brochure"},
+    "structure": {"pass": true, "reason": "no movement, damp, knotweed or spray foam stated; no survey done, so unverified"},
+    "vacant":    {"pass": true, "reason": "not stated in brochure; no sign of a sitting tenant, unverified"},
+    "hall":      {"pass": true, "reason": "front door opens into dining room, no hall; partition to form hall est. 3500, inside 5000 limit"}
+  },
+  "V": 283800,
+  "v_basis": "No done-up sales on Heavygate Road in the last 2 years found (latest same-street sale 143 Heavygate Rd 1 May 2024 at 280000, just outside window). Nearest like street, 3-bed freehold terraces: 89 Western Road 19 Aug 2026 276000; 20 Netherfield Road 8 Jul 2026 283800; 262 Western Road 1 Jul 2026 285000. Median 283800. Done-up status of these not verified.",
+  "W": 83000,
+  "w_basis": "est. Hall partition 3500; ground-to-lower-ground kitchen-diner opening and kitchen rebuild 32000; rewire 7000; heating 4000; bathroom 7000; decor and floors 10000; damp, basement, roof and misc 8000. Subtotal 71500 plus 15% contingency = 82225, rounded to 83000. No survey or floor measurements exist.",
+  "C": 3000,
+  "margin": -143030,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true, "evidence": "Asking 300000 over est. 113 m2 = 2655/m2; comparables 283800 over est. 85 m2 = 3339/m2; ratio about 80%."},
+    {"n": 2,  "score": 1, "est": true, "evidence": "0.9x283800 - 1.15x83000 - 3000 - 300000 = -143030, below zero."},
+    {"n": 3,  "score": 2, "est": true, "evidence": "V 283800 over the 2-year street max; no same-street sale in window, so nearest-street max 285000 used, about 99.6%."},
+    {"n": 4,  "score": 5, "est": true, "evidence": "V 283800 over S10 2-year max 444000 (6-bed, 75 Bower Road, 22 Jul 2026), about 64%. A 3-bed-only max (372000) would give 4."},
+    {"n": 5,  "score": 5, "est": true, "evidence": "Floor area not given. Same house (170 Heavygate Rd) sold 13 Dec 2019 at 113 m2 per housemetric; estimate over 100 m2."},
+    {"n": 6,  "score": 4, "est": true, "evidence": "Brochure says 3 double bedrooms, one first floor and two top floor; room sizes not given, so one is confirmed at 11.5 m2 at most."},
+    {"n": 7,  "score": 3, "est": true, "evidence": "Kitchen is lower ground (breakfast bar), dining room front ground, living room rear. No kitchen-diner; needs a rear extension or a new opening to join them."},
+    {"n": 8,  "score": 1, "est": true, "evidence": "Loft already converted (front Velux, rear dormer); garden length not given; neighbours unknown."},
+    {"n": 9,  "score": 4, "est": true, "evidence": "EPC E and unknown wiring and heating point to a rewire or heating job, plus hall partition and kitchen opening."},
+    {"n": 10, "score": 4, "est": true, "evidence": "Est. 4-6 months: partition, opening, rewire, heating, kitchen, bath, decor."},
+    {"n": 11, "score": 2, "est": true, "evidence": "Converted lower-ground room with WC raises damp and drainage risk; no survey, services untested."},
+    {"n": 12, "score": 3, "est": true, "evidence": "No street-quality evidence found; a busy through road is not confirmed. Plain terrace."},
+    {"n": 13, "score": 3, "est": true, "evidence": "Crookes Valley Park est. 10-15 min walk; not measured."},
+    {"n": 14, "score": 3, "est": true, "evidence": "Nearest big supermarket est. 15-20 min walk; not measured."},
+    {"n": 15, "score": 3, "est": true, "evidence": "On-street parking to the front per brochure; slope and permit status not known."},
+    {"n": 16, "score": 3, "est": true, "evidence": "Period fireplace and feature fireplace; four levels with a dark converted basement; Velux and dormer light."},
+    {"n": 17, "score": 4, "est": true, "evidence": "Stone-fronted mid-terrace per brochure; photos not read, so tidy-terrace score is a guess."}
+  ],
+  "total": 59,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 300000 plus works costs more than nearby finished sales (about 284000) can return: margin about -143000.",
+  "sources": [
+    "https://media.rightmove.co.uk/property-brochure/b8182a0e9/171921863/b8182a0e9a693048e0a53a576331e364.pdf",
+    "https://www.rightmove.co.uk/house-prices/Heavygate.html",
+    "https://housemetric.co.uk/house-prices/Heavygate-Road/S10-1PJ",
+    "https://housemetric.co.uk/house-prices/Heavygate-Road/S10-1PG",
+    "https://www.onthemarket.com/uk-house-prices/details/e06f98211f2243d183ecdfa09b56c20a"
+  ]
+}

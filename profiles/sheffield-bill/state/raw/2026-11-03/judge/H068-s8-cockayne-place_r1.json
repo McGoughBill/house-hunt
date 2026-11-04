@@ -1,0 +1,53 @@
+{
+  "id": "H068-s8-cockayne-place",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.reedsrains.co.uk/property/WOO240265",
+  "asking": 270000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 (Meersbrook); listing is Reeds Rains Woodseats, Cockayne Place S8 9DG/9DF per sold-price pages."},
+    "budget":    {"pass": true, "reason": "asking 270000 + 1.15 x W 50000 (57500) + C 3000 = 330500, which is under 400000. W is est."},
+    "tenure":    {"pass": true, "reason": "Freehold per https://www.reedsrains.co.uk/property/WOO240265."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; described as immaculate."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing is silent on tenancy; no tenant or let is mentioned."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; porch is reached from the side and the lounge has a door to the stairs, so a hall may be needed (est. cost not verified)."}
+  },
+  "V": 270000,
+  "v_basis": "Three same-street semi-detached sales in the last 2 years, all 3-bed, none confirmed as done-up (est.): 99 Cockayne Place (S8 9DG), 20 Feb 2026, 270000; 89 Cockayne Place (S8 9DG), 10 Sep 2025, 270000 (71 m2); 23 Cockayne Place (S8 9DF), 6 May 2026, 236937. Median 270000. The 23 Cockayne Place figure matches on two sources but is below its 5 Sep 2022 sale of 252000. Nearest like street not needed.",
+  "W": 50000,
+  "w_basis": "est. The listing has no floorplan or photos linked, and says the house is immaculate. Costs before the 1.15 contingency: kitchen-diner knock-through with steel and making good 18000; new kitchen 10000; hall/entrance reconfiguration 4000; main bathroom refresh 3000 (en-suite already new); decor, flooring and joinery 8000; electrics, heating and EPC D (62) upgrade 5000; converted rear garage finish 2000.",
+  "C": 3000,
+  "margin": -87500,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "Asking 270000 at est. 89 m2 = 3034/m2 vs 89 Cockayne Place 270000/71 m2 = 3803/m2, so about 80%; single comp, floor area not given."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -87500 est.: 0.9 x 270000 - 1.15 x 50000 - 3000 - 270000; V equals asking, so margin is negative even at zero works."},
+    {"n": 3,  "score": 4, "est": false, "evidence": "Street max in 2 years is 25 Cockayne Place terraced 306100 (8 Aug 2025); 270000 / 306100 = 88%."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "Sector S8 9 max in 2 years from sampled Rightmove list is 8 Newsham Road 371000 (7 May 2026); 270000 / 371000 = 73%. Sample is partial, so true max may be higher."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est. 89 m2 from median of 3-bed semis on the street (71, 75, 78, 100, 106, 123 m2), so 80-90 band."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing: main double with en-suite, bedroom 2 double, bedroom 3 described as a single for office, nursery or storage; treated as small (est.), so 3 now with one small."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Listing: kitchen has 'ample space for a family dining table'; no size given, so 25 m2 unconfirmed; route is one knock-through (lounge/kitchen), costed in W."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden is tiered with a large lawn but length not given (10 m unconfirmed); converted rear garage uses rear space; loft not mentioned; neighbour extensions unknown."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Costed works include steel/structural kitchen-diner knock-through and hall reconfiguration; otherwise decor, kitchen, bath and EPC upgrade."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7-12 months: strip-out, steel with building control, kitchen, decor, heating and EPC works."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; EPC D (62); converted rear garage (bar, workshop, gas heating) of unknown quality; no defects reported, cause unclear."},
+    {"n": 12, "score": 4, "est": true,  "evidence": "Listing: quiet cul-de-sac near transport, schools, shops and Meersbrook Park; owner-occupancy, tidy fronts and letting boards not verified."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing names Meersbrook Park as nearby; walking time not stated, est. 5-10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "No supermarket named in listing; est. 15-20 min walk to a big supermarket (not verified)."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Listing: 'a very long driveway provides ample off-road parking'; slope and level not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing: 'immaculate', large lounge window, kitchen bay over sink, new en-suite; ceiling height and period features not given."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Listing: large raised front patio; facade material, bay and terrace frontage not stated; plain semi in cul-de-sac (est.)."}
+  ],
+  "total": 60,
+  "verdict": "PASS",
+  "biggest_risk": "Asking equals the done-up comparable level (V 270000), so there is no margin: est. margin is -87500 after 57500 of works with contingency.",
+  "sources": [
+    "https://www.reedsrains.co.uk/property/WOO240265",
+    "https://www.rightmove.co.uk/house-prices/S8-9DG.html",
+    "https://www.rightmove.co.uk/house-prices/meersbrook.html",
+    "https://housemetric.co.uk/house-prices/Cockayne-Place/S8-9DG",
+    "https://housemetric.co.uk/house-prices/Cockayne-Place/S8-9DF",
+    "https://propertyengine.co.uk/area-overview/s8-9df/house-prices"
+  ]
+}

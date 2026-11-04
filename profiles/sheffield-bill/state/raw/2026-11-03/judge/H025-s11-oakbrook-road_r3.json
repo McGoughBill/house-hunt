@@ -1,0 +1,52 @@
+{
+  "id": "H025-s11-oakbrook-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/72303595",
+  "asking": 259000,
+  "floor_area_m2": 123,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S11, Oakbrook Road, Nether Green / Hangingwater (https://www.zoopla.co.uk/for-sale/details/72303595)."},
+    "budget": {"pass": true, "reason": "Asking 259000 + 1.15 x W 90000 + C 18540 = 381040, under 400000. W and C are est."},
+    "tenure": {"pass": true, "reason": "Freehold per https://www.zoopla.co.uk/for-sale/details/72303595. The Pattinson auction entry (https://www.zoopla.co.uk/for-sale/details/69823207) gives no tenure."},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam, non-standard build or dry rot mentioned in any listing found; no survey or legal pack found."},
+    "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated in any listing found; sale is by online auction."},
+    "hall": {"pass": true, "reason": "unconfirmed: only a passageway to the first floor is mentioned (https://www.zoopla.co.uk/for-sale/details/72303595); no front door or hall description."}
+  },
+  "V": 494000,
+  "v_basis": "152 Oakbrook Road, 18 Aug 2025, 560000 (terraced, leasehold); 138 Oakbrook Road, 1 Aug 2025, 494000 (terraced, leasehold); 154 Oakbrook Road, 21 Mar 2025, 465000 (terraced, leasehold). Median 494000. Sold prices from https://www.rightmove.co.uk/house-prices/s11/oakbrook-road.html. Done-up status not verified: 154's current listing (https://primelocation.com/for-sale/details/67271795) says the current vendors finished it, so the 2025 sale may have been before works. est.",
+  "W": 90000,
+  "w_basis": "est., before 15 percent contingency: kitchen-diner refit 25000; two bathrooms 16000; rewire 8000; heating 6000; decoration, plaster and floors 20000; roof, damp and windows allowance 15000; hall 0 (passage noted). C = 0 stamp duty (first-time buyer, under 300000) + 3000 fees + 15540 auction reservation fee (6 percent of asking, the listing maximum; minimum 6000 inc VAT) = 18540.",
+  "C": 18540,
+  "margin": 63560,
+  "scores": [
+    {"n": 1,  "score": 5, "est": true,  "evidence": "As bought 259000 / 123 m2 = 2106 per m2; asking / V = 52 percent, under 60. Comp floor areas not verified. https://www.zoopla.co.uk/for-sale/details/72303595"},
+    {"n": 2,  "score": 5, "est": true,  "evidence": "Margin 63560 = 0.9 x 494000 - 1.15 x 90000 - 18540 - 259000. V and W are est. Above 40000."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 494000 / street max 560000 (152 Oakbrook Road, 18 Aug 2025) = 88 percent. https://www.rightmove.co.uk/house-prices/s11/oakbrook-road.html"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S11 two-year sector max not verified. A 1100000 asking at 2 Carr Bank Drive (not sold) makes V under 70 percent of the max likely. https://www.zoopla.co.uk/for-sale/details/70233612"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1324 sq ft = 123 m2 over three floors. https://www.zoopla.co.uk/for-sale/details/72303595"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 beds, all described as double; no room sizes given; loft master with en-suite. One room assumed under 11.5 m2. https://www.zoopla.co.uk/for-sale/details/72303595"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Open-plan kitchen diner with access to rear garden already exists; size not stated. https://www.zoopla.co.uk/for-sale/details/72303595"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Neighbours have extended at ground floor. Loft already converted, so no loft headroom left. Garden length not stated. One clear item, so 3."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Kitchen, two bathrooms and decoration, plus rewire or heating likely for a Victorian house with no survey. est."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4 to 6 months for kitchen, bathrooms, decoration and any rewire."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, legal pack or condition report found. No serious issue stated, cause of any issue unclear. est."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street has flats and converted flats (147, 161, 208 Oakbrook Road) per https://www.rightmove.co.uk/house-prices/s11/oakbrook-road.html. Letting share unknown. est."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not checked. est. 10 to 15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not checked. est. 15 to 20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking at the front (https://www.zoopla.co.uk/for-sale/details/72303595). Slope not stated. est. hard parking."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Stone-fronted Victorian with period features retained per listing. Light and ceiling height not stated. https://www.zoopla.co.uk/for-sale/details/72303595"},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Stone-fronted Victorian terrace; no front garden stated. est. attractive. https://www.zoopla.co.uk/for-sale/details/72303595"}
+  ],
+  "total": 84,
+  "verdict": "PASS",
+  "biggest_risk": "V rests on unverified done-up status of 2025 sales, and the house is an auction with no survey or legal pack. Rightmove listing 94559958 could not be opened, so the Whitehorn and Pattinson auction entries are matched on price and specs only.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/72303595",
+    "https://www.zoopla.co.uk/for-sale/details/69823207",
+    "https://www.zoopla.co.uk/for-sale/details/70233612",
+    "https://www.rightmove.co.uk/house-prices/s11/oakbrook-road.html",
+    "https://primelocation.com/for-sale/details/67271795"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "H054-s7-vincent-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89349750",
+  "asking": 220000,
+  "floor_area_m2": 98,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7 per listing address: Vincent Road, Nether Edge, S7."},
+    "budget": {"pass": true, "reason": "Asking 220000 is under 300000. Asking + 1.15W + C = 220000 + 78200 + 3000 = 301200, under 400000. W is est."},
+    "tenure": {"pass": true, "reason": "Freehold per listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing is silent on occupation and vacant possession."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not describe the front door or hall, and the floorplan image could not be read. Works estimate includes a hall at 3000."}
+  },
+  "V": 215000,
+  "v_basis": "133 Vincent Road, 16 Jun 2025, 279950; 56 Vincent Road, 25 Jul 2025, 215000; 33 Vincent Road, 12 Dec 2024, 200000. All freehold terraces on the same street (domovita, housemetric). Median 215000. Done-up status is not shown in the sources, so est.",
+  "W": 68000,
+  "w_basis": "est., before 1.15 contingency: rewire 7000; heating 5000; kitchen 12000; kitchen-diner knock-through with steel and building control 8000; bathroom 9000; plaster, decor, flooring, doors 12000; windows and repairs 5000; hall 3000; design, scaffold, skip, fees 5000; garden 2000.",
+  "C": 3000,
+  "margin": -107700,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 220000 at 98 m2 is about 2245 per m2. Asking is about the done-up street value V of 215000, and comp floor areas are not in the sources, so the ratio is est. above 85 percent."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin = 193500 - 78200 - 3000 - 220000 = -107700 (W est.). Still negative at W 0 (-29500). Price conflict: header 220000, description 230000 (rightmove 89349750)."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 215000 / street max 281611 (127 Vincent Road, 30 May 2025, domovita) = 76 percent."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector (S7) 2-year max not checked. Any S7 max above 307000 gives score 5, which is est. near-certain for S7."},
+    {"n": 5,  "score": 4, "est": false, "evidence": "Listing gives 1058 sq ft, about 98 m2 (https://www.rightmove.co.uk/properties/89349750). Band 90 to 100."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says three-bedroomed; room sizes not stated and floorplan unreadable. A three-floor Victorian usually has one small room. est."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Photo captions list kitchen, diner and living room separately (rightmove 89349750). No layout text, so a knock-through is likely but unseen. est."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear garden described as sunny and low maintenance, length not given. Loft use and neighbours' extensions not described. est. at most one weak option."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Spec needs a kitchen-diner knock-through (likely steel), plus probable rewire and heating. est. steel or structural level."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 7 to 12 months for rewire, heating, kitchen, bathroom, knock-through and decor."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey and no state-of-repair wording (rightmove 89349750). EPC D. Roof, damp and cellar unknown. est."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "10 of 15 real sales in 2024 to 2025 on the street were leasehold (domovita), which can mean flats or lets. Letting boards and tidiness not checked. est."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing names Chelsea Park nearby (rightmove 89349750). Walk time not checked. est. 5 to 10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk time not checked. est. 15 to 20 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Listing says ample on-road parking and no drive (rightmove 89349750). Slope not checked. est."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing says spacious, light and bright, with a modern feel (rightmove 89349750). No ceiling, period or wood detail, and photos not readable. est."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Listing says bay-fronted Victorian mid-terrace (rightmove 89349750). Brick or stone and front garden not stated. est."}
+  ],
+  "total": 58.8,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 220000 is about the done-up street median (215000), so the est. works of 68000 are not recovered: est. margin -107700.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89349750",
+    "https://media.rightmove.co.uk/property-brochure/78b328c7d/89349750/78b328c7d94b300917e54f0c43b36441.pdf",
+    "https://domovita.co.uk/sold-prices/street/s7/vincent-road",
+    "https://housemetric.co.uk/house-prices/Vincent-Road/S7-1B"
+  ]
+}

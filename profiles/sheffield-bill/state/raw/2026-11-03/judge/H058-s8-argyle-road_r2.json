@@ -1,0 +1,53 @@
+{
+  "id": "H058-s8-argyle-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/94900995",
+  "asking": 260000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 9HH, Meersbrook, S8: inside the listed areas."},
+    "budget": {"pass": true, "reason": "260000 + 1.15 x 105000 (W, est.) + 3000 (C) = 383750, under 400000, headroom 16250. Gate breaks if W exceeds about 119130. Top of the listed guide range (270000) gives 393750, still a pass."},
+    "tenure": {"pass": true, "reason": "Freehold per listing (https://www.rightmove.co.uk/properties/94900995)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. No survey seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state vacant possession. No onward chain is not evidence either way."},
+    "hall": {"pass": true, "reason": "Front door opens into an entrance lobby with stairs, not directly into the lounge (listing text, https://www.rightmove.co.uk/properties/94900995)."}
+  },
+  "V": 243750,
+  "v_basis": "Only 2 same-type sales on Argyle Rd in last 2 yrs: 34 Argyle Rd semi, 16 Jan 2026, 243750; 4 Argyle Rd semi, 26 Jun 2025, 222000. Third is nearest like street by postcode (S8 9HP): 6 Bishopscourt Rd 3-bed semi, 29 Jun 2026, 285000. Median 243750. Done-up status not shown in sold data (est.).",
+  "W": 105000,
+  "w_basis": "est. (no room dimensions or floorplan text; photos not readable). Single-storey rear extension to reach 25 m2 kitchen-diner 40000; new kitchen 12000; bathroom 6000; rewire 7000; heating 4000; decor, floors, lighting 20000; windows and doors 8000; lobby to hall 3000; design, building control, fees 5000. Garden outbuilding excluded.",
+  "C": 3000,
+  "margin": -164375,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 260000 over V 243750 = 107%, so bought above done-up value. Floor area not given (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -164375 with W est. 105000. Still negative at W 0 (-43625)."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 243750 over Argyle Rd 2-yr max 315000 (87 Argyle Rd, 21 Jul 2025) = 77%."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V over S8 9 2-yr max of at least 371000 (8 Newsham Rd, 7 May 2026) = 66% or less."},
+    {"n": 5,  "score": 2, "est": true,  "evidence": "Floor area not given. Argyle Rd semis 72-79 m2 per housemetric (inferred from sq ft). Est. 75."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing: two double bedrooms plus a single used as office. 3 now, one small. Room sizes not given."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Dining kitchen exists, size not given. 25 m2 target likely needs single-storey rear extension (est.)."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Garden 'generous' with length not stated; loft boarded; neighbours' extensions unknown."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Single-storey rear extension plus kitchen, bathroom and decor. Electrics and heating unknown."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Extension plus kitchen and bathroom, with design and build: est. 7-12 months."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, EPC or build date in listing. No flags seen, but cause and age unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Owner-occupancy and letting boards not checked. Argyle Rd sales show some leasehold terraces (https://www.streetcheck.co.uk/houseprices/s89hj)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not checked (search rate-limited). Est. 10-15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not checked. Est. 15-20 min."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "No parking or drive stated in listing. Slope not checked. Est. hard on-street parking, one bad."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay-front lounge, fitted kitchen. Period features and room sizes not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay front noted in listing. Materials and frontage not seen (photos not readable)."}
+  ],
+  "total": 51.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -164375: sold semis near 244000 sit below the 260000 asking before any works, so the deal does not pay back on sold values.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/94900995",
+    "https://www.streetcheck.co.uk/houseprices/s89hh",
+    "https://www.streetcheck.co.uk/houseprices/s89hj",
+    "https://www.rightmove.co.uk/house-prices/s8-9hh.html",
+    "https://www.rightmove.co.uk/house-prices/meersbrook.html",
+    "https://housemetric.co.uk/house-prices/Argyle-Road/S8-9HH/?imperial=T"
+  ]
+}

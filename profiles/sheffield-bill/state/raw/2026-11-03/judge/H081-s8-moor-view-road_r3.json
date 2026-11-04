@@ -1,0 +1,52 @@
+{
+  "id": "H081-s8-moor-view-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-moor-view-road-woodseats-sheffield-s8-0hh-s8/35001458/",
+  "asking": 290000,
+  "floor_area_m2": null,
+  "house_type": "detached",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 0HH, Woodseats, Sheffield (Hunters listing address Moor View Road, Woodseats, Sheffield S8 0HH)."},
+    "budget":    {"pass": true, "reason": "unconfirmed: listing silent on works cost. On est. W 103000, asking 290000 + 1.15 x 103000 + C 3000 = 411450 est., over 400000. Passes only if W is 93043 or less. Not a confirmed fail."},
+    "tenure":    {"pass": true, "reason": "Freehold per Hunters listing Additional Information (Tenure: Freehold)."},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam, non-standard build or dry rot mentioned; no survey seen."},
+    "vacant":    {"pass": true, "reason": "Vacant possession on completion per Hunters listing."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing says entry is through a porch leading straight into an open-plan lounge and dining room; no hall mentioned. Hall for 5000 or less is an est. figure, not confirmed."}
+  },
+  "V": 298850,
+  "v_basis": "Fewer than 3 same-street detached sales in last 2 years, so nearest like sales on Moor View Road used (mixed type, done-up status not in sold data, est.): 112 Moor View Road S8 0HJ detached 23 Jun 2026 285000; 109 Moor View Road S8 0HH semi-detached 20 Jun 2025 305000; 131 Moor View Road S8 0HH semi-detached 25 Apr 2025 298850. Median 298850. No like-street detached set of 3 found in S8 0 data checked.",
+  "W": 103000,
+  "w_basis": "est., pre-contingency: hall creation 5000; kitchen-diner ~25 m2 by replacing rear conservatory with single-storey extension plus kitchen 47000; two bathrooms 14000; rewire 6000; heating 4000; windows allowance 6000; decor and flooring 12000; design and building control 4000; skip, scaffold and waste 3000; garden and drive 2000. Floorplan not readable so area-based costs are est.",
+  "C": 3000,
+  "margin": -142485,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 290000 vs V 298850 is about 97% as proxy; floor area not given and comps are mixed type."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -142485 = 0.9 x 298850 - 1.15 x 103000 (est.) - 3000 - 290000."},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "V 298850 / street max 320750 (61 Moor View Road, 3 Nov 2025) = 93%; sensitive to V."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 298850 / S8 0 max 523440 (92 Holmhirst Road S8 0GW, Aug 2026) = 57%."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given; est. 90-100 m2 for extended detached 3-bed (area average 88 m2 per Housemetric); floorplan image unreadable."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says three well-proportioned bedrooms; no room sizes given, so assume one small."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen location not stated; conservatory to rear would need single-storey extension for a 25 m2 kitchen-diner."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Corner plot gives side space; rear garden length, loft and neighbours' extensions not stated."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Needs single-storey rear extension, two bathrooms and decor; rewire and heating unknown."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 9-12 months: design and approvals, extension build, then bathrooms and finishes."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Listing calls it extended with no detail or approvals; no survey; one serious unknown."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Residential road with steadily rising sold prices; letting boards and rat-run status not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park distance not verified; listing says only shops and amenities are nearby."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket distance not verified; listing says shops nearby."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and driveway not mentioned; corner plot may allow off-street parking; slope not verified."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Open-plan lounge-dining and conservatory give light; listing says it needs modernisation; period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Corner plot with views; facing material and frontage not confirmed from text; photos not readable."}
+  ],
+  "total": 51.4,
+  "verdict": "PASS",
+  "biggest_risk": "Est. works 103000 push asking + 1.15W + C to 411450, over the 400000 gate, and margin is about -142485 on sold comps; porch opens straight into the lounge.",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-moor-view-road-woodseats-sheffield-s8-0hh-s8/35001458/",
+    "https://www.rightmove.co.uk/house-prices/s8-0hh.html",
+    "https://www.rightmove.co.uk/house-prices/s8-0hj.html",
+    "https://www.doogal.co.uk/PropertySales?area=S8",
+    "https://housemetric.co.uk/graphs/Moor-View-Road/S8-0HH"
+  ]
+}

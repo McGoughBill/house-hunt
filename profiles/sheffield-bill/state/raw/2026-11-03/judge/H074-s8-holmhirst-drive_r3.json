@@ -1,0 +1,53 @@
+{
+  "id": "H074-s8-holmhirst-drive",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-holmhirst-drive-woodseats-sheffield-s8-0ha-s8/34930625/",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Holmhirst Drive, Woodseats, Sheffield S8 0HA per listing; S8 Woodseats is in the area gate."},
+    "budget": {"pass": true, "reason": "asking 240000 + 1.15 x W 75500 (est.) + C 3000 = 329825, under 400000."},
+    "tenure": {"pass": true, "reason": "Freehold per listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen."},
+    "vacant": {"pass": true, "reason": "Vacant possession on completion per listing sale terms."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing silent on front-door layout and the floorplan could not be read in this run; hall allowance of 2000 (est.) included in W."}
+  },
+  "V": 210000,
+  "v_basis": "Same-street 3-bed terraces sold in last 2 years (housemetric, https://housemetric.co.uk/house-prices/Holmhirst-Drive/S8-0H): 62 Holmhirst Dr, 29 Jul 2025, 210000 (85 m2); 42 Holmhirst Dr, 25 Mar 2025, 235000 (82 m2); 32 Holmhirst Dr, 25 Nov 2024, 190000 (82 m2). Median 210000. 64 Holmhirst Dr, 18 Oct 2024, 251250 excluded (outside 2 years). Sale records do not show whether these were done up: est.",
+  "W": 75500,
+  "w_basis": "No floorplan or photos readable in this run (image URLs not fetchable), so est. Decor, plaster and flooring 14000; electrics 5000; heating check 1500; bathroom refit 6000; kitchen 2000; single-storey rear extension for a 25 m2 kitchen-diner 40000; hall allowance 2000; fees, skip, building control 5000. Total 75500 before 15% contingency. Listing says kitchen modern, bathroom neutral, no works needed. Unmatched PrimeLocation listing for Holmhirst Drive (no house number, no price, Hunters) says recently renovated with a luxury bathroom; not used, may be a different house (https://www.primelocation.com/for-sale/details/67039737/).",
+  "C": 3000,
+  "margin": -140825,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking about 2927 per m2 (est. 82 m2) vs street median 2471 per m2 from the 3 sales; ratio about 118%, above 85%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -140825 (0.9 x 210000 - 1.15 x 75500 - 3000 - 240000); still negative at zero works (-54000)."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 210000 divided by street max 235000 (42 Holmhirst Dr, Mar 2025) = 89%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 210000 divided by S8 0 sector sale of at least 523440 (92 Holmhirst Rd S8 0GW, Aug 2026, https://www.doogal.co.uk/PropertySales?area=S8) = at most 40%."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est. 82 m2 from same-street 3-bed terraces (82 to 85 m2), band 80 to 90."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says 3 bedrooms; room sizes not published and floorplan unreadable here; assumed one small room."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Modern kitchen per listing, size unknown; a 25 m2 kitchen-diner in an est. 82 m2 house likely needs a single-storey rear extension."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length, loft fit and neighbours' extensions not evidenced; one weak route at best."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Finished spec needs a single-storey rear extension (est. 40000) plus electrics, bathroom and decor."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7 to 12 months to finished spec including extension and refit; no builder quote."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or listing flags; EPC C per listing; damp, roof and cellar unknown with cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Owner-occupancy, letting boards and road type not verified; not visited."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Walk to a park est. 10 to 15 min (Woodseats area); not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk to a big supermarket est. 15 to 20 min via Chesterfield Road; not measured."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not stated; mid-terrace implies on-street parking; slope unverified."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing mentions only a modern kitchen and neutral bathroom; no ceiling heights or period features stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front elevation not seen in this run; terrace material and bay not stated."}
+  ],
+  "total": 51,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 240000 is 30000 above the 210000 same-street comparable before any works, so margin is -140825 and the house fails the value test even at zero works; W, floor area and layout are unseen estimates.",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-holmhirst-drive-woodseats-sheffield-s8-0ha-s8/34930625/",
+    "https://housemetric.co.uk/house-prices/Holmhirst-Drive/S8-0H",
+    "https://www.doogal.co.uk/PropertySales?area=S8",
+    "https://primelocation.com/house-prices/sheffield/holmhirst-drive",
+    "https://streetcheck.co.uk/houseprices/s80ha",
+    "https://www.primelocation.com/for-sale/details/67039737/"
+  ]
+}

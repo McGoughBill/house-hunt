@@ -1,0 +1,51 @@
+{
+  "id": "H037-s7-abbeydale-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.blundells.com/properties/21635842/sales/BCR260099",
+  "asking": 240000,
+  "floor_area_m2": 146,
+  "house_type": "end-terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7, Abbeydale Road (Blundells listing; Rightmove 174775775)."},
+    "budget": {"pass": true, "reason": "unconfirmed: no price shown on listing (auction lot); asking 240000 taken from task brief. 240000 + 1.15 x 126000 + 13800 = 398700, under 400000 on est. W; fails if W > 127130."},
+    "tenure": {"pass": true, "reason": "Freehold (Blundells listing; Rightmove 174775775)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam or dry rot. Victorian stone period home, not modernised."},
+    "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated on listing."},
+    "hall": {"pass": true, "reason": "unconfirmed: entrance layout not stated. est. a hall can be made for under 5000."}
+  },
+  "V": 250000,
+  "v_basis": "845 Abbeydale Rd S7 2BH, 19 Dec 2025, 261500 (bought 10 Jan 2025 for 147500, so likely works); 686 Abbeydale Rd S7 2BL, 23 Jul 2026, 250000; 871 Abbeydale Rd S7 2BH, 13 Mar 2026, 225000. All 3-bed terraced. Done-up status of the last two not verified (est.). Median 250000 (est.).",
+  "W": 126000,
+  "w_basis": "est., no floorplan or photos could be read: rear single-storey extension for 25 m2 kitchen-diner 50000; rewire 7000; heating and plumbing 7000; kitchen 10000; bathroom 7000; plaster and decor 12000; windows, doors and floors 12000; roof and external 6000; hall 4000; structural knock-through 3000; fees, skip and scaffold 6000; garage and garden 2000. C 13800 = stamp duty 0 (first-time buyer, price under 300000) + fees 3000 + auction reservation fee 10800 (4.5% of 240000, per listing).",
+  "C": 13800,
+  "margin": -173700,
+  "scores": [
+    {"n": 1,  "score": 4, "est": true,  "evidence": "As bought 240000 / 146 m2 = 1644 per m2. Comp areas not checked; est. 100 m2 at V 250000 gives 2500 per m2, so about 66 percent (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -173700 on est. V and W."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 250000 is 43 percent of street max 577000 (The Lodge, detached, 8 Apr 2026; Rightmove sold list)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector max not checked. 577000 seen on the street, so V is under 80 percent of any sector max above 312500 (est.)."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "146 m2 (approx 1572 sq ft) per Blundells listing and Rightmove 174775775."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed; room sizes not given; est. one is small."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "No room layout given; est. a single-storey rear extension is needed for a 25 m2 kitchen-diner."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Garden length, loft and neighbour extensions not checked; est. one route only."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Full rewire, heating, kitchen and bathroom, plus single-storey extension and knock-through."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 9 to 12 months to a finished, liveable home after a full scheme with extension."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey; auction lot; not modernised; roof, damp and wiring unknown. est. one serious."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est. Abbeydale Road is a main road, so the no-main-road test fails. Other street tests unknown."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing mentions a nearby park (Blundells listing); distance unknown without house number."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Tesco Millhouses nearby (openingtimesin.uk); walk time est. 10 to 15 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Private garage per listing (Rightmove 174775775); slope and drive access not stated."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Victorian stone period terrace per listing; 'deceptively well-proportioned' is agent wording. No photos could be read."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Stone-built Victorian end-terrace per listing; bay window and front garden not stated."}
+  ],
+  "total": 69,
+  "verdict": "PASS",
+  "biggest_risk": "Margin est. -173700 on small 3-bed comps, and the budget gate clears by only 1300 on an unseen floorplan with no guide price shown.",
+  "sources": [
+    "https://www.blundells.com/properties/21635842/sales/BCR260099",
+    "https://www.rightmove.co.uk/properties/174775775",
+    "https://www.rightmove.co.uk/house-prices/s7/abbeydale-road.html",
+    "https://www.openingtimesin.uk/tesco-sheffield-millhouses"
+  ]
+}

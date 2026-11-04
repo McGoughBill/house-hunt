@@ -1,0 +1,50 @@
+{
+  "id": "H021-s11-langdon-street",
+  "run": 1,
+  "live": false,
+  "listing_url": "https://www.rightmove.co.uk/properties/91919301",
+  "asking": 200000,
+  "floor_area_m2": 89,
+  "house_type": null,
+  "gates": {
+    "area": {"pass": true, "reason": "Langdon Street, Sharrow, S11 per task file; S11 is on the area list in house-scoring-brief.md."},
+    "budget": {"pass": true, "reason": "unconfirmed: works cost not priced. Asking 200000 + C 3000 leaves 197000 under the 400000 cap, so W must be at most about 171000."},
+    "tenure": {"pass": true, "reason": "unconfirmed: freehold per task file only; listing could not be opened."},
+    "structure": {"pass": true, "reason": "unconfirmed: no listing, survey or photos read."},
+    "vacant": {"pass": true, "reason": "unconfirmed: occupation not checked."},
+    "hall": {"pass": true, "reason": "unconfirmed: entrance layout not seen; no floorplan read."}
+  },
+  "V": null,
+  "v_basis": "None found: no 3 done-up same-street sales located. Zoopla gives only a 12-month all-stock average of 176250 for Langdon Street (https://www.zoopla.co.uk/house-prices/sheffield/langdon-street/). The Haybrook 4-bed Langdon Street listing (https://www.onthemarket.com/details/18931760) is a different agent and bed count, marked sold STC; it is not this house.",
+  "W": null,
+  "w_basis": "Not priced: no floorplan or photos reached.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing not opened and not confirmed live; stopped at step 1"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: V and W unknown"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: V unknown"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: V unknown"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: stopped at step 1; 89 m² is from task file only"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: floorplan not read"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: floorplan not read"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: site not inspected"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or listing read"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: street not assessed"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: location not assessed"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: location not assessed"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: parking not confirmed"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: photos not read"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: photos not read"}
+  ],
+  "total": null,
+  "verdict": "REJECT",
+  "biggest_risk": "Not confirmed for sale: Rightmove page not readable here, no search hit, and not among the 6 live Redbrik Sheffield listings on OnTheMarket; 89 m² and 3 beds come from the task file, unverified; no V or W, so no margin.",
+  "sources": [
+    "https://www.zoopla.co.uk/house-prices/sheffield/langdon-street/",
+    "https://www.onthemarket.com/agents/branch/redbrik-sheffield/",
+    "https://www.onthemarket.com/details/18931760"
+  ]
+}

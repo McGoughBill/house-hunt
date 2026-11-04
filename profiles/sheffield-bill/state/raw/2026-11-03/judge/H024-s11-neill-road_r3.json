@@ -1,0 +1,52 @@
+{
+  "id": "H024-s11-neill-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89576235",
+  "asking": 200000,
+  "floor_area_m2": 89,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S11 is an allowed area."},
+    "budget": {"pass": true, "reason": "Asking 200000 is under 300000. Asking + 1.15W + C = 200000 + 51750 + 3000 = 254750, under 400000."},
+    "tenure": {"pass": true, "reason": "Freehold per https://www.rightmove.co.uk/properties/89576235"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing is silent on occupation. Zoopla says chain free, which does not confirm vacant possession."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing mentions a ground-floor hallway but does not say where the front door opens."}
+  },
+  "V": 225000,
+  "v_basis": "151 Neill Rd, 2026-06-08, 230000 (leasehold); 109 Neill Rd, 2026-03-27, 225000 (leasehold); 20 Neill Rd, 2025-12-15, 207500 (freehold). Three most recent terraced sales in the last 2 years, per https://www.onthemarket.com/uk-house-prices/neill-road-sheffield-s11/ and https://www.rightmove.co.uk/house-prices/s11-8qj.html. Done-up status not verified (est.).",
+  "W": 45000,
+  "w_basis": "Est. from listing text only; floorplan and photos could not be opened. Kitchen 13000, bathroom 7000, decor and flooring 13000, partial rewire 5000, heating check 2000, hall and front door 3000, joinery 2000. Total 45000 before contingency (est.).",
+  "C": 3000,
+  "margin": -52250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 200000 / 89 m2 = 2247 per m2; V 225000 / 89 m2 = 2528 per m2; ratio 89%. Comp floor areas not found, so subject area used (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 225000 - 1.15 x 45000 - 3000 - 200000 = -52250 (est.)."},
+    {"n": 3,  "score": 2, "est": false, "evidence": "V 225000 / 230000 (151 Neill Rd, 2026-06-08, top sale on the street in last 2 years) = 98%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S11 average about 360000 per https://housepricefinder.co.uk/area/S11/; no S11 max found. V is under 70% of any likely max (est.)."},
+    {"n": 5,  "score": 3, "est": false, "evidence": "89 m2 (958 sq ft) per https://www.rightmove.co.uk/properties/89576235"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listed as 4 beds: front first-floor double, rear first-floor room, two attic rooms. Attic sign-off and rear room size not evidenced."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Kitchen diner exists at rear with cellar access per https://www.rightmove.co.uk/properties/89576235. Size not stated, so 25 m2 target unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear yard with shed only; 10 m garden not evidenced. Attic already used, so little loft headroom. Neighbours' extensions not checked."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Kitchen, bathroom and decor needed; partial rewire or heating work likely in an unseen older terrace (est.). Gas heating and double glazing noted."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Kitchen, bathroom, decor and hall fix estimated at 4 to 6 months (est.)."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "Cellar access noted. No survey. Damp, roof and cellar condition unknown."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Sharrow is a student-let area. Letting boards and tidy fronts not checked (est.)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Endcliffe Park est. 10 to 15 min walk (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Nearest big supermarket est. 15 to 20 min walk (est.)."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "No parking information in listing. Residents' parking not checked (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "89 m2 with gas heating and double glazing. No period features listed. Average assumed (est.)."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Mid-terrace. Facade and front garden not described in listing (est.)."}
+  ],
+  "total": 53,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (-52250 est.) on sold comps not verified as done-up, and the portals disagree on asking (200000 on Zoopla, 215000 on Rightmove); cellar, roof and damp are unseen.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89576235",
+    "https://www.zoopla.co.uk/for-sale/details/70890027",
+    "https://www.onthemarket.com/uk-house-prices/neill-road-sheffield-s11/",
+    "https://www.rightmove.co.uk/house-prices/s11-8qj.html",
+    "https://housepricefinder.co.uk/area/S11/"
+  ]
+}

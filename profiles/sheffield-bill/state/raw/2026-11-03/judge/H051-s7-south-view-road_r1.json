@@ -1,0 +1,50 @@
+{
+  "id": "H051-s7-south-view-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74577920/",
+  "asking": 270000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7, Nether Edge (zoopla 74577920). No house number given."},
+    "budget":    {"pass": true, "reason": "Asking 270000 is at most 300000. Asking + 1.15W + C = 284500 at most 400000 (W and C are est.)."},
+    "tenure":    {"pass": true, "reason": "Freehold (zoopla 74577920)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says chain free; occupancy not stated (zoopla 74577920)."},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door and hall layout not described (zoopla 74577920). Hall creation at 5000 or less is est."}
+  },
+  "V": 278000,
+  "v_basis": "est.: done-up status not verified. Terraced sales on South View Road in the last 2 years (domovita.co.uk/sold-prices/street/s7/south-view-road): 193 South View Road S7 1DE, 20 Feb 2025, 281000; 64 South View Road S7 1DD, 28 Jul 2025, 278000; 66 South View Road S7 1DD, 31 Jan 2025, 257000. Median 278000. Excluded as not done up (est.): 156 at 122500 (Oct 2025) and 218 at 158000 (Jun 2025). All three used sales are shown as leasehold; target is freehold. Target postcode unknown, so the street is the whole road.",
+  "W": 10000,
+  "w_basis": "est. Listing says fully refurbished, modern kitchen and bathroom, neutral decor (zoopla 74577920). Items: hall or front-door work if needed (about 4000), second-floor bedroom fire escape and alarms (about 1500), heating and electrics check or service (about 3000), snagging and touch-ups (about 1500). Floor area and kitchen size not given.",
+  "C": 3000,
+  "margin": -34300,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 270000 is 97 percent of V 278000 (est.). Already done up, so as-bought is close to finished. Floor area not given, so the per-m2 ratio is est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin = 0.9 x 278000 - 1.15 x 10000 - 3000 - 270000 = -34300 (est.)."},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 278000 is 98.9 percent of the 2-year street max of 281000 (193 South View Road, Feb 2025, domovita)."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S7 2-year sector max not checked. S7 listings at 495000 and 550000 (zoopla 70743534 nearby list) suggest a sector max well above 400000, so V is under 70 percent (est.)."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given. Est. about 95 m2 for a 3-storey terrace with cellar (est.)."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "First floor: front double and rear single. Third room is a second-floor versatile room (zoopla 74577920); sign-off and size not stated."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Open-plan dining kitchen at the rear already exists (zoopla 74577920). Size not given, so 25 m2 is unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Loft is already converted to the second-floor room. Rear garden length not given. Neighbours' extensions not checked."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Listed as fully refurbished (zoopla 74577920). Heating and wiring are not stated, so one of these may need work (est.)."},
+    {"n": 10, "score": 5, "est": true,  "evidence": "Listing says fully refurbished and move-in ready (zoopla 74577920). Est. under 3 months to live in."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or condition report. Cellar listed with no condition given. EPC D (zoopla 74577920)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street not checked on the ground. Est. one of the street tests fails."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not checked. Est. 10 to 15 minutes."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not checked. Est. 15 to 20 minutes."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking is ask agent and slope not stated (zoopla 74577920). Est. hard on-street parking, level."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay window and coving in front living room; open-plan rear kitchen (zoopla 74577920). Ceiling height and period features not stated."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Bay window and front forecourt garden (zoopla 74577920). Brick and terrace condition not seen."}
+  ],
+  "total": 59,
+  "verdict": "PASS",
+  "biggest_risk": "Negative margin of about -34300 at est. W: the house is already done up, so there is no refurb uplift over V 278000. V rests on sales whose condition and postcode are unverified.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74577920/",
+    "https://www.zoopla.co.uk/for-sale/details/70743534",
+    "https://domovita.co.uk/sold-prices/street/s7/south-view-road"
+  ]
+}

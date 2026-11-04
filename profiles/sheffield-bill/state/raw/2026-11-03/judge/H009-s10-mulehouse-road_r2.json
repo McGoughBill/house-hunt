@@ -1,0 +1,53 @@
+{
+  "id": "H009-s10-mulehouse-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/171827096",
+  "asking": 270000,
+  "floor_area_m2": 82,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes"},
+    "budget":    {"pass": true, "reason": "asking 270000 + 1.15W 25300 + C 3000 = 298300, within 400000; asking within 300000"},
+    "tenure":    {"pass": true, "reason": "freehold per Rightmove particulars for listing 171827096 (PDF)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, dry rot; no survey seen"},
+    "vacant":    {"pass": true, "reason": "vacant possession on completion per listing"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether front door opens into a hall or the lounge; hall formation est. within 5000"}
+  },
+  "V": 255000,
+  "v_basis": "Only 1 same-street terrace sale in last 2 years: 151 Mulehouse Rd 28 Jul 2025 GBP 305000 (terraced, freehold). Added 123 Mulehouse Rd 16 Sep 2024 GBP 255000 (terraced, leasehold; 2 months outside window) and 116 Crookes 23 Jan 2025 GBP 250000 (terraced; nearest like street). Median 255000. Done-up status of none of the three is confirmed; comp floor areas unknown.",
+  "W": 22000,
+  "w_basis": "All est., no floorplan or room dimensions published: hall formation 4000; decor and flooring 8000; electrics check or partial rewire 6000; heating and boiler check 2500; bathroom refresh 1500. Total 22000 before contingency. Listing says recently refurbished and upgraded kitchen diner, so works kept light.",
+  "C": 3000,
+  "margin": -68800,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 270000 / 82 m2 vs done-up street median 255000 (comp areas unknown, assumed 82 m2): ratio about 106%, above 85%"},
+    {"n": 2,  "score": 1, "est": false, "evidence": "0.9x255000 - 1.15x22000 - 3000 - 270000 = -68800"},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 255000 / 2-year street max 400000 (177 Mulehouse Rd, detached, 19 May 2025) = 64%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 255000 / 2-year S10 max seen 400000 = 64%; S10 not fully searched, so the max may be higher"},
+    {"n": 5,  "score": 3, "est": false, "evidence": "886 sq ft = 82 m2 (Hunters listing 215072)"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed; room sizes not given, so 'one small' assumed"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Kitchen diner exists, described as recently upgraded and modern; size not given"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "South-facing rear garden; length not given; no loft or neighbour extension evidence"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor and kitchen done; hall formation likely; rewire or heating status unknown"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months for hall, decor, electrics and heating checks"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar access via dining room; damp and cellar condition unknown; EPC not stated"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "No street survey; sale data shows some leasehold and flat stock on the road"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Crookes Valley Park est. 10-15 min walk"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Local shops only est.; big supermarket est. 15-20 min walk"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking assumed; slope not confirmed"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Layout and light not described; standard 3-bed terrace assumed"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front elevation and materials not described"}
+  ],
+  "total": 58.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -68800: asking 270000 is above the 255000 comp median before any works, and the comps are not confirmed as done-up.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/171827096",
+    "https://media.rightmove.co.uk/15k/14314/171827096/14314_34445340_DOC_00_0000.pdf",
+    "https://www.hunters.com/?p=215072",
+    "https://www.rightmove.co.uk/house-prices/s10-1td.html",
+    "https://housemetric.co.uk/house-prices/Mulehouse-Road/S10-1TA",
+    "https://domovita.co.uk/sold-prices/street/s10/crookes"
+  ]
+}

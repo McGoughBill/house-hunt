@@ -1,0 +1,50 @@
+{
+  "id": "H002-s10-brighton-terrace-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://haybrook.com/buying/7-bedroom-house-for-sale/sheffield-s10/hay030766945",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes"},
+    "budget":    {"pass": false, "reason": "asking 300000 + W 112700 + C 3000 = 415700, over 400000"},
+    "tenure":    {"pass": true, "reason": "freehold per listing"},
+    "structure": {"pass": true, "reason": "no movement, subsidence or similar stated; no survey seen"},
+    "vacant":    {"pass": false, "reason": "listing says currently let to students on a multiple occupancy agreement with HMO licence; no vacant possession offered"},
+    "hall":      {"pass": true, "reason": "front door opens into entrance hall per listing"}
+  },
+  "V": 413000,
+  "v_basis": "Only 2 street sales in last 2 years, neither confirmed done-up: 74 Brighton Terrace Road, 29 Aug 2025, 430000 (4-bed terrace); 40 Brighton Terrace Road, 11 Jul 2025, 346000 (3-bed terrace). Third taken from just outside the window: 81 Brighton Terrace Road, 23 Aug 2024, 413000 (6-bed terrace). Median of 3 = 413000 (est.).",
+  "W": 112700,
+  "w_basis": "est. Six-bed HMO to 3-bed family spec. Kitchen 25000, two bathrooms 20000, full rewire 12000, heating 8000, fire doors and HMO strip-out 8000, decor, flooring and joinery 20000, roof, damp and structural allowance 15000, misc 10000 = 98000 base (est.). Plus 15 pct contingency = 112700 (est.). Floorplan room sizes from listing only; no survey.",
+  "C": 3000,
+  "margin": -60905,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "Price ratio as proxy: asking 300000 / V 413000 = 73 pct, band 70-78 pct. No comparable floor areas checked."},
+    {"n": 2,  "score": 1, "est": false, "evidence": "0.9 x 413000 - 1.15 x 112700 - 3000 - 300000 = -60905 (brief formula applied as written; W already includes contingency, so 1.15 double counts it)."},
+    {"n": 3,  "score": 2, "est": false, "evidence": "V 413000 / street max 430000 (74 Brighton Terrace Road, Aug 2025) = 96 pct."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector S10 2-year max not checked; assumed well above 600000, so V is under 70 pct of it."},
+    {"n": 5,  "score": 5, "est": true,  "evidence": "No floor area given. Listed rooms sum to about 115 m2 (kitchen 8.8, dining 15.8, lounge 20.2, beds 19.0, 9.7, 6.9, 4.4, 14.2, 9.1; bath 7.0), plus hall, study, cellar, est. over 100 m2."},
+    {"n": 6,  "score": 5, "est": false, "evidence": "Listing: 6 double bedrooms plus study. Two rooms over 11.5 m2 (bed 1 19.0 m2, bed 5 14.2 m2)."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing says open-plan kitchen and dining area. Kitchen 8.8 m2 plus dining 15.8 m2 (about 24.6 m2 combined, near the 25 m2 spec)."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Patio garden, length not given; neighbour extensions not checked. Terrace width and loft access unknown."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Full HMO strip-out with likely rewire and heating; no loft or extension needed for the spec."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7-12 months to a finished 3-bed home, given 6-bed HMO layout and unknown condition."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey, no EPC detail beyond D, condition unknown, HMO history; several unknowns, cause unclear."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Near University and Hospital, HMO-heavy letting area; 2 of the usual checks likely fail (est.)."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park about 5-10 min walk (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket est. 15-20 min walk (est.)."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Listing says off-street parking. Slope not stated; Crookes is hilly (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay-fronted lounge and bay sizes given; ceiling heights, period features and light not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Mid-terrace, small front garden. Facade material and condition not stated; photos not checked."}
+  ],
+  "total": 64,
+  "verdict": "REJECT",
+  "biggest_risk": "Let to students as an HMO per listing, so no vacant possession; and budget gate fails at about 415700 all-in against 400000 cap, with V resting on 2 street sales.",
+  "sources": [
+    "https://haybrook.com/buying/7-bedroom-house-for-sale/sheffield-s10/hay030766945",
+    "https://www.housemetric.co.uk/house-prices/Brighton-Terrace-Road/S10-1N.",
+    "https://domovita.co.uk/sold-prices/street/s10/brighton-terrace-road?start=100"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "H003-s10-cobden-view-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.haushomes.co.uk/properties-for-sale/property/12893740-cobden-view-road-crookes-sheffield",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes"},
+    "budget":    {"pass": true, "reason": "asking 240k <= 300k; asking + W 137k (est.) + costs 3k = 380k <= 400k"},
+    "tenure":    {"pass": true, "reason": "lease 800 yrs from 25 Dec 1907 (>=150); no covenant dispute seen; ground rent and service charge not stated"},
+    "structure": {"pass": true, "reason": "no movement, subsidence, knotweed, spray foam or dry rot stated; no survey seen, so unconfirmed"},
+    "vacant":    {"pass": false, "reason": "vacant possession not stated; 'No Onward Chain' is not vacant possession; unconfirmed"},
+    "hall":      {"pass": false, "reason": "front door opening not stated; unconfirmed; a hall would need to be made for <= 5k (not priced)"}
+  },
+  "V": 260000,
+  "v_basis": "Same street, terraced, sold Oct 2025 (within 2 yrs, Rightmove list): 184 (S10 1HT) 27 Oct 2025 £260,000; 176 (S10 1HT) 27 Oct 2025 £253,500; 108 (S10 1HS) 23 Oct 2025 £365,000. Median 260,000. These are not confirmed done-up sales, so V is est. Only page 1 of 4 of the street list was read.",
+  "W": 137000,
+  "w_basis": "est. base 119k: rewire 8k, heating 6k, kitchen and off-shot rebuild with rear opening 45k, bathroom 10k, decor and floors 12k, structural opening 8k, windows and doors 6k, roof and damp checks 5k, prelims and skip 15k, design and regs 4k. Plus 15% contingency = 137k. No floorplan or survey read, so est. Target spec: 3 bedrooms (second floor double with rear dormer already exists), kitchen-diner not yet created.",
+  "C": 3000,
+  "margin": -166550,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 240k vs done-up street 260k = 92% (>85%); floor area est. ~100 m2 for both, so est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Brief formula 0.9V - 1.15W - costs - asking = 234k - 157.6k - 3k - 240k = -166.6k (note: W already includes contingency, so the 1.15 double counts; the margin is negative either way)."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 260k / street max 365k (108 S10 1HS, Oct 2025) = 71% (<80%); V itself est."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 260k / S10 max in page 1 sample 400k (214 S10 1HT, Mar 2025) = 65% (<70%); sector max only partly checked."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given; 3 storeys stone mid-terrace est. ~90-100 m2."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms now incl. second-floor double with rear dormer; the dormer may not be a full legal room, and size unknown."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Off-shot kitchen with rear door exists; one knock-through or rear opening to make a kitchen-diner, est."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Rear dormer already present; garden size, loft fit and neighbour extensions not stated, est. weak."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Rewire, heating, full kitchen and bathroom plus a structural opening for the kitchen-diner; est. steel-beam level scope."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Works est. 6-9 months, so 7-12 band."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar described as tanked, no survey; damp and roof unknown, cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Mid-terrace on a through road; letting boards and owner-occupancy unknown, est."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park est. 5-10 min walk."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Crookes shops est. 10-15 min walk to a large supermarket; est."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Crookes is hilly; on-street parking and slope unconfirmed, est. one bad."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Bay windows, exposed brick chimney breasts, three levels; ceiling heights and light not stated."},
+    {"n": 17, "score": 4, "est": false, "evidence": "Stone-fronted mid-terrace with bay windows and raised forecourt (listing)."}
+  ],
+  "total": 59.6,
+  "verdict": "REJECT",
+  "biggest_risk": "Two gates unconfirmed and failed (vacant possession, front door into hall) and a negative margin: 240k asking plus about 137k works leaves no margin against 260k est. finished value.",
+  "sources": [
+    "https://www.haushomes.co.uk/properties-for-sale/property/12893740-cobden-view-road-crookes-sheffield",
+    "https://www.rightmove.co.uk/house-prices/s10/cobden-view-road.html"
+  ]
+}

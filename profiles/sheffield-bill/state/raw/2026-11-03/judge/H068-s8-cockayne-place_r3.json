@@ -1,0 +1,53 @@
+{
+  "id": "H068-s8-cockayne-place",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.reedsrains.co.uk/property/WOO240265",
+  "asking": 270000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "Cockayne Place, Sheffield S8, Meersbrook [1]"},
+    "budget": {"pass": true, "reason": "asking 270000 + 1.15 x W (est. 97000) + C 3000 = 384550, under 400000; C is nil SDLT (first-time buyer, price under 300000) plus 3000 fees; rests on est. W, headroom about 15450 [1]"},
+    "tenure": {"pass": true, "reason": "Freehold [1]"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot [1]"},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state vacant possession and mentions no tenancy [1]"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say where the front door opens; porch is accessed via the side and the lounge has an adjoining door to the stairway [1]; a partition hall is est. 4500, within the 5000 limit"}
+  },
+  "V": 270000,
+  "v_basis": "Only 2 same-street semi sales in the last 2 years: 99 Cockayne Place, 20 Feb 2026, 270000 [2]; 89 Cockayne Place, 10 Sep 2025, 270000 [2][3]. Third from nearest like street: 14 Meersbrook Avenue S8 9EB, semi, 3 bed, leasehold, 13 Dec 2024, 380000 [5]. Median 270000. Done-up status of these sales is not confirmed (est.); 89 had EPC D and a price cut on 5 Feb 2025 [4].",
+  "W": 97000,
+  "w_basis": "est., no floorplan or room sizes in listing [1]: hall partition 4500; single-storey rear extension and knock-through to a 25 m2+ kitchen-diner 40000; new kitchen 17000; family bathroom refit 7000 (en-suite already newly fitted [1]); rewire 6000; insulation and heating checks (EPC D on same-type 89 [4]) 4500; decoration and flooring 12000; doors and plumbing 3000; design and building regs 3000. Total 97000 before contingency.",
+  "C": 3000,
+  "margin": -141550,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "Asking 270000 / est. 85 m2 = est. 3176 per m2 against done-up ref 3803 per m2 (89 Cockayne Place 270000 / 71 m2 [3][4]); ratio est. about 84%"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -141550 = 243000 - 111550 - 3000 - 270000; rests on est. W 97000"},
+    {"n": 3,  "score": 2, "est": false, "evidence": "V 270000 / street max 270000 (semis 89 and 99 Cockayne Place, 2025-26 [2][3]) = 100%"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 270000 / sector max 500000 (43 Meersbrook Avenue S8 9EB, 31 Oct 2025 [5]) = 54%"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not stated [1]; est. 85 m2; same-type 89 Cockayne Place is 71 m2 [4]"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 beds: two doubles and bedroom 3 is a single [1]; room sizes not given, so one small"},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen described as very good sized [1] with no dimensions; a 25 m2+ kitchen-diner needs a single-storey rear extension (est.)"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Multi-tiered garden with large lawn [1], length not stated; loft and neighbour extensions unknown (est.)"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Single-storey rear extension with knock-through is the heaviest item (est.); rewire and insulation add to it"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7-12 months for extension, kitchen, bathroom, rewire and decoration"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "No survey; rear garage converted to a bar with gas heating, approval not stated [1]; est. one serious unknown"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street mixes terraces and semis [2]; tenure, tidiness and letting boards not verified (est.)"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing for another Cockayne Place house says close to Meersbrook and Graves parks [6]; walk time not given, est. 5-10 min"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Woodseats and Meersbrook shopping parades nearby [6]; big supermarket walk not confirmed, est. 15-20 min"},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Very long driveway at the front [1]; slope not stated and large raised patio hints at a level change (est.)"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Large lounge window and kitchen bay give light [1]; ceiling height and period detail unknown, est. average"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front is driveway and raised patio [1]; no photos described; brick and bays not confirmed, est. plain and tidy"}
+  ],
+  "total": 54.2,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -141550: 90 percent of V (243000) does not cover asking 270000 plus est. works 111550 and costs 3000, so the price is above finished value before any build risk.",
+  "sources": [
+    "https://www.reedsrains.co.uk/property/WOO240265",
+    "https://www.rightmove.co.uk/house-prices/S8-9DG.html",
+    "https://housemetric.co.uk/house-prices/Cockayne-Place/S8-9DG",
+    "https://housemetric.co.uk/30934647/S8-9DG/89+Cockayne+Place",
+    "https://www.rightmove.co.uk/house-prices/s8/meersbrook-avenue.html",
+    "https://www.rightmove.co.uk/properties/158395997"
+  ]
+}

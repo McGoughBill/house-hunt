@@ -1,0 +1,53 @@
+{
+  "id": "H032-s11-sharrow-vale-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/73741734/",
+  "asking": 300000,
+  "floor_area_m2": 118,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11, Sharrow Vale Road. Matched via Zoopla 73741734 (Whitehorn agent, 300000, 3 bed, 118 m2). The Rightmove page 91012299 could not be opened."},
+    "budget":    {"pass": true, "reason": "unconfirmed: headline asking 300000 passes. Zoopla description says guide 305000-315000, which would fail. W est. 80000 gives 300000 + 92000 + 3000 = 395000 est.; passes only if W is at or under 84348."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold per Zoopla. Lease length not stated, so the 150-year test is unconfirmed."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot."},
+    "vacant":    {"pass": true, "reason": "Zoopla: 'Vacant possession on completion', chain free."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing silent on front door and hall layout; floorplan not readable."}
+  },
+  "V": 375000,
+  "v_basis": "Median of the 3 most recent leasehold terraced sales on Sharrow Vale Road: 141 (20 Jan 2026, 375000, 4 bed per Rightmove list); 145 (16 Jan 2026, 390000, 113 m2, EPC D); 408 (14 Nov 2025, 275000, bedrooms not shown). Done-up status not verified for any of them (est.).",
+  "W": 80000,
+  "w_basis": "est., no floorplan or readable photos: kitchen-diner 25000; bathroom 8000; heating and electrics 12000 (EPC E); decor, floors and joinery 18000; opening up and structure 7000; windows, doors and misc 10000. Before contingency; 1.15 added in margin.",
+  "C": 3000,
+  "margin": -57500,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "300000 / 118 m2 = 2542 per m2 as bought. Only measured street comp is 145 at 3451 per m2 (113 m2), so 74%. Comp condition unverified."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -57500 est.: 0.9 x 375000 - 1.15 x 80000 - 3000 - 300000."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 375000 / street max 461000 (161 Sharrow Vale Road, 11 Nov 2024) = 81%."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "S11 8 sector max over 2 yrs not searched. Est. 500000 gives 75%. Street max alone would give 81% (score 3)."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "Zoopla: 1272 sq ft, about 118 m2."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Zoopla: 'three double bedrooms'. Room sizes not given; floorplan unreadable, so two at 11.5 m2 or more unconfirmed."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "No kitchen or kitchen-diner described; route to a 25 m2+ kitchen-diner unseen. Est. rear extension or knock-through."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Zoopla: garden 'private rear and sunny', length unknown. Loft and neighbour extensions not stated. Est. one weak route."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "EPC E (Zoopla). Comp 145 is EPC D (2019) with boiler and radiators. Est. heating or electrics work beyond decor."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7 to 12 months: works est. 80000 plus design and building control."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. No damp or roof mention. Comp 145 has solid brick walls and uninsulated roof (EPC). Causes unclear."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Est. Sharrow Vale Road is a busy through road (not verified here). Sales list shows many flats and split houses. Est. two of four tests fail."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Zoopla: near Endcliffe Park. Walk time not stated. Est. 5 to 10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "No big supermarket named. Est. 15 to 20 min walk."},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Zoopla: residents permit parking to the front. Listing says 'set up from the road on higher ground', so slope or steps est."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Zoopla: mid-Victorian, bay windows, period features, 'generous proportions'. No room sizes or ceiling heights seen."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Zoopla: bay-windowed mid-Victorian terrace. Facing material and front garden unseen."}
+  ],
+  "total": 63.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (est. -57500): V 375000 rests on unverified comps, and W 80000 is a guess without a floorplan.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/73741734/",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/sharrow-vale-road/",
+    "https://domovita.co.uk/sold-prices/street/s11/sharrow-vale-road",
+    "https://www.rightmove.co.uk/house-prices/s11/sharrow-vale-road.html",
+    "https://www.onthemarket.com/uk-house-prices/sharrow-vale-road-sheffield-s11/",
+    "https://house-price-finder.pages.dev/property/MTQ1LCBTSEFSUk9XIFZBTEUgUk9BRHxTMTEgOFpB"
+  ]
+}

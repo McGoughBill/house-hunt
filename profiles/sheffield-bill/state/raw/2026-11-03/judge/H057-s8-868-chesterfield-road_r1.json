@@ -1,0 +1,52 @@
+{
+  "id": "H057-s8-868-chesterfield-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.vebra.com/details/property/33512055",
+  "asking": 220000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "pass: listed address 868 Chesterfield Road, Woodseats, S8 (listing)."},
+    "budget":    {"pass": true, "reason": "pass: asking £220,000 + 1.15 × W £55,000 + C £3,000 = £286,250, under £400,000; asking under £300,000."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold per listing; lease length, ground rent and service charge not stated."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing mentions no movement, subsidence, knotweed, spray foam or dry rot; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says NO CHAIN; occupancy not stated."},
+    "hall":      {"pass": true, "reason": "pass: side door into porch, then hallway with stairs (listing)."}
+  },
+  "V": 277270,
+  "v_basis": "Only one same-street semi sale in the last 2 years: 295 Chesterfield Rd, 25 Jul 2025, £277,270 (leasehold). Filled to 3 from nearest S8 streets (not done-up checked): 100 Fraser Rd, Woodseats, 26 Jun 2026, £270,000 (leasehold); 54 Marshall Rd, 27 May 2026, £297,000 (freehold). Median £277,270. Sale records do not show whether any was done up, so V is est. Fraser Rd confirmed as Woodseats; Marshall Rd location not checked.",
+  "W": 55000,
+  "w_basis": "All est. No floorplan on listing; photos not readable from text fetch. Decor £14k; kitchen £12k; bathroom £6k; electrics check and partial rewire £5k; heating service £1k; flooring £4k; garden and carport tidy £1k; damp, windows and minor £2k; kitchen-diner knock-through with steel beam £10k. Total £55k before the 15 percent contingency added in the margin formula.",
+  "C": 3000,
+  "margin": -36707,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "As bought £220k ÷ 88 m² est = £2,500/m²; V £277,270 ÷ 88 m² = £3,151/m²; ratio 79% (78–85% band)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 × £277,270 − 1.15 × £55,000 − £3,000 − £220,000 = −£36,707 (est)."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V £277,270 ÷ street max residential sale £330,000 (919 Chesterfield Rd, terraced, 14 Mar 2025) = 84%."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "V ÷ S8 0 sector max £330,000 (919 Chesterfield Rd) = 84%; sector not fully checked; typed 'Other' sales excluded."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given; est 88 m². Lounge-diner alone 3.34 × 8.08 m = 27 m²."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed (2 front, 1 rear); sizes not given; assume one small."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Kitchen at rear, separate; one knock-through to the 27 m² lounge-diner gives a kitchen-diner (layout est)."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Rear garden larger than average, backs onto woodland (length not given); loft hatch only; neighbours unknown. One met."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Decor, kitchen, bath, plus one steel-beam knock-through (structural)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est 4 to 6 months: decor, kitchen, bath and knock-through."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, damp or roof information in listing; minor issues, cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "House sits on Chesterfield Road, a main road (fails that test); owner-occupancy and letting boards unknown."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk not stated; est 10 to 15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not stated; est 10 to 15 min."},
+    {"n": 15, "score": 4, "est": true,  "evidence": "Paved drive to enclosed carport and garage (listing); slope not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Lounge-diner 27 m² with front and rear light, feature fireplace, uPVC double glazing; period features not stated."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Semi; brick type not stated; front lawn and shrub borders, tidy (listing)."}
+  ],
+  "total": 59.8,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is negative (about −£36,700 est): works plus fees exceed the gap between asking and V, and V rests on as-sold semis, not verified done-up sales.",
+  "sources": [
+    "https://www.vebra.com/details/property/33512055",
+    "https://domovita.co.uk/sold-prices/street/s8/chesterfield-road",
+    "https://www.rightmove.co.uk/house-prices/Woodseats.html",
+    "https://www.doogal.co.uk/PropertySales?area=S8",
+    "https://www.primelocation.com/for-sale/details/66989760/?image=6"
+  ]
+}

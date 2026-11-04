@@ -1,0 +1,49 @@
+{
+  "id": "H016-s10-western-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383",
+  "asking": 250000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes (https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383)"},
+    "budget":    {"pass": true, "reason": "asking 250000 + 1.15 x W 129950 + C 3000 = 382950, under 400000 (W and C est.)"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold, lease length not stated in listing (https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says chain free but does not state vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into a hall or the living room"}
+  },
+  "V": 230000,
+  "v_basis": "Most recent 3 terraced sales on Western Road S10 in the last 2 years, not checked for done-up condition (est.): 107 Western Road, 12 Jun 2026, 230000 (https://www.rightmove.co.uk/house-prices/s10/western-road.html); 71 Western Road, 16 Apr 2026, 215000 (same URL); 262 Western Road, 1 Jul 2026, 285000 (same URL). Median 230000. Higher sales 79a (19 Dec 2025, 275000) and 262 may be done-up, which would raise V.",
+  "W": 113000,
+  "w_basis": "est. Single-storey rear extension ~35000 (current kitchen 5 m2 and dining 12 m2 do not reach 25 m2 without it); kitchen 20000; bathroom 8000; rewire 7000; heating 5000; roof, damp, windows 15000; decor, floors, joinery 10000; hall and alterations 5000; design and building control 8000. Loft bedroom already exists, sign-off unknown. Before contingency. Floorplan and photos not seen; source listing https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383",
+  "C": 3000,
+  "margin": -175950,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought about 3125/m2 (250000 / est. 80 m2) vs comp about 2875/m2 (230000 / est. 80 m2), so about 109%, above 85%. Floor area est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 230000 - 1.15 x 113000 - 3000 - 250000 = -175950, below 0. V and W est."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 230000 / 2-year street max 285000 (262 Western Road, 1 Jul 2026, https://www.rightmove.co.uk/house-prices/s10/western-road.html) = 81%, band 80-90. Done-up status of V unchecked."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "230000 / est. S10 2-year sector max 450000 = about 51%, below 70. No sector sales list checked; sector max est."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given. Room sizes from listing (https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383) imply about 80 m2 (est.): living 10x15ft, dining 11x12ft, kitchen 6x9ft, bed1 11x12ft, bed2 9x10ft, bathroom 6x8ft, loft 11x20ft."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listed as 3 bedrooms plus a loft bedroom that can be split. Bed2 is 9x10ft (about 8.4 m2), so not two of 11.5 m2 or more. Loft room needs attic sign-off, unconfirmed (https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383)."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen about 5 m2 (6x9ft). Dining about 12 m2 (11x12ft) with cellar access. Reaching 25 m2+ needs a single-storey rear extension. Layout est."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Loft already converted, so loft space is used. Garden length and neighbour extensions not stated. One weak point est."},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Single-storey rear extension plus kitchen, bathroom, rewire and heating (est., no survey). Loft already done."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Extension, rewire and heating est. 7-12 months to live in comfortably."},
+    {"n": 11, "score": 2, "est": true,  "evidence": "EPC D (https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383). Cellar with unknown damp. Loft conversion sign-off unknown. No survey. One serious item est."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Western Road is a main through road in Crookes (est.), so one fail. Letting boards and fronts not checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park or Weston Park est. 5-10 min walk."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Nearest large supermarket est. 15-20 min walk. Not checked."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking on a busy road, est. hard parking. Slope est. level."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Modern kitchen and bathroom (https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383). Period features, light and ceiling heights unknown. Average est."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Mid-terrace, stone or brick not stated. Front garden and bay not stated. Plain, tidy est. No photos seen."}
+  ],
+  "total": 51,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 250000 is about 109% of the est. comp value of 230000, so the margin is about -175950 before any refurb overrun; the whole case rests on V being right and on the unverified done-up status of the comps.",
+  "sources": [
+    "https://haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383",
+    "https://www.rightmove.co.uk/house-prices/s10/western-road.html"
+  ]
+}

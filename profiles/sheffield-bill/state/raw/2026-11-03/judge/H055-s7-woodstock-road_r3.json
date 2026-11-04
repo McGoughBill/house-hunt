@@ -1,0 +1,52 @@
+{
+  "id": "H055-s7-woodstock-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/169390475",
+  "asking": 280000,
+  "floor_area_m2": 95,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7 (Woodstock Road, Nether Edge) per https://www.rightmove.co.uk/properties/169390475"},
+    "budget": {"pass": true, "reason": "Asking 280000 is under 300000 (guide range 280000 to 300000). Asking + 1.15W + C = 280000 + 23000 + 3000 = 306000, under 400000."},
+    "tenure": {"pass": true, "reason": "unconfirmed: Rightmove says 'Freehold & No Chain'; brochure https://media.rightmove.co.uk/168k/167186/169390475/167186_12784687_DOC_02_0001.pdf says 'Leasehold' with no lease length or ground rent."},
+    "structure": {"pass": true, "reason": "unconfirmed: no structural details given; brochure says no survey has been carried out."},
+    "vacant": {"pass": true, "reason": "unconfirmed: vacant possession not stated in listing."},
+    "hall": {"pass": true, "reason": "unconfirmed: front door position not stated; bay-fronted living room at front. Hall creation (est. 5000) is priced in W."}
+  },
+  "V": 364000,
+  "v_basis": "45 Woodstock Road, 4 Aug 2026, 364000; 47 Woodstock Road, 24 Oct 2025, 355000; 75 Woodstock Road, 6 Oct 2025, 375000. Done-up status of these not checked. 17 Woodstock Road (16 Jun 2025, 255000) is fourth in the window and not used. Source: https://www.rightmove.co.uk/house-prices/S7-1HA.html",
+  "W": 20000,
+  "w_basis": "est., no floorplan, photos or survey. Listing says already refurbished. Hall creation 5000; decor refresh 4000; electrics check and minor remedial 3000; floor coverings 3000; top-floor sign-off or regularisation 2000; cellar and courtyard tidy 1500; boiler service and snagging 1500. Contingency added by 1.15 in margin.",
+  "C": 3000,
+  "margin": 21600,
+  "scores": [
+    {"n": 1,  "score": 2, "est": true,  "evidence": "As bought 280000 / est. 95 m2 = 2947 per m2; done-up comps at V 364000 on est. 100 m2 = 3640 per m2, so 81%. Comp areas est. https://www.rightmove.co.uk/house-prices/S7-1HA.html"},
+    {"n": 2,  "score": 3, "est": true,  "evidence": "Margin 21600 = 0.9 x 364000 - 1.15 x 20000 - 3000 - 280000; W est. https://www.rightmove.co.uk/house-prices/S7-1HA.html"},
+    {"n": 3,  "score": 2, "est": false, "evidence": "V 364000 / 2-year street max 375000 (75 Woodstock Road, 6 Oct 2025) = 97%. https://www.rightmove.co.uk/house-prices/S7-1HA.html"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 364000 / S7 2-year max 1150000 (37 Kenwood Park Road, Aug 2026) = 32%; same-type S7 sale 550000 (46 Steade Road, Aug 2026) = 66%. https://www.doogal.co.uk/PropertySales?area=S7"},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not in listing. EPC for 24 Woodstock Road: 95 m2 (lodged 2021), 79 m2 (2009). Match to this house est. https://streetguide.co.uk/energy/s71hb"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing: 3 double bedrooms, two on first floor, third is a dormer room on top floor with en-suite; sign-off for top floor not stated. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing: open-plan dining kitchen at rear overlooking garden, so route exists. Size not given. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 8,  "score": 1, "est": true,  "evidence": "Courtyard garden (not shown to be 10 m); loft already converted; two-storey off-shot already built; neighbours unknown. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Already refurbished (kitchen, bathroom, combi, double glazing). Left: hall creation, decor, flooring, electrics check; electrics unknown. https://media.rightmove.co.uk/168k/167186/169390475/167186_12784687_DOC_02_0001.pdf"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4 months for hall, decor, flooring and electrics check. Not stated in listing."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey carried out (brochure); cellar, roof and damp not described. Minor, cause unclear. https://media.rightmove.co.uk/168k/167186/169390475/167186_12784687_DOC_02_0001.pdf"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Owner-occupation, letting boards and rat-run status not stated. Est. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Park walk est. 10 to 15 min; listing says only 'nearby parks'. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk est. 15 to 20 min; listing says only 'nearby shops'. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 15, "score": 2, "est": true,  "evidence": "Parking 'Ask agent'; slope unknown; front forecourt only. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing: 'deceptively spacious', bay-fronted living room, two reception rooms. Ceiling height and period features not given. https://www.rightmove.co.uk/properties/169390475"},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Bay front and iron-railed forecourt; brick or stone not stated. https://www.rightmove.co.uk/properties/169390475"}
+  ],
+  "total": 63,
+  "verdict": "PASS",
+  "biggest_risk": "Tenure conflict (freehold vs leasehold) and no survey, and V rests on three 2025-26 sales whose done-up status is unchecked.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/169390475",
+    "https://media.rightmove.co.uk/168k/167186/169390475/167186_12784687_DOC_02_0001.pdf",
+    "https://www.rightmove.co.uk/house-prices/S7-1HA.html",
+    "https://streetguide.co.uk/energy/s71hb",
+    "https://www.doogal.co.uk/PropertySales?area=S7"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "H020-s11-junction-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/73668021/",
+  "asking": 290000,
+  "floor_area_m2": 104,
+  "house_type": "semi",
+  "gates": {
+    "area":      {"pass": true, "reason": "S11; listing gives Junction Road, Sharrowvale S11 (zoopla.co.uk/for-sale/details/73668021)"},
+    "budget":    {"pass": true, "reason": "unconfirmed: works not costed in listing. Using est. W 140000, asking + 1.15W + C = 454000, which exceeds 400000. Gate would fail on any W above 93000 (est.)"},
+    "tenure":    {"pass": true, "reason": "Freehold per zoopla.co.uk/for-sale/details/73668021"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam or dry rot"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on occupancy; chain status not confirmed"},
+    "hall":      {"pass": true, "reason": "unconfirmed: floorplan not read; entrance layout not stated in listing text"}
+  },
+  "V": 375000,
+  "v_basis": "No done-up sales on Junction Road in last 2 years (latest Dec 2023, 15 Junction Rd, terraced, £565,000). Nearest like street used, Sharrow Vale Road S11: 141 Sharrow Vale Road, 20 Jan 2026, £375,000 (terraced); 145 Sharrow Vale Road, 16 Jan 2026, £390,000 (terraced); 408 Sharrow Vale Road, 14 Nov 2025, £275,000 (terraced). Median £375,000. Comps are terraced not semi, and done-up status unknown (est.).",
+  "W": 140000,
+  "w_basis": "est. Full refurb of 104 m² period semi to finished spec: kitchen-diner extension or knock-through £60-80k; rewire and heating £15-20k; bathrooms £12-15k; decor, flooring, windows and joinery £20-25k; hall and misc £5k. Before 15% contingency. No costing in listing or floorplan read.",
+  "C": 3000,
+  "margin": -116500,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "Asking £2,788/m² (290000/104) vs V/104 £3,606/m²: 77%, band 70-78%. Uses est. V."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -116500 (0.9×375000 − 1.15×140000 − 3000 − 290000). Negative on est. W and V."},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 375000 vs Sharrow Vale Rd 2-yr max 461000 (161 Sharrow Vale Rd, Nov 2024): 81%. Junction Rd has no sales in window."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 375000 vs S11 2-yr max seen 560000 (323 Sharrow Lane, Feb 2026): 67%. Partial sector view."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1,119 sq ft = 104 m² (zoopla.co.uk/for-sale/details/73668021)"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed (zoopla.co.uk/for-sale/details/73668021). Room sizes not seen, so one small room assumed."},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "No kitchen-diner. Single-storey rear extension assumed; side return not confirmed."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Garden length, loft and neighbour extensions not seen. Assumed 3 of 3 uncertain, scored middle."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen, bath plus likely rewire or heating in period house. Structural work not assumed."},
+    {"n": 10, "score": 3, "est": true,  "evidence": "Est. 7-12 months to a finished home (refurb plus extension) while renting."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Period semi: damp, roof and cause unclear. Minor, cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Junction Rd lists mainly leasehold terraces (resi.co.uk); owner-occupancy and letting boards not checked."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Est. 10-15 min walk to Endcliffe Park. Not measured."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Est. 15-20 min walk to a big supermarket on Ecclesall Road. Not measured."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not stated in listing text."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Listed as period family home (zoopla.co.uk/for-sale/details/73668021). Features and light not seen."},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Semi-detached period front. Facade material and bay not seen in text."}
+  ],
+  "total": 66.6,
+  "verdict": "PASS",
+  "biggest_risk": "Works cost. On est. W 140000 the budget gate fails (454000 vs 400000) and the margin is -116500, so this is not a value buy on these comps. Comps are terraced, not done-up semis, so V may be high.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/73668021/",
+    "https://resi.co.uk/house-prices/junction-road-s11",
+    "https://primelocation.com/house-prices/sheffield/junction-road",
+    "https://domovita.co.uk/sold-prices/street/s11/sharrow-vale-road",
+    "https://www.rightmove.co.uk/house-prices/s11/sharrow-lane.html"
+  ]
+}

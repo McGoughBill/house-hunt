@@ -1,0 +1,52 @@
+{
+  "id": "H045-s7-hastings-grange",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.zoopla.co.uk/for-sale/details/74010627/",
+  "asking": 290000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Hastings Grange, Millhouses, S7 (Zoopla listing 74010627)."},
+    "budget": {"pass": true, "reason": "Asking 290000 + 1.15W 74750 + C 3000 = 367750, under 400000."},
+    "tenure": {"pass": true, "reason": "Leasehold, 500-year term from 2017 (Zoopla listing bullets). At least 150 years; no covenant dispute seen."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. 2017 build."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing is silent on vacant possession."},
+    "hall": {"pass": true, "reason": "Listing describes an entrance hall with tiled floor and downstairs WC. Front door position not stated."}
+  },
+  "V": 385000,
+  "v_basis": "Only 2 terraced sales on Hastings Grange in the last 2 years: 13 Hastings Grange, Jan 2026, £385,000 (3-bed; Rightmove, Domovita); 33 Hastings Grange, Dec 2025, £450,000 (2-bed; Rightmove only, unconfirmed because Domovita and Housemetric list 33 as semi-detached). Third sale: 16 Hastings Grange, terraced, May 2024, £375,000 (3-bed; same street but about 6 months outside the 2-year window). No nearer like-street sale found. Median £385,000. Done-up status of comparables not verified.",
+  "W": 65000,
+  "w_basis": "All est., no quotes, before 15% contingency. Loft conversion with third bedroom, structural steel, stairs and windows: £50,000. Decor, flooring and lighting throughout: £10,000. Building control, party wall and drawings: £5,000. Open-plan kitchen-diner and entrance hall already exist. Floorplan not readable, so W rests on listing text and photo caption only.",
+  "C": 3000,
+  "margin": -21250,
+  "scores": [
+    {"n": 1, "score": 1, "est": true, "evidence": "As bought £4,462/m² (est. 65 m²) vs done-up street £4,140/m² (13 Hastings Grange, 93 m²): 108%, above 85%."},
+    {"n": 2, "score": 1, "est": true, "evidence": "Margin -21250 = 0.9x385000 - 1.15x65000 - 3000 - 290000."},
+    {"n": 3, "score": 5, "est": false, "evidence": "V 385000 is 47% of £815,000 (35 Hastings Grange, detached, Jan 2026), the street max in 2 years."},
+    {"n": 4, "score": 5, "est": false, "evidence": "V is 47% or less of the S7 sector max in 2 years (at least £815,000 at 35 Hastings Grange, Jan 2026)."},
+    {"n": 5, "score": 1, "est": true, "evidence": "Floor area not given. Est. 65 m² from 2-bed terraces at 57, 59 and 61 Hastings Grange (Housemetric). Below 70 m²."},
+    {"n": 6, "score": 2, "est": false, "evidence": "2 bedrooms now. Third bedroom needs a loft conversion (loft access noted in listing)."},
+    {"n": 7, "score": 5, "est": true, "evidence": "Open-plan living, dining and kitchen exists. Size not stated; likely near 25 m² (est.)."},
+    {"n": 8, "score": 2, "est": true, "evidence": "Loft probably fits (est.). Garden depth not stated and looks short (sleeper steps, upper terrace). Neighbours' extensions unknown."},
+    {"n": 9, "score": 3, "est": true, "evidence": "Loft conversion with structural work, steel likely (est.). No extension needed."},
+    {"n": 10, "score": 4, "est": true, "evidence": "Est. 4 to 6 months: loft design, approval, build and decoration."},
+    {"n": 11, "score": 3, "est": true, "evidence": "No survey, damp or roof information in listing. 2017 build. Cause of any unknowns unclear."},
+    {"n": 12, "score": 4, "est": true, "evidence": "Quiet cul-de-sac in 2017 development (Zoopla). Share of letting boards unknown. Plain."},
+    {"n": 13, "score": 4, "est": true, "evidence": "Listing says near Millhouses Park. Est. 5 to 10 min walk."},
+    {"n": 14, "score": 4, "est": true, "evidence": "Listing cites nearby shops and cafés. Other Hastings Grange listings cite three supermarkets within walking distance. Est. 10 to 15 min."},
+    {"n": 15, "score": 4, "est": true, "evidence": "One designated parking space with front forecourt. Slope not stated."},
+    {"n": 16, "score": 3, "est": true, "evidence": "2017 open-plan modern interior with French doors to garden. No period features. Ceiling heights unknown."},
+    {"n": 17, "score": 3, "est": true, "evidence": "2017 townhouse with resin-bound front, no bay. Brick type not stated. Tidy but plain (est.)."}
+  ],
+  "total": 55,
+  "verdict": "PASS",
+  "biggest_risk": "Negative margin (about -£21,250 est.): the 3-bed loft plan costs more than it adds to value, and V rests on two in-window terraced sales, one unconfirmed.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/74010627/",
+    "https://www.rightmove.co.uk/house-prices/S7-2HJ.html",
+    "https://domovita.co.uk/sold-prices/street/s7/hastings-grange",
+    "https://housemetric.co.uk/house-prices/Hastings-Grange/S7-2HJ",
+    "https://www.rightmove.co.uk/properties/173197919"
+  ]
+}

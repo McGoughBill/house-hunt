@@ -1,0 +1,52 @@
+{
+  "id": "H011-s10-northfield-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/88775814",
+  "asking": 225000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes (brochure, https://media.rightmove.co.uk/property-brochure/34fc05c29/88775814/34fc05c29915ee174847c1fc420b4a91.pdf)"},
+    "budget":    {"pass": true, "reason": "225000 + 1.15 x 55000 (W est.) + 3000 = 291250, under 400000"},
+    "tenure":    {"pass": true, "reason": "Leasehold, 800 years from 1894 (brochure). No covenant dispute found"},
+    "structure": {"pass": true, "reason": "unconfirmed: no survey or movement, damp or spray foam mention in brochure"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: brochure says no onward chain, does not state vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: brochure does not state where the front door opens; lounge is described at the front; a hall fix at 5000 or less is assumed possible"}
+  },
+  "V": 305000,
+  "v_basis": "Median of 3 most recent terraced sales, last 2 years, same street, leasehold: 178 Northfield Rd S10 1QU 21 Nov 2025 175000; 126 Northfield Rd S10 1QS 24 Oct 2025 305000; 119 Northfield Rd S10 1QP 21 Jul 2025 315500 (https://domovita.co.uk/sold-prices/street/s10/northfield-road). Done-up status of these sales NOT verified; price data alone does not show condition. Median would still be 305000 if 103 Northfield Rd (11 Dec 2024, 220000) replaced 178.",
+  "W": 55000,
+  "w_basis": "est. full refurb, before contingency: rewire 6000, heating and plumbing 4000, kitchen 10000, bathroom 5000, floors and decor 8000, roof, windows and damp check 4000, cellar and damp allowance 3000, hall or door reconfiguration 2000, kitchen-diner size fix 13000. Floor area not given, so costs are guesses. Brochure says well presented, scope for cosmetic updating, which may mean lower works than this.",
+  "C": 3000,
+  "margin": -16750,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "Floor area not given; est. 85 m2 gives as-bought 2647/m2 vs done-up 3588/m2 = 74%"},
+    {"n": 2,  "score": 1, "est": false, "evidence": "0.9x305000 - 1.15x55000 - 3000 - 225000 = -16750 (W est.)"},
+    {"n": 3,  "score": 2, "est": false, "evidence": "V 305000 / street max 315500 (119 Northfield Rd, Jul 2025) = 97%"},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "S10 two-year sector max not checked; est. 450k-600k gives V ratio 51-68% to 68%; est."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given in brochure; est. 80-90 m2"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Three bedrooms now: front double, rear second bedroom, attic-style double with dormer (brochure). Room sizes not given; one may be small"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Ground floor kitchen diner already exists (brochure). Size vs 25 m2 target not given"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Loft already converted (attic bedroom). Rear is a small paved yard with decked terrace, so 10 m garden unlikely; neighbours unknown"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen, bath plus likely rewire of an older house; gas central heating already present (brochure)"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4-6 months for works at W 55000"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "Cellar head access noted (brochure). No survey. Damp and cellar cause unclear"},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Northfield Road carries bus routes into the city and is a through road; letting or rat-run status unchecked; est."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park est. 5-10 min walk; not measured"},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Crookes local shops est. under 15 min walk; large supermarket not checked"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking only; slope and permit status unchecked"},
+    {"n": 16, "score": 4, "est": false, "evidence": "Original coving, feature fireplaces, stripped floorboards, dresser, exposed brick chimney (brochure); ceiling height not given"},
+    {"n": 17, "score": 4, "est": true,  "evidence": "Stone-built mid-terrace with small front garden behind stone wall (brochure); street view not checked"}
+  ],
+  "total": 63,
+  "verdict": "PASS",
+  "biggest_risk": "Negative margin (-16750) at 225000 asking: the brochure says well presented with cosmetic scope only, not a project, so the price may be set for a lighter job than the finished spec needs, and the 305000 V uses sales whose condition is unverified.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/88775814",
+    "https://media.rightmove.co.uk/property-brochure/34fc05c29/88775814/34fc05c29915ee174847c1fc420b4a91.pdf",
+    "https://saxtonmee.co.uk/properties-for-sale/property/8110-northfield-road-crookes-sheffield",
+    "https://domovita.co.uk/sold-prices/street/s10/northfield-road",
+    "https://housemetric.co.uk/house-prices/Northfield-Road/S10-1QP/?page=2"
+  ]
+}

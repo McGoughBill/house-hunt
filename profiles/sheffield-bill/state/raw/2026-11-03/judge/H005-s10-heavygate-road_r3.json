@@ -1,0 +1,52 @@
+{
+  "id": "H005-s10-heavygate-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/171921863",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, listed as Heavygate Road S10 1PJ (brochure)."},
+    "budget":    {"pass": true, "reason": "Headline asking 300000 (Rightmove brochure). Haus lists guide 300000-320000; at 320000 the 300000 gate fails. Asking + W + C = 365100, under 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold (Rightmove brochure)."},
+    "structure": {"pass": true, "reason": "No defect flagged, but no survey carried out (brochure disclaimer). Unverified, est."},
+    "vacant":    {"pass": false, "reason": "Vacant possession not stated in any source found. Unconfirmed, so fails under sceptical reading."},
+    "hall":      {"pass": true, "reason": "Front door opens straight into dining room, no hall. Hall by partition est. 3000-5000, est."}
+  },
+  "V": 276000,
+  "v_basis": "No done-up sale on Heavygate Rd in last 2 yrs (143 Heavygate Rd 1 May 2024 280000 is outside the window). Fewer than 3, so nearest like street, Western Rd: 107 Western Rd 12 Jun 2026 230000 (leasehold); 89 Western Rd 19 Aug 2026 276000 (freehold); 262 Western Rd 1 Jul 2026 285000 (freehold). Median 276000. Not confirmed done-up, est.",
+  "W": 62100,
+  "w_basis": "Est. subtotal 54000: kitchen 12000, bathroom 6000, rewire 8000, heating 4000, decorate and flooring 10000, hall partition and door 4000, damp/roof allowance 5000, misc 5000. Plus 15% contingency = 62100. No survey, so est.",
+  "C": 3000,
+  "margin": -126015,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true, "evidence": "Asking 300000 on est. 85 m2 = 3529/m2; V 276000 on same area = 3247/m2; ratio about 109%, over 85%."},
+    {"n": 2,  "score": 1, "est": true, "evidence": "0.9V 248400 - 1.15W 71415 - C 3000 - asking 300000 = -126015 (brief formula as written)."},
+    {"n": 3,  "score": 2, "est": true, "evidence": "V 276000 vs 143 Heavygate Rd 280000 (May 2024, nearest street max found): 98.6%."},
+    {"n": 4,  "score": 5, "est": true, "evidence": "V 276000 vs S10 sector max about 444000 (75 Bower Rd, Jul 2026, semi): 62%."},
+    {"n": 5,  "score": 3, "est": true, "evidence": "Floor area not given; est. 85 m2 from 3-bed comparables on Heavygate Rd."},
+    {"n": 6,  "score": 4, "est": true, "evidence": "Three double bedrooms already on three floors; room sizes not given, so 11.5 m2 test unverified."},
+    {"n": 7,  "score": 4, "est": true, "evidence": "Kitchen and converted basement room on same lower-ground level, door between; knock-through may give a kitchen-diner. Size unknown."},
+    {"n": 8,  "score": 2, "est": true, "evidence": "Garden size not given (low-maintenance); loft already converted with dormer and Velux; neighbours unknown."},
+    {"n": 9,  "score": 4, "est": true, "evidence": "Cosmetic plus kitchen and bath, but rewire and heating are likely needed (age and EPC E unknown)."},
+    {"n": 10, "score": 4, "est": true, "evidence": "Est. 4-6 months of works for kitchen, bath, rewire and heating."},
+    {"n": 11, "score": 2, "est": true, "evidence": "No survey; damp, roof and structure unknown on a four-level stone terrace; one serious unknown."},
+    {"n": 12, "score": 3, "est": true, "evidence": "No evidence on letting boards or road type; unverified."},
+    {"n": 13, "score": 3, "est": true, "evidence": "Crookes Valley Park walk est. 10-15 min; not checked."},
+    {"n": 14, "score": 3, "est": true, "evidence": "Crookes shops est. 15-20 min walk to a big supermarket; not checked."},
+    {"n": 15, "score": 3, "est": true, "evidence": "On-street parking to front (listing). Slope and level not stated; hilly area, est."},
+    {"n": 16, "score": 3, "est": true, "evidence": "Period fireplace, feature fireplace, far-reaching views; four levels and front door into dining room limit layout."},
+    {"n": 17, "score": 4, "est": true, "evidence": "Stone-built terrace (listing); street appearance not checked."}
+  ],
+  "total": 55,
+  "verdict": "REJECT",
+  "biggest_risk": "Asking 300000 is above the est. finished value of 276000, so margin is -126015. Also: vacant possession unconfirmed, guide range runs to 320000, and haus page returns Property Not Found (raw total 54.8, rounded).",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/171921863",
+    "https://media.rightmove.co.uk/property-brochure/b8182a0e9/171921863/b8182a0e9a693048e0a53a576331e364.pdf",
+    "https://www.haushomes.co.uk/properties-for-sale/property/12807973-heavygate-road-crookes-sheffield",
+    "https://www.rightmove.co.uk/house-prices/Heavygate.html",
+    "https://housemetric.co.uk/house-prices/Heavygate-Road/S10-1PG"
+  ]
+}

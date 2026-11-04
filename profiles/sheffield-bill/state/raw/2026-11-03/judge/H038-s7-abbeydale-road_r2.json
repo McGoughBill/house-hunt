@@ -1,0 +1,51 @@
+{
+  "id": "H038-s7-abbeydale-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/166987385",
+  "asking": 240000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7 2BH, Abbeydale Road, Nether Edge (rightmove 166987385; propertytorenovate listing)"},
+    "budget": {"pass": true, "reason": "asking 240000 + 1.15 x W 90000 (est.) + C 3000 = 346500 <= 400000; asking <= 300000. Rightmove shows guide 230000-240000"},
+    "tenure": {"pass": true, "reason": "unconfirmed: tenure not stated on rightmove or propertytorenovate listings"},
+    "structure": {"pass": true, "reason": "unconfirmed: propertytorenovate says no structural issues mentioned; no survey or condition report seen"},
+    "vacant": {"pass": true, "reason": "unconfirmed: vacancy not stated; rightmove shows listing active"},
+    "hall": {"pass": true, "reason": "unconfirmed: propertytorenovate describes a side entrance lobby leading to a bay windowed lounge; a lobby is not clearly a hall; est. 3000 hall work already in W"}
+  },
+  "V": 250000,
+  "v_basis": "Median of 3 most recent 3-bed terraced sales on Abbeydale Road, S7, last 2 years: 686 Abbeydale Road 23 Jul 2026 250000; 871 Abbeydale Road 13 Mar 2026 225000; 845 Abbeydale Road 19 Dec 2025 261500. Sold data gives no condition, so done-up status is est., inferred from price jumps (845 sold 10 Jan 2025 for 147500; 871 sold 2014 for 89000).",
+  "W": 90000,
+  "w_basis": "est., before contingency: strip-out and prelims 6000; rewire 7000; heating 5000; kitchen 9000; bathroom 5000; plaster, decor, floors 12000; windows, roof, damp allowance 8000; single-storey rear extension for 25 m2 kitchen-diner 35000; hall partition 3000. No floorplan, photos or survey seen.",
+  "C": 3000,
+  "margin": -121500,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "asking 240000 / V 250000 = 96% of done-up street value; floor areas unknown so assumed equal (est.)"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "margin -121500 with est. W 90000; even at zero works margin is -18000"},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 250000 / street max 850000 (1 Abbeydale Road, 19 Dec 2025, domovita) = 29%"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 250000 / S7 2BN The Lodge 577000 (8 Apr 2026, rightmove sold) = 43%"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "floor area not given; est. 85-90 m2 for a 3-bed period mid-terrace with two reception rooms"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed: large double on first floor, single, second-floor double; single is small; second-floor size unknown (est.)"},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "separate fitted kitchen and dining room; knock-through alone unlikely to reach 25 m2; est. single-storey rear extension needed"},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "large private garden (rightmove, propertytorenovate), length est. 10 m+; second floor already converted so loft headroom low; neighbours unknown"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "single-storey rear extension plus rewire, heating, kitchen and bathroom (est.)"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 9-12 months: design and build of extension, rewire and heating, then interior"},
+    {"n": 11, "score": 2, "est": true,  "evidence": "no survey or condition report; period house; roof, damp, cellar unknown; assumed one serious unknown until surveyed (est.)"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Abbeydale Road is a busy main road with shops (est.); owner-occupation and letting boards unknown"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "rightmove says close to parks, none named or timed; est. 10-15 min walk"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "no supermarket checked; est. 15-20 min walk to a big supermarket"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "rightmove parking 'Ask agent'; no drive stated; est. hard on-street parking on a level road"},
+    {"n": 16, "score": 4, "est": true,  "evidence": "bay windowed lounge with decorative fireplace; separate dining room gives open-up scope; ceiling height and light not measured (est.)"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "period mid-terrace with bay (propertytorenovate); stone or brick and front garden not stated (est.)"}
+  ],
+  "total": 54,
+  "verdict": "PASS",
+  "biggest_risk": "Margin -121500: finished value est. 250000 is only 10000 above asking, so est. works of 90000 plus 15 percent contingency lose money.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/166987385",
+    "https://propertytorenovate.co.uk/property/czctMjQwMDAwLTMtNTYyNTQ3NzA2MzYyNjgzOTY1OA",
+    "https://rightmove.co.uk/house-prices/s7/abbeydale-road.html",
+    "https://domovita.co.uk/sold-prices/street/s7/abbeydale-road"
+  ]
+}

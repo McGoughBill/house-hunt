@@ -1,0 +1,51 @@
+{
+  "id": "H019-s11-harefield-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield",
+  "asking": 275000,
+  "floor_area_m2": 98,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "Harefield Road, Sharrow Vale, S11 (saxtonmee.co.uk listing ref 34421987)"},
+    "budget":    {"pass": true, "reason": "unconfirmed: est. W £125k gives asking + 1.15W + C ≈ £422k, over £400k; passes only if W ≤ ~£106k. Gate rests on an estimate, not evidence"},
+    "tenure":    {"pass": true, "reason": "Freehold per listing description; the listing status box says Unknown"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on structure, movement, subsidence, spray foam, dry rot"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says No Onward Chain but does not state vacant possession"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing describes a side entrance lobby with stairs rising; floorplan image not read, so not confirmed that the front door opens into a hall"}
+  },
+  "V": null,
+  "v_basis": "No 3 done-up sales on Harefield Road in the last 2 years found. Land Registry data on primelocation.co.uk/house-prices/sheffield/harefield-road ends May 2021; domovita.co.uk/sold-prices/street/s11/harefield-road lists sales to Apr 2025 but shows only the four 1996 sales. Older sales only, not done-up, outside 2 years: 16 Harefield Rd Jul 2019 £250,000; 42 Harefield Rd Jun 2019 £295,000; 43 Harefield Rd May 2021 £270,000.",
+  "W": 125000,
+  "w_basis": "est. before contingency: rear kitchen-diner extension or knock-through £50k; full refurb (decor, kitchen, bathroom, floors) £40k; rewire and heating £15k (EPC E, not checked); attic bedroom sign-off and misc £5k; buying costs C separate. No quotes obtained.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "est.: no done-up street sales found to compare against; floor area and V both unknown"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "est.: margin = 0.9V − 1.15W − C − asking; break-even needs V ≈ £475k; no done-up comparables found to support that"},
+    {"n": 3,  "score": 3, "est": true,  "evidence": "est.: V unknown; no done-up sales in the last 2 years found"},
+    {"n": 4,  "score": 3, "est": true,  "evidence": "est.: V unknown; no sector sales in the last 2 years found"},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "98 m² taken from the job spec; listing gives no floor area; not verified"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "2 first-floor bedrooms plus an attic double with eaves storage; room sizes and attic sign-off unknown"},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "off-shot kitchen with a separate dining room near the cellar head; knock-through possible; floorplan image not read"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "est.: private courtyard garden only; depth not stated, likely under 10 m"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "est.: decor, kitchen, bathroom and a knock-through; EPC E so heating or electrics may need work"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "est. 4–6 months of works"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "no survey; damp, roof, structure and cellar condition not stated in listing"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "est.: street not checked for letting boards or owner-occupation; mid-terrace"},
+    {"n": 13, "score": 3, "est": true,  "evidence": "est. 10–15 min walk to a park; not checked"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "est. 15–20 min walk to a big supermarket; not checked"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "est.: parking and slope not stated in listing; Sharrow Vale is hilly"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "bay-fronted lounge and cellar; ceiling height and period features not described"},
+    {"n": 17, "score": 4, "est": true,  "evidence": "est.: mid-terrace with bay window; stone or brick not stated in listing"}
+  ],
+  "total": 62,
+  "verdict": "PASS",
+  "biggest_risk": "V unknown: no done-up sales in the last 2 years found, so the margin may well be negative; the kitchen-diner and attic bedroom depend on an unseen floorplan.",
+  "sources": [
+    "https://www.saxtonmee.co.uk/properties-for-sale/property/2200-harefield-road-sharrow-vale-sheffield",
+    "https://primelocation.com/house-prices/sheffield/harefield-road",
+    "https://domovita.co.uk/sold-prices/street/s11/harefield-road",
+    "https://streetscan.co.uk/property/15-harefield-road-sheffield-s11-8nu"
+  ]
+}

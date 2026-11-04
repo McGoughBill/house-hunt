@@ -1,0 +1,53 @@
+{
+  "id": "H060-s8-binfield-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-end-terrace-in-sheffield-20",
+  "asking": 290000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 Meersbrook; 2 Binfield Road, S8 9FA per Staves listing and Rightmove sales page."},
+    "budget":    {"pass": true, "reason": "asking 290000 + 1.15 x W 41000 (47150) + C 3000 = 340150, under 400000. W is est."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: listing does not state tenure. Project header says leasehold and every Binfield Road sale in the Rightmove and Domovita records is leasehold. Lease length not found."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, dry rot and build type. Off-shot and cellar are standard features."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing says NO CHAIN, which is not the same as vacant possession. Occupancy not stated."},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position not stated. Listing lists the bay lounge before an inner lobby with stairs, so the door may open into the lounge. A hall is included in W at est. 4000, under 5000."}
+  },
+  "V": 220000,
+  "v_basis": "No same-street sales on Binfield Road in the last 2 years (latest 12 Binfield Rd, 14 Aug 2023, 283000; Rightmove and Domovita lists). Nearest like street: Meersbrook Avenue, 3-bed terraced. 48 Meersbrook Ave, 19 Dec 2025, 235000 (freehold); 5 Meersbrook Ave, 14 Nov 2025, 220000 (leasehold); 76 Meersbrook Ave, 18 Sep 2025, 218920 (leasehold). Median 220000. Sold data does not show done-up status, so V is est. and probably understates finished value.",
+  "W": 41000,
+  "w_basis": "est., from listing text only (floorplan and photos not readable). Listing says refurbished with new boiler, quartz kitchen and shower room. Items before contingency: knock-through of rear dining room into off-shot kitchen with steel 7000; hall or lobby to front door 4000; decoration throughout 9000; flooring 4000; shower room refit 4000; partial rewire and testing 5000; cellar damp allowance 2000; doors and lighting 2000; garden tidy 1500; design, building control and surveys 2500.",
+  "C": 3000,
+  "margin": -142150,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 290000 / V 220000 = about 132% of comp GBP per m2. Floor area not given, so assumes comps are the same size. Even V 340000 gives about 85%."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -142150 = 0.9 x 220000 - 1.15 x 41000 - 3000 - 290000. Breakeven needs V of about 379000."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "No 2-year sales on Binfield Road. Nearest-street max is 500000 (43 Meersbrook Ave, 31 Oct 2025, 5-bed semi). V is 44% of that."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "S8 2-year max is at least 555000 (115 Meersbrook Park Rd, 26 Feb 2025, 4-bed semi). V is under 40% of that."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given. Est. about 95 m2 from a three-storey end-terrace with off-shot kitchen, two first-floor beds, a second-floor double and cellar."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Three bedrooms, but the third is a second-floor double. Sign-off and size are unverified."},
+    {"n": 7,  "score": 5, "est": true,  "evidence": "Rear dining room and off-shot kitchen. One knock-through gives a kitchen-diner. Combined size is unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Off-shot and loft room already exist, so little extension headroom. Garden length and neighbour extensions not stated."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Refurb is largely cosmetic per listing (new boiler, quartz kitchen). The knock-through probably needs a steel beam."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Est. 4-6 months: steel knock-through with building control, plus decoration and shower room."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar, roof and damp not described. No defects listed, but cause unclear."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street is terraced and all leasehold in sales records. Owner-occupation, letting boards and tidy fronts not checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Listing says walking distance to Meersbrook Park. Est. 5-10 min walk."},
+    {"n": 14, "score": 4, "est": true,  "evidence": "Listing says walking distance to supermarkets. Est. 10-15 min to a big supermarket."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Terrace, on-street parking assumed. Slope and parking not checked."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay-windowed lounge, three storeys, cellar. Ceiling height and period features not listed."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay window noted. Stone or brick and front garden not stated; terrace appearance not checked."}
+  ],
+  "total": 59.2,
+  "verdict": "PASS",
+  "biggest_risk": "Margin of -142150: asking 290000 is about 32% above the nearest 3-bed terrace comps (220000), and breakeven needs V of about 379000. Listing URL slug reads property-for-rent, so confirm it is for sale.",
+  "sources": [
+    "https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-end-terrace-in-sheffield-20",
+    "https://stavesestateagents.co.uk/sales.php?Area=S8&MRQ=&MinBath=&bedrooms=0&max_price=&min_price=0&pge=1&sstc=&type=",
+    "https://www.rightmove.co.uk/house-prices/s8/binfield-road.html",
+    "https://domovita.co.uk/sold-prices/street/s8/binfield-road",
+    "https://www.rightmove.co.uk/house-prices/s8/meersbrook-avenue.html",
+    "https://www.rightmove.co.uk/house-prices/s8/meersbrook-park-road.html"
+  ]
+}

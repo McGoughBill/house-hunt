@@ -1,0 +1,52 @@
+{
+  "id": "H055-s7-woodstock-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/169390475",
+  "asking": 280000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S7, Nether Edge. Brochure names the house as 24 Woodstock Road, S7 1HB: https://media.rightmove.co.uk/168k/167186/169390475/167186_12784687_DOC_02_0001.pdf"},
+    "budget": {"pass": true, "reason": "Asking 280000 + 1.15W 17250 + C 3000 = 300250, under 400000. Top of the guide range (300000) still passes."},
+    "tenure": {"pass": true, "reason": "Freehold and no chain per https://www.rightmove.co.uk/properties/169390475"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam, non-standard build or dry rot mentioned; no survey seen (https://www.rightmove.co.uk/properties/169390475)"},
+    "vacant": {"pass": true, "reason": "unconfirmed: vacant possession not stated; no sale status shown (https://www.rightmove.co.uk/properties/169390475)"},
+    "hall": {"pass": true, "reason": "unconfirmed: front door and hall not described; bay-fronted living room at the front (https://www.rightmove.co.uk/properties/169390475)"}
+  },
+  "V": 364000,
+  "v_basis": "Median of 3 terraced Woodstock Road sales in the last 2 years: 45 Woodstock Road, 4 Aug 2026, 364000; 47 Woodstock Road, 24 Oct 2025, 355000; 75 Woodstock Road, 6 Oct 2025, 375000 (https://www.rightmove.co.uk/house-prices/S7-1HA.html). Excluded 17 Woodstock Road (16 Jun 2025, 255000, 2-bed, leasehold; est. not done-up) and the 2024 sales (outside 2 years). Done-up status of the three is unverified: Rightmove sold-detail pages are robots-blocked.",
+  "W": 15000,
+  "w_basis": "est. 15000 before contingency: decoration throughout, flooring, minor electrics and lighting, snagging. Kitchen and bathroom assumed fine, per the listing's 'Beautifully refurbished' (https://www.rightmove.co.uk/properties/169390475). C = 3000 fees; stamp duty nil as first-time buyer at 280000 (under 300000).",
+  "C": 3000,
+  "margin": 27350,
+  "scores": [
+    {"n": 1, "score": 3, "est": true, "evidence": "est. 2800 GBP/m2 as bought (280000 / est. 100 m2) vs 3640 GBP/m2 done-up (364000 / est. 100 m2) = 77%; sale floor areas unknown (https://www.rightmove.co.uk/house-prices/S7-1HA.html)"},
+    {"n": 2, "score": 4, "est": true, "evidence": "Margin 27350 = 0.9 x 364000 - 1.15 x 15000 - 3000 - 280000; band 25k-40k. W is est."},
+    {"n": 3, "score": 2, "est": false, "evidence": "V 364000 / street max 375000 (75 Woodstock Road, 6 Oct 2025) = 97% (https://www.rightmove.co.uk/house-prices/S7-1HA.html)"},
+    {"n": 4, "score": 5, "est": false, "evidence": "V 364000 / sector max of at least 1150000 (37 Kenwood Park Road, S7 1NE, Aug 2026) = 32% or less; partial list only (https://www.doogal.co.uk/PropertySales?area=S7)"},
+    {"n": 5, "score": 4, "est": true, "evidence": "est. about 100 m2; no area given. 3-storey mid-terrace with 2-storey off-shot. 4-bed comparable on Woodstock Road is 140 m2 (https://www.rightmove.co.uk/properties/170004383)"},
+    {"n": 6, "score": 4, "est": true, "evidence": "Listing claims 3 double bedrooms (https://www.rightmove.co.uk/properties/169390475) but gives no room sizes; top-floor room is 'versatile bedroom/living space'. est. one room small."},
+    {"n": 7, "score": 5, "est": false, "evidence": "Open-plan dining kitchen at the rear already exists (https://www.rightmove.co.uk/properties/169390475). Size not given, so 25 m2 is not confirmed."},
+    {"n": 8, "score": 2, "est": true, "evidence": "Rear is a 'low-maintenance enclosed courtyard garden' (not 10 m); top floor already converted with dormer and en-suite; neighbours' extensions unknown. est. 1 weak (https://www.rightmove.co.uk/properties/169390475)"},
+    {"n": 9, "score": 5, "est": true, "evidence": "Listing says 'Beautifully refurbished' (https://www.rightmove.co.uk/properties/169390475). est. scope is decor, flooring and minor items; no rewire or structural work seen; not surveyed."},
+    {"n": 10, "score": 5, "est": true, "evidence": "est. decor and flooring only, so 3 months or less to live there comfortably."},
+    {"n": 11, "score": 3, "est": true, "evidence": "Cellar off the kitchen (https://www.rightmove.co.uk/properties/169390475); no survey; no serious flag stated. est. minor, cause unclear."},
+    {"n": 12, "score": 4, "est": true, "evidence": "Residential Nether Edge; listing says 'Sought After Residential Location' (https://www.rightmove.co.uk/properties/169390475). Letting boards and rat-run not checked. est. plain."},
+    {"n": 13, "score": 3, "est": true, "evidence": "est. 10-15 min walk to a park. Not measured."},
+    {"n": 14, "score": 3, "est": true, "evidence": "est. 15-20 min walk to a big supermarket. Not measured."},
+    {"n": 15, "score": 3, "est": true, "evidence": "Parking and slope not stated (https://www.rightmove.co.uk/properties/169390475). est. on-street parking only; slope not checked."},
+    {"n": 16, "score": 3, "est": true, "evidence": "Bay-fronted front room and dormer top floor; no ceiling heights or period features stated (https://www.rightmove.co.uk/properties/169390475). est. average."},
+    {"n": 17, "score": 4, "est": true, "evidence": "Bay window, railed forecourt, mid-terrace (https://www.rightmove.co.uk/properties/169390475). Brick or stone not stated. est. attractive."}
+  ],
+  "total": 73.8,
+  "verdict": "PASS",
+  "biggest_risk": "The refurb claim, W and V are unverified: no photos or readable floorplan, condition of the sold comparables unknown, and the guide runs to 300000.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/169390475",
+    "https://media.rightmove.co.uk/168k/167186/169390475/167186_12784687_DOC_02_0001.pdf",
+    "https://www.rightmove.co.uk/house-prices/S7-1HA.html",
+    "https://www.rightmove.co.uk/properties/170004383",
+    "https://www.doogal.co.uk/PropertySales?area=S7"
+  ]
+}

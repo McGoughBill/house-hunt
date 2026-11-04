@@ -1,0 +1,51 @@
+{
+  "id": "H039-s7-abbeydale-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/89214852",
+  "asking": 265000,
+  "floor_area_m2": 116,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7: Abbeydale Road, Abbeydale, S7 (listing 89214852)."},
+    "budget":    {"pass": true, "reason": "265000 + 1.15 x 40000 (est.) + 3000 = 314000, under 400000."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: listing says LEASEHOLD PROPERTY; lease length and ground rent not stated (listing 89214852)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot; no survey seen."},
+    "vacant":    {"pass": true, "reason": "Listing offers vacant possession on completion (listing 89214852)."},
+    "hall":      {"pass": true, "reason": "Listing says 'a welcoming entrance hall' (listing 89214852)."}
+  },
+  "V": 260000,
+  "v_basis": "909 Abbeydale Road, 11 Mar 2025, 260000 (terraced); 281 Abbeydale Road, 30 Sep 2025, 250000 (terraced); 845 Abbeydale Road, 19 Dec 2025, 261500 (terraced). Median 260000. Done-up status of these three is not confirmed (est.); 845 EPC rose F to D and floor area rose 97 to 105 m2, which suggests works.",
+  "W": 40000,
+  "w_basis": "est., from listing text only: no floorplan or photos could be viewed. Decor whole house 10000; kitchen 8000; bathroom 5000; floors 4000; knock-through to kitchen-diner with steel 5000; electrics and heating checks 4000; doors and lights 2000. Before contingency.",
+  "C": 3000,
+  "margin": -80000,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 2284 per m2 (265000 / 116); comp 845 Abbeydale Road 2490 per m2 (261500 / 105 EPC area). Ratio 92%; comps thin (est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -80000 (est.): 0.9 x 260000 - 1.15 x 40000 - 3000 - 265000."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V is 31% of top street sale in 2 years (1 Abbeydale Road, 850000, Dec 2025); 65% of top terrace sale (943 Abbeydale Road, 400000, Jul 2025) (domovita)."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V is 34% of a sector sale seen: 100 S7 2QP detached, 760000, Jul 2025 (Rightmove house prices). Higher sector max only lowers the ratio."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "116 m2 (1247 sq ft) per listing 89214852."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms listed; no room sizes or floorplan, so the 11.5 m2 test is unknown (est.)."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "No kitchen-diner stated. Double rear off-shot may allow one knock-through to the back room; unverified (est.)."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden stated as private, length not given. Loft use, neighbour extensions not stated; three floors may mean loft already used (est.)."},
+    {"n": 9,  "score": 3, "est": true,  "evidence": "Decor, kitchen and bath, plus a likely steel knock-through and heating or electrics checks (EPC E/D conflict in listing) (est.)."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "About 4 to 6 months of works at about 40000 (est.)."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey or condition report. Listing gives EPC E in key features and D in valuer section. Cause of any issue unclear (est.)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Abbeydale Road is a busy main road: one fail. Owner occupation, tidy fronts and letting boards not checked (est.)."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Exact address not given; park walk not measured (est.)."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Supermarket walk not measured (est.)."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street with timed parking to the front (listing 89214852). Slope not stated (est.)."},
+    {"n": 16, "score": 4, "est": true,  "evidence": "Period features and a welcoming entrance hall per listing. Light and ceiling heights not stated (est.)."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Victorian terrace with double rear off-shot. Front material, bay and front garden not stated (est.)."}
+  ],
+  "total": 60,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is about -80000 (est.), so the works do not pay back at asking; the brief's listing 94608372 could not be opened, so I used 89214852, matched on street, agent, price and size.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/89214852",
+    "https://domovita.co.uk/sold-prices/street/s7/abbeydale-road",
+    "https://housemetric.co.uk/31343656/S7-2BH/845+Abbeydale+Road",
+    "https://www.rightmove.co.uk/house-prices/s7/abbeydale-road-south.html"
+  ]
+}

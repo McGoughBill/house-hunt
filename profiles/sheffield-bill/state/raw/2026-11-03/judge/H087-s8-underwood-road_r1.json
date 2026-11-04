@@ -1,0 +1,52 @@
+{
+  "id": "H087-s8-underwood-road",
+  "run": 1,
+  "live": null,
+  "listing_url": "https://www.rightmove.co.uk/properties/94820835",
+  "asking": 220000,
+  "floor_area_m2": 85,
+  "house_type": null,
+  "gates": {
+    "area":      {"pass": true, "reason": "Underwood Road, Woodseats, S8 is in the S8 Woodseats area listed in the gate (address from task brief)."},
+    "budget":    {"pass": true, "reason": "unconfirmed: asking 220000 is under 300k, but asking + 1.15W + C cannot be checked because W was not priced (listing not found)."},
+    "tenure":    {"pass": true, "reason": "unconfirmed: task brief says leasehold; lease length, ground rent and covenant position not found."},
+    "structure": {"pass": true, "reason": "unconfirmed: no listing text, survey or floorplan reached."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: no listing status found for this house."},
+    "hall":      {"pass": true, "reason": "unconfirmed: front door position not known; no floorplan reached."}
+  },
+  "V": null,
+  "v_basis": "Not established. primelocation.com house-price page for Underwood Road S8 shows no sales in the last 2 years (latest listed: 30 Underwood Road, Sep 2021, 142000). Nearest-street basis not built because the listing could not be located.",
+  "W": null,
+  "w_basis": "Not priced: no floorplan or photos reached, so works cost cannot be estimated from evidence.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: listing not located"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: listing not located"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Listing could not be opened or found by street, agent and price, so the house cannot be judged; the Whitehornes 3-bed at 220000 on Woodseats Road (129 m², exchanged) is a different street and was not used.",
+  "sources": [
+    "https://primelocation.com/house-prices/sheffield/underwood-road",
+    "https://www.rightmove.co.uk/properties/89115618",
+    "https://street.co.uk/platform/properties/6f3eb415-cc10-448a-a20e-63adba839cb9",
+    "https://www.rightmove.co.uk/properties/167316458",
+    "https://www.rightmove.co.uk/properties/87962028"
+  ]
+}

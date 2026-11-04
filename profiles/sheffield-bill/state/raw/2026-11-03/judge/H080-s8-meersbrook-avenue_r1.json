@@ -1,0 +1,53 @@
+{
+  "id": "H080-s8-meersbrook-avenue",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/88522116",
+  "asking": 250000,
+  "floor_area_m2": 105,
+  "house_type": "end-terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S8 (Meersbrook). Listing address: Meersbrook Avenue, Meersbrook, Sheffield, S8 9EB."},
+    "budget":    {"pass": true, "reason": "Asking 250000 is at most 300000. Asking + 1.15W + C = 250000 + 63250 + 3000 = 316250, at most 400000. Description gives a guide of 250000 to 270000 (header says 250000, listing marked Reduced 07/10/2026); still passes at 270000 (336250)."},
+    "tenure":    {"pass": true, "reason": "Leasehold, 800-year lease per listing (start date masked), ground rent 9.50 pa. No covenant dispute mentioned."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam, non-standard build and dry rot. No survey seen."},
+    "vacant":    {"pass": true, "reason": "Listing: Vacant possession will be given on completion."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing is silent on where the front door opens. Floorplan image could not be viewed from here. Must be checked on the floorplan before any offer."}
+  },
+  "V": 220000,
+  "v_basis": "Median of the 3 most recent 3-bed terraced sales on Meersbrook Avenue in the last 2 yrs: 48 Meersbrook Ave 19 Dec 2025 235000; 5 Meersbrook Ave 14 Nov 2025 220000; 76 Meersbrook Ave 18 Sep 2025 218920. Done-up status NOT verified (no refurbishment text found for any of the 3); est.",
+  "W": 55000,
+  "w_basis": "est, no photos or floorplan seen: decor and plaster 10000; flooring 5000; kitchen 12000; reconfigure extension to a 25 m2+ kitchen-diner 15000 (assumes no steel); rewire 6000; heating check and radiators 3000; bath refresh 1000; doors and ironmongery 2000; sundries 1000. Total 55000 before the 1.15 contingency.",
+  "C": 3000,
+  "margin": -118250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 2381 per m2 (250000/105) vs 2733 per m2 at 48 Meersbrook Ave (235000/86 m2): 87%. Comp done-up status unverified."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -118250 = 0.9 x 220000 - 1.15 x 55000 - 3000 - 250000."},
+    {"n": 3,  "score": 5, "est": true,  "evidence": "V 220000 vs street max 500000 (43 Meersbrook Ave, 31 Oct 2025): 44%."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "V 220000 vs S8 9 sector max of at least 500000 (43 Meersbrook Ave, 31 Oct 2025): 44% or less."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "105 m2 (1125 sq ft) per listing."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms per listing. Room sizes not given and floorplan not viewable, so one may be small."},
+    {"n": 7,  "score": 4, "est": true,  "evidence": "Listing: extended kitchen with room for cooking and dining. Size not given, so the 25 m2+ kitchen-diner is unverified."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden listed as ask agent, loft not described, neighbours' extensions unknown. At best one weak route."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen and bath (listed as modern) plus a likely rewire at EPC D. No steel assumed."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "About 4 to 6 months for rewire, kitchen, heating check and decor. Vacant on completion."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Listing silent on damp and roof. Brochure names 31 Meersbrook Avenue, listing gives no number."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Residential avenue with mixed tenure. Letting boards and main-road status not checked."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Brochure says close to parks. Meersbrook Park walk estimated at 5 to 10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk to a big supermarket not verified. Estimated 15 to 20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking only, no disabled bay per listing. Slope not stated."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listed as bright with two reception rooms. No period features mentioned."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Front photo exists but not viewable. Brick or stone and tidiness unknown."}
+  ],
+  "total": 61.4,
+  "verdict": "PASS",
+  "biggest_risk": "Asking is about 30000 above the recent 3-bed terrace sales (V est 220000), so the margin is about -118250 before any surprises. Floorplan unseen, so a front door opening into the living room (a hard no) is unchecked.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/88522116",
+    "https://media.rightmove.co.uk/property-brochure/aeb4e7d18/88522116/aeb4e7d18c06a625b39b68c2bb198e12.pdf",
+    "https://www.rightmove.co.uk/house-prices/s8/meersbrook-avenue.html",
+    "https://housemetric.co.uk/31193292/S8-9ED/48+Meersbrook+Avenue",
+    "https://housemetric.co.uk/30859628/S8-9EB/19+Meersbrook+Avenue",
+    "https://housemetric.co.uk/graphs/Meersbrook-Avenue/S8-9ED"
+  ]
+}

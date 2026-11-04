@@ -1,0 +1,49 @@
+{
+  "id": "H014-s10-salisbury-road",
+  "run": 2,
+  "live": false,
+  "listing_url": "https://www.rightmove.co.uk/properties/162739307",
+  "asking": 260000,
+  "floor_area_m2": null,
+  "house_type": null,
+  "gates": {
+    "area":      {"pass": true, "reason": "Salisbury Road, Crookes, S10 per the task header; Crookes is in the S10 area list"},
+    "budget":    {"pass": true, "reason": "unconfirmed: asking 260000 is under 300000, but W is unknown so asking + 1.15W + C cannot be checked"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: freehold is stated in the task header only; no listing text was read"},
+    "structure": {"pass": true, "reason": "unconfirmed: no survey or listing text was read"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: occupancy not seen"},
+    "hall":      {"pass": true, "reason": "unconfirmed: layout not seen; the Zoopla Salisbury Road listing (Blundells, GBP 240000, different house) has its front door into a lounge, but it is not this house"}
+  },
+  "V": null,
+  "v_basis": "not done: step 1 says stop when the listing is gone; the haus page for this listing (haushomes.co.uk property 12664335) returns Property Not Found, and the Rightmove page is not on the session allowlist",
+  "W": null,
+  "w_basis": "not priced: no floorplan or photos were reached",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": true, "evidence": "not scored: listing not live, no price per m2 data"},
+    {"n": 2,  "score": null, "est": true, "evidence": "not scored: V and W unknown"},
+    {"n": 3,  "score": null, "est": true, "evidence": "not scored: V not done"},
+    {"n": 4,  "score": null, "est": true, "evidence": "not scored: V not done"},
+    {"n": 5,  "score": null, "est": true, "evidence": "not scored: floor area not given"},
+    {"n": 6,  "score": null, "est": true, "evidence": "not scored: 3 bedrooms per task header only, layout not seen"},
+    {"n": 7,  "score": null, "est": true, "evidence": "not scored: floorplan not seen"},
+    {"n": 8,  "score": null, "est": true, "evidence": "not scored: plot and neighbours not seen"},
+    {"n": 9,  "score": null, "est": true, "evidence": "not scored: works not priced"},
+    {"n": 10, "score": null, "est": true, "evidence": "not scored: works not priced"},
+    {"n": 11, "score": null, "est": true, "evidence": "not scored: no survey or listing text"},
+    {"n": 12, "score": null, "est": true, "evidence": "not scored: street not inspected"},
+    {"n": 13, "score": null, "est": true, "evidence": "not scored: location not checked against a park"},
+    {"n": 14, "score": null, "est": true, "evidence": "not scored: location not checked against a supermarket"},
+    {"n": 15, "score": null, "est": true, "evidence": "not scored: parking not seen"},
+    {"n": 16, "score": null, "est": true, "evidence": "not scored: no photos reached"},
+    {"n": 17, "score": null, "est": true, "evidence": "not scored: no photos reached"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Listing may no longer be live: the haus page returns Property Not Found and the Rightmove page could not be opened, so no current price, floorplan or photos were checked. The house may have sold or been withdrawn; confirm with haus (agent) before spending more time on it.",
+  "sources": [
+    "https://www.haushomes.co.uk/properties-for-sale/property/12664335-salisbury-road-crookes-sheffield",
+    "https://www.rightmove.co.uk/properties/162739307"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "H012-s10-pickmere-road",
+  "run": 3,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/171295850",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes per listing address."},
+    "budget":    {"pass": true, "reason": "Asking 300000 per run file, but listing shows guide £300,000 to £325,000 (https://www.rightmove.co.uk/properties/171295850), so the cap could be exceeded. Asking + 1.15W + C = 320250, which is within 400000."},
+    "tenure":    {"pass": true, "reason": "Freehold per listing (https://www.rightmove.co.uk/properties/171295850)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on structure; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing silent on occupancy or tenancy."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not describe the front door or hall."}
+  },
+  "V": 228000,
+  "v_basis": "51 Pickmere Road, 15 Apr 2026, £228,000 (freehold terrace); 8 Pickmere Road, 14 Feb 2025, £195,000 (freehold terrace); 88 Pickmere Road, 22 Aug 2025, £230,000 (leasehold terrace, tenure differs). Median 228000. Sources: domovita and housemetric street pages. Done-up status of comps not confirmed (est.).",
+  "W": 15000,
+  "w_basis": "est. Listing says refurbished; no floorplan, room sizes or survey. Est.: decor throughout 8000; attic bedroom sign-off and fit-out 4000; electrics and heating check and repair 3000; hall and door 0 (unconfirmed). Before contingency.",
+  "C": 3000,
+  "margin": -115050,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Ratio is asking ÷ V = 300000 ÷ 228000 = 131%, assuming equal floor areas (area unknown, est.)."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "Margin -115050 (0.9×228000 − 1.15×15000 − 3000 − 300000); W is est."},
+    {"n": 3,  "score": 2, "est": false, "evidence": "V 228000 ÷ street max 230000 (88 Pickmere Road, Aug 2025) = 99%."},
+    {"n": 4,  "score": 5, "est": false, "evidence": "V 228000 ÷ S10 max sale 920000 (18 Lodge Moor Road, Jul 2026) = 25%; sector max is at least this, so the band holds."},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "Floor area not given (https://www.rightmove.co.uk/properties/171295850); est. 80–90 m² for a 3-bed terrace."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Listing: two first-floor bedrooms plus an attic bedroom ('possible master suite'); attic sign-off not stated, est. it needs sign-off."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing: rear kitchen/diner with direct garden access exists; size not given, so 25 m² not confirmed."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Loft already converted to a bedroom, so little loft headroom; garden length not given; neighbours' extensions unknown."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Listing claims refurb 'within the last two to three years'; no evidence on rewire or heating; attic fit-out unverified."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Listing says 'move straight into'; est. 4–6 months to finish attic and decor to a happy standard."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, no damp or roof mention; cause of any issue unknown (est.)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Many leasehold terrace sales on the street (possible flats or lets); tenure mix suggests letting risk (est.)."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park nearby; walk time est. 5–10 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket walk time not checked; est. 15–20 min."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking only (https://www.rightmove.co.uk/properties/171295850); slope not checked, Crookes is hilly (est.)."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay window and ceiling feature in front room (listing); light, ceiling height and period detail unknown."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay window per listing; front garden and materials not stated; plain terrace assumed (est.)."}
+  ],
+  "total": 55.4,
+  "verdict": "PASS",
+  "biggest_risk": "Price: asking £300k is 31% above the freehold comps (£228k), so margin is about -£115k even before any work; the refurb claim is unverified and there is no floor area or survey.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/171295850",
+    "https://domovita.co.uk/sold-prices/street/s10/pickmere-road",
+    "https://housemetric.co.uk/house-prices/Pickmere-Road/S10-1GY",
+    "https://www.rightmove.co.uk/house-prices/s10.html"
+  ]
+}

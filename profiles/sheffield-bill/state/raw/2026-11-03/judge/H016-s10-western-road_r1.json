@@ -1,0 +1,50 @@
+{
+  "id": "H016-s10-western-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383/",
+  "asking": 250000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes; listing broadband link gives postcode S10 1LA"},
+    "budget":    {"pass": true, "reason": "250000 + 1.15 x 75000 (86250) + 3000 = 339250 <= 400000 (W est.)"},
+    "tenure":    {"pass": true, "reason": "unconfirmed: leasehold stated; lease length, ground rent and service charge not given"},
+    "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam or dry rot mentioned; no survey seen"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: vacant possession not mentioned; listing says chain free only"},
+    "hall":      {"pass": true, "reason": "unconfirmed: no entrance or hall described; no floorplan on listing"}
+  },
+  "V": 230000,
+  "v_basis": "Rightmove Western Road terraced sales, last 2 yrs: 262 Western Road S10 1LF, 1 Jul 2026, 285000; 107 Western Road S10 1LB, 12 Jun 2026, 230000; 71 Western Road S10 1LB, 16 Apr 2026, 215000. Median 230000. Done-up status not verifiable from sold data (est.).",
+  "W": 75000,
+  "w_basis": "est. from listed room sizes, no floorplan: strip-out and scaffold 5000; single-storey rear ext ~10 m2 22000; knock-through kitchen/dining with steel 4000 (kitchen-diner ~27 m2 with ext); kitchen 12000; full rewire 6000; heating 4000 (boiler age unknown); bathroom refresh 1500; hall partition 4000; loft sign-off 2000; windows and doors 3000; decor and flooring 8000; fees 3500. Excludes contingency.",
+  "C": 3000,
+  "margin": -132250,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "Asking 250000 / V 230000 = 109% if same floor area (est. 85 m2; comps unmeasured); over 85% so 1"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 230000 - 1.15 x 75000 - 3000 - 250000 = -132250 (below 0)"},
+    {"n": 3,  "score": 4, "est": true,  "evidence": "V 230000 / Western Road max in window 285000 (262 Western Road, 1 Jul 2026) = 81%"},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "S10 in-window max not pulled; any max above 328600 gives under 70%; est. above that"},
+    {"n": 5,  "score": 3, "est": true,  "evidence": "est. 85 m2 from listed room sizes (rooms sum ~77 m2 plus hall and stairs ~8); floor area not given"},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "3 now: bed1 12.3 m2, bed2 8.4 m2, loft 20.4 m2 (est.) as 3rd; loft sign-off not shown so attic sign-off band"},
+    {"n": 7,  "score": 3, "est": true,  "evidence": "Kitchen 5 m2 plus dining 12.3 m2 knock-through gives ~17 m2; 25 m2+ needs single-storey rear ext"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Garden length and neighbours' extensions not given; loft already converted; 1 weak"},
+    {"n": 9,  "score": 2, "est": true,  "evidence": "Single-storey rear ext is the most complex item; also steel knock-through, rewire and heating"},
+    {"n": 10, "score": 3, "est": true,  "evidence": "est. 9-12 months including rear ext and loft sign-off"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey; cellar under dining room (access per listing) condition unknown; minor, cause unclear"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Main-road and letting-board status of Western Road not verified; 1 fails (est.)"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Exact house number unknown; Crookes location; est. 5-10 min walk to Crookes Valley Park"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Big supermarket walk not checked; est. 15-20 min"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking and slope not given; est. on-street, hard parking, level"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Large front bay, 3 beds, loft room; period features and ceiling heights not given; average"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Terrace with large front bay; stone or brick and front garden not verified (one photo, not viewable); plain, tidy (est.)"}
+  ],
+  "total": 51.2,
+  "verdict": "PASS",
+  "biggest_risk": "Margin -132250: asking 250000 plus est. works 75000 sits well above done-up comps (V 230000), so the price does not support a refurb.",
+  "sources": [
+    "https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s10/hay030769383/",
+    "https://www.rightmove.co.uk/house-prices/s10/western-road.html",
+    "https://www.gov.uk/government/publications/stamp-duty-land-tax-relief-for-first-time-buyers/stamp-duty-land-tax-relief-for-first-time-buyers"
+  ]
+}

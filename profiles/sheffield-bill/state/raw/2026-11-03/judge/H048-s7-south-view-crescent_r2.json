@@ -1,0 +1,49 @@
+{
+  "id": "H048-s7-south-view-crescent",
+  "run": 2,
+  "live": null,
+  "listing_url": "https://www.rightmove.co.uk/properties/92442411",
+  "asking": 300000,
+  "floor_area_m2": 107,
+  "house_type": null,
+  "gates": {
+    "area": {"pass": true, "reason": "S7 per brief; South View Crescent sales carry S7 1DG and 1DH postcodes (https://domovita.co.uk/sold-prices/street/s7/south-view-crescent)"},
+    "budget": {"pass": true, "reason": "unconfirmed: asking 300000 per brief; W not priced, so asking + 1.15W + C not computed"},
+    "tenure": {"pass": true, "reason": "unconfirmed: brief says freehold; listing unreadable; many South View Crescent sales are leasehold (https://domovita.co.uk/sold-prices/street/s7/south-view-crescent)"},
+    "structure": {"pass": true, "reason": "unconfirmed: no listing or survey text read"},
+    "vacant": {"pass": true, "reason": "unconfirmed: vacant possession not checked"},
+    "hall": {"pass": true, "reason": "unconfirmed: no floorplan read"}
+  },
+  "V": null,
+  "v_basis": "No 3 done-up sales found, so V not set. Not used: 76 South View Crescent S7 1DH, 300000 asking, sold STC, freehold, no condition data (https://www.onthemarket.com/details/14739040/).",
+  "W": null,
+  "w_basis": "Not priced: no readable floorplan or photos.",
+  "C": 3000,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": false, "evidence": "not scored: no readable listing or floorplan"},
+    {"n": 2,  "score": null, "est": false, "evidence": "not scored: no readable listing or floorplan"},
+    {"n": 3,  "score": null, "est": false, "evidence": "not scored: no V set"},
+    {"n": 4,  "score": null, "est": false, "evidence": "not scored: no V set"},
+    {"n": 5,  "score": null, "est": false, "evidence": "not scored: floor area 107 m2 is from brief, not checked"},
+    {"n": 6,  "score": null, "est": false, "evidence": "not scored: no readable floorplan"},
+    {"n": 7,  "score": null, "est": false, "evidence": "not scored: no readable floorplan"},
+    {"n": 8,  "score": null, "est": false, "evidence": "not scored: no readable floorplan or garden data"},
+    {"n": 9,  "score": null, "est": false, "evidence": "not scored: no works list"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: no works list"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or listing text read"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: street not assessed"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: no location check"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: no location check"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: parking not confirmed"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: no photos or floorplan read"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: no photos read"}
+  ],
+  "total": null,
+  "verdict": null,
+  "biggest_risk": "Listing could not be opened or matched (no Redbrik, 300000, 107 m2 South View Crescent listing found), so every figure is unverified and the freehold claim is doubtful given many leasehold sales on the street.",
+  "sources": [
+    "https://domovita.co.uk/sold-prices/street/s7/south-view-crescent",
+    "https://www.onthemarket.com/details/14739040/"
+  ]
+}

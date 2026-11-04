@@ -1,0 +1,52 @@
+{
+  "id": "H080-s8-meersbrook-avenue",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/88522116",
+  "asking": 250000,
+  "floor_area_m2": 105,
+  "house_type": "end-terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "S8 9EB, Meersbrook Avenue, Meersbrook, Sheffield S8 (listing)"},
+    "budget": {"pass": true, "reason": "asking 250000 + 1.15 x W 30000 (est.) + C 3000 = 287500, under 400000; asking under 300000"},
+    "tenure": {"pass": true, "reason": "leasehold, term of 800 years per listing (start date masked, remaining term not stated); ground rent 9.50 pa; no covenant dispute listed"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen"},
+    "vacant": {"pass": true, "reason": "vacant possession on completion and no onward chain per listing"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into a hall or the living room; only photo captions Front and Living Room"}
+  },
+  "V": 220000,
+  "v_basis": "Terraced 3-bed sales on Meersbrook Avenue within 2 years: 48 (S8 9ED) 19 Dec 2025 235000; 5 (S8 9EB) 14 Nov 2025 220000; 76 (S8 9ED) 18 Sep 2025 218920; median 220000. Done-up condition not verified, sold-price data only; comp floor areas not sourced.",
+  "W": 30000,
+  "w_basis": "est. from listing text only (floorplan and photos not readable): decor throughout 9000; flooring 4000; kitchen refresh 5500; electrics/heating allowance 5000; lighting and joinery 2000; hall allowance 3000; survey and design 1500. Total 30000 before contingency.",
+  "C": 3000,
+  "margin": -89500,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "asking 2381/m2 (250000/105) vs done-up street about 2095/m2 if comps are 105 m2 (est.); ratio about 114%"},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "margin -89500 with W 30000 est.; break-even asking about 160500 est."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 220000 vs street max 500000 (43 Meersbrook Avenue, 31 Oct 2025) = 44%"},
+    {"n": 4,  "score": 5, "est": false, "evidence": "sector S8 9 max is at least 500000 (same-street sale), so V is at most 44% of sector max"},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1125 sq ft (105 m2) per listing"},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "3 bedrooms upstairs per listing; room sizes not given, well-proportioned is agent wording only"},
+    {"n": 7,  "score": 5, "est": false, "evidence": "extended kitchen used as main living and dining space per listing; 25 m2 not stated"},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "garden Ask agent; loft not mentioned; kitchen already extended; neighbours unknown"},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "decor, kitchen and bath likely, but EPC D and no electrics or heating info; electrics allowance in W"},
+    {"n": 10, "score": 4, "est": true,  "evidence": "decor-led finished spec estimated 4 to 6 months; listing presents as move-in ready"},
+    {"n": 11, "score": 3, "est": true,  "evidence": "no survey; EPC D; damp, roof and cellar unknown, cause unclear"},
+    {"n": 12, "score": 3, "est": true,  "evidence": "street of terraces with many leasehold sales; letting share and main-road status not confirmed"},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Meersbrook Park takes up a large part of the area on a steep hillside (Wikipedia); walk time to park est. 5 to 10 min"},
+    {"n": 14, "score": 3, "est": true,  "evidence": "no big supermarket walk time confirmed; Lidl Woodseats listed nearby; est. 15 to 20 min"},
+    {"n": 15, "score": 3, "est": true,  "evidence": "on-street parking only, no disabled bay per listing; slope not stated"},
+    {"n": 16, "score": 3, "est": true,  "evidence": "bright and well-presented per agent wording; period features and ceiling heights not stated"},
+    {"n": 17, "score": 3, "est": true,  "evidence": "front photo only; stone or brick and bay not stated; plain and tidy est."}
+  ],
+  "total": 62.6,
+  "verdict": "PASS",
+  "biggest_risk": "Asking 250000 (guide range up to 270000, reduced 7 Oct 2026) sits about 30000 above finished street value 220000, so margin is about -89500 est. with break-even asking about 160500 est.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/88522116",
+    "https://www.rightmove.co.uk/house-prices/s8/meersbrook-avenue.html",
+    "https://www.doogal.co.uk/PropertySales?area=S8",
+    "https://en.wikipedia.org/wiki/Meersbrook",
+    "https://www.openingtimesin.uk/lidl-woodseats-sheffield"
+  ]
+}

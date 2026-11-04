@@ -1,0 +1,49 @@
+{
+  "id": "H012-s10-pickmere-road",
+  "run": 1,
+  "live": false,
+  "listing_url": "https://www.onthemarket.com/details/18534972",
+  "asking": 300000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes is in the area list (onthemarket.com/details/18534972)"},
+    "budget":    {"pass": true, "reason": "unconfirmed: asking is £300,000 (at the cap); W not priced because house is not live"},
+    "tenure":    {"pass": true, "reason": "Freehold (onthemarket.com/details/18534972)"},
+    "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam, dry rot"},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing marked Sold STC, vacant possession not stated"},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not describe the hall"}
+  },
+  "V": null,
+  "v_basis": "not done: listing is Sold STC, so the house stopped at step 1",
+  "W": null,
+  "w_basis": "not done: house not live; no floorplan review",
+  "C": null,
+  "margin": null,
+  "scores": [
+    {"n": 1,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 2,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 3,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 4,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 5,  "score": null, "est": null, "evidence": "not scored: floor area not given"},
+    {"n": 6,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 7,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 8,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 9,  "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 10, "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 11, "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 12, "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 13, "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 14, "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 15, "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 16, "score": null, "est": null, "evidence": "not scored: house not live"},
+    {"n": 17, "score": null, "est": null, "evidence": "not scored: house not live"}
+  ],
+  "total": null,
+  "verdict": "REJECT",
+  "biggest_risk": "Not live: OnTheMarket shows Sold STC and no longer on the market, so the house cannot be bought as listed",
+  "sources": [
+    "https://www.onthemarket.com/details/18534972",
+    "https://www.rightmove.co.uk/properties/171295850"
+  ]
+}

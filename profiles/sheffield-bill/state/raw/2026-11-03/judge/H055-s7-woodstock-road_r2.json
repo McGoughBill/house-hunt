@@ -1,0 +1,53 @@
+{
+  "id": "H055-s7-woodstock-road",
+  "run": 2,
+  "live": true,
+  "listing_url": "https://www.rightmove.co.uk/properties/169390475",
+  "asking": 280000,
+  "floor_area_m2": null,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S7, Woodstock Road, Nether Edge (https://www.rightmove.co.uk/properties/169390475)."},
+    "budget":    {"pass": true, "reason": "asking 280000 + 1.15W 17250 + C 3000 = 300250, under 400000. Asking is inside the 300k cap (guide is 280k-300k)."},
+    "tenure":    {"pass": true, "reason": "Freehold, no chain (https://www.rightmove.co.uk/properties/169390475)."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing is silent on movement, subsidence, knotweed, spray foam or dry rot."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing is silent on vacant possession or tenancy."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into a hall. W carries a 5000 hall allowance, which is within the gate limit."}
+  },
+  "V": 364000,
+  "v_basis": "Median of 3 terraced sales on Woodstock Road S7 1HA: 47 on 24 Oct 2025 for 355000; 45 on 4 Aug 2026 for 364000; 75 on 6 Oct 2025 for 375000. Sources: https://www.doogal.co.uk/PropertySales?area=S7 (45 confirmed) and https://www.rightmove.co.uk/house-prices/S7-1HA.html (all three). The lowercase Rightmove sold page and https://housepricehistory.co.uk do not list 47 or 75, so those two are single-source. Done-up status of all three is not verified. 17 Woodstock Road (16 Jun 2025, 255000) was left out as the outlier.",
+  "W": 15000,
+  "w_basis": "Listing says 'Beautifully refurbished', modern decor, fitted contemporary kitchen, modern bathroom and combi boiler (https://www.rightmove.co.uk/properties/169390475). All costs est.: decor and flooring refresh 5000; hall allowance 5000 (hall unconfirmed); top-floor bedroom sign-off, fire and regs 3000; electrics check and minor repairs 2000. Total 15000 before the 1.15 contingency.",
+  "C": 3000,
+  "margin": 27350,
+  "scores": [
+    {"n": 1,  "score": 3, "est": true,  "evidence": "Asking 280000 over est. 95 m2 = 2947/m2; V 364000 over the same est. area = 3832/m2; ratio 77%. Floor area est. from 96 m2 EPC of 25 Woodstock Rd (https://housemetric.co.uk/29752191/S7-1HA/25+Woodstock+Road)."},
+    {"n": 2,  "score": 4, "est": true,  "evidence": "Margin 27350 = 0.9x364000 - 1.15x15000 - 3000 - 280000; band 25k-40k. Rests on est. V and W."},
+    {"n": 3,  "score": 2, "est": true,  "evidence": "V 364000 over street max 375000 (75 Woodstock Rd, 6 Oct 2025, https://www.rightmove.co.uk/house-prices/S7-1HA.html) = 97%. Single-source max."},
+    {"n": 4,  "score": 4, "est": true,  "evidence": "Sector max over 2 years not checked. Assumed about 500000 (est.), so V is 73% of it."},
+    {"n": 5,  "score": 4, "est": true,  "evidence": "Floor area not given by listing (https://www.rightmove.co.uk/properties/169390475). Est. 95 m2 from neighbour EPC, so band 90-100."},
+    {"n": 6,  "score": 3, "est": true,  "evidence": "Two first-floor doubles per listing. Third is a top-floor bedroom/living space with dormer and en-suite, not described as double; sign-off unknown (est.)."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Open-plan dining kitchen at the rear already exists and overlooks the garden (https://www.rightmove.co.uk/properties/169390475). Its size against 25 m2 is not stated."},
+    {"n": 8,  "score": 2, "est": true,  "evidence": "Courtyard garden, so probably under 10 m (est.). Loft already converted with dormer. Neighbours unknown. One weak point."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Decor, kitchen and bath largely done. Hall and top-floor sign-off still needed. Wiring and heating age unknown (est.)."},
+    {"n": 10, "score": 5, "est": true,  "evidence": "Already refurbished, so works est. 2-3 months (est.)."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey. Cellar (access via kitchen), roof and walls not reported. Solid brick, EPC D on a neighbour (https://housemetric.co.uk/29752191/S7-1HA/25+Woodstock+Road). Minor, cause unclear (est.)."},
+    {"n": 12, "score": 3, "est": true,  "evidence": "Street not checked. Sales list many leasehold terraces, possibly letting. Est. one fail."},
+    {"n": 13, "score": 3, "est": true,  "evidence": "Listing says parks are nearby (https://www.rightmove.co.uk/properties/169390475). Walk time est. 10-15 min."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Walk to a big supermarket est. 15-20 min. Not checked."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "Parking stated only as 'Ask agent' (https://www.rightmove.co.uk/properties/169390475). Est. hard on-street parking, level."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Bay-fronted living room and dormer light per listing. Ceiling heights and period features not stated (https://www.rightmove.co.uk/properties/169390475)."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Bay and iron-railed forecourt per listing. Brick or stone and terrace uniformity not seen (photos not available)."}
+  ],
+  "total": 68.2,
+  "verdict": "PASS",
+  "biggest_risk": "Done-up status of the three comparables is unverified and 47 and 75 rest on one source, so the 27350 margin could be wrong; hall, vacant possession and the third-bedroom sign-off are unconfirmed.",
+  "sources": [
+    "https://www.rightmove.co.uk/properties/169390475",
+    "https://www.doogal.co.uk/PropertySales?area=S7",
+    "https://www.rightmove.co.uk/house-prices/S7-1HA.html",
+    "https://www.rightmove.co.uk/house-prices/s7-1ha.html",
+    "https://housepricehistory.co.uk/sold_house_prices/property/25~-/woodstock_road/-/sheffield/S7_1HA",
+    "https://housemetric.co.uk/29752191/S7-1HA/25+Woodstock+Road"
+  ]
+}

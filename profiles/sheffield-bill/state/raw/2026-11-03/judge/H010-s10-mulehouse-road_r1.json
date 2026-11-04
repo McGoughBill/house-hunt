@@ -1,0 +1,50 @@
+{
+  "id": "H010-s10-mulehouse-road",
+  "run": 1,
+  "live": true,
+  "listing_url": "https://www.hunters.com/properties-for-sale/5-bedrooms-house-in-mulehouse-road-sheffield-s10/34532546/",
+  "asking": 270000,
+  "floor_area_m2": 113,
+  "house_type": "terrace",
+  "gates": {
+    "area":      {"pass": true, "reason": "S10 Crookes, per listing."},
+    "budget":    {"pass": true, "reason": "270000 + 1.15 x 70000 (W est.) + 3000 = 353500, which is at most 400000."},
+    "tenure":    {"pass": true, "reason": "Leasehold, 672 years left, ground rent 3 per year, per listing."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing mentions no movement, subsidence, knotweed, spray foam, non-standard build or dry rot; no survey seen."},
+    "vacant":    {"pass": true, "reason": "unconfirmed: listing does not state vacant possession; it quotes 2025/26 HMO rent income of 22880, so the house may be let."},
+    "hall":      {"pass": true, "reason": "unconfirmed: listing says dining kitchen and lounge on ground floor, does not say whether the front door opens into a hall or the lounge."}
+  },
+  "V": 280000,
+  "v_basis": "Median of 3 terraced leasehold or freehold sales on Mulehouse Road, Nov 2024 to Nov 2026 (domovita, https://domovita.co.uk/sold-prices/street/s10/mulehouse-road): 96 Mulehouse Rd 21 Apr 2026 GBP 280000 (leasehold); 151 Mulehouse Rd 28 Jul 2025 GBP 305000 (freehold); 153 Mulehouse Rd 4 Apr 2025 GBP 255000 (freehold). Condition of comps not verified; assumed done-up (est.). 123 Mulehouse Rd (16 Sep 2024, 255000) and 90 Mulehouse Rd (20 Jun 2024, 287000) fall outside the 2-year window.",
+  "W": 70000,
+  "w_basis": "est., no floor plan or photos read (images not available as text). Rewire and heating 20000, kitchen-diner 25000, bathroom 8000, decor and flooring 10000, hall creation 3000, HMO and fire works or bedroom reconfiguration 5000. Sum about 71000, rounded to 70000. Before the 1.15 contingency.",
+  "C": 3000,
+  "margin": -101500,
+  "scores": [
+    {"n": 1,  "score": 1, "est": true,  "evidence": "As bought 270000/113 = 2389 per m2; done-up street V/113 = 2478 per m2, so ratio about 96%, above 85%. Comp floor areas not known, est."},
+    {"n": 2,  "score": 1, "est": true,  "evidence": "0.9 x 280000 - 1.15 x 70000 (est.) - 3000 - 270000 = -101500, below zero."},
+    {"n": 3,  "score": 5, "est": false, "evidence": "V 280000 / street max 400000 (177 Mulehouse Rd detached, 19 May 2025, domovita) = 70%. Using terraced max 305000 instead would give 92%, score 3."},
+    {"n": 4,  "score": 5, "est": true,  "evidence": "Sector S10 2-year max not checked. Crookes detached sales are commonly well above 500000, so V is likely under 70% of it, est."},
+    {"n": 5,  "score": 5, "est": false, "evidence": "1217 sq ft, about 113 m2 (Hunters listing, my conversion)."},
+    {"n": 6,  "score": 4, "est": true,  "evidence": "Listing says 5 bedrooms, so 3 exist now. Room sizes not given; HMO layout suggests some rooms are small, est."},
+    {"n": 7,  "score": 5, "est": false, "evidence": "Listing says dining kitchen exists (Hunters listing). Size not stated, so 25 m2 target unconfirmed."},
+    {"n": 8,  "score": 3, "est": true,  "evidence": "Mid-terrace; garden size, loft and neighbours' extensions not stated, est."},
+    {"n": 9,  "score": 4, "est": true,  "evidence": "Rewire or heating likely needed for an HMO refit, est. Listing does not describe condition beyond well presented."},
+    {"n": 10, "score": 4, "est": true,  "evidence": "Roughly 4 to 6 months of works, est. Longer if the house is let at purchase."},
+    {"n": 11, "score": 3, "est": true,  "evidence": "No survey, age, damp or roof information in the listing, so cause unclear, est."},
+    {"n": 12, "score": 2, "est": true,  "evidence": "Listing sells it to student and professional lets and cites an HMO licence, so many houses on the street are likely let, est. Article Four area."},
+    {"n": 13, "score": 4, "est": true,  "evidence": "Crookes Valley Park is about 5 to 10 min walk, est."},
+    {"n": 14, "score": 3, "est": true,  "evidence": "Crookes shops nearby; big supermarket about 15 to 20 min walk, est."},
+    {"n": 15, "score": 3, "est": true,  "evidence": "On-street parking, Crookes hill, not checked, est."},
+    {"n": 16, "score": 3, "est": true,  "evidence": "Listing says well presented throughout, no period or light details given, est."},
+    {"n": 17, "score": 3, "est": true,  "evidence": "Stone or brick and frontage not stated; mid-terrace, est."}
+  ],
+  "total": 62.6,
+  "verdict": "PASS",
+  "biggest_risk": "Margin is -101500 on the comps: even at W 40000 the margin is about -67000. Works cost, vacancy and layout are unverified.",
+  "sources": [
+    "https://www.hunters.com/properties-for-sale/5-bedrooms-house-in-mulehouse-road-sheffield-s10/34532546",
+    "https://domovita.co.uk/sold-prices/street/s10/mulehouse-road",
+    "https://primelocation.com/house-prices/sheffield/mulehouse-road"
+  ]
+}
