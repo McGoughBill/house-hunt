@@ -9,7 +9,7 @@ Skill version: `2026-11-04.1` · Home repo: `McGoughBill/house-hunt` (private)
 
 This repo is the skill. `SKILL.md` sits at its root beside everything it uses: the scripts, prompt templates, agent definitions, the buyers' profiles and their saved state. Nothing lives outside it except installed copies of the agents. A saved copy of this file is only a way back here.
 
-You orchestrate, and Haiku agents do the web work. Every step that needs no judgement runs through `scripts/hh.py`. Keep your context small:
+You orchestrate, on Opus at high effort where the session lets you choose. Haiku agents at extra-high effort do the web work; their settings are in `agents/`. Every step that needs no judgement runs through `scripts/hh.py`. Keep your context small:
 - Never read registry, result or prompt files.
 - Work from the one-line summaries `hh.py` prints and the one-line replies agents send.
 
