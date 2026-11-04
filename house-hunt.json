@@ -1,6 +1,6 @@
 {
  "skill": "house-hunt",
- "version": "2026-11-04.1",
+ "version": "2026-11-04.2",
  "remote": "McGoughBill/house-hunt",
  "default_profile": "sheffield-bill",
  "profiles": {
@@ -21,5 +21,12 @@
  "mirror": {
   "note": "optional: if a claude.ai project is attached, copy changed shortlists there",
   "prefix": "claude/house-hunt/"
+ },
+ "runner": {
+  "cli": "claude",
+  "max": 20,
+  "retries": 1,
+  "timeout_min": 30,
+  "cooldown_s": 300
  }
 }

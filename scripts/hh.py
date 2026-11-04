@@ -16,7 +16,8 @@ Usage: python3 scripts/hh.py <command> [profile] [date] [options]   (run from th
   ingest P D                  merge search results into the registry; write the incremental longlist
   judge P D                   write first-run judge prompts for new houses
   reprice P D                 write one re-judge prompt per house whose price change moves its score
-  next P D N                  print the next N prompts to launch as "agent<TAB>path" and mark them launched
+  jobs P D [kind ...]         print every prompt still without a result, as agent<TAB>path, for scripts/run_agents.py
+  next P D N                  (fallback, Agent tool) print the next N prompts to launch as "agent<TAB>path" and mark them launched
   orphans P D [--reset]       launched prompts with no result (e.g. agents killed); --reset relaunches them
   collect P D                 fold judge results into the registry; requeue unreadable runs once
   topup P D                   add runs for houses ranked inside top N with too few runs
@@ -568,6 +569,19 @@ def cmd_next(c, n):
                if (c.work / "prompts" / kind).exists()) - len(done) - len(out)
     print(f"# {left} left", file=sys.stderr)
 
+def cmd_jobs(c, kinds=None):
+    """Every prompt in this run without a readable result, as agent<TAB>path, for run_agents.py."""
+    n = 0
+    for kind, agent in (("scout", "house-judge"), ("search", "house-search"), ("judge", "house-judge")):
+        if kinds and kind not in kinds:
+            continue
+        d = c.work / "prompts" / kind
+        for f in sorted(d.glob("*.md")) if d.exists() else []:
+            r = c.work / "results" / kind / f"{f.stem}.json"
+            if not (r.exists() and jload(r) is not None):
+                print(f"{agent}\t{f}"); n += 1
+    print(f"# {n} jobs", file=sys.stderr)
+
 def cmd_orphans(c, reset=False):
     launched = c.work / "launched.txt"
     keys = launched.read_text().split() if launched.exists() else []
@@ -587,7 +601,7 @@ def cmd_status(c):
 # ---------- repo: the repo is the skill ----------
 import subprocess
 COMMANDS = ["setup", "doctor", "sync", "save", "install", "config", "new", "preset", "set", "brief", "scout", "scout-apply",
-            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status"]
+            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status", "jobs"]
 
 def cfg():
     return jload(CFG, {}) or {}
@@ -675,6 +689,9 @@ def cmd_doctor():
         a = f.read_text()
         check(f"agent {f.stem}", "model: haiku" in a and (inst / f.name).exists() and (inst / f.name).read_text() == a,
               "not installed or out of date (run install)" if "model: haiku" in a else "not on haiku")
+    check("claude CLI (for run_agents.py)", shutil.which(conf.get("runner", {}).get("cli", "claude")) is not None,
+          "not on PATH: launch agents with the Agent tool instead")
+    check("scripts/run_agents.py", (REPO / "scripts" / "run_agents.py").exists(), "missing")
     code, url = git("remote", "get-url", "origin")
     check("git remote", code == 0 and conf.get("remote", "?").lower() in url.lower(), url or "no origin")
     if code == 0:
@@ -755,7 +772,8 @@ def main():
      "ingest": lambda: cmd_ingest(c), "judge": lambda: cmd_judge(c), "reprice": lambda: cmd_reprice(c),
      "next": lambda: cmd_next(c, int(a[3] if len(a) > 3 else 1)), "orphans": lambda: cmd_orphans(c, "--reset" in a),
      "collect": lambda: cmd_collect(c), "topup": lambda: cmd_topup(c), "rank": lambda: cmd_rank(c),
-     "shortlist": lambda: cmd_shortlist(c), "status": lambda: cmd_status(c)}[cmd]()
+     "shortlist": lambda: cmd_shortlist(c), "status": lambda: cmd_status(c),
+     "jobs": lambda: cmd_jobs(c, [k for k in a[3:] if not k.startswith("-")] or None)}[cmd]()
 
 if __name__ == "__main__":
     main()

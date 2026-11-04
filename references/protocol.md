@@ -35,10 +35,10 @@ Weekly runs repeat stages 2–7. The registry remembers every house, so each lon
 
 ## Lessons from the first run (Sheffield, 3 Nov 2026)
 
-- **Concurrency.** About 20 agents at once tripped the web-search rate limit for 15 minutes. Run 10.
+- **Concurrency.** About 20 agents at once tripped the web-search rate limit for 15 minutes. `run_agents.py` allows 20, but halves the number running and pauses on a rate limit, then climbs back by 2 after every 10 successes in a row.
 - **Blocked portals.** WebFetch often refuses Rightmove and Haybrook. Agents find the same house on Zoopla, OnTheMarket, PrimeLocation, the agent's own site, or a Rightmove brochure PDF.
 - **Sold prices.** Sold-price records rarely say whether a house was done up, so V runs low and most margins come out negative. Use totals to compare houses, not to price them.
 - **Criterion 18.** Without it, houses already done up outscored run-down houses with good bones.
-- **Interruptions.** Interrupting the main session kills the agents still running, without warning. `hh.py orphans --reset` finds and relaunches them.
+- **Interruptions.** Under the Agent tool, interrupting the main session killed the agents still running, without warning. `run_agents.py` keeps agents outside the main session, and rerunning it resumes; `hh.py orphans --reset` covers the Agent-tool fallback.
 - **Agent output.** Agents write JSON to a file and reply in one line. Never read their files into the orchestrator's context.
 - **Saved skills.** A saved copy of `SKILL.md` lacks the scripts, so it must clone this repo first. The repo's copy always wins.

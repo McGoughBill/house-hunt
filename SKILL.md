@@ -5,11 +5,11 @@ description: Run a house-buying search pipeline for any city. Haiku agents searc
 
 # House hunt
 
-Skill version: `2026-11-04.1` · Home repo: `McGoughBill/house-hunt` (private)
+Skill version: `2026-11-04.2` · Home repo: `McGoughBill/house-hunt` (private)
 
 This repo is the skill. `SKILL.md` sits at its root beside everything it uses: the scripts, prompt templates, agent definitions, the buyers' profiles and their saved state. Nothing lives outside it except installed copies of the agents. A saved copy of this file is only a way back here.
 
-You orchestrate, on Opus at high effort where the session lets you choose. Haiku agents at extra-high effort do the web work; their settings are in `agents/`. Every step that needs no judgement runs through `scripts/hh.py`. Keep your context small:
+You orchestrate, on Opus at high effort where the session lets you choose. Haiku agents at extra-high effort do the web work; their settings are in `agents/`. `scripts/run_agents.py` launches and supervises them. Every other step that needs no judgement runs through `scripts/hh.py`. Keep your context small:
 - Never read registry, result or prompt files.
 - Work from the one-line summaries `hh.py` prints and the one-line replies agents send.
 
@@ -26,14 +26,15 @@ You orchestrate, on Opus at high effort where the session lets you choose. Haiku
    - FAILs in paths or commands mean a broken skill: fix them before a run.
    - "behind" means `sync` failed: say so and stop.
 3. **Choose the profile and date.** P is the profile the user names, otherwise `default_profile` in `house-hunt.json`. D is today, as YYYY-MM-DD.
-4. **Agent types.** The two agent types are `house-search` and `house-judge`. If the Agent tool rejects them, which happens early in a session, use the `fallback` in `house-hunt.json` (general-purpose on Haiku) with the same one-line prompt.
+4. **Agents.** The two agent types are `house-search` and `house-judge`. `run_agents.py` starts them through the `claude` command line, so you never call the Agent tool for them, except in the fallback in section 3.
 
 ## Map
 
 | Path | What it holds |
 |---|---|
-| `house-hunt.json` | home repo, version, default profile, each profile's schedule, agent fallback |
+| `house-hunt.json` | home repo, version, default profile, each profile's schedule, runner limits, agent fallback |
 | `scripts/hh.py` | every mechanical step; `python3 scripts/hh.py -h` lists the commands |
+| `scripts/run_agents.py` | runs a list of agent jobs: at most 20 at once, exit codes polled, failures retried once |
 | `agents/` | the two Haiku agent definitions, installed by `setup` |
 | `templates/` | search, judge and scout prompts; `templates/profile.json` for new profiles; `templates/presets.json` for weights |
 | `references/new-profile.md` | setting up a new buyer, city or country: deduce the vibe, ask at most 3 questions, scout |
@@ -73,22 +74,38 @@ The registry remembers every house ever seen. Searches therefore report only new
 8. **Save.** Run `python3 scripts/hh.py save P D`. Pass any commit trailers the session asks for as extra `-m` lines.
 9. **Reply** in 2–4 lines: new houses found, houses judged, any change to the shortlist, anything blocked.
 
-## 3. Launch loop
+## 3. Running agents
 
-1. Run `python3 scripts/hh.py next P D K`, where K is 10 minus the number of agents running. Each line it prints is `agent<TAB>path`.
+Run every job a step has written with one background Bash call (`run_in_background: true`, `timeout: 7200000`):
+
+```bash
+python3 scripts/hh.py jobs P D | python3 scripts/run_agents.py -
+```
+
+**What it does:**
+- Runs each prompt as a headless Haiku agent, at most 20 at once. The limits are `runner` in `house-hunt.json`.
+- Polls exit codes and checks that each job left a readable result.
+- Retries each failure once.
+- On a rate limit, pauses launches, halves the number running, and requeues the job without using up its retry.
+
+**Waiting.** You are re-invoked when it exits. Send no progress reports meanwhile, and read only its output, never the agents' files.
+
+**Exit codes:**
+- **0:** all done.
+- **3:** some jobs failed twice and are listed by name. Go on to the next step and name them in the reply.
+- **4:** the `claude` command line is missing or can't sign in. Use the fallback below.
+
+**Stopped early** (the 2-hour limit, an interruption): run the same command again. It skips finished jobs. To explain a failure, `work/P/D/agent-runs.jsonl` holds one line per attempt.
+
+**Fallback (exit 4 only): the Agent tool.**
+1. Run `python3 scripts/hh.py next P D K`, where K is 10 minus the agents running. Each line it prints is `agent<TAB>path`.
 2. For each line, call `Agent` with:
-   - that agent type;
+   - that agent type, or if it is rejected, the `fallback` in `house-hunt.json`;
    - `run_in_background: true`;
-   - a 3–5-word description;
-   - exactly this prompt: `Read <path> and do exactly what it says.`
-3. Each time an agent finishes, run `next P D 1` and launch what it prints. Don't read or quote the agent's JSON.
-4. A phase is done when `next` prints `# 0 left` and no agents are running. Then run `python3 scripts/hh.py orphans P D`. If it lists anything, run `orphans P D --reset` and launch again.
-
-Problems:
-- **Rate limits.** If replies mention 429 or a rate limit, stop launching. Use `send_later` to resume in 10 minutes, then launch one probe before refilling.
-- **Interruptions.** An interrupted main session kills the agents that are running, without warning. `orphans --reset` recovers them.
-
-Send no progress reports unless asked.
+   - the prompt `Read <path> and do exactly what it says.`
+3. As each finishes, run `next P D 1` and launch what it prints.
+4. When `next` prints `# 0 left` and none are running, run `python3 scripts/hh.py orphans P D`. Use `orphans P D --reset` and launch again if it lists any.
+5. On a rate limit, use `send_later` to resume in 10 minutes.
 
 ## 4. Schedule
 
