@@ -1,8 +1,8 @@
 """One-off: seed a profile registry from the 3 Nov 2026 house-judge run.
-python3 tools/import_house_judge.py <profile> <house-judge dir>"""
+python3 scripts/import_house_judge.py <profile> <house-judge dir>"""
 import re, sys, json
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import hh
 
 prof, src = sys.argv[1], Path(sys.argv[2])

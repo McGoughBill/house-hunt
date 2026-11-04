@@ -1,0 +1,25 @@
+{
+ "skill": "house-hunt",
+ "version": "2026-11-04.1",
+ "remote": "McGoughBill/house-hunt",
+ "default_profile": "sheffield-bill",
+ "profiles": {
+  "sheffield-bill": {
+   "owner": "Bill",
+   "schedule": null,
+   "notify": "push when a new house enters the shortlist"
+  }
+ },
+ "agents": {
+  "search": "house-search",
+  "judge": "house-judge",
+  "fallback": {
+   "subagent_type": "general-purpose",
+   "model": "haiku"
+  }
+ },
+ "mirror": {
+  "note": "optional: if a claude.ai project is attached, copy changed shortlists there",
+  "prefix": "claude/house-hunt/"
+ }
+}

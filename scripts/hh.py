@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """house-hunt helper: every deterministic step of the search -> longlist -> judge -> shortlist pipeline.
 
-Usage: python3 hh.py <command> <profile> [date] [options]
+Usage: python3 scripts/hh.py <command> [profile] [date] [options]   (run from the repo root)
+  setup                       start of every session: install agents, pull, then doctor
+  doctor                      check the repo is whole: files SKILL.md names, commands, versions, remote, agents
+  sync                        git pull --ff-only; one line
+  save P D [-m line ...]      commit profiles/ and house-hunt.json, then push; one line
+  save --skill [-m line ...]  commit every change (skill edits), then push
   install                     copy agents/*.md to ~/.claude/agents
+  config key.path=value ...   set fields in house-hunt.json (schedule, default profile, version)
   brief P                     render profiles/P/brief.md from profile.json
   scout P D                   write area + source scout prompts (new profiles)
   scout-apply P D [--fit 4]   merge scout results into profile.json
@@ -17,7 +23,7 @@ Usage: python3 hh.py <command> <profile> [date] [options]
   rank P                      write state/ranking.md and ranking.csv
   shortlist P D               update the shortlist; prints NEW lines and exits 10 if a new house entered
   status P D                  one-line counts
-  new P [--like Q]            start profiles/P/profile.json from Q's (default sheffield-bill), place-specific fields cleared
+  new P [--like Q]            start profiles/P/profile.json from templates/profile.json, or from profile Q
   preset P improve|ready      apply a weight preset from templates/presets.json
   set P key.path=value ...    set profile fields; values parsed as JSON when they can be (lists, numbers)
 """
@@ -25,7 +31,8 @@ import csv, json, re, shutil, statistics as st, sys
 from datetime import date as _date
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent
+REPO = Path(__file__).resolve().parents[1]          # the repo root is the skill root
+CFG = REPO / "house-hunt.json"
 T = REPO / "templates"
 
 # ---------- small helpers ----------
@@ -116,7 +123,7 @@ def fees_tax(p, price):
     return bt.get("fees", 0) + tax
 
 # ---------- brief ----------
-def render_brief(c):
+def render_brief(c, write=True):
     p, s = c.p, c.p["search"]
     fmt = {"price_max": money(c.cur, s["price_max"]), "allin_max": money(c.cur, s["allin_max"])}
     L = [f"# Scoring brief: {p['name']}", "", p.get("intent", ""), "",
@@ -134,7 +141,10 @@ def render_brief(c):
     bt = p["buy_test"]
     L += ["", f"Weights total {sum(k['w'] for k in p['criteria'])}.", "",
           f"**Buy test:** most to offer = {bt['headroom']}V − {bt['contingency']}W − C. {bt.get('tax_note', '')}", ""]
-    (c.dir / "brief.md").write_text("\n".join(L))
+    text = "\n".join(L)
+    if not write:
+        return text
+    (c.dir / "brief.md").write_text(text)
     return c.dir / "brief.md"
 
 # ---------- scout (new profiles) ----------
@@ -573,32 +583,161 @@ def cmd_status(c):
     print(c.name, c.day, dict(Counter(h["status"] for h in c.reg["houses"].values())),
           "runs", sum(len(h["runs"]) for h in c.reg["houses"].values()))
 
+
+# ---------- repo: the repo is the skill ----------
+import subprocess
+COMMANDS = ["setup", "doctor", "sync", "save", "install", "config", "new", "preset", "set", "brief", "scout", "scout-apply",
+            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status"]
+
+def cfg():
+    return jload(CFG, {}) or {}
+
+def git(*args):
+    r = subprocess.run(["git", "-C", str(REPO), *args], capture_output=True, text=True)
+    return r.returncode, (r.stdout + r.stderr).strip()
+
+def cmd_install():
+    dst = Path.home() / ".claude" / "agents"; dst.mkdir(parents=True, exist_ok=True)
+    n = 0
+    for f in (REPO / "agents").glob("*.md"):
+        if not (dst / f.name).exists() or (dst / f.name).read_text() != f.read_text():
+            shutil.copy(f, dst / f.name); n += 1
+    print(f"agents: {n} installed or updated in {dst}")
+
+def cmd_sync():
+    code, out = git("rev-parse", "HEAD")
+    before = out if code == 0 else None
+    code, out = git("pull", "--ff-only", "-q")
+    if code:
+        print("sync: failed:", out.splitlines()[-1] if out else "?"); return 1
+    _, after = git("rev-parse", "HEAD")
+    print("sync: up to date" if before == after else f"sync: pulled {before[:7] if before else '∅'}..{after[:7]}")
+    return 0
+
+def cmd_save(prof, day, extra):
+    git("add", "-A") if prof == "--skill" else git("add", "-A", "profiles", "house-hunt.json")
+    code, _ = git("diff", "--cached", "--quiet")
+    if code == 0:
+        print("save: nothing to commit"); return 0
+    from collections import Counter
+    if prof == "--skill":
+        head = f"house-hunt skill {cfg().get('version')}"
+    else:
+        c = Ctx(prof, day)
+        head = f"house-hunt {prof} {c.day}: " + ", ".join(
+            f"{k} {v}" for k, v in sorted(Counter(h["status"] for h in c.reg["houses"].values()).items()))
+    msg = head + "".join("\n\n" + m for m in extra)
+    code, out = git("commit", "-q", "-m", msg)
+    if code:
+        print("save: commit failed:", out[-200:]); return 1
+    _, h = git("rev-parse", "--short", "HEAD")
+    code, out = git("push", "-q")
+    print(f"save: {h} pushed" if code == 0 else f"save: {h} committed here, push failed: {out.splitlines()[-1] if out else '?'}")
+    return code
+
+def cmd_doctor():
+    ok, bad = [], []
+    def check(name, cond, why=""):
+        (ok if cond else bad).append(name if cond else f"{name}: {why}")
+    conf = cfg()
+    check("house-hunt.json", bool(conf), "missing or not JSON")
+    skill = REPO / "SKILL.md"
+    text = skill.read_text() if skill.exists() else ""
+    check("SKILL.md", bool(text), "missing")
+    m = re.search(r"^name:\s*(\S+)", text, re.M)
+    check("skill name", m and m.group(1) == conf.get("skill"), f"SKILL.md says {m and m.group(1)}, house-hunt.json says {conf.get('skill')}")
+    m = re.search(r"Skill version:\s*`?([\w.-]+)", text)
+    check("version", m and m.group(1) == conf.get("version"), f"SKILL.md {m and m.group(1)} vs house-hunt.json {conf.get('version')}")
+    m = re.search(r"Home repo:\s*`([^`]+)`", text)
+    check("home repo named", m and m.group(1) == conf.get("remote"), f"SKILL.md {m and m.group(1)} vs house-hunt.json {conf.get('remote')}")
+    docs = [skill, REPO / "README.md", *sorted((REPO / "references").glob("*.md"))]
+    missing, unknown = set(), set()
+    for d in docs:
+        if not d.exists():
+            missing.add(d.name); continue
+        t = d.read_text()
+        for tok in re.findall(r"`([^`\s]+)`", t):
+            tok = tok.rstrip(".,;:")
+            if re.match(r"^(scripts|templates|references|agents|profiles)/", tok) or tok in ("house-hunt.json", "README.md", "SKILL.md"):
+                if re.search(r"[<{*]|/[A-Z]/|/[A-Z]$|-D\.", tok):
+                    continue                           # placeholder path
+                if not (REPO / tok).exists():
+                    missing.add(f"{tok} ({d.name})")
+        for cmd in re.findall(r"hh\.py\s+([a-z][a-z-]*)", t):
+            if cmd not in COMMANDS:
+                unknown.add(f"{cmd} ({d.name})")
+    check("paths named in the docs exist", not missing, ", ".join(sorted(missing)))
+    check("commands named in the docs exist", not unknown, ", ".join(sorted(unknown)))
+    for t in ("search.md", "judge.md", "scout-areas.md", "scout-sources.md", "presets.json", "profile.json"):
+        check(f"templates/{t}", (T / t).exists(), "missing")
+    inst = Path.home() / ".claude" / "agents"
+    for f in sorted((REPO / "agents").glob("*.md")):
+        a = f.read_text()
+        check(f"agent {f.stem}", "model: haiku" in a and (inst / f.name).exists() and (inst / f.name).read_text() == a,
+              "not installed or out of date (run install)" if "model: haiku" in a else "not on haiku")
+    code, url = git("remote", "get-url", "origin")
+    check("git remote", code == 0 and conf.get("remote", "?").lower() in url.lower(), url or "no origin")
+    if code == 0:
+        git("fetch", "-q")
+        code, lr = git("rev-list", "--left-right", "--count", "HEAD...@{u}")
+        if code == 0:
+            ahead, behind = map(int, lr.split())
+            check("in step with remote", not ahead and not behind, f"{ahead} ahead, {behind} behind")
+        else:
+            check("in step with remote", False, "no upstream branch")
+    _, dirty = git("status", "--porcelain")
+    check("clean tree", not dirty, f"{len(dirty.splitlines())} changed files")
+    profs = sorted(p.parent.name for p in (REPO / "profiles").glob("*/profile.json"))
+    check("default profile", conf.get("default_profile") in profs, f"{conf.get('default_profile')} not in {profs}")
+    for name in profs:
+        c = Ctx(name)
+        w = sum(k["w"] for k in c.p["criteria"])
+        check(f"profile {name} weights", w == 100, f"total {w}")
+        bf = c.dir / "brief.md"
+        check(f"profile {name} brief", bf.exists() and bf.read_text() == render_brief(c, write=False), f"stale: run brief {name}")
+    for x in ok:
+        print("ok  ", x)
+    for x in bad:
+        print("FAIL", x)
+    print(f"doctor: {len(ok)} ok, {len(bad)} fail")
+    return 1 if bad else 0
+
+def cmd_setup():
+    conf = cfg()
+    profs = sorted(p.parent.name for p in (REPO / "profiles").glob("*/profile.json"))
+    print(f"root {REPO} · home repo {conf.get('remote')} · skill {conf.get('version')} · profiles {', '.join(profs)} (default {conf.get('default_profile')})")
+    cmd_install(); cmd_sync()
+    return cmd_doctor()
+
 def main():
     a = sys.argv[1:]
     if not a or a[0] in ("-h", "--help"):
         print(__doc__); return
     cmd = a[0]
-    if cmd == "install":
-        dst = Path.home() / ".claude" / "agents"; dst.mkdir(parents=True, exist_ok=True)
-        for f in (REPO / "agents").glob("*.md"):
-            shutil.copy(f, dst / f.name)
-        print(f"installed agents to {dst}"); return
+    if cmd in ("setup", "doctor", "sync", "install"):
+        sys.exit({"setup": cmd_setup, "doctor": cmd_doctor, "sync": cmd_sync, "install": cmd_install}[cmd]() or 0)
+    if cmd == "save":
+        extra = [a[i + 1] for i, x in enumerate(a) if x == "-m" and i + 1 < len(a)]
+        sys.exit(cmd_save(a[1], a[2] if len(a) > 2 and re.match(r"\d{4}-\d\d-\d\d", a[2]) else None, extra))
     if cmd == "new":
-        like = a[a.index("--like") + 1] if "--like" in a else "sheffield-bill"
-        p = jload(REPO / "profiles" / like / "profile.json")
-        p.update({"name": a[1], "created": _date.today().isoformat(), "owner": "", "intent": "", "city": "", "areas": [],
-                  "sources": [], "anchors": [], "vibe": {"summary": "", "model_areas": [], "likes": [], "avoid": []}})
+        like = a[a.index("--like") + 1] if "--like" in a else None
+        p = jload(REPO / "profiles" / like / "profile.json") if like else jload(T / "profile.json")
+        p.update({"name": a[1], "created": _date.today().isoformat()})
+        if like:
+            p.update({"owner": "", "intent": "", "city": "", "areas": [], "sources": [], "anchors": [],
+                      "vibe": {"summary": "", "model_areas": [], "likes": [], "avoid": []}})
         jsave(REPO / "profiles" / a[1] / "profile.json", p)
-        print(f"wrote profiles/{a[1]}/profile.json (criteria, gates and run settings copied from {like})"); return
+        print(f"wrote profiles/{a[1]}/profile.json from {'profile ' + like if like else 'templates/profile.json'}"); return
     if cmd == "preset":
         f = REPO / "profiles" / a[1] / "profile.json"; p = jload(f)
         w = jload(T / "presets.json")[a[2]]
         for k, x in zip(p["criteria"], w):
             k["w"] = x
         jsave(f, p); print(f"weights set to {a[2]} (total {sum(w)})"); return
-    if cmd == "set":
-        f = REPO / "profiles" / a[1] / "profile.json"; p = jload(f)
-        for kv in a[2:]:
+    if cmd in ("set", "config"):
+        f, kvs = (REPO / "profiles" / a[1] / "profile.json", a[2:]) if cmd == "set" else (CFG, a[1:])
+        p = jload(f)
+        for kv in kvs:
             k, v = kv.split("=", 1)
             try:
                 v = json.loads(v)
@@ -608,7 +747,7 @@ def main():
             for x in keys[:-1]:
                 node = node[int(x)] if isinstance(node, list) else node.setdefault(x, {})
             node[int(keys[-1]) if isinstance(node, list) else keys[-1]] = v
-        jsave(f, p); print(f"set {len(a) - 2} fields"); return
+        jsave(f, p); print(f"set {len(kvs)} fields in {f.relative_to(REPO)}"); return
     c = Ctx(a[1], a[2] if len(a) > 2 and re.match(r"\d{4}-\d\d-\d\d", a[2]) else None)
     opt = lambda k, d=None: a[a.index(k) + 1] if k in a else d
     {"brief": lambda: print(render_brief(c)), "scout": lambda: cmd_scout(c),
