@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "ids": [
   "H025-s11-oakbrook-road",
   "H030-s11-rosedale-road",
@@ -9,7 +9,6 @@
   "H083-s8-norton-lees-lane",
   "H032-s11-sharrow-vale-road",
   "H019-s11-harefield-road",
-  "H044-s7-falmouth-road",
   "H020-s11-junction-road",
   "H034-s7-66-vincent-road",
   "H088-s8-upper-valley-road",
@@ -18,8 +17,9 @@
   "H082-s8-norton-lees-crescent",
   "H023-s11-marmion-road",
   "H018-s11-ecclesall-road",
-  "H047-s7-machon-bank-road",
   "H080-s8-meersbrook-avenue",
-  "H057-s8-868-chesterfield-road"
+  "H057-s8-868-chesterfield-road",
+  "H062-s8-burcot-road",
+  "H039-s7-abbeydale-road"
  ]
 }

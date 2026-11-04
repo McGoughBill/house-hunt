@@ -15,7 +15,7 @@ V = finished value: median of 3 done-up same-street, same-type sales in the last
 - **tenure**: Freehold, or lease of 150+ years with no live covenant dispute.
 - **structure**: No movement, subsidence, knotweed, spray foam, non-standard build or dry rot.
 - **vacant**: Vacant possession.
-- **hall**: Front door opens into a hall, or a hall can be made for at most £5k.
+- **hall**: Front door opens into a hall, lobby or porch, never straight into a living, reception or dining room or kitchen. Fail if the listing text or floorplan shows it opens into a room, even if a hall could be made later. If neither shows where it opens, pass as unconfirmed and name it in the risk.
 
 ## Scores (1-5 each). Total = Σ(weight × score) ÷ 5
 

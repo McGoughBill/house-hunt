@@ -46,7 +46,7 @@
     {"key": "tenure", "text": "Freehold, or lease of 150+ years with no live covenant dispute."},
     {"key": "structure", "text": "No movement, subsidence, knotweed, spray foam, non-standard build or dry rot."},
     {"key": "vacant", "text": "Vacant possession."},
-    {"key": "hall", "text": "Front door opens into a hall, or a hall can be made for at most £5k."}
+    {"key": "hall", "text": "Front door opens into a hall, lobby or porch, never straight into a living, reception or dining room or kitchen. Fail if the listing text or floorplan shows it opens into a room, even if a hall could be made later. If neither shows where it opens, pass as unconfirmed and name it in the risk."}
   ],
 
   "finished_spec": "3 real bedrooms (two of 11.5 m2+), kitchen-diner of 25 m2+ at the back, separate sitting room, front door into a hall, 90-110 m2 inside.",

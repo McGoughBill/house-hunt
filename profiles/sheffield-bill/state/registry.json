@@ -892,8 +892,8 @@
      300000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -1199,8 +1199,8 @@
      265000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -2660,8 +2660,8 @@
      270000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -6537,8 +6537,8 @@
      210000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -6990,8 +6990,8 @@
      null
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -7389,8 +7389,8 @@
      260000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -7808,8 +7808,8 @@
      220000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -12349,8 +12349,8 @@
      240000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -12651,8 +12651,8 @@
      250000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
@@ -13050,8 +13050,8 @@
      280000.0
     ]
    ],
-   "status": "judged",
-   "out_reason": null,
+   "status": "out",
+   "out_reason": "hall gate: listing says the front door opens into a room (re-checked 2026-11-04)",
    "runs": [
     {
      "run": "1",
