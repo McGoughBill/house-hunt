@@ -42,3 +42,12 @@ Weekly runs repeat stages 2–7. The registry remembers every house, so each lon
 - **Interruptions.** Under the Agent tool, interrupting the main session killed the agents still running, without warning. `run_agents.py` keeps agents outside the main session, and rerunning it resumes; `hh.py orphans --reset` covers the Agent-tool fallback.
 - **Agent output.** Agents write JSON to a file and reply in one line. Never read their files into the orchestrator's context.
 - **Saved skills.** A saved copy of `SKILL.md` lacks the scripts, so it must clone this repo first. The repo's copy always wins.
+
+## Off-portal method (from 8 Nov 2026)
+
+Bill's default profile is `sheffield-offportal`: 3+ beds, asking at most £300k, same areas and gates as `sheffield-bill`.
+- Sources are agents' own sites, auctions, other independent agents, online and hybrid agents, probate and executor listings, small auctions and private sales. Every source desc bans Rightmove, Zoopla, PrimeLocation, OnTheMarket and Jitty.
+- Probate comes only from listings that say so. Never search death notices, obituaries, funeral pages or probate registers, and never link a named person to an address.
+- Agent-tool fallback: give each agent one or two prompts and limit it to WebSearch, WebFetch, Read and Write. Agents given four judge prompts ran out of web searches and left V null; untold agents wandered into browser and other tools.
+- Top-up covers the top 20 (run.topup_n).
+

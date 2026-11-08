@@ -1,12 +1,17 @@
 {
  "skill": "house-hunt",
- "version": "2026-11-04.2",
+ "version": "2026-11-08.1",
  "remote": "McGoughBill/house-hunt",
- "default_profile": "sheffield-bill",
+ "default_profile": "sheffield-offportal",
  "profiles": {
   "sheffield-bill": {
    "owner": "Bill",
-   "schedule": "weekly, Monday 18:44 Europe/London, scheduled task House hunt weekly (trig_01J8YcMGnbVLfqM5FF6KxqtM)",
+   "schedule": "retired 8 Nov 2026 (portal-based); replaced by sheffield-offportal",
+   "notify": "push when a new house enters the shortlist"
+  },
+  "sheffield-offportal": {
+   "owner": "Bill",
+   "schedule": "weekly, Monday 18:44 Europe/London from 16 Nov 2026, scheduled task House hunt weekly (trig_01J8YcMGnbVLfqM5FF6KxqtM)",
    "notify": "push when a new house enters the shortlist"
   }
  },

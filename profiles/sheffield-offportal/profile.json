@@ -502,7 +502,7 @@
  "run": {
   "concurrency": 20,
   "first_runs": 1,
-  "topup_n": 10,
+  "topup_n": 20,
   "topup_runs": 3,
   "shortlist_n": 20,
   "reprice_min_change": 0.02

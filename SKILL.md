@@ -5,7 +5,7 @@ description: Run a house-buying search pipeline for any city. Haiku agents searc
 
 # House hunt
 
-Skill version: `2026-11-04.2` · Home repo: `McGoughBill/house-hunt` (private)
+Skill version: `2026-11-08.1` · Home repo: `McGoughBill/house-hunt` (private)
 
 This repo is the skill. `SKILL.md` sits at its root beside everything it uses: the scripts, prompt templates, agent definitions, the buyers' profiles and their saved state. Nothing lives outside it except installed copies of the agents. A saved copy of this file is only a way back here.
 
