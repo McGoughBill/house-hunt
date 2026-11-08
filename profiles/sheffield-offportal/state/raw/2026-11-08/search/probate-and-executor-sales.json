@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Hunstone Avenue",
+    "area": "Sheffield (S8, Woodseats side; not confirmed)",
+    "postcode_district": "S8",
+    "price_gbp": 300000,
+    "price_text": "£300,000 (from search-result title only; no price on live page)",
+    "property_type": "semi-detached",
+    "beds": 3,
+    "baths": 1,
+    "receptions": 2,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "leasehold (lease length not given: 'contact branch')",
+    "condition": "unknown",
+    "features": "double garage, long driveway, rear garden, large loft with possible development subject to consents, conservatory, separate WC",
+    "flags": ["probate", "leasehold"],
+    "agent": "Blundells",
+    "url": "https://www.blundells.com/properties/21666117/sales/WDS260241",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "Probate and executor sales",
+    "notes": "Marketed subject to grant of probate, on behalf of a corporate client. Postcode shown only as 'S8 3'. Price £300,000 taken from search title, not the live page. Area fit to brief not confirmed."
+  }
+]

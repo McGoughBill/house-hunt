@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Woodseats Road",
+    "area": "Woodseats",
+    "postcode_district": "S8",
+    "price_gbp": 220000,
+    "price_text": "Guide Price £220,000 - £230,000",
+    "property_type": "terrace",
+    "beds": 3,
+    "baths": 1,
+    "receptions": 2,
+    "floor_area_m2": 113,
+    "floor_area_source": "listing",
+    "tenure": "freehold",
+    "condition": "unknown",
+    "features": "mid-terrace; 2 reception rooms; larger-than-average rear garden with patio and lawn; council tax band A; EPC D per description",
+    "flags": ["no chain"],
+    "agent": "Redbrik (Sheffield branch)",
+    "url": "https://www.redbrik.co.uk/properties-for-sale/woodseats-road-sheffield-s-8/67353e3f-1a76-47ef-8cd1-1fa8a2dc84cc",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "Redbrik",
+    "notes": "Listing gives 1,216 sq ft, converted to about 113 m². Described as move-in ready and a blank canvas. Sold via Redbrik SecureMove."
+  }
+]

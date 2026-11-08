@@ -1,0 +1,27 @@
+[
+  {
+    "street": "791 Ecclesall Road",
+    "area": "Banner Cross",
+    "postcode_district": "S11",
+    "price_gbp": 235000,
+    "price_text": "Price Guide £235,000",
+    "property_type": null,
+    "beds": 4,
+    "baths": null,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": null,
+    "condition": "unknown",
+    "features": null,
+    "flags": [],
+    "agent": "Eadon Lockwood & Riddle",
+    "url": "https://www.elr.co.uk/properties/20905867/sales",
+    "date_listed": null,
+    "status": "for sale (per search snippet)",
+    "verified": false,
+    "known": false,
+    "source": "Eadon Lockwood & Riddle",
+    "notes": "Listing page returned server errors on two fetches; price and bedrooms taken from search snippet only, not opened this session."
+  }
+]

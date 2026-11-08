@@ -1,0 +1,7 @@
+{"id": "H0001-s11-791-ecclesall-road", "run": "1", "live": false, "listing_url": "https://www.rightmove.co.uk/properties/165455975", "asking": 235000, "floor_area_m2": 101,
+ "house_type": "terrace",
+ "gates": {"area": {"pass": null, "reason": "not assessed: house sold"}, "budget": {"pass": null, "reason": "not assessed: house sold"}, "tenure": {"pass": null, "reason": "not assessed: house sold; Rightmove lists freehold"}, "structure": {"pass": null, "reason": "not assessed: house sold"}, "vacant": {"pass": null, "reason": "not assessed: house sold; dealsourcr title says Single Let"}, "hall": {"pass": null, "reason": "not assessed: house sold"}},
+ "V": null, "v_basis": "not scored: house sold", "W": null, "w_basis": "not scored: house sold", "C": null,
+ "scores": [],
+ "anchors": {},
+ "verdict": null, "biggest_risk": "House sold freehold on 26 Feb 2026 for £250,000 per Land Registry data, so the listing is stale and no longer available", "sources": ["https://www.rightmove.co.uk/properties/165455975", "https://media.rightmove.co.uk/property-brochure/f0e17f8f7/165455975/f0e17f8f7773fa4fcca3fbc0eb33e5ab.pdf", "https://dealsourcr.com/deal/rm-165455975/4-bed-terraced-house-single-let-sheffield-s11-8th", "https://domovita.co.uk/sold-prices/street/s11/ecclesall-road", "https://www.rightmove.co.uk/house-prices/s11/ecclesall-road.html"]}
