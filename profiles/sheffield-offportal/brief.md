@@ -1,6 +1,6 @@
 # Scoring brief: sheffield-offportal
 
-Off-portal sweep (3 beds, ≤ £300k): Buy the best-value house in south Sheffield: cheap against its fundamentals (space, layout, 3 beds), front door into a hall, room to extend out or up. Refurb it fully while renting elsewhere, then live in it. Works budget up to about £250k from family loans.
+Off-portal sweep (3 beds, ≤ £325k; Meersbrook and neighbours, or near Endcliffe Park): Buy the best-value house in south Sheffield: cheap against its fundamentals (space, layout, 3 beds), front door into a hall, room to extend out or up. Refurb it fully while renting elsewhere, then live in it. Works budget up to about £250k from family loans.
 
 **Vibe:** Young-professional, characterful period house (Victorian/Edwardian bay terrace or 1930s semi), walkable to a big park and an independent high street, owner-occupied streets. Not a suburban estate, not a student area.
 
@@ -11,7 +11,7 @@ V = finished value: median of 3 done-up same-street, same-type sales in the last
 ## Gates (pass/fail; any fail = REJECT)
 
 - **area**: In one of the search areas above.
-- **budget**: Asking at most £300,000; asking + 1.15W + C at most £400,000.
+- **budget**: Asking at most £325,000; asking + 1.15W + C at most £425,000.
 - **tenure**: Freehold, or lease of 150+ years with no live covenant dispute.
 - **structure**: No movement, subsidence, knotweed, spray foam, non-standard build or dry rot.
 - **vacant**: Vacant possession.

@@ -45,9 +45,10 @@ Weekly runs repeat stages 2–7. The registry remembers every house, so each lon
 
 ## Off-portal method (from 8 Nov 2026)
 
-Bill's default profile is `sheffield-offportal`: 3+ beds, asking at most £300k, same areas and gates as `sheffield-bill`.
+Bill's default profile is `sheffield-offportal`: 3+ beds, asking at most £325k (all-in £425k), same gates as `sheffield-bill`. From 9 Nov 2026 its areas are Meersbrook and neighbours (Heeley S2/S8, Norton Lees, Woodseats, Nether Edge, Brincliffe, Sharrow, Abbeydale, Carterknowle, Millhouses) and the Endcliffe Park side of S11 (Hunters Bar, Endcliffe, Greystones, Sharrow Vale, Ecclesall Road, Nether Green, Banner Cross). Crookes and Walkley are out.
 - Sources are agents' own sites, auctions, other independent agents, online and hybrid agents, probate and executor listings, small auctions and private sales. Every source desc bans Rightmove, Zoopla, PrimeLocation, OnTheMarket and Jitty.
 - Probate comes only from listings that say so. Never search death notices, obituaries, funeral pages or probate registers, and never link a named person to an address.
 - Agent-tool fallback: give each agent one or two prompts and limit it to WebSearch, WebFetch, Read and Write. Agents given four judge prompts ran out of web searches and left V null; untold agents wandered into browser and other tools.
 - Top-up covers the top 20 (run.topup_n).
 
+- Purplebricks keeps old listing pages live. Treat a Purplebricks house as unconfirmed until a dated detail (open-house date, 'added on') shows it is current.

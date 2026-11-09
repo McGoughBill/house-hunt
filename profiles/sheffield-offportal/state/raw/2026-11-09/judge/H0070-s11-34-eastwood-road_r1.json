@@ -1,0 +1,7 @@
+{"id": "H0070-s11-34-eastwood-road", "run": "1", "live": false, "listing_url": "https://www.elr.co.uk/properties/19981201/sales", "asking": 225000, "floor_area_m2": 93,
+ "house_type": "terrace",
+ "gates": {"area": {"pass": true, "reason": "est.: Sharrow Vale, S11, near Endcliffe Park; not checked on a map"}, "budget": {"pass": true, "reason": "Asking 225000 is at most 325000; 1.15W + C test not run because the house is sold"}, "tenure": {"pass": true, "reason": "Leasehold, 675 years left, ground rent 11 per year; no covenant dispute stated"}, "structure": {"pass": true, "reason": "unconfirmed: no survey or structural information in listing"}, "vacant": {"pass": true, "reason": "unconfirmed: listing says available with no onward chain and previously let; vacant possession not stated"}, "hall": {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into a hall or a room"}},
+ "V": null, "v_basis": "not computed: listing sold STC; domovita Eastwood Road page 2 lists only 1995-1997 sales, not done-up comparables", "W": null, "w_basis": "not priced: listing sold", "C": null,
+ "scores": [],
+ "anchors": {},
+ "verdict": "REJECT", "biggest_risk": "Listing marked Sold STC and no longer on market; ELR page could not be read, details taken from Rightmove and OnTheMarket copies", "sources": ["https://www.rightmove.co.uk/properties/153316418", "https://onthemarket.com/details/13990127", "https://domovita.co.uk/sold-prices/street/s11/eastwood-road?start=50"]}

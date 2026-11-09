@@ -1,510 +1,497 @@
 {
- "name": "sheffield-offportal",
- "owner": "Bill",
- "created": "2026-11-08",
- "country": "UK",
- "currency": "£",
- "city": "Sheffield",
- "intent": "Off-portal sweep (3 beds, ≤ £300k): Buy the best-value house in south Sheffield: cheap against its fundamentals (space, layout, 3 beds), front door into a hall, room to extend out or up. Refurb it fully while renting elsewhere, then live in it. Works budget up to about £250k from family loans.",
- "vibe": {
-  "summary": "Young-professional, characterful period house (Victorian/Edwardian bay terrace or 1930s semi), walkable to a big park and an independent high street, owner-occupied streets. Not a suburban estate, not a student area.",
-  "model_areas": [
-   "Meersbrook",
-   "Nether Edge"
+  "name": "sheffield-offportal",
+  "owner": "Bill",
+  "created": "2026-11-08",
+  "country": "UK",
+  "currency": "£",
+  "city": "Sheffield",
+  "intent": "Off-portal sweep (3 beds, ≤ £325k; Meersbrook and neighbours, or near Endcliffe Park): Buy the best-value house in south Sheffield: cheap against its fundamentals (space, layout, 3 beds), front door into a hall, room to extend out or up. Refurb it fully while renting elsewhere, then live in it. Works budget up to about £250k from family loans.",
+  "vibe": {
+    "summary": "Young-professional, characterful period house (Victorian/Edwardian bay terrace or 1930s semi), walkable to a big park and an independent high street, owner-occupied streets. Not a suburban estate, not a student area.",
+    "model_areas": [
+      "Meersbrook",
+      "Endcliffe Park side (Hunters Bar, Greystones)"
+    ],
+    "likes": [
+      "big park within 10 min walk",
+      "independent high street (Abbeydale Rd, Chesterfield Rd, Sharrow Vale, Crookes Rd)",
+      "period features",
+      "tidy owner-occupied fronts"
+    ],
+    "avoid": [
+      "student HMOs",
+      "main roads and rat-runs",
+      "very steep streets with no parking",
+      "new-build estates"
+    ]
+  },
+  "anchors": [
+    {
+      "name": "Sheffield railway station",
+      "note": "nice to have, not required",
+      "weight": 0
+    }
   ],
-  "likes": [
-   "big park within 10 min walk",
-   "independent high street (Abbeydale Rd, Chesterfield Rd, Sharrow Vale, Crookes Rd)",
-   "period features",
-   "tidy owner-occupied fronts"
+  "areas": [
+    {
+      "district": "S8",
+      "neighbourhoods": [
+        "Meersbrook",
+        "Heeley",
+        "Norton Lees",
+        "Woodseats"
+      ],
+      "only_these": true
+    },
+    {
+      "district": "S2",
+      "neighbourhoods": [
+        "Heeley",
+        "Heeley Green"
+      ],
+      "only_these": true
+    },
+    {
+      "district": "S7",
+      "neighbourhoods": [
+        "Nether Edge",
+        "Brincliffe",
+        "Sharrow",
+        "Abbeydale",
+        "Carterknowle",
+        "Millhouses"
+      ],
+      "only_these": true
+    },
+    {
+      "district": "S11",
+      "neighbourhoods": [
+        "Hunters Bar",
+        "Endcliffe",
+        "Greystones",
+        "Sharrow Vale",
+        "Ecclesall Road",
+        "Nether Green",
+        "Banner Cross",
+        "Brincliffe"
+      ],
+      "only_these": true
+    }
   ],
-  "avoid": [
-   "student HMOs",
-   "main roads and rat-runs",
-   "very steep streets with no parking",
-   "new-build estates"
-  ]
- },
- "anchors": [
-  {
-   "name": "Sheffield railway station",
-   "note": "nice to have, not required",
-   "weight": 0
+  "search": {
+    "price_min": 150000,
+    "price_max": 325000,
+    "allin_max": 425000,
+    "beds_min": 3,
+    "size_min_m2": 80,
+    "types": [
+      "terrace",
+      "end-terrace",
+      "semi",
+      "detached",
+      "cottage"
+    ],
+    "exclude": [
+      "flat",
+      "maisonette",
+      "park home",
+      "shared ownership",
+      "retirement / over-55",
+      "new-build development"
+    ],
+    "keywords": [
+      "modernisation",
+      "refurbishment",
+      "renovation",
+      "probate",
+      "executors",
+      "no chain",
+      "scope to extend",
+      "potential",
+      "guide price",
+      "executor sale",
+      "deceased estate",
+      "grant of probate",
+      "vacant",
+      "cash buyers"
+    ],
+    "record": [
+      "needs work",
+      "probate",
+      "no chain",
+      "price reduced",
+      "long on market",
+      "scope to extend or convert loft",
+      "kitchen-diner",
+      "cellar",
+      "attic room",
+      "parking",
+      "garden",
+      "tenure and lease length",
+      "cash buyers only",
+      "main road"
+    ]
+  },
+  "gates": [
+    {
+      "key": "area",
+      "text": "In one of the search areas above."
+    },
+    {
+      "key": "budget",
+      "text": "Asking at most {price_max}; asking + 1.15W + C at most {allin_max}."
+    },
+    {
+      "key": "tenure",
+      "text": "Freehold, or lease of 150+ years with no live covenant dispute."
+    },
+    {
+      "key": "structure",
+      "text": "No movement, subsidence, knotweed, spray foam, non-standard build or dry rot."
+    },
+    {
+      "key": "vacant",
+      "text": "Vacant possession."
+    },
+    {
+      "key": "hall",
+      "text": "Front door opens into a hall, lobby or porch, never straight into a living, reception or dining room or kitchen. Fail if the listing text or floorplan shows it opens into a room, even if a hall could be made later. If neither shows where it opens, pass as unconfirmed and name it in the risk."
+    }
+  ],
+  "finished_spec": "3 real bedrooms (two of 11.5 m2+), kitchen-diner of 25 m2+ at the back, separate sitting room, front door into a hall, 90-110 m2 inside.",
+  "buy_test": {
+    "headroom": 0.9,
+    "contingency": 1.15,
+    "fees": 3000,
+    "tax_note": "Stamp duty as a first-time buyer: nil up to £300k, 5% from £300k to £500k.",
+    "tax_bands": [
+      [
+        300000,
+        0.0
+      ],
+      [
+        500000,
+        0.05
+      ]
+    ],
+    "comps_sources": "Rightmove sold prices, Zoopla, Land Registry via domovita / housemetric / propertyengine / doogal; Housemetric joins EPC floor areas to sales"
+  },
+  "criteria": [
+    {
+      "n": 1,
+      "name": "£/m² as bought ÷ done-up street £/m²",
+      "w": 15,
+      "bands": [
+        "> 85%",
+        "78-85%",
+        "70-78%",
+        "60-70%",
+        "< 60%"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Margin: 0.9V − 1.15W − C − asking",
+      "w": 10,
+      "bands": [
+        "< 0",
+        "0-10k",
+        "10-25k",
+        "25-40k",
+        "> 40k"
+      ],
+      "computed": "margin",
+      "cuts": [
+        0,
+        10000,
+        25000,
+        40000
+      ]
+    },
+    {
+      "n": 3,
+      "name": "V ÷ street max sale (2 yrs)",
+      "w": 5,
+      "bands": [
+        "> 100%",
+        "95-100%",
+        "90-95%",
+        "80-90%",
+        "< 80%"
+      ]
+    },
+    {
+      "n": 4,
+      "name": "V ÷ sector max sale (2 yrs)",
+      "w": 4,
+      "bands": [
+        "> 100%",
+        "90-100%",
+        "80-90%",
+        "70-80%",
+        "< 70%"
+      ]
+    },
+    {
+      "n": 5,
+      "name": "Floor area now",
+      "w": 8,
+      "bands": [
+        "< 70 m²",
+        "70-80",
+        "80-90",
+        "90-100",
+        "> 100 m²"
+      ]
+    },
+    {
+      "n": 6,
+      "name": "Bedrooms",
+      "w": 5,
+      "bands": [
+        "3rd needs extension",
+        "3rd needs loft",
+        "3rd needs attic sign-off",
+        "3 now, one small",
+        "3 now, two ≥ 11.5 m²"
+      ]
+    },
+    {
+      "n": 7,
+      "name": "Kitchen-diner route",
+      "w": 6,
+      "bands": [
+        "none",
+        "2-storey or large ext.",
+        "single-storey rear ext.",
+        "side-return infill",
+        "exists or one knock-through"
+      ]
+    },
+    {
+      "n": 8,
+      "name": "Extension headroom (garden ≥ 10 m; loft fits; neighbours extended)",
+      "w": 6,
+      "bands": [
+        "none",
+        "1 weak",
+        "1",
+        "2",
+        "all 3"
+      ]
+    },
+    {
+      "n": 9,
+      "name": "Work complexity",
+      "w": 4,
+      "bands": [
+        "loft + extension",
+        "single-storey ext.",
+        "steel beam / structural",
+        "rewire or heating",
+        "decor, kitchen, bath only"
+      ]
+    },
+    {
+      "n": 10,
+      "name": "Months to happily live there",
+      "w": 3,
+      "bands": [
+        "> 18",
+        "13-18",
+        "7-12",
+        "4-6",
+        "≤ 3"
+      ]
+    },
+    {
+      "n": 11,
+      "name": "Unknowns (damp, roof, cellar, survey flags)",
+      "w": 3,
+      "bands": [
+        "several serious",
+        "one serious",
+        "minor, cause unclear",
+        "minor, cause clear",
+        "none"
+      ]
+    },
+    {
+      "n": 12,
+      "name": "Street quality (owner-occupied, tidy fronts, few letting boards, no main road or rat-run)",
+      "w": 6,
+      "bands": [
+        "most fail",
+        "2 fail",
+        "1 fails",
+        "all pass, plain",
+        "all pass, sought after"
+      ]
+    },
+    {
+      "n": 13,
+      "name": "Walk to park",
+      "w": 4,
+      "bands": [
+        "> 20 min",
+        "15-20",
+        "10-15",
+        "5-10",
+        "≤ 5 min"
+      ]
+    },
+    {
+      "n": 14,
+      "name": "Walk to big supermarket",
+      "w": 2,
+      "bands": [
+        "drive only",
+        "20-25 min",
+        "15-20",
+        "10-15",
+        "≤ 10 min"
+      ]
+    },
+    {
+      "n": 15,
+      "name": "Parking and slope",
+      "w": 1,
+      "bands": [
+        "no parking, steep",
+        "one bad",
+        "hard parking, level",
+        "easy on-street",
+        "drive, level"
+      ]
+    },
+    {
+      "n": 16,
+      "name": "Inside bones (light, ceiling height, period features, scope to open up)",
+      "w": 5,
+      "bands": [
+        "poor",
+        "below average",
+        "average",
+        "good",
+        "excellent"
+      ]
+    },
+    {
+      "n": 17,
+      "name": "Outside (stone or good brick, bay, front garden, terrace hangs together)",
+      "w": 5,
+      "bands": [
+        "ugly or tired street",
+        "plain, worn",
+        "plain, tidy",
+        "attractive",
+        "handsome"
+      ]
+    },
+    {
+      "n": 18,
+      "name": "Uplift: V ÷ asking",
+      "w": 8,
+      "bands": [
+        "< 1.10",
+        "1.10-1.20",
+        "1.20-1.30",
+        "1.30-1.45",
+        "> 1.45"
+      ],
+      "computed": "uplift",
+      "cuts": [
+        1.1,
+        1.2,
+        1.3,
+        1.45
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "BTG Eddisons auctions",
+      "desc": "BTG Eddisons Property Auctions (btgeddisonspropertyauctions.com), incl. Mark Jenkinson and SDL. Sheffield office page btgeddisonspropertyauctions.com/offices/sheffield. Upcoming lots only. Price = guide. Add flag auction. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Auction aggregators",
+      "desc": "EIG (eigpropertyauctions.co.uk/search/residential/sheffield), Allsop, propertyauctions.io, Auction House South Yorkshire, Pugh. Upcoming lots only. Price = guide. Name the auctioneer in agent; add flag auction. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Blundells",
+      "desc": "Estate agent Blundells (blundells.com): Woodseats S8 and Banner Cross S11 branches, plus Hillsborough for Walkley. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Hunters",
+      "desc": "Estate agent Hunters (hunters.com): Woodseats S8, Hunters Bar S11, Crookes S10 offices. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Whitehornes",
+      "desc": "Estate agent Whitehorne Independent ('Whitehornes', 'Whitehorn Estate Agents', whitehornes.co.uk): Chesterfield Road S8 and Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "SK Estate Agents",
+      "desc": "Estate agent SK Estate Agents, 868 Chesterfield Road, Woodseats S8. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Staves",
+      "desc": "Estate agent Staves (stavesestateagents.co.uk): Woodseats S8 and Psalter Lane S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Reeds Rains",
+      "desc": "Estate agent Reeds Rains (reedsrains.co.uk), Woodseats branch. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Saxton Mee",
+      "desc": "Estate agent Saxton Mee (saxtonmee.co.uk): Banner Cross S11, Crookes S10, Hillsborough (for Walkley). OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Eadon Lockwood & Riddle",
+      "desc": "Estate agent ELR (elr.co.uk), Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Haybrook",
+      "desc": "Estate agent Haybrook (haybrook.com): Banner Cross S11 and Crookes S10. Listing pages look like haybrook.com/buying/... OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Redbrik",
+      "desc": "Estate agent Redbrik (redbrik.co.uk), West Sheffield branch, Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Spencer",
+      "desc": "Estate agent Spencer (spencersestateagents.co.uk), Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "haus",
+      "desc": "Estate agent haus (haushomes.co.uk), Nether Edge and nearby period homes. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Other independent agents",
+      "desc": "Any estate agent with an office or listings in S2, S7, S8 or S11 that is NOT one of: BTG Eddisons auctions, Auction aggregators, Blundells, Hunters, Whitehornes, SK Estate Agents, Staves, Reeds Rains, Saxton Mee, Eadon Lockwood & Riddle, Haybrook, Redbrik, Spencer, haus, Williams & Co, Walkley agents. First find such agents (web search for estate agents in Meersbrook, Heeley, Woodseats, Nether Edge, Hunters Bar, Greystones, Ecclesall Road), then search each one's own website for qualifying houses. Name the agent in `agent`. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Online and hybrid agents",
+      "desc": "Online and hybrid agents' own websites, Sheffield listings only: Purplebricks, Yopa, Strike, eXp UK, Keller Williams, Fine & Country, Andrews, Bairstow Eves, Connells, Your Move. Name the agent in `agent`. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Probate and executor sales",
+      "desc": "Houses sold by executors or as probate: search agents' own sites, auction sites and solicitors' property pages for the words probate, executor sale, deceased estate, grant of probate, no onward chain, vacant possession, in the search areas. Add flag probate when the listing says so. Use only property listings: never death notices, obituaries, funeral pages or probate registers, and never link a named person to an address. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Modern-method and small auctions",
+      "desc": "Upcoming lots only from auctioneers not already covered: iamsold (iamsold.co.uk), Pattinson Auctions, Bidx1, Auction House South Yorkshire, Town & Country Property Auctions, SDL Property Auctions online. Price = guide. Add flag auction and note any reservation fee or buyer's premium. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    },
+    {
+      "name": "Private sales and classifieds",
+      "desc": "Houses sold by owners or listed outside agents: Gumtree property for sale (Sheffield), TheHouseShop (thehouseshop.com) private sellers, Sheffield Star and Sheffield Telegraph property pages. Houses for sale only; skip rentals and wanted ads. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+    }
+  ],
+  "run": {
+    "concurrency": 20,
+    "first_runs": 1,
+    "topup_n": 20,
+    "topup_runs": 3,
+    "shortlist_n": 20,
+    "reprice_min_change": 0.02
   }
- ],
- "areas": [
-  {
-   "district": "S7",
-   "neighbourhoods": [
-    "Nether Edge",
-    "Sharrow",
-    "Carterknowle",
-    "Millhouses",
-    "Abbeydale",
-    "Beauchief",
-    "Brincliffe"
-   ]
-  },
-  {
-   "district": "S8",
-   "neighbourhoods": [
-    "Meersbrook",
-    "Woodseats",
-    "Norton Lees"
-   ],
-   "only_these": true
-  },
-  {
-   "district": "S11",
-   "neighbourhoods": [
-    "Greystones",
-    "Hunters Bar",
-    "Ecclesall",
-    "Banner Cross",
-    "Bents Green",
-    "Nether Green",
-    "Endcliffe",
-    "Sharrow Vale",
-    "Ecclesall Road"
-   ]
-  },
-  {
-   "district": "S10",
-   "neighbourhoods": [
-    "Crookes"
-   ],
-   "only_these": true
-  },
-  {
-   "district": "S6",
-   "neighbourhoods": [
-    "Walkley"
-   ],
-   "only_these": true
-  }
- ],
- "search": {
-  "price_min": 150000,
-  "price_max": 300000,
-  "allin_max": 400000,
-  "beds_min": 3,
-  "size_min_m2": 80,
-  "types": [
-   "terrace",
-   "end-terrace",
-   "semi",
-   "detached",
-   "cottage"
-  ],
-  "exclude": [
-   "flat",
-   "maisonette",
-   "park home",
-   "shared ownership",
-   "retirement / over-55",
-   "new-build development"
-  ],
-  "keywords": [
-   "modernisation",
-   "refurbishment",
-   "renovation",
-   "probate",
-   "executors",
-   "no chain",
-   "scope to extend",
-   "potential",
-   "guide price",
-   "executor sale",
-   "deceased estate",
-   "grant of probate",
-   "vacant",
-   "cash buyers"
-  ],
-  "record": [
-   "needs work",
-   "probate",
-   "no chain",
-   "price reduced",
-   "long on market",
-   "scope to extend or convert loft",
-   "kitchen-diner",
-   "cellar",
-   "attic room",
-   "parking",
-   "garden",
-   "tenure and lease length",
-   "cash buyers only",
-   "main road"
-  ]
- },
- "gates": [
-  {
-   "key": "area",
-   "text": "In one of the search areas above."
-  },
-  {
-   "key": "budget",
-   "text": "Asking at most {price_max}; asking + 1.15W + C at most {allin_max}."
-  },
-  {
-   "key": "tenure",
-   "text": "Freehold, or lease of 150+ years with no live covenant dispute."
-  },
-  {
-   "key": "structure",
-   "text": "No movement, subsidence, knotweed, spray foam, non-standard build or dry rot."
-  },
-  {
-   "key": "vacant",
-   "text": "Vacant possession."
-  },
-  {
-   "key": "hall",
-   "text": "Front door opens into a hall, lobby or porch, never straight into a living, reception or dining room or kitchen. Fail if the listing text or floorplan shows it opens into a room, even if a hall could be made later. If neither shows where it opens, pass as unconfirmed and name it in the risk."
-  }
- ],
- "finished_spec": "3 real bedrooms (two of 11.5 m2+), kitchen-diner of 25 m2+ at the back, separate sitting room, front door into a hall, 90-110 m2 inside.",
- "buy_test": {
-  "headroom": 0.9,
-  "contingency": 1.15,
-  "fees": 3000,
-  "tax_note": "Stamp duty as a first-time buyer: nil up to £300k, 5% from £300k to £500k.",
-  "tax_bands": [
-   [
-    300000,
-    0.0
-   ],
-   [
-    500000,
-    0.05
-   ]
-  ],
-  "comps_sources": "Rightmove sold prices, Zoopla, Land Registry via domovita / housemetric / propertyengine / doogal; Housemetric joins EPC floor areas to sales"
- },
- "criteria": [
-  {
-   "n": 1,
-   "name": "£/m² as bought ÷ done-up street £/m²",
-   "w": 15,
-   "bands": [
-    "> 85%",
-    "78-85%",
-    "70-78%",
-    "60-70%",
-    "< 60%"
-   ]
-  },
-  {
-   "n": 2,
-   "name": "Margin: 0.9V − 1.15W − C − asking",
-   "w": 10,
-   "bands": [
-    "< 0",
-    "0-10k",
-    "10-25k",
-    "25-40k",
-    "> 40k"
-   ],
-   "computed": "margin",
-   "cuts": [
-    0,
-    10000,
-    25000,
-    40000
-   ]
-  },
-  {
-   "n": 3,
-   "name": "V ÷ street max sale (2 yrs)",
-   "w": 5,
-   "bands": [
-    "> 100%",
-    "95-100%",
-    "90-95%",
-    "80-90%",
-    "< 80%"
-   ]
-  },
-  {
-   "n": 4,
-   "name": "V ÷ sector max sale (2 yrs)",
-   "w": 4,
-   "bands": [
-    "> 100%",
-    "90-100%",
-    "80-90%",
-    "70-80%",
-    "< 70%"
-   ]
-  },
-  {
-   "n": 5,
-   "name": "Floor area now",
-   "w": 8,
-   "bands": [
-    "< 70 m²",
-    "70-80",
-    "80-90",
-    "90-100",
-    "> 100 m²"
-   ]
-  },
-  {
-   "n": 6,
-   "name": "Bedrooms",
-   "w": 5,
-   "bands": [
-    "3rd needs extension",
-    "3rd needs loft",
-    "3rd needs attic sign-off",
-    "3 now, one small",
-    "3 now, two ≥ 11.5 m²"
-   ]
-  },
-  {
-   "n": 7,
-   "name": "Kitchen-diner route",
-   "w": 6,
-   "bands": [
-    "none",
-    "2-storey or large ext.",
-    "single-storey rear ext.",
-    "side-return infill",
-    "exists or one knock-through"
-   ]
-  },
-  {
-   "n": 8,
-   "name": "Extension headroom (garden ≥ 10 m; loft fits; neighbours extended)",
-   "w": 6,
-   "bands": [
-    "none",
-    "1 weak",
-    "1",
-    "2",
-    "all 3"
-   ]
-  },
-  {
-   "n": 9,
-   "name": "Work complexity",
-   "w": 4,
-   "bands": [
-    "loft + extension",
-    "single-storey ext.",
-    "steel beam / structural",
-    "rewire or heating",
-    "decor, kitchen, bath only"
-   ]
-  },
-  {
-   "n": 10,
-   "name": "Months to happily live there",
-   "w": 3,
-   "bands": [
-    "> 18",
-    "13-18",
-    "7-12",
-    "4-6",
-    "≤ 3"
-   ]
-  },
-  {
-   "n": 11,
-   "name": "Unknowns (damp, roof, cellar, survey flags)",
-   "w": 3,
-   "bands": [
-    "several serious",
-    "one serious",
-    "minor, cause unclear",
-    "minor, cause clear",
-    "none"
-   ]
-  },
-  {
-   "n": 12,
-   "name": "Street quality (owner-occupied, tidy fronts, few letting boards, no main road or rat-run)",
-   "w": 6,
-   "bands": [
-    "most fail",
-    "2 fail",
-    "1 fails",
-    "all pass, plain",
-    "all pass, sought after"
-   ]
-  },
-  {
-   "n": 13,
-   "name": "Walk to park",
-   "w": 4,
-   "bands": [
-    "> 20 min",
-    "15-20",
-    "10-15",
-    "5-10",
-    "≤ 5 min"
-   ]
-  },
-  {
-   "n": 14,
-   "name": "Walk to big supermarket",
-   "w": 2,
-   "bands": [
-    "drive only",
-    "20-25 min",
-    "15-20",
-    "10-15",
-    "≤ 10 min"
-   ]
-  },
-  {
-   "n": 15,
-   "name": "Parking and slope",
-   "w": 1,
-   "bands": [
-    "no parking, steep",
-    "one bad",
-    "hard parking, level",
-    "easy on-street",
-    "drive, level"
-   ]
-  },
-  {
-   "n": 16,
-   "name": "Inside bones (light, ceiling height, period features, scope to open up)",
-   "w": 5,
-   "bands": [
-    "poor",
-    "below average",
-    "average",
-    "good",
-    "excellent"
-   ]
-  },
-  {
-   "n": 17,
-   "name": "Outside (stone or good brick, bay, front garden, terrace hangs together)",
-   "w": 5,
-   "bands": [
-    "ugly or tired street",
-    "plain, worn",
-    "plain, tidy",
-    "attractive",
-    "handsome"
-   ]
-  },
-  {
-   "n": 18,
-   "name": "Uplift: V ÷ asking",
-   "w": 8,
-   "bands": [
-    "< 1.10",
-    "1.10-1.20",
-    "1.20-1.30",
-    "1.30-1.45",
-    "> 1.45"
-   ],
-   "computed": "uplift",
-   "cuts": [
-    1.1,
-    1.2,
-    1.3,
-    1.45
-   ]
-  }
- ],
- "sources": [
-  {
-   "name": "BTG Eddisons auctions",
-   "desc": "BTG Eddisons Property Auctions (btgeddisonspropertyauctions.com), incl. Mark Jenkinson and SDL. Sheffield office page btgeddisonspropertyauctions.com/offices/sheffield. Upcoming lots only. Price = guide. Add flag auction. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Auction aggregators",
-   "desc": "EIG (eigpropertyauctions.co.uk/search/residential/sheffield), Allsop, propertyauctions.io, Auction House South Yorkshire, Pugh. Upcoming lots only. Price = guide. Name the auctioneer in agent; add flag auction. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Blundells",
-   "desc": "Estate agent Blundells (blundells.com): Woodseats S8 and Banner Cross S11 branches, plus Hillsborough for Walkley. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Hunters",
-   "desc": "Estate agent Hunters (hunters.com): Woodseats S8, Hunters Bar S11, Crookes S10 offices. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Whitehornes",
-   "desc": "Estate agent Whitehorne Independent ('Whitehornes', 'Whitehorn Estate Agents', whitehornes.co.uk): Chesterfield Road S8 and Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "SK Estate Agents",
-   "desc": "Estate agent SK Estate Agents, 868 Chesterfield Road, Woodseats S8. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Staves",
-   "desc": "Estate agent Staves (stavesestateagents.co.uk): Woodseats S8 and Psalter Lane S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Reeds Rains",
-   "desc": "Estate agent Reeds Rains (reedsrains.co.uk), Woodseats branch. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Saxton Mee",
-   "desc": "Estate agent Saxton Mee (saxtonmee.co.uk): Banner Cross S11, Crookes S10, Hillsborough (for Walkley). OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Eadon Lockwood & Riddle",
-   "desc": "Estate agent ELR (elr.co.uk), Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Haybrook",
-   "desc": "Estate agent Haybrook (haybrook.com): Banner Cross S11 and Crookes S10. Listing pages look like haybrook.com/buying/... OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Redbrik",
-   "desc": "Estate agent Redbrik (redbrik.co.uk), West Sheffield branch, Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Spencer",
-   "desc": "Estate agent Spencer (spencersestateagents.co.uk), Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "haus",
-   "desc": "Estate agent haus (haushomes.co.uk), Nether Edge and nearby period homes. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Williams & Co",
-   "desc": "Estate agent Williams & Co (eXp), School Road, Crookes S10; on portals may show as eXp World UK. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Walkley agents",
-   "desc": "Agents active in Walkley S6: Saxton Mee Hillsborough, Blundells Hillsborough, Haybrook Crookes, Hunters Crookes, Bricknell Hillsborough. Walkley S6 houses only; skip anything outside Walkley. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Other independent agents",
-   "desc": "Any estate agent with an office or listings in S6, S7, S8, S10 or S11 that is NOT one of: BTG Eddisons auctions, Auction aggregators, Blundells, Hunters, Whitehornes, SK Estate Agents, Staves, Reeds Rains, Saxton Mee, Eadon Lockwood & Riddle, Haybrook, Redbrik, Spencer, haus, Williams & Co, Walkley agents. First find such agents (web search for estate agents in Woodseats, Nether Edge, Meersbrook, Heeley, Ecclesall Road, Crookes, Walkley), then search each one's own website for qualifying houses. Name the agent in `agent`. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Online and hybrid agents",
-   "desc": "Online and hybrid agents' own websites, Sheffield listings only: Purplebricks, Yopa, Strike, eXp UK, Keller Williams, Fine & Country, Andrews, Bairstow Eves, Connells, Your Move. Name the agent in `agent`. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Probate and executor sales",
-   "desc": "Houses sold by executors or as probate: search agents' own sites, auction sites and solicitors' property pages for the words probate, executor sale, deceased estate, grant of probate, no onward chain, vacant possession, in the search areas. Add flag probate when the listing says so. Use only property listings: never death notices, obituaries, funeral pages or probate registers, and never link a named person to an address. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Modern-method and small auctions",
-   "desc": "Upcoming lots only from auctioneers not already covered: iamsold (iamsold.co.uk), Pattinson Auctions, Bidx1, Auction House South Yorkshire, Town & Country Property Auctions, SDL Property Auctions online. Price = guide. Add flag auction and note any reservation fee or buyer's premium. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  },
-  {
-   "name": "Private sales and classifieds",
-   "desc": "Houses sold by owners or listed outside agents: Gumtree property for sale (Sheffield), TheHouseShop (thehouseshop.com) private sellers, Sheffield Star and Sheffield Telegraph property pages. Houses for sale only; skip rentals and wanted ads. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
-  }
- ],
- "run": {
-  "concurrency": 20,
-  "first_runs": 1,
-  "topup_n": 20,
-  "topup_runs": 3,
-  "shortlist_n": 20,
-  "reprice_min_change": 0.02
- }
 }

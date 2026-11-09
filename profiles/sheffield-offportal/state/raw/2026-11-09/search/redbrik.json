@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Murray Road",
+    "area": "Sheffield",
+    "postcode_district": "S11",
+    "price_gbp": 325000,
+    "price_text": "Guide Price £325,000 - £340,000",
+    "property_type": "terraced",
+    "beds": 3,
+    "baths": 2,
+    "receptions": 1,
+    "floor_area_m2": 79.99,
+    "floor_area_source": "listing",
+    "tenure": "freehold",
+    "condition": "good / done",
+    "features": "fully refurbished; new kitchen, bathroom, boiler, plumbing and windows; attic bedroom; enclosed rear yard; on-street parking; council tax band B",
+    "flags": ["no chain"],
+    "agent": "Redbrik",
+    "url": "https://www.redbrik.co.uk/properties-for-sale/murray-road-sheffield-s-11/141c2180-2e93-481a-8450-ce72d49c5f80",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "Redbrik",
+    "notes": "Listing gives 861 sq ft (79.99 m2 converted), just under 80 m2 so borderline. Neighbourhood not named; text mentions Ecclesall Road and Sharrow Vale nearby. Header price £325,000, body range £325k-£340k."
+  }
+]

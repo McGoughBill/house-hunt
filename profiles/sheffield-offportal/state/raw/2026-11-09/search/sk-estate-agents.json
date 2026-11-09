@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Woodseats Road",
+    "area": "Woodseats",
+    "postcode_district": "S8",
+    "price_gbp": 220000,
+    "price_text": "£220,000 (guide £220,000 to £230,000)",
+    "property_type": "terrace",
+    "beds": 3,
+    "baths": 2,
+    "receptions": 1,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "leasehold (lease length not stated)",
+    "condition": "good / done",
+    "features": "mid-terrace; quartz kitchen with gas hob and integrated dishwasher; open dining kitchen; attic bedroom with en-suite; underfloor heating in family bathroom; rear garden with patio, decking and outhouse; virtual tour",
+    "flags": ["leasehold"],
+    "agent": "SK Estate Agents",
+    "url": "https://www.skestateagents.co.uk/property-details/35044849/-/sheffield/woodseats-road",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "SK Estate Agents",
+    "notes": "Agent calls it beautifully presented. No floor area or EPC rating shown. Listed at S8 0PP."
+  }
+]

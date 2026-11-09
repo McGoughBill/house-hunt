@@ -1,0 +1,23 @@
+{"id": "H0096-s8-cockayne-place", "run": "1", "live": true, "listing_url": "https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-cockayne-place-sheffield-s8-id-woo240265", "asking": 270000, "floor_area_m2": null, "house_type": "semi",
+ "gates": {"area": {"pass": true, "reason": "Meersbrook S8, inside the brief's search area"}, "budget": {"pass": true, "reason": "asking 270000 under 325000; est. total 353500 (asking + 1.15W + C with W est. 70000, C 3000), under 425000"}, "tenure": {"pass": true, "reason": "Freehold (Reeds Rains listing)"}, "structure": {"pass": true, "reason": "unconfirmed: no structural issues mentioned; no survey seen"}, "vacant": {"pass": true, "reason": "unconfirmed: vacancy not stated on the listing"}, "hall": {"pass": true, "reason": "unconfirmed: listing does not say whether the front door opens into the lounge or a hall; side porch noted as a cloakroom"}},
+ "V": 167500, "v_basis": "est.: no sales in the last 2 years; 3 semi-detached sales on Cockayne Place, none done-up: 23 Cockayne Place 2022-09 252000; 31 Cockayne Place 2019-02 167500; 87 Cockayne Place 2017-06 161250; median 167500. Not credible as a done-up value; see biggest_risk", "W": 70000, "w_basis": "est.: kitchen-diner extension to reach 25 m2 c.60000; decor, bathroom and garage-room works c.10000; excludes contingency", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "est. as bought 270000 vs V 167500 = 161% of done-up value, band above 85%"},
+  {"n": 3, "score": 5, "est": true, "evidence": "V 167500 vs street max 252000 (2022 semi) = 66%; the 2-year window is empty"},
+  {"n": 4, "score": 5, "est": true, "evidence": "sector max not checked; sector max is at least the street max 252000, so V is at most 66% of it"},
+  {"n": 5, "score": 4, "est": true, "evidence": "floor area not given; est. 95-105 m2 from the 2022 semi on this street at 106 m2"},
+  {"n": 6, "score": 4, "est": true, "evidence": "3 bedrooms: master double with en-suite, bed 2 double, bed 3 single (small); size of the two doubles not given"},
+  {"n": 7, "score": 3, "est": true, "evidence": "kitchen at rear with bay window, described as very good sized, no dimensions; 25 m2 would need a single-storey rear extension"},
+  {"n": 8, "score": 2, "est": true, "evidence": "multi-tiered rear garden; garden length, loft fit and neighbour extensions not confirmed"},
+  {"n": 9, "score": 2, "est": true, "evidence": "needs a single-storey rear extension; otherwise cosmetic"},
+  {"n": 10, "score": 4, "est": true, "evidence": "est. 4-6 months: immaculate condition, extension only"},
+  {"n": 11, "score": 3, "est": true, "evidence": "minor unknowns, cause unclear: no structural or survey notes, EPC grade D, no floorplan"},
+  {"n": 12, "score": 3, "est": true, "evidence": "est.: street quality not checked; letting boards and road type unknown"},
+  {"n": 13, "score": 4, "est": true, "evidence": "est. 5-10 min walk to Meersbrook Park; not measured"},
+  {"n": 14, "score": 4, "est": true, "evidence": "est. 10-15 min walk to a supermarket; not measured"},
+  {"n": 15, "score": 4, "est": true, "evidence": "long driveway with ample off-road parking; slope not stated"},
+  {"n": 16, "score": 3, "est": true, "evidence": "est.: modern fitted bathrooms and en-suite, bay window over sink; ceiling height and period features not stated"},
+  {"n": 17, "score": 3, "est": true, "evidence": "est.: semi with raised front patio and long drive; kerb appeal not seen in text"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 20 min by bus; not checked"},
+ "verdict": "PASS", "biggest_risk": "V (167500) is not credible for a done-up house: the sales used are undone and 2017-2022, so the margin (0.9V - 1.15W - C - asking about -203000) is unreliable; hall entry and vacancy are unconfirmed.", "sources": ["https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-cockayne-place-sheffield-s8-id-woo240265", "https://resi.co.uk/house-prices/cockayne-place-s8", "https://primelocation.com/house-prices/sheffield/cockayne-place/s8-9df"]}

@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Meersbrook Avenue",
+    "area": "Meersbrook",
+    "postcode_district": "S8",
+    "price_gbp": 250000,
+    "price_text": "Guide price £250,000 (description gives range £250,000 to £270,000)",
+    "property_type": "end-terrace",
+    "beds": 3,
+    "baths": null,
+    "receptions": 2,
+    "floor_area_m2": 104.5,
+    "floor_area_source": "listing",
+    "tenure": "leasehold, 853 years remaining",
+    "condition": "good / done",
+    "features": "extended kitchen, two reception rooms, well-presented, modern bathroom, vacant possession, EPC D",
+    "flags": ["no chain", "leasehold"],
+    "agent": "Hunters (Woodseats, 764 Chesterfield Road, S8 0SE)",
+    "url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-meersbrook-avenue-meersbrook-sheffield-s8-9eb-s8/34676379/",
+    "date_listed": null,
+    "status": "for sale (Available)",
+    "verified": true,
+    "known": false,
+    "source": "Hunters",
+    "notes": "Floor area converted from 1,125 sq ft. Lease term (800 yrs) and ground rent (£9.50 vs £10) conflict in listing; verify with agent."
+  }
+]

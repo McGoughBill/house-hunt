@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Barmouth Road",
+    "area": "Abbeydale",
+    "postcode_district": "S7",
+    "price_gbp": 325000,
+    "price_text": "£325,000 (Offers Around)",
+    "property_type": "terrace",
+    "beds": 4,
+    "baths": null,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": null,
+    "condition": "unknown",
+    "features": "mid-terrace; listing gives 4–5 beds",
+    "flags": [],
+    "agent": "Spencer's Estate Agents",
+    "url": "https://www.spencersestateagents.co.uk/properties/34957925/",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": false,
+    "known": false,
+    "source": "Spencer",
+    "notes": "Status and price from Spencer search results page 2 (live this session); listing page returned site error, not opened. Price is at top of band."
+  }
+]
