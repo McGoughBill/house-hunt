@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Folds Lane",
+    "area": "Beauchief",
+    "postcode_district": "S8",
+    "price_gbp": 275000,
+    "price_text": "£275,000",
+    "property_type": "detached bungalow",
+    "beds": 2,
+    "baths": 1,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": null,
+    "condition": "unknown",
+    "features": "open-plan living/kitchen diner, sun room/utility (recently built), new roof within 12 months, driveway, car port, enclosed rear garden with further potential, gas CH, double glazing",
+    "flags": [],
+    "agent": "Purplebricks",
+    "url": "https://www.purplebricks.co.uk/property-for-sale/2-bedroom-detached-bungalow-sheffield-816536",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "Online and hybrid agents",
+    "notes": "Full postcode S8 0EU; listing says no chain; floor area and tenure not stated."
+  }
+]

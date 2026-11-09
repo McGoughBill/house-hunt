@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Roxton Road",
+    "area": "Beauchief",
+    "postcode_district": "S8",
+    "price_gbp": 300000,
+    "price_text": "Offers in excess of £300,000",
+    "property_type": "detached bungalow",
+    "beds": 2,
+    "baths": 1,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "freehold",
+    "condition": "unknown",
+    "features": "Large corner plot in cul-de-sac, backs onto Chancet Wood, single garage, partly converted dormer attic, potential to extend subject to planning, extensive garden",
+    "flags": ["no chain"],
+    "agent": "Reeds Rains Woodseats",
+    "url": "https://www.reedsrains.co.uk/property/detached-bungalow-for-sale-roxton-road-sheffield-s8-id-woo250383",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "Reeds Rains",
+    "notes": "EPC conflicting on page (E in header, C in features; graph score 52 = band E). Postcode partial (S8); district Beauchief per description."
+  }
+]

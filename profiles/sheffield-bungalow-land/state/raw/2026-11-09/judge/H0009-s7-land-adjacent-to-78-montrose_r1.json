@@ -1,0 +1,32 @@
+{"id": "H0009-s7-land-adjacent-to-78-montrose", "run": "1", "live": true, "listing_url": "https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf", "asking": 150000, "floor_area_m2": null,
+ "house_type": "detached",
+ "gates": {
+  "area": {"pass": true, "reason": "Carter Knowle S7 judged a neighbour of Meersbrook; the brief does not name it, so this is a judgement, not a listed area."},
+  "budget": {"pass": true, "reason": "unconfirmed: floor area not given. At 90 m2 (est.) asking + 1.15W + C = about 431k, over 425k; break-even about 88 m2. CIL of about 11.5k (listing) is not in C and would add to this."},
+  "tenure": {"pass": true, "reason": "unconfirmed: tenure not stated in listing."},
+  "structure": {"pass": true, "reason": "unconfirmed: listing silent on ground, mining and flood; no known problem found."},
+  "vacant": {"pass": true, "reason": "Vacant land; no occupancy or age clause in listing."},
+  "hall": {"pass": true, "reason": "Land: buyer designs the entrance."},
+  "land": {"pass": true, "reason": "Planning permission granted, ref 17/01058/FUL, for a contemporary three-bedroom house (listing). Permission date unknown and may have lapsed. Access given only as via agents; services not stated (unconfirmed)."}
+ },
+ "V": 378000, "v_basis": "est.: no sales on Montrose Road in the last 2 years (latest 2 Oct 2024). Median of 3 most recent semi/detached sales: 28 Montrose Rd 2 Oct 2024 GBP 645,000; 39 Montrose Rd 24 May 2024 GBP 378,000; 57 Montrose Rd 14 Feb 2024 GBP 371,730. Not confirmed as done-up.", "W": 241920, "w_basis": "est.: floor area not given, so 90 m2 (band midpoint) x GBP 2,400 = GBP 216,000, plus 12% for fees, services and access. House type guessed detached (est.). Excludes contingency and CIL of about GBP 11,500 (listing).", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "(150k + 241.9k) / 378k = about 104% of V per m2 basis (est. V and W)."},
+  {"n": 3, "score": 5, "est": true, "evidence": "V 378k is 58% of the 645k Oct 2024 street max; 2-year window has no sales, so est."},
+  {"n": 4, "score": 3, "est": true, "evidence": "No sector max sale found; guess."},
+  {"n": 5, "score": 3, "est": true, "evidence": "Plot size not given; planned 3-bed est. at 90 m2."},
+  {"n": 6, "score": 4, "est": true, "evidence": "Planned as three-bed; room sizes not given."},
+  {"n": 7, "score": 4, "est": true, "evidence": "Land, so open plan is designed in; permitted layout not seen."},
+  {"n": 8, "score": 3, "est": true, "evidence": "Plot size and neighbours' extensions unknown."},
+  {"n": 9, "score": 2, "est": true, "evidence": "Ground-up build; about as hard as a loft plus extension."},
+  {"n": 10, "score": 2, "est": true, "evidence": "Build and fit-out est. 13-18 months from purchase."},
+  {"n": 11, "score": 2, "est": true, "evidence": "Permission may have lapsed (2017 ref); access and services unknown."},
+  {"n": 12, "score": 3, "est": true, "evidence": "Street not visited; owner-occupied status unchecked."},
+  {"n": 13, "score": 3, "est": true, "evidence": "About 10-15 min walk to a park (est.)."},
+  {"n": 14, "score": 3, "est": true, "evidence": "About 15-20 min walk to a big supermarket (est.)."},
+  {"n": 15, "score": 3, "est": true, "evidence": "Parking and slope unknown."},
+  {"n": 16, "score": 3, "est": true, "evidence": "No design or plans seen."},
+  {"n": 17, "score": 3, "est": true, "evidence": "No photos seen; plain assumption."}
+ ],
+ "anchors": {"Sheffield railway station": "est. 25 min bus, 15 min drive"},
+ "verdict": "PASS", "biggest_risk": "Permission 17/01058/FUL may have lapsed, and floor area is unknown, so the budget gate could fail above about 88 m2 once CIL is added.", "sources": ["https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf", "https://www.rightmove.co.uk/house-prices/s7/montrose-road.html", "https://housemetric.co.uk/29230712/S7-2EF/60+Montrose+Road"]}

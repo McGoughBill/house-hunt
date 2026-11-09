@@ -1,0 +1,27 @@
+[
+  {
+    "street": "868 Chesterfield Road",
+    "area": "Woodseats",
+    "postcode_district": "S8",
+    "price_gbp": 230000,
+    "price_text": "Guide Price £230,000 - £240,000",
+    "property_type": "semi-detached bungalow",
+    "beds": 2,
+    "baths": 1,
+    "receptions": 1,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "Freehold",
+    "condition": "unknown",
+    "features": "well presented, lounge, shower room",
+    "flags": ["no chain"],
+    "agent": "SK Estate Agents",
+    "url": "https://www.vebra.com/details/property/33528960",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "SK Estate Agents",
+    "notes": "Listing text also says Dronfield Woodhouse; postcode S8 0SH. No floor area or listing date given."
+  }
+]

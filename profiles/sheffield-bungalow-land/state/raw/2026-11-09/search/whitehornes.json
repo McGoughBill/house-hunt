@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Hutcliffe Wood Road",
+    "area": "Sheffield (district not named on listing)",
+    "postcode_district": "S8",
+    "price_gbp": 285000,
+    "price_text": "£285,000 headline; description gives guide £290,000 to £300,000",
+    "property_type": "detached bungalow",
+    "beds": 3,
+    "baths": 1,
+    "receptions": 1,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "leasehold (listing shows no service charge, ground rent or lease term; verify)",
+    "condition": "dated / cosmetic",
+    "features": "integrated garage, off-road parking, private gardens, utility room, pantry, potential for expansion subject to planning, council tax band C",
+    "flags": ["leasehold", "no chain"],
+    "agent": "Whitehorne Independent (Whitehornes), Ecclesall Road S11 sales branch",
+    "url": "https://whitehornes.co.uk/property-for-sale/hutcliffe-wood-road-sheffield-s8/",
+    "date_listed": null,
+    "status": "for sale",
+    "verified": true,
+    "known": false,
+    "source": "Whitehornes",
+    "notes": "Listing gives only 'Sheffield, S8', so the brief's district list cannot be confirmed; asking price and guide range conflict; EPC rating not stated in text."
+  }
+]

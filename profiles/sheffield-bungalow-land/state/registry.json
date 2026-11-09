@@ -1,0 +1,1469 @@
+{
+ "next_id": 10,
+ "houses": {
+  "H0001-s8-folds-lane": {
+   "street": "Folds Lane",
+   "area": "Beauchief",
+   "district": "S8",
+   "price": 275000,
+   "price_text": "£275,000",
+   "property_type": "detached bungalow",
+   "beds": 2,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": "Purplebricks",
+   "url": "https://www.purplebricks.co.uk/property-for-sale/2-bedroom-detached-bungalow-sheffield-816536",
+   "status": "judged",
+   "verified": true,
+   "source": "Online and hybrid agents",
+   "notes": "Full postcode S8 0EU; listing says no chain; floor area and tenure not stated.",
+   "id": "H0001-s8-folds-lane",
+   "urls": [
+    "https://www.purplebricks.co.uk/property-for-sale/2-bedroom-detached-bungalow-sheffield-816536"
+   ],
+   "sources": [
+    "Online and hybrid agents"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     275000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 275000,
+     "V": 435000,
+     "W": 50000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 3,
+      "3": 5,
+      "4": 4,
+      "5": 3,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "No done-up bungalow or same-type sales nearby, floor area not given, and V rests on two in-window detached sales plus one just outside 2 years",
+     "v_basis": "est. median of 3 detached sales on Folds Lane: 3 Folds Lane 31 Oct 2024 GBP 435000 (just outside 2 years); 20 Folds Lane 16 Jan 2025 GBP 327000; 132 Folds Lane 12 Sep 2025 GBP 475000. Only 2 detached sales fall inside 2 years. No bungalows and no done-up sales found on the street, so V is a rough es",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/2-bedroom-detached-bungalow-sheffield-816536",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min by bus, not checked against a route planner"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 275000,
+     "V": 435000,
+     "W": 50000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 2,
+      "3": 5,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 4,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "No bungalow or done-up comparables on the street, so V is weak and est.; floor area, layout and works cost are unconfirmed.",
+     "v_basis": "No bungalow sales on Folds Lane in the 2-year window (domovita, housemetric, Rightmove, 2026). Fallback to 3 detached sales on Folds Lane: 132 Folds Lane £475000 (12 Sep 2025, 90 m2, housemetric); 3 Folds Lane £435000 (31 Oct 2024, just outside 2 years, housemetric/domovita); 20 Folds Lane £327000 (",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/2-bedroom-detached-bungalow-sheffield-816536",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min by bus (est.), not checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 275000,
+     "V": null,
+     "W": 40000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Value is unknown: no done-up sales were checked, so the uplift, the margin and the street-ratio scores rest on guesses, and the floor area, tenure and structure are unstated.",
+     "v_basis": "No done-up sales found. The web search budget ran out before any sold-price lookup, so no Land Registry or portal comparables were checked. V is unknown, and the uplift and street-ratio scores are placeholders.",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/2-bedroom-detached-bungalow-sheffield-816536",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus; not checked"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0002-s8-westwick-crescent": {
+   "street": "Westwick Crescent",
+   "area": "S8, near Graves Park and Beauchief (per listing text)",
+   "district": "S8",
+   "price": 195000,
+   "price_text": "Guide £195,000 (online auction, 1 December)",
+   "property_type": "detached bungalow",
+   "beds": 2,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "needs full refurb",
+   "flags": [
+    "auction"
+   ],
+   "agent": "Staves Estate Agents",
+   "url": "https://www.zoopla.co.uk/for-sale/details/74702553/",
+   "status": "judged",
+   "verified": true,
+   "source": "Portals: bungalows and land",
+   "notes": "EPC D. Listing says No. 63 in description. Auction costs: 10% deposit, 1.8% buyer fee incl. VAT.",
+   "id": "H0002-s8-westwick-crescent",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/74702553/"
+   ],
+   "sources": [
+    "Portals: bungalows and land"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     195000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 195000,
+     "V": 385000,
+     "W": 112000,
+     "C": 6510,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 1,
+     "scores": {
+      "1": 3,
+      "3": 5,
+      "4": 4,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 4,
+      "9": 2,
+      "10": 2,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 4
+     },
+     "est": 14,
+     "verdict": "PASS",
+     "risk": "Unconditional auction with no survey or floor area, and comps are detached houses, not bungalows, so V and W are est.",
+     "v_basis": "3 detached sales, same street, last 2 years, most recent: 35 Westwick Crescent 6 Mar 2026 500000; 147 Westwick Crescent 16 Dec 2025 375000; 105 Westwick Crescent 7 Mar 2025 385000. Median 385000. No bungalow sales found on the street and done-up status not verified (est.). Sources: https://www.right",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74702553/",
+     "anchors": {
+      "Sheffield railway station": "about 35 min by bus (est.)"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 195000,
+     "V": 330000,
+     "W": 120000,
+     "C": 6510,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 1,
+     "scores": {
+      "1": 4,
+      "3": 5,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 2,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "V is a guess (no done-up bungalow comparables found), so the margin and scores rest on it; the auction on 1 December has no survey and the works cost is est.",
+     "v_basis": "est. No done-up bungalow sales on Westwick Crescent found in last 2 years; search budget ran out. Street sales Nov 2024 to Mar 2026 are detached and semi houses, not bungalows: 147 (Dec 2025, 375000), 105 (Mar 2025, 385000), 121 (Dec 2024, 445000), 35 (Mar 2026, 500000). V is a guess below those, fo",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74702553/",
+     "anchors": {
+      "Sheffield railway station": "est. 40 min by bus (est.)"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 195000,
+     "V": 270000,
+     "W": 150000,
+     "C": 6510,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 2,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 2,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "No sold comparables were found, so V, W and floor area are guesses; at these estimates the buy test is negative, so the price has to fall or the works must cost far less.",
+     "v_basis": "est. No sold comparables retrieved: the web search budget ran out and the Zoopla sold-prices page was not on the allowlist. V is a guess for a done-up 2-bed detached bungalow on or near Westwick Crescent S8. Replace with the median of 3 done-up same-street sales.",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74702553/",
+     "anchors": {
+      "Sheffield railway station": "est. about 25 min by bus"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0003-s8-hutcliffe-wood-road": {
+   "street": "Hutcliffe Wood Road",
+   "area": "Hutcliffe Wood, Beauchief",
+   "district": "S8",
+   "price": 285000,
+   "price_text": "From £285,000; guide £290,000 to £300,000",
+   "property_type": "detached bungalow",
+   "beds": 3,
+   "m2": 87,
+   "tenure": "leasehold (lease length not stated; ground rent £0)",
+   "condition": "needs full refurb",
+   "flags": [
+    "leasehold",
+    "price reduced"
+   ],
+   "agent": "Whitehorn Estate Agents",
+   "url": "https://www.zoopla.co.uk/for-sale/details/72994285/",
+   "status": "judged",
+   "verified": true,
+   "source": "Portals: bungalows and land",
+   "notes": "Area fit unclear: page does not name a neighbourhood; check it is in Woodseats, Beauchief or Hutcliffe Wood areas on the list. 934 sq ft given in listing, converted to m2.",
+   "id": "H0003-s8-hutcliffe-wood-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/72994285/",
+    "https://whitehornes.co.uk/property-for-sale/hutcliffe-wood-road-sheffield-s8/"
+   ],
+   "sources": [
+    "Portals: bungalows and land",
+    "Whitehornes"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     285000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 285000,
+     "V": 340000,
+     "W": 110000,
+     "C": 3000,
+     "m2": 87,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 4,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "V is unsupported: no 2024-2026 done-up same-type comparables found on the street, so the margin and uplift rest on a guess; lease length and front-door position are also unconfirmed.",
+     "v_basis": "est. No 3 done-up same-type sales on Hutcliffe Wood Road in last 2 years found. Domovita street list (39 of 139 sales shown) and PrimeLocation list (40 of 59) show no 2024-2026 sales and no bungalows; latest sales shown are 2021. V is a guess from asking GBP 305/sq ft plus a refurb uplift, not a com",
+     "url": "https://www.zoopla.co.uk/for-sale/details/72994285/",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min by bus; not walkable"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 285000,
+     "V": 325000,
+     "W": 90000,
+     "C": 3000,
+     "m2": 87,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Buy margin is about -99000 on est. V and W (0.9V - 1.15W - C - asking), so the refurb does not pay at asking; V rests on 2 semis, est.",
+     "v_basis": "Only 2 sales on this street in the last 2 years, not 3, and both are semis, not bungalows: 28 Hutcliffe Wood Rd, 14 Jan 2026, 360000 (https://www.rightmove.co.uk/house-prices/S8-0EX.html); 9 Hutcliffe Wood Rd, 21 Aug 2025, 290000 (same source). Median of 2 = 325000, est. Done-up status of both unkno",
+     "url": "https://www.zoopla.co.uk/for-sale/details/72994285/",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min bus, not checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 285000,
+     "V": 350000,
+     "W": 87000,
+     "C": 3000,
+     "m2": 87,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Margin is negative (est. -73050) on an unsourced V of 350000 est.; no sold comparables found, and the lease length, hall position and structure are unconfirmed.",
+     "v_basis": "est. 350000: no done-up sold comparables found; the sold-price search could not be run because the WebSearch budget was used up for this turn. Fewer than 3 sales verified.",
+     "url": "https://www.zoopla.co.uk/for-sale/details/72994285/",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min by bus, est. 10 min by car"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0004-s8-welby-place": {
+   "street": "Welby Place",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 265000,
+   "price_text": "£265,000",
+   "property_type": "detached bungalow",
+   "beds": 2,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "Staves Estate Agents",
+   "url": "https://www.zoopla.co.uk/for-sale/details/74123428/",
+   "status": "judged",
+   "verified": true,
+   "source": "Portals: bungalows and land",
+   "notes": "EPC D, council tax C. Listing says two or three bedrooms (second double may be a sitting room). Described as a quiet cul-de-sac.",
+   "id": "H0004-s8-welby-place",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/74123428/"
+   ],
+   "sources": [
+    "Portals: bungalows and land"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     265000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 265000,
+     "V": null,
+     "W": 130000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "No done-up bungalow comps, so V and margin are unknown; budget gate passes by about 7500 on an estimated W.",
+     "v_basis": "No 3 done-up sales of detached bungalows in the last 2 years found. Welby Place has no sale since Aug 2023 (housemetric and resi list only terraces, plus two detached sales in 2021 and 2017 that are out of the 2-year window). Doogal S8 page 1 lists no bungalows. Nearby-street comps not found. V is u",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74123428/",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 265000,
+     "V": 320000,
+     "W": 110000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 2,
+     "scores": {
+      "1": 2,
+      "2": 1,
+      "3": 1,
+      "4": 5,
+      "5": 4,
+      "6": 5,
+      "7": 4,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 4,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 4
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "V is a guess: no done-up bungalow sales found nearby, and floor area is not given, so margin and most scores rest on est. figures",
+     "v_basis": "est. No done-up detached bungalow sales found on Welby Place or nearby in the last 2 years. Welby Place sales since Nov 2024 are terraces: 4 Dec 2024 243000 (4 Welby, 93 m2), 16 Jan 2025 240000 (16 Welby, 78 m2), 28 Feb 2025 232500 (21 Welby, 78 m2) (https://housemetric.co.uk/house-prices/Welby-Plac",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74123428/",
+     "anchors": {
+      "Sheffield railway station": "est. about 30 minutes by bus, about 15 minutes by car. Not checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 265000,
+     "V": null,
+     "W": 45000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 2,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 4,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "No sold comps, so V and the buy test are unverified; floor area, open-plan size and the hall-to-living-room layout are unconfirmed.",
+     "v_basis": "not found: no sold comps checked. Search budget ran out before any Rightmove, Zoopla or Land Registry sales for Welby Place or nearby done-up bungalows could be retrieved, so no 3-sale median.",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74123428/",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus, not checked"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0005-s8-meadow-head-avenue": {
+   "street": "Meadow Head Avenue",
+   "area": "Meadowhead (S8, per listing)",
+   "district": "S8",
+   "price": 270000,
+   "price_text": "£270,000",
+   "property_type": "semi-detached bungalow",
+   "beds": 2,
+   "m2": null,
+   "tenure": "leasehold (lease length not stated)",
+   "condition": "good / done",
+   "flags": [
+    "leasehold"
+   ],
+   "agent": "Staves Estate Agents",
+   "url": "https://www.zoopla.co.uk/for-sale/details/74503097/",
+   "status": "judged",
+   "verified": true,
+   "source": "Portals: bungalows and land",
+   "notes": "EPC D, council tax C. Service charge and ground rent: ask agent (not stated).",
+   "id": "H0005-s8-meadow-head-avenue",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/74503097/"
+   ],
+   "sources": [
+    "Portals: bungalows and land"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     270000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 270000,
+     "V": 300000,
+     "W": 60000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 1,
+      "3": 2,
+      "4": 5,
+      "5": 3,
+      "6": 3,
+      "7": 3,
+      "8": 2,
+      "9": 3,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 2,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "No done-up sale on the street in 2 years, and V rests on unchecked nearby semis; lease length, floor area and front-door position all unconfirmed.",
+     "v_basis": "est.: no done-up sale on Meadow Head Avenue in last 2 years (latest Land Registry sale there Jan 2022, https://primelocation.com/house-prices/sheffield/meadow-head-avenue). Median of 3 nearby semis, not checked as done-up: 107 Meadow Head Avenue 2026-05 £300000 (https://www.doogal.co.uk/PropertySale",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74503097/",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min by bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 270000,
+     "V": null,
+     "W": 75000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 4,
+      "4": 3,
+      "5": 3,
+      "6": 3,
+      "7": 4,
+      "8": 3,
+      "9": 3,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 2,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "No recent done-up comparables found, so V and the buy margin are unproven; leasehold length unknown on a semi bungalow.",
+     "v_basis": "No 3 done-up same-type sales in the last 2 years found. Latest sales seen on Meadow Head Avenue are older: 77 (Jan 2022, GBP 235500, type not shown), 20 (Jan 2020, GBP 225000), 76 (Nov 2020, GBP 200000) (https://primelocation.com/house-prices/sheffield/meadow-head-avenue, shows 40 of 59 sales). Domo",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74503097/",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min by bus; est. 15 min by car. Not measured."
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 270000,
+     "V": null,
+     "W": 25000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 3,
+      "7": 4,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "No sold-price comparables found, so V and the buy margin cannot be computed; lease length and structural survey are unknown.",
+     "v_basis": "not found. Search budget ran out before any sold-price check; no Rightmove, Land Registry or Housemetric data retrieved for Meadow Head Avenue or nearby streets.",
+     "url": "https://www.zoopla.co.uk/for-sale/details/74503097/",
+     "anchors": {
+      "Sheffield railway station": "not checked"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0006-s8-plot-5-houndkirk-view-derbys": {
+   "street": "Plot 5, Houndkirk View, Derbyshire Lane",
+   "area": "Derbyshire Lane, S8 (neighbourhood not named on page)",
+   "district": "S8",
+   "price": 230000,
+   "price_text": "Offers in region of £240,000",
+   "property_type": "building plot",
+   "beds": null,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": "Custom Build Homes",
+   "url": "https://www.rightmove.co.uk/properties/161105300",
+   "status": "judged",
+   "verified": true,
+   "source": "Portals: bungalows and land",
+   "notes": "Planning reference not given. Services and access not confirmed for this plot. One of seven plots; other plots at south end noted as sold. Same development as Plot 4.",
+   "id": "H0006-s8-plot-5-houndkirk-view-derbys",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/161105300",
+    "https://www.rightmove.co.uk/properties/160660571"
+   ],
+   "sources": [
+    "Portals: bungalows and land"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     240000
+    ],
+    [
+     "2026-11-09",
+     230000
+    ],
+    [
+     "2026-11-09",
+     240000
+    ],
+    [
+     "2026-11-09",
+     230000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 240000,
+     "V": 325000,
+     "W": 295680,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [
+      "budget"
+     ],
+     "fail_reasons": {
+      "budget": "asking 240000 + 1.15 x W 295680 + C 3000 = 583032, above 425000 (est. from W below)"
+     },
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 3,
+      "10": 2,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 2,
+      "15": 4,
+      "16": 3,
+      "17": 4
+     },
+     "est": 13,
+     "verdict": "REJECT",
+     "risk": "Budget gate fails: build cost plus asking far exceeds the 425000 all-in limit, even at the 75 m2 minimum.",
+     "v_basis": "3 sales, median of: 16 Derbyshire Lane S8 9EL 05 Nov 2024 360000 (90 m2, semi-D); 103 Derbyshire Lane S8 9EN 04 Jul 2025 325000 (semi-D, area not shown); 105 Derbyshire Lane S8 9EN 23 Apr 2025 297000 (118 m2, semi-D). Not confirmed as new or done-up; nearest street, est.",
+     "url": "https://www.rightmove.co.uk/properties/161105300",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 240000,
+     "V": 270000,
+     "W": 295680,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [
+      "budget"
+     ],
+     "fail_reasons": {
+      "budget": "asking 240000 + 1.15 x W 295680 (110 m2 spec) + C 3000 = 583032, over 425000; even at 75 m2 (W 201600) total is 474840, still over 425000. Asking is 240000 on R"
+     },
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 3,
+      "9": 3,
+      "10": 2,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 4,
+      "17": 4
+     },
+     "est": 14,
+     "verdict": "REJECT",
+     "risk": "Budget gate fails: build cost (W) plus asking leaves the total far above 425000, even at the smallest spec size",
+     "v_basis": "est. No 3 done-up same-street sales in the last 2 years found: Derbyshire Lane price pages show no sales from 2024 on (latest seen Jan 2022). Fallback is the median of 272281 (64 Derbyshire Lane, Sep 2021), 270000 (20 Derbyshire Lane, Aug 2021) and 229000 (83 Derbyshire Lane, Jan 2022). Types and co",
+     "url": "https://www.rightmove.co.uk/properties/161105300",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus, not checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 240000,
+     "V": null,
+     "W": 241920,
+     "C": 3000,
+     "m2": 181,
+     "type": "detached",
+     "fails": [
+      "budget"
+     ],
+     "fail_reasons": {
+      "budget": "Asking £240,000 is under £325k, but asking + 1.15W + C is about £521,000 (est.) against a £425,000 cap, using W about £241,920 (est., 90 m2 at £2,400/m2 + 12%) "
+     },
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 3,
+      "4": 3,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 3,
+      "9": 2,
+      "10": 2,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 13,
+     "verdict": "REJECT",
+     "risk": "Budget gate fails: all-in cost of about £521,000 (est.) exceeds the £425,000 cap, and the plot's serviced status is unconfirmed.",
+     "v_basis": "No sold prices found. Web search budget ran out before any Land Registry or Rightmove sold-price lookup, so V is unknown and was not estimated.",
+     "url": "https://www.rightmove.co.uk/properties/161105300",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min, bus (not checked against a source)"
+     }
+    }
+   ],
+   "retries": {},
+   "reprice_from": 240000
+  },
+  "H0007-s8-roxton-road": {
+   "street": "Roxton Road",
+   "area": "Beauchief",
+   "district": "S8",
+   "price": 300000,
+   "price_text": "Offers in excess of £300,000",
+   "property_type": "detached bungalow",
+   "beds": 2,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "Reeds Rains Woodseats",
+   "url": "https://www.reedsrains.co.uk/property/detached-bungalow-for-sale-roxton-road-sheffield-s8-id-woo250383",
+   "status": "judged",
+   "verified": true,
+   "source": "Reeds Rains",
+   "notes": "EPC conflicting on page (E in header, C in features; graph score 52 = band E). Postcode partial (S8); district Beauchief per description.",
+   "id": "H0007-s8-roxton-road",
+   "urls": [
+    "https://www.reedsrains.co.uk/property/detached-bungalow-for-sale-roxton-road-sheffield-s8-id-woo250383"
+   ],
+   "sources": [
+    "Reeds Rains"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     300000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 300000,
+     "V": 420000,
+     "W": 100000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 3,
+      "8": 4,
+      "9": 3,
+      "10": 2,
+      "11": 3,
+      "12": 4,
+      "13": 3,
+      "14": 2,
+      "15": 4,
+      "16": 3,
+      "17": 4
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Est. margin is negative (0.9V - 1.15W - C - asking = about -40000), and the extension needed for a 35 m2+ open-plan room could push all-in cost over 425000; V and W are estimates with no sold comps for this street.",
+     "v_basis": "No 3 done-up same-street sales in 2 years found: Roxton Road sales are 15 Roxton Rd 315000 (May 2018) and 6a Roxton Rd 322500 (Sep 2021), both outside 2 years and not confirmed as done up (primelocation.com/house-prices/sheffield/roxton-road). Nearest reference: 20 Chancet Wood Road detached 490000 ",
+     "url": "https://www.reedsrains.co.uk/property/detached-bungalow-for-sale-roxton-road-sheffield-s8-id-woo250383",
+     "anchors": {
+      "Sheffield railway station": "about 30 min by bus, est."
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 300000,
+     "V": 330000,
+     "W": 120000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 2,
+      "4": 2,
+      "5": 4,
+      "6": 5,
+      "7": 3,
+      "8": 4,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 4,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 4
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Budget gate rests on an estimated works cost (est. 120000); no comparable done-up sale on Roxton Road in 2 years, so V is an est. proxy from Chancet Wood.",
+     "v_basis": "No Roxton Road sale in last 2 years. Roxton Road sales on record end Sep 2021 (6a, 322500, detached, https://primelocation.com/house-prices/sheffield/roxton-road); a 4 Roxton Road sale of 420000 in Oct 2022 (terraced, leasehold) is outside 2 years (https://streetguide.co.uk/housing/s80bd). Fallback ",
+     "url": "https://www.reedsrains.co.uk/property/detached-bungalow-for-sale-roxton-road-sheffield-s8-id-woo250383",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus, not checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 300000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 4,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 4,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 4
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "No sold comparables (V unknown) and no floor area or floorplan, so the value case is unproven; hall position and budget (1.15W + C) gates are unconfirmed.",
+     "v_basis": "not found: web search budget for this turn was used up before any sold-price lookup (Rightmove, Zoopla, Land Registry). No 3 done-up same-street sales obtained.",
+     "url": "https://www.reedsrains.co.uk/property/detached-bungalow-for-sale-roxton-road-sheffield-s8-id-woo250383",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus (not checked)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0008-s8-868-chesterfield-road": {
+   "street": "868 Chesterfield Road",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 230000,
+   "price_text": "Guide Price £230,000 - £240,000",
+   "property_type": "semi-detached bungalow",
+   "beds": 2,
+   "m2": null,
+   "tenure": "Freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "SK Estate Agents",
+   "url": "https://www.vebra.com/details/property/33528960",
+   "status": "judged",
+   "verified": true,
+   "source": "SK Estate Agents",
+   "notes": "Listing text also says Dronfield Woodhouse; postcode S8 0SH. No floor area or listing date given.",
+   "id": "H0008-s8-868-chesterfield-road",
+   "urls": [
+    "https://www.vebra.com/details/property/33528960"
+   ],
+   "sources": [
+    "SK Estate Agents"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     230000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 230000,
+     "V": 290000,
+     "W": 110000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 2,
+      "3": 4,
+      "4": 4,
+      "5": 2,
+      "6": 3,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 2,
+      "13": 2,
+      "14": 4,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "V is unproven (no done-up same-type sale found) and W is an unsurveyed guess; the listing also gives Dronfield Woodhouse as the location",
+     "v_basis": "est.: no done-up same-type sale found on Chesterfield Road in 2 years, so no 3-sale median. Only semi on the street in window: 295 Chesterfield Road, semi-detached, 277270, 25 Jul 2025 (not known to be done up; https://domovita.co.uk/sold-prices/street/s8/chesterfield-road). Nearby terraces 919 at 3",
+     "url": "https://www.vebra.com/details/property/33528960",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 230000,
+     "V": 238500,
+     "W": 100000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 2,
+      "6": 3,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 2,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Margin is negative (est. about -133000 at V 238500 and W 100000), so the buy test fails; a second listing for 868 Chesterfield Road (3-bed leasehold semi, 300-325k guide) conflicts with this one, and this listing mentions Dronfield Woodhous",
+     "v_basis": "est. median of 3 same-street semi or terrace sales (not bungalows, done-up status not checked): 549 Chesterfield Road terrace 11 Dec 2025 231000; 295 Chesterfield Road semi 25 Jul 2025 277270; 537 Chesterfield Road terrace 9 May 2025 238500. Domovita shows no bungalow sale on Chesterfield Road in 2 ",
+     "url": "https://www.vebra.com/details/property/33528960",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min bus; est. 15 min drive"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 230000,
+     "V": null,
+     "W": 92000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 3,
+      "5": 2,
+      "6": 3,
+      "7": 3,
+      "8": 2,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "No sold comparables found, so value and margin are unknown; a rear extension is needed to reach the 35 m2 open plan.",
+     "v_basis": "not found: no 3 done-up same-street sales retrieved; web search budget ran out before the sold-price lookup",
+     "url": "https://www.vebra.com/details/property/33528960",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min bus (est.)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0009-s7-land-adjacent-to-78-montrose": {
+   "street": "Land adjacent to 78 Montrose Road",
+   "area": "Carter Knowle",
+   "district": "S7",
+   "price": 150000,
+   "price_text": "Offers around £150,000",
+   "property_type": "land",
+   "beds": null,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": "Spencers Agents Ltd, 469 Ecclesall Road, Sheffield S11 8PP",
+   "url": "https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf",
+   "status": "judged",
+   "verified": false,
+   "source": "Spencer",
+   "notes": "Found only as agent brochure PDF; live listing page not located and sale status not stated, so unverified.",
+   "id": "H0009-s7-land-adjacent-to-78-montrose",
+   "urls": [
+    "https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf"
+   ],
+   "sources": [
+    "Spencer"
+   ],
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    [
+     "2026-11-09",
+     150000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 150000,
+     "V": 378000,
+     "W": 241920,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Permission 17/01058/FUL may have lapsed, and floor area is unknown, so the budget gate could fail above about 88 m2 once CIL is added.",
+     "v_basis": "est.: no sales on Montrose Road in the last 2 years (latest 2 Oct 2024). Median of 3 most recent semi/detached sales: 28 Montrose Rd 2 Oct 2024 GBP 645,000; 39 Montrose Rd 24 May 2024 GBP 378,000; 57 Montrose Rd 14 Feb 2024 GBP 371,730. Not confirmed as done-up.",
+     "url": "https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min bus, 15 min drive"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 150000,
+     "V": 378000,
+     "W": 241920,
+     "C": 3000,
+     "m2": null,
+     "type": null,
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 2,
+      "6": 4,
+      "7": 4,
+      "8": 2,
+      "9": 1,
+      "10": 2,
+      "11": 1,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Margin is negative: 0.9V - 1.15W - C - asking = est. -91k. Budget gate fails above about 88 m2, and the 2017 permission may have lapsed.",
+     "v_basis": "No sale on Montrose Road since Oct 2024, so no 2-year window. Nearest proxy, not done-up, est.: 28 Montrose Rd 2 Oct 2024 £645,000; 39 Montrose Rd 24 May 2024 £378,000; 57 Montrose Rd 14 Feb 2024 £371,730. Median £378,000 (https://www.rightmove.co.uk/house-prices/s7/montrose-road.html)",
+     "url": "https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-09",
+     "live": true,
+     "asking": 150000,
+     "V": null,
+     "W": 268800,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 5,
+      "7": 4,
+      "8": 3,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 4,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "No sold prices found, so V is unknown; floor area is unknown, so the budget gate fails if the house is above about 88 m2 (est.).",
+     "v_basis": "not found: no sold prices retrieved in this run (web search budget used up before any sales search returned). Needed: median of 3 similar new or modernised houses nearby.",
+     "url": "https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min bus, 15 min drive"
+     }
+    }
+   ],
+   "retries": {}
+  }
+ }
+}

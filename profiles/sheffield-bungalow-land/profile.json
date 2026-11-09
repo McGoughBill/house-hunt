@@ -1,0 +1,552 @@
+{
+ "name": "sheffield-bungalow-land",
+ "owner": "Bill",
+ "created": "2026-11-09",
+ "country": "UK",
+ "currency": "£",
+ "city": "Sheffield",
+ "intent": "Bungalow and land sweep (2+ beds, asking ≤ £325k, all-in ≤ £425k; Meersbrook and neighbours, the Endcliffe Park side of S11, and the bungalow suburbs next to them: Norton Lees, Beauchief, Abbey Lane, Ecclesall, Bents Green). BUNGALOWS (incl. dormer and chalet bungalows) AND LAND / BUILDING PLOTS ONLY: no ordinary houses. The buyer wants one big open-plan living-kitchen-dining space with the front door into a hall, and needs only 2 bedrooms. Buy cheap against fundamentals, refurb or build while renting elsewhere, then live in it. Works budget up to about £250k from family loans. For land, judge the house the buyer would build to the finished spec.",
+ "vibe": {
+  "summary": "A bungalow or building plot on a quiet owner-occupied street, walkable to a big park, near Meersbrook / Nether Edge / Endcliffe Park. Not an estate of retirement bungalows, not a student area.",
+  "model_areas": [
+   "Meersbrook",
+   "Endcliffe Park side (Hunters Bar, Greystones)"
+  ],
+  "likes": [
+   "big park within 10 min walk (Graves, Meersbrook, Endcliffe, Millhouses, Ecclesall Woods)",
+   "wide or deep plot with room to extend or add a dormer",
+   "front door into a hall",
+   "independent high street nearby (Abbeydale Rd, Chesterfield Rd, Sharrow Vale, Ecclesall Rd)",
+   "tidy owner-occupied fronts"
+  ],
+  "avoid": [
+   "age-restricted or retirement bungalows",
+   "park homes",
+   "main roads and rat-runs",
+   "very steep plots with no access",
+   "green-belt land without planning",
+   "student HMOs"
+  ]
+ },
+ "anchors": [
+  {
+   "name": "Sheffield railway station",
+   "note": "nice to have, not required",
+   "weight": 0
+  }
+ ],
+ "areas": [
+  {
+   "district": "S8",
+   "neighbourhoods": [
+    "Meersbrook",
+    "Heeley",
+    "Norton Lees",
+    "Woodseats",
+    "Beauchief",
+    "Abbey Lane",
+    "Norton",
+    "Graves Park",
+    "Meadowhead",
+    "Greenhill",
+    "Hutcliffe Wood",
+    "Derbyshire Lane",
+    "Abbeydale"
+   ],
+   "only_these": true
+  },
+  {
+   "district": "S2",
+   "neighbourhoods": [
+    "Heeley",
+    "Heeley Green"
+   ],
+   "only_these": true
+  },
+  {
+   "district": "S7",
+   "neighbourhoods": [
+    "Nether Edge",
+    "Brincliffe",
+    "Sharrow",
+    "Abbeydale",
+    "Carterknowle",
+    "Millhouses",
+    "Beauchief",
+    "Carter Knowle",
+    "Hutcliffe Wood"
+   ],
+   "only_these": true
+  },
+  {
+   "district": "S11",
+   "neighbourhoods": [
+    "Hunters Bar",
+    "Endcliffe",
+    "Greystones",
+    "Sharrow Vale",
+    "Ecclesall Road",
+    "Nether Green",
+    "Banner Cross",
+    "Brincliffe",
+    "Ecclesall",
+    "Bents Green",
+    "Parkhead",
+    "Millhouses"
+   ],
+   "only_these": true
+  }
+ ],
+ "search": {
+  "price_min": 30000,
+  "price_max": 325000,
+  "allin_max": 425000,
+  "beds_min": 2,
+  "size_min_m2": 55,
+  "types": [
+   "detached bungalow",
+   "semi-detached bungalow",
+   "dormer or chalet bungalow",
+   "terraced bungalow",
+   "land or building plot with planning permission, outline planning, or a garden plot sold for development (for land, ignore the bedroom and size rules)",
+   "a house or bungalow sold explicitly as a development / demolish-and-rebuild plot"
+  ],
+  "exclude": [
+   "any ordinary house that is not a bungalow (terrace, semi, detached house, cottage) unless sold as a building plot",
+   "flat",
+   "maisonette",
+   "park home",
+   "shared ownership",
+   "retirement / over-55 / age-restricted",
+   "new-build development",
+   "agricultural or amenity land with no residential planning",
+   "garages or parking spaces only"
+  ],
+  "keywords": [
+   "bungalow",
+   "detached bungalow",
+   "dormer bungalow",
+   "chalet bungalow",
+   "semi-detached bungalow",
+   "building plot",
+   "plot of land",
+   "land for sale",
+   "planning permission",
+   "outline planning",
+   "self build",
+   "development opportunity",
+   "garden plot",
+   "demolish and rebuild",
+   "modernisation",
+   "renovation",
+   "probate",
+   "executor sale",
+   "no chain",
+   "scope to extend",
+   "loft conversion potential"
+  ],
+  "record": [
+   "needs work",
+   "probate",
+   "no chain",
+   "price reduced",
+   "long on market",
+   "loft or dormer potential",
+   "plot size",
+   "garden depth",
+   "open-plan living",
+   "garage",
+   "parking",
+   "planning permission and reference (land)",
+   "services and access (land)",
+   "tenure and lease length",
+   "age restriction or occupancy clause",
+   "non-standard construction (Airey, Wimpey no-fines, prefab)",
+   "cash buyers only",
+   "main road"
+  ],
+  "small_ok": {
+   "beds": 1,
+   "districts": [],
+   "or_min_m2": 70
+  }
+ },
+ "gates": [
+  {
+   "key": "area",
+   "text": "In one of the search areas above."
+  },
+  {
+   "key": "budget",
+   "text": "Asking at most {price_max}; asking + 1.15W + C at most {allin_max}."
+  },
+  {
+   "key": "tenure",
+   "text": "Freehold, or lease of 150+ years with no live covenant dispute."
+  },
+  {
+   "key": "structure",
+   "text": "No movement, subsidence, knotweed, spray foam, non-standard build (Airey, Wimpey no-fines, prefab concrete) or dry rot. Land: no known ground, mining or flood problem."
+  },
+  {
+   "key": "vacant",
+   "text": "Vacant possession, and no age restriction or occupancy clause (no over-55 or retirement covenant)."
+  },
+  {
+   "key": "hall",
+   "text": "Front door opens into a hall, lobby or porch, never straight into a living, reception or dining room or kitchen. Fail if the listing text or floorplan shows it opens into a room, even if a hall could be made later. If neither shows where it opens, pass as unconfirmed and name it in the risk. Land: pass (the buyer designs the entrance)."
+  },
+  {
+   "key": "land",
+   "text": "Land only: full or outline planning permission for at least one dwelling, or a garden or brownfield plot with written pre-application support; not green belt without consent; vehicle access and services exist or are costed. Bungalows: pass."
+  }
+ ],
+ "finished_spec": "2 good bedrooms (one of 11.5 m2+, ideally a third for an office), one open-plan living-kitchen-dining space of 35 m2+ with good light and no front door into it, front door into a hall, 75-110 m2 inside, all on the ground floor or bedrooms in a dormer. For a building plot: W is the cost to build that house (about £2,400 per m2 plus 12% for fees, services and access), and V is the median of 3 sales of similar new or fully modernised houses or bungalows nearby.",
+ "buy_test": {
+  "headroom": 0.9,
+  "contingency": 1.15,
+  "fees": 3000,
+  "tax_note": "Stamp duty as a first-time buyer: nil up to £300k, 5% from £300k to £500k.",
+  "tax_bands": [
+   [
+    300000,
+    0.0
+   ],
+   [
+    500000,
+    0.05
+   ]
+  ],
+  "comps_sources": "Rightmove sold prices, Zoopla, Land Registry via domovita / housemetric / propertyengine / doogal; Housemetric joins EPC floor areas to sales"
+ },
+ "criteria": [
+  {
+   "n": 1,
+   "name": "£/m² as bought ÷ done-up street £/m² (land: (asking + W) ÷ V per m²)",
+   "w": 15,
+   "bands": [
+    "> 85%",
+    "78-85%",
+    "70-78%",
+    "60-70%",
+    "< 60%"
+   ]
+  },
+  {
+   "n": 2,
+   "name": "Margin: 0.9V − 1.15W − C − asking",
+   "w": 10,
+   "bands": [
+    "< 0",
+    "0-10k",
+    "10-25k",
+    "25-40k",
+    "> 40k"
+   ],
+   "computed": "margin",
+   "cuts": [
+    0,
+    10000,
+    25000,
+    40000
+   ]
+  },
+  {
+   "n": 3,
+   "name": "V ÷ street max sale (2 yrs)",
+   "w": 5,
+   "bands": [
+    "> 100%",
+    "95-100%",
+    "90-95%",
+    "80-90%",
+    "< 80%"
+   ]
+  },
+  {
+   "n": 4,
+   "name": "V ÷ sector max sale (2 yrs)",
+   "w": 4,
+   "bands": [
+    "> 100%",
+    "90-100%",
+    "80-90%",
+    "70-80%",
+    "< 70%"
+   ]
+  },
+  {
+   "n": 5,
+   "name": "Floor area now (land: plot fits 90 m²+ house and garden)",
+   "w": 8,
+   "bands": [
+    "< 60 m²",
+    "60-70",
+    "70-80",
+    "80-95",
+    "> 95 m²"
+   ]
+  },
+  {
+   "n": 6,
+   "name": "Bedrooms",
+   "w": 5,
+   "bands": [
+    "1 only, no route to 2",
+    "2nd needs extension or loft",
+    "2, one small",
+    "2 doubles",
+    "2 doubles + room for a 3rd or office"
+   ]
+  },
+  {
+   "n": 7,
+   "name": "Open-plan living-kitchen-dining route (35 m²+)",
+   "w": 6,
+   "bands": [
+    "none",
+    "large extension",
+    "single-storey extension",
+    "one structural knock-through",
+    "exists, or land (designed in)"
+   ]
+  },
+  {
+   "n": 8,
+   "name": "Extension headroom (wide or deep plot; loft fits a dormer; neighbours extended)",
+   "w": 6,
+   "bands": [
+    "none",
+    "1 weak",
+    "1",
+    "2",
+    "all 3"
+   ]
+  },
+  {
+   "n": 9,
+   "name": "Work complexity",
+   "w": 4,
+   "bands": [
+    "loft + extension",
+    "single-storey ext.",
+    "steel beam / structural",
+    "rewire or heating",
+    "decor, kitchen, bath only"
+   ]
+  },
+  {
+   "n": 10,
+   "name": "Months to happily live there",
+   "w": 3,
+   "bands": [
+    "> 18",
+    "13-18",
+    "7-12",
+    "4-6",
+    "≤ 3"
+   ]
+  },
+  {
+   "n": 11,
+   "name": "Unknowns (damp, roof, cellar, survey flags)",
+   "w": 3,
+   "bands": [
+    "several serious",
+    "one serious",
+    "minor, cause unclear",
+    "minor, cause clear",
+    "none"
+   ]
+  },
+  {
+   "n": 12,
+   "name": "Street quality (owner-occupied, tidy fronts, few letting boards, no main road or rat-run)",
+   "w": 6,
+   "bands": [
+    "most fail",
+    "2 fail",
+    "1 fails",
+    "all pass, plain",
+    "all pass, sought after"
+   ]
+  },
+  {
+   "n": 13,
+   "name": "Walk to park",
+   "w": 4,
+   "bands": [
+    "> 20 min",
+    "15-20",
+    "10-15",
+    "5-10",
+    "≤ 5 min"
+   ]
+  },
+  {
+   "n": 14,
+   "name": "Walk to big supermarket",
+   "w": 2,
+   "bands": [
+    "drive only",
+    "20-25 min",
+    "15-20",
+    "10-15",
+    "≤ 10 min"
+   ]
+  },
+  {
+   "n": 15,
+   "name": "Parking and slope",
+   "w": 1,
+   "bands": [
+    "no parking, steep",
+    "one bad",
+    "hard parking, level",
+    "easy on-street",
+    "drive, level"
+   ]
+  },
+  {
+   "n": 16,
+   "name": "Inside bones (light, ceiling height, scope to open up the single floor, loft height)",
+   "w": 5,
+   "bands": [
+    "poor",
+    "below average",
+    "average",
+    "good",
+    "excellent"
+   ]
+  },
+  {
+   "n": 17,
+   "name": "Outside (well-built bungalow or good plot, garden, attractive street)",
+   "w": 5,
+   "bands": [
+    "ugly or tired street",
+    "plain, worn",
+    "plain, tidy",
+    "attractive",
+    "handsome"
+   ]
+  },
+  {
+   "n": 18,
+   "name": "Uplift: V ÷ asking",
+   "w": 8,
+   "bands": [
+    "< 1.10",
+    "1.10-1.20",
+    "1.20-1.30",
+    "1.30-1.45",
+    "> 1.45"
+   ],
+   "computed": "uplift",
+   "cuts": [
+    1.1,
+    1.2,
+    1.3,
+    1.45
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "BTG Eddisons auctions",
+   "desc": "BUNGALOWS AND LAND ONLY. BTG Eddisons Property Auctions (btgeddisonspropertyauctions.com), incl. Mark Jenkinson and SDL. Sheffield office page btgeddisonspropertyauctions.com/offices/sheffield. Upcoming lots only. Price = guide. Add flag auction. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Auction aggregators",
+   "desc": "BUNGALOWS AND LAND ONLY. EIG (eigpropertyauctions.co.uk/search/residential/sheffield), Allsop, propertyauctions.io, Auction House South Yorkshire, Pugh. Upcoming lots only. Price = guide. Name the auctioneer in agent; add flag auction. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Blundells",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Blundells (blundells.com): Woodseats S8 and Banner Cross S11 branches, plus Hillsborough for Walkley. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Hunters",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Hunters (hunters.com): Woodseats S8, Hunters Bar S11, Crookes S10 offices. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Whitehornes",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Whitehorne Independent ('Whitehornes', 'Whitehorn Estate Agents', whitehornes.co.uk): Chesterfield Road S8 and Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "SK Estate Agents",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent SK Estate Agents, 868 Chesterfield Road, Woodseats S8. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Staves",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Staves (stavesestateagents.co.uk): Woodseats S8 and Psalter Lane S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Reeds Rains",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Reeds Rains (reedsrains.co.uk), Woodseats branch. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Saxton Mee",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Saxton Mee (saxtonmee.co.uk): Banner Cross S11, Crookes S10, Hillsborough (for Walkley). OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Eadon Lockwood & Riddle",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent ELR (elr.co.uk), Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Haybrook",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Haybrook (haybrook.com): Banner Cross S11 and Crookes S10. Listing pages look like haybrook.com/buying/... OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Redbrik",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Redbrik (redbrik.co.uk), West Sheffield branch, Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Spencer",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent Spencer (spencersestateagents.co.uk), Ecclesall Road S11. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "haus",
+   "desc": "BUNGALOWS AND LAND ONLY. Estate agent haus (haushomes.co.uk), Nether Edge and nearby period homes. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Other independent agents",
+   "desc": "BUNGALOWS AND LAND ONLY. Any estate agent with an office or listings in S2, S7, S8 or S11 that is NOT one of: BTG Eddisons auctions, Auction aggregators, Blundells, Hunters, Whitehornes, SK Estate Agents, Staves, Reeds Rains, Saxton Mee, Eadon Lockwood & Riddle, Haybrook, Redbrik, Spencer, haus, Williams & Co, Walkley agents. First find such agents (web search for estate agents in Meersbrook, Heeley, Woodseats, Nether Edge, Hunters Bar, Greystones, Ecclesall Road), then search each one's own website for qualifying houses. Name the agent in `agent`. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Online and hybrid agents",
+   "desc": "BUNGALOWS AND LAND ONLY. Online and hybrid agents' own websites, Sheffield listings only: Purplebricks, Yopa, Strike, eXp UK, Keller Williams, Fine & Country, Andrews, Bairstow Eves, Connells, Your Move. Name the agent in `agent`. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Probate and executor sales",
+   "desc": "BUNGALOWS AND LAND ONLY. Houses sold by executors or as probate: search agents' own sites, auction sites and solicitors' property pages for the words probate, executor sale, deceased estate, grant of probate, no onward chain, vacant possession, in the search areas. Add flag probate when the listing says so. Use only property listings: never death notices, obituaries, funeral pages or probate registers, and never link a named person to an address. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Modern-method and small auctions",
+   "desc": "BUNGALOWS AND LAND ONLY. Upcoming lots only from auctioneers not already covered: iamsold (iamsold.co.uk), Pattinson Auctions, Bidx1, Auction House South Yorkshire, Town & Country Property Auctions, SDL Property Auctions online. Price = guide. Add flag auction and note any reservation fee or buyer's premium. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Private sales and classifieds",
+   "desc": "BUNGALOWS AND LAND ONLY. Houses sold by owners or listed outside agents: Gumtree property for sale (Sheffield), TheHouseShop (thehouseshop.com) private sellers, Sheffield Star and Sheffield Telegraph property pages. Houses for sale only; skip rentals and wanted ads. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
+  },
+  {
+   "name": "Portals: bungalows and land",
+   "desc": "BUNGALOWS AND LAND ONLY. Search Rightmove, Zoopla, PrimeLocation and OnTheMarket for bungalows and for land / building plots in the search areas (e.g. 'bungalows for sale S8', 'land for sale Sheffield S11', 'building plot Sheffield'). WebFetch often refuses Rightmove: confirm each house on Zoopla, PrimeLocation, OnTheMarket or the agent's own site. Return only houses marketed as bungalows or plots."
+  },
+  {
+   "name": "Plot and self-build sites",
+   "desc": "BUNGALOWS AND LAND ONLY. Building plots and land with planning in the search areas from self-build and plot sites: Plotfinder (plotfinder.net), Plotbrowser (plotbrowser.com), BuildStore PlotSearch, The House Shop land, Land & New Homes, and auction land lots. Record planning reference and status, plot size, access and services. Price = asking or guide."
+  },
+  {
+   "name": "Land agents and public disposals",
+   "desc": "BUNGALOWS AND LAND ONLY. Single plots and small sites (1-3 homes) for sale in the search areas from land agents and public bodies: Sheffield City Council property and land for sale, Homes England, SYMCA, and local land or commercial agents (e.g. Mark Jenkinson, Knight Frank land, Savills land, Fisher German, Crapper & Haigh, SPACE Commercial). Skip anything for more than 3 homes or with no residential planning route."
+  }
+ ],
+ "run": {
+  "concurrency": 20,
+  "first_runs": 1,
+  "topup_n": 20,
+  "topup_runs": 3,
+  "shortlist_n": 20,
+  "reprice_min_change": 0.02
+ }
+}

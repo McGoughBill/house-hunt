@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Land adjacent to 78 Montrose Road",
+    "area": "Carter Knowle",
+    "postcode_district": "S7",
+    "price_gbp": 150000,
+    "price_text": "Offers around £150,000",
+    "property_type": "land",
+    "beds": null,
+    "baths": null,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "unknown",
+    "condition": "unknown",
+    "features": "Self-build plot; planning permission granted for a three-bedroom house (ref 17/01058/FUL); CIL approx £11,500",
+    "flags": [],
+    "agent": "Spencers Agents Ltd, 469 Ecclesall Road, Sheffield S11 8PP",
+    "url": "https://www.spencersestateagents.co.uk/site/assets/files/37581/d744512ce7d0570559d36452f533c682e61571a4.pdf",
+    "date_listed": null,
+    "status": "unconfirmed",
+    "verified": false,
+    "known": false,
+    "source": "Spencer",
+    "notes": "Found only as agent brochure PDF; live listing page not located and sale status not stated, so unverified."
+  }
+]
