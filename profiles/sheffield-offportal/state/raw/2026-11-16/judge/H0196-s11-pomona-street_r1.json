@@ -1,0 +1,8 @@
+{"id": "H0196-s11-pomona-street", "run": "1", "live": false, "listing_url": "https://www.spencersestateagents.co.uk/properties/33753696/", "asking": 210000, "floor_area_m2": 109,
+ "house_type": "terrace",
+ "gates": {"area": {"pass": null, "reason": "not checked: listing not live"}, "budget": {"pass": null, "reason": "not checked: listing not live"}, "tenure": {"pass": true, "reason": "unconfirmed: leasehold with 672 years left per OnTheMarket snippet (https://www.onthemarket.com/details/16020507/); covenant dispute not checked"}, "structure": {"pass": null, "reason": "not checked: listing not live"}, "vacant": {"pass": null, "reason": "not checked: listing not live; Dealsourcr snippet says let to three tenants until 26 June (year not stated)"}, "hall": {"pass": null, "reason": "not checked: listing not live; Zoopla snippet mentions an inner lobby but not where the front door opens"}},
+ "V": null, "v_basis": "not run: listing not live", "W": null, "w_basis": "not run: listing not live", "C": null,
+ "scores": [],
+ "anchors": {},
+ "verdict": "REJECT", "biggest_risk": "Not live: Rightmove shows SOLD STC (sold subject to contract), though Zoopla and OnTheMarket snippets still show it for sale; the listing page would not open, so this rests on search snippets.",
+ "sources": ["https://www.spencersestateagents.co.uk/properties/33753696/", "https://www.rightmove.co.uk/properties/173055743", "https://www.zoopla.co.uk/for-sale/details/72616290", "https://www.onthemarket.com/details/18970450", "https://www.onthemarket.com/details/16020507/", "https://dealsourcr.com/deal/rm-173055743/3-bed-terraced-house-single-let-sheffield-s11-8jl"]}

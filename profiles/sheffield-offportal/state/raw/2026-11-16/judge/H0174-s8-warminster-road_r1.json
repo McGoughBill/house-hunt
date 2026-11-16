@@ -1,0 +1,51 @@
+{
+  "id": "H0174-s8-warminster-road",
+  "run": "1",
+  "live": false,
+  "listing_url": "https://www.redbrik.co.uk/property-for-sale-details/3-bedroom-house-for-sale-in-warminster-road-sheffield-s8-683829c5d902088f978d32e0/",
+  "asking": 320000,
+  "floor_area_m2": 85,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "est.: Norton Lees (S8) is a neighbour of Meersbrook, so it is in the search area; not checked on a map."},
+    "budget": {"pass": true, "reason": "unconfirmed: asking £320,000 is under the £325,000 cap. The second test (asking + 1.15W + C at most £425,000) needs W at most £87,826, and W was not priced."},
+    "tenure": {"pass": true, "reason": "unconfirmed: brief says freehold, but portal snippets say leasehold with 785 years left (see sources). Either passes the 150-year rule; no covenant dispute seen."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing text and photos could not be read; nothing adverse seen in snippets."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listed as sold subject to contract, so occupation at completion is unknown."},
+    "hall": {"pass": true, "reason": "unconfirmed: floorplan could not be read, so where the front door opens is unknown."}
+  },
+  "V": null,
+  "v_basis": "not computed: only one sale found on Warminster Road S8 8PS in the last 2 years (no. 335, £278,000, late Nov 2024, leasehold semi, done-up status unknown). No 3 done-up sales found. House is off the market, so no nearest-street fallback was run.",
+  "W": null,
+  "w_basis": "not priced: floorplan and photos could not be opened (proxy refused every page fetch). C = £1,000 stamp duty (5% of the £20,000 above £300k) + £3,000 fees = £4,000.",
+  "C": 4000,
+  "scores": [
+    {"n": 1, "score": null, "est": false, "evidence": "not scored: needs V"},
+    {"n": 3, "score": null, "est": false, "evidence": "not scored: needs V"},
+    {"n": 4, "score": null, "est": false, "evidence": "not scored: needs V"},
+    {"n": 5, "score": 3, "est": true, "evidence": "913 sq ft ≈ 85 m² per portal snippets (Zoopla/Primelocation), unverified; falls in the 80-90 band"},
+    {"n": 6, "score": null, "est": false, "evidence": "not scored: floorplan not read"},
+    {"n": 7, "score": null, "est": false, "evidence": "not scored: floorplan and photos not read"},
+    {"n": 8, "score": null, "est": false, "evidence": "not scored: no garden or neighbour check"},
+    {"n": 9, "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+    {"n": 11, "score": null, "est": false, "evidence": "not scored: no listing text or survey read"},
+    {"n": 12, "score": null, "est": false, "evidence": "not scored: street not checked"},
+    {"n": 13, "score": null, "est": false, "evidence": "not scored: no map access"},
+    {"n": 14, "score": null, "est": false, "evidence": "not scored: no map access"},
+    {"n": 15, "score": null, "est": false, "evidence": "not scored: no map access or photos"},
+    {"n": 16, "score": null, "est": false, "evidence": "not scored: photos not seen"},
+    {"n": 17, "score": null, "est": false, "evidence": "not scored: photos not seen"}
+  ],
+  "anchors": {"Sheffield railway station": "not checked: no map access; est. over 40 min walk"},
+  "verdict": "REJECT",
+  "biggest_risk": "Off the market: shown as sold subject to contract on Zoopla (snippet, date unknown), and the listing itself could not be opened.",
+  "sources": [
+    "https://www.redbrik.co.uk/property-for-sale-details/3-bedroom-house-for-sale-in-warminster-road-sheffield-s8-683829c5d902088f978d32e0/",
+    "https://www.zoopla.co.uk/for-sale/details/70341147",
+    "https://www.primelocation.com/for-sale/details/70341147/",
+    "https://street.co.uk/platform/properties/24f1c184-ad9e-4b63-b8eb-047033bf3e77",
+    "https://www.onthemarket.com/details/17208931",
+    "https://primelocation.com/house-prices/sheffield/warminster-road/s8-8ps"
+  ]
+}

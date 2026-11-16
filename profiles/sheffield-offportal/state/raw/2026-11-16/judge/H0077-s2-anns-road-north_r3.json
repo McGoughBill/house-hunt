@@ -1,0 +1,49 @@
+{
+ "id": "H0077-s2-anns-road-north",
+ "run": "3",
+ "live": null,
+ "listing_url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-heeley-sheffield-398819",
+ "asking": 165000,
+ "floor_area_m2": null,
+ "house_type": "semi",
+ "gates": {
+  "area": {"pass": true, "reason": "Heeley S2 3GR, adjoining Meersbrook; address taken from the Purplebricks listing title in search results (listing itself not opened)"},
+  "budget": {"pass": true, "reason": "Asking £165,000 is under £325,000 (asking taken from the house record, not verified on the listing). unconfirmed: works not priced; the 1.15W + C limit fails only if W is above about £223,000"},
+  "tenure": {"pass": true, "reason": "unconfirmed: tenure not seen, listing not opened"},
+  "structure": {"pass": true, "reason": "unconfirmed: no survey or listing text seen"},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupancy not seen"},
+  "hall": {"pass": true, "reason": "unconfirmed: front door position not seen in listing or floorplan"}
+ },
+ "V": 247500,
+ "v_basis": "est. only 2 same-street sales in the last 2 years, not 3, and done-up status not confirmed: No. 124 Anns Road North (S2 3GQ) £250,000 on 11 Aug 2025; No. 149 Anns Road North (S2 3GS) £245,000 in Nov 2024 (day not given, so may fall outside the window). Median of the two = £247,500 est.; no nearest-street set found",
+ "W": null,
+ "w_basis": "not priced: listing and floorplan not opened, so no works list; not estimated",
+ "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "not scored: listing not opened (live null)"},
+  {"n": 3, "score": null, "est": false, "evidence": "not scored: listing not opened (live null)"},
+  {"n": 4, "score": null, "est": false, "evidence": "not scored: listing not opened (live null)"},
+  {"n": 5, "score": null, "est": false, "evidence": "not scored: floor area not seen (live null)"},
+  {"n": 6, "score": null, "est": false, "evidence": "not scored: floorplan not opened (live null)"},
+  {"n": 7, "score": null, "est": false, "evidence": "not scored: floorplan not opened (live null)"},
+  {"n": 8, "score": null, "est": false, "evidence": "not scored: plot and neighbours not seen (live null)"},
+  {"n": 9, "score": null, "est": false, "evidence": "not scored: no works list (live null)"},
+  {"n": 10, "score": null, "est": false, "evidence": "not scored: no works list (live null)"},
+  {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or listing text (live null)"},
+  {"n": 12, "score": null, "est": false, "evidence": "not scored: street not inspected (live null)"},
+  {"n": 13, "score": null, "est": false, "evidence": "not scored: walk to park not measured (live null)"},
+  {"n": 14, "score": null, "est": false, "evidence": "not scored: walk to supermarket not measured (live null)"},
+  {"n": 15, "score": null, "est": false, "evidence": "not scored: parking and slope not seen (live null)"},
+  {"n": 16, "score": null, "est": false, "evidence": "not scored: photos not opened (live null)"},
+  {"n": 17, "score": null, "est": false, "evidence": "not scored: photos not opened (live null)"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 45 min walk (~3.5 km, not measured)"},
+ "verdict": "PASS",
+ "biggest_risk": "Listing could not be opened, so the £165,000 price, status, tenure, floor area and hall position are unverified; a different Anns Road North 3-bed is shown at £235,000 (listed 1 Jun 2026). PASS only means no gate failed on evidence.",
+ "sources": [
+  "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-heeley-sheffield-398819",
+  "https://housemetric.co.uk/house-prices/Anns-Road-North/S2-3GS",
+  "https://domovita.co.uk/sold-prices/s2?start=250",
+  "https://www.primelocation.com/for-sale/property/sheffield/anns-road-north/"
+ ]
+}

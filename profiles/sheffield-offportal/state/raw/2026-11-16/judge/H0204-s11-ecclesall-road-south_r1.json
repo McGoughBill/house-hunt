@@ -1,0 +1,48 @@
+{
+ "id": "H0204-s11-ecclesall-road-south",
+ "run": "1",
+ "live": null,
+ "listing_url": "https://whitehornes.co.uk/property-for-sale/ecclesall-road-south-sheffield-s11/",
+ "asking": 325000,
+ "floor_area_m2": null,
+ "house_type": null,
+ "gates": {
+  "area": {"pass": true, "reason": "unconfirmed: S11 Ecclesall Road South; distance to Endcliffe Park or Meersbrook not checked, and nothing shows it is outside the search areas."},
+  "budget": {"pass": true, "reason": "unconfirmed: asking 325000 is the figure from the job brief and sits at the cap; the 1.15W+C test cannot run because W is unpriced."},
+  "tenure": {"pass": true, "reason": "unconfirmed: leasehold with 701 years left per job brief and an OnTheMarket snippet; covenant dispute not checked."},
+  "structure": {"pass": true, "reason": "unconfirmed: no listing text, survey or photos could be opened; movement, knotweed, spray foam and dry rot not checked."},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupation not stated in anything that could be opened."},
+  "hall": {"pass": true, "reason": "unconfirmed: floorplan and listing text not opened; a PrimeLocation snippet for 54 Ecclesall Road South mentions an entrance hall, but it may be a different house."}
+ },
+ "V": null,
+ "v_basis": "not established: no 3 done-up same-street sales in the last 2 years found. Domovita lists 2021-2024 semi sales on the road from 312500 to 560000 (e.g. 54 Ecclesall Road South, 560000, Aug 2024), none shown as done-up; the only 2025 sale in snippets is 384 Ecclesall Road South, 453500, Sep 2025, possibly listed twice.",
+ "W": null,
+ "w_basis": "not priced: floorplan and photos not opened. C 4250 is est.: 1250 stamp duty (5% of the 25000 above 300000) plus 3000 fees, on the 325000 asking.",
+ "C": 4250,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "not scored: listing not opened and V not established"},
+  {"n": 3, "score": null, "est": false, "evidence": "not scored: V not established"},
+  {"n": 4, "score": null, "est": false, "evidence": "not scored: V not established"},
+  {"n": 5, "score": null, "est": false, "evidence": "not scored: floor area not found for this listing"},
+  {"n": 6, "score": null, "est": false, "evidence": "not scored: room sizes not seen"},
+  {"n": 7, "score": null, "est": false, "evidence": "not scored: floorplan not opened"},
+  {"n": 8, "score": null, "est": false, "evidence": "not scored: garden and neighbour extensions not checked"},
+  {"n": 9, "score": null, "est": false, "evidence": "not scored: condition and works not seen"},
+  {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+  {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or listing text opened"},
+  {"n": 12, "score": null, "est": false, "evidence": "not scored: street tenure and letting boards not checked"},
+  {"n": 13, "score": null, "est": false, "evidence": "not scored: walk to Endcliffe Park not checked"},
+  {"n": 14, "score": null, "est": false, "evidence": "not scored: walk to supermarket not checked"},
+  {"n": 15, "score": null, "est": false, "evidence": "not scored: parking and slope not seen"},
+  {"n": 16, "score": null, "est": false, "evidence": "not scored: no photos or floorplan opened"},
+  {"n": 17, "score": null, "est": false, "evidence": "not scored: no photos opened"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 35 min, bus to city centre then walk; not checked"},
+ "verdict": "PASS",
+ "biggest_risk": "Could not open the listing or match it to a live 325000 Whitehornes ask, so it may be sold or mis-priced; PASS only means no gate failed on evidence, and all scores are null.",
+ "sources": [
+  "https://www.onthemarket.com/details/14488386/",
+  "https://www.primelocation.com/for-sale/details/66852051/",
+  "https://domovita.co.uk/sold-prices/street/s11/ecclesall-road-south"
+ ]
+}

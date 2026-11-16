@@ -1,0 +1,27 @@
+[
+  {
+    "street": null,
+    "area": "S7 (street not shown in search snippet)",
+    "postcode_district": "S7",
+    "price_gbp": 220000,
+    "price_text": "Guide Price: £220,000",
+    "property_type": "semi-detached",
+    "beds": null,
+    "baths": null,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "freehold",
+    "condition": "unknown",
+    "features": "unmodernised; two floors plus basement; garden; parking; large corner plot c.316 m²; possible extension (subject to planning)",
+    "flags": ["auction"],
+    "agent": "EIG Property Auctions (lot auctioneer not shown in snippet)",
+    "url": "https://www.eigpropertyauctions.co.uk/search/property/sheffield",
+    "date_listed": null,
+    "status": "unconfirmed: upcoming lot per EIG Sheffield search page; auction date not shown",
+    "verified": false,
+    "known": false,
+    "source": "Auction aggregators",
+    "notes": "Lot 021 seen only in EIG search snippet; street, auction date and bedroom count not shown ('three rooms' in listing text); lot page could not be opened."
+  }
+]

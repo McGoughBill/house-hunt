@@ -1,0 +1,31 @@
+{"id": "H0175-s2-myrtle-road", "run": "1", "live": true, "listing_url": "https://www.redbrik.co.uk/property/myrtle-road-sheffield-s2/", "asking": 175000, "floor_area_m2": 80, "house_type": "end-terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Myrtle Road, Heeley S2; Heeley adjoins Meersbrook (est.)"},
+  "budget": {"pass": true, "reason": "Asking 175000 <= 325000. Asking + 1.15W + C = 175000 + 129950 + 3000 = 307950 <= 425000 (W and C est.). Zoopla 72734576 and dealsourcr show 180000; brief says 175000."},
+  "tenure": {"pass": true, "reason": "Freehold per Zoopla 72734576 and OnTheMarket 18460483 snippets"},
+  "structure": {"pass": true, "reason": "unconfirmed: listing text seen in snippets is silent on movement, subsidence, knotweed or dry rot"},
+  "vacant": {"pass": false, "reason": "dealsourcr rm-87400545 (same description as Rightmove 87400545: bay lounge, separate dining room, off-shot kitchen, two doubles and a single) is titled '3 Bed Terraced House, Single Let', so tenanted, not vacant possession. Portal status: SOLD STC (Rightmove), SSTC (Zoopla, OnTheMarket)."},
+  "hall": {"pass": true, "reason": "unconfirmed: listing names a bay lounge and separate dining room but does not say where the front door opens"}
+ },
+ "V": 195000, "v_basis": "est.: done-up status not verified. Median of 3 same-street 3-bed terrace sales, last 2 yrs: 228 Myrtle Road (S2 3HL) Mar 2025 190000; 247 Myrtle Road (S2 3HH) Apr 2025 195000; 141 Myrtle Road (S2 3HF) 14 Nov 2025 200000", "W": 113000, "w_basis": "est.: single-storey rear extension to 25 m2+ kitchen-diner 45000; kitchen 12000; bathroom 7000; rewire 6000; heating 5000; decor, floors, plaster 15000; windows, roof, external 11000; hall and room reconfiguration 5000; garden 3000; design and building control 4000; no contingency", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "As bought est. 2188/m2 (175000 / 80 m2) vs done-up street est. 2010/m2 (247 Myrtle Rd, 97 m2, 195000, Housemetric 30611691); ratio above 85%"},
+  {"n": 3, "score": 3, "est": true, "evidence": "V 195000 / street max 2-yr sale 206100 (129 Myrtle Rd, Oct 2025, Housemetric 31053272) = 94.6%"},
+  {"n": 4, "score": 4, "est": true, "evidence": "Sector max 2-yr sale not found; est. 250000 gives 78%, band 70-80%"},
+  {"n": 5, "score": 3, "est": true, "evidence": "864 sq ft = 80.3 m2 (Zoopla 72734576); sits just over the 80 m2 band edge"},
+  {"n": 6, "score": 4, "est": true, "evidence": "Two doubles and one single listed (Zoopla 72734576; Rightmove 87400545); room sizes not given, so 11.5 m2 on the doubles is unconfirmed; single is small"},
+  {"n": 7, "score": 4, "est": true, "evidence": "Off-shot kitchen exists; knock-through of dining room gives est. 20 m2; reaching 25 m2 needs side or rear infill (est.)"},
+  {"n": 8, "score": 2, "est": true, "evidence": "Garden length, loft and neighbours' extensions not given; mature garden with store (Rightmove 87400545); est. one weak option from end-terrace side space"},
+  {"n": 9, "score": 2, "est": true, "evidence": "Scope includes single-storey rear extension plus rewire and heating (est.)"},
+  {"n": 10, "score": 3, "est": true, "evidence": "est. 9-12 months to finish extension and full refurb while living elsewhere"},
+  {"n": 11, "score": 3, "est": true, "evidence": "No survey seen; cellar listed (Rightmove 87400545), condition unknown; EPC D (Zoopla 72734576) vs F (OnTheMarket 18460483) conflict"},
+  {"n": 12, "score": 3, "est": true, "evidence": "Myrtle Road has houses to let (Reeds Rains WOO250322); owner-occupier share, tidy fronts and rat-run not checked; est. one fail"},
+  {"n": 13, "score": 3, "est": true, "evidence": "Nearest park Heeley People's Park, View Road S2 3DJ (Pacer 106335); est. 10-15 min walk, not measured"},
+  {"n": 14, "score": 4, "est": true, "evidence": "Sainsbury's at 960 Gleadless Road (food hygiene register 436573); est. 10-15 min walk"},
+  {"n": 15, "score": 3, "est": true, "evidence": "No parking or slope information in listing; on-street parking and slope est."},
+  {"n": 16, "score": 3, "est": true, "evidence": "Bay-windowed lounge and separate dining room listed (Zoopla 72734576; OnTheMarket 18460483); no ceiling heights, period features or light data"},
+  {"n": 17, "score": 3, "est": true, "evidence": "Bay-fronted end terrace (OnTheMarket 18460483); brick or stone and front garden not described (est.)"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 20 min bus"},
+ "verdict": "REJECT", "biggest_risk": "Tenanted: dealsourcr lists it as a single let, so the vacant gate fails; even if cleared, est. V 195000 is well below asking 175000 + W 113000 + C 3000 (buy test about -132450, est.)",
+ "sources": ["https://www.redbrik.co.uk/property/myrtle-road-sheffield-s2/", "https://app.zoopla.co.uk/for-sale/details/72734576", "https://www.onthemarket.com/details/18460483", "https://www.rightmove.co.uk/properties/87400545", "https://dealsourcr.com/deal/rm-87400545/3-bed-terraced-house-single-let-sheffield-s2-3hj", "https://www.rightmove.co.uk/house-prices/s2/myrtle-road.html", "https://housemetric.co.uk/31043036/S2-3HL/228+Myrtle+Road", "https://housemetric.co.uk/30611691/S2-3HH/247+Myrtle+Road", "https://housemetric.co.uk/31053272/S2-3HF/129+Myrtle+Road", "https://www.reedsrains.co.uk/property/WOO250322", "https://www.mypacer.com/parks/106335/heeley-people-s-park-sheffield", "https://ratings.food.gov.uk/api/download-data/xml/establishments/436573"]}

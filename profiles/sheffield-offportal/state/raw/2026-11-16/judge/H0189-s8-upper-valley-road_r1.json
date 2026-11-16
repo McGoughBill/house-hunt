@@ -1,0 +1,20 @@
+{"id": "H0189-s8-upper-valley-road", "run": "1", "live": false,
+ "listing_url": "https://www.saxtonmee.co.uk/properties-for-sale/property/2490-upper-valley-road-meersbrook-sheffield",
+ "asking": 250000, "floor_area_m2": 85,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Upper Valley Road, Meersbrook, S8 is inside the Meersbrook search area (https://www.onthemarket.com/details/19055249/)"},
+  "budget": {"pass": true, "reason": "unconfirmed: asking £250,000 is within the £325,000 cap; the asking + 1.15W + C test was not run because the house is sold"},
+  "tenure": {"pass": true, "reason": "leasehold with 670 years left per https://www.onthemarket.com/details/19055249/; one search snippet calls a similar £250k Upper Valley Road listing freehold, so unconfirmed"},
+  "structure": {"pass": true, "reason": "unconfirmed: no structural issues found in the listing text; the Saxton Mee page could not be opened"},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated in the listing text found"},
+  "hall": {"pass": true, "reason": "unconfirmed: no front-door description found; listed over four floors including a lower-ground room (https://www.onthemarket.com/details/19055249/)"}
+ },
+ "V": null, "v_basis": "not computed: listing sold, stopped at step 1",
+ "W": null, "w_basis": "not priced: listing sold, stopped at step 1",
+ "C": null,
+ "scores": [],
+ "anchors": {"Sheffield railway station": null},
+ "verdict": "REJECT",
+ "biggest_risk": "Sold STC on OnTheMarket, so off the market (REJECT for that reason, not a gate fail); the Saxton Mee page could not be opened, so the 2490 match is unconfirmed.",
+ "sources": ["https://www.saxtonmee.co.uk/properties-for-sale/property/2490-upper-valley-road-meersbrook-sheffield", "https://www.onthemarket.com/details/19055249/", "https://www.rightmove.co.uk/properties/173467199"]}

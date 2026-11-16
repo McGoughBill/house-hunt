@@ -1,0 +1,23 @@
+{"id": "H0177-s8-fraser-road", "run": "1", "live": true, "listing_url": "https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-fraser-road-sheffield-s8-id-woo250110", "asking": 270000, "floor_area_m2": 98, "house_type": "semi",
+ "gates": {"area": {"pass": true, "reason": "Woodseats, S8; judged a neighbour of Meersbrook (est.)"}, "budget": {"pass": true, "reason": "asking 270k is under 325k; est. 270k + 1.15 x 85k + 3k = 371k, under 425k (est. 381k if asking is 280k, the top of the description band)"}, "tenure": {"pass": true, "reason": "unconfirmed: leasehold with 710 years left (OnTheMarket); no covenant dispute mentioned"}, "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed or dry rot mentioned in snippets; listing page not opened"}, "vacant": {"pass": true, "reason": "unconfirmed: chain-free, but vacant possession not stated"}, "hall": {"pass": true, "reason": "unconfirmed: where the front door opens is not stated; no floorplan seen"}},
+ "V": 290000, "v_basis": "fewer than 3 done-up same-street sales found in 2 years. Fraser Road semi sales found (done-up status not verified): 127 262k Jan 2023; 107 300k Jan 2023; 155 280k Jan 2024; 72 280k Oct 2024. Median 280k, plus est. 3-4% done-up uplift = 290k (est.). 2025 street total: 3 sales, average 263k, types unknown (Resi).", "W": 85000, "w_basis": "est.: rewire 7k, heating 5k, kitchen 12k, bathroom 7k, windows 10k, decor and floors 12k, damp/roof/repairs 10k, knock-through 6k, skip/scaffold/fees 8k (about 77k), plus about 8k for unknowns. Excludes a single-storey rear extension (est. 45k) if the kitchen-diner is under 25 m2. Excludes contingency.", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "asking 2,755/m2 (270k / 98 m2) vs est. done-up 2,959/m2 (V est. 290k): 93%"},
+  {"n": 3, "score": 1, "est": true, "evidence": "V est. 290k vs street max in 2 years est. 280k (no 2-year max found): 104%"},
+  {"n": 4, "score": 4, "est": true, "evidence": "V est. 290k vs sector max est. 400k (not found): 73%"},
+  {"n": 5, "score": 4, "est": false, "evidence": "about 1,054 sq ft = 98 m2 per OnTheMarket listing"},
+  {"n": 6, "score": 4, "est": true, "evidence": "3 beds listed, room sizes not given; a study is also listed, so one bedroom is likely small"},
+  {"n": 7, "score": 5, "est": false, "evidence": "Reeds Rains listing text: converted kitchen/diner exists; size and position not verified"},
+  {"n": 8, "score": 2, "est": true, "evidence": "rear garden and off-street parking listed; garden length, loft and neighbours' extensions unknown"},
+  {"n": 9, "score": 4, "est": true, "evidence": "rewire or heating likely for a semi of unknown age; no extension in W"},
+  {"n": 10, "score": 3, "est": true, "evidence": "est. 7-9 months for full refurb including rewire and heating"},
+  {"n": 11, "score": 3, "est": true, "evidence": "no survey or condition report seen; cause of any issue unknown"},
+  {"n": 12, "score": 3, "est": true, "evidence": "residential street; no letting boards, traffic or tidiness information seen"},
+  {"n": 13, "score": 3, "est": true, "evidence": "est. 10-15 min walk to Graves Park, not measured"},
+  {"n": 14, "score": 3, "est": true, "evidence": "est. 15-20 min walk; no walk time found"},
+  {"n": 15, "score": 4, "est": true, "evidence": "off-street parking listed (Rightmove key features, matched in search); slope unknown"},
+  {"n": 16, "score": 3, "est": true, "evidence": "no photos or room sizes seen; EPC C suggests some upgrading"},
+  {"n": 17, "score": 3, "est": true, "evidence": "no photos seen; front given over to parking, est. plain and tidy"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 25 min by bus; walk about 70 min (est.)"},
+ "verdict": "PASS", "biggest_risk": "Buy test fails on est. figures (0.9V - 1.15W - C - asking = about -110k), and the hall, vacancy and structure gates are unconfirmed because the listing page would not open.", "sources": ["https://www.reedsrains.co.uk/property/WOO250110", "https://www.onthemarket.com/details/17062379/", "https://www.rightmove.co.uk/properties/171957104", "https://resi.co.uk/house-prices/fraser-road-s8", "https://domovita.co.uk/sold-prices/street/s8/fraser-road?start=150", "https://www.reedsrains.co.uk/estate-agent/woodseats/local-area-guide"]}

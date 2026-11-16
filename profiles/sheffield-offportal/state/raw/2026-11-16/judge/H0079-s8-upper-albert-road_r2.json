@@ -1,0 +1,33 @@
+{"id": "H0079-s8-upper-albert-road", "run": "2", "live": null, "listing_url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-meersbrook-sheffield-578899", "asking": 195000, "floor_area_m2": null,
+ "house_type": "semi",
+ "gates": {
+  "area": {"pass": true, "reason": "Upper Albert Road, Meersbrook, Sheffield S8 9HT per the Purplebricks listing title in search results; inside the Meersbrook search area."},
+  "budget": {"pass": true, "reason": "unconfirmed: asking 195000 taken from the sweep, not read on the listing; W not priced, so the 1.15W + C check cannot be run."},
+  "tenure": {"pass": true, "reason": "unconfirmed: listing not read. Nearby sales show freehold (14 and 30 Upper Albert Road); 49 Upper Albert Road is listed leasehold in one source."},
+  "structure": {"pass": true, "reason": "unconfirmed: no survey or listing text read."},
+  "vacant": {"pass": true, "reason": "unconfirmed: listing not read; occupancy unknown."},
+  "hall": {"pass": true, "reason": "unconfirmed: listing text and floorplan not read, so the front door position is unknown."}
+ },
+ "V": 275000, "v_basis": "est. median of 3 semi sales in last 2 years, condition not verified: 10 Upper Albert Road S8 9HR, 16 Jan 2026, 260000 (63 m2); 30 Upper Albert Road S8 9HR, 18 Dec 2025, 275000; 49 Upper Albert Road S8 9HT, 11 Mar 2025, 381000 (4-bed, tenure conflicting). Figures are from search snippets of aggregator pages; pages not opened.",
+ "W": null, "w_basis": "not priced: listing and floorplan not opened, so no works list. C 3000 = fees only; stamp duty nil at 195000 for a first-time buyer.", "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "No floor area given and listing not opened."},
+  {"n": 3, "score": 5, "est": true, "evidence": "est. V 275000 / street max 381000 (49 Upper Albert Road, Mar 2025) = 72%, band under 80%."},
+  {"n": 4, "score": null, "est": false, "evidence": "Sector max sale not found."},
+  {"n": 5, "score": null, "est": false, "evidence": "Floor area not given."},
+  {"n": 6, "score": null, "est": false, "evidence": "Room sizes not read; listing title says 3 bedrooms."},
+  {"n": 7, "score": null, "est": false, "evidence": "No floorplan or photos read."},
+  {"n": 8, "score": null, "est": false, "evidence": "Garden and loft not read."},
+  {"n": 9, "score": null, "est": false, "evidence": "State and works not read."},
+  {"n": 10, "score": null, "est": false, "evidence": "Works not read, so no timescale."},
+  {"n": 11, "score": null, "est": false, "evidence": "Survey and flags not read."},
+  {"n": 12, "score": null, "est": false, "evidence": "Street not checked for lettings or tidy fronts."},
+  {"n": 13, "score": 4, "est": true, "evidence": "est. 5-10 min walk to Meersbrook Park, not measured; Haus listing for S8 9HR says it sits close to the park."},
+  {"n": 14, "score": null, "est": false, "evidence": "Supermarket walk not checked."},
+  {"n": 15, "score": null, "est": false, "evidence": "Parking and slope not read."},
+  {"n": 16, "score": null, "est": false, "evidence": "Inside not seen."},
+  {"n": 17, "score": null, "est": false, "evidence": "Front elevation not seen."}
+ ],
+ "anchors": {"Sheffield railway station": "est. 40 min walk (c.3 km, not measured); est. 20 min bus"},
+ "verdict": "PASS", "biggest_risk": "Listing could not be opened, so the 195000 asking, layout and front door are unconfirmed; recent 3-bed semi sales of 260000-275000 make the asking look too low, which may mean a defect.",
+ "sources": ["https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-meersbrook-sheffield-578899", "https://www.haushomes.co.uk/properties-for-sale/property/12490675-upper-albert-road-meersbrook-sheffield", "https://nethouseprices.com/house-prices/upper%20albert%20road,%20sheffield,%20s8", "https://housemetric.co.uk/house-prices/Upper-Albert-Road/S8-9H/", "https://www.primelocation.com/house-prices/sheffield/upper-albert-road/"]}

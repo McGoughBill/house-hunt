@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Bishopscourt Road",
+    "area": "Meersbrook",
+    "postcode_district": "S8",
+    "price_gbp": 300000,
+    "price_text": "Guide £300,000 - £350,000",
+    "property_type": "semi-detached",
+    "beds": 3,
+    "baths": null,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "unknown",
+    "condition": "unknown",
+    "features": "fully boarded loft, large paved driveway, rear garden",
+    "flags": [],
+    "agent": "SK Estate Agents",
+    "url": "https://www.skestateagents.co.uk/property-details/33725569/-/sheffield/bishopscourt-road",
+    "date_listed": null,
+    "status": "unconfirmed (not flagged SSTC in search snippet)",
+    "verified": false,
+    "known": false,
+    "source": "SK Estate Agents",
+    "notes": "Not opened: search snippet only. Area and status from snippet; guide range overlaps band at £300k-£325k."
+  }
+]

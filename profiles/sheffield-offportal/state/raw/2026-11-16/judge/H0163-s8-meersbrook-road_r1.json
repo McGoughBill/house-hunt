@@ -1,0 +1,49 @@
+{
+ "id": "H0163-s8-meersbrook-road",
+ "run": "1",
+ "live": null,
+ "listing_url": "https://www.thehouseshop.com/property-for-sale/meersbrook-road-sheffield-s8-9hw/5724011",
+ "asking": null,
+ "floor_area_m2": null,
+ "house_type": null,
+ "gates": {
+  "area": {"pass": true, "reason": "unconfirmed: Meersbrook Road, S8 9HW per listing URL slug; listing page could not be opened"},
+  "budget": {"pass": true, "reason": "unconfirmed: asking on request; no price found on any portal searched"},
+  "tenure": {"pass": true, "reason": "unconfirmed: tenure not seen"},
+  "structure": {"pass": true, "reason": "unconfirmed: no listing text, survey or EPC seen"},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupancy not seen"},
+  "hall": {"pass": true, "reason": "unconfirmed: door position not seen; floorplan not reached"}
+ },
+ "V": null,
+ "v_basis": "not computed: house type and done-up state unknown without the listing. Seen in search summaries, not used as V: 22 Meersbrook Road, June 2024, 399000, four-bed semi (housemetric); 2 Meersbrook Road, Feb 2026, 400000 (primelocation)",
+ "W": null,
+ "w_basis": "not priced: no floorplan or photos reached",
+ "C": null,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "not scored: listing not opened"},
+  {"n": 3, "score": null, "est": false, "evidence": "not scored: V not computed"},
+  {"n": 4, "score": null, "est": false, "evidence": "not scored: V not computed"},
+  {"n": 5, "score": null, "est": false, "evidence": "not scored: floor area not seen"},
+  {"n": 6, "score": null, "est": false, "evidence": "not scored: bedrooms not seen"},
+  {"n": 7, "score": null, "est": false, "evidence": "not scored: floorplan not reached"},
+  {"n": 8, "score": null, "est": false, "evidence": "not scored: listing not opened"},
+  {"n": 9, "score": null, "est": false, "evidence": "not scored: no photos or survey seen"},
+  {"n": 10, "score": null, "est": false, "evidence": "not scored: condition not seen"},
+  {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or flags seen"},
+  {"n": 12, "score": null, "est": false, "evidence": "not scored: listing not opened"},
+  {"n": 13, "score": null, "est": false, "evidence": "not scored: exact address not confirmed"},
+  {"n": 14, "score": null, "est": false, "evidence": "not scored: exact address not confirmed"},
+  {"n": 15, "score": null, "est": false, "evidence": "not scored: parking not seen"},
+  {"n": 16, "score": null, "est": false, "evidence": "not scored: photos not reached"},
+  {"n": 17, "score": null, "est": false, "evidence": "not scored: photos not reached"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 30 min by bus; house not located"},
+ "verdict": "PASS",
+ "biggest_risk": "Listing never opened and no match by agent or price, so nothing is scored and the PASS is gate-only with every gate unconfirmed; a Whitehornes five-bed on Meersbrook Road at 490000-500000 was not matched.",
+ "sources": [
+  "https://www.thehouseshop.com/property-for-sale/meersbrook-road-sheffield-s8-9hw/5724011",
+  "https://housemetric.co.uk/30179232/S8-9HW/22+Meersbrook+Road",
+  "https://www.primelocation.com/house-prices/sheffield/meersbrook-road/",
+  "https://www.rightmove.co.uk/properties/173827586"
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "H0077-s2-anns-road-north",
+ "run": "2",
+ "live": false,
+ "listing_url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-heeley-sheffield-398819",
+ "asking": 165000,
+ "floor_area_m2": null,
+ "house_type": "semi",
+ "gates": {
+  "area": {"pass": true, "reason": "Anns Road North, Heeley, S2 3GR per the listing's search title; Heeley treated as a neighbour of Meersbrook (judgement, est.)"},
+  "budget": {"pass": true, "reason": "unconfirmed: asking 165000 is from the job brief (listing not opened) and is within 325000; asking + 1.15W + C cannot be checked because W is not priced"},
+  "tenure": {"pass": true, "reason": "unconfirmed: tenure not seen"},
+  "structure": {"pass": true, "reason": "unconfirmed: no description or survey seen"},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupancy not seen; the snippet's 'Sold. Under offer.' is a sale status, not an occupancy fact"},
+  "hall": {"pass": true, "reason": "unconfirmed: no floorplan seen, so the front door position is unknown"}
+ },
+ "V": null,
+ "v_basis": "Not computed: fewer than 3 done-up sales found. Sales seen only in search summaries, not opened: 149 Anns Road North (S2 3GS) semi, 22 Nov 2024, 245000, 74 m2; 124 Anns Road North (S2 3GQ) semi-detached freehold, 11 Aug 2025, 250000 (listed; completion and done-up status not confirmed). Rightmove, Zoopla and Land Registry pages not opened.",
+ "W": null,
+ "w_basis": "Not priced: no floorplan, photos or description seen (listing page would not open).",
+ "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "not scored: no floor area or done-up sale price for this house"},
+  {"n": 3, "score": null, "est": false, "evidence": "not scored: V not computed"},
+  {"n": 4, "score": null, "est": false, "evidence": "not scored: V not computed"},
+  {"n": 5, "score": null, "est": false, "evidence": "not scored: no floor area for this house (neighbouring Anns Road North houses at 68-74 m2 are other properties)"},
+  {"n": 6, "score": null, "est": false, "evidence": "not scored: bedroom layout not seen (title says 3 bedrooms)"},
+  {"n": 7, "score": null, "est": false, "evidence": "not scored: no floorplan or photos seen"},
+  {"n": 8, "score": null, "est": false, "evidence": "not scored: no plot or neighbour data for this house"},
+  {"n": 9, "score": null, "est": false, "evidence": "not scored: works not priced"},
+  {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+  {"n": 11, "score": null, "est": false, "evidence": "not scored: no description or survey seen"},
+  {"n": 12, "score": null, "est": false, "evidence": "not scored: street survey not done; listing not opened"},
+  {"n": 13, "score": null, "est": false, "evidence": "not scored: no park distance checked"},
+  {"n": 14, "score": null, "est": false, "evidence": "not scored: no supermarket distance checked"},
+  {"n": 15, "score": null, "est": false, "evidence": "not scored: parking and slope not seen"},
+  {"n": 16, "score": null, "est": false, "evidence": "not scored: no photos or description seen"},
+  {"n": 17, "score": null, "est": false, "evidence": "not scored: no photos seen"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 45 min walk (about 3.5 km); not checked"},
+ "verdict": "REJECT",
+ "biggest_risk": "Probably not for sale: a search snippet for the listing shows 'Sold. Under offer.' with an offer accepted, and the page would not open to confirm; no floor area, layout, tenure or works data was found.",
+ "sources": [
+  "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-heeley-sheffield-398819",
+  "https://housemetric.co.uk/house-prices/Anns-Road-North/S2-3GS",
+  "https://primelocation.com/house-prices/sheffield/anns-road-north/s2-3gq"
+ ]
+}

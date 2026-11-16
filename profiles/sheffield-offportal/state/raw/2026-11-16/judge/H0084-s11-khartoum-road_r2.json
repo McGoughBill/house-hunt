@@ -1,0 +1,48 @@
+{
+ "id": "H0084-s11-khartoum-road",
+ "run": "2",
+ "live": null,
+ "listing_url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-400503",
+ "asking": 250000,
+ "floor_area_m2": null,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "unconfirmed: listing not readable; address is Khartoum Road S11 8RD in Sharrow Vale, near Endcliffe Park (est., distance not checked)"},
+  "budget": {"pass": true, "reason": "unconfirmed: asking 250000 is under 325000; the 1.15W + C test cannot be run because W is null"},
+  "tenure": {"pass": true, "reason": "unconfirmed: tenure not readable; search summary (resi.co.uk) reports leasehold sales on Khartoum Road, e.g. 15 Khartoum Road, but this house's lease length is unknown"},
+  "structure": {"pass": true, "reason": "unconfirmed: listing and floorplan not readable"},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupancy not readable"},
+  "hall": {"pass": true, "reason": "unconfirmed: listing and floorplan not readable, so where the front door opens is unknown"}
+ },
+ "V": null,
+ "v_basis": "not found: need 3 done-up sales on Khartoum Road; search summary showed only one terraced sale, 15 Khartoum Road at 342500 on 2025-03-28 (leasehold; done-up status unknown; not verified)",
+ "W": null,
+ "w_basis": "not priced: listing and floorplan could not be opened, so no works list. C = 3000: no stamp duty at 250000 asking (first-time buyer rule in brief) plus 3000 fees; no auction fee",
+ "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "not scored: no floor area, V or W"},
+  {"n": 3, "score": null, "est": false, "evidence": "not scored: V not found"},
+  {"n": 4, "score": null, "est": false, "evidence": "not scored: V not found, sector max not checked"},
+  {"n": 5, "score": null, "est": false, "evidence": "not scored: floor area not given"},
+  {"n": 6, "score": null, "est": false, "evidence": "not scored: listing not readable, bedroom sizes unknown"},
+  {"n": 7, "score": null, "est": false, "evidence": "not scored: no floorplan"},
+  {"n": 8, "score": null, "est": false, "evidence": "not scored: no floorplan or garden data"},
+  {"n": 9, "score": null, "est": false, "evidence": "not scored: works not priced"},
+  {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+  {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or listing flags readable"},
+  {"n": 12, "score": null, "est": false, "evidence": "not scored: street checked only by search summaries"},
+  {"n": 13, "score": null, "est": false, "evidence": "not scored: walk to Endcliffe Park not checked"},
+  {"n": 14, "score": null, "est": false, "evidence": "not scored: walk to supermarket not checked"},
+  {"n": 15, "score": null, "est": false, "evidence": "not scored: parking and slope not readable"},
+  {"n": 16, "score": null, "est": false, "evidence": "not scored: no photos readable"},
+  {"n": 17, "score": null, "est": false, "evidence": "not scored: no photos readable"}
+ ],
+ "anchors": {"Sheffield railway station": null},
+ "verdict": "PASS",
+ "biggest_risk": "Listing could not be opened: the fetch tool refused every portal (proxy refused the connection) and there is no shell to check proxy status, so live status, price, floor area, tenure and every score are unverified; PASS only means no gate failed on evidence.",
+ "sources": [
+  "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-400503",
+  "https://resi.co.uk/house-prices/khartoum-road-s11",
+  "https://primelocation.com/house-prices/sheffield/khartoum-road"
+ ]
+}
