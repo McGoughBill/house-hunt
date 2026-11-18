@@ -1,0 +1,53 @@
+{
+ "id": "H0234-s2-olive-grove-road",
+ "run": "1",
+ "live": true,
+ "listing_url": "https://www.rightmove.co.uk/properties/167151326",
+ "asking": 210000,
+ "floor_area_m2": null,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Heeley S2 3GD, next to Meersbrook (est. on adjacency)"},
+  "budget": {"pass": true, "reason": "asking 210000 is under 325000; asking + 1.15W + C = 339500 (est.) is under 425000"},
+  "tenure": {"pass": true, "reason": "freehold per Hunters listing https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-olive-grove-road-heeley-sheffield-s2-3gd-s2/34182900/"},
+  "structure": {"pass": true, "reason": "unconfirmed: listing silent on movement, subsidence, knotweed, spray foam and dry rot; basement garage noted https://media.rightmove.co.uk/15k/14323/167151326/14323_34182900_DOC_00_0001.pdf"},
+  "vacant": {"pass": true, "reason": "unconfirmed: vendors live there (a second-floor room is used as a games room); vacant possession not stated https://alto3-alto-media.s3.amazonaws.com/KWRKjFSE2lL0G2zf_eHhQObAFLU/qBL13f3SQcKflkXqCeFN7b2uLxs/Brochure/[0]/qkaH6E7jJ0Gi6DEZqQfMaA.pdf"},
+  "hall": {"pass": true, "reason": "unconfirmed: where the front door opens is not stated in the sources; floorplan not seen"}
+ },
+ "V": 175000,
+ "v_basis": "3 as-is sales, NOT done-up, so V is est. and likely low: 149 Olive Grove Road (S2 3GD) 2025-03-07 177000; 117 Alexandra Road (S2 3EH) 2025-05-07 175000; 89 Heeley Bank Road (S2 3GL) 2025-09 172500; median 175000. No done-up same-street sales found.",
+ "W": 110000,
+ "w_basis": "est.; no floorplan or photos viewed; excludes contingency: single-storey rear ext for 25 m2 kitchen-diner 50000; kitchen 12000; bathroom 7000; rewire 6000; heating 4000; decor and floors 10000; second-floor bedroom sign-off 4000; damp, roof and windows 6000; structural opening 5000; fees 6000",
+ "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "asking 210000 is about 120% of as-is comps V 175000; done-up V would need to exceed about 247000 to score higher (est.)"},
+  {"n": 3, "score": 2, "est": true, "evidence": "V 175000 is 99% of 177000, the only 2-year street sale found https://domovita.co.uk/sold-prices/street/s2/olive-grove-road (est.)"},
+  {"n": 4, "score": 4, "est": true, "evidence": "V 175000 is 77% of 228000, the sector max found (129 Myrtle Crescent, May 2025) https://domovita.co.uk/sold-prices/s2?start=450 (sample only, est.)"},
+  {"n": 5, "score": 2, "est": true, "evidence": "floor area not given; est. 70-80 m2 from 3 beds, two reception rooms and an off-shot kitchen"},
+  {"n": 6, "score": 3, "est": true, "evidence": "two first-floor bedrooms and a white bathroom; third bedroom is on the second floor and used as a games room, so it needs sign-off (est.) https://alto3-alto-media.s3.amazonaws.com/KWRKjFSE2lL0G2zf_eHhQObAFLU/qBL13f3SQcKflkXqCeFN7b2uLxs/Brochure/[0]/qkaH6E7jJ0Gi6DEZqQfMaA.pdf"},
+  {"n": 7, "score": 3, "est": true, "evidence": "off-shot kitchen exists at the back; a 25 m2 kitchen-diner needs a single-storey rear extension (est.)"},
+  {"n": 8, "score": 2, "est": true, "evidence": "garden length, neighbours' extensions and loft headroom unknown; second floor already has a room (est.)"},
+  {"n": 9, "score": 2, "est": true, "evidence": "single-storey extension plus kitchen, bathroom and decor; EPC E so rewire or heating possible (est.)"},
+  {"n": 10, "score": 3, "est": true, "evidence": "est. 7-12 months for extension, refurb and sign-off"},
+  {"n": 11, "score": 2, "est": true, "evidence": "no survey; basement garage and EPC E could hide damp or structural issues, cause unclear (est.)"},
+  {"n": 12, "score": 3, "est": true, "evidence": "residential Heeley street, not visited; letting boards and tidy fronts unchecked (est.)"},
+  {"n": 13, "score": 3, "est": true, "evidence": "est. 10-15 min walk to Heeley or Meersbrook park"},
+  {"n": 14, "score": 3, "est": true, "evidence": "est. 15-20 min walk to a big supermarket"},
+  {"n": 15, "score": 4, "est": true, "evidence": "garage on the basement level gives off-street parking; slope and access unclear (est.)"},
+  {"n": 16, "score": 3, "est": true, "evidence": "two reception rooms and a white bathroom per brochure; light, ceiling height and period features not seen (est.)"},
+  {"n": 17, "score": 3, "est": true, "evidence": "mid-terrace per Hunters, but brochure garden text says end-terrace (conflict); facade not seen, plain (est.)"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 22 min bus; est. 55 min walk"},
+ "verdict": "PASS",
+ "biggest_risk": "Buy test fails unless finished V is about 377000 (est.); no done-up comps found; floor area and sale status unverified (possibly Sold STC).",
+ "sources": [
+  "https://www.rightmove.co.uk/properties/167151326",
+  "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-olive-grove-road-heeley-sheffield-s2-3gd-s2/34182900/",
+  "https://media.rightmove.co.uk/15k/14323/167151326/14323_34182900_DOC_00_0001.pdf",
+  "https://alto3-alto-media.s3.amazonaws.com/KWRKjFSE2lL0G2zf_eHhQObAFLU/qBL13f3SQcKflkXqCeFN7b2uLxs/Brochure/[0]/qkaH6E7jJ0Gi6DEZqQfMaA.pdf",
+  "https://www.onthemarket.com/details/17869539/",
+  "https://domovita.co.uk/sold-prices/street/s2/olive-grove-road",
+  "https://domovita.co.uk/sold-prices/s2?start=450",
+  "https://housemetric.co.uk/31046228/S2-3GL/89+Heeley+Bank+Road"
+ ]
+}

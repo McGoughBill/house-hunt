@@ -1,0 +1,33 @@
+{"id": "H0256-s7-abbeydale-road", "run": "1", "live": null, "listing_url": "https://www.zoopla.co.uk/for-sale/property/sheffield/abbeydale-road/", "asking": 210000, "floor_area_m2": 116,
+ "house_type": "terrace",
+ "gates": {"area": {"pass": true, "reason": "Abbeydale Road, S7; a Whitehornes listing snippet says it is near Millhouses Park, which is in the Meersbrook/Endcliffe neighbourhood. Exact address not checked."}, "budget": {"pass": true, "reason": "unconfirmed: asking £210,000 is from the task, not seen on a live page, and is under £325,000. W is not priced, so the £425,000 test cannot be run."}, "tenure": {"pass": true, "reason": "unconfirmed: a Whitehornes Abbeydale Road S7 terrace at £265,000 is listed leasehold (snippet, whitehornes.co.uk). Lease length not seen, so no failure on evidence."}, "structure": {"pass": true, "reason": "unconfirmed: no survey, listing text or floorplan seen."}, "vacant": {"pass": true, "reason": "unconfirmed: 'chain free' on a Whitehornes snippet does not confirm vacant possession."}, "hall": {"pass": true, "reason": "unconfirmed: layout not seen. Victorian bay terraces often open straight into a room. Named as a risk."}},
+ "V": null, "v_basis": "not set. Unverified aggregator sales on Abbeydale Road S7 2BH only: No. 839 £240,000 (24/01/2025, terraced); No. 855 £215,000 (31/03/2025, type conflicting); No. 853 £262,000 (04/07/2025, semi-detached). None confirmed as done-up, and fewer than 3 confirmed same-type sales.", "W": null, "w_basis": "not priced: no floorplan or photos opened, and listing pages were refused. C = nil stamp duty at £210,000 (first-time buyer, under £300k) + £3,000 fees.", "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "not scored: no listing page or photos opened; price per m² unknown"},
+  {"n": 3, "score": null, "est": false, "evidence": "not scored: V not set"},
+  {"n": 4, "score": null, "est": false, "evidence": "not scored: V not set"},
+  {"n": 5, "score": null, "est": false, "evidence": "not scored: floor area 116 m² matches 1,247 sq ft on Rightmove snippet, but the listing was not opened to confirm it"},
+  {"n": 6, "score": null, "est": false, "evidence": "not scored: no floorplan seen"},
+  {"n": 7, "score": null, "est": false, "evidence": "not scored: no floorplan seen"},
+  {"n": 8, "score": null, "est": false, "evidence": "not scored: no garden or neighbour data seen"},
+  {"n": 9, "score": null, "est": false, "evidence": "not scored: no condition data seen"},
+  {"n": 10, "score": null, "est": false, "evidence": "not scored: no condition data seen"},
+  {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey or condition data seen"},
+  {"n": 12, "score": null, "est": false, "evidence": "not scored: no street-level data checked"},
+  {"n": 13, "score": null, "est": false, "evidence": "not scored: Millhouses Park is named in a snippet; walk time not checked"},
+  {"n": 14, "score": null, "est": false, "evidence": "not scored: supermarket walk not checked"},
+  {"n": 15, "score": null, "est": false, "evidence": "not scored: parking and slope not seen"},
+  {"n": 16, "score": null, "est": false, "evidence": "not scored: no photos or floorplan opened"},
+  {"n": 17, "score": null, "est": false, "evidence": "not scored: no photos opened"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 20 min bus (est.; exact address not confirmed)"},
+ "verdict": "PASS",
+ "biggest_risk": "Could not open any listing page or confirm this £210k Whitehorn house is live: the only Whitehornes Abbeydale Road listing with 116 m² (1,247 sq ft) is priced at £265k offers in region and leasehold, so identity, price and tenure are all unresolved.",
+ "sources": [
+  "https://www.zoopla.co.uk/for-sale/property/sheffield/abbeydale-road/",
+  "https://www.rightmove.co.uk/properties/89214852",
+  "https://whitehornes.co.uk/properties/terraced-house-for-sale/",
+  "https://street.co.uk/platform/properties/7129679f-818f-47b9-be51-1292ed201b46",
+  "https://street.co.uk/platform/properties/0815e97d-4aee-4dee-b6a2-cb5238605f32",
+  "https://www.bricksandlogic.co.uk/place/postcode/s7-2bh"
+ ]}

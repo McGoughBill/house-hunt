@@ -1,5 +1,5 @@
 {
- "next_id": 207,
+ "next_id": 260,
  "houses": {
   "H0001-s11-791-ecclesall-road": {
    "street": "791 Ecclesall Road",
@@ -977,13 +977,15 @@
    "notes": "Listing gives 1,125 sq ft total (converted to m2). Ground rent figures conflict (£9.50 vs £10 p.a.). Council tax band A.",
    "id": "H0012-s8-meersbrook-avenue",
    "urls": [
-    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-meersbrook-avenue-meersbrook-sheffield-s8-9eb-s8/34676379/"
+    "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-meersbrook-avenue-meersbrook-sheffield-s8-9eb-s8/34676379/",
+    "https://www.rightmove.co.uk/properties/88977264"
    ],
    "sources": [
-    "Hunters"
+    "Hunters",
+    "Rightmove"
    ],
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-08",
@@ -1192,7 +1194,8 @@
     }
    ],
    "retries": {},
-   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18"
+   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0014-s7-37-sheldon-road": {
    "street": "37 Sheldon Road",
@@ -2320,7 +2323,8 @@
     }
    ],
    "retries": {},
-   "parked": "SSTC per buyer, 2026-11-18"
+   "parked": "SSTC per buyer, 2026-11-18",
+   "reprice_from": null
   },
   "H0027-s8-woodseats-road": {
    "street": "Woodseats Road",
@@ -5550,13 +5554,15 @@
    "notes": "Sale Type shows For Sale, no status banner; EPC E per listing text; council tax A; floor area not stated.",
    "id": "H0072-s8-marshall-road",
    "urls": [
-    "https://www.haushomes.co.uk/properties-for-sale/property/12793767-marshall-road-woodseats-sheffield"
+    "https://www.haushomes.co.uk/properties-for-sale/property/12793767-marshall-road-woodseats-sheffield",
+    "https://www.rightmove.co.uk/properties/167623325"
    ],
    "sources": [
-    "haus"
+    "haus",
+    "Rightmove"
    ],
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-09",
@@ -5607,7 +5613,8 @@
     }
    ],
    "retries": {},
-   "parked": "agent page Property Not Found, checked 2026-11-18"
+   "parked": "agent page Property Not Found, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0073-s7-abbeydale-road": {
    "street": "Abbeydale Road",
@@ -5763,7 +5770,7 @@
    "retries": {
     "H0074-s8-derbyshire-lane_r1": 1
    },
-   "reprice_from": 190000
+   "reprice_from": null
   },
   "H0075-s2-delf-street": {
    "street": "Delf Street",
@@ -5848,7 +5855,7 @@
    "street": "Myrtle Close",
    "area": "Heeley",
    "district": "S2",
-   "price": 230000,
+   "price": 240000,
    "price_text": "GUIDE PRICE £230,000",
    "property_type": "terraced",
    "beds": 3,
@@ -5864,17 +5871,23 @@
    "notes": "Listing is inconsistent on which floor the master bedroom is on; confirm with agent.",
    "id": "H0076-s2-myrtle-close",
    "urls": [
-    "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1498515"
+    "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1498515",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/myrtle-close/"
    ],
    "sources": [
-    "Online and hybrid agents"
+    "Online and hybrid agents",
+    "Zoopla"
    ],
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-09",
      230000
+    ],
+    [
+     "2026-11-18",
+     240000
     ]
    ],
    "out_reason": null,
@@ -5921,7 +5934,8 @@
     }
    ],
    "retries": {},
-   "parked": "Purplebricks page says Sold, checked 2026-11-18"
+   "parked": "Purplebricks page says Sold, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0077-s2-anns-road-north": {
    "street": "Anns Road North",
@@ -6047,7 +6061,8 @@
    "retries": {
     "H0077-s2-anns-road-north_r3": 1
    },
-   "parked": "Purplebricks page says Sold, checked 2026-11-18"
+   "parked": "Purplebricks page says Sold, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0078-s2-myrtle-drive": {
    "street": "Myrtle Drive",
@@ -6268,6 +6283,27 @@
      "anchors": {
       "Sheffield railway station": "est. 25 min bus"
      }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 195000,
+     "V": 381000,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 0,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not buyable: search summaries show the Purplebricks listing as under offer with an offer accepted (page would not open, so unverified); live set false and scoring stopped.",
+     "v_basis": "Fewer than 3 same-street semi sales in last 2 yrs, so nearest similar street used: 49 Upper Albert Road semi £381,000 (11 Mar 2025, leasehold); 10 Upper Albert Road semi £260,000 (16 Jan 2026, leasehold); 43 Meersbrook Avenue freehold semi £500,000 (Oct 2025). Median £381,000. Done-up status of all ",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-meersbrook-sheffield-578899",
+     "anchors": {}
     }
    ],
    "retries": {}
@@ -6349,9 +6385,57 @@
      "anchors": {
       "Sheffield railway station": "est. 20 min bus"
      }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 280000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 0,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not buyable: the Purplebricks listing (found by search, page itself refused to open) shows an accepted offer and a Sold tag, though an Under offer tag also appeared so the status is unconfirmed. Asking GBP 280,000 is taken from the task inp",
+     "v_basis": "Not computed: need 3 done-up same-type sales on Shirebrook Road in last 2 years, found only 1 (173 Shirebrook Road, semi, 27 Aug 2025, GBP 450,000, condition unknown). Other 2-year semi sales nearby, condition not confirmed: 14 Meersbrook Avenue 3-bed leasehold 13 Dec 2024 GBP 380,000; 131 Meersbroo",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-sheffield-1005321",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 280000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Listing could not be opened (proxy refused every fetch), so live status is unknown (search summary says both 'Sold' and 'Under offer'); the £280k asking is from task input, and tenure, hall position, works and V are unverified.",
+     "v_basis": "Fewer than 3 done-up semi sales found on Shirebrook Road in 2 years, so V not set. Only 2 semi sales found, done-up status unknown: 173 Shirebrook Rd, 27 Aug 2025, £450,000 (4-bed per Bricks and Logic); 220 Shirebrook Rd (S8 9RG), 27 Aug 2025, £605,000 (5-bed)",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-sheffield-1005321",
+     "anchors": {
+      "Sheffield railway station": null
+     }
     }
    ],
-   "retries": {}
+   "retries": {
+    "H0080-s8-shirebrook-road_r3": 1
+   }
   },
   "H0081-s8-crawford-road": {
    "street": "Crawford Road",
@@ -6428,6 +6512,86 @@
      "url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1227998",
      "anchors": {
       "Sheffield railway station": "est. 20 min bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 215000,
+     "V": 250000,
+     "W": 120000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 2,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing could not be opened and its status came only from a search summary; the front-door position, lease length and room sizes are unseen, so the hall and tenure gates could still fail.",
+     "v_basis": "3 sales: 40 Crawford Road S8 9BU, 28 Jan 2025, £245,000 (terraced leasehold); 44 Crawford Road S8 9BU, 18 Dec 2025, £250,000 (terraced leasehold); 27 Woodbank Crescent S8 9EF, 30 Mar 2026, £250,000 (terraced freehold). Only 2 same-street terraced sales in 2 years, so the third is from the nearest si",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1227998",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus; est. 60 min walk"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 215000,
+     "V": 250000,
+     "W": 85000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 2,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 4,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing could not be opened, so facts are from search snippets, and one snippet says Zoopla shows it sold subject to contract (unverified). On est V 250000 and W 85000 the most you could offer is about 124250 against 215000 asking (margin a",
+     "v_basis": "Only 1 sale in the last 2 years found: 44 Crawford Rd S8 9BU, 18 Dec 2025, 250000, condition unknown (PrimeLocation conflicts: last sale Apr 2022 at 231500). Fewer than 3 done-up sales and no nearby street found. V est, no done-up premium applied.",
+     "url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1227998",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min by bus plus walk; not measured (Rome2rio gives about 15 min by bus Sheffield to Meersbrook)"
      }
     }
    ],
@@ -6510,7 +6674,8 @@
     }
    ],
    "retries": {},
-   "parked": "Purplebricks page says Sold, checked 2026-11-18"
+   "parked": "Purplebricks page says Sold, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0083-s8-greenhill-road": {
    "street": "Greenhill Road",
@@ -6762,7 +6927,8 @@
     "H0084-s11-khartoum-road_r2": 1,
     "H0084-s11-khartoum-road_r3": 1
    },
-   "parked": "Purplebricks page says Sold, checked 2026-11-18"
+   "parked": "Purplebricks page says Sold, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0085-s11-kirkstall-road": {
    "street": "Kirkstall Road",
@@ -6844,7 +7010,7 @@
    "street": "Fulmer Road",
    "area": "Sharrow",
    "district": "S11",
-   "price": 315000,
+   "price": 325000,
    "price_text": "£315,000",
    "property_type": "terraced",
    "beds": 3,
@@ -6860,22 +7026,29 @@
    "notes": "Feature list says two double bedrooms; description says one double and one single.",
    "id": "H0087-s11-fulmer-road",
    "urls": [
-    "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1634174"
+    "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1634174",
+    "https://www.rightmove.co.uk/properties/174240077"
    ],
    "sources": [
-    "Online and hybrid agents"
+    "Online and hybrid agents",
+    "Rightmove"
    ],
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-09",
      315000
+    ],
+    [
+     "2026-11-18",
+     325000
     ]
    ],
    "out_reason": "area",
    "runs": [],
-   "retries": {}
+   "retries": {},
+   "reprice_from": 315000
   },
   "H0088-s11-marmion-road": {
    "street": "Marmion Road",
@@ -7232,9 +7405,57 @@
      "anchors": {
       "Sheffield railway station": "est. 25 min by bus"
      }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 230000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": null,
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Listing could not be opened (Yopa and Rightmove refused every fetch); one search summary says the Yopa page shows it sold at £230,000, but another search could not find that ID, so the status is unconfirmed and nothing is scored. REJECT bec",
+     "v_basis": "not computed: done-up status of the sales is unknown. Sold prices seen only in search results, not opened: 35 Northcote Avenue £305,000 (Feb 2025, Housemetric); 23 Northcote Avenue £265,000 (Oct 2024, Housemetric); 10 Northcote Avenue £260,000 (Jun 2022, Domovita)",
+     "url": "https://www.yopa.co.uk/properties/details/348400",
+     "anchors": {
+      "Sheffield railway station": "est. 20-25 min by bus; not checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 230000,
+     "V": null,
+     "W": null,
+     "C": null,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 0,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Could not open the Yopa page (WebFetch failed on every site this session); the 'sold' status and £230,000 sale price come only from one search-result snippet for this URL, so unverified. Re-check the page; if it is sold there is nothing to ",
+     "v_basis": "not computed: listing sold, stopped at step 1",
+     "url": "https://www.yopa.co.uk/properties/details/348400",
+     "anchors": {
+      "Sheffield railway station": null
+     }
     }
    ],
-   "retries": {}
+   "retries": {
+    "H0093-s2-northcote-avenue_r2": 1
+   }
   },
   "H0094-s2-gleadless-road": {
    "street": "Gleadless Road",
@@ -7662,6 +7883,41 @@
      "anchors": {
       "Sheffield railway station": "25 min bus (est.)"
      }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 325000,
+     "V": 382500,
+     "W": 120000,
+     "C": 4250,
+     "m2": 130,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 2,
+      "3": 4,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "13": 4
+     },
+     "est": 10,
+     "verdict": "PASS",
+     "risk": "The listing page would not open (every fetch was refused), so facts come from search summaries; the budget test fails if works exceed about £83,000 (est. £120,000); the guide runs to £340,000; hall position and floorplan unseen.",
+     "v_basis": "est. median of 2 only (3 wanted): 25 Argyle Road £450,000 (Jul 2025, Housemetric/Doogal); 107 Argyle Road £315,000 (21 Jul 2025, Streetcheck; Doogal gives 87). Condition not shown as done-up; no third same-type sale found; no nearest-street set built.",
+     "url": "https://www.saxtonmee.co.uk/properties-for-sale/property/3601-argyle-road-meersbrook-sheffield",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus (about 3 miles); walking not practical"
+     }
     }
    ],
    "retries": {}
@@ -7768,14 +8024,16 @@
    "urls": [
     "https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-semi-in-sheffield-25",
     "https://whitehornes.co.uk/property-for-sale/lees-hall-road-norton-lees-s8-2/",
-    "https://whitehornes.co.uk/property-for-sale/lees-hall-road-norton-lees-s8/"
+    "https://whitehornes.co.uk/property-for-sale/lees-hall-road-norton-lees-s8/",
+    "https://www.rightmove.co.uk/properties/173930249"
    ],
    "sources": [
     "Staves",
-    "Whitehornes"
+    "Whitehornes",
+    "Rightmove"
    ],
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-09",
@@ -7992,7 +8250,8 @@
     }
    ],
    "retries": {},
-   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18"
+   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0103-s2-74-newfield-green-road": {
    "street": "74 Newfield Green Road",
@@ -8426,6 +8685,52 @@
      "anchors": {
       "Sheffield railway station": null
      }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 200000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": null,
+     "risk": "Listing could not be opened (every fetch was refused) and no portal confirmed number 10. A Staves Heeley Green end-terrace at 200000 appears on the agent's Rightmove page, possibly sold and unconfirmed as this house. Verdict withheld.",
+     "v_basis": "Fewer than 3 done-up same-street sales found, so V is withheld. Only one same-street sale in the last 2 years: 17 Heeley Green, 19 Dec 2024, 178000 (https://www.rightmove.co.uk/house-prices/heeley-green.html); its condition is unknown. Nearby streets not checked.",
+     "url": "https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-end-terrace-in-sheffield-22",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus; route not checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 200000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Listing could not be opened (every fetch refused) and sold status conflicts: one search snippet of Staves' Rightmove page shows a 3-bed end terrace at S2 3DY, 200k guide, under Sold Properties, another shows it for sale; a Reeds Rains Heele",
+     "v_basis": "not found: no 3 done-up same-street end-terrace sales in last 2 years located; Land Registry sites refused; Rightmove Heeley Green page (data to 30 May 2025) gives area averages only",
+     "url": "https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-end-terrace-in-sheffield-22",
+     "anchors": {
+      "Sheffield railway station": "est. about 25 min by bus; not checked"
+     }
     }
    ],
    "retries": {
@@ -8476,7 +8781,7 @@
    "street": "Vincent Road",
    "area": "Nether Edge",
    "district": "S7",
-   "price": 225000,
+   "price": 215000,
    "price_text": "Guide Price £225,000",
    "property_type": "terraced",
    "beds": 3,
@@ -8494,17 +8799,23 @@
    "notes": "EPC D; listing gives 1,153 sq ft, converted to m2 here; lease length not stated; listing says well presented",
    "id": "H0110-s7-vincent-road",
    "urls": [
-    "https://whitehornes.co.uk/property-for-sale/vincent-road-nether-edge-s7-3/"
+    "https://whitehornes.co.uk/property-for-sale/vincent-road-nether-edge-s7-3/",
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/vincent-road/"
    ],
    "sources": [
-    "Whitehornes"
+    "Whitehornes",
+    "Zoopla"
    ],
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-09",
      225000
+    ],
+    [
+     "2026-11-18",
+     215000
     ]
    ],
    "out_reason": null,
@@ -8548,9 +8859,99 @@
      "anchors": {
       "Sheffield railway station": "est. 35 min walk; est. 15 min by bus"
      }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 215000,
+     "V": 209000,
+     "W": 130000,
+     "C": 3000,
+     "m2": 107,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Live status and price unverified (run header 215k vs portals 230-240k; a second Whitehornes page shows Sold STC at 240k guide); buy test negative (about -179k, est.); hall position, tenure and structure unseen.",
+     "v_basis": "3 Vincent Road sales, done-up status NOT confirmed (est.): 156 (30 Jan 2025, 205,000, terraced), 56 (25 Jul 2025, 215,000, terraced), 134 (Oct 2025, 209,000, type not confirmed); median 209,000. Sources: https://domovita.co.uk/sold-prices/street/s7/vincent-road and https://www.homipi.co.uk/house-pri",
+     "url": "https://whitehornes.co.uk/property-for-sale/vincent-road-nether-edge-s7-3/",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min bus; est. 55 min walk; not measured"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 215000,
+     "V": 215000,
+     "W": 150000,
+     "C": 3000,
+     "m2": 107,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Listing never opened (every fetch refused); agent, price and status unconfirmed, and a Whitehornes Rightmove page shows sold and under offer; at est. V 215000 and W 150000 the buy-test margin is about -197000, so the value case fails though",
+     "v_basis": "est. median of 3 Vincent Road 2025 sales on domovita: 152 at 140000 (11 Aug 2025, leasehold terrace), 56 at 215000 (25 Jul 2025, freehold terrace, 84 m2 per Housemetric), 133 at 279950 (16 Jun 2025, freehold terrace); done-up status not checked, no 2024 sales seen",
+     "url": "https://whitehornes.co.uk/property-for-sale/vincent-road-nether-edge-s7-3/",
+     "anchors": {
+      "Sheffield railway station": "est. 55 min walk or est. 20 min bus"
+     }
+    },
+    {
+     "run": "p2",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 215000,
+     "V": 279950,
+     "W": 140000,
+     "C": 3000,
+     "m2": 107,
+     "type": null,
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Listing not reachable (fetch refused) and no listing found matching agent, leasehold and £215k; closest matches conflict (a Whitehornes leasehold at £225k shown sold STC in an undated snippet; 111 Vincent Road at £215k shown SOLD STC by Spe",
+     "v_basis": "3 sales in last 2 years on Vincent Road: 281611 on 30 May 2025 (127, terraced); 279950 on 16 Jun 2025 (133, terraced); 215000 on 25 Jul 2025 (56, type not seen). Median 279950. Done-up status not confirmed (est.). Earlier 120 sale (230000, 15 Nov 2024) is outside the 2-year window from 18 Nov 2026, ",
+     "url": "https://whitehornes.co.uk/property-for-sale/vincent-road-nether-edge-s7-3/",
+     "anchors": {
+      "Sheffield railway station": "est. 40 min walk; est. 15 min bus"
+     }
     }
    ],
-   "retries": {}
+   "retries": {
+    "H0110-s7-vincent-road_rp2": 1,
+    "H0110-s7-vincent-road_r3": 1
+   },
+   "reprice_from": null
   },
   "H0111-s7-": {
    "street": "",
@@ -8973,13 +9374,15 @@
    "notes": "Semi-detached and 3-bed per search snippet. Neighbourhood not confirmed. Page not opened.",
    "id": "H0119-s8-cliffefield-road",
    "urls": [
-    "https://www.blundells.com/properties/20770610/sales/WDS250257"
+    "https://www.blundells.com/properties/20770610/sales/WDS250257",
+    "https://www.onthemarket.com/details/14330502/"
    ],
    "sources": [
-    "Blundells"
+    "Blundells",
+    "OnTheMarket"
    ],
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-16",
@@ -9266,7 +9669,8 @@
     }
    ],
    "retries": {},
-   "parked": "Sold STC on Zoopla per buyer, 2026-11-18"
+   "parked": "Sold STC on Zoopla per buyer, 2026-11-18",
+   "reprice_from": null
   },
   "H0123-s7-20-rupert-road": {
    "street": "20 Rupert Road",
@@ -9408,7 +9812,7 @@
    "retries": {
     "H0124-s7-76-south-view-crescent_r1": 1
    },
-   "reprice_from": 285000
+   "reprice_from": null
   },
   "H0125-s11-37-wayland-road": {
    "street": "37 Wayland Road",
@@ -9569,7 +9973,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing links fail to load; buyer ruled out 2026-11-18"
+   "parked": "listing links fail to load; buyer ruled out 2026-11-18",
+   "reprice_from": null
   },
   "H0126-s11-18-westbrook-bank": {
    "street": "18 Westbrook Bank",
@@ -9721,7 +10126,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing links fail to load; buyer ruled out 2026-11-18"
+   "parked": "listing links fail to load; buyer ruled out 2026-11-18",
+   "reprice_from": null
   },
   "H0127-s7-south-view-crescent": {
    "street": "South View Crescent",
@@ -9804,7 +10210,8 @@
    "retries": {
     "H0127-s7-south-view-crescent_r1": 1
    },
-   "parked": "Sold STC on agent page, checked 2026-11-18"
+   "parked": "Sold STC on agent page, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0128-s7-woodstock-road": {
    "street": "Woodstock Road",
@@ -9965,7 +10372,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing gone (not found / redirects), checked 2026-11-18"
+   "parked": "listing gone (not found / redirects), checked 2026-11-18",
+   "reprice_from": null
   },
   "H0129-s2-myrtle-road": {
    "street": "Myrtle Road",
@@ -10046,7 +10454,8 @@
    "retries": {
     "H0129-s2-myrtle-road_r1": 1
    },
-   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18"
+   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0130-s8-thorpe-house-road": {
    "street": "Thorpe House Road",
@@ -10127,7 +10536,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18",
+   "reprice_from": null
   },
   "H0131-s11-club-garden-road": {
    "street": "Club Garden Road",
@@ -10247,7 +10657,8 @@
     }
    ],
    "retries": {},
-   "parked": "SSTC per buyer, 2026-11-18"
+   "parked": "SSTC per buyer, 2026-11-18",
+   "reprice_from": null
   },
   "H0133-s8-hemsworth-road": {
    "street": "Hemsworth Road",
@@ -10681,7 +11092,8 @@
     }
    ],
    "retries": {},
-   "parked": "Sold STC on agent page, checked 2026-11-18"
+   "parked": "Sold STC on agent page, checked 2026-11-18",
+   "reprice_from": null
   },
   "H0141-s8-woodseats-house-road": {
    "street": "Woodseats House Road",
@@ -10749,7 +11161,7 @@
    "retries": {
     "H0141-s8-woodseats-house-road_r1": 1
    },
-   "reprice_from": 280000
+   "reprice_from": null
   },
   "H0142-s2-alexandra-road": {
    "street": "Alexandra Road",
@@ -10873,7 +11285,7 @@
    "street": "Newfield Green Road",
    "area": "Heeley Green",
    "district": "S2",
-   "price": 210000,
+   "price": 200000,
    "price_text": "£210,000",
    "property_type": "semi-detached",
    "beds": 3,
@@ -10894,14 +11306,19 @@
     "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-newfield-green-road-heeley-green-sheffield-s2-2bq-s2/34733759/"
    ],
    "sources": [
-    "Hunters"
+    "Hunters",
+    "Rightmove"
    ],
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-16",
      210000
+    ],
+    [
+     "2026-11-18",
+     200000
     ]
    ],
    "out_reason": null,
@@ -10947,7 +11364,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "reprice_from": null
   },
   "H0145-s8-holmhirst-way": {
    "street": "Holmhirst Way",
@@ -11026,7 +11444,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18",
+   "reprice_from": null
   },
   "H0146-s8-warminster-road": {
    "street": "Warminster Road",
@@ -11107,7 +11526,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18",
+   "reprice_from": null
   },
   "H0147-s8-harvey-clough-road": {
    "street": "Harvey Clough Road",
@@ -11679,7 +12099,8 @@
     "H0154-s8-meersbrook-avenue_r2": 1,
     "H0154-s8-meersbrook-avenue_r3": 1
    },
-   "parked": "listing gone (not found / redirects), checked 2026-11-18"
+   "parked": "listing gone (not found / redirects), checked 2026-11-18",
+   "reprice_from": null
   },
   "H0155-s7-abbeydale-road": {
    "street": "Abbeydale Road",
@@ -12152,10 +12573,91 @@
      "anchors": {
       "Sheffield railway station": "40 walk, est."
      }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 215000,
+     "V": 280000,
+     "W": 130000,
+     "C": 4500,
+     "m2": null,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 3,
+      "3": 4,
+      "4": 5,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 4,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing page would not open (proxy refused), so status is unverified and a Rightmove snippet suggests it is about 145 days old; agent conflict (Pattinson on one portal, Peakstone on another, same price); V rests on no done-up same-type sale",
+     "v_basis": "est. Fewer than 3 done-up same-type sales on Sheldon Rd in the last 2 years, so est. from older done-up-type terrace sales: 62 Sheldon Rd 310000 (Nov 2020, 4-bed terrace, 114 m2); 35 Sheldon Rd 293500 (Apr 2022); 59 Sheldon Rd 360000 (May 2023); median 310000 from these, all older than 2 years. Set ",
+     "url": "https://www.rightmove.co.uk/properties/90205041",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min walk (about 2.8 km); est. 15 min bus"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 215000,
+     "V": 255000,
+     "W": 135000,
+     "C": 4500,
+     "m2": null,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 5,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 2,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test is negative even at V 355000 (margin about -55000 with W 135000), and the portal pages would not open, so condition, hall position and tenure are unseen.",
+     "v_basis": "3 sales, nearest streets used because Sheldon Road had only one same-type sale in 2 years: 51 Sheldon Rd 230000 (sold 11 Jun 2026, terraced, leasehold); 17 Woodstock Rd 255000 (16 Jun 2025, mid-terrace, 88 m2); 47 Woodstock Rd 355000 (24 Oct 2025, freehold terraced). Median 255000. None confirmed do",
+     "url": "https://www.rightmove.co.uk/properties/90205041",
+     "anchors": {
+      "Sheffield railway station": "walk about 40 min est.; bus about 20 min est."
+     }
     }
    ],
    "retries": {
-    "H0162-s7-sheldon-road_r1": 1
+    "H0162-s7-sheldon-road_r1": 1,
+    "H0162-s7-sheldon-road_r3": 1
    }
   },
   "H0163-s8-meersbrook-road": {
@@ -13146,7 +13648,7 @@
    "street": "Fraser Road",
    "area": "Woodseats",
    "district": "S8",
-   "price": 270000,
+   "price": 260000,
    "price_text": "£270,000 (no chain)",
    "property_type": "semi",
    "beds": 3,
@@ -13164,17 +13666,23 @@
    "notes": "A similar-properties panel shows £280,000 for Fraser Road; confirm current price.",
    "id": "H0177-s8-fraser-road",
    "urls": [
-    "https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-fraser-road-sheffield-s8-id-woo250110"
+    "https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-fraser-road-sheffield-s8-id-woo250110",
+    "https://www.zoopla.co.uk/for-sale/details/71215042/"
    ],
    "sources": [
-    "Reeds Rains"
+    "Reeds Rains",
+    "Zoopla"
    ],
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-16",
      270000
+    ],
+    [
+     "2026-11-18",
+     260000
     ]
    ],
    "out_reason": null,
@@ -13218,9 +13726,52 @@
      "anchors": {
       "Sheffield railway station": "est. 25 min by bus; walk about 70 min (est.)"
      }
+    },
+    {
+     "run": "p2",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 260000,
+     "V": 280000,
+     "W": 85000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 2,
+      "5": 2,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 2,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing unverified: the Reeds Rains page would not open, snippets show 270000-280000 not 260000, and a Reeds Rains Fraser Road semi on Rightmove (161598785) shows SOLD STC (undated); at 260000 the buy test is about -109000 (est.).",
+     "v_basis": "fewer than 3 same-street semi sales inside the last 2 years (latest found Oct 2024), so used the 3 nearest found; none verified done-up: 127 Fraser Road 262000 on 27 Jan 2023 (S8 0JJ); 155 Fraser Road 280000 on 12 Jan 2024 (S8 0JJ); 72 Fraser Road 280000 on 4 Oct 2024 (S8 0JN); median 280000 (est.)",
+     "url": "https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-fraser-road-sheffield-s8-id-woo250110",
+     "anchors": {
+      "Sheffield railway station": "35 min by bus (est.)"
+     }
     }
    ],
-   "retries": {}
+   "retries": {
+    "H0177-s8-fraser-road_rp2": 1
+   },
+   "reprice_from": null
   },
   "H0178-s8-lupton-road": {
    "street": "Lupton Road",
@@ -13468,7 +14019,8 @@
    "retries": {
     "H0180-s11-ecclesall-road_r2": 1
    },
-   "parked": "listing links fail to load; buyer ruled out 2026-11-18"
+   "parked": "listing links fail to load; buyer ruled out 2026-11-18",
+   "reprice_from": null
   },
   "H0181-s8-warminster-crescent": {
    "street": "Warminster Crescent",
@@ -13814,7 +14366,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18",
+   "reprice_from": null
   },
   "H0187-x-woodstock-road": {
    "street": "Woodstock Road",
@@ -14074,7 +14627,7 @@
    "street": "Alexandra Road",
    "area": "Heeley",
    "district": "S2",
-   "price": 225000,
+   "price": 220000,
    "price_text": "Offers around £225,000",
    "property_type": "end-terrace",
    "beds": 3,
@@ -14092,17 +14645,23 @@
    "notes": "Search snippet only; EPC E; Spencer site refused fetch.",
    "id": "H0192-s2-alexandra-road",
    "urls": [
-    "https://www.spencersestateagents.co.uk/properties/34228003/"
+    "https://www.spencersestateagents.co.uk/properties/34228003/",
+    "https://www.rightmove.co.uk/properties/169682492"
    ],
    "sources": [
-    "Spencer"
+    "Spencer",
+    "Rightmove"
    ],
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     [
      "2026-11-16",
      225000
+    ],
+    [
+     "2026-11-18",
+     220000
     ]
    ],
    "out_reason": null,
@@ -14228,7 +14787,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "reprice_from": null
   },
   "H0193-s7-carter-knowle-road": {
    "street": "Carter Knowle Road",
@@ -14905,7 +15465,8 @@
     }
    ],
    "retries": {},
-   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18",
+   "reprice_from": null
   },
   "H0204-s11-ecclesall-road-south": {
    "street": "Ecclesall Road South",
@@ -15057,6 +15618,4213 @@
    "runs": [],
    "retries": {},
    "reprice_from": 300000
+  },
+  "H0207-s7-falmouth-road": {
+   "street": "Falmouth Road",
+   "area": "Nether Edge",
+   "district": "S7",
+   "price": 210000,
+   "price_text": "£210,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "needs full refurb",
+   "flags": [],
+   "agent": null,
+   "url": null,
+   "status": "judged",
+   "verified": false,
+   "source": "Jitty",
+   "notes": "Jitty tag Renovation Needed. About 93 m2 implied by £209/sq ft (not a listing figure). May be a price cut on known Hunters Falmouth Road (34589909, £240k): check the address. Listing URL not retrieved.",
+   "id": "H0207-s7-falmouth-road",
+   "urls": [],
+   "sources": [
+    "Jitty"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     210000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 210000,
+     "V": 290000,
+     "W": 140000,
+     "C": 3000,
+     "m2": 108,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 3,
+      "3": 1,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Buy test fails on est. numbers (0.9V - 1.15W - C - asking = about -113000 est.): no done-up same-street sale in 2 yrs; listing not opened and prices conflict (210k/215k/240k); hall, vacancy and structure unconfirmed",
+     "v_basis": "est. 290000: no done-up same-street sale in last 2 yrs found. 33 Falmouth Rd 240000 on 31 Jul 2026 (Rightmove snippet, conflicting, condition unknown). 7 Falmouth Rd 290000 on 13 Jun 2023 (outside 2 yrs). Nearest refurbished comp is a live listing: Woodstock Rd 3-bed mid-terrace, guide 280000-300000",
+     "url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+     "anchors": {
+      "Sheffield railway station": "est. 45 min walk or 25 min bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 215000,
+     "V": 239500,
+     "W": 115000,
+     "C": 3000,
+     "m2": 108,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 4,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 2,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Buy test is negative (0.9 x £239,500 - 1.15 x £115,000 - £3,000 - £215,000 = about -£134,700, est.); hall, tenure, vacancy and structure are unconfirmed; no listing page could be opened, so facts come from search snippets.",
+     "v_basis": "No completed done-up Falmouth Road sale in the last 2 years found; nearest similar street used (Lynmouth Road, S7 2DF). Median of 3 terraced sales: 16 Lynmouth Rd £162,500 (29 Aug 2025), 6 Lynmouth Rd £239,500 (24 Sep 2025), 35 Lynmouth Rd £277,100 (Nov 2025, type unconfirmed). Done-up status and be",
+     "url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min bus; est. 65 min walk"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 210000,
+     "V": 290000,
+     "W": 90000,
+     "C": 3000,
+     "m2": 108,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 3,
+      "3": 1,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 4,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "est. margin about -55000 (0.9 x est. V 290000 - 1.15W - C - asking); listing mentions a modern bathroom suite, which conflicts with needs full refurb; listing pages could not be opened (proxy refused), so facts come from search snippets",
+     "v_basis": "est.: fewer than 3 done-up sales on Falmouth Rd in the last 2 years found; used No.7 Falmouth Rd 290000 (Jun 2023, leasehold terrace, condition not stated, outside 2 years) and Empire Rd Nether Edge guide 315000-330000 (asking, not sold) as est.",
+     "url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+     "anchors": {
+      "Sheffield railway station": "est. 15 min by bus / est. 40 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0208-s7-wolseley-road": {
+   "street": "Wolseley Road",
+   "area": "Nether Edge",
+   "district": "S7",
+   "price": 210000,
+   "price_text": "£210,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "needs full refurb",
+   "flags": [],
+   "agent": null,
+   "url": null,
+   "status": "judged",
+   "verified": false,
+   "source": "Jitty",
+   "notes": "Jitty tag Renovation Needed. Labelled Nether Edge by Jitty; postcode not shown. About 112 m2 implied by £174/sq ft (not a listing figure). Listing URL not retrieved.",
+   "id": "H0208-s7-wolseley-road",
+   "urls": [],
+   "sources": [
+    "Jitty"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     210000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 210000,
+     "V": 220000,
+     "W": 110000,
+     "C": 3000,
+     "m2": 87,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 1,
+      "3": 1,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Done-up value est. only about 5% above asking, so works est. 110k give a margin near -141k; the listing is S8 Abbeydale not S7, and the listing page could not be opened, so status, tenure and hall are unconfirmed.",
+     "v_basis": "Fewer than 3 done-up sales on Wolseley Rd in 2 yrs. Only sale in window: 76 Wolseley Rd, semi-detached 2-bed, 165000, 19 Mar 2025 (Housemetric, not done-up). Nearest similar: renovated 3-bed mid-terrace on Abbeydale Rd (S7) asking 210000-220000, not sold (search snippet, no URL). V est. 220000.",
+     "url": "https://www.primelocation.com/for-sale/property/sheffield/wolseley-road/",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min walk, est. 10 min by bus"
+     }
+    }
+   ],
+   "retries": {
+    "H0208-s7-wolseley-road_r1": 1
+   }
+  },
+  "H0209-s8-meadow-head": {
+   "street": "Meadow Head",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 325000,
+   "price_text": "£325,000 (reduced £25k from £350,000 per Jitty)",
+   "property_type": "terraced",
+   "beds": 4,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [
+    "price reduced"
+   ],
+   "agent": null,
+   "url": null,
+   "status": "judged",
+   "verified": false,
+   "source": "Jitty",
+   "notes": "Two Jitty snapshots: £350k and £325k after a £25k cut. Treat price as unconfirmed. Not the Meadow Head Drive 3-bed semi at £325k, which is a different street. Listing URL not retrieved.",
+   "id": "H0209-s8-meadow-head",
+   "urls": [],
+   "sources": [
+    "Jitty"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     325000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 325000,
+     "V": 400000,
+     "W": 65000,
+     "C": 4250,
+     "m2": 139,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 2,
+      "3": 2,
+      "4": 2,
+      "5": 5,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 4,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 14,
+     "verdict": "PASS",
+     "risk": "Margin is negative (est. -44000 = 0.9V 360000 - 1.15W 74750 - C 4250 - asking 325000), and hall, vacancy and current price are unconfirmed (Zoopla 325k reduced vs Rightmove 350k).",
+     "v_basis": "3 sales, Meadow Head semis, done-up status est.: 50 Meadow Head 2025-08-15 405000; 206 Meadow Head 2025-09-26 400000; 219 Meadow Head 2025-12-16 395000. From search snippets only; portal pages refused the fetch",
+     "url": "https://app.zoopla.co.uk/for-sale/details/72110964",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus (22 min to city-centre stop per rome2rio, plus walk); est. 10 min by taxi"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 325000,
+     "V": 400000,
+     "W": 92000,
+     "C": 4250,
+     "m2": 139,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 2,
+      "3": 2,
+      "4": 2,
+      "5": 5,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Listing not opened (fetches refused): £325k vs £350k asking conflict; est. works £92k could push asking + 1.15W + C over £425k; kitchen-diner, hall and condition unseen.",
+     "v_basis": "3 sales, same street (Meadow Head, S8), semi, 2025: 50 Meadow Head 15 Aug 2025 £405,000; 206 Meadow Head 26 Sep 2025 £400,000; 219 Meadow Head 16 Dec 2025 £395,000. Median £400,000. Done-up status not checked (Land Registry does not record it); types est. from aggregator summaries",
+     "url": "https://app.zoopla.co.uk/for-sale/details/72110964",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus; est. 20 min by car (not timed)"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 325000,
+     "V": 395000,
+     "W": 75000,
+     "C": 4250,
+     "m2": 139,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 5,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 5,
+      "8": 2,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Negative margin at V 395k (0.9V - 1.15W - C = about 259k vs 325k asking, est.); asking may be 350k; listing not opened (proxy refused), live status from search index only.",
+     "v_basis": "3 sales, most recent same-type on Meadow Head, done-up NOT verified: 207 Meadow Head 30 Jan 2026 308000 (freehold semi); 219 Meadow Head 16 Dec 2025 395000 (leasehold semi); 206 Meadow Head 26 Sep 2025 400000 (freehold semi). Median 395000. 50 Meadow Head (15 Aug 2025, 405000) not used.",
+     "url": "https://www.key2go.co.uk/property/meadow-head-sheffield-s8-2/",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus; est. 80 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0210-s8-thorpe-house-rise": {
+   "street": "Thorpe House Rise",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 240000,
+   "price_text": "£250,000",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": null,
+   "status": "judged",
+   "verified": false,
+   "source": "Jitty",
+   "notes": "Known Whitehornes Thorpe House Rise listing is £290k (known list line 24). It may be the same house cut to £250k, or a different one: check the address. Listing URL not retrieved.",
+   "id": "H0210-s8-thorpe-house-rise",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/houses/s8/"
+   ],
+   "sources": [
+    "Jitty",
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     250000
+    ],
+    [
+     "2026-11-18",
+     240000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 240000,
+     "V": 296000,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": null,
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {},
+     "est": 0,
+     "verdict": null,
+     "risk": "House not located: no listing at 240000 on Thorpe House Rise found; closest is Saxton Mee ref 7719 at offers around 245000 (not opened); listing pages would not open, so no gate or score is confirmed; V is not verified as done-up.",
+     "v_basis": "est. median of 3 most recent Thorpe House Rise semi sales, done-up status NOT verified: 39 (17 Apr 2026) 250000; 83 (6 Mar 2026) 325000; 30 (10 Oct 2025) 296000",
+     "url": "",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {
+    "H0210-s8-thorpe-house-rise_r1": 1
+   },
+   "reprice_from": 250000
+  },
+  "H0211-s8-upper-valley-road": {
+   "street": "Upper Valley Road",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 230000,
+   "price_text": "£230,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": 110,
+   "tenure": "leasehold, 672 years left",
+   "condition": "unknown",
+   "flags": [
+    "leasehold"
+   ],
+   "agent": "Staves Estate Agent - Woodseats",
+   "url": "https://www.onthemarket.com/details/16407831/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Snippet only, OTM pages refused. Different agent from known Saxton Mee 250000 (sold STC).",
+   "id": "H0211-s8-upper-valley-road",
+   "urls": [
+    "https://www.onthemarket.com/details/16407831/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     230000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 230000,
+     "V": 280000,
+     "W": 135000,
+     "C": 3000,
+     "m2": 110,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 2,
+      "3": 2,
+      "4": 5,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Est. works 135k make 0.9V - 1.15W - C - asking about -136k (est.), so it fails the buy test; no photos or floorplan read, so layout, hall position and condition are unconfirmed.",
+     "v_basis": "3 sales on the street, last 2 yrs: 60 Upper Valley Rd S8 9HB Jun 2025 281500; 17 Upper Valley Rd S8 9HA Jul 2025 280000; 103 Upper Valley Rd S8 9HD 13 Jun 2025 250000; median 280000. Done-up status not checked (est.)",
+     "url": "https://www.onthemarket.com/details/16407831/",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus; est. 60 min walk"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 230000,
+     "V": 250000,
+     "W": 110000,
+     "C": 3000,
+     "m2": 110,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 3,
+      "3": 4,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Value gap: V 250000 vs asking 230000 plus works ~110000 gives margin about -134500 (est.); live status, layout and floor area unverified; Rightmove snippet shows added 31/01/2025, so may be stale.",
+     "v_basis": "3 most recent same-street terraced sales in last 2 yrs: 17 Upper Valley Rd (S8 9HA) 9 Jul 2025 280000 leasehold; 103 Upper Valley Rd (S8 9HD) Jun 2025 250000; 80 Upper Valley Rd (S8 9HE) 27 Feb 2025 239500 freehold. Done-up status not verified. 116 (S8 9HE) Dec 2024 290000 not used. Est.",
+     "url": "https://www.onthemarket.com/details/16407831/",
+     "anchors": {
+      "Sheffield railway station": "35 min bus (est.)"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 230000,
+     "V": 280000,
+     "W": 80000,
+     "C": 3000,
+     "m2": 110,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 2,
+      "3": 2,
+      "4": 3,
+      "5": 5,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 4,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 14,
+     "verdict": "PASS",
+     "risk": "Listing page would not open, so live status and facts come from search summaries; hall and front door position unknown; on est. figures 0.9V − 1.15W − C − asking ≈ −£73k, so the buy test fails though the gates pass.",
+     "v_basis": "est. median of 3 terraced sales on Upper Valley Road in last 2 yrs, done-up status not verified: 60 Upper Valley Rd (S8 9HB, leasehold) 20 Jun 2025 £281,500 (https://www.rightmove.co.uk/house-prices/S8-9HB.html); 17 Upper Valley Rd (S8 9HA, leasehold) Jul 2025 £280,000 (https://domovita.co.uk/sold-p",
+     "url": "https://www.onthemarket.com/details/16407831/",
+     "anchors": {
+      "Sheffield railway station": "est. 12 min drive; est. 25 min bus; not checked"
+     }
+    }
+   ],
+   "retries": {
+    "H0211-s8-upper-valley-road_r2": 1,
+    "H0211-s8-upper-valley-road_r3": 1
+   }
+  },
+  "H0212-s8-norton-lees-road": {
+   "street": "Norton Lees Road",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 220000,
+   "price_text": "£220,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/14262932/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0212-s8-norton-lees-road",
+   "urls": [
+    "https://www.onthemarket.com/details/14262932/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     220000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 220000,
+     "V": null,
+     "W": null,
+     "C": null,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 0,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not buyable: sold STC or under offer per Hunters and Rightmove search snippets; the OTM page could not be opened (WebFetch refused by proxy), so the match to 14262932 rests on street, price and beds only.",
+     "v_basis": "not computed: listing not live. Only same-street terraced sale found in last 2 yrs: 58 Norton Lees Road, 21 Nov 2025, £275,000 (condition unknown); fewer than 3, so no median",
+     "url": "https://www.onthemarket.com/details/14262932/",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0213-s8-144-warminster-road": {
+   "street": "144 Warminster Road",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 185000,
+   "price_text": "£185,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/11315465/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0213-s8-144-warminster-road",
+   "urls": [
+    "https://www.onthemarket.com/details/11315465/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     185000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 185000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 6,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Listing appears sold: a 2022 sale at 144 Warminster Road is recorded (£185,000 on one aggregator, £250,000 on another), so there is nothing to buy; the page could not be opened to confirm.",
+     "v_basis": "not computed: listing appears gone",
+     "url": "https://www.onthemarket.com/details/11315465/",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0214-s8-norton-lees-lane-s8-9be": {
+   "street": "Norton Lees Lane (S8 9BE)",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 275000,
+   "price_text": "£275,000",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/17770441/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check. Not the sold S8 9BA detached.",
+   "id": "H0214-s8-norton-lees-lane-s8-9be",
+   "urls": [
+    "https://www.onthemarket.com/details/17770441/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     275000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 275000,
+     "V": 320000,
+     "W": 120000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 1,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 4,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing unopened and match unconfirmed (OnTheMarket blocked; Zoopla and Rightmove snippets only); buy test fails on est. numbers (0.9 x 320000 - 1.15 x 120000 - 3000 - 275000 = about -128000); front-door position unknown.",
+     "v_basis": "est.: 0 of 3 done-up same-street sales found. As-sold nearby: 66b Norton Lees Lane S8 9BE 285000 Mar 2025 (condition and type not given); 4 Meersbrook Avenue S8 9EB 370000 Jan 2026 (not same street). Other S8 9BA and 9BD sales (25 Norton Lees Lane 300000 Jul 2024; 44 Norton Lees Lane 360000 Jan 2023",
+     "url": "https://www.onthemarket.com/details/17770441/",
+     "anchors": {
+      "Sheffield railway station": "about 35 min by bus (est.)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0215-s8-thorpe-house-road": {
+   "street": "Thorpe House Road",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 300000,
+   "price_text": "£300,000",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/14854528/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only. Could be known haushomes 12709336 (280000) with a price change; check.",
+   "id": "H0215-s8-thorpe-house-road",
+   "urls": [
+    "https://www.onthemarket.com/details/14854528/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     300000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 300000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": null,
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 6,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Listing 14854528 could not be opened or found, so nothing is scored; a 2 Thorpe House Road brochure at 300000 may be this house but is unconfirmed; PASS is gate-only, not a buy call.",
+     "v_basis": "not set, done-up status unknown. Same-street Land Registry sales found, none confirmed done-up: 33 Thorpe House Road (S8 9NS) Jan 2025 326000; 5 Thorpe House Road (S8 9NR, semi, leasehold) Jan 2026 252000; 46 Thorpe House Road (S8 9NS) 14 Apr 2026 278000 (from a search summary, page not opened, unve",
+     "url": "https://www.onthemarket.com/details/14854528/",
+     "anchors": {
+      "Sheffield railway station": "est. about 30 min by bus then walk (not measured for this street)"
+     }
+    }
+   ],
+   "retries": {
+    "H0215-s8-thorpe-house-road_r1": 1
+   }
+  },
+  "H0216-s2-thornborough-road": {
+   "street": "Thornborough Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 160000,
+   "price_text": "Offers in region of £160,000",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/10933772/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Snippet only; postcode not shown in search results.",
+   "id": "H0216-s2-thornborough-road",
+   "urls": [
+    "https://www.onthemarket.com/details/10933772/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     160000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 160000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": null,
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 6,
+     "scores": {},
+     "est": 0,
+     "verdict": null,
+     "risk": "Listing never opened (proxy refused every portal fetch) and no 160000 match found; the Thornborough Road 3-bed semis found are at a 200000-210000 guide or ask-agent (Butlers), so this may be a different house, and tenure, layout, works and ",
+     "v_basis": "null: fewer than 3 done-up sales found. Unopened search snippets list no. 41 Thornborough Road at 180000 (Feb 2026) and no. 37 at 205000 (Dec 2025); done-up status unknown",
+     "url": "https://www.onthemarket.com/details/10933772/",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {
+    "H0216-s2-thornborough-road_r1": 1
+   }
+  },
+  "H0217-s2-23-raleigh-road": {
+   "street": "23 Raleigh Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 230000,
+   "price_text": "£230,000",
+   "property_type": "detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/19299394/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0217-s2-23-raleigh-road",
+   "urls": [
+    "https://www.onthemarket.com/details/19299394/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     230000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 230000,
+     "V": 280000,
+     "W": 110000,
+     "C": 3000,
+     "m2": null,
+     "type": "detached",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 1,
+      "4": 3,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 2,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test negative (about -£107,500 on est. V and W): no done-up same-street sales in 2 years; listing page unopened (search snippets only; snippets show 230000 and a 210000 reduced price).",
+     "v_basis": "est. Only 2023 same-street sales found, outside 2 years and not confirmed done-up: No.38 Sep 2023 254000; No.42 Nov 2023 315000; No.43 Dec 2023 240500. Median 254000 plus 10% est. done-up uplift = 280000. Only 2-year sale found: No.14, 13 Mar 2026, 185000 (semi). Nearest-street fallback not done.",
+     "url": "https://www.onthemarket.com/details/19299394/",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min by bus; est. 55 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0218-s2-richards-road": {
+   "street": "Richards Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 160000,
+   "price_text": "£160,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/18165090/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0218-s2-richards-road",
+   "urls": [
+    "https://www.onthemarket.com/details/18165090/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     160000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 160000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": 95,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not available: search snippets say the OTM listing now shows no longer available and Hunters hold a £160,000 offer (accepted per one snippet). Page not opened, so live false is from snippets. REJECT is for unavailability, not a gate failure",
+     "v_basis": "Only 1 sale in the last 2 years on Richards Road: 185 Richards Road (S2 3DW), 3-bed terrace about 89 m2, £237,000 on 10 Nov 2025 (Housemetric). Done-up status unknown. Other Richards Road sales found are older than 2 years: 183 £205,000 Sep 2023; 147 £155,000 Apr 2023; 157 £188,000 Dec 2022; 97 £200",
+     "url": "https://www.onthemarket.com/details/18165090/",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min by bus; walk est. 55 min (not checked)"
+     }
+    }
+   ],
+   "retries": {
+    "H0218-s2-richards-road_r1": 1
+   }
+  },
+  "H0219-s2-myrtle-road": {
+   "street": "Myrtle Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 165000,
+   "price_text": "£165,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/13397281/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only. Could be known redbrik Myrtle Road at 175000 with a cut; check.",
+   "id": "H0219-s2-myrtle-road",
+   "urls": [
+    "https://www.onthemarket.com/details/13397281/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     165000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 165000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": 87,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Sold STC, so not available to buy. The OnTheMarket page would not open, so the status and details come from search summaries of that page, not a direct read.",
+     "v_basis": "not computed: listing is Sold STC, run stopped at step 1",
+     "url": "https://www.onthemarket.com/details/13397281/",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {
+    "H0219-s2-myrtle-road_r1": 1
+   }
+  },
+  "H0220-s2-heeley-bank-road": {
+   "street": "Heeley Bank Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 170000,
+   "price_text": "£170,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/12362469/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0220-s2-heeley-bank-road",
+   "urls": [
+    "https://www.onthemarket.com/details/12362469/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     170000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 170000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Listing unopened (proxy refused every page fetch); sale status unverified, and a secondhand search summary says sold STC on a 2022 listing; nothing scored or priced",
+     "v_basis": "No 3 done-up same-street sales in the last 2 years found. Snippets only: S2 3GN no. 156 sold 227500 Jul 2024 (outside 2 years, condition unknown); S2 3GN no. 208 semi-detached sold 270000 Aug 2025 (wrong type)",
+     "url": "https://www.onthemarket.com/details/12362469/",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {
+    "H0220-s2-heeley-bank-road_r1": 1
+   }
+  },
+  "H0221-s8-smithy-wood-crescent": {
+   "street": "Smithy Wood Crescent",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 260000,
+   "price_text": "£260,000",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/19753933/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Snippet only; conversion scope, not extension.",
+   "id": "H0221-s8-smithy-wood-crescent",
+   "urls": [
+    "https://www.onthemarket.com/details/19753933/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     260000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 260000,
+     "V": 184000,
+     "W": 105000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 2,
+      "6": 4,
+      "7": 4,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 2,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Asking 260000 is about 41% above est. V 184000, so the brief buy test gives a max offer near 42000; listing page not opened (status from search snippets) and a Hunters SSTC at 190000 on the same street.",
+     "v_basis": "3 same-street semi sales, last 2 yrs: 128 (23 Jun 2025, 235000, freehold); 35 (Nov 2025, 184000, freehold); 46 (24 Feb 2026, 178000, leasehold, address match weak). Median 184000. Done-up status not verified (est.). Figures from search snippets; sale pages not opened.",
+     "url": "https://www.onthemarket.com/details/19753933/",
+     "anchors": {
+      "Sheffield railway station": "30 min by bus (est.)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0222-s8-derbyshire-lane-s8-9el": {
+   "street": "Derbyshire Lane (S8 9EL)",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 275000,
+   "price_text": "£275,000",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/16458145/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0222-s8-derbyshire-lane-s8-9el",
+   "urls": [
+    "https://www.onthemarket.com/details/16458145/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     275000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 275000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": 92,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not live: listing reported sold subject to contract, so it cannot be bought; status is from search snippets only (the page would not open) and the snippets disagree on semi vs end-terrace.",
+     "v_basis": "not run: listing not live",
+     "url": "https://www.onthemarket.com/details/16458145/",
+     "anchors": {}
+    }
+   ],
+   "retries": {}
+  },
+  "H0223-s8-valley-road-s8-9ga": {
+   "street": "Valley Road (S8 9GA)",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 220000,
+   "price_text": "£220,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/18149283/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0223-s8-valley-road-s8-9ga",
+   "urls": [
+    "https://www.onthemarket.com/details/18149283/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     220000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 220000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": 80,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Sold STC, so not buyable; the sold status and listing facts rest on search-result summaries because the proxy refused every WebFetch, so live status is unverified.",
+     "v_basis": "not run: listing is sold STC, so the run stopped at step 1",
+     "url": "https://www.onthemarket.com/details/18149283/",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0224-s8-143-cartmell-road": {
+   "street": "143 Cartmell Road",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 220000,
+   "price_text": "£220,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/18088336/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; known Cartmell Road entries are at other prices.",
+   "id": "H0224-s8-143-cartmell-road",
+   "urls": [
+    "https://www.onthemarket.com/details/18088336/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     220000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 220000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Listed sold STC, so not buyable; OTM and Rightmove pages would not open, so the status comes from search snippets and floor area sources conflict.",
+     "v_basis": "not computed: no 3 done-up sales found; only sale on record is 16 Nov 2023 at 215000, condition unknown",
+     "url": "https://www.onthemarket.com/details/18088336/",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0225-s8-fraser-close": {
+   "street": "Fraser Close",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 210000,
+   "price_text": "£210,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/13527540/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0225-s8-fraser-close",
+   "urls": [
+    "https://www.onthemarket.com/details/13527540/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     210000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 210000,
+     "V": null,
+     "W": null,
+     "C": null,
+     "m2": 81,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 0,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not available: listing reported sold subject to contract and removed. Unverified: the page would not open (proxy refused every WebFetch), so status comes from two search-result summaries.",
+     "v_basis": "not assessed: stopped at step 1. Reference only: Domovita lists 5 Fraser Close sales 2004-2024; latest No.16 at 195000 on 2024-03-21; none in the last 2 years",
+     "url": "https://www.onthemarket.com/details/13527540/",
+     "anchors": {}
+    }
+   ],
+   "retries": {}
+  },
+  "H0226-s2-104-slate-street": {
+   "street": "104 Slate Street",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 195000,
+   "price_text": "£195,000",
+   "property_type": "terraced",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/12593553/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0226-s2-104-slate-street",
+   "urls": [
+    "https://www.onthemarket.com/details/12593553/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     195000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 195000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": 102,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not for sale: listing shown as sold subject to contract (search summary, page not opened, so re-check). Unconfirmed: front door into hall, structure, vacancy. Asking £195k is below the £218k paid in May 2023, which may point to condition is",
+     "v_basis": "not computed: listing not live; no done-up same-street sales found. Last recorded sale at 104 Slate Street: 3 May 2023, £218,000, freehold, outside the 2-year window, condition unknown",
+     "url": "https://www.onthemarket.com/details/12593553/",
+     "anchors": {
+      "Sheffield railway station": "not timed: listing not live"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0227-s8-millmount-road": {
+   "street": "Millmount Road",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 280000,
+   "price_text": "£280,000",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": null,
+   "tenure": null,
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.onthemarket.com/details/13883286/",
+   "status": "judged",
+   "verified": false,
+   "source": "OnTheMarket",
+   "notes": "Title from search only; no live check.",
+   "id": "H0227-s8-millmount-road",
+   "urls": [
+    "https://www.onthemarket.com/details/13883286/"
+   ],
+   "sources": [
+    "OnTheMarket"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     280000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 280000,
+     "V": 320000,
+     "W": 50000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 4,
+      "6": 4,
+      "7": 5,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing page would not open, so live status, floor area, tenure, hall and room sizes are unseen; one search summary said OnTheMarket shows it off-market (unverified); V rests on one same-street comp.",
+     "v_basis": "est. Fewer than 3 same-type sales found, so V is a guess. Comps: 29 Millmount Rd, 31 Oct 2025, 311000 (4-bed, about 94 m2, condition unseen) https://housemetric.co.uk/31171586/S8-9EG/29+Millmount+Road; 39 Millmount Rd, 24 Jan 2025, 449250 (4-bed, tagged leasehold by Rightmove; not used for V) https:",
+     "url": "https://www.onthemarket.com/details/13883286/",
+     "anchors": {
+      "Sheffield railway station": "est. 60 min walk; est. 25 min by bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 280000,
+     "V": 311000,
+     "W": 100000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "The listing page could not be opened, so live status, tenure, structure, vacant possession, front-door position, floor area and condition are unconfirmed; at est. W 100000 the buy test is negative (0.9 x 311000 - 1.15 x 100000 - 3000 - 2800",
+     "v_basis": "3 semi-detached sales on Millmount Road in the last 2 years (since 18 Nov 2024): 39 (24 Jan 2025) 449250; 11 (30 May 2025) 300000; 29 (31 Oct 2025) 311000 (4-bed). Median 311000. Done-up status not checked (est.); figures from search snippets of housemetric pages, pages not opened.",
+     "url": "https://www.onthemarket.com/details/13883286/",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus (about 5 km); not route-checked"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 280000,
+     "V": 311000,
+     "W": 120000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 4
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing page could not be opened (proxy refused), so status is unverified and a search summary says the matching Hunters listing is sold STC. Buy test is negative (about -141100: 0.9V 279900 minus works 138000, C 3000 and asking 280000). Fr",
+     "v_basis": "est. 3 Millmount Road sales from search snippets, not opened, done-up status not checked: 29 Millmount Rd 31 Oct 2025 GBP 311000 (4-bed semi, https://housemetric.co.uk/house-prices/Millmount-Road/S8-9E); 11 Millmount Rd 30 May 2025 GBP 300000 (freehold semi, https://domovita.co.uk/sold-prices/s8?sta",
+     "url": "https://www.onthemarket.com/details/13883286/",
+     "anchors": {
+      "Sheffield railway station": "est. 55 min walk; est. 20-25 min by bus"
+     }
+    }
+   ],
+   "retries": {
+    "H0227-s8-millmount-road_r2": 1,
+    "H0227-s8-millmount-road_r3": 1
+   }
+  },
+  "H0228-s8-burcot-road": {
+   "street": "Burcot Road",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 299950,
+   "price_text": "£299,950",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": 133,
+   "tenure": "leasehold (Zoopla; not stated on Rightmove)",
+   "condition": "good / done",
+   "flags": [
+    "leasehold"
+   ],
+   "agent": "Highgates",
+   "url": "https://www.rightmove.co.uk/properties/173755001",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Zoopla shows £300k guide and leasehold; floor area 1,431 sq ft matches on Rightmove",
+   "id": "H0228-s8-burcot-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/173755001"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     299950
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 299950,
+     "V": null,
+     "W": null,
+     "C": null,
+     "m2": 133,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 0,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Highgates page (last updated 28 Apr 2026) and Rightmove 93938496 show Sold STC, so it is not buyable; the pages could not be opened to confirm this live.",
+     "v_basis": "Not computed: listing sold STC, stopped at step 1.",
+     "url": "https://www.rightmove.co.uk/properties/173755001",
+     "anchors": {
+      "Sheffield railway station": "est. ~20 min by bus; est. ~50 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0229-s8-derbyshire-lane": {
+   "street": "Derbyshire Lane",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 300000,
+   "price_text": "£300,000 (reduced)",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "price reduced"
+   ],
+   "agent": "haus",
+   "url": "https://www.rightmove.co.uk/properties/90569424",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Zoopla shows the same haus semi at £300k guide, reduced",
+   "id": "H0229-s8-derbyshire-lane",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/90569424"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     300000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 300000,
+     "V": 325000,
+     "W": 95000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 2,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Margin is negative (est.): 0.9V 292500 against asking + works + costs 412250, about -119750, so the buy test fails even though the gates pass. V rests on sales of unconfirmed condition, and the listing page, floor plan, status (an unattribu",
+     "v_basis": "fewer than 3 confirmed done-up sales found. 3 same-street semi sales in last 2 yrs: 60 Derbyshire Lane 230000 (19 Dec 2025, S8 9EL); 103 Derbyshire Lane 325000 (4 Jul 2025, S8 9EN, type conflicting across sites); 16 Derbyshire Lane 359400 (5 Nov 2024, 3-bed semi, 90 m2 EPC). Done-up status not confi",
+     "url": "https://www.rightmove.co.uk/properties/90569424",
+     "anchors": {
+      "Sheffield railway station": "25 min bus + walk (est.)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0230-s8-chesterfield-road": {
+   "street": "Chesterfield Road",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 160000,
+   "price_text": "£160,000",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "needs full refurb",
+   "flags": [],
+   "agent": "Staves Estate Agents",
+   "url": "https://www.rightmove.co.uk/properties/170423420",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Possible duplicate of known vebra 33875277 (£160k, feed shows 868 Chesterfield Road); unconfirmed",
+   "id": "H0230-s8-chesterfield-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/170423420"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     160000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 160000,
+     "V": 265000,
+     "W": 90000,
+     "C": 8760,
+     "m2": 85,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 4,
+      "3": 4,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 2,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Listing not opened (Rightmove and OnTheMarket refused); price conflict 160000 vs 150000, possible auction, front door and hall unconfirmed, and V rests on sold-STC comparables, not done-up completions.",
+     "v_basis": "No 3 done-up sales on Chesterfield Road found, so est. from nearest done-up 3-bed terraces on nearby streets, all sold STC not completed, URLs not captured: Cockayne Place offers over 265000, Rushdale Road offers over 250000, Burcot Road guide 300000 (lower end); median 265000 est. Completed Chester",
+     "url": "https://www.rightmove.co.uk/properties/170423420",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min by bus; est. 60 min walk"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 160000,
+     "V": 231000,
+     "W": 125000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 4,
+      "3": 4,
+      "4": 3,
+      "5": 3,
+      "6": 3,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 2,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test negative on est. figures (0.9V − 1.15W − C − asking ≈ −£99k; V would need ≈ £341k to break even), and the listing page could not be opened to verify status, floor area or hall.",
+     "v_basis": "est. median of 3 Chesterfield Road sales in 2025, none confirmed done-up or same type: 921 (S8 0SS) £226,000 on 23 Jan 2025; 549 (S8 0RW, leasehold) £231,000 on 11 Dec 2025; 295 £277,270 on 25 Jul 2025 (type conflicting: semi-D 3-bed vs 4-bed period). Median £231,000.",
+     "url": "https://www.rightmove.co.uk/properties/170423420",
+     "anchors": {
+      "Sheffield railway station": "bus about 25 min (est.); walk about 60 min (est.)"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 160000,
+     "V": 231000,
+     "W": 159000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 4,
+      "3": 5,
+      "4": 4,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test about -137950 est. (V and W both guesses); Rightmove page would not open, so status, tenure and hall are unverified; OTM lists 150000 against 160000 asking",
+     "v_basis": "est.; no done-up sales found, so this is the median of 5 terrace sales on Chesterfield Road (whole road, not only S8 0RT), condition unknown: 549 (11 Dec 2025) 231000; 537 (9 May 2025) 238500; 919 (14 Mar 2025) 330000; 851 (13 Nov 2025) 145000; 628A (30 Oct 2025) 110000; median 231000; 921 (226000, ",
+     "url": "https://www.rightmove.co.uk/properties/170423420",
+     "anchors": {
+      "Sheffield railway station": "est. 55 min walk; est. 20 min bus"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0231-s8-tadcaster-road": {
+   "street": "Tadcaster Road",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 250000,
+   "price_text": "£250,000",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "leasehold",
+   "condition": "unknown",
+   "flags": [
+    "leasehold"
+   ],
+   "agent": "haus",
+   "url": "https://www.rightmove.co.uk/properties/88246152",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Leasehold per listing snippet; different from the freehold Hunters Tadcaster Road listing",
+   "id": "H0231-s8-tadcaster-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/88246152",
+    "https://www.rightmove.co.uk/properties/167058302"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     250000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 250000,
+     "V": 233500,
+     "W": 140000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 2,
+      "4": 5,
+      "5": 1,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "V 233500 is below the 250000 asking (buy test about -204000 before contingency) and the comps are not verified as done-up; front-door layout, lease length and extension consent are unseen.",
+     "v_basis": "3 sales in last 2 yrs on Tadcaster Road: No.48 13 Dec 2024 225000; No.18 28 Nov 2025 233500; No.52 14 Mar 2025 240000; median 233500 (est.: done-up status not verified; Feb/Mar/Aug 2024 sales fall outside 2 yrs)",
+     "url": "https://www.rightmove.co.uk/properties/88246152",
+     "anchors": {
+      "Sheffield railway station": "est. about 35 min by bus (about 6 km, not walkable)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0232-s8-ulverston-road": {
+   "street": "Ulverston Road",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 205000,
+   "price_text": "£205,000 guide",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [
+    "price reduced"
+   ],
+   "agent": "Staves Estate Agents",
+   "url": "https://www.rightmove.co.uk/properties/155424092",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Relisted after fall-through; guide reduced",
+   "id": "H0232-s8-ulverston-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/155424092"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     205000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 205000,
+     "V": 250000,
+     "W": 130000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 1,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 4,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Est. margin about -132500 (works ~130000 vs ~45000 value gap); hall, tenure, status and condition unconfirmed as listing unreadable",
+     "v_basis": "est.: fewer than 3 done-up semi sales found on Ulverston Road in last 2 years. Nearest unrenovated sales used as a guide: No.55 3-bed terrace 200000 Dec 2024; No.39 207000 Jul 2025; done-up uplift est.",
+     "url": "https://www.rightmove.co.uk/properties/155424092",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus (43/44 via Chesterfield Road), est."
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0233-s8-moor-view-road": {
+   "street": "Moor View Road",
+   "area": "Woodseats? (district not stated)",
+   "district": "S8",
+   "price": 325000,
+   "price_text": "£325,000",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": "Redbrik",
+   "url": "https://www.rightmove.co.uk/properties/90924639",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Check the listing is in Woodseats or Meersbrook; not confirmed",
+   "id": "H0233-s8-moor-view-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/90924639"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     325000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 325000,
+     "V": 298850,
+     "W": 104000,
+     "C": 4250,
+     "m2": 88,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 6,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 5,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Asking £325,000 is above the three recent street semi sales (£270,000 to £305,000); est. all-in £448,850 breaks the £425,000 cap; listing page not opened, and a possible sale at £325,000 is unverified.",
+     "v_basis": "3 sales, Moor View Road S8, last 2 years, not checked as done-up (est.): No.109 20 Jun 2025 £305,000; No.131 25 Apr 2025 £298,850; No.104 (S8 0HJ) 19 Dec 2025 £270,000; median £298,850. Terrace No.61 £320,750 (Nov 2025) excluded as a different type.",
+     "url": "https://www.rightmove.co.uk/properties/90924639",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus; est. 15 min by car; walk about 55 min (est.). locara gives 2.54 mi straight-line from the S8 district."
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0234-s2-olive-grove-road": {
+   "street": "Olive Grove Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 210000,
+   "price_text": "£210,000",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/167151326",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Agent not shown in search snippet",
+   "id": "H0234-s2-olive-grove-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/167151326",
+    "https://www.zoopla.co.uk/for-sale/details/71347833/",
+    "https://www.zoopla.co.uk/for-sale/details/70065647/"
+   ],
+   "sources": [
+    "Rightmove",
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     210000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 210000,
+     "V": 175000,
+     "W": 110000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 2,
+      "4": 4,
+      "5": 2,
+      "6": 3,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test fails unless finished V is about 377000 (est.); no done-up comps found; floor area and sale status unverified (possibly Sold STC).",
+     "v_basis": "3 as-is sales, NOT done-up, so V is est. and likely low: 149 Olive Grove Road (S2 3GD) 2025-03-07 177000; 117 Alexandra Road (S2 3EH) 2025-05-07 175000; 89 Heeley Bank Road (S2 3GL) 2025-09 172500; median 175000. No done-up same-street sales found.",
+     "url": "https://www.rightmove.co.uk/properties/167151326",
+     "anchors": {
+      "Sheffield railway station": "est. 22 min bus; est. 55 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0235-s2-richards-road": {
+   "street": "Richards Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 220000,
+   "price_text": "offers over £220,000",
+   "property_type": "end-terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/173771870",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "No renovation notes in snippet",
+   "id": "H0235-s2-richards-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/173771870"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     220000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 220000,
+     "V": 260000,
+     "W": 120000,
+     "C": 3000,
+     "m2": 109,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 2,
+      "3": 1,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing page could not be opened (proxy refused every fetch); asking, size and status come from search snippets, and an agent index snippet reportedly shows Sold STC. No done-up comparable set in 2 yrs; est. margin 0.9V - 1.15W - C - asking",
+     "v_basis": "Fewer than 3 done-up same-type sales in 2 yrs found on Richards Road. Only dated sale in window: 113 Richards Rd, terraced leasehold, 234375 on 18/09/2026 (https://nethouseprices.com/house-prices/South%20Yorkshire/SHEFFIELD/S2; primelocation shows a 2010 sale for 113, so doubtful). Sales outside win",
+     "url": "https://www.rightmove.co.uk/properties/173771870",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min by bus; est. 50 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0236-s2-heeley-bank-road": {
+   "street": "Heeley Bank Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 250000,
+   "price_text": "£250,000",
+   "property_type": "terrace",
+   "beds": 5,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "dated / cosmetic",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/93006717",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "5-bed; known Heeley Bank Road yopa 210000 (415472) may be a different listing; unconfirmed",
+   "id": "H0236-s2-heeley-bank-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/93006717"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     250000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 250000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 6,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Listing could not be opened (WebFetch refused on Rightmove, Zoopla and PrimeLocation); search gave only the URL and title, so no scores, V or W. PASS is gates-only and unconfirmed, not a checked buy.",
+     "v_basis": "not determined: fewer than 3 done-up same-street sales found. Unverified search-summary hits, condition unknown: No. 106 Heeley Bank Road 293000 (Oct 2024, five-bed, leasehold); No. 121 Heeley Bank Road 235750 (Nov 2024)",
+     "url": "https://www.rightmove.co.uk/properties/93006717",
+     "anchors": {
+      "Sheffield railway station": "est. ~35 min walk (Heeley-wide figure, not checked for this street); bus 47/48 runs along Heeley Bank Road to the city centre in about 10-13 min, station leg not checked"
+     }
+    }
+   ],
+   "retries": {
+    "H0236-s2-heeley-bank-road_r1": 1
+   }
+  },
+  "H0237-s2-delf-street": {
+   "street": "Delf Street",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 200000,
+   "price_text": "£200,000–£210,000 guide",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "dated / cosmetic",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/169552301",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Known Delf Street purplebricks 190000 (1220710) may be the same house; unconfirmed",
+   "id": "H0237-s2-delf-street",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/169552301"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     200000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 200000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {},
+     "est": 0,
+     "verdict": "PASS",
+     "risk": "Nothing scored: the Rightmove listing and every other page fetch failed ('proxy refused the connection'), so there are no photos, floorplan, floor area or tenure. The likely match is an aggregator page (https://propertytorenovate.co.uk/prop",
+     "v_basis": "not established: fewer than 3 done-up same-street sales in the last 2 years found. Only 23 Delf Street, £220,000, 10 Dec 2024 (https://www.rightmove.co.uk/house-prices/S2-3GX.html) falls in the window, and its condition is unknown. Other Delf Street sales found (45 Sep 2024 £200,000; 49 1 Nov 2024 £",
+     "url": "https://www.rightmove.co.uk/properties/169552301",
+     "anchors": {
+      "Sheffield railway station": "est. 40 min walk; est. 15-20 min bus (not checked)"
+     }
+    }
+   ],
+   "retries": {
+    "H0237-s2-delf-street_r1": 1
+   }
+  },
+  "H0238-s2-midhill-road": {
+   "street": "Midhill Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 260000,
+   "price_text": "£260,000–£280,000 guide",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": "SK Estate Agents",
+   "url": "https://www.rightmove.co.uk/properties/175040513",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Added 29/07/2026",
+   "id": "H0238-s2-midhill-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/175040513"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     260000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 260000,
+     "V": 301000,
+     "W": 131000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 1,
+      "3": 1,
+      "4": 4,
+      "5": 2,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test fails on est. figures (most we could offer about 117000 against 260000 asking); listing page would not open, so status, front-door layout and tenure are unconfirmed",
+     "v_basis": "est. median of 2 same-type semis, nearest similar street (no 3 done-up sales on Midhill Road found): 9 Midhill Crescent S2 3BE 310000 Jan 2026, 98 m2 (https://housemetric.co.uk/31436621/S2-3BE/9+Midhill+Crescent); 50 Midhill Road S2 3GU 292000 Jun 2024, just outside 2 years (https://housemetric.co.u",
+     "url": "https://www.rightmove.co.uk/properties/175040513",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min by bus (about 4 km); est. 50 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0239-s2-northcote-road": {
+   "street": "Northcote Road",
+   "area": "S2 (district not stated)",
+   "district": "S2",
+   "price": 290000,
+   "price_text": "£290,000–£300,000 guide",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/174570884",
+   "status": "out",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Heeley/S2 district not confirmed; known Northcote Avenue yopa 230000 is different",
+   "id": "H0239-s2-northcote-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/174570884"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     290000
+    ]
+   ],
+   "out_reason": "area",
+   "runs": [],
+   "retries": {}
+  },
+  "H0240-s7-ainsty-road": {
+   "street": "Ainsty Road",
+   "area": "Nether Edge",
+   "district": "S7",
+   "price": 250000,
+   "price_text": "£250,000",
+   "property_type": "end-terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/87651939",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Listing date not seen; may be stale",
+   "id": "H0240-s7-ainsty-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/87651939"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     250000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 250000,
+     "V": 275000,
+     "W": 40000,
+     "C": 3000,
+     "m2": null,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 1,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 5,
+      "8": 2,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Listing not opened; haus shows Sold STC and Rightmove shows about 266 days old. V and W are guesses with no done-up same-street sale in 2 yrs.",
+     "v_basis": "est. Ainsty Rd has no done-up sale in 2 yrs (last recorded sale 2017, domovita). Nearest-street fallback, est.: Abbeydale Rd freehold terraces sold 212500 (103, Oct 2025) and 248000 (43, Jul 2025), not confirmed done-up; South View Rd 3-bed courtyard terraces 250000 and 265000 SOLD STC (2026); Nethe",
+     "url": "https://www.rightmove.co.uk/properties/87651939",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min bus; est. 55 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0241-s11-guest-road": {
+   "street": "Guest Road",
+   "area": "Hunters Bar",
+   "district": "S11",
+   "price": 315000,
+   "price_text": "£315,000–£330,000 guide",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "haus",
+   "url": "https://www.rightmove.co.uk/properties/163278392",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "A separate Guest Road listing was SOLD STC at £365k and is excluded",
+   "id": "H0241-s11-guest-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/163278392"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     315000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 315000,
+     "V": null,
+     "W": null,
+     "C": 3750,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Not buyable now: marked Sold STC (haus ref h9797, search snippet, page not opened); possibly 20 Guest Road, which aggregators show sold for £317000 on 13 Nov 2025 (est.)",
+     "v_basis": "No valid V: done-up status of sales not checked. Raw 2025 Guest Road sales from aggregators: No.20 £317000 on 13 Nov 2025 (possibly this house, est.); No.22 £385000 on 22 Aug 2025; No.16 £407125 on 3 Nov 2025 (type unknown)",
+     "url": "https://www.rightmove.co.uk/properties/163278392",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min walk; est. 12 min bus"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0242-s11-penrhyn-road": {
+   "street": "Penrhyn Road",
+   "area": "Hunters Bar",
+   "district": "S11",
+   "price": 325000,
+   "price_text": "offers in the region of £325,000",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "Whitehornes",
+   "url": "https://www.rightmove.co.uk/properties/171946490",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Older Penrhyn Road listing 122703896 was SOLD STC at £300k; different listing",
+   "id": "H0242-s11-penrhyn-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/171946490"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     325000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 325000,
+     "V": 340000,
+     "W": 130000,
+     "C": 4250,
+     "m2": 131,
+     "type": "terrace",
+     "fails": [
+      "budget"
+     ],
+     "fail_reasons": {
+      "budget": "Asking £325,000 is at the cap, but asking + 1.15W + C = 325,000 + 149,500 + 4,250 = £478,750, above £425,000, using est. W £130,000. Even the lowest cited full-"
+     },
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 3,
+      "4": 5,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 4,
+      "15": 4,
+      "16": 4,
+      "17": 4
+     },
+     "est": 16,
+     "verdict": "REJECT",
+     "risk": "Budget gate fails: all-in is about £479k against the £425k cap at est. works of £130k. Layout, condition and works are unseen because Rightmove and the sold-price sites would not open.",
+     "v_basis": "3 terraced sales on Penrhyn Road in the last 2 years, all leasehold: 21 (S11 8UL) 13 Jan 2025 £333,500; 123 (S11 8UP) 20 Mar 2025 £340,000; 33 (S11 8UL) 20 Jun 2025 £370,100. Median £340,000. Done-up status not checked (est.). Excluded: 51 Penrhyn (16 Sep 2024, outside 2 years). Including 81 (31 Jan",
+     "url": "https://www.rightmove.co.uk/properties/171946490",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus (services 81 or 82 to the city centre, then a short walk, https://www.travelsouthyorkshire.com/getmedia/e08e6d01-7000-47f7-8204-2acbe19ed3e8/81-82-Sheffield-valid-from-31-August-2025.pdf?ext=.pdf); est. 45 min on foot"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0243-s11-hunter-hill-road": {
+   "street": "Hunter Hill Road",
+   "area": "Hunters Bar",
+   "district": "S11",
+   "price": 325000,
+   "price_text": "£325,000",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": "Staves Estate Agents",
+   "url": "https://www.rightmove.co.uk/properties/165654530",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Known Redbrik Hunter Hill Road 300000 may be the same house; unconfirmed",
+   "id": "H0243-s11-hunter-hill-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/165654530"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     325000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 325000,
+     "V": 323000,
+     "W": 100000,
+     "C": 4250,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 1,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 4,
+      "17": 4
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Budget: est. works of about £100k would breach the £425,000 cap. Status unverified: the Rightmove page would not open, and a £325,000 Hunter Hill Road listing is reported SOLD STC elsewhere (https://haushomes.co.uk/properties-for-sale/prope",
+     "v_basis": "3 sales (condition not verified; the top-priced 2-year sales are taken as done-up, est.): 55 Hunter Hill Road £361,000 (21 Mar 2025, https://www.homipi.co.uk/property/sheffield/s11-8ud/55-hunter-hill-road/); 18 Hunter Hill Road £323,000 (6 Oct 2025); 32 Hunter Hill Road £310,000 (6 Jun 2025). Sales:",
+     "url": "https://www.rightmove.co.uk/properties/165654530",
+     "anchors": {
+      "Sheffield railway station": "about 35 min walk (est.); about 12 min by bus (est.)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0244-s8-norton-lees-road": {
+   "street": "Norton Lees Road",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 295000,
+   "price_text": "offers in the region of £295,000",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "leasehold",
+   "condition": "unknown",
+   "flags": [
+    "leasehold"
+   ],
+   "agent": "Whitehornes",
+   "url": "https://www.rightmove.co.uk/properties/174002648",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Leasehold per listing snippet",
+   "id": "H0244-s8-norton-lees-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/174002648"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     295000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 295000,
+     "V": 275000,
+     "W": 115000,
+     "C": 3000,
+     "m2": 99,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 3,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Margin est. -182,750 (0.9V 247,500 less 1.15W 132,250, C 3,000, asking 295,000); break-even needs done-up V of about 478,000. Rightmove page not opened, so lease length, hall, vacancy and structure are unconfirmed.",
+     "v_basis": "est.: only 2 sales in 2 years found, neither confirmed done-up: No 13 Norton Lees Road (semi, freehold) 217,500 on 4 Mar 2025; No 58 (terrace, freehold) 275,000 on 21 Nov 2025. Fewer than 3 same-type sales, so nearest street not checked; V set at the higher of the two (generous).",
+     "url": "https://www.rightmove.co.uk/properties/174002648",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus; route not checked"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0245-s8-thorpe-house-avenue": {
+   "street": "Thorpe House Avenue",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 220000,
+   "price_text": "offers over £220,000",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "needs full refurb",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "Saxton Mee",
+   "url": "https://www.rightmove.co.uk/properties/92757393",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Pitched at developers and renovators; sellers keep plot to east. Known Thorpe House Avenue blundells 260000 is a different listing",
+   "id": "H0245-s8-thorpe-house-avenue",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/92757393"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     220000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 220000,
+     "V": 260000,
+     "W": 125000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 2,
+      "3": 4,
+      "4": 4,
+      "5": 2,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 4,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test negative (0.9V - 1.15W - C - asking = est. -133k); listing page not opened, so floor area, hall position and tenure are unconfirmed",
+     "v_basis": "3 most recent semi sales, last 2 yrs: 77 Thorpe House Avenue 7 May 2026 260000; 73 Thorpe House Avenue 25 Sep 2025 285000; 71 Thorpe House Avenue Sep 2025 249000; median 260000. Done-up status not verified; sales from search snippets, pages not opened",
+     "url": "https://www.rightmove.co.uk/properties/92757393",
+     "anchors": {
+      "Sheffield railway station": "est. 25 min by bus (route not checked)"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0246-s8-lees-hall-road": {
+   "street": "Lees Hall Road",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 280000,
+   "price_text": "£280,000–£290,000 guide",
+   "property_type": "semi",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [],
+   "agent": "haus",
+   "url": "https://www.rightmove.co.uk/properties/173861153",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Known Lees Hall Road blundells 250000 (21789723) is a different listing",
+   "id": "H0246-s8-lees-hall-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/173861153"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     280000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 280000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": 86,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Sold STC per undated search snapshots, so not buyable; Rightmove page refused by proxy, so re-check status",
+     "v_basis": "not checked: listing shows Sold STC, so stopped at step 1",
+     "url": "https://www.rightmove.co.uk/properties/173861153",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0247-s11-ecclesall-road": {
+   "street": "Ecclesall Road",
+   "area": "Ecclesall",
+   "district": "S11",
+   "price": 260000,
+   "price_text": "offers in the region of £260,000",
+   "property_type": "house",
+   "beds": 3,
+   "m2": 122,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "Whitehornes",
+   "url": "https://www.rightmove.co.uk/properties/87512664",
+   "status": "out",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Marketed by Whitehornes, Banner Cross; no upward chain",
+   "id": "H0247-s11-ecclesall-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/87512664"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     260000
+    ]
+   ],
+   "out_reason": "area",
+   "runs": [],
+   "retries": {}
+  },
+  "H0248-s11-blair-athol-road": {
+   "street": "Blair Athol Road",
+   "area": "Ecclesall",
+   "district": "S11",
+   "price": 290000,
+   "price_text": "£290,000–£300,000 guide",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/89095569",
+   "status": "out",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Known Blair Athol Road Pattinson 175000 is a different listing",
+   "id": "H0248-s11-blair-athol-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/89095569"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     290000
+    ]
+   ],
+   "out_reason": "area",
+   "runs": [],
+   "retries": {}
+  },
+  "H0249-s11-bowood-road": {
+   "street": "Bowood Road",
+   "area": "Sharrow Vale",
+   "district": "S11",
+   "price": 300000,
+   "price_text": "£300,000–£315,000 guide",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": 107,
+   "tenure": "leasehold",
+   "condition": "unknown",
+   "flags": [
+    "leasehold",
+    "price reduced"
+   ],
+   "agent": "Whitehornes",
+   "url": "https://www.rightmove.co.uk/properties/173528192",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Rightmove ID not confirmed (two Bowood Road 3-beds in results); another snippet shows £315k–£325k",
+   "id": "H0249-s11-bowood-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/173528192"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     300000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 300000,
+     "V": null,
+     "W": 121000,
+     "C": 3000,
+     "m2": 107,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 4,
+      "17": 4
+     },
+     "est": 13,
+     "verdict": "PASS",
+     "risk": "Listing could not be opened (every fetch refused), so live status, floorplan and hall are unverified; est. W breaks the 425000 budget test; V not found; a 1904 3-bed Bowood Rd terrace was reported sold STC at 320000 (added 20 Mar 2026), unc",
+     "v_basis": "Fewer than 3 same-street sales in last 2 yrs, and neither found is confirmed done-up: 20 Bowood Rd 410000 (Dec 2024) and 9 Bowood Rd 326000 (May 2025). Nearest-street fallback not completed.",
+     "url": "https://www.rightmove.co.uk/properties/173528192",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min walk (~2.8 km, no source found); est. 15 min by bus"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0250-s11-bowood-road": {
+   "street": "Bowood Road",
+   "area": "Sharrow Vale",
+   "district": "S11",
+   "price": 250000,
+   "price_text": "£250,000",
+   "property_type": "terrace",
+   "beds": 4,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "needs full refurb",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.rightmove.co.uk/properties/173498783",
+   "status": "judged",
+   "verified": false,
+   "source": "Rightmove",
+   "notes": "Search snippet only; agent and status not confirmed",
+   "id": "H0250-s11-bowood-road",
+   "urls": [
+    "https://www.rightmove.co.uk/properties/173498783"
+   ],
+   "sources": [
+    "Rightmove"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     250000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": false,
+     "asking": 250000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": 113,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 6,
+     "scores": {},
+     "est": 0,
+     "verdict": "REJECT",
+     "risk": "Listing shows sold STC (sold subject to contract), so it is not available to buy. Status comes from cached search snippets because portal fetches were refused, so it was not confirmed live.",
+     "v_basis": "not done: listing sold STC, stopped at step 1",
+     "url": "https://www.rightmove.co.uk/properties/173498783",
+     "anchors": {
+      "Sheffield railway station": null
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0251-s8-woodbank-crescent": {
+   "street": "Woodbank Crescent",
+   "area": "Meersbrook",
+   "district": "S8",
+   "price": 270000,
+   "price_text": "£270,000 (guide £270,000–£280,000)",
+   "property_type": "end-terrace",
+   "beds": 3,
+   "m2": 104.5,
+   "tenure": "freehold",
+   "condition": "good / done",
+   "flags": [],
+   "agent": "Whitehorne",
+   "url": "https://www.zoopla.co.uk/for-sale/details/71878809/",
+   "status": "judged",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only, page not opened; listing gives 1,125 sq ft and EPC D. Another Woodbank Crescent snapshot shows £240k, probably a different house.",
+   "id": "H0251-s8-woodbank-crescent",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/71878809/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     270000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 270000,
+     "V": 240000,
+     "W": 25000,
+     "C": 3000,
+     "m2": 104,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 2,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 3,
+      "13": 4,
+      "14": 3,
+      "15": 4,
+      "16": 4,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Listing page could not be opened; asking is about 12% above est. V (negative margin), and hall, room sizes and vacancy are unseen.",
+     "v_basis": "est. median of 3 most recent same-street terraced sales, done-up status unverified: 51 Woodbank Crescent 1 Apr 2026 240000; 27 Woodbank Crescent 30 Mar 2026 250000; 34 Woodbank Crescent 28 Mar 2025 235000 (rows taken from aggregator search summaries, pages not opened; 57 Woodbank Crescent 21 Mar 202",
+     "url": "https://www.zoopla.co.uk/for-sale/details/71878809/",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min by bus; est. 45 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0252-s2-delf-street": {
+   "street": "Delf Street",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 215000,
+   "price_text": "Guide £215,000–£225,000",
+   "property_type": "mid-terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": null,
+   "url": "https://www.zoopla.co.uk/for-sale/details/58209690/",
+   "status": "judged",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only. A different Delf Street listing at £185k is sold STC and is not included.",
+   "id": "H0252-s2-delf-street",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/58209690/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     215000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 215000,
+     "V": 235000,
+     "W": 153000,
+     "C": 3000,
+     "m2": 115,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 1,
+      "4": 4,
+      "5": 5,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 4,
+      "17": 3
+     },
+     "est": 15,
+     "verdict": "PASS",
+     "risk": "Buy test is negative: est. 0.9 x 235000 less est. works 175950 and costs 3000 is about 182450 short of asking, so the house does not pay back. Listing 58209690 was not opened, and a Zoopla Delf St listing at 215000 (https://www.zoopla.co.uk",
+     "v_basis": "Fewer than 3 done-up same-street sales in 2 yrs found, so est. nearest-street basis, not a median of 3. Only in-window Delf St sale found: 23 Delf St, freehold terrace, 10 Dec 2024, 220000 (https://www.rightmove.co.uk/house-prices/s2-3gx.html), condition unknown. 45 Delf St (200000, Sep 2024) and 49",
+     "url": "https://www.zoopla.co.uk/for-sale/details/58209690/",
+     "anchors": {
+      "Sheffield railway station": "est. 20 min bus; est. 45 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0253-s2-edwin-road": {
+   "street": "Edwin Road",
+   "area": "Heeley",
+   "district": "S2",
+   "price": 180000,
+   "price_text": "Guide £180,000 (other snapshots show £190,000–£200,000)",
+   "property_type": "semi-detached",
+   "beds": 3,
+   "m2": 80.9,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain",
+    "price reduced"
+   ],
+   "agent": null,
+   "url": "https://www.zoopla.co.uk/for-sale/houses/sheffield/edwin-road/",
+   "status": "judged",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only; URL is the Zoopla Edwin Road results page. Floor area conflicts between 871 sq ft (80.9 m²) and 990 sq ft; both pass 80 m².",
+   "id": "H0253-s2-edwin-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/houses/sheffield/edwin-road/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     180000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 180000,
+     "V": null,
+     "W": 120000,
+     "C": 3000,
+     "m2": 81,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 2,
+      "3": 1,
+      "4": 5,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 2,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing not opened: every page fetch was refused by the proxy, so facts come from search snippets (listing dated 20 Aug 2026, may be stale). No usable done-up sales, so V, margin and uplift cannot be trusted. One reception room suggests the",
+     "v_basis": "No done-up same-type sales on Edwin Rd in the last 2 years found. Edwin Rd sales outside the window: 28 Edwin Rd detached leasehold 200000 on 20 Oct 2023; 12 Edwin Rd semi freehold 170000 Nov 2022 (https://domovita.co.uk/sold-prices/street/s2/edwin-road; https://housemetric.co.uk/28035078/S2-3ND/12+",
+     "url": "https://www.zoopla.co.uk/for-sale/houses/sheffield/edwin-road/",
+     "anchors": {
+      "Sheffield railway station": "bus about 25 min (est.); walk about 80 min (est.)"
+     }
+    }
+   ],
+   "retries": {
+    "H0253-s2-edwin-road_r1": 1
+   }
+  },
+  "H0254-s7-wath-road": {
+   "street": "Wath Road",
+   "area": "Blundells listing (neighbourhood Nether Edge)",
+   "district": "S7",
+   "price": 210000,
+   "price_text": "Offers in region of £210,000",
+   "property_type": "mid-terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "dated / cosmetic",
+   "flags": [],
+   "agent": "Blundells",
+   "url": "https://www.zoopla.co.uk/for-sale/details/73863203/",
+   "status": "judged",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only; agent and condition come from a search summary. Different from the Redbrik Wath Road listing already known.",
+   "id": "H0254-s7-wath-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/73863203/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     210000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 210000,
+     "V": 305000,
+     "W": 150000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {
+      "1": 4,
+      "3": 2,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 4,
+      "17": 4
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing page would not open, so no floorplan, photos, floor area, lease length or front-door position were seen; V, W and most scores are est. and the hall gate is unconfirmed.",
+     "v_basis": "est. median of 3 sales, done-up status not verified: 1 Wath Road 21 Sep 2026 250000; 73 Wath Road 20 May 2025 305000; 15 Wath Road Jan 2026 320000",
+     "url": "https://www.zoopla.co.uk/for-sale/details/73863203/",
+     "anchors": {
+      "Sheffield railway station": "est. 18 min by bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 210000,
+     "V": 305000,
+     "W": 125000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 4,
+      "3": 2,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 4
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test fails: 0.9 x V £274,500 minus 1.15 x W £143,750 minus C £3,000 is below asking £210,000 (est. margin -£82,250). Front door position and live status are unverified because the listing page would not open.",
+     "v_basis": "3 sales within 2 yrs on Wath Road S7 1HD: no. 73, 20 May 2025, £305,000 (terraced, leasehold); no. 15, 8 Jan 2026, £320,000 (type not confirmed); no. 1, 21 Sep 2026, £250,000 (terraced). No. 9 (£335,000, Oct 2024) excluded as older than 2 yrs. Done-up condition not confirmed for any sale, so V is es",
+     "url": "https://www.zoopla.co.uk/for-sale/details/73863203/",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min walk; est. 15 min bus"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 210000,
+     "V": 320000,
+     "W": 110000,
+     "C": 3000,
+     "m2": null,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 4,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 4
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing page, photos and floorplan not opened (Zoopla and Rightmove refused by proxy), so hall, floor area and V rest on unverified comps; est. buy-test margin is about -51500 at V 320000 and W 110000.",
+     "v_basis": "2 in-window Wath Road sales: 15 Wath Road terrace 320000 on 2026-01-08 (https://www.rightmove.co.uk/house-prices/s7/wath-road.html); 73 Wath Road 305000 on 2025-05-20 (https://www.homipi.co.uk/house-prices/sheffield/wath-road/). Third is 9 Wath Road 335000 on 2024-10-25 (https://streetscan.co.uk/hou",
+     "url": "https://www.zoopla.co.uk/for-sale/details/73863203/",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min walk"
+     }
+    }
+   ],
+   "retries": {}
+  },
+  "H0255-s11-ecclesall-road": {
+   "street": "Ecclesall Road",
+   "area": "Ecclesall",
+   "district": "S11",
+   "price": 285000,
+   "price_text": "Guide £285,000–£295,000 (listed at £285,000)",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.zoopla.co.uk/for-sale/details/73054531/",
+   "status": "out",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only; price range taken from the listing title and description text.",
+   "id": "H0255-s11-ecclesall-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/details/73054531/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     285000
+    ]
+   ],
+   "out_reason": "area",
+   "runs": [],
+   "retries": {}
+  },
+  "H0256-s7-abbeydale-road": {
+   "street": "Abbeydale Road",
+   "area": "Abbeydale",
+   "district": "S7",
+   "price": 210000,
+   "price_text": "Offers in region of £265,000",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": 116.0,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [
+    "no chain"
+   ],
+   "agent": "Whitehorn",
+   "url": "https://www.zoopla.co.uk/for-sale/property/sheffield/abbeydale-road/",
+   "status": "judged",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only; URL is the Zoopla Abbeydale Road results page. A Blundells auction lot at £265k, 1,248 sq ft (listed 22 Apr 2026), may be the same house.",
+   "id": "H0256-s7-abbeydale-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/abbeydale-road/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     265000
+    ],
+    [
+     "2026-11-18",
+     210000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 210000,
+     "V": 250000,
+     "W": 130000,
+     "C": 3000,
+     "m2": 116,
+     "type": "terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {},
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing not opened (proxy refused fetches) and no source ties 210000 asking to this 116 m2 Whitehorn terrace; one snippet says under offer or sold; candidate URL unverified; V and W est.",
+     "v_basis": "est. 3 Abbeydale Road sales from search snippets of Primelocation house-prices: 853 Jul 2025 262000; 871 Mar 2026 225000; 301 Jun 2026 250000; median 250000. Not confirmed as done-up or same type; not checked on Land Registry",
+     "url": "https://www.rightmove.co.uk/properties/89214852",
+     "anchors": {
+      "Sheffield railway station": "bus ~25 min est. (about 2.5 miles); drive ~12 min est."
+     }
+    }
+   ],
+   "retries": {
+    "H0256-s7-abbeydale-road_r1": 1
+   },
+   "reprice_from": 265000
+  },
+  "H0257-s11-everton-road": {
+   "street": "Everton Road",
+   "area": "Hunters Bar",
+   "district": "S11",
+   "price": 325000,
+   "price_text": "£325,000",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": "Haus",
+   "url": "https://www.zoopla.co.uk/for-sale/property/sheffield/everton-road/s11-8ry/",
+   "status": "out",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only; URL is the Zoopla Everton Road results page. Listed four months ago, so status is unknown. Zoopla says 3–4 beds; Primelocation says 3.",
+   "id": "H0257-s11-everton-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/everton-road/s11-8ry/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     325000
+    ]
+   ],
+   "out_reason": "status: unconfirmed (listed 23 jul 2026; may have sold)",
+   "runs": [],
+   "retries": {}
+  },
+  "H0258-s8-tyzack-road": {
+   "street": "Tyzack Road",
+   "area": "Woodseats",
+   "district": "S8",
+   "price": 250000,
+   "price_text": "Guide £250,000–£260,000",
+   "property_type": "end-terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "unknown",
+   "condition": "unknown",
+   "flags": [],
+   "agent": null,
+   "url": "https://www.zoopla.co.uk/for-sale/property/sheffield/tyzack-road/",
+   "status": "judged",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only; URL is the Zoopla Tyzack Road results page; agent not given.",
+   "id": "H0258-s8-tyzack-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/property/sheffield/tyzack-road/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     250000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": null,
+     "asking": 250000,
+     "V": null,
+     "W": null,
+     "C": 3000,
+     "m2": null,
+     "type": null,
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 5,
+     "scores": {},
+     "est": 0,
+     "verdict": null,
+     "risk": "Could not open any listing (portals and agent sites refused by proxy) and found no verifiable 250k Tyzack Road listing with a named agent; Redbrik 280-300k (possibly sold STC), Reeds Rains auction and an unsourced Hunters 250-270k lead conf",
+     "v_basis": "not found: fewer than 3 done-up same-type sales on Tyzack Road in 2 years; found no.7 2024-11-01 285000 (PropertyEngine lists semi-detached) and no.61 2025-03 260000 (condition unknown)",
+     "url": "https://www.zoopla.co.uk/for-sale/property/sheffield/tyzack-road/",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus (street, not verified)"
+     }
+    }
+   ],
+   "retries": {
+    "H0258-s8-tyzack-road_r1": 1
+   }
+  },
+  "H0259-s8-mount-view-road": {
+   "street": "Mount View Road",
+   "area": "Norton Lees",
+   "district": "S8",
+   "price": 240000,
+   "price_text": "£240,000 (reduced)",
+   "property_type": "terrace",
+   "beds": 3,
+   "m2": null,
+   "tenure": "freehold",
+   "condition": "unknown",
+   "flags": [
+    "no chain",
+    "price reduced"
+   ],
+   "agent": null,
+   "url": "https://www.zoopla.co.uk/for-sale/houses/sheffield/mount-view-road/",
+   "status": "judged",
+   "verified": false,
+   "source": "Zoopla",
+   "notes": "Snippet only; URL is the Zoopla Mount View Road results page. Another snapshot describes a Mount View Road semi at £240k as a renovation project, so the type is unclear. The known £215k Mount View Road semi is a different listing.",
+   "id": "H0259-s8-mount-view-road",
+   "urls": [
+    "https://www.zoopla.co.uk/for-sale/houses/sheffield/mount-view-road/"
+   ],
+   "sources": [
+    "Zoopla"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    [
+     "2026-11-18",
+     240000
+    ]
+   ],
+   "out_reason": null,
+   "runs": [
+    {
+     "run": "1",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 240000,
+     "V": 312500,
+     "W": 110000,
+     "C": 3000,
+     "m2": null,
+     "type": "semi",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 3,
+      "3": 3,
+      "4": 4,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 2,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Buy test is negative on est. numbers (0.9V - 1.15W - C - asking = -88250 with V 312500, W 110000), and with no floorplan, photos or survey the hall, layout and condition are unconfirmed.",
+     "v_basis": "3 most recent semi sales, Mount View Road S8: 118 (12 Mar 2026, 312500, leasehold); 38 (10 Nov 2025, 337630, freehold); 107 (10 Oct 2025, 260000, leasehold). Median 312500. Done-up status not checked (est.). Other 2-yr semi sales: 103 (246000), 115 (208000), 129 (190000).",
+     "url": "https://www.haybrook.com/HAY031076239",
+     "anchors": {
+      "Sheffield railway station": "est. 30 min by bus"
+     }
+    },
+    {
+     "run": "2",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 240000,
+     "V": 238000,
+     "W": 117000,
+     "C": 3000,
+     "m2": 95,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 3,
+     "scores": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 4,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "No margin: asking 240,000 matches the terraced comps (V 238,000 est.), so 0.9V - 1.15W - C - asking is about -163,000 (est.); hall gate unconfirmed.",
+     "v_basis": "Fewer than 3 same-type sales confirmed done-up. Used 3 terraced sales on Mount View Road in last 2 years, condition unknown: 18 Mount View Rd S8 8PH 17 Jul 2026 GBP 238,000 (freehold); 121 Mount View Rd S8 8PJ 27 Jun 2025 GBP 250,000 (leasehold); 59 Mount View Rd S8 8PH 7 Feb 2025 GBP 178,000 (freeh",
+     "url": "https://www.rightmove.co.uk/properties/171182642",
+     "anchors": {
+      "Sheffield railway station": "est. 35 min by bus, about 20 min by car"
+     }
+    },
+    {
+     "run": "3",
+     "date": "2026-11-18",
+     "live": true,
+     "asking": 240000,
+     "V": 275000,
+     "W": 125000,
+     "C": 3000,
+     "m2": null,
+     "type": "end-terrace",
+     "fails": [],
+     "fail_reasons": {},
+     "unconf": 4,
+     "scores": {
+      "1": 1,
+      "3": 4,
+      "4": 4,
+      "5": 3,
+      "6": 4,
+      "7": 3,
+      "8": 3,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 4,
+      "13": 4,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 3
+     },
+     "est": 16,
+     "verdict": "PASS",
+     "risk": "Listing, photos and floorplan could not be opened, so front door position, bedroom sizes, floor area and condition are unknown; portals disagree on price (Zoopla 240000, Rightmove 250000) and agent (Hunters vs Staves); V and W are estimates",
+     "v_basis": "Fewer than 3 same-type done-up sales on Mount View Rd in 2 yrs (121 Mount View Rd 250000 on 27 Jun 2025, 3-bed terrace 103 m2; 59 Mount View Rd 178000 on 7 Feb 2025; condition unknown). Nearest streets used: 121 Mount View Rd 250000 (27 Jun 2025); 58 Norton Lees Rd 275000 (21 Nov 2025, 3-bed terrace",
+     "url": "https://www.zoopla.co.uk/for-sale/houses/sheffield/mount-view-road/",
+     "anchors": {
+      "Sheffield railway station": "30 min bus (est.)"
+     }
+    }
+   ],
+   "retries": {
+    "H0259-s8-mount-view-road_r1": 1
+   }
   }
  }
 }

@@ -1,0 +1,43 @@
+{"id": "H0238-s2-midhill-road", "run": "1", "live": true, "listing_url": "https://www.rightmove.co.uk/properties/175040513", "asking": 260000, "floor_area_m2": null,
+ "house_type": "semi",
+ "gates": {
+  "area": {"pass": true, "reason": "Heeley (S2) borders Meersbrook; read as a neighbour of the search area (judgement, not a listing fact)"},
+  "budget": {"pass": true, "reason": "unconfirmed: works not priced in listing. Asking 260000 is under 325000. Est. 260000 + 1.15 x 131000 + 3000 = 413650, under 425000 with about 11k spare. Search snippet shows guide 260000-280000; at 280000 the est. total is 433650, over the cap"},
+  "tenure": {"pass": true, "reason": "unconfirmed: tenure not stated in any source I could read"},
+  "structure": {"pass": true, "reason": "unconfirmed: no movement, knotweed or structural issue found; listing page would not open"},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated; 'well presented' does not settle it"},
+  "hall": {"pass": true, "reason": "unconfirmed: front door layout not found in any source; named as a risk"}
+ },
+ "V": 301000, "v_basis": "est. median of 2 same-type semis, nearest similar street (no 3 done-up sales on Midhill Road found): 9 Midhill Crescent S2 3BE 310000 Jan 2026, 98 m2 (https://housemetric.co.uk/31436621/S2-3BE/9+Midhill+Crescent); 50 Midhill Road S2 3GU 292000 Jun 2024, just outside 2 years (https://housemetric.co.uk/29644093/S2-3GU/50+Midhill+Road); neither confirmed done-up",
+ "W": 131000, "w_basis": "est. with no floorplan, excluding contingency: single-storey rear extension ~25 m2 65000; kitchen 15000; bathroom 7000; rewire 7000; heating 5000; decor and floors 9000; windows, damp, roof 8000; hall and internal reconfiguration 5000; design and fees 10000",
+ "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "est. asking 260000 / 77 m2 = 3377 per m2 vs V 301000 / 77 = 3909 per m2, about 86% (score 1 is just over the 85% line)"},
+  {"n": 3, "score": 1, "est": true, "evidence": "street max found in last 2 years is 215000 (33 Midhill Road, Oct 2025, terraced leasehold: https://www.rightmove.co.uk/house-prices/S2-3GU.html); V is about 140% of that"},
+  {"n": 4, "score": 4, "est": true, "evidence": "no sector max found; est. S2 2-year max about 400000, so V is about 75% of it"},
+  {"n": 5, "score": 2, "est": true, "evidence": "floor area not given; est. 77 m2 from a nearby semi (27 Midhill Road, 77 m2: https://homecheckup.co.uk/property/27-midhill-road-s2-3gt), not this house"},
+  {"n": 6, "score": 4, "est": true, "evidence": "3 bedrooms listed; room sizes not given; est. one room under 11.5 m2"},
+  {"n": 7, "score": 3, "est": true, "evidence": "no kitchen layout given; est. route is a single-storey rear extension"},
+  {"n": 8, "score": 3, "est": true, "evidence": "garden length, loft and neighbours' extensions not given; est. one route"},
+  {"n": 9, "score": 2, "est": true, "evidence": "est. single-storey rear extension plus rewire or heating"},
+  {"n": 10, "score": 3, "est": true, "evidence": "est. 7-12 months to a finished spec with an extension"},
+  {"n": 11, "score": 3, "est": true, "evidence": "no survey or photos read; est. minor issues, cause unclear"},
+  {"n": 12, "score": 3, "est": true, "evidence": "est. one fails: a one-bed flat to rent on Midhill Road is listed, so some letting activity; road traffic not checked"},
+  {"n": 13, "score": 3, "est": true, "evidence": "est. 10-15 min walk to Heeley Park"},
+  {"n": 14, "score": 3, "est": true, "evidence": "est. 15-20 min walk to a large supermarket"},
+  {"n": 15, "score": 3, "est": true, "evidence": "parking and slope not stated; est. hard parking, level"},
+  {"n": 16, "score": 3, "est": true, "evidence": "listing says 'well presented'; room sizes and light not seen; est. average"},
+  {"n": 17, "score": 3, "est": true, "evidence": "front and facade not seen; est. plain, tidy"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 20 min by bus (about 4 km); est. 50 min walk"},
+ "verdict": "PASS",
+ "biggest_risk": "Buy test fails on est. figures (most we could offer about 117000 against 260000 asking); listing page would not open, so status, front-door layout and tenure are unconfirmed",
+ "sources": [
+  "https://www.rightmove.co.uk/properties/175040513",
+  "https://housemetric.co.uk/31436621/S2-3BE/9+Midhill+Crescent",
+  "https://housemetric.co.uk/29644093/S2-3GU/50+Midhill+Road",
+  "https://www.rightmove.co.uk/house-prices/S2-3GU.html",
+  "https://resi.co.uk/house-prices/midhill-road-s2",
+  "https://homecheckup.co.uk/property/27-midhill-road-s2-3gt"
+ ]
+}

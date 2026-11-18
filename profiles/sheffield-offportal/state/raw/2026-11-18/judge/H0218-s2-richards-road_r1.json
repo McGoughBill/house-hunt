@@ -1,0 +1,32 @@
+{"id": "H0218-s2-richards-road", "run": "1", "live": false, "listing_url": "https://www.onthemarket.com/details/18165090/", "asking": 160000, "floor_area_m2": 95, "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Richards Road, Heeley S2 3DW; Heeley is next to Meersbrook (est.)"},
+  "budget": {"pass": true, "reason": "Asking £160,000 is under £325,000. unconfirmed: works not priced, so the £425,000 test (asking + 1.15W + C) cannot be checked"},
+  "tenure": {"pass": true, "reason": "Freehold, chain-free (OTM listing summary, Hunters)"},
+  "structure": {"pass": true, "reason": "unconfirmed: no structural or survey facts found"},
+  "vacant": {"pass": true, "reason": "unconfirmed: listing says chain-free, not vacant possession"},
+  "hall": {"pass": true, "reason": "unconfirmed: listing summary does not say where the front door opens"}
+ },
+ "V": null, "v_basis": "Only 1 sale in the last 2 years on Richards Road: 185 Richards Road (S2 3DW), 3-bed terrace about 89 m2, £237,000 on 10 Nov 2025 (Housemetric). Done-up status unknown. Other Richards Road sales found are older than 2 years: 183 £205,000 Sep 2023; 147 £155,000 Apr 2023; 157 £188,000 Dec 2022; 97 £200,000 Jul 2023. Fewer than 3 same-street sales and no nearby-street set pulled, so V not set.",
+ "W": null, "w_basis": "No floorplan or photos reached: the OTM page and other portal pages refused connection. Not priced.", "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": false, "evidence": "not scored: listing gone, no floorplan or photos"},
+  {"n": 3, "score": null, "est": false, "evidence": "not scored: V not set"},
+  {"n": 4, "score": null, "est": false, "evidence": "not scored: V not set"},
+  {"n": 5, "score": null, "est": false, "evidence": "not scored: stopped after listing status found (listing gives about 1,023 sq ft, about 95 m2)"},
+  {"n": 6, "score": null, "est": false, "evidence": "not scored: no room sizes found"},
+  {"n": 7, "score": null, "est": false, "evidence": "not scored: no floorplan"},
+  {"n": 8, "score": null, "est": false, "evidence": "not scored: no floorplan or garden data"},
+  {"n": 9, "score": null, "est": false, "evidence": "not scored: no survey or condition data"},
+  {"n": 10, "score": null, "est": false, "evidence": "not scored: works not priced"},
+  {"n": 11, "score": null, "est": false, "evidence": "not scored: no survey data"},
+  {"n": 12, "score": null, "est": false, "evidence": "not scored: street not assessed"},
+  {"n": 13, "score": null, "est": false, "evidence": "not scored: not assessed"},
+  {"n": 14, "score": null, "est": false, "evidence": "not scored: not assessed"},
+  {"n": 15, "score": null, "est": false, "evidence": "not scored: not assessed"},
+  {"n": 16, "score": null, "est": false, "evidence": "not scored: no photos reached"},
+  {"n": 17, "score": null, "est": false, "evidence": "not scored: no photos reached"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 20 min by bus; walk est. 55 min (not checked)"},
+ "verdict": "REJECT", "biggest_risk": "Not available: search snippets say the OTM listing now shows no longer available and Hunters hold a £160,000 offer (accepted per one snippet). Page not opened, so live false is from snippets. REJECT is for unavailability, not a gate failure. Agent: Hunters.",
+ "sources": ["https://www.onthemarket.com/details/18165090/", "https://www.hunters.com/?p=207435", "https://housemetric.co.uk/house-prices/Richards-Road/S2-3DW", "https://primelocation.com/house-prices/sheffield/richards-road/s2-3dw", "https://www.haushomes.co.uk/properties-for-sale/property/12677570-richards-road-heeley-sheffield"]}

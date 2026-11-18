@@ -1,0 +1,9 @@
+{"id": "H0079-s8-upper-albert-road", "run": "2", "live": false, "listing_url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-meersbrook-sheffield-578899", "asking": 195000, "floor_area_m2": null,
+ "house_type": "semi",
+ "gates": {"area": {"pass": true, "reason": "Meersbrook, S8 9HT per the listing title in the search index"}, "budget": {"pass": null, "reason": "not checked: listing not live, works not priced"}, "tenure": {"pass": null, "reason": "not checked: listing text not opened; the same-street semis at 10 and 49 Upper Albert Road sold leasehold"}, "structure": {"pass": null, "reason": "not checked: listing not live"}, "vacant": {"pass": null, "reason": "not checked: listing not live"}, "hall": {"pass": null, "reason": "not checked: listing not live"}},
+ "V": 381000, "v_basis": "Fewer than 3 same-street semi sales in last 2 yrs, so nearest similar street used: 49 Upper Albert Road semi £381,000 (11 Mar 2025, leasehold); 10 Upper Albert Road semi £260,000 (16 Jan 2026, leasehold); 43 Meersbrook Avenue freehold semi £500,000 (Oct 2025). Median £381,000. Done-up status of all three unverified, est.",
+ "W": null, "w_basis": "not priced: listing not live", "C": 3000,
+ "scores": [],
+ "anchors": {},
+ "verdict": "REJECT", "biggest_risk": "Not buyable: search summaries show the Purplebricks listing as under offer with an offer accepted (page would not open, so unverified); live set false and scoring stopped.",
+ "sources": ["https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-meersbrook-sheffield-578899", "https://domovita.co.uk/sold-prices/street/s8/upper-albert-road", "https://housemetric.co.uk/30427354/S8-9HT/49+Upper+Albert+Road", "https://nethouseprices.com/house-prices/street-details-sale/49E87C327537591CE0634704A8C00C31/10%20UPPER%20ALBERT%20ROAD,%20SHEFFIELD,%20S8%209HR/2026", "https://www.doogal.co.uk/PropertySales?area=S8+9"]}

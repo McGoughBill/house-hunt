@@ -1,0 +1,7 @@
+{"id": "H0225-s8-fraser-close", "run": "1", "live": false, "listing_url": "https://www.onthemarket.com/details/13527540/", "asking": 210000, "floor_area_m2": 81,
+ "house_type": "end-terrace",
+ "gates": {"area": {"pass": null, "reason": "not assessed: stopped at step 1 because the listing appears sold STC; Woodseats vs brief search areas not checked"}, "budget": {"pass": null, "reason": "not assessed: needs W; asking 210000 is within 325000"}, "tenure": {"pass": true, "reason": "freehold per search-result summary of https://www.onthemarket.com/details/13527540/ (page not opened)"}, "structure": {"pass": null, "reason": "not assessed: no structural information gathered"}, "vacant": {"pass": null, "reason": "not assessed: listing reported sold STC; occupancy not checked"}, "hall": {"pass": null, "reason": "not assessed: summary mentions a living room and rear kitchen but no entrance hall; floorplan not seen"}},
+ "V": null, "v_basis": "not assessed: stopped at step 1. Reference only: Domovita lists 5 Fraser Close sales 2004-2024; latest No.16 at 195000 on 2024-03-21; none in the last 2 years", "W": null, "w_basis": "not assessed: stopped at step 1", "C": null,
+ "scores": [],
+ "anchors": {},
+ "verdict": "REJECT", "biggest_risk": "Not available: listing reported sold subject to contract and removed. Unverified: the page would not open (proxy refused every WebFetch), so status comes from two search-result summaries.", "sources": ["https://www.onthemarket.com/details/13527540/", "https://domovita.co.uk/sold-prices/street/s8/fraser-close"]}

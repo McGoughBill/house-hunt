@@ -1,0 +1,9 @@
+{"id": "H0222-s8-derbyshire-lane-s8-9el", "run": "1", "live": false, "listing_url": "https://www.onthemarket.com/details/16458145/", "asking": 275000, "floor_area_m2": 92,
+ "house_type": "semi",
+ "gates": {"area": {"pass": true, "reason": "Derbyshire Lane, Meersbrook, S8 9EL, inside the Meersbrook search area (https://www.onthemarket.com/details/16458145/)"}, "budget": {"pass": true, "reason": "unconfirmed: asking 275000 is within the 325000 cap; the 1.15W + C test was not run because W was not priced (listing not live)"}, "tenure": {"pass": true, "reason": "freehold, per the OTM listing summary (https://www.onthemarket.com/details/16458145/)"}, "structure": {"pass": true, "reason": "unconfirmed: no structural note seen in the listing summary"}, "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated; listing reported as sold subject to contract"}, "hall": {"pass": true, "reason": "unconfirmed: entry point not stated and no floorplan seen"}},
+ "V": null, "v_basis": "not run: listing not live", "W": null, "w_basis": "not priced: listing not live, no floorplan seen", "C": 3000,
+ "scores": [],
+ "anchors": {},
+ "verdict": "REJECT",
+ "biggest_risk": "Not live: listing reported sold subject to contract, so it cannot be bought; status is from search snippets only (the page would not open) and the snippets disagree on semi vs end-terrace.",
+ "sources": ["https://www.onthemarket.com/details/16458145/", "https://www.rightmove.co.uk/properties/90045819"]}

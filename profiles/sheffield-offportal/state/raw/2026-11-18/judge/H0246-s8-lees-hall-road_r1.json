@@ -1,0 +1,7 @@
+{"id": "H0246-s8-lees-hall-road", "run": "1", "live": false, "listing_url": "https://www.rightmove.co.uk/properties/173861153", "asking": 280000, "floor_area_m2": 86,
+ "house_type": "semi",
+ "gates": {"area": {"pass": true, "reason": "S8 9JJ, Norton Lees; judged a neighbour of Meersbrook (est., not checked on a map)"}, "budget": {"pass": true, "reason": "unconfirmed: asking 280000 is under the 325000 cap; asking + 1.15W + C not tested because W was not priced"}, "tenure": {"pass": true, "reason": "Freehold per Rightmove and Zoopla listing details"}, "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence or knotweed seen in the brochure snippet; full check not done"}, "vacant": {"pass": true, "reason": "unconfirmed: brochure says no onward chain, which does not confirm vacant possession"}, "hall": {"pass": true, "reason": "unconfirmed: layout not read from the floorplan"}},
+ "V": null, "v_basis": "not checked: listing shows Sold STC, so stopped at step 1", "W": null, "w_basis": "not priced: stopped at step 1, no floorplan read", "C": 3000,
+ "scores": [],
+ "anchors": {"Sheffield railway station": null},
+ "verdict": "REJECT", "biggest_risk": "Sold STC per undated search snapshots, so not buyable; Rightmove page refused by proxy, so re-check status", "sources": ["https://www.rightmove.co.uk/properties/173861153", "https://media.rightmove.co.uk/property-brochure/ea7894cf5/173861153/ea7894cf52c9a3a051e66c423f398ec4.pdf", "https://app.zoopla.co.uk/for-sale/details/72790640"]}

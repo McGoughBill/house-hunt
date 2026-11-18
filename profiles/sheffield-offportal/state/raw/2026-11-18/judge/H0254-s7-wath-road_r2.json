@@ -1,0 +1,50 @@
+{
+ "id": "H0254-s7-wath-road",
+ "run": "2",
+ "live": true,
+ "listing_url": "https://www.zoopla.co.uk/for-sale/details/73863203/",
+ "asking": 210000,
+ "floor_area_m2": null,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Nether Edge, S7, per the Zoopla listing title and Blundells summary. Nether Edge borders Meersbrook and is near Endcliffe Park (est.)."},
+  "budget": {"pass": true, "reason": "Asking £210,000 is within £325,000. £210,000 + 1.15 x W £125,000 (est.) + C £3,000 = £356,750, within £425,000."},
+  "tenure": {"pass": true, "reason": "Leasehold with a 370-year term per the Zoopla listing search summary (page not openable). Over 150 years, and no covenant dispute is mentioned."},
+  "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam or dry rot mentioned in the summaries. Full listing text not read."},
+  "vacant": {"pass": true, "reason": "unconfirmed: tenancy not mentioned in the summaries."},
+  "hall": {"pass": true, "reason": "unconfirmed: front door position not given. A bay-window living room is listed, so the door could open straight into it. Check the floorplan."}
+ },
+ "V": 305000,
+ "v_basis": "3 sales within 2 yrs on Wath Road S7 1HD: no. 73, 20 May 2025, £305,000 (terraced, leasehold); no. 15, 8 Jan 2026, £320,000 (type not confirmed); no. 1, 21 Sep 2026, £250,000 (terraced). No. 9 (£335,000, Oct 2024) excluded as older than 2 yrs. Done-up condition not confirmed for any sale, so V is est.",
+ "W": 125000,
+ "w_basis": "est., no floorplan read, no contingency: rear kitchen-diner extension or off-shot rebuild 55000; structural steel 4000; hall partition 4000; rewire 7000; heating 5000; kitchen 12000; bathroom 8000; plaster, decor and floors 15000; windows and doors 6000; damp and roof allowance 3000; fees, scaffold and building control 6000.",
+ "C": 3000,
+ "scores": [
+  {"n": 1, "score": 4, "est": true, "evidence": "Asking £210,000 / V £305,000 = 69%, assuming the same floor area; V est. (done-up condition unconfirmed)"},
+  {"n": 3, "score": 2, "est": true, "evidence": "V £305,000 / street max 2 yrs £320,000 (no. 15, Jan 2026) = 95%; est. because done-up status unconfirmed"},
+  {"n": 4, "score": 4, "est": true, "evidence": "Sector max not found; S7 taken as the sector, max est. £400,000. £305,000 / £400,000 = 76%"},
+  {"n": 5, "score": 4, "est": true, "evidence": "Floor area not given; est. 90-100 m² for a 3-bed bay terrace"},
+  {"n": 6, "score": 4, "est": true, "evidence": "3 bedrooms listed across floors; room sizes not given; est. one is small"},
+  {"n": 7, "score": 3, "est": true, "evidence": "Off-shot kitchen and separate dining room listed. A 25 m² kitchen-diner est. needs a single-storey rear extension"},
+  {"n": 8, "score": 3, "est": true, "evidence": "Rear garden with outbuilding listed. Garden length, loft and neighbours' extensions not given; est. one route"},
+  {"n": 9, "score": 2, "est": true, "evidence": "Scope includes a single-storey rear extension (est.); steel and rewire also likely"},
+  {"n": 10, "score": 3, "est": true, "evidence": "Extension plus full refurb est. 7-12 months before it is right to live in"},
+  {"n": 11, "score": 3, "est": true, "evidence": "No survey seen; EPC E; damp, roof and cellar not in the summaries; causes unclear"},
+  {"n": 12, "score": 3, "est": true, "evidence": "Tree-lined road per the Blundells S7 page summary. Wath Road has at least one lettings listing; letting share not checked; est. one fail"},
+  {"n": 13, "score": 3, "est": true, "evidence": "Walk to Endcliffe Park not measured; est. 10-15 min"},
+  {"n": 14, "score": 3, "est": true, "evidence": "Walk to a big supermarket not measured; est. 15-20 min"},
+  {"n": 15, "score": 3, "est": true, "evidence": "Parking and slope not given; est. hard on-street parking"},
+  {"n": 16, "score": 3, "est": true, "evidence": "Bay-window living room listed; light, ceiling height and period features not given; dated"},
+  {"n": 17, "score": 4, "est": true, "evidence": "Bay-window period terrace with forecourt garden on a tree-lined road per listing summaries; brick or stone not seen"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 35 min walk; est. 15 min bus"},
+ "verdict": "PASS",
+ "biggest_risk": "Buy test fails: 0.9 x V £274,500 minus 1.15 x W £143,750 minus C £3,000 is below asking £210,000 (est. margin -£82,250). Front door position and live status are unverified because the listing page would not open.",
+ "sources": [
+  "https://www.zoopla.co.uk/for-sale/details/73863203/",
+  "https://www.blundells.com/south-yorkshire/s7/sales",
+  "https://domovita.co.uk/sold-prices/street/s7/wath-road",
+  "https://www.completelymoved.co.uk/house-prices/sheffield",
+  "https://www.purplebricks.co.uk/house-prices/sheffield"
+ ]
+}

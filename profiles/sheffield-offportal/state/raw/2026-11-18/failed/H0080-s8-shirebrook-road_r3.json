@@ -1,0 +1,42 @@
+{"id": "H0080-s8-shirebrook-road", "run": "3", "live": null, "listing_url": "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-sheffield-1005321", "asking": 280000, "floor_area_m2": null,
+ "house_type": "semi",
+ "gates": {
+  "area": {"pass": true, "reason": "unconfirmed: listing not opened; sweep labels it Meersbrook, S8 9RF; one aggregator labels S8 9RF Gleadless Valley (https://housesforsaletorent.co.uk/houses/england/sheffield/sheffield/gleadless-valley/s8-9rf.html)"},
+  "budget": {"pass": true, "reason": "unconfirmed: asking £280,000 is from the sweep, not seen on the listing; W not priced so the 1.15W + C test is not checked; C = £3,000 fees, stamp duty nil at £280k as first-time buyer"},
+  "tenure": {"pass": true, "reason": "unconfirmed: listing not opened; tenure unknown"},
+  "structure": {"pass": true, "reason": "unconfirmed: listing not opened"},
+  "vacant": {"pass": true, "reason": "unconfirmed: listing not opened; sweep state 'good / done' does not show vacancy"},
+  "hall": {"pass": true, "reason": "unconfirmed: listing and floorplan not opened; where the front door opens is unknown (named in risk)"}
+ },
+ "V": null, "v_basis": "not established: fewer than 3 same-type sales found. Only same-type sale in 2 yrs found: 173 Shirebrook Road, semi-detached freehold, £450,000, Aug 2025 (https://www.doogal.co.uk/PropertySales?area=S8+9); done-up status unknown. Not used: 211 Shirebrook Road semi, £360,000, Feb 2023 (outside 2 yrs, https://housemetric.co.uk/28406618/S8-9RF/211+Shirebrook+Road); 105 Shirebrook Road terrace, £333,000, Feb 2026 (different type, https://nethouseprices.com/house-prices/South Yorkshire/SHEFFIELD/Meersbrook). Nearby streets not pulled.",
+ "W": null, "w_basis": "not priced: listing, photos and floorplan not opened", "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": null, "evidence": "not scored: V not established and listing not opened"},
+  {"n": 3, "score": null, "est": null, "evidence": "not scored: V not established"},
+  {"n": 4, "score": null, "est": null, "evidence": "not scored: V not established"},
+  {"n": 5, "score": null, "est": null, "evidence": "not scored: floor area not given, listing not opened"},
+  {"n": 6, "score": null, "est": null, "evidence": "not scored: listing not opened"},
+  {"n": 7, "score": null, "est": null, "evidence": "not scored: listing not opened"},
+  {"n": 8, "score": null, "est": null, "evidence": "not scored: listing not opened"},
+  {"n": 9, "score": null, "est": null, "evidence": "not scored: works not priced"},
+  {"n": 10, "score": null, "est": null, "evidence": "not scored: works not priced"},
+  {"n": 11, "score": null, "est": null, "evidence": "not scored: listing not opened"},
+  {"n": 12, "score": null, "est": null, "evidence": "not scored: street not surveyed"},
+  {"n": 13, "score": null, "est": null, "evidence": "not scored: exact address point not confirmed"},
+  {"n": 14, "score": null, "est": null, "evidence": "not scored: exact address point not confirmed"},
+  {"n": 15, "score": null, "est": null, "evidence": "not scored: listing not opened"},
+  {"n": 16, "score": null, "est": null, "evidence": "not scored: photos not seen"},
+  {"n": 17, "score": null, "est": null, "evidence": "not scored: photos not seen"}
+ ],
+ "anchors": {"Sheffield railway station": null},
+ "verdict": null,
+ "biggest_risk": "Listing not opened: Purplebricks and portal pages refused the fetch, so price, status, tenure, layout, works and hall door are all unverified; the house may be sold or re-priced. Only one same-type sale in 2 years found, and it is not confirmed done-up.",
+ "sources": [
+  "https://www.purplebricks.co.uk/property-for-sale/3-bedroom-semi-detached-house-sheffield-1005321",
+  "https://primelocation.com/for-sale/details/67217157",
+  "https://www.doogal.co.uk/PropertySales?area=S8+9",
+  "https://housemetric.co.uk/house-prices/Shirebrook-Road/S8-9R",
+  "https://housemetric.co.uk/28406618/S8-9RF/211+Shirebrook+Road",
+  "https://nethouseprices.com/house-prices/South Yorkshire/SHEFFIELD/Meersbrook",
+  "https://housesforsaletorent.co.uk/houses/england/sheffield/sheffield/gleadless-valley/s8-9rf.html"
+ ]}

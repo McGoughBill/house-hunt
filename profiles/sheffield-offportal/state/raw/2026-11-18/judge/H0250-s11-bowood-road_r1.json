@@ -1,0 +1,7 @@
+{"id": "H0250-s11-bowood-road", "run": "1", "live": false, "listing_url": "https://www.rightmove.co.uk/properties/173498783", "asking": 250000, "floor_area_m2": 113,
+ "house_type": "terrace",
+ "gates": {"area": {"pass": true, "reason": "unconfirmed: S11 Sharrow Vale is not named in the brief search areas; distance to Meersbrook or Endcliffe Park not checked"}, "budget": {"pass": true, "reason": "unconfirmed: asking 250000 is under 325000; the 425000 total test needs W, which was not priced"}, "tenure": {"pass": true, "reason": "unconfirmed: leasehold per the OnTheMarket listing; lease length not seen"}, "structure": {"pass": true, "reason": "unconfirmed: structure not described in the listing snippets seen"}, "vacant": {"pass": true, "reason": "unconfirmed: occupancy not stated in the listing snippets seen"}, "hall": {"pass": true, "reason": "unconfirmed: entrance layout not seen in the listing snippets or floorplan"}},
+ "V": null, "v_basis": "not done: listing sold STC, stopped at step 1", "W": null, "w_basis": "not priced: listing sold STC, floorplan and photos not reviewed", "C": 3000,
+ "scores": [],
+ "anchors": {"Sheffield railway station": null},
+ "verdict": "REJECT", "biggest_risk": "Listing shows sold STC (sold subject to contract), so it is not available to buy. Status comes from cached search snippets because portal fetches were refused, so it was not confirmed live.", "sources": ["https://www.rightmove.co.uk/properties/173498783", "https://www.onthemarket.com/details/19061980/"]}
