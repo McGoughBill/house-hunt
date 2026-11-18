@@ -5604,7 +5604,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "agent page Property Not Found, checked 2026-11-18"
   },
   "H0073-s7-abbeydale-road": {
    "street": "Abbeydale Road",
@@ -6042,7 +6043,8 @@
    ],
    "retries": {
     "H0077-s2-anns-road-north_r3": 1
-   }
+   },
+   "parked": "Purplebricks page says Sold, checked 2026-11-18"
   },
   "H0078-s2-myrtle-drive": {
    "street": "Myrtle Drive",
@@ -6504,7 +6506,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "Purplebricks page says Sold, checked 2026-11-18"
   },
   "H0083-s8-greenhill-road": {
    "street": "Greenhill Road",
