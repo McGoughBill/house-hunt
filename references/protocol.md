@@ -56,3 +56,7 @@ Bill's default profile is `sheffield-offportal`: 3+ beds, asking at most £325k 
 ## Parking (from 18 Nov 2026)
 
 Bill wants dead or sold houses kept as data but never shown again as options. `hh.py park` sets `parked` on the registry entry, so ranking shows it as PARKED and the shortlist, top-up and reprice steps skip it. Before presenting a house as viable, check that its link loads and isn't marked Sold STC.
+
+## Portals back in (from 18 Nov 2026)
+
+The off-portal-only searches missed Underwood Road, Woodseats: a Whitehornes house listed on 28 Oct that showed up only on Zoopla. So `sheffield-offportal` now searches Rightmove, Zoopla, OnTheMarket and Jitty as well, despite its name. The other sources' descriptions still keep to their own sites, so each house is found once per source. `state/followups.md` and `followups.csv` record every house an agent has been contacted about.

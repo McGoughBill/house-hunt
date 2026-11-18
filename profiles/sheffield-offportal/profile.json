@@ -410,6 +410,22 @@
   ],
   "sources": [
     {
+      "name": "Rightmove",
+      "desc": "Rightmove (rightmove.co.uk), the biggest UK portal. Listing pages look like rightmove.co.uk/properties/<number>; sold-STC, under-offer and auction tags show on the page. WebFetch often refuses these pages: find the same house on Zoopla, OnTheMarket, PrimeLocation, the agent's site or a Rightmove brochure PDF (media.rightmove.co.uk)."
+    },
+    {
+      "name": "Zoopla",
+      "desc": "Zoopla (zoopla.co.uk; also app.zoopla.co.uk and primelocation.com, which share stock). Listing pages look like zoopla.co.uk/for-sale/details/<number>; they often show £/sq ft and floor area."
+    },
+    {
+      "name": "OnTheMarket",
+      "desc": "OnTheMarket (onthemarket.com). Listing pages look like onthemarket.com/details/<number>."
+    },
+    {
+      "name": "Jitty",
+      "desc": "Jitty (jitty.com), an AI portal that tags listings with floor area, £/sq ft and condition (Renovation Potential, Renovation Needed). Search pages live under jitty.com/for-sale/... and are indexed by web search. Prefer houses tagged as needing renovation, but return every qualifying house."
+    },
+    {
       "name": "BTG Eddisons auctions",
       "desc": "BTG Eddisons Property Auctions (btgeddisonspropertyauctions.com), incl. Mark Jenkinson and SDL. Sheffield office page btgeddisonspropertyauctions.com/offices/sheffield. Upcoming lots only. Price = guide. Add flag auction. OFF-PORTAL RUN: do not search or cite Rightmove, Zoopla, PrimeLocation, OnTheMarket or Jitty; use only this source's own site and pages it links to. Skip any house you can only find on those portals."
     },
