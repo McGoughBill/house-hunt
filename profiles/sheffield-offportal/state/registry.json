@@ -1191,7 +1191,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18"
   },
   "H0014-s7-37-sheldon-road": {
    "street": "37 Sheldon Road",
@@ -5919,7 +5920,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "Purplebricks page says Sold, checked 2026-11-18"
   },
   "H0077-s2-anns-road-north": {
    "street": "Anns Road North",
@@ -7989,7 +7991,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18"
   },
   "H0103-s2-74-newfield-green-road": {
    "street": "74 Newfield Green Road",
@@ -10042,7 +10045,8 @@
    ],
    "retries": {
     "H0129-s2-myrtle-road_r1": 1
-   }
+   },
+   "parked": "Sold STC / Sale agreed on agent page, checked 2026-11-18"
   },
   "H0130-s8-thorpe-house-road": {
    "street": "Thorpe House Road",
@@ -10122,7 +10126,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
   },
   "H0131-s11-club-garden-road": {
    "street": "Club Garden Road",
@@ -11020,7 +11025,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
   },
   "H0146-s8-warminster-road": {
    "street": "Warminster Road",
@@ -11100,7 +11106,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
   },
   "H0147-s8-harvey-clough-road": {
    "street": "Harvey Clough Road",
@@ -13806,7 +13813,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
   },
   "H0187-x-woodstock-road": {
    "street": "Woodstock Road",
@@ -14896,7 +14904,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing gone (Not Found or redirects to search/home), checked 2026-11-18"
   },
   "H0204-s11-ecclesall-road-south": {
    "street": "Ecclesall Road South",
