@@ -33,7 +33,7 @@ Group the houses by agent and branch, and send one email per agent.
 | Saxton Mee Banner Cross (S7, S8, S11) | BannerCross@saxtonmee.co.uk | 0114 268 3241 |
 | Reeds Rains Woodseats | woodseats@reedsrains.co.uk | 0114 258 8522 |
 | Hunters, Hunters Bar (S7, S11) | sheffield@hunters.com | 0114 267 2080 |
-| ELR (Eadon Lockwood & Riddle), Banner Cross | bannercross@elr.co.uk | 0114 268 3388 |
+| ELR (Eadon Lockwood & Riddle), Banner Cross | bannercross@elr.co.uk (dore@elr.co.uk doesn't exist) | 0114 268 3388 |
 
 2. **Earlier emails.** Search his mail (`query_email_and_calendar`) for earlier emails with the agent. If a thread exists, reply on that thread (`type: reply`) and set `to` to the agent only, never to Bill.
 3. **Otherwise, find a new address.** Fetch the listing page and ask for every email address and phone number on it, and which branch lists the house. Then try the agent's contact page. Then search the web for "<agent> <branch> Sheffield email".
@@ -80,7 +80,7 @@ Group the houses by agent and branch, and send one email per agent.
 4. **Space the sends out.** Leave at least 30 seconds between emails. When several went out in the same second, Outlook blocked some of them with "550 5.7.501 Spam abuse detected from IP range".
 5. **Check for a bounce.** About two minutes after sending, list the Junk Email label (Outlook files bounce notices there) and look for "Undeliverable". Read the diagnostic line:
    - **5.1.x, "unknown user":** the address is wrong. Find another one and resend.
-   - **5.7.501, "spam abuse":** the recipient's server is refusing mail from Outlook's sending servers. Resend once, a few minutes later. If it bounces again, stop and give Bill the branch's phone number. ELR rejected two attempts on 18 Nov.
+   - **5.7.501, "spam abuse":** the recipient's server is refusing mail from Outlook's sending servers. The block comes and goes, so resend the same email to the same address every few minutes, up to four tries. ELR's third try on 18 Nov went through. Only then give Bill the branch's phone number.
    When replying on a thread that holds a bounce notice, pass the `message_id` of Bill's own last message, so the reply doesn't go to postmaster.
 6. **Tell Bill**, in one or two lines: who it went to, which houses it covers, and the email text quoted. Also give the branch phone number as a fallback, and anything you skipped and why (sold, no address found).
 
