@@ -13301,14 +13301,14 @@
     "no chain"
    ],
    "agent": "Reeds Rains",
-   "url": "https://www.reedsrains.co.uk/property/mid-terrace-house-for-sale-ecclesall-road-sheffield-s11-id-sci260100",
+   "url": "https://www.reedsrains.co.uk/property/SCI260100",
    "status": "judged",
    "verified": false,
    "source": "Reeds Rains",
    "notes": "Price conflict (£220k vs £250k); 672-year lease, £5 ground rent; bathroom count conflicts (1 vs 2).",
    "id": "H0180-s11-ecclesall-road",
    "urls": [
-    "https://www.reedsrains.co.uk/property/mid-terrace-house-for-sale-ecclesall-road-sheffield-s11-id-sci260100"
+    "https://www.reedsrains.co.uk/property/SCI260100"
    ],
    "sources": [
     "Reeds Rains"
@@ -13358,7 +13358,7 @@
      "verdict": "PASS",
      "risk": "V and status unverified: asking 220000 is 56% of est. V 395000, prices conflict (220000, 225000, 230000, 275000), an auction close on 9 Nov 2026 may have passed, and the front door position is unknown.",
      "v_basis": "3 most recent terraced sales on Ecclesall Road, done-up status not verified: 480 Ecclesall Road 2025-12-08 395000; 380 Ecclesall Road 2025-10-02 450000; 532 Ecclesall Road 2025-10 320000; median 395000",
-     "url": "https://www.reedsrains.co.uk/property/mid-terrace-house-for-sale-ecclesall-road-sheffield-s11-id-sci260100",
+     "url": "https://www.reedsrains.co.uk/property/SCI260100",
      "anchors": {
       "Sheffield railway station": "30 min walk (est.)"
      }
@@ -13398,7 +13398,7 @@
      "verdict": "PASS",
      "risk": "The listing page would not open, so layout, bedroom sizes, structure and vacancy are unverified; the price (220000 to 275000 across listings) and tenure (leasehold here, freehold on another listing) conflict.",
      "v_basis": "3 sales (fallback, fewer than 3 same-street sales found): 791 Ecclesall Rd terraced freehold 250000 on 26 Feb 2026; 819 Ecclesall Rd terraced freehold 280000 on 18 Aug 2025; Stainton Rd S11 7AX 4-bed leasehold 426000 on 30 Jan 2026 (nearby street). Done-up status and bedroom counts unconfirmed; medi",
-     "url": "https://www.reedsrains.co.uk/property/mid-terrace-house-for-sale-ecclesall-road-sheffield-s11-id-sci260100",
+     "url": "https://www.reedsrains.co.uk/property/SCI260100",
      "anchors": {
       "Sheffield railway station": "est. 20 min by bus; est. 50 min walk"
      }
@@ -13438,7 +13438,7 @@
      "verdict": "PASS",
      "risk": "Price and layout unverified: asking reads 220000 to 250000 across portals, floorplan unreadable so hall, 3 real beds and kitchen-diner are unconfirmed, and the comps are not checked as done-up.",
      "v_basis": "3 Ecclesall Road S11 terrace sales in last 2 years, median: 727 Ecclesall Rd S11 8TG 29 Sep 2025 280000 (no floor area); 819 Ecclesall Rd S11 8TH 18 Aug 2025 280000 (4-bed terrace, 84 m2); 436a Ecclesall Rd Feb 2025 310000 (freehold). Done-up status of these comps not verified, est. Excluded: 808 (5",
-     "url": "https://www.reedsrains.co.uk/property/mid-terrace-house-for-sale-ecclesall-road-sheffield-s11-id-sci260100",
+     "url": "https://www.reedsrains.co.uk/property/SCI260100",
      "anchors": {
       "Sheffield railway station": "est. 15 min bus; est. 40 min walk"
      }

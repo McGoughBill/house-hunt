@@ -10,7 +10,7 @@
 | H0001-s11-791-ecclesall-road | judged | S11 | 791 Ecclesall Road | Banner Cross | £235,000 | 4 |  | 2026-11-08 | [link](https://www.elr.co.uk/properties/20905867/sales) |
 | H0197-s11-denham-road | new | S11 | Denham Road | Ecclesall Road (off) | £300,000 | 5 |  | 2026-11-16 | [link](https://www.spencersestateagents.co.uk/properties/33359880/) |
 | H0069-s11-eastwood-road | new | S11 | Eastwood Road | Sharrow Vale | £235,000 | 3 |  | 2026-11-09 | [link](https://www.elr.co.uk/properties/19798342/sales) |
-| H0180-s11-ecclesall-road | new | S11 | Ecclesall Road | Ecclesall Road | £220,000 | 4 |  | 2026-11-16 | [link](https://www.reedsrains.co.uk/property/mid-terrace-house-for-sale-ecclesall-road-sheffield-s11-id-sci260100) |
+| H0180-s11-ecclesall-road | new | S11 | Ecclesall Road | Ecclesall Road | £220,000 | 4 |  | 2026-11-16 | [link](https://www.reedsrains.co.uk/property/SCI260100) |
 | H0194-s11-ecclesall-road | new | S11 | Ecclesall Road | Banner Cross | £240,000 | 3 |  | 2026-11-16 | [link](http://spencersestateagents.co.uk/properties/34895577/) |
 | H0203-s11-ecclesall-road | new | S11 | Ecclesall Road | Ecclesall Road | £325,000 | 4 | 92.4 | 2026-11-16 | [link](https://whitehornes.co.uk/property-for-sale/ecclesall-road-ecclesall-s11-2/) |
 | H0204-s11-ecclesall-road-south | new | S11 | Ecclesall Road South | Ecclesall Road | £325,000 | 4 |  | 2026-11-16 | [link](https://whitehornes.co.uk/property-for-sale/ecclesall-road-south-sheffield-s11/) |
