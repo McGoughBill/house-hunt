@@ -24,6 +24,8 @@ Usage: python3 scripts/hh.py <command> [profile] [date] [options]   (run from th
   rank P                      write state/ranking.md and ranking.csv
   shortlist P D               update the shortlist; prints NEW lines and exits 10 if a new house entered
   status P D                  one-line counts
+  park P ID ... [--reason T]  keep a house's data but never shortlist or re-judge it (buyer ruled it out)
+  unpark P ID ...             undo park
   new P [--like Q]            start profiles/P/profile.json from templates/profile.json, or from profile Q
   preset P improve|ready      apply a weight preset from templates/presets.json
   set P key.path=value ...    set profile fields; values parsed as JSON when they can be (lists, numbers)
@@ -353,6 +355,8 @@ def cmd_reprice(c):
     render_brief(c)
     n = skip = 0
     for h in c.reg["houses"].values():
+        if h.get("parked"):
+            h["reprice_from"] = None; continue
         if h.get("reprice_from") is None or not h["runs"]:
             continue
         old = score_house(c, h, asking=h["reprice_from"]); new = score_house(c, h)
@@ -490,12 +494,14 @@ def score_house(c, h, asking=None):
             "disagree": split, "risk": latest.get("risk", ""), "medv": medv}
 
 def rank_rows(c):
-    order = {"PASS": 0, "REJECT": 1, "NEW": 2, "UNREADABLE": 3, "GONE": 4}
+    order = {"PASS": 0, "REJECT": 1, "NEW": 2, "UNREADABLE": 3, "GONE": 4, "PARKED": 5}
     rows = []
     for h in c.reg["houses"].values():
         if h["status"] == "out":
             continue
         s = score_house(c, h)
+        if h.get("parked"):
+            s = {**s, "status": "PARKED", "risk": "PARKED by buyer: " + h["parked"]}
         rows.append({"id": h["id"], **s, "street": h["street"], "area": h["area"], "district": h["district"],
                      "asking": h.get("price"), "url": h.get("url"), "first_seen": h["first_seen"]})
     rows.sort(key=lambda r: (order[r["status"]], -(r.get("total") or 0)))
@@ -592,6 +598,16 @@ def cmd_orphans(c, reset=False):
         launched.write_text("\n".join(k for k in keys if k not in orph) + "\n")
         print(f"# reset {len(orph)}; launch them again with next", file=sys.stderr)
 
+def cmd_park(c, ids, reason, on=True):
+    for i in ids:
+        h = c.reg["houses"][i]
+        if on:
+            h["parked"] = reason or "ruled out by buyer"
+        else:
+            h.pop("parked", None)
+    c.save()
+    print(f"{'parked' if on else 'unparked'} {len(ids)}: {', '.join(ids)}")
+
 def cmd_status(c):
     from collections import Counter
     print(c.name, c.day, dict(Counter(h["status"] for h in c.reg["houses"].values())),
@@ -601,7 +617,7 @@ def cmd_status(c):
 # ---------- repo: the repo is the skill ----------
 import subprocess
 COMMANDS = ["setup", "doctor", "sync", "save", "install", "config", "new", "preset", "set", "brief", "scout", "scout-apply",
-            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status", "jobs"]
+            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status", "jobs", "park", "unpark"]
 
 def cfg():
     return jload(CFG, {}) or {}
@@ -773,6 +789,8 @@ def main():
      "next": lambda: cmd_next(c, int(a[3] if len(a) > 3 else 1)), "orphans": lambda: cmd_orphans(c, "--reset" in a),
      "collect": lambda: cmd_collect(c), "topup": lambda: cmd_topup(c), "rank": lambda: cmd_rank(c),
      "shortlist": lambda: cmd_shortlist(c), "status": lambda: cmd_status(c),
+     "park": lambda: cmd_park(c, [x for x in a[2:] if x.startswith("H")], opt("--reason")),
+     "unpark": lambda: cmd_park(c, [x for x in a[2:] if x.startswith("H")], None, False),
      "jobs": lambda: cmd_jobs(c, [k for k in a[3:] if not k.startswith("-")] or None)}[cmd]()
 
 if __name__ == "__main__":

@@ -52,3 +52,7 @@ Bill's default profile is `sheffield-offportal`: 3+ beds, asking at most £325k 
 - Top-up covers the top 20 (run.topup_n).
 
 - Purplebricks keeps old listing pages live. Treat a Purplebricks house as unconfirmed until a dated detail (open-house date, 'added on') shows it is current.
+
+## Parking (from 18 Nov 2026)
+
+Bill wants dead or sold houses kept as data but never shown again as options. `hh.py park` sets `parked` on the registry entry, so ranking shows it as PARKED and the shortlist, top-up and reprice steps skip it. Before presenting a house as viable, check that its link loads and isn't marked Sold STC.

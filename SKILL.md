@@ -5,7 +5,7 @@ description: Run a house-buying search pipeline for any city. Haiku agents searc
 
 # House hunt
 
-Skill version: `2026-11-09.1` · Home repo: `McGoughBill/house-hunt` (private)
+Skill version: `2026-11-18.1` · Home repo: `McGoughBill/house-hunt` (private)
 
 This repo is the skill. `SKILL.md` sits at its root beside everything it uses: the scripts, prompt templates, agent definitions, the buyers' profiles and their saved state. Nothing lives outside it except installed copies of the agents. A saved copy of this file is only a way back here.
 
@@ -47,6 +47,7 @@ You orchestrate, on Opus at high effort where the session lets you choose. Haiku
 - **Weekly run**, or a scheduled task fired: go to section 2.
 - **New buyer, new city, or no profile:** follow `references/new-profile.md`, then section 2.
 - **"How's it going":** run `python3 scripts/hh.py status P D`. Read `profiles/P/state/shortlist.md` only if they ask for the list.
+- **Rule a house out** (dead link, sold, or the buyer says no): run `python3 scripts/hh.py park P ID ... --reason "why"`, then `shortlist P D` and `save P D`. Parked houses keep their data in the registry and ranking but are never shortlisted, topped up or re-judged. `unpark` undoes it.
 - **Change the brief or weights:**
   1. Run `hh.py set` or `hh.py preset`.
   2. Run `python3 scripts/hh.py brief P`, then `python3 scripts/hh.py shortlist P D` (it ranks first).

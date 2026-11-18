@@ -143,7 +143,8 @@
     }
    ],
    "retries": {},
-   "reprice_from": null
+   "reprice_from": null,
+   "parked": "Sold STC on agent page, checked 2026-11-18"
   },
   "H0003-s6-walkley-bank-road": {
    "street": "Walkley Bank Road",
@@ -9558,7 +9559,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing links fail to load; buyer ruled out 2026-11-18"
   },
   "H0126-s11-18-westbrook-bank": {
    "street": "18 Westbrook Bank",
@@ -9709,7 +9711,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing links fail to load; buyer ruled out 2026-11-18"
   },
   "H0127-s7-south-view-crescent": {
    "street": "South View Crescent",
@@ -9791,7 +9794,8 @@
    ],
    "retries": {
     "H0127-s7-south-view-crescent_r1": 1
-   }
+   },
+   "parked": "Sold STC on agent page, checked 2026-11-18"
   },
   "H0128-s7-woodstock-road": {
    "street": "Woodstock Road",
@@ -9951,7 +9955,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "listing gone (not found / redirects), checked 2026-11-18"
   },
   "H0129-s2-myrtle-road": {
    "street": "Myrtle Road",
@@ -10663,7 +10668,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "Sold STC on agent page, checked 2026-11-18"
   },
   "H0141-s8-woodseats-house-road": {
    "street": "Woodseats House Road",
@@ -11658,7 +11664,8 @@
     "H0154-s8-meersbrook-avenue_r1": 1,
     "H0154-s8-meersbrook-avenue_r2": 1,
     "H0154-s8-meersbrook-avenue_r3": 1
-   }
+   },
+   "parked": "listing gone (not found / redirects), checked 2026-11-18"
   },
   "H0155-s7-abbeydale-road": {
    "street": "Abbeydale Road",
@@ -13446,7 +13453,8 @@
    ],
    "retries": {
     "H0180-s11-ecclesall-road_r2": 1
-   }
+   },
+   "parked": "listing links fail to load; buyer ruled out 2026-11-18"
   },
   "H0181-s8-warminster-crescent": {
    "street": "Warminster Crescent",
