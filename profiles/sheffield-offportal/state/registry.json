@@ -16241,7 +16241,8 @@
    "retries": {
     "H0211-s8-upper-valley-road_r2": 1,
     "H0211-s8-upper-valley-road_r3": 1
-   }
+   },
+   "parked": "Sold STC on portal page, checked 2026-11-18"
   },
   "H0212-s8-norton-lees-road": {
    "street": "Norton Lees Road",
@@ -17376,7 +17377,8 @@
    "retries": {
     "H0227-s8-millmount-road_r2": 1,
     "H0227-s8-millmount-road_r3": 1
-   }
+   },
+   "parked": "Sold STC on portal page, checked 2026-11-18"
   },
   "H0228-s8-burcot-road": {
    "street": "Burcot Road",
@@ -17677,7 +17679,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "Sold STC on portal page, checked 2026-11-18"
   },
   "H0231-s8-tadcaster-road": {
    "street": "Tadcaster Road",
