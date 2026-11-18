@@ -26,6 +26,7 @@ Usage: python3 scripts/hh.py <command> [profile] [date] [options]   (run from th
   status P D                  one-line counts
   verify P D [--n N]          write a live-check prompt for each top PASS house not checked in the last 7 days
   verify-apply P D            fold live checks into the registry; park sold/STC/gone houses
+  check P D ID STATUS [URL]   record a live check made in the main session (live|sstc|under_offer|sold|gone|unknown)
   park P ID ... [--reason T]  keep a house's data but never shortlist or re-judge it (buyer ruled it out)
   unpark P ID ...             undo park
   new P [--like Q]            start profiles/P/profile.json from templates/profile.json, or from profile Q
@@ -661,6 +662,19 @@ def cmd_verify_apply(c):
     c.save()
     print(f"checks {counts}; parked {len(parked)}")
 
+def cmd_check(c, hid, st, url=None):
+    h = c.reg["houses"][hid]
+    h["check"] = {"date": c.day, "status": st, "url": url, "evidence": "checked in main session"}
+    if url and st == "live" and url != h.get("url"):
+        h.setdefault("urls", [])
+        if h.get("url") and h["url"] not in h["urls"]:
+            h["urls"].append(h["url"])
+        h["url"] = url
+    if st in ("sstc", "under_offer", "sold", "gone") and not h.get("parked"):
+        h["parked"] = f"{st} on listing check {c.day}"
+    c.save()
+    print(f"{hid} {st}")
+
 def cmd_park(c, ids, reason, on=True):
     for i in ids:
         h = c.reg["houses"][i]
@@ -680,7 +694,7 @@ def cmd_status(c):
 # ---------- repo: the repo is the skill ----------
 import subprocess
 COMMANDS = ["setup", "doctor", "sync", "save", "install", "config", "new", "preset", "set", "brief", "scout", "scout-apply",
-            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status", "jobs", "park", "unpark", "verify", "verify-apply"]
+            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status", "jobs", "park", "unpark", "verify", "verify-apply", "check"]
 
 def cfg():
     return jload(CFG, {}) or {}
@@ -854,6 +868,7 @@ def main():
      "shortlist": lambda: cmd_shortlist(c), "status": lambda: cmd_status(c),
      "verify": lambda: cmd_verify(c, int(opt("--n", 0)) or None),
      "verify-apply": lambda: cmd_verify_apply(c),
+     "check": lambda: cmd_check(c, a[3], a[4], a[5] if len(a) > 5 else None),
      "park": lambda: cmd_park(c, [x for x in a[2:] if x.startswith("H")], opt("--reason")),
      "unpark": lambda: cmd_park(c, [x for x in a[2:] if x.startswith("H")], None, False),
      "jobs": lambda: cmd_jobs(c, [k for k in a[3:] if not k.startswith("-")] or None)}[cmd]()

@@ -5,7 +5,7 @@ description: Run a house-buying search pipeline for any city. Haiku agents searc
 
 # House hunt
 
-Skill version: `2026-11-18.2` · Home repo: `McGoughBill/house-hunt` (private)
+Skill version: `2026-11-18.3` · Home repo: `McGoughBill/house-hunt` (private)
 
 This repo is the skill. `SKILL.md` sits at its root beside everything it uses: the scripts, prompt templates, agent definitions, the buyers' profiles and their saved state. Nothing lives outside it except installed copies of the agents. A saved copy of this file is only a way back here.
 
@@ -66,7 +66,7 @@ The registry remembers every house ever seen. Searches therefore report only new
 3. **Judge.** Run `python3 scripts/hh.py judge P D` and `python3 scripts/hh.py reprice P D`, then launch every prompt. Reprice writes a prompt only when a price change would move a total or a gate.
 4. **Collect.** Run `python3 scripts/hh.py collect P D`. If it prints "requeued N", launch those and collect again. A blank run gets one retry.
 5. **Top up.** Run `python3 scripts/hh.py topup P D`. This gives each of the top 40 three scored runs. Launch the prompts, then collect again.
-6. **Check listings are live.** Run `python3 scripts/hh.py verify P D`, launch the prompts, then run `python3 scripts/hh.py verify-apply P D`. This parks any house that is sold, STC, under offer or gone (its data is kept). Then run `shortlist P D`. If it prints "run verify again", repeat this step, at most three times in all.
+6. **Check listings are live, yourself.** Headless agents can't open listing pages: the proxy refuses them. So you do this step with WebFetch in the main session. Run `python3 scripts/hh.py verify P D`: the file names under `work/P/D/prompts/verify/` are the houses to check, and each prompt holds the house's links. For each house, open its listing page and read its own status label, following `templates/verify.md`. Record the result with `python3 scripts/hh.py check P D <ID> <live|sstc|under_offer|sold|gone|unknown> [listing URL]`. Never read or quote other prompt files. If agents can open pages again, launch the prompts and run `verify-apply P D` instead. This parks any house that is sold, STC, under offer or gone (its data is kept). Then run `shortlist P D`. If it prints "run verify again", repeat this step, at most three times in all.
    - The top 20 holds only houses whose own listing page opened in the last 7 days and showed no sold or under-offer label.
    - Houses that scored high enough but couldn't be confirmed are listed below the table under "Not confirmed live". Never present them to Bill as available.
 7. **Shortlist.** Run `python3 scripts/hh.py shortlist P D`. Exit code 10 means a new house entered the top 20:
