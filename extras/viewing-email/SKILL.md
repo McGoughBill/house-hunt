@@ -80,7 +80,7 @@ Group the houses by agent and branch, and send one email per agent.
 4. **Space the sends out.** Leave at least 30 seconds between emails. When several went out in the same second, Outlook blocked some of them with "550 5.7.501 Spam abuse detected from IP range".
 5. **Check for a bounce.** About two minutes after sending, list the Junk Email label (Outlook files bounce notices there) and look for "Undeliverable". Read the diagnostic line:
    - **5.1.x, "unknown user":** the address is wrong. Find another one and resend.
-   - **5.7.501, "spam abuse":** Outlook throttled the send. Resend the same email to the same address a few minutes later.
+   - **5.7.501, "spam abuse":** the recipient's server is refusing mail from Outlook's sending servers. Resend once, a few minutes later. If it bounces again, stop and give Bill the branch's phone number. ELR rejected two attempts on 18 Nov.
    When replying on a thread that holds a bounce notice, pass the `message_id` of Bill's own last message, so the reply doesn't go to postmaster.
 6. **Tell Bill**, in one or two lines: who it went to, which houses it covers, and the email text quoted. Also give the branch phone number as a fallback, and anything you skipped and why (sold, no address found).
 
