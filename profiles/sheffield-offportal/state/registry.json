@@ -1111,7 +1111,13 @@
     }
    ],
    "retries": {},
-   "reprice_from": null
+   "reprice_from": null,
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. WebFetch returned 'proxy refused the connection' on every attempt: twice on the saved Hunters link (retried once), twice on Rightmove 88977264 (retried once), and once each on Hunters 33694540, Rightmove 141450323 and Zoopla 69624185. The Bash tool needed to read the p"
+   }
   },
   "H0013-s8-norton-lees-crescent": {
    "street": "Norton Lees Crescent",
@@ -2493,7 +2499,13 @@
     }
    ],
    "retries": {},
-   "reprice_from": null
+   "reprice_from": null,
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No listing page for this house opened. Every WebFetch failed with 'proxy refused the connection': the saved Redbrik link (tried twice), the second Redbrik link, the Skes link, the Staves link, Rightmove 169739540, and the Zoopla and PrimeLocation Woodseats Road search pages. No status words could be"
+   }
   },
   "H0028-s6-43-walkley-street": {
    "street": "43 Walkley Street",
@@ -3323,7 +3335,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "Could not open any page for this house. WebFetch of the saved link https://www.vebra.com/details/property/34277975 failed on every attempt (4 tries across the session) with the error 'proxy refused the connection'. Other pages tried also failed with the same error: the SK Estate Agents Rightmove age"
+   }
   },
   "H0036-s8-address-not-given-feed-shows": {
    "street": "Address not given (feed shows 868 Chesterfield Road)",
@@ -3856,7 +3874,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. WebFetch returned 'proxy refused the connection' on all 7 attempts: the saved Staves link (4 attempts), and three listing URLs from search results (PrimeLocation 66869186, haus 12708074, Rightmove 88746492). The agent status endpoint could not be checked because no she"
+   }
   },
   "H0049-s6-79-cromwell-street": {
    "street": "79 Cromwell Street",
@@ -4081,7 +4105,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page opened. Every WebFetch failed with 'proxy refused the connection': the saved Staves link (tried 3 times), the Staves home page, the Reeds Rains Rushdale Avenue listing, Rightmove properties/166657883 and properties/149653301, and Zoopla details/70927809 (the last four were search-result URLs"
+   }
   },
   "H0051-s8-615-chesterfield-road": {
    "street": "615 Chesterfield Road",
@@ -4880,7 +4910,13 @@
     }
    ],
    "retries": {},
-   "reprice_from": null
+   "reprice_from": null,
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. WebFetch returned 'proxy refused the connection' for every URL tried, including the saved link (tried 3 times), the other Whitehornes link, and the Zoopla, Rightmove and OnTheMarket-style result URLs found by search. The Bash tool was unavailable, so the proxy status c"
+   }
   },
   "H0060-s8-hollythorpe-road": {
    "street": "Hollythorpe Road",
@@ -4960,7 +4996,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page opened. WebFetch returned 'proxy refused the connection' on all 6 attempts: the saved Whitehornes link (3 times), the Hunters link, Primelocation 73440503 and Rightmove 89629326 (2 attempts). No Bash tool is available here, so the proxy status endpoint in /root/.ccr/README.md could not be ch"
+   }
   },
   "H0061-s8-pearson-place": {
    "street": "Pearson Place",
@@ -5700,7 +5742,13 @@
     }
    ],
    "retries": {},
-   "reprice_from": null
+   "reprice_from": null,
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No listing page for this house could be opened. Every WebFetch failed with 'proxy refused the connection': the saved Haybrook link (4 attempts across two rounds), spencersestateagents.co.uk/properties/34376014/ (1 attempt), and rightmove.co.uk/properties/166987385 (1 attempt, a URL from a WebSearch "
+   }
   },
   "H0074-s8-derbyshire-lane": {
    "street": "Derbyshire Lane",
@@ -5849,7 +5897,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. Every WebFetch failed with 'proxy refused the connection': the saved Purplebricks link (tried once), the Reeds Rains link (tried twice), a Rightmove search-result link (rightmove.co.uk/properties/149255153), and a Zoopla search-result link (zoopla.co.uk/for-sale/detail"
+   }
   },
   "H0076-s2-myrtle-close": {
    "street": "Myrtle Close",
@@ -6435,6 +6489,12 @@
    ],
    "retries": {
     "H0080-s8-shirebrook-road_r3": 1
+   },
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. WebFetch returned 'proxy refused the connection' on every attempt: saved Purplebricks link (4 tries), primelocation.com/for-sale/details/67217157 (2 tries), rightmove.co.uk/properties/160845443 (1 try), zoopla.co.uk/for-sale/details/67217157 (1 try). No Bash tool is av"
    }
   },
   "H0081-s8-crawford-road": {
@@ -6595,7 +6655,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. All 6 WebFetch calls failed with the error 'proxy refused the connection': the saved Purplebricks link (4 attempts, including a retry), OnTheMarket https://onthemarket.com/details/14848264 (1 attempt) and Zoopla https://www.zoopla.co.uk/for-sale/details/70224401 (1 att"
+   }
   },
   "H0082-s8-derbyshire-lane": {
    "street": "Derbyshire Lane",
@@ -7652,7 +7718,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house could be opened. WebFetch returned 'proxy refused the connection' for every attempt: the saved Reeds Rains link (4 attempts across 3 calls, the last a retry), https://www.reedsrains.co.uk/property/WOO240265 (same house ID, short form), and https://saxtonmee.co.uk/properties-fo"
+   }
   },
   "H0097-s7-cawthorne-grove": {
    "street": "Cawthorne Grove",
@@ -8527,7 +8599,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. WebFetch returned 'proxy refused the connection' on all 6 tries: the saved Staves link (twice), the Staves home page (once), PrimeLocation 71597534 (once), and Zoopla 71597534 (twice). No status words were quoted because no page opened. WebSearch snippets only (not ope"
+   }
   },
   "H0107-s2-174-edmund-road": {
    "street": "174 Edmund Road",
@@ -8736,6 +8814,12 @@
    "retries": {
     "H0108-s2-10-heeley-green_r2": 1,
     "H0108-s2-10-heeley-green_r3": 1
+   },
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. Saved link https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-end-terrace-in-sheffield-22 failed twice with WebFetch error 'proxy refused the connection'. Four portal URLs taken from search results (primelocation 67735881, onthemarket 14335652, onthemarke"
    }
   },
   "H0109-s8-6-perigree-road": {
@@ -8951,7 +9035,13 @@
     "H0110-s7-vincent-road_rp2": 1,
     "H0110-s7-vincent-road_r3": 1
    },
-   "reprice_from": null
+   "reprice_from": null,
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "WebFetch failed with 'proxy refused the connection' on all 7 attempts across 5 URLs (saved Whitehornes link tried 3 times; Rightmove, Zoopla and Street listing pages and the Zoopla Vincent Road search page tried once each). No page for this house was opened, so no status words were read. A WebSearch"
+   }
   },
   "H0111-s7-": {
    "street": "",
@@ -10931,7 +11021,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened, so no status word was read. Every WebFetch failed with 'proxy refused the connection': the saved link (tried 3 times), https://www.haybrook.com/HAY031074370 and https://www.haybrook.com/buying/3-bedroom-semi-for-sale/sheffield-s2/hay031075535 (a different Haybrook S2 l"
+   }
   },
   "H0139-s2-darnley-drive": {
    "street": "Darnley Drive",
@@ -11011,7 +11107,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house could be opened. The saved Haybrook link (https://www.haybrook.com/buying/3-bedroom-semi-for-sale/sheffield-s2/hay031076614/) failed 3 times with WebFetch: 'proxy refused the connection'. The other pages tried (PrimeLocation, Rightmove, Zoopla, OnTheMarket, Your Move, a second"
+   }
   },
   "H0140-s8-osmaston-road": {
    "street": "Osmaston Road",
@@ -12262,7 +12364,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No listing page opened. WebFetch returned 'proxy refused the connection' for the saved link https://www.yopa.co.uk/properties/details/415330 on every attempt (4 tries across the session), and for every other listing URL tried. No status words were read from any opened page. WebSearch snippets (not o"
+   }
   },
   "H0157-s11-charnley-avenue": {
    "street": "Charnley Avenue",
@@ -12658,6 +12766,12 @@
    "retries": {
     "H0162-s7-sheldon-road_r1": 1,
     "H0162-s7-sheldon-road_r3": 1
+   },
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "Could not open any page for this house. WebFetch on the saved Pattinson link (auction property-search, BranchIds=95, OnlineOnly=true) returned 'proxy refused the connection' on three attempts, including one retry. WebFetch on primelocation.com/for-sale/details/73373431 also returned 'proxy refused t"
    }
   },
   "H0163-s8-meersbrook-road": {
@@ -13259,7 +13373,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page opened. WebFetch returned 'proxy refused the connection' for every link: the saved Redbrik link (tried twice), Rightmove 89576235, OnTheMarket 18660860, Zoopla 73429708, PrimeLocation 73429708 and Street 3eb888f5. No status word was read from any page. WebSearch snippets are not opened pages"
+   }
   },
   "H0172-s7-wath-road": {
    "street": "Wath Road",
@@ -13339,6 +13459,12 @@
    ],
    "retries": {
     "H0172-s7-wath-road_r1": 1
+   },
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "WebFetch failed on every attempt with 'proxy refused the connection' (3 rounds, 7 calls) for the saved Redbrik link and for each alternative URL found by search. No page opened, so no status words could be read. Search snippets only (not opened, not evidence of status): a Redbrik Wath Road 3-bed mid"
    }
   },
   "H0173-s8-cartmell-road": {
@@ -13417,7 +13543,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page could be opened. Every WebFetch returned 'proxy refused the connection': the saved Redbrik link (tried 3 times), and the Primelocation, Rightmove, Zoopla and Street URLs from search results (tried once each). Unverified search-snippet summaries (pages not opened, not used for status) reporte"
+   }
   },
   "H0174-s8-warminster-road": {
    "street": "Warminster Road",
@@ -14788,7 +14920,13 @@
     }
    ],
    "retries": {},
-   "reprice_from": null
+   "reprice_from": null,
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No listing page for this house opened. WebFetch returned 'proxy refused the connection' for every URL tried: the saved Spencers link (3 attempts), Rightmove 169682492 (2 attempts), Rightmove 168022958, and the Haus listing 12787736. No status word was read from an opened page, so none is quoted. Sea"
+   }
   },
   "H0193-s7-carter-knowle-road": {
    "street": "Carter Knowle Road",
@@ -15632,7 +15770,7 @@
    "condition": "needs full refurb",
    "flags": [],
    "agent": null,
-   "url": null,
+   "url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
    "status": "judged",
    "verified": false,
    "source": "Jitty",
@@ -15773,7 +15911,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "live",
+    "url": "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/",
+    "evidence": "checked in main session by WebFetch; page opened, no sold/STC label for this house"
+   }
   },
   "H0208-s7-wolseley-road": {
    "street": "Wolseley Road",
@@ -16009,7 +16153,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No saved link to open (saved link: none). Two WebSearch runs returned candidate Meadow Head S8 listings but no page for this house opened, so no status words were read. Every WebFetch failed with 'proxy refused the connection' (7 attempts over 6 URLs, including one retry on the Hunters page). Search"
+   }
   },
   "H0210-s8-thorpe-house-rise": {
    "street": "Thorpe House Rise",
@@ -17841,7 +17991,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "live",
+    "url": "https://www.rightmove.co.uk/properties/155424092",
+    "evidence": "checked in main session by WebFetch; page opened, no sold/STC label for this house"
+   }
   },
   "H0233-s8-moor-view-road": {
    "street": "Moor View Road",
@@ -18078,7 +18234,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "live",
+    "url": "https://www.rightmove.co.uk/properties/173771870",
+    "evidence": "checked in main session by WebFetch; page opened, no sold/STC label for this house"
+   }
   },
   "H0236-s2-heeley-bank-road": {
    "street": "Heeley Bank Road",
@@ -19136,7 +19298,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "Every fetch failed with 'proxy refused the connection', so no page for this house opened and no status words were read. Failed: the saved Zoopla link (with and without trailing slash) and three other portal listing URLs. Search found a Zoopla listing 71878809 showing a 270,000 guide and Whitehorne a"
+   }
   },
   "H0252-s2-delf-street": {
    "street": "Delf Street",
@@ -19299,6 +19467,12 @@
    ],
    "retries": {
     "H0253-s2-edwin-road_r1": 1
+   },
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No page for this house opened. WebFetch returned 'proxy refused the connection' for every URL tried, including the saved Zoopla link (tried 3 times) and four search-result pages on Zoopla and Rightmove. Search snippets only, not opened as pages: a Zoopla Edwin Road house at a 180,000 guide price (li"
    }
   },
   "H0254-s7-wath-road": {
@@ -19457,7 +19631,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-18",
+    "status": "unknown",
+    "url": null,
+    "evidence": "WebFetch on saved link https://www.zoopla.co.uk/for-sale/details/73863203/ failed with 'proxy refused the connection' (tried twice). No page for this house opened, so no status words were read. WebSearch for Blundells Wath Road S7 at £210,000 (three queries) found no Blundells listing matching this "
+   }
   },
   "H0255-s11-ecclesall-road": {
    "street": "Ecclesall Road",

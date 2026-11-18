@@ -5,7 +5,7 @@ description: Run a house-buying search pipeline for any city. Haiku agents searc
 
 # House hunt
 
-Skill version: `2026-11-18.1` · Home repo: `McGoughBill/house-hunt` (private)
+Skill version: `2026-11-18.2` · Home repo: `McGoughBill/house-hunt` (private)
 
 This repo is the skill. `SKILL.md` sits at its root beside everything it uses: the scripts, prompt templates, agent definitions, the buyers' profiles and their saved state. Nothing lives outside it except installed copies of the agents. A saved copy of this file is only a way back here.
 
@@ -66,14 +66,17 @@ The registry remembers every house ever seen. Searches therefore report only new
 3. **Judge.** Run `python3 scripts/hh.py judge P D` and `python3 scripts/hh.py reprice P D`, then launch every prompt. Reprice writes a prompt only when a price change would move a total or a gate.
 4. **Collect.** Run `python3 scripts/hh.py collect P D`. If it prints "requeued N", launch those and collect again. A blank run gets one retry.
 5. **Top up.** Run `python3 scripts/hh.py topup P D`. This gives each of the top 40 three scored runs. Launch the prompts, then collect again.
-6. **Shortlist.** Run `python3 scripts/hh.py shortlist P D`. Exit code 10 means a new house entered the top 20:
+6. **Check listings are live.** Run `python3 scripts/hh.py verify P D`, launch the prompts, then run `python3 scripts/hh.py verify-apply P D`. This parks any house that is sold, STC, under offer or gone (its data is kept). Then run `shortlist P D`. If it prints "run verify again", repeat this step, at most three times in all.
+   - The top 20 holds only houses whose own listing page opened in the last 7 days and showed no sold or under-offer label.
+   - Houses that scored high enough but couldn't be confirmed are listed below the table under "Not confirmed live". Never present them to Bill as available.
+7. **Shortlist.** Run `python3 scripts/hh.py shortlist P D`. Exit code 10 means a new house entered the top 20:
    - Load PushNotification with ToolSearch.
    - Send one message under 200 characters, built from the printed `NEW` lines, for example "House hunt: 2 new in top 20. #3 Rushdale Rd, Meersbrook £265k (66)."
    - In a scheduled run, wrap the message in `<routine_summary>` tags.
    - If no house is new, send nothing.
-7. **Optional project copy.** If a claude.ai project is attached, upload `profiles/P/state/shortlist.md` when it changed, and the day's longlist when it lists new houses. Both go under the `mirror.prefix` in `house-hunt.json`. The repo stays the record.
-8. **Save.** Run `python3 scripts/hh.py save P D`. Pass any commit trailers the session asks for as extra `-m` lines.
-9. **Reply** in 2–4 lines: new houses found, houses judged, any change to the shortlist, anything blocked.
+8. **Optional project copy.** If a claude.ai project is attached, upload `profiles/P/state/shortlist.md` when it changed, and the day's longlist when it lists new houses. Both go under the `mirror.prefix` in `house-hunt.json`. The repo stays the record.
+9. **Save.** Run `python3 scripts/hh.py save P D`. Pass any commit trailers the session asks for as extra `-m` lines.
+10. **Reply** in 2–4 lines: new houses found, houses judged, any change to the shortlist, anything blocked.
 
 ## 3. Running agents
 

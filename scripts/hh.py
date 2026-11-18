@@ -24,6 +24,8 @@ Usage: python3 scripts/hh.py <command> [profile] [date] [options]   (run from th
   rank P                      write state/ranking.md and ranking.csv
   shortlist P D               update the shortlist; prints NEW lines and exits 10 if a new house entered
   status P D                  one-line counts
+  verify P D [--n N]          write a live-check prompt for each top PASS house not checked in the last 7 days
+  verify-apply P D            fold live checks into the registry; park sold/STC/gone houses
   park P ID ... [--reason T]  keep a house's data but never shortlist or re-judge it (buyer ruled it out)
   unpark P ID ...             undo park
   new P [--like Q]            start profiles/P/profile.json from templates/profile.json, or from profile Q
@@ -31,7 +33,7 @@ Usage: python3 scripts/hh.py <command> [profile] [date] [options]   (run from th
   set P key.path=value ...    set profile fields; values parsed as JSON when they can be (lists, numbers)
 """
 import csv, json, re, shutil, statistics as st, sys
-from datetime import date as _date
+from datetime import date as _date, timedelta
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]          # the repo root is the skill root
@@ -501,7 +503,8 @@ def rank_rows(c):
             continue
         s = score_house(c, h)
         if h.get("parked"):
-            s = {**s, "status": "PARKED", "risk": "PARKED by buyer: " + h["parked"]}
+            s = {**s, "status": "PARKED", "risk": "PARKED: " + h["parked"]}
+        s["check"] = h.get("check") or {}
         rows.append({"id": h["id"], **s, "street": h["street"], "area": h["area"], "district": h["district"],
                      "asking": h.get("price"), "url": h.get("url"), "first_seen": h["first_seen"]})
     rows.sort(key=lambda r: (order[r["status"]], -(r.get("total") or 0)))
@@ -533,7 +536,11 @@ def cmd_rank(c):
 def cmd_shortlist(c):
     rows = cmd_rank(c)
     n = c.p["run"]["shortlist_n"]
-    top = [r for r in rows if r["status"] == "PASS"][:n]
+    fresh = lambda r: r["check"].get("status") == "live" and r["check"].get("date", "") >= (_date.fromisoformat(c.day) - timedelta(days=7)).isoformat()
+    passing = [r for r in rows if r["status"] == "PASS"]
+    top = [r for r in passing if fresh(r)][:n]
+    cutoff = top[-1]["total"] if len(top) == n else -1
+    unchecked = [r for r in passing if not fresh(r) and r["check"].get("status") in (None, "unknown") and (r.get("total") or 0) >= cutoff]
     prev = jload(c.state / "shortlist.json", {"ids": []})
     new = [r for r in top if r["id"] not in prev["ids"]]
     gone = [i for i in prev["ids"] if i not in {r["id"] for r in top}]
@@ -545,7 +552,10 @@ def cmd_shortlist(c):
         up = f"{r['uplift']:.2f}" if r.get("uplift") else "–"
         L.append(f"| {i} | {r['total']} | [{r['street']}, {r['area']} {r['district']}]({r['url']}){flag} | {k(r['asking'])} | "
                  f"{k(r.get('V'))} | {k(r.get('margin'))} | {up} | {r.get('m2') or '–'} | {(r.get('risk') or '')[:140]} |")
-    if new or gone or not prev["ids"]:
+    if unchecked:
+        L += ["", f"## Not confirmed live ({len(unchecked)})", "", "These scored high enough to make the list, but no live listing page was confirmed. They are left off the top 20.", ""]
+        L += [f"- {r['total']} · [{r['street']}, {r['area']} {r['district']}]({r['url']}) · {k(r['asking'])} · check: {r['check'].get('status', 'not run')}" for r in unchecked[:15]]
+    if new or gone or not prev["ids"] or unchecked:
         (c.state / "shortlist.md").write_text("\n".join(L) + "\n")
         (c.state / "history" / f"shortlist-{c.day}.md").write_text("\n".join(L) + "\n")
         jsave(c.state / "shortlist.json", {"date": c.day, "ids": [r["id"] for r in top]})
@@ -554,6 +564,9 @@ def cmd_shortlist(c):
         print(f"NEW #{rank} {r['street']}, {r['area']} {k(r['asking'])} score {r['total']}")
     for i in gone:
         print(f"DROPPED {i}")
+    need = sum(1 for r in passing[: n + 10] if not r["check"].get("date"))
+    if need:
+        print(f"# {len(top)} confirmed live; run verify again ({need} PASS houses never checked)")
     sys.exit(10 if new and prev["ids"] else 0)
 
 # ---------- queue ----------
@@ -578,7 +591,7 @@ def cmd_next(c, n):
 def cmd_jobs(c, kinds=None):
     """Every prompt in this run without a readable result, as agent<TAB>path, for run_agents.py."""
     n = 0
-    for kind, agent in (("scout", "house-judge"), ("search", "house-search"), ("judge", "house-judge")):
+    for kind, agent in (("scout", "house-judge"), ("search", "house-search"), ("judge", "house-judge"), ("verify", "house-judge")):
         if kinds and kind not in kinds:
             continue
         d = c.work / "prompts" / kind
@@ -597,6 +610,56 @@ def cmd_orphans(c, reset=False):
     if reset and orph:
         launched.write_text("\n".join(k for k in keys if k not in orph) + "\n")
         print(f"# reset {len(orph)}; launch them again with next", file=sys.stderr)
+
+def cmd_verify(c, n=None):
+    """Live-check prompts, in rank order, for PASS houses not checked in the last 7 days, until the
+    top shortlist_n + 10 of them would be covered."""
+    n = n or c.p["run"]["shortlist_n"] + 10
+    since = (_date.fromisoformat(c.day) - timedelta(days=7)).isoformat()
+    d = c.wd("prompts", "verify"); r = c.wd("results", "verify")
+    tpl = (T / "verify.md").read_text()
+    w = covered = 0
+    for row in rank_rows(c):
+        if row["status"] != "PASS" or covered >= n:
+            continue
+        h = c.reg["houses"][row["id"]]
+        ck = h.get("check") or {}
+        covered += 1
+        if ck.get("date", "") >= since and ck.get("status") != "unknown":
+            continue
+        if (d / f"{h['id']}.md").exists():
+            continue
+        others = [u for u in (h.get("urls") or []) if u and u != h.get("url")]
+        (d / f"{h['id']}.md").write_text(fill(tpl, {"id": h["id"], "street": h["street"], "area": h.get("area") or "",
+            "postcode": h.get("district") or "", "price": h.get("price_text") or money(c.cur, h.get("price")),
+            "agent": h.get("agent") or "unknown", "link": h.get("url") or "none saved",
+            "other_links": ", ".join(others[:5]) or "none", "out_path": r / f"{h['id']}.json"}))
+        w += 1
+    print(f"wrote {w} verify prompts (top {n} PASS houses covered)")
+
+def cmd_verify_apply(c):
+    rdir = c.work / "results" / "verify"
+    counts, parked = {}, []
+    for f in sorted(rdir.glob("*.json")) if rdir.exists() else []:
+        raw = jload(f)
+        h = c.reg["houses"].get(f.stem)
+        if not raw or h is None:
+            continue
+        st = str(raw.get("status") or "unknown").lower()
+        st = st if st in ("live", "sstc", "under_offer", "sold", "gone", "unknown") else "unknown"
+        url = raw.get("url") if st == "live" else None
+        h["check"] = {"date": c.day, "status": st, "url": url, "evidence": str(raw.get("evidence") or "")[:300]}
+        if url and url != h.get("url"):
+            h.setdefault("urls", [])
+            if h.get("url") and h["url"] not in h["urls"]:
+                h["urls"].append(h["url"])
+            h["url"] = url
+        if st in ("sstc", "under_offer", "sold", "gone") and not h.get("parked"):
+            h["parked"] = f"{st} on listing check {c.day}: {h['check']['evidence'][:120]}"
+            parked.append(h["id"])
+        counts[st] = counts.get(st, 0) + 1
+    c.save()
+    print(f"checks {counts}; parked {len(parked)}")
 
 def cmd_park(c, ids, reason, on=True):
     for i in ids:
@@ -617,7 +680,7 @@ def cmd_status(c):
 # ---------- repo: the repo is the skill ----------
 import subprocess
 COMMANDS = ["setup", "doctor", "sync", "save", "install", "config", "new", "preset", "set", "brief", "scout", "scout-apply",
-            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status", "jobs", "park", "unpark"]
+            "search", "ingest", "judge", "reprice", "next", "orphans", "collect", "topup", "rank", "shortlist", "status", "jobs", "park", "unpark", "verify", "verify-apply"]
 
 def cfg():
     return jload(CFG, {}) or {}
@@ -789,6 +852,8 @@ def main():
      "next": lambda: cmd_next(c, int(a[3] if len(a) > 3 else 1)), "orphans": lambda: cmd_orphans(c, "--reset" in a),
      "collect": lambda: cmd_collect(c), "topup": lambda: cmd_topup(c), "rank": lambda: cmd_rank(c),
      "shortlist": lambda: cmd_shortlist(c), "status": lambda: cmd_status(c),
+     "verify": lambda: cmd_verify(c, int(opt("--n", 0)) or None),
+     "verify-apply": lambda: cmd_verify_apply(c),
      "park": lambda: cmd_park(c, [x for x in a[2:] if x.startswith("H")], opt("--reason")),
      "unpark": lambda: cmd_park(c, [x for x in a[2:] if x.startswith("H")], None, False),
      "jobs": lambda: cmd_jobs(c, [k for k in a[3:] if not k.startswith("-")] or None)}[cmd]()

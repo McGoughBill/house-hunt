@@ -60,3 +60,7 @@ Bill wants dead or sold houses kept as data but never shown again as options. `h
 ## Portals back in (from 18 Nov 2026)
 
 The off-portal-only searches missed Underwood Road, Woodseats: a Whitehornes house listed on 28 Oct that showed up only on Zoopla. So `sheffield-offportal` now searches Rightmove, Zoopla, OnTheMarket and Jitty as well, despite its name. The other sources' descriptions still keep to their own sites, so each house is found once per source. `state/followups.md` and `followups.csv` record every house an agent has been contacted about.
+
+## Live check (from 18 Nov 2026)
+
+Bill wants to see only houses that are for sale, not STC, score high, and whose listing actually loads. `verify` writes one Haiku prompt per top PASS house (`templates/verify.md`), which opens the house's own listing page and reads its status. `verify-apply` saves the result as `check` on the house and parks anything sold, STC, under offer or gone. `shortlist` admits only houses with a `live` check from the last 7 days. Search prompts must give each house's own listing URL, not a search page, and must skip houses already marked STC.
