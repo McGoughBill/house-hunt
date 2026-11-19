@@ -54,3 +54,13 @@ The merge script found no clashes, because sources gave the same thing under dif
 - **Market line for every agent:** Bank Rate went up on 5 Nov. Fixed rates are about 6%. RICS buyer enquiries are falling. The next rate decision is 17 Dec. All of these back an offer before Christmas.
 
 *Facts, not advice. The sizes for Helmton, Hollythorpe and Cawthorne come from listings; measure them on Saturday.*
+
+## Follow-ups (19 Nov, 23:40)
+
+- **Land Registry spot-check:** raw rows match the agents' figures for all seven houses and the comparables quoted. Helmton confirmed: No. 17 is a freehold semi (£190,000, Dec 2018), and No. 25 is a leasehold terrace.
+- **Underwood:** listed 28 Oct at offers around £220k, 85 m², leasehold. A Hunters listing on the same street at the same price (30 Oct) may be the same house with a second agent: a question for Saturday.
+- **Welby rivals:** no 2-bed detached bungalow for sale within 1 km. The nearest is on Kennedy Road, Woodseats, at about £3,900/m².
+- **Cawthorne rivals:** five 3-bed semis within 1 km at £250–325k, listed in the Saturday doc.
+- **Hollythorpe:** neighbours sold at £295–330k in 2025, which cuts against the £241k done-up estimate.
+- **`facts.py merge`** now checks clashes across field names, and against the Saturday doc's own figures (`claims` in `houses.yaml`). It now flags Helmton's tenure and size by itself.
+- **Everything I couldn't check online** (hazards, energy certificates, planning, FENSA and Gas Safe) is now in the Saturday doc as questions for each agent.
