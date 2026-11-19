@@ -1,0 +1,33 @@
+area,address,postcode,date,price,m2,lr_type,group,bungalow_evidence,source
+welby_place,50 Welby Place,S8 9DB,2021-11-19,242000,60,D,bungalow,confirmed: listing (Staves) 2-bed detached bungalow,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,45 Welby Place,S8 9DA,2021-04-30,235000,80,D,bungalow,confirmed: EPC 'Detached Bungalow' built 1983-90,https://housemetric.co.uk/26530351/S8-9DA/45+Welby+Place
+welby_place,47 Welby Place,S8 9DA,2020-12-11,195000,70,D,bungalow,probable: detached in same 1980s cluster; EPC type not seen,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,52 Welby Place,S8 9DB,2017-03-02,166500,49,D,bungalow,probable: detached 49 m² next to No. 50; EPC type not seen,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,42 Welby Place,S8 9DB,2025-11-03,292500,114,T,house,,https://housemetric.co.uk/31274801/S8-9DB/42+Welby+Place
+welby_place,21 Welby Place,S8 9DA,2025-02-28,232500,78,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,16 Welby Place,S8 9DA,2025-01-30,240000,78,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,4 Welby Place,S8 9DA,2024-12-19,243000,93,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,6 Welby Place,S8 9DA,2023-08-14,230000,100,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,14 Welby Place,S8 9DA,2023-03-28,216000,90,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,3 Welby Place,S8 9DA,2022-04-20,242000,83,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,44 Welby Place,S8 9DB,2021-12-17,180000,97,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,23 Welby Place,S8 9DA,2019-10-04,175000,83,S,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,36 Welby Place,S8 9DA,2018-11-23,203000,110,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,27 Welby Place,S8 9DA,2017-09-19,149000,71,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,42 Welby Place (2017),S8 9DB,2017-01-12,145000,84,T,house,area at that sale per housemetric; later EPC 114 m²,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+welby_place,38 Welby Place,S8 9DB,2016-11-07,145250,72,T,house,,https://housemetric.co.uk/house-prices/Welby-Place/S8-9D
+derbyshire_lane,317 Derbyshire Lane,S8 8SG,2025-03-10,330000,102,D,bungalow,probable: detached 2-bed in the S8 8SG row of 1930s bungalows (No. 307 confirmed bungalow by agent brochure),https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SG
+derbyshire_lane,309 Derbyshire Lane,S8 8SG,2021-06-22,320000,85,D,bungalow,probable: as above,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SG
+derbyshire_lane,301 Derbyshire Lane,S8 8SG,2017-05-25,220000,74,D,bungalow,probable: as above,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SG
+derbyshire_lane,210 Derbyshire Lane,S8 8SE,2026-02-20,193000,89,T,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SE
+derbyshire_lane,201 Derbyshire Lane,S8 8SA,2023-12-04,295000,109,T,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SA
+derbyshire_lane,273a Derbyshire Lane,S8 8SG,2022-09-09,187500,85,T,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8S
+derbyshire_lane,278 Derbyshire Lane,S8 8SF,2022-07-12,178000,61,T,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8S
+derbyshire_lane,158 Derbyshire Lane,S8 8SE,2022-04-08,195000,60,T,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8S
+derbyshire_lane,163 Derbyshire Lane,S8 8SA,2021-09-28,375000,115,S,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8S
+derbyshire_lane,314 Derbyshire Lane,S8 8SF,2021-06-24,230000,95,S,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SF
+derbyshire_lane,274 Derbyshire Lane,S8 8SF,2021-02-12,130000,61,T,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SF
+derbyshire_lane,306 Derbyshire Lane,S8 8SF,2020-09-08,252000,79,S,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SF
+derbyshire_lane,215a Derbyshire Lane,S8 8SB,2018-06-29,228000,81,S,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SB/?imperial=T
+derbyshire_lane,169 Derbyshire Lane,S8 8SA,2018-05-04,230000,77,S,house,,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8SA
+derbyshire_lane,250 Derbyshire Lane,S8 8SF,2024-08-19,115000,70,T,house,low price; likely poor condition,https://housemetric.co.uk/house-prices/Derbyshire-Lane/S8-8S

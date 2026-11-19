@@ -1,0 +1,8 @@
+address,postcode,date,age,price,indexed,type,tenure,new_build,floor_area_m2,ppm2,source
+"21 Cawthorne Grove, Sheffield",S8 0NB,2024-11-04,2–3 yrs,284000,292411,S,F,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD
+"27B Cawthorne Grove, Sheffield",S8 0NB,2025-04-29,1–2 yrs,350000,361078,S,F,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD
+"22 Cawthorne Grove, Sheffield",S8 0ND,2025-06-03,1–2 yrs,248000,261806,S,F,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD
+"26 Cawthorne Grove, Sheffield",S8 0ND,2025-06-20,1–2 yrs,270000,285030,S,F,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD
+"45 Cawthorne Grove, Sheffield",S8 0ND,2025-06-30,1–2 yrs,295000,311422,S,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD
+"12 Cawthorne Grove, Sheffield",S8 0ND,2025-10-22,1–2 yrs,315000,320219,S,F,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD
+"8 Cawthorne Grove, Sheffield",S8 0ND,2025-12-19,<1 yr,320000,322162,S,F,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD

@@ -9,7 +9,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 TYPE = {"D": "Detached", "S": "SemiDetached", "T": "Terraced", "F": "FlatMaisonette"}
 hpi = {}
-p = ROOT / "data/hpi_sheffield.csv"
+p = ROOT / "data/hpi_sheffield.csv"   # UK HPI Sheffield by type, from the Land Registry download (see data/hpi_sheffield_ukhpi.csv)
 if p.exists():
     for r in csv.DictReader(p.open()): hpi[(r["month"], r["type"])] = float(r["index"])
 latest = {t: max((m for m, tt in hpi if tt == t), default=None) for t in TYPE.values()}
@@ -26,7 +26,14 @@ seen = set(); uniq = []
 for s in sales:
     k = (s["address"].upper(), s["date"], s["price"])
     if k not in seen: seen.add(k); uniq.append(s)
+import datetime as dt
+TODAY = dt.date.today()
+def age_band(date):
+    y = (TODAY - dt.date.fromisoformat(date)).days / 365.25
+    return "6+ yrs" if y >= 6 else f"{int(y)}–{int(y)+1} yrs" if y >= 1 else "<1 yr"
+
 for s in uniq:
+    s["age"] = age_band(s["date"])
     s["indexed"] = index(s["price"], s["date"], s["type"])
     a = s.get("floor_area_m2")
     s["ppm2"] = round((s["indexed"] or s["price"]) / a) if a else None
@@ -48,10 +55,10 @@ for h in yaml.safe_load((ROOT / "houses.yaml").read_text())["houses"]:
     last = max(own, key=lambda s: s["date"], default=None)
     summary[h["id"]] = {"street": summ(on_street), "postcode": summ(in_pc), "sector": summ(in_sector),
                         "street_ceiling": max((s["price"] for s in on_street), default=None),
-                        "last_sale": last and {k: last[k] for k in ("date", "price", "indexed", "source")}}
+                        "last_sale": last and {k: last[k] for k in ("date", "age", "price", "indexed", "source")}}
 by_sector = {}
 for s in uniq: by_sector.setdefault(s["postcode"][:4].replace(" ", ""), []).append(s)
-cols = ["address", "postcode", "date", "price", "indexed", "type", "tenure", "new_build", "floor_area_m2", "ppm2", "source"]
+cols = ["address", "postcode", "date", "age", "price", "indexed", "type", "tenure", "new_build", "floor_area_m2", "ppm2", "source"]
 for sec, rows in by_sector.items():
     with open(out / f"{sec}.csv", "w", newline="") as fh:
         w = csv.DictWriter(fh, cols, extrasaction="ignore"); w.writeheader(); w.writerows(sorted(rows, key=lambda r: r["date"]))

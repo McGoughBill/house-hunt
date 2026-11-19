@@ -64,3 +64,9 @@ The merge script found no clashes, because sources gave the same thing under dif
 - **Hollythorpe:** neighbours sold at £295–330k in 2025, which cuts against the £241k done-up estimate.
 - **`facts.py merge`** now checks clashes across field names, and against the Saturday doc's own figures (`claims` in `houses.yaml`). It now flags Helmton's tenure and size by itself.
 - **Everything I couldn't check online** (hazards, energy certificates, planning, FENSA and Gas Safe) is now in the Saturday doc as questions for each agent.
+
+## Welby bungalow pricing and price ages (20 Nov, 00:30)
+
+- **Price index now in hand:** the official UK HPI for Sheffield by house type, Jan 2016–Sep 2026, from Land Registry's download (`data/hpi_sheffield_ukhpi.csv`). `comps.py` uses it, and every sale now carries an age band (<1 … 6+ yrs).
+- **Bungalow model** (`scripts/bungalow_ratio.py`, `out/welby/bungalow_ratio.md`): 31 sales with floor areas, 6 of them bungalows. A bungalow sells for about 1.33 times a same-size house on the same street (95% range 1.09–1.61). No. 50 is worth about £245–250k today; one sale could land anywhere from about £205k to £305k. The owners' 2021 price is worth about £279k today. Weak spots: few bungalows, and only one sold in the last 4 years.
+- The Saturday doc now gives every past sale its age band, plus its value today where the index reaches back that far.

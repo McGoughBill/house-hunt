@@ -1,0 +1,198 @@
+{
+ "falmouth": {
+  "street": {
+   "n": 1,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 240000,
+   "top_address": "33 Falmouth Road, Sheffield"
+  },
+  "postcode": {
+   "n": 1,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 240000,
+   "top_address": "33 Falmouth Road, Sheffield"
+  },
+  "sector": {
+   "n": 15,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 294000,
+   "top_address": "194 Carter Knowle Road, Sheffield"
+  },
+  "street_ceiling": 240000,
+  "last_sale": null
+ },
+ "welby": {
+  "street": {
+   "n": 0,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": null,
+   "top_address": null
+  },
+  "postcode": {
+   "n": 0,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": null,
+   "top_address": null
+  },
+  "sector": {
+   "n": 15,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 551551,
+   "top_address": "13 Lees Hall Road, Sheffield"
+  },
+  "street_ceiling": null,
+  "last_sale": null
+ },
+ "leeshall": {
+  "street": {
+   "n": 10,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 551551,
+   "top_address": "13 Lees Hall Road, Sheffield"
+  },
+  "postcode": {
+   "n": 2,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 275000,
+   "top_address": "26 Lees Hall Road, Sheffield"
+  },
+  "sector": {
+   "n": 15,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 551551,
+   "top_address": "13 Lees Hall Road, Sheffield"
+  },
+  "street_ceiling": 551551,
+  "last_sale": null
+ },
+ "cawthorne": {
+  "street": {
+   "n": 7,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 350000,
+   "top_address": "27B Cawthorne Grove, Sheffield"
+  },
+  "postcode": {
+   "n": 5,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 320000,
+   "top_address": "8 Cawthorne Grove, Sheffield"
+  },
+  "sector": {
+   "n": 7,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 350000,
+   "top_address": "27B Cawthorne Grove, Sheffield"
+  },
+  "street_ceiling": 350000,
+  "last_sale": null
+ },
+ "underwood": {
+  "street": {
+   "n": 5,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 246000,
+   "top_address": "36 Underwood Road, Sheffield"
+  },
+  "postcode": {
+   "n": 5,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 246000,
+   "top_address": "36 Underwood Road, Sheffield"
+  },
+  "sector": {
+   "n": 235,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 550000,
+   "top_address": "36 Abbey View Road, Sheffield"
+  },
+  "street_ceiling": 246000,
+  "last_sale": null
+ },
+ "helmton": {
+  "street": {
+   "n": 3,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 280000,
+   "top_address": "1 Helmton Drive, Sheffield"
+  },
+  "postcode": {
+   "n": 3,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 280000,
+   "top_address": "1 Helmton Drive, Sheffield"
+  },
+  "sector": {
+   "n": 235,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 550000,
+   "top_address": "36 Abbey View Road, Sheffield"
+  },
+  "street_ceiling": 280000,
+  "last_sale": null
+ },
+ "hollythorpe": {
+  "street": {
+   "n": 5,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 330000,
+   "top_address": "80 Hollythorpe Road, Sheffield"
+  },
+  "postcode": {
+   "n": 2,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 330000,
+   "top_address": "80 Hollythorpe Road, Sheffield"
+  },
+  "sector": {
+   "n": 15,
+   "n_with_area": 0,
+   "median_ppm2": null,
+   "spread_ppm2": null,
+   "top_price": 551551,
+   "top_address": "13 Lees Hall Road, Sheffield"
+  },
+  "street_ceiling": 330000,
+  "last_sale": null
+ }
+}

@@ -778,6 +778,28 @@
     "task": "L"
    }
   ],
+  "bungalow_model_value": [
+   {
+    "house": "welby",
+    "field": "bungalow_model_value",
+    "value": {
+     "central_all_data": 245378,
+     "central_welby_place_only": 250699,
+     "premium_vs_house_same_size": "x1.33 (95% x1.09-x1.61); Welby Place only x1.17 (x1.02-x1.33)",
+     "single_sale_range_welby_only": [
+      206522,
+      304327
+     ],
+     "own_2021_price_indexed": 279147
+    },
+    "unit": "GBP, Sep 2026 money",
+    "source": "https://landregistry.data.gov.uk/app/ukhpi/download/new.csv?from=2016-01-01&to=2026-11-01&location=http%3A%2F%2Flandregistry.data.gov.uk%2Fid%2Fregion%2Fsheffield&thm%5B%5D=property_type&in%5B%5D=hpi",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "scripts/bungalow_ratio.py on data/bungalow_sales.csv (31 sales, 6 bungalows, HouseMetric floor areas); 50 Welby left out of the fit. See out/welby/bungalow_ratio.md",
+    "task": "L"
+   }
+  ],
   "planning_history": [
    {
     "house": "welby",
