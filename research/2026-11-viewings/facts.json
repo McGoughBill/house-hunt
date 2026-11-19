@@ -710,6 +710,74 @@
     "task": "L"
    }
   ],
+  "rival_listings": [
+   {
+    "house": "welby",
+    "field": "rival_listings",
+    "value": [
+     {
+      "street": "Kennedy Road, Woodseats",
+      "type": "2-bed double-fronted detached bungalow",
+      "price": 315000,
+      "qualifier": "guide 315-325k",
+      "area_sqft": 870,
+      "tenure": "L",
+      "agent": "Whitehorn",
+      "url": "https://street.co.uk/platform/properties/98f6a85b-81e4-469c-8d2d-6a718cd1d92a"
+     },
+     {
+      "street": "Derbyshire Lane, Norton Lees S8 8SG",
+      "type": "3-bed detached bungalow",
+      "area_sqft": 957,
+      "tenure": "L",
+      "status": "reduced",
+      "agent": "Staves",
+      "url": "https://www.onthemarket.com/details/18162066"
+     },
+     {
+      "street": "Westwick Crescent, Greenhill",
+      "type": "2-bed detached bungalow, needs modernising, no chain",
+      "agent": "Whitehorn",
+      "url": "https://street.co.uk/platform/properties/60149bae-ac08-4ae1-8ba4-c2d6e2eb2a6c"
+     }
+    ],
+    "unit": null,
+    "source": "https://street.co.uk/platform/properties/98f6a85b-81e4-469c-8d2d-6a718cd1d92a",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "No 2-bed detached bungalow for sale found within 1 km of Welby; these are 1.5-4 km away. Kennedy Road: £315k for 81 m² = £3,889/m², vs Welby £4,417/m² on 60 m²",
+    "task": "L"
+   }
+  ],
+  "street_detached_sales": [
+   {
+    "house": "welby",
+    "field": "street_detached_sales",
+    "value": [
+     {
+      "no": 45,
+      "date": "2021-04-30",
+      "price": 235000
+     },
+     {
+      "no": 47,
+      "date": "2020-12-11",
+      "price": 195000
+     },
+     {
+      "no": 52,
+      "date": "2017-03-02",
+      "price": 166500
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "All freehold detached sales on Welby Place since 2015; none since Nov 2021. Spot-checked against raw CSV 19 Nov",
+    "task": "L"
+   }
+  ],
   "planning_history": [
    {
     "house": "welby",
@@ -1267,6 +1335,41 @@
     "task": "L"
    }
   ],
+  "street_sales_lr_2025_26": [
+   {
+    "house": "leeshall",
+    "field": "street_sales_lr_2025_26",
+    "value": [
+     {
+      "no": 115,
+      "pc": "S8 9JL",
+      "date": "2026-02-13",
+      "price": 300000,
+      "tenure": "L"
+     },
+     {
+      "no": 99,
+      "pc": "S8 9JL",
+      "date": "2025-01-31",
+      "price": 340000,
+      "tenure": "L"
+     },
+     {
+      "no": 101,
+      "pc": "S8 9JL",
+      "date": "2025-09-24",
+      "price": 180000,
+      "tenure": "L"
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Extra semi sales not in my earlier list; No. 57 has no record. Spot-checked 19 Nov",
+    "task": "L"
+   }
+  ],
   "planning_history": [
    {
     "house": "leeshall",
@@ -1699,6 +1802,117 @@
     "task": "L"
    }
   ],
+  "rival_listings": [
+   {
+    "house": "cawthorne",
+    "field": "rival_listings",
+    "value": [
+     {
+      "street": "Periwood Drive, Millhouses",
+      "price": 285000,
+      "qualifier": "guide 285-300k",
+      "tenure": "F",
+      "note": "chain free",
+      "agent": "Haus",
+      "url": "https://app.zoopla.co.uk/for-sale/details/73170560/"
+     },
+     {
+      "street": "Camping Lane, Woodseats",
+      "price": 300000,
+      "tenure": "F",
+      "note": "chain free",
+      "url": "https://www.primelocation.com/for-sale/details/73376122/"
+     },
+     {
+      "street": "Tadcaster Crescent, Woodseats",
+      "price": 300000,
+      "tenure": "F",
+      "note": "renovated, chain free",
+      "url": "https://www.primelocation.com/for-sale/details/73382072/"
+     },
+     {
+      "street": "Perigree Road, Woodseats",
+      "price": 325000,
+      "tenure": "F",
+      "agent": "Staves",
+      "url": "https://www.zoopla.co.uk/for-sale/details/73487017/"
+     },
+     {
+      "street": "Fraser Road, Woodseats",
+      "price": 250000,
+      "qualifier": "guide 250-260k",
+      "tenure": "L",
+      "added": "2026-07-20",
+      "url": "https://www.primelocation.com/for-sale/details/73753907/"
+     },
+     {
+      "street": "Mitchell Road, Woodseats",
+      "price": 300000,
+      "qualifier": "guide 300-325k",
+      "tenure": "F",
+      "status": "Sold STC",
+      "agent": "Haus",
+      "url": "https://www.zoopla.co.uk/for-sale/details/73543538/"
+     }
+    ],
+    "unit": null,
+    "source": "https://app.zoopla.co.uk/for-sale/details/73170560/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "3-bed semis within ~1 km; live status not rechecked",
+    "task": "L"
+   }
+  ],
+  "street_sales_lr": [
+   {
+    "house": "cawthorne",
+    "field": "street_sales_lr",
+    "value": [
+     {
+      "no": 8,
+      "date": "2025-12-19",
+      "price": 320000,
+      "tenure": "F"
+     },
+     {
+      "no": 12,
+      "date": "2025-10-22",
+      "price": 315000,
+      "tenure": "F"
+     },
+     {
+      "no": 26,
+      "date": "2025-06-20",
+      "price": 270000,
+      "tenure": "F"
+     },
+     {
+      "no": 22,
+      "date": "2025-06-03",
+      "price": 248000,
+      "tenure": "F"
+     },
+     {
+      "no": 2,
+      "date": "2024-03-28",
+      "price": 290000,
+      "tenure": "F"
+     },
+     {
+      "no": 6,
+      "date": "2023-04-03",
+      "price": 253000,
+      "tenure": "F"
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "S8 0ND semis; spot-checked against raw CSV 19 Nov",
+    "task": "L"
+   }
+  ],
   "planning_history": [
    {
     "house": "cawthorne",
@@ -2071,6 +2285,23 @@
     "confidence": "low",
     "note": "Not found. Listing is Zoopla 74619438 (not opened: needs approval). A Haybrook 3-bed mid-terrace on Underwood Road, freehold, hall, was marketed at guide £190-200k (heading £180k), number not shown: https://www.rightmove.co.uk/properties/167316458 ; https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s8/hay031076008 . If that is No. 38, it has been relaunched £20-40k higher.",
     "task": "L"
+   },
+   {
+    "house": "underwood",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-10-28",
+     "price": 220000,
+     "qualifier": "OIRO",
+     "agent": "Whitehorn",
+     "reduced": false
+    },
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/houses/sheffield/hackthorn-road/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Zoopla nearby-results card; no house number shown",
+    "task": "L"
    }
   ],
   "rival_listings": [
@@ -2105,6 +2336,65 @@
     "retrieved": "2026-11-19",
     "confidence": "medium",
     "note": "3-bed terraces near Woodseats at ~£220k; status not rechecked",
+    "task": "L"
+   }
+  ],
+  "days_on_market": [
+   {
+    "house": "underwood",
+    "field": "days_on_market",
+    "value": 22,
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/houses/sheffield/hackthorn-road/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "28 Oct to 19 Nov 2026",
+    "task": "L"
+   }
+  ],
+  "listing_facts": [
+   {
+    "house": "underwood",
+    "field": "listing_facts",
+    "value": {
+     "type": "mid-terrace",
+     "beds": 3,
+     "receptions": 1,
+     "area_sqft": 915,
+     "area_m2": 85.0,
+     "tenure": "L"
+    },
+    "unit": null,
+    "source": "https://www.primelocation.com/for-sale/houses/sheffield/hackthorn-road/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Results card: OIRO £220,000, 3 beds, 915 sq ft, listed 28 Oct 2026, Whitehorn. Tenure 'Leasehold' from https://housesforsaletorent.co.uk/houses/for-sale/south-yorkshire/woodseats.html and Land Registry (2020). Asking £220k / 85 m² = £2,588/m²",
+    "task": "L"
+   }
+  ],
+  "second_listing_same_street": [
+   {
+    "house": "underwood",
+    "field": "second_listing_same_street",
+    "value": "Rightmove shows an Underwood Road 3-bed terrace at OIRO £220,000 added 30/10/2026 by Hunters Woodseats, with a bay-windowed living room and two receptions: either a rival on the same street at the same price, or the same house with a second agent",
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/property-for-sale/Norton-Lees/terraced.html",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Ask at the viewing",
+    "task": "L"
+   }
+  ],
+  "haybrook_listing_not_same": [
+   {
+    "house": "underwood",
+    "field": "haybrook_listing_not_same",
+    "value": "Earlier Haybrook listing (3-bed terrace, guide £190-200k, Underwood Road) says freehold; No. 38 is leasehold on Land Registry, so probably a different house",
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/properties/167316458",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "",
     "task": "L"
    }
   ],
@@ -3028,6 +3318,50 @@
     "task": "L"
    }
   ],
+  "neighbour_sales_lr": [
+   {
+    "house": "hollythorpe",
+    "field": "neighbour_sales_lr",
+    "value": [
+     {
+      "no": 49,
+      "date": "2025-06-30",
+      "price": 315000,
+      "tenure": "L"
+     },
+     {
+      "no": 80,
+      "date": "2025-03-14",
+      "price": 330000,
+      "tenure": "F"
+     },
+     {
+      "no": 13,
+      "date": "2025-10-28",
+      "price": 295000,
+      "tenure": "F"
+     },
+     {
+      "no": 30,
+      "date": "2025-03-27",
+      "price": 241000,
+      "tenure": "L"
+     },
+     {
+      "no": 33,
+      "date": "2025-03-10",
+      "price": 235000,
+      "tenure": "L"
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "No. 49, next door, sold £315k in Jun 2025: above No. 51's £280k asking. Sizes unknown. Spot-checked 19 Nov",
+    "task": "L"
+   }
+  ],
   "planning_history": [
    {
     "house": "hollythorpe",
@@ -3214,6 +3548,19 @@
   ]
  },
  "market": {
+  "lr_spot_check": [
+   {
+    "house": "market",
+    "field": "lr_spot_check",
+    "value": "Raw Land Registry rows match the agents' facts for Nos 17/25 Helmton, 6/8/12 Cawthorne, 50 Welby, 38/56 Underwood, 26/50/105/117 Lees Hall, 34/33/7 Falmouth, 51 Hollythorpe",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Each street CSV fetched 19 Nov; Helmton: No. 17 S/F £190,000 2018-12-19; No. 25 T/L £178,000 2016-06-03",
+    "task": "L"
+   }
+  ],
   "uk_hpi_nationwide_annual_pct": [
    {
     "house": "market",

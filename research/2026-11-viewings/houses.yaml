@@ -12,6 +12,7 @@ houses:
     agent: Hunters, Hunters Bar
     listing: https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/
     viewing: "2026-11-21 10:15"
+    claims: {tenure: L, floor_area_m2: 108}   # Saturday doc's figures, checked by facts.py merge
     known:
       - 3 beds; bay-windowed living room; dining room at the back
       - 1,163 sq ft (108 m²) per listing; Hunters said 1,007 sq ft (94 m²) on the phone
@@ -29,6 +30,7 @@ houses:
     agent: Staves, Woodseats
     listing: https://www.stavesestateagents.co.uk/property-for-rent-2-bedroom-detached-bungalow-in-sheffield
     viewing: "2026-11-21 11:30"
+    claims: {tenure: F, floor_area_m2: 60}   # Saturday doc's figures, checked by facts.py merge
     known:
       - built about 1989-90; about 60 m²; 2 beds plus a box room
       - side porch into L-shaped hall; open-plan kitchen and living room
@@ -48,6 +50,7 @@ houses:
     agent: Staves, Woodseats
     listing: https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-semi-in-sheffield-25
     viewing: "2026-11-21 12:00"
+    claims: {floor_area_m2: 69}   # Saturday doc's figures, checked by facts.py merge
     known:
       - 3 bed semi with hall and bay lounge; extended dining room open to kitchen
       - drive, detached garage and store; garden falls away at the back
@@ -67,6 +70,7 @@ houses:
     agent: Saxton Mee, Banner Cross
     listing: https://www.saxtonmee.co.uk/properties-for-sale/property/3201-cawthorne-grove-millhouses-sheffield
     viewing: "2026-11-21 12:45"
+    claims: {}   # Saturday doc's figures, checked by facts.py merge
     known:
       - little known; guide range tops out at the buyer's £325k ceiling
       - Millhouses lies along the River Sheaf
@@ -81,6 +85,7 @@ houses:
     agent: Whitehornes
     listing: https://www.zoopla.co.uk/for-sale/details/74619438/
     viewing: "2026-11-21 13:30"
+    claims: {}   # Saturday doc's figures, checked by facts.py merge
     known:
       - cheapest of the seven; agent meets buyer there
 
@@ -94,6 +99,7 @@ houses:
     agent: Whitehornes
     listing: https://whitehornes.co.uk/property-for-sale/helmton-drive-woodseats-s8-2/
     viewing: "2026-11-21 14:00"
+    claims: {tenure: L, floor_area_m2: 109}   # Saturday doc's figures, checked by facts.py merge
     known:
       - about 109 m²
       - one source says 136-year lease; tenure unconfirmed
@@ -101,13 +107,14 @@ houses:
 
   - id: hollythorpe
     address: 51 Hollythorpe Road, Norton Lees, Sheffield
-    postcode: null   # not in the Saturday doc; find it
-    sector: S8 9     # assumed from Norton Lees; confirm
+    postcode: S8 9NF # Land Registry, 2010 sale of No. 51
+    sector: S8 9
     type: unknown
     asking: 280000
     price_text: "Offers around £280,000"
     agent: Whitehornes
     listing: https://whitehornes.co.uk/property-for-sale/hollythorpe-road-norton-lees-s8/
     viewing: "2026-11-21 14:45 (not yet confirmed by agent)"
+    claims: {}   # Saturday doc's figures, checked by facts.py merge
     known:
       - hall, whether empty and structure unconfirmed

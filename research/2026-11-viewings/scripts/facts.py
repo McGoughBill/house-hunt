@@ -35,6 +35,43 @@ def validate(paths):
 def norm(v):
     return json.dumps(v, sort_keys=True).lower() if not isinstance(v, str) else v.strip().lower()
 
+# Fields that say the same thing under different names: canonical -> [(field, key inside a dict value or None)]
+GROUPS = {
+    "tenure": [("tenure_lr", None), ("tenure_listing", None), ("listing_facts", "tenure"), ("listing_history", "tenure")],
+    "floor_area_m2": [("epc_floor_area_m2", None), ("floor_area_listing_m2", None), ("listing_facts", "area_m2")],
+}
+
+def canon(kind, v):
+    if v is None: return None
+    if kind == "tenure":
+        s = str(v).strip().lower()
+        return "L+F" if ("l" in s and "f" in s and "and" in s) else s[:1].upper() if s[:1] in "lf" else None
+    try: return float(v)
+    except (TypeError, ValueError): return None
+
+def same(kind, a, b):
+    return abs(a - b) <= 0.05 * max(a, b) if kind == "floor_area_m2" else a == b
+
+def cross_clashes(out):
+    """Clashes across differently named fields, and against the Saturday doc's claims in houses.yaml."""
+    import yaml
+    claims = {h["id"]: h.get("claims") or {} for h in yaml.safe_load((ROOT / "houses.yaml").read_text())["houses"]}
+    res = []
+    for h, fields in out.items():
+        for kind, members in GROUPS.items():
+            seen = []
+            for field, key in members:
+                for f in fields.get(field, []):
+                    v = f["value"].get(key) if key and isinstance(f["value"], dict) else (None if key else f["value"])
+                    c = canon(kind, v)
+                    if c is not None: seen.append((c, f"{f['task']}/{field}", f["source"]))
+            if h in claims and kind in claims[h]:
+                seen.append((canon(kind, claims[h][kind]), "Saturday doc", "houses.yaml claims"))
+            vals = [s[0] for s in seen]
+            if any(not same(kind, a, b) for a in vals for b in vals if a is not None and b is not None):
+                res.append(f"- **{h} / {kind}** (cross-field): " + "; ".join(f"{v} ({w}, {s})" for v, w, s in seen))
+    return res
+
 def merge():
     out, n, skipped = {}, 0, 0
     for p in sorted((ROOT / "facts").glob("*.jsonl")):
@@ -50,6 +87,7 @@ def merge():
             if len(vals) > 1:
                 clashes.append(f"- **{h} / {k}**: " + "; ".join(
                     f"{json.dumps(f['value'], ensure_ascii=False)[:120]} ({f['task']}, {f['source']})" for f in fs if f["value"] is not None))
+    clashes += cross_clashes(out)
     (ROOT / "out/clashes.md").write_text("# Clashes\n\n" + ("\n".join(clashes) or "None.") + "\n")
     print(f"merged {n} facts, skipped {skipped} bad, {len(clashes)} clashes -> facts.json, out/clashes.md")
 

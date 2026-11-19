@@ -2,14 +2,14 @@
 
 | House | Filled | Null | Missing |
 |---|---|---|---|
-| market | 14/19 (+0 other) | 5 | 0 |
+| market | 14/19 (+1 other) | 5 | 0 |
 | falmouth | 8/27 (+3 other) | 19 | 0 |
-| welby | 9/27 (+5 other) | 18 | 0 |
-| leeshall | 6/27 (+7 other) | 21 | 0 |
-| cawthorne | 9/27 (+4 other) | 18 | 0 |
-| underwood | 8/27 (+2 other) | 19 | 0 |
+| welby | 9/27 (+7 other) | 18 | 0 |
+| leeshall | 6/27 (+8 other) | 21 | 0 |
+| cawthorne | 9/27 (+6 other) | 18 | 0 |
+| underwood | 8/27 (+6 other) | 19 | 0 |
 | helmton | 8/27 (+5 other) | 19 | 0 |
-| hollythorpe | 9/27 (+6 other) | 18 | 0 |
+| hollythorpe | 9/27 (+7 other) | 18 | 0 |
 
 ## Gaps
 
