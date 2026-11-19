@@ -1,0 +1,3465 @@
+{
+ "falmouth": {
+  "epc_certificates": [
+   {
+    "house": "falmouth",
+    "field": "epc_certificates",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_floor_area_m2": [
+   {
+    "house": "falmouth",
+    "field": "epc_floor_area_m2",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_current_band": [
+   {
+    "house": "falmouth",
+    "field": "epc_current_band",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_property_type": [
+   {
+    "house": "falmouth",
+    "field": "epc_property_type",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_improvements": [
+   {
+    "house": "falmouth",
+    "field": "epc_improvements",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "fensa_record": [
+   {
+    "house": "falmouth",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
+    "task": "C"
+   }
+  ],
+  "gas_safe_record": [
+   {
+    "house": "falmouth",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
+    "task": "C"
+   }
+  ],
+  "coal_mining_risk": [
+   {
+    "house": "falmouth",
+    "field": "coal_mining_risk",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
+    "task": "H"
+   }
+  ],
+  "landslip": [
+   {
+    "house": "falmouth",
+    "field": "landslip",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "made_ground": [
+   {
+    "house": "falmouth",
+    "field": "made_ground",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused).",
+    "task": "H"
+   }
+  ],
+  "shrink_swell": [
+   {
+    "house": "falmouth",
+    "field": "shrink_swell",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "flood_rivers": [
+   {
+    "house": "falmouth",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "flood_surface_water": [
+   {
+    "house": "falmouth",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "knotweed_nearby": [
+   {
+    "house": "falmouth",
+    "field": "knotweed_nearby",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Environet Exposed map is a JS app with no URL surfaced by search; not fetched within the 15-fetch cap.",
+    "task": "H"
+   }
+  ],
+  "tree_preservation_order": [
+   {
+    "house": "falmouth",
+    "field": "tree_preservation_order",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Sheffield council TPO page points to an interactive map only (no URL given); TPO status needs that map or a local land charges search (not ordered).",
+    "task": "H"
+   }
+  ],
+  "listing_history": [
+   {
+    "house": "falmouth",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-08-27",
+     "first_price": 215000,
+     "cuts": [
+      {
+       "date": "2026-10-09",
+       "to": 210000
+      }
+     ]
+    },
+    "unit": null,
+    "source": "https://nethouseprices.com/property/details/A58E209673B718_34891232_S/Falmouth Road, Sheffield, S7",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "nethouseprices mirror of Hunters listing 34891232; page fetch failed, figures from search snippet",
+    "task": "L"
+   }
+  ],
+  "days_on_market": [
+   {
+    "house": "falmouth",
+    "field": "days_on_market",
+    "value": 84,
+    "unit": null,
+    "source": "https://nethouseprices.com/property/details/A58E209673B718_34891232_S/Falmouth Road, Sheffield, S7",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "27 Aug to 19 Nov 2026",
+    "task": "L"
+   }
+  ],
+  "rival_listings": [
+   {
+    "house": "falmouth",
+    "field": "rival_listings",
+    "value": [
+     {
+      "street": "Falmouth Road",
+      "beds": 3,
+      "price": 240000,
+      "tenure": "L",
+      "status": "Sold STC",
+      "agent": "Hunters Crookes",
+      "url": "https://app.zoopla.co.uk/for-sale/details/72885497/"
+     },
+     {
+      "street": "Tavistock Road",
+      "price": 200000,
+      "area_sqft": 861,
+      "agent": "Haus",
+      "url": "https://www.zoopla.co.uk/for-sale/details/72912926/"
+     },
+     {
+      "street": "Wath Road",
+      "price": 240000,
+      "area_sqft": 1158,
+      "added": "2026-07-30",
+      "url": "https://www.primelocation.com/for-sale/details/73848720/"
+     },
+     {
+      "street": "South View Road",
+      "price": 250000,
+      "qualifier": "OIRO",
+      "area_sqft": 1158,
+      "tenure": "F",
+      "url": "https://www.primelocation.com/for-sale/details/73401499/"
+     },
+     {
+      "street": "111 Vincent Road",
+      "price": 215000,
+      "qualifier": "OIRO",
+      "url": "https://www.zoopla.co.uk/for-sale/details/71581960"
+     },
+     {
+      "street": "Abbeydale Road",
+      "price": 210000,
+      "area_sqft": 1283,
+      "tenure": "L",
+      "added": "2026-05-05",
+      "note": "back to market",
+      "url": "https://www.primelocation.com/for-sale/details/73109342/"
+     }
+    ],
+    "unit": null,
+    "source": "https://app.zoopla.co.uk/for-sale/details/72885497/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "3-bed terraces within ~1 km; live status of each not rechecked",
+    "task": "L"
+   }
+  ],
+  "planning_history": [
+   {
+    "house": "falmouth",
+    "field": "planning_history",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found. planningapps.sheffield.gov.uk refused automated fetch (robots disallowed; sandbox proxy 403) and web search surfaced no application pages for this address. Search the portal by hand by street name.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "neighbour_applications": [
+   {
+    "house": "falmouth",
+    "field": "neighbour_applications",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found, same reason as planning_history: Sheffield planning portal not reachable by agent. A manual street-name search on the portal covers neighbours within 5 doors.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "building_control_signoff": [
+   {
+    "house": "falmouth",
+    "field": "building_control_signoff",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "No public online source among allowed ones; completion certificates appear in the solicitor's local authority search (CON29) or from the seller. Ask for them, esp. for extensions (leeshall dining extension, welby workshop).",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "conservation_area": [
+   {
+    "house": "falmouth",
+    "field": "conservation_area",
+    "value": null,
+    "source": "https://www.sheffield.gov.uk/planning-development/nether-edge-conservation-area",
+    "confidence": "low",
+    "note": "Unresolved. Nether Edge CA (council ref 5459; planning.data.gov.uk centroid -1.4922, 53.3618) covers Nether Edge south of Psalter Lane; council page does not list streets and Falmouth Road coordinates were not obtainable. High chance it is inside or near; check council map.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "article4_direction": [
+   {
+    "house": "falmouth",
+    "field": "article4_direction",
+    "value": "Nether Edge Article 4 direction (made 2005) applies IF the house is inside Nether Edge CA; many external alterations then need permission, incl. solar panels on road-facing roof slopes",
+    "source": "https://www.sheffield.gov.uk/planning-development/nether-edge-conservation-area",
+    "confidence": "low",
+    "note": "Council pages confirm the 2005 direction but not which PD rights it removes; planning.data.gov.uk holds no Sheffield Article 4 data (https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&organisation_entity=294&limit=50). See also https://www.sheffield.gov.uk/planning-development/conservation-areas",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "own_past_sales": [
+   {
+    "house": "falmouth",
+    "field": "own_past_sales",
+    "value": [
+     {
+      "date": "2012-01-27",
+      "price": 119950,
+      "type": "T",
+      "tenure": "L",
+      "new_build": false,
+      "category": "A"
+     }
+    ],
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Only sale of 34 Falmouth Road in Land Registry price-paid data (1995 on). Cross-checked against street search.",
+    "task": "S1"
+   }
+  ],
+  "last_sale_price": [
+   {
+    "house": "falmouth",
+    "field": "last_sale_price",
+    "value": 119950,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "27 Jan 2012; ~15 years ago, so a weak guide to value now.",
+    "task": "S1"
+   }
+  ],
+  "last_sale_date": [
+   {
+    "house": "falmouth",
+    "field": "last_sale_date",
+    "value": "2012-01-27",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "S1"
+   }
+  ],
+  "tenure_lr": [
+   {
+    "house": "falmouth",
+    "field": "tenure_lr",
+    "value": "leasehold",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=FALMOUTH+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Price-paid estate type L on the 2012 sale; every sale on the street since 1995 is L. Lease length not in price-paid data.",
+    "task": "S1"
+   }
+  ],
+  "street_highest_price": [
+   {
+    "house": "falmouth",
+    "field": "street_highest_price",
+    "value": 290000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=FALMOUTH+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "7 Falmouth Road, terraced, leasehold, 13 Jun 2023. Next highest: 33 Falmouth Road £240,000 (31 Jul 2026).",
+    "task": "S1"
+   }
+  ],
+  "street_sales_24m": [
+   {
+    "house": "falmouth",
+    "field": "street_sales_24m",
+    "value": 1,
+    "unit": "count",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG&min_date=19+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Since 19 Nov 2024: 33 Falmouth Road, terraced, leasehold, £240,000, 31 Jul 2026, category A. All street sales are in S7 2DG. LR lags a few months, so late-2026 sales may be missing.",
+    "task": "S1"
+   }
+  ],
+  "postcode_sales_24m": [
+   {
+    "house": "falmouth",
+    "field": "postcode_sales_24m",
+    "value": 1,
+    "unit": "count",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG&min_date=19+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "S7 2DG since 19 Nov 2024: same single sale (33 Falmouth Road £240,000, 31 Jul 2026).",
+    "task": "S1"
+   }
+  ]
+ },
+ "welby": {
+  "epc_certificates": [
+   {
+    "house": "welby",
+    "field": "epc_certificates",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_floor_area_m2": [
+   {
+    "house": "welby",
+    "field": "epc_floor_area_m2",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_current_band": [
+   {
+    "house": "welby",
+    "field": "epc_current_band",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_property_type": [
+   {
+    "house": "welby",
+    "field": "epc_property_type",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_improvements": [
+   {
+    "house": "welby",
+    "field": "epc_improvements",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "fensa_record": [
+   {
+    "house": "welby",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
+    "task": "C"
+   }
+  ],
+  "gas_safe_record": [
+   {
+    "house": "welby",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
+    "task": "C"
+   }
+  ],
+  "coal_mining_risk": [
+   {
+    "house": "welby",
+    "field": "coal_mining_risk",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
+    "task": "H"
+   }
+  ],
+  "landslip": [
+   {
+    "house": "welby",
+    "field": "landslip",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "made_ground": [
+   {
+    "house": "welby",
+    "field": "made_ground",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused).",
+    "task": "H"
+   }
+  ],
+  "shrink_swell": [
+   {
+    "house": "welby",
+    "field": "shrink_swell",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "flood_rivers": [
+   {
+    "house": "welby",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "flood_surface_water": [
+   {
+    "house": "welby",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "knotweed_nearby": [
+   {
+    "house": "welby",
+    "field": "knotweed_nearby",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Environet Exposed map is a JS app with no URL surfaced by search; not fetched within the 15-fetch cap.",
+    "task": "H"
+   }
+  ],
+  "tree_preservation_order": [
+   {
+    "house": "welby",
+    "field": "tree_preservation_order",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Sheffield council TPO page points to an interactive map only (no URL given); TPO status needs that map or a local land charges search (not ordered).",
+    "task": "H"
+   }
+  ],
+  "listing_history": [
+   {
+    "house": "welby",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-09-02",
+     "price": 265000,
+     "reduced": false,
+     "agent": "Staves",
+     "tenure": "F"
+    },
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/70241795",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Zoopla nearby-results card; no Reduced tag",
+    "task": "L"
+   }
+  ],
+  "days_on_market": [
+   {
+    "house": "welby",
+    "field": "days_on_market",
+    "value": 78,
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/70241795",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "2 Sep to 19 Nov 2026",
+    "task": "L"
+   }
+  ],
+  "also_to_let": [
+   {
+    "house": "welby",
+    "field": "also_to_let",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "No to-let advert found for 50 Welby Place. Staves URL slug says for-rent but OnTheMarket shows it for sale. A SpareRoom 2-bed detached bungalow to rent near Meersbrook Park (£1,295 pcm, private landlord) lists a driveway and detached garage, so it does not match Welby's workshop and one-car parking: https://www.spareroom.co.uk/flatshare/south_yorkshire/norton/16930371",
+    "task": "L"
+   }
+  ],
+  "floor_area_listing": [
+   {
+    "house": "welby",
+    "field": "floor_area_listing",
+    "value": "645 (unit not shown; 645 sq ft = 59.9 m²)",
+    "unit": null,
+    "source": "https://www.onthemarket.com/details/14232169",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "OTM listing by Staves Woodseats; brick workshop 2.55 x 2.45 m; one car",
+    "task": "L"
+   }
+  ],
+  "planning_history": [
+   {
+    "house": "welby",
+    "field": "planning_history",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found. planningapps.sheffield.gov.uk refused automated fetch (robots disallowed; sandbox proxy 403) and web search surfaced no application pages for this address. Search the portal by hand by street name.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "neighbour_applications": [
+   {
+    "house": "welby",
+    "field": "neighbour_applications",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found, same reason as planning_history: Sheffield planning portal not reachable by agent. A manual street-name search on the portal covers neighbours within 5 doors.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "building_control_signoff": [
+   {
+    "house": "welby",
+    "field": "building_control_signoff",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "No public online source among allowed ones; completion certificates appear in the solicitor's local authority search (CON29) or from the seller. Ask for them, esp. for extensions (leeshall dining extension, welby workshop).",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "conservation_area": [
+   {
+    "house": "welby",
+    "field": "conservation_area",
+    "value": "not in a conservation area (likely)",
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.486%2053.330,-1.458%2053.330,-1.458%2053.356,-1.486%2053.356,-1.486%2053.330))&geometry_relation=intersects&limit=50",
+    "confidence": "medium",
+    "note": "Box query over Meersbrook/Norton Lees/Woodseats (lon -1.486 to -1.458, lat 53.330-53.356) returned only Norton CA (ref 5442, centroid -1.4631, 53.3363), which lies about 1.5 km south of Meersbrook. House coordinates are my estimate; no postcode lookup was reachable within the allowed sources, so check on the council conservation map.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "article4_direction": [
+   {
+    "house": "welby",
+    "field": "article4_direction",
+    "value": "none known",
+    "source": "https://www.sheffield.gov.uk/planning-development/conservation-areas",
+    "confidence": "low",
+    "note": "Council conservation page names Article 4 directions only for Nether Edge and Broomhill; planning.data.gov.uk has zero Sheffield Article 4 records (https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&organisation_entity=294&limit=50), so a city-wide HMO-type direction can't be ruled out from these sources. A local search will confirm.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "own_past_sales": [
+   {
+    "house": "welby",
+    "field": "own_past_sales",
+    "value": [
+     {
+      "date": "2021-11-19",
+      "price": 242000,
+      "type": "D",
+      "tenure": "F",
+      "new_build": false
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Only sale of No. 50 in Land Registry price-paid data (covers 1995 on). Matches project note (Nov 2021, £242k). A separate row shows £242,000 on 20 Apr 2022 for No. 3 Welby Place (terraced, leasehold) - a different house.",
+    "task": "S4"
+   }
+  ],
+  "last_sale_price": [
+   {
+    "house": "welby",
+    "field": "last_sale_price",
+    "value": 242000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "S4"
+   }
+  ],
+  "last_sale_date": [
+   {
+    "house": "welby",
+    "field": "last_sale_date",
+    "value": "2021-11-19",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "S4"
+   }
+  ],
+  "tenure_lr": [
+   {
+    "house": "welby",
+    "field": "tenure_lr",
+    "value": "F",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Freehold on the 2021 sale record.",
+    "task": "S4"
+   }
+  ],
+  "street_highest_price": [
+   {
+    "house": "welby",
+    "field": "street_highest_price",
+    "value": 292500,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "42 Welby Place (S8 9DB), terraced, freehold, 3 Nov 2025. Highest detached on the street: £242,000 (No. 50, 2021).",
+    "task": "S4"
+   }
+  ],
+  "street_sales_24m": [
+   {
+    "house": "welby",
+    "field": "street_sales_24m",
+    "value": 7,
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD&min_date=1+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "19 Nov 2024 to 19 Nov 2026, all types; none detached. 5 standard sales (Nos. 4 £243k, 16 £240k, 21 £232.5k, 7 £162k, 42 £292.5k) plus 2 category-B (No. 7 £145k Aug 2025; No. 17 £5k 'other' Apr 2026). Terraced asks £232-243k leasehold.",
+    "task": "S4"
+   }
+  ],
+  "postcode_sales_24m": [
+   {
+    "house": "welby",
+    "field": "postcode_sales_24m",
+    "value": 1,
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD&min_date=1+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "S8 9DB: only 42 Welby Place, £292,500, 3 Nov 2025, terraced freehold.",
+    "task": "S4"
+   }
+  ],
+  "sector_sales_24m": [
+   {
+    "house": "welby",
+    "field": "sector_sales_24m",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Sector S8 9 not fetched: price-paid CSV ignores partial postcodes (0 rows) and the SPARQL query URL was too long for the fetch proxy. Run scripts/fetch_lr.py-style SPARQL from an unblocked machine.",
+    "task": "S4"
+   }
+  ]
+ },
+ "leeshall": {
+  "epc_certificates": [
+   {
+    "house": "leeshall",
+    "field": "epc_certificates",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_floor_area_m2": [
+   {
+    "house": "leeshall",
+    "field": "epc_floor_area_m2",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_current_band": [
+   {
+    "house": "leeshall",
+    "field": "epc_current_band",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_property_type": [
+   {
+    "house": "leeshall",
+    "field": "epc_property_type",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_improvements": [
+   {
+    "house": "leeshall",
+    "field": "epc_improvements",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "fensa_record": [
+   {
+    "house": "leeshall",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
+    "task": "C"
+   }
+  ],
+  "gas_safe_record": [
+   {
+    "house": "leeshall",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
+    "task": "C"
+   }
+  ],
+  "coal_mining_risk": [
+   {
+    "house": "leeshall",
+    "field": "coal_mining_risk",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
+    "task": "H"
+   }
+  ],
+  "landslip": [
+   {
+    "house": "leeshall",
+    "field": "landslip",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "made_ground": [
+   {
+    "house": "leeshall",
+    "field": "made_ground",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused).",
+    "task": "H"
+   }
+  ],
+  "shrink_swell": [
+   {
+    "house": "leeshall",
+    "field": "shrink_swell",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "flood_rivers": [
+   {
+    "house": "leeshall",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "flood_surface_water": [
+   {
+    "house": "leeshall",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "knotweed_nearby": [
+   {
+    "house": "leeshall",
+    "field": "knotweed_nearby",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Environet Exposed map is a JS app with no URL surfaced by search; not fetched within the 15-fetch cap.",
+    "task": "H"
+   }
+  ],
+  "tree_preservation_order": [
+   {
+    "house": "leeshall",
+    "field": "tree_preservation_order",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Sheffield council TPO page points to an interactive map only (no URL given); TPO status needs that map or a local land charges search (not ordered).",
+    "task": "H"
+   }
+  ],
+  "listing_history": [
+   {
+    "house": "leeshall",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-09-08",
+     "price": 290000,
+     "reduced": false,
+     "agent": "Staves"
+    },
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/73420669/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Zoopla nearby-results card",
+    "task": "L"
+   }
+  ],
+  "tenure_listing": [
+   {
+    "house": "leeshall",
+    "field": "tenure_listing",
+    "value": "leasehold",
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/73420669/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Zoopla card for the Staves £290k Lees Hall Road listing says Leasehold; title register not checked",
+    "task": "L"
+   }
+  ],
+  "days_on_market": [
+   {
+    "house": "leeshall",
+    "field": "days_on_market",
+    "value": 72,
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/73420669/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "8 Sep to 19 Nov 2026",
+    "task": "L"
+   }
+  ],
+  "rival_listings": [
+   {
+    "house": "leeshall",
+    "field": "rival_listings",
+    "value": [
+     {
+      "street": "Lees Hall Road",
+      "price": 250000,
+      "qualifier": "OIRO",
+      "tenure": "L",
+      "listed": "2026-03-20",
+      "reduced": true,
+      "agent": "Yopa",
+      "note": "earlier guide £260k",
+      "url": "https://www.zoopla.co.uk/for-sale/details/73420669/"
+     },
+     {
+      "street": "Lees Hall Road",
+      "price": 250000,
+      "qualifier": "OIRO",
+      "tenure": "L",
+      "agent": "Blundells",
+      "status": "for sale, just added",
+      "url": "https://app.zoopla.co.uk/for-sale/details/73364749/"
+     },
+     {
+      "street": "Lees Hall Road",
+      "price": 260000,
+      "tenure": "F",
+      "added": "2026-06-10",
+      "agent": "Staves",
+      "status": "Sold STC",
+      "url": "https://www.primelocation.com/for-sale/details/73420669/"
+     },
+     {
+      "street": "22 Lees Hall Road S8 9JJ",
+      "price": 280000,
+      "qualifier": "guide 280-290k",
+      "tenure": "F",
+      "area_sqft": 925,
+      "agent": "Haus",
+      "status": "Sold STC",
+      "url": "https://app.zoopla.co.uk/for-sale/details/72790640"
+     },
+     {
+      "street": "Lees Hall Road",
+      "price": 290000,
+      "tenure": "L",
+      "area_sqft": 878,
+      "agent": "Whitehorn",
+      "status": "Sold STC",
+      "reduced": "2026-07-24",
+      "url": "https://www.zoopla.co.uk/for-sale/details/72808245/"
+     }
+    ],
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/73420669/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "house numbers mostly not shown",
+    "task": "L"
+   }
+  ],
+  "street_sales_jj": [
+   {
+    "house": "leeshall",
+    "field": "street_sales_jj",
+    "value": [
+     {
+      "no": 26,
+      "date": "2025-05-07",
+      "price": 275000,
+      "prev": "2024-01-26 £280,000",
+      "tenure": "L"
+     },
+     {
+      "no": 50,
+      "date": "2025-05-16",
+      "price": 245000,
+      "tenure": "L"
+     },
+     {
+      "no": 58,
+      "date": "2024-02-09",
+      "price": 265000,
+      "tenure": "L"
+     },
+     {
+      "no": 45,
+      "date": "2023-06-09",
+      "price": 250000,
+      "tenure": "F"
+     }
+    ],
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/house-prices/S8-9JJ.html",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Rightmove sold prices (Land Registry data); No. 26 sold for £5k less in 2025 than in 2024",
+    "task": "L"
+   }
+  ],
+  "street_sales_ppm2": [
+   {
+    "house": "leeshall",
+    "field": "street_sales_ppm2",
+    "value": [
+     {
+      "no": 117,
+      "pc": "S8 9JL",
+      "date": "2025-07-15",
+      "price": 268000,
+      "m2": 69,
+      "ppm2": 3884
+     },
+     {
+      "no": 26,
+      "date": "2025-05-07",
+      "price": 275000,
+      "m2": 84,
+      "ppm2": 3273
+     },
+     {
+      "no": 105,
+      "pc": "S8 9JL",
+      "date": "2025-01-20",
+      "price": 255000,
+      "m2": 71,
+      "ppm2": 3591
+     }
+    ],
+    "unit": null,
+    "source": "https://housemetric.co.uk/house-prices/Lees-Hall-Road/S8-9J",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Housemetric (LR + EPC); not indexed to today",
+    "task": "L"
+   }
+  ],
+  "planning_history": [
+   {
+    "house": "leeshall",
+    "field": "planning_history",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found. planningapps.sheffield.gov.uk refused automated fetch (robots disallowed; sandbox proxy 403) and web search surfaced no application pages for this address. Search the portal by hand by street name.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "neighbour_applications": [
+   {
+    "house": "leeshall",
+    "field": "neighbour_applications",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found, same reason as planning_history: Sheffield planning portal not reachable by agent. A manual street-name search on the portal covers neighbours within 5 doors.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "building_control_signoff": [
+   {
+    "house": "leeshall",
+    "field": "building_control_signoff",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "No public online source among allowed ones; completion certificates appear in the solicitor's local authority search (CON29) or from the seller. Ask for them, esp. for extensions (leeshall dining extension, welby workshop).",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "conservation_area": [
+   {
+    "house": "leeshall",
+    "field": "conservation_area",
+    "value": "not in a conservation area (likely)",
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.473%2053.342,-1.462%2053.342,-1.462%2053.350,-1.473%2053.350,-1.473%2053.342))&geometry_relation=intersects&limit=50",
+    "confidence": "medium",
+    "note": "Box over Norton Lees (lon -1.473 to -1.462, lat 53.342-53.350) returned zero conservation areas. Norton CA (ref 5442) lies to the south. House coordinates are my estimate; no postcode lookup was reachable within the allowed sources, so check on the council conservation map.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "article4_direction": [
+   {
+    "house": "leeshall",
+    "field": "article4_direction",
+    "value": "none known",
+    "source": "https://www.sheffield.gov.uk/planning-development/conservation-areas",
+    "confidence": "low",
+    "note": "Council conservation page names Article 4 directions only for Nether Edge and Broomhill; planning.data.gov.uk has zero Sheffield Article 4 records (https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&organisation_entity=294&limit=50), so a city-wide HMO-type direction can't be ruled out from these sources. A local search will confirm.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "own_past_sales": [
+   {
+    "house": "leeshall",
+    "field": "own_past_sales",
+    "value": [],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&paon=57",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "No price-paid record for 57 Lees Hall Road since 1995: owned since before 1995, or passed without a sale (gift, probate, etc).",
+    "task": "S4"
+   }
+  ],
+  "last_sale_price": [
+   {
+    "house": "leeshall",
+    "field": "last_sale_price",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "No Land Registry price-paid record since 1995.",
+    "task": "S4"
+   }
+  ],
+  "last_sale_date": [
+   {
+    "house": "leeshall",
+    "field": "last_sale_date",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "No Land Registry price-paid record since 1995.",
+    "task": "S4"
+   }
+  ],
+  "tenure_lr": [
+   {
+    "house": "leeshall",
+    "field": "tenure_lr",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Price-paid data gives tenure only for sales; none for No. 57. 8 of 9 semi sales on the street since Nov 2024 were leasehold (only No. 13 freehold). Title register would settle it; not ordered.",
+    "task": "S4"
+   }
+  ],
+  "street_highest_price": [
+   {
+    "house": "leeshall",
+    "field": "street_highest_price",
+    "value": 551551,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "13 Lees Hall Road (S8 9JH), semi, freehold, 24 Jan 2025 - an outlier; next highest recent is No. 15 £377k (Mar 2025).",
+    "task": "S4"
+   }
+  ],
+  "street_sales_24m": [
+   {
+    "house": "leeshall",
+    "field": "street_sales_24m",
+    "value": 10,
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "All after 19 Nov 2024; 9 semis, 1 detached (No. 121 £250k Mar 2026, leasehold). Confirms project-doc comps: No. 26 £275k (7 May 2025), No. 117 £268k (15 Jul 2025), No. 105 £255k (20 Jan 2025).",
+    "task": "S4"
+   }
+  ],
+  "postcode_sales_24m": [
+   {
+    "house": "leeshall",
+    "field": "postcode_sales_24m",
+    "value": 2,
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "S8 9JJ: No. 26 £275,000 (7 May 2025) and No. 50 £245,000 (16 May 2025), both semi leasehold.",
+    "task": "S4"
+   }
+  ],
+  "sector_sales_24m": [
+   {
+    "house": "leeshall",
+    "field": "sector_sales_24m",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Sector S8 9 not fetched: price-paid CSV ignores partial postcodes (0 rows) and the SPARQL query URL was too long for the fetch proxy. Run scripts/fetch_lr.py-style SPARQL from an unblocked machine.",
+    "task": "S4"
+   }
+  ]
+ },
+ "cawthorne": {
+  "epc_certificates": [
+   {
+    "house": "cawthorne",
+    "field": "epc_certificates",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_floor_area_m2": [
+   {
+    "house": "cawthorne",
+    "field": "epc_floor_area_m2",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_current_band": [
+   {
+    "house": "cawthorne",
+    "field": "epc_current_band",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_property_type": [
+   {
+    "house": "cawthorne",
+    "field": "epc_property_type",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_improvements": [
+   {
+    "house": "cawthorne",
+    "field": "epc_improvements",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "fensa_record": [
+   {
+    "house": "cawthorne",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
+    "task": "C"
+   }
+  ],
+  "gas_safe_record": [
+   {
+    "house": "cawthorne",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
+    "task": "C"
+   }
+  ],
+  "coal_mining_risk": [
+   {
+    "house": "cawthorne",
+    "field": "coal_mining_risk",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
+    "task": "H"
+   }
+  ],
+  "landslip": [
+   {
+    "house": "cawthorne",
+    "field": "landslip",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "made_ground": [
+   {
+    "house": "cawthorne",
+    "field": "made_ground",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused).",
+    "task": "H"
+   }
+  ],
+  "shrink_swell": [
+   {
+    "house": "cawthorne",
+    "field": "shrink_swell",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "flood_rivers": [
+   {
+    "house": "cawthorne",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "flood_surface_water": [
+   {
+    "house": "cawthorne",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "knotweed_nearby": [
+   {
+    "house": "cawthorne",
+    "field": "knotweed_nearby",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Environet Exposed map is a JS app with no URL surfaced by search; not fetched within the 15-fetch cap.",
+    "task": "H"
+   }
+  ],
+  "tree_preservation_order": [
+   {
+    "house": "cawthorne",
+    "field": "tree_preservation_order",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Sheffield council TPO page points to an interactive map only (no URL given); TPO status needs that map or a local land charges search (not ordered).",
+    "task": "H"
+   }
+  ],
+  "listing_history": [
+   {
+    "house": "cawthorne",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-07-31",
+     "guide": "300000-325000",
+     "reduced": false,
+     "agent": "Saxton Mee Banner Cross"
+    },
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/properties/91503453",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "No house number on page",
+    "task": "L"
+   }
+  ],
+  "days_on_market": [
+   {
+    "house": "cawthorne",
+    "field": "days_on_market",
+    "value": 111,
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/properties/91503453",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "31 Jul to 19 Nov 2026",
+    "task": "L"
+   }
+  ],
+  "listing_facts": [
+   {
+    "house": "cawthorne",
+    "field": "listing_facts",
+    "value": {
+     "type": "semi-detached",
+     "beds": 3,
+     "baths": 2,
+     "area_m2": 80,
+     "area_sqft": 863,
+     "tenure": "F",
+     "council_tax": "B",
+     "hall": "entrance hallway"
+    },
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/properties/91503453",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "L"
+   }
+  ],
+  "comparable_listing_no12": [
+   {
+    "house": "cawthorne",
+    "field": "comparable_listing_no12",
+    "value": "12 Cawthorne Grove, S8 0ND: Saxton Mee, guide £300-325k, 3-bed semi, freehold, band B; Land Registry shows it sold £315,000 in Oct 2025 (facts/S2.jsonl)",
+    "unit": null,
+    "source": "https://media.rightmove.co.uk/10k/9405/161707661/9405_33870704_DOC_02_0000.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "A different house from No. 6, same guide and agent: the best single comparable. No. 6's own record (sold £253k Apr 2023) confirms the Saturday doc's number",
+    "task": "L"
+   }
+  ],
+  "planning_history": [
+   {
+    "house": "cawthorne",
+    "field": "planning_history",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found. planningapps.sheffield.gov.uk refused automated fetch (robots disallowed; sandbox proxy 403) and web search surfaced no application pages for this address. Search the portal by hand by street name.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "neighbour_applications": [
+   {
+    "house": "cawthorne",
+    "field": "neighbour_applications",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found, same reason as planning_history: Sheffield planning portal not reachable by agent. A manual street-name search on the portal covers neighbours within 5 doors.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "building_control_signoff": [
+   {
+    "house": "cawthorne",
+    "field": "building_control_signoff",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "No public online source among allowed ones; completion certificates appear in the solicitor's local authority search (CON29) or from the seller. Ask for them, esp. for extensions (leeshall dining extension, welby workshop).",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "conservation_area": [
+   {
+    "house": "cawthorne",
+    "field": "conservation_area",
+    "value": "not in a conservation area (likely)",
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.502%2053.338,-1.486%2053.338,-1.486%2053.352,-1.502%2053.352,-1.502%2053.338))&geometry_relation=intersects&limit=50",
+    "confidence": "medium",
+    "note": "Box over Millhouses (lon -1.502 to -1.486, lat 53.338-53.352) returned zero; nearest CAs are Beauchief Abbey (centroid -1.5005, 53.3331) and Nether Edge (to the north). House coordinates are my estimate; no postcode lookup was reachable within the allowed sources, so check on the council conservation map.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "article4_direction": [
+   {
+    "house": "cawthorne",
+    "field": "article4_direction",
+    "value": "none known",
+    "source": "https://www.sheffield.gov.uk/planning-development/conservation-areas",
+    "confidence": "low",
+    "note": "Council conservation page names Article 4 directions only for Nether Edge and Broomhill; planning.data.gov.uk has zero Sheffield Article 4 records (https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&organisation_entity=294&limit=50), so a city-wide HMO-type direction can't be ruled out from these sources. A local search will confirm.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "own_past_sales": [
+   {
+    "field": "own_past_sales",
+    "value": [
+     {
+      "date": "2023-04-03",
+      "price": 253000,
+      "type": "S",
+      "tenure": "F",
+      "new_build": false
+     }
+    ],
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD",
+    "confidence": "high",
+    "note": "Only sale of 6 Cawthorne Grove (S8 0ND) in price-paid data since 1995. Land Registry types it semi-detached. Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+    "house": "cawthorne",
+    "retrieved": "2026-11-19",
+    "task": "S2"
+   }
+  ],
+  "last_sale_price": [
+   {
+    "field": "last_sale_price",
+    "value": 253000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD",
+    "confidence": "high",
+    "note": "3 Apr 2023. Guide £300-325k is 19-28% above it. Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+    "house": "cawthorne",
+    "retrieved": "2026-11-19",
+    "task": "S2"
+   }
+  ],
+  "last_sale_date": [
+   {
+    "field": "last_sale_date",
+    "value": "2023-04-03",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD",
+    "confidence": "high",
+    "note": "Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+    "house": "cawthorne",
+    "retrieved": "2026-11-19",
+    "task": "S2"
+   }
+  ],
+  "tenure_lr": [
+   {
+    "field": "tenure_lr",
+    "value": "freehold",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD",
+    "confidence": "medium",
+    "note": "Estate type F on the 2023 sale. Price-paid data is not the title register; about a third of street sales are leasehold, so confirm with the agent. Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+    "house": "cawthorne",
+    "retrieved": "2026-11-19",
+    "task": "S2"
+   }
+  ],
+  "street_highest_price": [
+   {
+    "field": "street_highest_price",
+    "value": 435000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD",
+    "confidence": "high",
+    "note": "27C Cawthorne Grove (S8 0NB), detached, 14 May 2025. Highest semi: 27B, £350,000, 29 Apr 2025. Highest on S8 0ND: No. 8, semi, £320,000, 19 Dec 2025; No. 12, £315,000, 22 Oct 2025. Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+    "house": "cawthorne",
+    "retrieved": "2026-11-19",
+    "task": "S2"
+   }
+  ],
+  "street_sales_24m": [
+   {
+    "field": "street_sales_24m",
+    "value": 7,
+    "unit": "sales",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD",
+    "confidence": "high",
+    "note": "Since 19 Nov 2024: S8 0ND Nos 8, 12, 22, 26, 45 (semis, £248-320k); S8 0NB 27B (semi £350k), 27C (detached £435k). Latest record 19 Dec 2025; 2026 sales may not yet be registered. Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+    "house": "cawthorne",
+    "retrieved": "2026-11-19",
+    "task": "S2"
+   }
+  ],
+  "postcode_sales_24m": [
+   {
+    "field": "postcode_sales_24m",
+    "value": 5,
+    "unit": "sales",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8+0ND&min_date=19+November+2024",
+    "confidence": "high",
+    "note": "S8 0ND since 19 Nov 2024, all semis: No. 8 £320,000 (Dec 2025), 12 £315,000 (Oct 2025), 45 £295,000 leasehold (Jun 2025), 26 £270,000 (Jun 2025), 22 £248,000 (Jun 2025). Matches the street query. Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+    "house": "cawthorne",
+    "retrieved": "2026-11-19",
+    "task": "S2"
+   }
+  ]
+ },
+ "underwood": {
+  "epc_certificates": [
+   {
+    "house": "underwood",
+    "field": "epc_certificates",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_floor_area_m2": [
+   {
+    "house": "underwood",
+    "field": "epc_floor_area_m2",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_current_band": [
+   {
+    "house": "underwood",
+    "field": "epc_current_band",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_property_type": [
+   {
+    "house": "underwood",
+    "field": "epc_property_type",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_improvements": [
+   {
+    "house": "underwood",
+    "field": "epc_improvements",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "fensa_record": [
+   {
+    "house": "underwood",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
+    "task": "C"
+   }
+  ],
+  "gas_safe_record": [
+   {
+    "house": "underwood",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
+    "task": "C"
+   }
+  ],
+  "coal_mining_risk": [
+   {
+    "house": "underwood",
+    "field": "coal_mining_risk",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
+    "task": "H"
+   }
+  ],
+  "landslip": [
+   {
+    "house": "underwood",
+    "field": "landslip",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "made_ground": [
+   {
+    "house": "underwood",
+    "field": "made_ground",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused).",
+    "task": "H"
+   }
+  ],
+  "shrink_swell": [
+   {
+    "house": "underwood",
+    "field": "shrink_swell",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "flood_rivers": [
+   {
+    "house": "underwood",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "flood_surface_water": [
+   {
+    "house": "underwood",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "knotweed_nearby": [
+   {
+    "house": "underwood",
+    "field": "knotweed_nearby",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Environet Exposed map is a JS app with no URL surfaced by search; not fetched within the 15-fetch cap.",
+    "task": "H"
+   }
+  ],
+  "tree_preservation_order": [
+   {
+    "house": "underwood",
+    "field": "tree_preservation_order",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Sheffield council TPO page points to an interactive map only (no URL given); TPO status needs that map or a local land charges search (not ordered).",
+    "task": "H"
+   }
+  ],
+  "listing_history": [
+   {
+    "house": "underwood",
+    "field": "listing_history",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found. Listing is Zoopla 74619438 (not opened: needs approval). A Haybrook 3-bed mid-terrace on Underwood Road, freehold, hall, was marketed at guide £190-200k (heading £180k), number not shown: https://www.rightmove.co.uk/properties/167316458 ; https://www.haybrook.com/buying/3-bedroom-house-for-sale/sheffield-s8/hay031076008 . If that is No. 38, it has been relaunched £20-40k higher.",
+    "task": "L"
+   }
+  ],
+  "rival_listings": [
+   {
+    "house": "underwood",
+    "field": "rival_listings",
+    "value": [
+     {
+      "street": "Woodseats Road",
+      "price": 220000,
+      "area_sqft": 1393,
+      "tenure": "L",
+      "agent": "Whitehorn",
+      "url": "https://www.zoopla.co.uk/for-sale/details/73333235/"
+     },
+     {
+      "street": "Holmhirst Drive",
+      "price": 220000,
+      "tenure": "L",
+      "agent": "Whitehorn",
+      "url": "https://www.zoopla.co.uk/for-sale/details/71797135"
+     },
+     {
+      "street": "Hackthorn Road",
+      "price": 220000,
+      "tenure": "F",
+      "url": "https://www.primelocation.com/for-sale/details/73386162/"
+     }
+    ],
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/73333235/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "3-bed terraces near Woodseats at ~£220k; status not rechecked",
+    "task": "L"
+   }
+  ],
+  "planning_history": [
+   {
+    "house": "underwood",
+    "field": "planning_history",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found. planningapps.sheffield.gov.uk refused automated fetch (robots disallowed; sandbox proxy 403) and web search surfaced no application pages for this address. Search the portal by hand by street name.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "neighbour_applications": [
+   {
+    "house": "underwood",
+    "field": "neighbour_applications",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found, same reason as planning_history: Sheffield planning portal not reachable by agent. A manual street-name search on the portal covers neighbours within 5 doors.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "building_control_signoff": [
+   {
+    "house": "underwood",
+    "field": "building_control_signoff",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "No public online source among allowed ones; completion certificates appear in the solicitor's local authority search (CON29) or from the seller. Ask for them, esp. for extensions (leeshall dining extension, welby workshop).",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "conservation_area": [
+   {
+    "house": "underwood",
+    "field": "conservation_area",
+    "value": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.484%2053.332,-1.468%2053.332,-1.468%2053.341,-1.484%2053.341,-1.484%2053.332))&geometry_relation=intersects&limit=50",
+    "confidence": "low",
+    "note": "Unresolved. Box over Woodseats (lon -1.484 to -1.468, lat 53.332-53.341) intersects Norton CA (ref 5442, centroid -1.4631, 53.3363), so Norton CA reaches into this box; exact house position not known. Probably outside, but check council map.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "article4_direction": [
+   {
+    "house": "underwood",
+    "field": "article4_direction",
+    "value": "none known",
+    "source": "https://www.sheffield.gov.uk/planning-development/conservation-areas",
+    "confidence": "low",
+    "note": "Council conservation page names Article 4 directions only for Nether Edge and Broomhill; planning.data.gov.uk has zero Sheffield Article 4 records (https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&organisation_entity=294&limit=50), so a city-wide HMO-type direction can't be ruled out from these sources. A local search will confirm.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "own_past_sales": [
+   {
+    "house": "underwood",
+    "field": "own_past_sales",
+    "value": [
+     {
+      "date": "2020-12-07",
+      "price": 140000,
+      "type": "T",
+      "tenure": "L"
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Only one sale of 38 Underwood Road on record (1995 onwards). Rows read through a page-summarising fetch tool, not raw CSV; re-check against the CSV.",
+    "task": "S3"
+   }
+  ],
+  "last_sale_price": [
+   {
+    "house": "underwood",
+    "field": "last_sale_price",
+    "value": 140000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Sold 7 Dec 2020.",
+    "task": "S3"
+   }
+  ],
+  "last_sale_date": [
+   {
+    "house": "underwood",
+    "field": "last_sale_date",
+    "value": "2020-12-07",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "S3"
+   }
+  ],
+  "tenure_lr": [
+   {
+    "house": "underwood",
+    "field": "tenure_lr",
+    "value": "leasehold",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "LR estate type L at the 2020 sale; property type T (terraced). Lease length not in price-paid data.",
+    "task": "S3"
+   }
+  ],
+  "street_highest_price": [
+   {
+    "house": "underwood",
+    "field": "street_highest_price",
+    "value": 246000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "36 Underwood Road (semi, freehold), 16 Jun 2026. Highest terraced: £200,000, 56 Underwood Road, 17 Jul 2025. Rows read through a page-summarising fetch tool, not raw CSV; re-check against the CSV.",
+    "task": "S3"
+   }
+  ],
+  "street_sales_24m": [
+   {
+    "house": "underwood",
+    "field": "street_sales_24m",
+    "value": 5,
+    "unit": "sales",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Since 19 Nov 2024: No.4 £155k S (Sep 25), No.18 £87.5k T cat B (Dec 25), No.56 £200k T (Jul 25), No.36 £246k S (Jun 26), No.34 £122.5k S (Jul 26). Only 2 are terraced. LR price-paid lags registration by 1-3 months; latest deed dates seen Sep 2026, so late-2026 sales may be missing.",
+    "task": "S3"
+   }
+  ],
+  "postcode_sales_24m": [
+   {
+    "house": "underwood",
+    "field": "postcode_sales_24m",
+    "value": 5,
+    "unit": "sales",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8+8TH&min_date=1+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "All five street sales are in S8 8TH; LR returned 5 rows for S8 8TH since 1 Nov 2024. LR price-paid lags registration by 1-3 months; latest deed dates seen Sep 2026, so late-2026 sales may be missing.",
+    "task": "S3"
+   }
+  ]
+ },
+ "helmton": {
+  "epc_certificates": [
+   {
+    "house": "helmton",
+    "field": "epc_certificates",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_floor_area_m2": [
+   {
+    "house": "helmton",
+    "field": "epc_floor_area_m2",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_current_band": [
+   {
+    "house": "helmton",
+    "field": "epc_current_band",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_property_type": [
+   {
+    "house": "helmton",
+    "field": "epc_property_type",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_improvements": [
+   {
+    "house": "helmton",
+    "field": "epc_improvements",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "fensa_record": [
+   {
+    "house": "helmton",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
+    "task": "C"
+   }
+  ],
+  "gas_safe_record": [
+   {
+    "house": "helmton",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
+    "task": "C"
+   }
+  ],
+  "coal_mining_risk": [
+   {
+    "house": "helmton",
+    "field": "coal_mining_risk",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
+    "task": "H"
+   }
+  ],
+  "landslip": [
+   {
+    "house": "helmton",
+    "field": "landslip",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "made_ground": [
+   {
+    "house": "helmton",
+    "field": "made_ground",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused).",
+    "task": "H"
+   }
+  ],
+  "shrink_swell": [
+   {
+    "house": "helmton",
+    "field": "shrink_swell",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "flood_rivers": [
+   {
+    "house": "helmton",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "flood_surface_water": [
+   {
+    "house": "helmton",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "knotweed_nearby": [
+   {
+    "house": "helmton",
+    "field": "knotweed_nearby",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Environet Exposed map is a JS app with no URL surfaced by search; not fetched within the 15-fetch cap.",
+    "task": "H"
+   }
+  ],
+  "tree_preservation_order": [
+   {
+    "house": "helmton",
+    "field": "tree_preservation_order",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Sheffield council TPO page points to an interactive map only (no URL given); TPO status needs that map or a local land charges search (not ordered).",
+    "task": "H"
+   }
+  ],
+  "listing_history": [
+   {
+    "house": "helmton",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-06-17",
+     "first_price": 300000,
+     "first_qualifier": "OIRO",
+     "later": [
+      {
+       "date": "2026-10-14",
+       "price": 270000,
+       "note": "Rightmove reduced date"
+      },
+      {
+       "date": "by 2026-11-19",
+       "price": 265000,
+       "qualifier": "offers over"
+      }
+     ]
+    },
+    "unit": null,
+    "source": "https://www.primelocation.com/for-sale/details/73476420/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Join of three pages: PrimeLocation added 17/06/2026 OIRO £300k; Rightmove 89812113 £270k reduced 14/10/2026; Zoopla card offers over £265k listed 17 Jun 2026, Reduced. All Whitehorn, 3-bed semi, 786 sq ft, freehold. No house number shown",
+    "task": "L"
+   }
+  ],
+  "listing_facts": [
+   {
+    "house": "helmton",
+    "field": "listing_facts",
+    "value": {
+     "type": "semi-detached",
+     "beds": 3,
+     "area_m2": 73,
+     "area_sqft": 786,
+     "tenure": "F",
+     "council_tax": "B",
+     "epc": "C",
+     "hall": "entrance hall"
+    },
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/properties/89812113",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Matches 'offers over £265k' Whitehorn listing; house number not shown",
+    "task": "L"
+   }
+  ],
+  "days_on_market": [
+   {
+    "house": "helmton",
+    "field": "days_on_market",
+    "value": 155,
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/73420669/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "17 Jun to 19 Nov 2026",
+    "task": "L"
+   }
+  ],
+  "doc_mixup": [
+   {
+    "house": "helmton",
+    "field": "doc_mixup",
+    "value": "The Saturday doc's 109 m² and 136-year lease match 25 Helmton Drive (3-bed end terrace, 1,171 sq ft, leasehold 137 years, Sold STC), a different house",
+    "unit": null,
+    "source": "https://www.primelocation.com/for-sale/details/71339073/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "L"
+   }
+  ],
+  "other_whitehorn_listing": [
+   {
+    "house": "helmton",
+    "field": "other_whitehorn_listing",
+    "value": "Whitehorn also lists a 2-bed semi on Helmton Drive at guide £265k, 1,026 sq ft (95 m²), freehold, EPC C, porch and hall",
+    "unit": null,
+    "source": "https://app.zoopla.co.uk/for-sale/details/72827185",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Confirm which one is No. 17",
+    "task": "L"
+   }
+  ],
+  "planning_history": [
+   {
+    "house": "helmton",
+    "field": "planning_history",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found. planningapps.sheffield.gov.uk refused automated fetch (robots disallowed; sandbox proxy 403) and web search surfaced no application pages for this address. Search the portal by hand by street name.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "neighbour_applications": [
+   {
+    "house": "helmton",
+    "field": "neighbour_applications",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found, same reason as planning_history: Sheffield planning portal not reachable by agent. A manual street-name search on the portal covers neighbours within 5 doors.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "building_control_signoff": [
+   {
+    "house": "helmton",
+    "field": "building_control_signoff",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "No public online source among allowed ones; completion certificates appear in the solicitor's local authority search (CON29) or from the seller. Ask for them, esp. for extensions (leeshall dining extension, welby workshop).",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "conservation_area": [
+   {
+    "house": "helmton",
+    "field": "conservation_area",
+    "value": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.484%2053.332,-1.468%2053.332,-1.468%2053.341,-1.484%2053.341,-1.484%2053.332))&geometry_relation=intersects&limit=50",
+    "confidence": "low",
+    "note": "Unresolved. Box over Woodseats (lon -1.484 to -1.468, lat 53.332-53.341) intersects Norton CA (ref 5442, centroid -1.4631, 53.3363). Helmton Drive is in south Woodseats, so being near or in Norton CA cannot be ruled out; check council map.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "article4_direction": [
+   {
+    "house": "helmton",
+    "field": "article4_direction",
+    "value": "none known",
+    "source": "https://www.sheffield.gov.uk/planning-development/conservation-areas",
+    "confidence": "low",
+    "note": "Council conservation page names Article 4 directions only for Nether Edge and Broomhill; planning.data.gov.uk has zero Sheffield Article 4 records (https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&organisation_entity=294&limit=50), so a city-wide HMO-type direction can't be ruled out from these sources. A local search will confirm.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "own_past_sales": [
+   {
+    "house": "helmton",
+    "field": "own_past_sales",
+    "value": [
+     {
+      "date": "2018-12-19",
+      "price": 190000,
+      "type": "S",
+      "tenure": "F"
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Only one sale of 17 Helmton Drive on record (1995 onwards). Rows read through a page-summarising fetch tool, not raw CSV; re-check against the CSV.",
+    "task": "S3"
+   }
+  ],
+  "last_sale_price": [
+   {
+    "house": "helmton",
+    "field": "last_sale_price",
+    "value": 190000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Sold 19 Dec 2018.",
+    "task": "S3"
+   }
+  ],
+  "last_sale_date": [
+   {
+    "house": "helmton",
+    "field": "last_sale_date",
+    "value": "2018-12-19",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "S3"
+   }
+  ],
+  "tenure_lr": [
+   {
+    "house": "helmton",
+    "field": "tenure_lr",
+    "value": "freehold",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "LR estate type F at the 2018 sale; type S (semi). Clashes with the '136-year lease' claim; most other Helmton Drive sales are leasehold, and LR sometimes logs freehold and lease of one house as two rows, so check the title.",
+    "task": "S3"
+   }
+  ],
+  "street_highest_price": [
+   {
+    "house": "helmton",
+    "field": "street_highest_price",
+    "value": 300000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "1A Helmton Drive (semi, leasehold), 1 Jul 2022; a £1,800 'other' sale of 1A same day. Highest since Nov 2024: £280,000, No.1 (semi, leasehold), 15 May 2025. Rows read through a page-summarising fetch tool, not raw CSV; re-check against the CSV.",
+    "task": "S3"
+   }
+  ],
+  "street_sales_24m": [
+   {
+    "house": "helmton",
+    "field": "street_sales_24m",
+    "value": 3,
+    "unit": "sales",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Since 19 Nov 2024: No.1 £280k S L (May 25), No.39 £240k T L (Jun 25), No.5 £228k T L (Aug 25). LR price-paid lags registration by 1-3 months; latest deed dates seen Sep 2026, so late-2026 sales may be missing.",
+    "task": "S3"
+   }
+  ],
+  "postcode_sales_24m": [
+   {
+    "house": "helmton",
+    "field": "postcode_sales_24m",
+    "value": 3,
+    "unit": "sales",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Every Helmton Drive row is S8 8QN, so postcode count equals street count; no separate postcode query run. LR price-paid lags registration by 1-3 months; latest deed dates seen Sep 2026, so late-2026 sales may be missing.",
+    "task": "S3"
+   }
+  ]
+ },
+ "hollythorpe": {
+  "epc_certificates": [
+   {
+    "house": "hollythorpe",
+    "field": "epc_certificates",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_floor_area_m2": [
+   {
+    "house": "hollythorpe",
+    "field": "epc_floor_area_m2",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_current_band": [
+   {
+    "house": "hollythorpe",
+    "field": "epc_current_band",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_property_type": [
+   {
+    "house": "hollythorpe",
+    "field": "epc_property_type",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "epc_improvements": [
+   {
+    "house": "hollythorpe",
+    "field": "epc_improvements",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: energy-certificate register blocks automated fetching (robots_disallowed on find-energy-certificate.service.gov.uk and .digital.communities.gov.uk, incl. robots.txt); shell gets proxy 403; site-limited web search returned no certificate pages. Check by hand at find-energy-certificate.service.gov.uk.",
+    "task": "C"
+   }
+  ],
+  "fensa_record": [
+   {
+    "house": "hollythorpe",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
+    "task": "C"
+   }
+  ],
+  "gas_safe_record": [
+   {
+    "house": "hollythorpe",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
+    "task": "C"
+   }
+  ],
+  "postcode": [
+   {
+    "house": "hollythorpe",
+    "field": "postcode",
+    "value": "S8 9NF",
+    "unit": null,
+    "source": "https://postcodedatabase.uk/s89nf",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Price-paid sale record (1 Oct 2010) lists '51 Hollythorpe Road, Sheffield S8 9NF'; postcode centroid 53.3507,-1.4630. Rest of street (Nos 1-36) is S8 9NE.",
+    "task": "H"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "postcode",
+    "value": "S8 9NF",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Postcode on Land Registry record for 51 Hollythorpe Road.",
+    "task": "S4"
+   }
+  ],
+  "coal_mining_risk": [
+   {
+    "house": "hollythorpe",
+    "field": "coal_mining_risk",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
+    "task": "H"
+   }
+  ],
+  "landslip": [
+   {
+    "house": "hollythorpe",
+    "field": "landslip",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "made_ground": [
+   {
+    "house": "hollythorpe",
+    "field": "made_ground",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused).",
+    "task": "H"
+   }
+  ],
+  "shrink_swell": [
+   {
+    "house": "hollythorpe",
+    "field": "shrink_swell",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
+    "task": "H"
+   }
+  ],
+  "flood_rivers": [
+   {
+    "house": "hollythorpe",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "flood_surface_water": [
+   {
+    "house": "hollythorpe",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
+    "task": "H"
+   }
+  ],
+  "knotweed_nearby": [
+   {
+    "house": "hollythorpe",
+    "field": "knotweed_nearby",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Environet Exposed map is a JS app with no URL surfaced by search; not fetched within the 15-fetch cap.",
+    "task": "H"
+   }
+  ],
+  "tree_preservation_order": [
+   {
+    "house": "hollythorpe",
+    "field": "tree_preservation_order",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Sheffield council TPO page points to an interactive map only (no URL given); TPO status needs that map or a local land charges search (not ordered).",
+    "task": "H"
+   }
+  ],
+  "listing_history": [
+   {
+    "house": "hollythorpe",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-02-23",
+     "price": 280000,
+     "qualifier": "OIRO",
+     "reduced": false,
+     "agent": "Whitehorn",
+     "tenure": "F",
+     "area_sqft": 731
+    },
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/70241795",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Zoopla card; no house number shown. Matched to No. 51 by agent, street and price",
+    "task": "L"
+   }
+  ],
+  "days_on_market": [
+   {
+    "house": "hollythorpe",
+    "field": "days_on_market",
+    "value": 269,
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/70241795",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "23 Feb to 19 Nov 2026",
+    "task": "L"
+   }
+  ],
+  "floor_area_listing_m2": [
+   {
+    "house": "hollythorpe",
+    "field": "floor_area_listing_m2",
+    "value": 67.9,
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/70241795",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "731 sq ft; asking = £4,123/m²",
+    "task": "L"
+   }
+  ],
+  "rival_listings": [
+   {
+    "house": "hollythorpe",
+    "field": "rival_listings",
+    "value": [
+     {
+      "street": "Hollythorpe Road S8 9NF",
+      "price": 280000,
+      "tenure": "F",
+      "added": "2026-06-12",
+      "agent": "Hunters",
+      "status": "Sold STC",
+      "url": "https://www.rightmove.co.uk/properties/89629326"
+     },
+     {
+      "street": "Hollythorpe Crescent",
+      "price": 240000,
+      "area_sqft": 807,
+      "tenure": "F",
+      "status": "STC",
+      "url": "https://app.zoopla.co.uk/for-sale/details/73286215/"
+     },
+     {
+      "street": "Thorpe House Avenue",
+      "price": 325000,
+      "tenure": "F",
+      "listed": "2026-10-28",
+      "agent": "Hunters",
+      "url": "https://www.zoopla.co.uk/for-sale/details/70241795"
+     }
+    ],
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/70241795",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "",
+    "task": "L"
+   }
+  ],
+  "planning_history": [
+   {
+    "house": "hollythorpe",
+    "field": "planning_history",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found. planningapps.sheffield.gov.uk refused automated fetch (robots disallowed; sandbox proxy 403) and web search surfaced no application pages for this address. Search the portal by hand by street name.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "neighbour_applications": [
+   {
+    "house": "hollythorpe",
+    "field": "neighbour_applications",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "Not found, same reason as planning_history: Sheffield planning portal not reachable by agent. A manual street-name search on the portal covers neighbours within 5 doors.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "building_control_signoff": [
+   {
+    "house": "hollythorpe",
+    "field": "building_control_signoff",
+    "value": null,
+    "source": null,
+    "confidence": "low",
+    "note": "No public online source among allowed ones; completion certificates appear in the solicitor's local authority search (CON29) or from the seller. Ask for them, esp. for extensions (leeshall dining extension, welby workshop).",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "conservation_area": [
+   {
+    "house": "hollythorpe",
+    "field": "conservation_area",
+    "value": "not in a conservation area (likely)",
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.473%2053.342,-1.462%2053.342,-1.462%2053.350,-1.473%2053.350,-1.473%2053.342))&geometry_relation=intersects&limit=50",
+    "confidence": "medium",
+    "note": "Box over Norton Lees (lon -1.473 to -1.462, lat 53.342-53.350) returned zero conservation areas. House coordinates are my estimate; no postcode lookup was reachable within the allowed sources, so check on the council conservation map.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "article4_direction": [
+   {
+    "house": "hollythorpe",
+    "field": "article4_direction",
+    "value": "none known",
+    "source": "https://www.sheffield.gov.uk/planning-development/conservation-areas",
+    "confidence": "low",
+    "note": "Council conservation page names Article 4 directions only for Nether Edge and Broomhill; planning.data.gov.uk has zero Sheffield Article 4 records (https://www.planning.data.gov.uk/entity.json?dataset=article-4-direction-area&organisation_entity=294&limit=50), so a city-wide HMO-type direction can't be ruled out from these sources. A local search will confirm.",
+    "unit": null,
+    "retrieved": "2026-11-19",
+    "task": "P"
+   }
+  ],
+  "own_past_sales": [
+   {
+    "house": "hollythorpe",
+    "field": "own_past_sales",
+    "value": [
+     {
+      "date": "2010-10-01",
+      "price": 136500,
+      "type": "S",
+      "tenure": "L",
+      "new_build": false
+     },
+     {
+      "date": "2010-10-01",
+      "price": 136500,
+      "type": "S",
+      "tenure": "F",
+      "new_build": false
+     }
+    ],
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Same price and date filed under both leasehold and freehold - likely house bought with its freehold reversion (two titles). No other sale since 1995.",
+    "task": "S4"
+   }
+  ],
+  "last_sale_price": [
+   {
+    "house": "hollythorpe",
+    "field": "last_sale_price",
+    "value": 136500,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "S4"
+   }
+  ],
+  "last_sale_date": [
+   {
+    "house": "hollythorpe",
+    "field": "last_sale_date",
+    "value": "2010-10-01",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "",
+    "task": "S4"
+   }
+  ],
+  "tenure_lr": [
+   {
+    "house": "hollythorpe",
+    "field": "tenure_lr",
+    "value": "L and F",
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "2010 sale recorded twice, once leasehold once freehold; owner probably holds both titles (effectively freehold) but only a title register would confirm.",
+    "task": "S4"
+   }
+  ],
+  "street_highest_price": [
+   {
+    "house": "hollythorpe",
+    "field": "street_highest_price",
+    "value": 330000,
+    "unit": "GBP",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "80 Hollythorpe Road (S8 9NF), semi, freehold, 14 Mar 2025. Medium: full-street extract may have been cut off at No. 85.",
+    "task": "S4"
+   }
+  ],
+  "street_sales_24m": [
+   {
+    "house": "hollythorpe",
+    "field": "street_sales_24m",
+    "value": 5,
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "All semis: No. 13 £295k (F, Oct 2025), 30 £241k (L), 33 £235k (L), 49 £315k (L, Jun 2025), 80 £330k (F, Mar 2025).",
+    "task": "S4"
+   }
+  ],
+  "postcode_sales_24m": [
+   {
+    "house": "hollythorpe",
+    "field": "postcode_sales_24m",
+    "value": 2,
+    "unit": null,
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "S8 9NF: No. 49 £315,000 (30 Jun 2025, L) and No. 80 £330,000 (14 Mar 2025, F).",
+    "task": "S4"
+   }
+  ],
+  "sector_sales_24m": [
+   {
+    "house": "hollythorpe",
+    "field": "sector_sales_24m",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Sector S8 9 not fetched: price-paid CSV ignores partial postcodes (0 rows) and the SPARQL query URL was too long for the fetch proxy. Run scripts/fetch_lr.py-style SPARQL from an unblocked machine.",
+    "task": "S4"
+   }
+  ]
+ },
+ "market": {
+  "uk_hpi_nationwide_annual_pct": [
+   {
+    "house": "market",
+    "field": "uk_hpi_nationwide_annual_pct",
+    "value": 0.5,
+    "unit": "%",
+    "source": "https://www.nationwide.co.uk/media/hpi/reports/annual-house-price-growth-slows-again-in-october",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Oct 2026: +0.5% y/y (Sep 0.8%); m/m 0.0% SA; avg £273,566. Nov figure not yet out.",
+    "task": "M1"
+   }
+  ],
+  "uk_hpi_halifax_annual_pct": [
+   {
+    "house": "market",
+    "field": "uk_hpi_halifax_annual_pct",
+    "value": -1.2,
+    "unit": "%",
+    "source": "https://www.lloydsbank.com/assets/media_centre/pdf/october-2026-lloyds-house-price-index.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Oct 2026: -1.2% y/y; m/m -0.6%; avg £296,285. Halifax HPI now published as the Lloyds House Price Index ('formerly the Halifax House Price Index'). Release date not stated in PDF.",
+    "task": "M1"
+   }
+  ],
+  "ons_ukhpi_annual_pct": [
+   {
+    "house": "market",
+    "field": "ons_ukhpi_annual_pct",
+    "value": 1.2,
+    "unit": "%",
+    "source": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/november2026",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Sep 2026 (provisional): UK avg £273,000, +1.2% y/y. Released 18 Nov 2026; next release 16 Dec 2026. Aug 2026 was +0.9%.",
+    "task": "M1"
+   }
+  ],
+  "sheffield_hpi_detached": [
+   {
+    "house": "market",
+    "field": "sheffield_hpi_detached",
+    "value": 383000,
+    "unit": "GBP",
+    "source": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000039/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Sep 2026 avg price £383,000 (provisional). Index value, 1-, 3- and 12-month changes not shown on ONS page; Land Registry UK HPI data blocked (robots/proxy).",
+    "task": "M1"
+   }
+  ],
+  "sheffield_hpi_semi": [
+   {
+    "house": "market",
+    "field": "sheffield_hpi_semi",
+    "value": 239000,
+    "unit": "GBP",
+    "source": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000039/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Sep 2026 avg price £239,000 (provisional); 12-month +1.8%. Index, 1- and 3-month changes not shown on ONS page.",
+    "task": "M1"
+   }
+  ],
+  "sheffield_hpi_terraced": [
+   {
+    "house": "market",
+    "field": "sheffield_hpi_terraced",
+    "value": 198000,
+    "unit": "GBP",
+    "source": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000039/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Sep 2026 avg price £198,000 (provisional). Index, 1-, 3- and 12-month changes not shown on ONS page.",
+    "task": "M1"
+   }
+  ],
+  "sheffield_hpi_flat": [
+   {
+    "house": "market",
+    "field": "sheffield_hpi_flat",
+    "value": 133000,
+    "unit": "GBP",
+    "source": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000039/",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Sep 2026 avg price £133,000 (provisional); 12-month -2.0%. Index, 1- and 3-month changes not shown. Sheffield all types £219,000, +1.0% y/y; Yorks & Humber £211,000.",
+    "task": "M1"
+   }
+  ],
+  "rics_new_buyer_enquiries_balance": [
+   {
+    "house": "market",
+    "field": "rics_new_buyer_enquiries_balance",
+    "value": -24,
+    "unit": "net balance %",
+    "source": "https://rics.org/news-insights/uk-residential-survey-october-2026",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Oct 2026 survey, pub 12 Nov 2026: -24 (unchanged from Sep). Agreed sales -24, prices -36. No Yorkshire figure on page.",
+    "task": "M1"
+   }
+  ],
+  "rics_new_instructions_balance": [
+   {
+    "house": "market",
+    "field": "rics_new_instructions_balance",
+    "value": -8,
+    "unit": "net balance %",
+    "source": "https://rics.org/news-insights/uk-residential-survey-october-2026",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Oct 2026 survey, pub 12 Nov 2026: -8 (Sep +6).",
+    "task": "M1"
+   }
+  ],
+  "bank_rate": [
+   {
+    "house": "market",
+    "field": "bank_rate",
+    "value": 4.0,
+    "unit": "%",
+    "source": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-november-2026.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Raised 0.25pp to 4% on 5 Nov 2026 (meeting ended 4 Nov), vote 8-1; Mann wanted 4.25%.",
+    "task": "M1"
+   }
+  ],
+  "next_bank_rate_decision_date": [
+   {
+    "house": "market",
+    "field": "next_bank_rate_decision_date",
+    "value": "2026-12-17",
+    "unit": null,
+    "source": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/2026/monetary-policy-summary-and-minutes-november-2026.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Nov minutes: 'minutes of the Committee meeting ending on 16 December will be published on 17 December 2026' - decision announced with them.",
+    "task": "M1"
+   }
+  ],
+  "avg_2yr_fixed_rate": [
+   {
+    "house": "market",
+    "field": "avg_2yr_fixed_rate",
+    "value": 5.97,
+    "unit": "%",
+    "source": "https://www.mpamag.com/uk/mortgage-types/residential/mortgage-rates-hit-three-year-high-as-lenders-reprice-aggressively-ahead-of-base-rate-rise/596193",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Moneyfacts average 2-yr fix as reported 4 Nov 2026 (before the 5 Nov rate rise); secondary source - Moneyfacts site was down for maintenance.",
+    "task": "M1"
+   }
+  ],
+  "avg_5yr_fixed_rate": [
+   {
+    "house": "market",
+    "field": "avg_5yr_fixed_rate",
+    "value": 6.0,
+    "unit": "%",
+    "source": "https://www.mpamag.com/uk/mortgage-types/residential/mortgage-rates-hit-three-year-high-as-lenders-reprice-aggressively-ahead-of-base-rate-rise/596193",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Moneyfacts average 5-yr fix, Nov 2026: 6.00% (Nov 2025: 5.01%). Reported 4 Nov 2026, before the 5 Nov rate rise; secondary source.",
+    "task": "M1"
+   }
+  ],
+  "sale_vs_asking_gap_pct": [
+   {
+    "house": "market",
+    "field": "sale_vs_asking_gap_pct",
+    "value": null,
+    "unit": "%",
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "No current figure found. Zoopla Oct 2026 HPI (business.zoopla.co.uk/zoopla-house-price-index) gives no average discount; the only figure found, 5.5% (£18,000), is from Nov 2023 (zoopla.co.uk press release) - too stale to use.",
+    "task": "M1"
+   }
+  ],
+  "s8_sales_per_month": [
+   {
+    "house": "market",
+    "field": "s8_sales_per_month",
+    "value": 45.3,
+    "unit": "sales/month",
+    "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&min_date=2026-03-01&max_date=2026-05-31&postcode=S8",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "S8 district, Land Registry price paid, deed dates Mar-May 2026: 54+42+40=136 sales /3 = 45.3 a month. Jun-Aug 2026 gave 32+43+30=105 (35/month) but recent months are under-counted because registrations lag 1-3 months (https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&min_date=2026-06-01&max_date=2026-08-31&postcode=S8). Includes all PPD categories (A+B). Rows counted by WebFetch summariser, not by script.",
+    "task": "M2"
+   }
+  ],
+  "s8_listings_for_sale": [
+   {
+    "house": "market",
+    "field": "s8_listings_for_sale",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found. Home.co.uk pages (current_prices for S8, market_reports) returned client errors; curl blocked by proxy (403). PropertyData S8 draw page hit its free monthly search limit; postcode-district page errored. Listing portals barred.",
+    "task": "M2"
+   }
+  ],
+  "s8_months_of_stock": [
+   {
+    "house": "market",
+    "field": "s8_months_of_stock",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not computed: needs S8 listings count, which was not found. Sales side is 45.3/month (Mar-May 2026, Land Registry); months of stock = listings / 45.3 once listings are known.",
+    "task": "M2"
+   }
+  ],
+  "s8_median_days_on_market": [
+   {
+    "house": "market",
+    "field": "s8_median_days_on_market",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found. Home.co.uk (source of time-on-market) blocked; PropertyData free page hit search limit. Portals barred.",
+    "task": "M2"
+   }
+  ],
+  "s8_share_listings_price_cut": [
+   {
+    "house": "market",
+    "field": "s8_share_listings_price_cut",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found. Home.co.uk and PropertyData pages unavailable (client error / free search limit). Portals barred.",
+    "task": "M2"
+   }
+  ]
+ }
+}

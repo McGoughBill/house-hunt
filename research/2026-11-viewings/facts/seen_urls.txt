@@ -77,3 +77,10 @@ https://www.planning.data.gov.uk/entity.json?dataset=listed-building&geometry=PO
 https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.473%2053.342,-1.462%2053.342,-1.462%2053.350,-1.473%2053.350,-1.473%2053.342))&geometry_relation=intersects&limit=50
 https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.484%2053.332,-1.468%2053.332,-1.468%2053.341,-1.484%2053.341,-1.484%2053.332))&geometry_relation=intersects&limit=50
 https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8&min_date=1+November+2024&ptype%5B%5D=lrcommon%3Aterraced
+https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8&min_date=1+November+2024&ptype%5B%5D=lrcommon%3Asemi-detached
+https://find-energy-certificate.service.gov.uk/find-a-certificate/search-by-postcode?postcode=S8+8TH
+https://map.bgs.ac.uk/arcgis/rest/services/CoalAuthority?f=json
+https://www.doogal.co.uk/ShowMap?postcode=S8+9NE
+https://www.sheffield.gov.uk/planning-development/make-application-works-trees/tree-preservation-orders
+https://postcodedatabase.uk/s89ne
+https://postcodedatabase.uk/s89nf
