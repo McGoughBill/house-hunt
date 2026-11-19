@@ -1,0 +1,63 @@
+# Wave 2 inputs for comps.py: each house's Land Registry type, floor area and listing history.
+# Every figure carries its source. Where sources clash, the ruling is in out/clashes_settled.md.
+# lr_type: D detached, S semi, T terraced (the type used to pick comparables).
+houses:
+  falmouth:
+    lr_type: T
+    area_m2: 94          # smallest supportable figure: Hunters' 1,007 sq ft by phone
+    area_m2_high: 108    # listing: 1,163 sq ft
+    area_source: "Hunters listing (1,163 sq ft) https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/ ; Hunters by phone 19 Nov (1,007 sq ft), recorded in project doc saturday-viewings-2026-11-21.md"
+    asking: 210000
+    prices: [{date: "2026-08-27", price: 215000}, {date: "2026-10-09", price: 210000}]
+    prices_source: "facts/L.jsonl listing_history (nethouseprices mirror of Hunters 34891232)"
+  welby:
+    lr_type: D
+    area_m2: 60
+    area_source: "OnTheMarket listing, 645 sq ft (facts/L.jsonl floor_area_listing); HouseMetric 60 m² https://housemetric.co.uk/house-prices/Welby-Place/S8-9D"
+    asking: 265000
+    prices: [{date: "2026-09-02", price: 265000}]
+    prices_source: "facts/L.jsonl listing_history (Zoopla card, no Reduced tag)"
+  leeshall:
+    lr_type: S
+    area_m2: 69          # energy certificate; may leave out the dining-room extension
+    area_source: "Energy certificate figure in project doc 57-lees-hall-road-2026-11-14.md; register itself blocked to fetching"
+    asking: 290000
+    prices: [{date: "2026-09-08", price: 290000}]
+    prices_source: "facts/L.jsonl listing_history (Zoopla card)"
+  cawthorne:
+    lr_type: S
+    area_m2: 80
+    area_source: "Saxton Mee listing, 863 sq ft https://www.saxtonmee.co.uk/properties-for-sale/property/3201-cawthorne-grove-millhouses-sheffield"
+    asking: 300000       # bottom of guide £300-325k
+    asking_high: 325000
+    prices: [{date: "2026-07-31", price: 300000, note: "guide 300-325k"}]
+    prices_source: "facts/L.jsonl listing_history"
+  underwood:
+    lr_type: T
+    area_m2: 85
+    area_source: "Zoopla listing 74619438, 915 sq ft https://www.zoopla.co.uk/for-sale/details/74619438/"
+    asking: 220000
+    prices: [{date: "2026-10-28", price: 220000}]
+    prices_source: "facts/L2.jsonl listing_history (Zoopla 74619438, opened 19 Nov)"
+  helmton:
+    lr_type: S
+    area_m2: 73
+    area_source: "Whitehorn listing via Rightmove 89812113, 786 sq ft https://www.rightmove.co.uk/properties/89812113"
+    asking: 265000
+    prices: [{date: "2026-06-17", price: 300000}, {date: "2026-10-14", price: 270000}, {date: "2026-11-19", price: 265000, note: "offers over; date first seen, not date of cut"}]
+    prices_source: "facts/L.jsonl listing_history (PrimeLocation, Rightmove 89812113, Zoopla card)"
+    doneup:   # redone wave 2: 73 m², not 109; listing says already done up
+      V: [246886, 264933]
+      W: [0, 5000]
+      why: "already done up per listing (modern and stylish), so W is cosmetic only; V low = 73 m² × £3,382/m², the one same-type comparable (1 Helmton Dr, 86 m², leasehold, thin); V high = the seller's 2018 £190k brought to today (£264,933)"
+  hollythorpe:
+    lr_type: S
+    area_m2: 68
+    area_source: "Whitehorn listing via Zoopla card, 731 sq ft (facts/L.jsonl floor_area_listing_m2) https://www.zoopla.co.uk/for-sale/details/70241795"
+    asking: 280000
+    prices: [{date: "2026-02-23", price: 280000}]
+    prices_source: "facts/L.jsonl listing_history"
+    doneup:   # redone wave 2: street comparables replace the old £241k borrowed-street estimate
+      V: [276148, 285532]
+      W: [0, 5000]
+      why: "already done up per listing (immaculate, no expense spared), so W is cosmetic only and V sits in the top half of the street range: 68 m² × median £4,061 to upper quartile £4,199/m², 6 semis with floor areas"

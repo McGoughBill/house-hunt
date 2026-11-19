@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build every agent prompt from templates/task.md. S1-S4 only if fetch_lr.py failed.
-Usage: make_tasks.py  -> writes tasks/<id>.md and prints the ids."""
+Usage: make_tasks.py [ID ...]  -> writes tasks/<id>.md (all, or only the ids given) and prints the ids."""
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -12,11 +12,14 @@ lr = ROOT / "data/lr_status.json"
 lr_ok = lr.exists() and json.loads(lr.read_text()).get("ok")
 out = ROOT / "tasks"; out.mkdir(exist_ok=True)
 made = []
+only = set(sys.argv[1:])
 for tid, t in TASKS.items():
-    if t.get("comps") and lr_ok:
+    if only and tid not in only:
+        continue
+    if not only and (t.get("wave", 1) != 1 or (t.get("comps") and lr_ok)):
         continue
     text = tpl.format(task_id=tid, scope=t["scope"], root=ROOT, ids=", ".join(t["ids"]),
-                      sources=t["sources"], fields=", ".join(t["fields"]), extra=t.get("extra", ""))
+                      sources=t["sources"], fields=", ".join(t["fields"]), extra=t.get("extra", ""), cap=t.get("cap", 15))
     (out / f"{tid}.md").write_text(text)
     made.append(tid)
 print("Land Registry script:", "worked" if lr_ok else "failed or not run")

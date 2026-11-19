@@ -9,7 +9,7 @@ Write: one line per fact to facts/{task_id}.jsonl, matching schema/fact.json.
 {extra}
 Check facts/seen_urls.txt before fetching; add every URL you fetch (append, one per line).
 Rules: cite a URL for every fact; null plus reason if not found;
-at most 15 fetches; no listing portals (Rightmove, Zoopla, OnTheMarket, agents' sites);
+at most {cap} fetches; no listing portals (Rightmove, Zoopla, OnTheMarket, agents' sites);
 no contact with anyone; send no email; buy or order nothing (no title registers);
 never use death notices or obituaries; do not run git.
 Return: at most 80 words — done or partial, count of facts, gaps.

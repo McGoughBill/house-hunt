@@ -1,198 +1,1037 @@
 {
  "falmouth": {
+  "type": "T",
+  "area_m2": 94,
+  "area_m2_high": 108,
+  "asking": 210000,
+  "asking_high": null,
+  "asking_ppm2": 2234,
+  "asking_ppm2_alt": 1944,
   "street": {
    "n": 1,
    "n_with_area": 0,
+   "thin": true,
    "median_ppm2": null,
    "spread_ppm2": null,
-   "top_price": 240000,
-   "top_address": "33 Falmouth Road, Sheffield"
+   "top_ppm2": null,
+   "median_price_today": 239314,
+   "top_price_today": 239314,
+   "top_address": "33 Falmouth Road, Sheffield",
+   "sales": [
+    {
+     "address": "33 Falmouth Road, Sheffield",
+     "date": "2026-07-31",
+     "age": "<1 yr",
+     "price": 240000,
+     "indexed": 239314,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG&min_date=19+November+2024"
+    }
+   ]
   },
   "postcode": {
    "n": 1,
    "n_with_area": 0,
+   "thin": true,
    "median_ppm2": null,
    "spread_ppm2": null,
-   "top_price": 240000,
-   "top_address": "33 Falmouth Road, Sheffield"
+   "top_ppm2": null,
+   "median_price_today": 239314,
+   "top_price_today": 239314,
+   "top_address": "33 Falmouth Road, Sheffield",
+   "sales": [
+    {
+     "address": "33 Falmouth Road, Sheffield",
+     "date": "2026-07-31",
+     "age": "<1 yr",
+     "price": 240000,
+     "indexed": 239314,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG&min_date=19+November+2024"
+    }
+   ]
   },
-  "sector": {
-   "n": 15,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 294000,
-   "top_address": "194 Carter Knowle Road, Sheffield"
+  "street_ceiling_ever": {
+   "price": 290000,
+   "note": "7 Falmouth Road, terraced, leasehold, 13 Jun 2023. Next highest: 33 Falmouth Road £240,000 (31 Jul 2026).",
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=FALMOUTH+ROAD&town=SHEFFIELD"
   },
-  "street_ceiling": 240000,
-  "last_sale": null
+  "last_sale": {
+   "date": "2012-01-27",
+   "age": "6+ yrs",
+   "price": 119950,
+   "type": "T",
+   "today": 227709,
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG"
+  },
+  "first_listed": "2026-08-27",
+  "days_on_market": 84,
+  "first_price": 215000,
+  "cuts": 1,
+  "cut_pct": 2.3
  },
  "welby": {
+  "type": "D",
+  "area_m2": 60,
+  "area_m2_high": null,
+  "asking": 265000,
+  "asking_high": null,
+  "asking_ppm2": 4417,
+  "asking_ppm2_alt": null,
   "street": {
    "n": 0,
    "n_with_area": 0,
+   "thin": true,
    "median_ppm2": null,
    "spread_ppm2": null,
-   "top_price": null,
-   "top_address": null
+   "top_ppm2": null,
+   "median_price_today": null,
+   "top_price_today": null,
+   "top_address": null,
+   "sales": []
   },
   "postcode": {
    "n": 0,
    "n_with_area": 0,
+   "thin": true,
    "median_ppm2": null,
    "spread_ppm2": null,
-   "top_price": null,
-   "top_address": null
+   "top_ppm2": null,
+   "median_price_today": null,
+   "top_price_today": null,
+   "top_address": null,
+   "sales": []
   },
-  "sector": {
-   "n": 15,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 551551,
-   "top_address": "13 Lees Hall Road, Sheffield"
+  "street_ceiling_ever": {
+   "price": 292500,
+   "note": "42 Welby Place (S8 9DB), terraced, freehold, 3 Nov 2025. Highest detached on the street: £242,000 (No. 50, 2021).",
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD"
   },
-  "street_ceiling": null,
-  "last_sale": null
+  "last_sale": {
+   "date": "2021-11-19",
+   "age": "4–5 yrs",
+   "price": 242000,
+   "type": "D",
+   "today": 279147,
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=WELBY+PLACE&town=SHEFFIELD"
+  },
+  "first_listed": "2026-09-02",
+  "days_on_market": 78,
+  "first_price": 265000,
+  "cuts": 0,
+  "cut_pct": 0.0
  },
  "leeshall": {
+  "type": "S",
+  "area_m2": 69,
+  "area_m2_high": null,
+  "asking": 290000,
+  "asking_high": null,
+  "asking_ppm2": 4203,
+  "asking_ppm2_alt": null,
   "street": {
-   "n": 10,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 551551,
-   "top_address": "13 Lees Hall Road, Sheffield"
+   "n": 16,
+   "n_with_area": 13,
+   "thin": false,
+   "median_ppm2": 3644,
+   "spread_ppm2": [
+    3042,
+    4762
+   ],
+   "top_ppm2": 4762,
+   "median_price_today": 299048,
+   "top_price_today": 559599,
+   "top_address": "13 Lees Hall Road, Sheffield",
+   "sales": [
+    {
+     "address": "115 Lees Hall Road, Sheffield",
+     "date": "2026-02-13",
+     "age": "<1 yr",
+     "price": 300000,
+     "indexed": 298569,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "101 Lees Hall Road, Sheffield",
+     "date": "2025-09-24",
+     "age": "1–2 yrs",
+     "price": 180000,
+     "indexed": 183161,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "117 Lees Hall Road, Sheffield",
+     "date": "2025-07-15",
+     "age": "1–2 yrs",
+     "price": 268000,
+     "indexed": 277306,
+     "tenure": "L",
+     "floor_area_m2": 69,
+     "ppm2": 4019,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "50 Lees Hall Road, Sheffield",
+     "date": "2025-05-16",
+     "age": "1–2 yrs",
+     "price": 245000,
+     "indexed": 254517,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "26 Lees Hall Road, Sheffield",
+     "date": "2025-05-07",
+     "age": "1–2 yrs",
+     "price": 275000,
+     "indexed": 285682,
+     "tenure": "L",
+     "floor_area_m2": 84,
+     "ppm2": 3401,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "15 Lees Hall Road, Sheffield",
+     "date": "2025-03-24",
+     "age": "1–2 yrs",
+     "price": 377000,
+     "indexed": 380281,
+     "tenure": "L",
+     "floor_area_m2": 111,
+     "ppm2": 3426,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "99 Lees Hall Road, Sheffield",
+     "date": "2025-01-31",
+     "age": "1–2 yrs",
+     "price": 340000,
+     "indexed": 344961,
+     "tenure": "L",
+     "floor_area_m2": 89,
+     "ppm2": 3876,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "13 Lees Hall Road, Sheffield",
+     "date": "2025-01-24",
+     "age": "1–2 yrs",
+     "price": 551551,
+     "indexed": 559599,
+     "tenure": "F",
+     "floor_area_m2": 161,
+     "ppm2": 3476,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "105 Lees Hall Road, Sheffield",
+     "date": "2025-01-20",
+     "age": "1–2 yrs",
+     "price": 255000,
+     "indexed": 258721,
+     "tenure": "L",
+     "floor_area_m2": 71,
+     "ppm2": 3644,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "104 Lees Hall Road, Sheffield",
+     "date": "2024-07-04",
+     "age": "2–3 yrs",
+     "price": 321500,
+     "indexed": 340431,
+     "tenure": "L",
+     "floor_area_m2": 82,
+     "ppm2": 4152,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "21 Lees Hall Road, Sheffield",
+     "date": "2024-04-11",
+     "age": "2–3 yrs",
+     "price": 367500,
+     "indexed": 397617,
+     "tenure": "F",
+     "floor_area_m2": 128,
+     "ppm2": 3106,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "84 Lees Hall Road, Sheffield",
+     "date": "2024-02-28",
+     "age": "2–3 yrs",
+     "price": 280000,
+     "indexed": 303261,
+     "tenure": "F",
+     "floor_area_m2": 79,
+     "ppm2": 3839,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "58 Lees Hall Road, Sheffield",
+     "date": "2024-02-09",
+     "age": "2–3 yrs",
+     "price": 265000,
+     "indexed": 287015,
+     "tenure": "L",
+     "floor_area_m2": 71,
+     "ppm2": 4042,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "26 Lees Hall Road, Sheffield",
+     "date": "2024-01-26",
+     "age": "2–3 yrs",
+     "price": 280000,
+     "indexed": 299528,
+     "tenure": "L",
+     "floor_area_m2": 84,
+     "ppm2": 3566,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "76 Lees Hall Road, Sheffield",
+     "date": "2023-12-20",
+     "age": "2–3 yrs",
+     "price": 215000,
+     "indexed": 228123,
+     "tenure": "F",
+     "floor_area_m2": 75,
+     "ppm2": 3042,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "97 Lees Hall Road, Sheffield",
+     "date": "2023-11-29",
+     "age": "2–3 yrs",
+     "price": 305000,
+     "indexed": 319072,
+     "tenure": "L",
+     "floor_area_m2": 67,
+     "ppm2": 4762,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    }
+   ]
   },
   "postcode": {
-   "n": 2,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 275000,
-   "top_address": "26 Lees Hall Road, Sheffield"
+   "n": 4,
+   "n_with_area": 3,
+   "thin": false,
+   "median_ppm2": 3566,
+   "spread_ppm2": [
+    3401,
+    4042
+   ],
+   "top_ppm2": 4042,
+   "median_price_today": 286348,
+   "top_price_today": 299528,
+   "top_address": "26 Lees Hall Road, Sheffield",
+   "sales": [
+    {
+     "address": "50 Lees Hall Road, Sheffield",
+     "date": "2025-05-16",
+     "age": "1–2 yrs",
+     "price": 245000,
+     "indexed": 254517,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "26 Lees Hall Road, Sheffield",
+     "date": "2025-05-07",
+     "age": "1–2 yrs",
+     "price": 275000,
+     "indexed": 285682,
+     "tenure": "L",
+     "floor_area_m2": 84,
+     "ppm2": 3401,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "58 Lees Hall Road, Sheffield",
+     "date": "2024-02-09",
+     "age": "2–3 yrs",
+     "price": 265000,
+     "indexed": 287015,
+     "tenure": "L",
+     "floor_area_m2": 71,
+     "ppm2": 4042,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "26 Lees Hall Road, Sheffield",
+     "date": "2024-01-26",
+     "age": "2–3 yrs",
+     "price": 280000,
+     "indexed": 299528,
+     "tenure": "L",
+     "floor_area_m2": 84,
+     "ppm2": 3566,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    }
+   ]
   },
-  "sector": {
-   "n": 15,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 551551,
-   "top_address": "13 Lees Hall Road, Sheffield"
+  "street_ceiling_ever": {
+   "price": 551551,
+   "note": "13 Lees Hall Road (S8 9JH), semi, freehold, 24 Jan 2025 - an outlier; next highest recent is No. 15 £377k (Mar 2025).",
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=LEES+HALL+ROAD&town=SHEFFIELD"
   },
-  "street_ceiling": 551551,
-  "last_sale": null
+  "last_sale": null,
+  "first_listed": "2026-09-08",
+  "days_on_market": 72,
+  "first_price": 290000,
+  "cuts": 0,
+  "cut_pct": 0.0
  },
  "cawthorne": {
+  "type": "S",
+  "area_m2": 80,
+  "area_m2_high": null,
+  "asking": 300000,
+  "asking_high": 325000,
+  "asking_ppm2": 3750,
+  "asking_ppm2_alt": 4062,
   "street": {
-   "n": 7,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 350000,
-   "top_address": "27B Cawthorne Grove, Sheffield"
+   "n": 11,
+   "n_with_area": 8,
+   "thin": false,
+   "median_ppm2": 3644,
+   "spread_ppm2": [
+    2326,
+    3942
+   ],
+   "top_ppm2": 3942,
+   "median_price_today": 292411,
+   "top_price_today": 361078,
+   "top_address": "27B Cawthorne Grove, Sheffield",
+   "sales": [
+    {
+     "address": "8 Cawthorne Grove, Sheffield",
+     "date": "2025-12-19",
+     "age": "<1 yr",
+     "price": 320000,
+     "indexed": 322162,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "12 Cawthorne Grove, Sheffield",
+     "date": "2025-10-22",
+     "age": "1–2 yrs",
+     "price": 315000,
+     "indexed": 320219,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "45 Cawthorne Grove, Sheffield",
+     "date": "2025-06-30",
+     "age": "1–2 yrs",
+     "price": 295000,
+     "indexed": 311422,
+     "tenure": "L",
+     "floor_area_m2": 79,
+     "ppm2": 3942,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "26 Cawthorne Grove, Sheffield",
+     "date": "2025-06-20",
+     "age": "1–2 yrs",
+     "price": 270000,
+     "indexed": 285030,
+     "tenure": "F",
+     "floor_area_m2": 78,
+     "ppm2": 3654,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "22 Cawthorne Grove, Sheffield",
+     "date": "2025-06-03",
+     "age": "1–2 yrs",
+     "price": 248000,
+     "indexed": 261806,
+     "tenure": "F",
+     "floor_area_m2": 78,
+     "ppm2": 3356,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "27B Cawthorne Grove, Sheffield",
+     "date": "2025-04-29",
+     "age": "1–2 yrs",
+     "price": 350000,
+     "indexed": 361078,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "21 Cawthorne Grove, Sheffield",
+     "date": "2024-11-04",
+     "age": "2–3 yrs",
+     "price": 284000,
+     "indexed": 292411,
+     "tenure": "F",
+     "floor_area_m2": 76,
+     "ppm2": 3848,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "25 Cawthorne Grove, Sheffield",
+     "date": "2024-10-10",
+     "age": "2–3 yrs",
+     "price": 176000,
+     "indexed": 181391,
+     "tenure": "L",
+     "floor_area_m2": 78,
+     "ppm2": 2326,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "55 Cawthorne Grove, Sheffield",
+     "date": "2024-10-04",
+     "age": "2–3 yrs",
+     "price": 275000,
+     "indexed": 283424,
+     "tenure": "F",
+     "floor_area_m2": 78,
+     "ppm2": 3634,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "51 Cawthorne Grove, Sheffield",
+     "date": "2024-07-19",
+     "age": "2–3 yrs",
+     "price": 270000,
+     "indexed": 285898,
+     "tenure": "F",
+     "floor_area_m2": 75,
+     "ppm2": 3812,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "2 Cawthorne Grove, Sheffield",
+     "date": "2024-03-28",
+     "age": "2–3 yrs",
+     "price": 290000,
+     "indexed": 314745,
+     "tenure": "F",
+     "floor_area_m2": 93,
+     "ppm2": 3384,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    }
+   ]
   },
   "postcode": {
-   "n": 5,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 320000,
-   "top_address": "8 Cawthorne Grove, Sheffield"
+   "n": 8,
+   "n_with_area": 6,
+   "thin": false,
+   "median_ppm2": 3644,
+   "spread_ppm2": [
+    3356,
+    3942
+   ],
+   "top_ppm2": 3942,
+   "median_price_today": 298660,
+   "top_price_today": 322162,
+   "top_address": "8 Cawthorne Grove, Sheffield",
+   "sales": [
+    {
+     "address": "8 Cawthorne Grove, Sheffield",
+     "date": "2025-12-19",
+     "age": "<1 yr",
+     "price": 320000,
+     "indexed": 322162,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "12 Cawthorne Grove, Sheffield",
+     "date": "2025-10-22",
+     "age": "1–2 yrs",
+     "price": 315000,
+     "indexed": 320219,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "45 Cawthorne Grove, Sheffield",
+     "date": "2025-06-30",
+     "age": "1–2 yrs",
+     "price": 295000,
+     "indexed": 311422,
+     "tenure": "L",
+     "floor_area_m2": 79,
+     "ppm2": 3942,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "26 Cawthorne Grove, Sheffield",
+     "date": "2025-06-20",
+     "age": "1–2 yrs",
+     "price": 270000,
+     "indexed": 285030,
+     "tenure": "F",
+     "floor_area_m2": 78,
+     "ppm2": 3654,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "22 Cawthorne Grove, Sheffield",
+     "date": "2025-06-03",
+     "age": "1–2 yrs",
+     "price": 248000,
+     "indexed": 261806,
+     "tenure": "F",
+     "floor_area_m2": 78,
+     "ppm2": 3356,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+    },
+    {
+     "address": "55 Cawthorne Grove, Sheffield",
+     "date": "2024-10-04",
+     "age": "2–3 yrs",
+     "price": 275000,
+     "indexed": 283424,
+     "tenure": "F",
+     "floor_area_m2": 78,
+     "ppm2": 3634,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "51 Cawthorne Grove, Sheffield",
+     "date": "2024-07-19",
+     "age": "2–3 yrs",
+     "price": 270000,
+     "indexed": 285898,
+     "tenure": "F",
+     "floor_area_m2": 75,
+     "ppm2": 3812,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "2 Cawthorne Grove, Sheffield",
+     "date": "2024-03-28",
+     "age": "2–3 yrs",
+     "price": 290000,
+     "indexed": 314745,
+     "tenure": "F",
+     "floor_area_m2": 93,
+     "ppm2": 3384,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    }
+   ]
   },
-  "sector": {
-   "n": 7,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 350000,
-   "top_address": "27B Cawthorne Grove, Sheffield"
+  "street_ceiling_ever": {
+   "price": 435000,
+   "note": "27C Cawthorne Grove (S8 0NB), detached, 14 May 2025. Highest semi: 27B, £350,000, 29 Apr 2025. Highest on S8 0ND: No. 8, semi, £320,000, 19 Dec 2025; No. 12, £315,000, 22 Oct 2025. Rows read from the Land Registry CSV through a summarising fetch tool; spot-check before relying on them.",
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
   },
-  "street_ceiling": 350000,
-  "last_sale": null
+  "last_sale": {
+   "date": "2023-04-03",
+   "age": "3–4 yrs",
+   "price": 253000,
+   "type": "S",
+   "today": 277475,
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=CAWTHORNE+GROVE&town=SHEFFIELD"
+  },
+  "first_listed": "2026-07-31",
+  "days_on_market": 111,
+  "first_price": 300000,
+  "cuts": 0,
+  "cut_pct": 0.0
  },
  "underwood": {
+  "type": "T",
+  "area_m2": 85,
+  "area_m2_high": null,
+  "asking": 220000,
+  "asking_high": null,
+  "asking_ppm2": 2588,
+  "asking_ppm2_alt": null,
   "street": {
-   "n": 5,
+   "n": 1,
    "n_with_area": 0,
+   "thin": true,
    "median_ppm2": null,
    "spread_ppm2": null,
-   "top_price": 246000,
-   "top_address": "36 Underwood Road, Sheffield"
+   "top_ppm2": null,
+   "median_price_today": 206719,
+   "top_price_today": 206719,
+   "top_address": "56 Underwood Road, Sheffield",
+   "sales": [
+    {
+     "address": "56 Underwood Road, Sheffield",
+     "date": "2025-07-17",
+     "age": "1–2 yrs",
+     "price": 200000,
+     "indexed": 206719,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8&min_date=1+November+2024&ptype%5B%5D=lrcommon%3Aterraced"
+    }
+   ]
   },
   "postcode": {
-   "n": 5,
+   "n": 1,
    "n_with_area": 0,
+   "thin": true,
    "median_ppm2": null,
    "spread_ppm2": null,
-   "top_price": 246000,
-   "top_address": "36 Underwood Road, Sheffield"
+   "top_ppm2": null,
+   "median_price_today": 206719,
+   "top_price_today": 206719,
+   "top_address": "56 Underwood Road, Sheffield",
+   "sales": [
+    {
+     "address": "56 Underwood Road, Sheffield",
+     "date": "2025-07-17",
+     "age": "1–2 yrs",
+     "price": 200000,
+     "indexed": 206719,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8&min_date=1+November+2024&ptype%5B%5D=lrcommon%3Aterraced"
+    }
+   ]
   },
-  "sector": {
-   "n": 235,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 550000,
-   "top_address": "36 Abbey View Road, Sheffield"
+  "street_ceiling_ever": {
+   "price": 246000,
+   "note": "36 Underwood Road (semi, freehold), 16 Jun 2026. Highest terraced: £200,000, 56 Underwood Road, 17 Jul 2025. Rows read through a page-summarising fetch tool, not raw CSV; re-check against the CSV.",
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD"
   },
-  "street_ceiling": 246000,
-  "last_sale": null
+  "last_sale": {
+   "date": "2020-12-07",
+   "age": "5–6 yrs",
+   "price": 140000,
+   "type": "T",
+   "today": 180345,
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=UNDERWOOD+ROAD&town=SHEFFIELD"
+  },
+  "first_listed": "2026-10-28",
+  "days_on_market": 22,
+  "first_price": 220000,
+  "cuts": 0,
+  "cut_pct": 0.0
  },
  "helmton": {
+  "type": "S",
+  "area_m2": 73,
+  "area_m2_high": null,
+  "asking": 265000,
+  "asking_high": null,
+  "asking_ppm2": 3630,
+  "asking_ppm2_alt": null,
   "street": {
-   "n": 3,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 280000,
-   "top_address": "1 Helmton Drive, Sheffield"
+   "n": 1,
+   "n_with_area": 1,
+   "thin": true,
+   "median_ppm2": 3382,
+   "spread_ppm2": [
+    3382,
+    3382
+   ],
+   "top_ppm2": 3382,
+   "median_price_today": 290876,
+   "top_price_today": 290876,
+   "top_address": "1 Helmton Drive, Sheffield",
+   "sales": [
+    {
+     "address": "1 Helmton Drive, Sheffield",
+     "date": "2025-05-15",
+     "age": "1–2 yrs",
+     "price": 280000,
+     "indexed": 290876,
+     "tenure": "L",
+     "floor_area_m2": 86,
+     "ppm2": 3382,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8&min_date=1+November+2024&ptype%5B%5D=lrcommon%3Asemi-detached"
+    }
+   ]
   },
   "postcode": {
-   "n": 3,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 280000,
-   "top_address": "1 Helmton Drive, Sheffield"
+   "n": 1,
+   "n_with_area": 1,
+   "thin": true,
+   "median_ppm2": 3382,
+   "spread_ppm2": [
+    3382,
+    3382
+   ],
+   "top_ppm2": 3382,
+   "median_price_today": 290876,
+   "top_price_today": 290876,
+   "top_address": "1 Helmton Drive, Sheffield",
+   "sales": [
+    {
+     "address": "1 Helmton Drive, Sheffield",
+     "date": "2025-05-15",
+     "age": "1–2 yrs",
+     "price": 280000,
+     "indexed": 290876,
+     "tenure": "L",
+     "floor_area_m2": 86,
+     "ppm2": 3382,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S8&min_date=1+November+2024&ptype%5B%5D=lrcommon%3Asemi-detached"
+    }
+   ]
   },
-  "sector": {
-   "n": 235,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 550000,
-   "top_address": "36 Abbey View Road, Sheffield"
+  "street_ceiling_ever": {
+   "price": 300000,
+   "note": "1A Helmton Drive (semi, leasehold), 1 Jul 2022; a £1,800 'other' sale of 1A same day. Highest since Nov 2024: £280,000, No.1 (semi, leasehold), 15 May 2025. Rows read through a page-summarising fetch tool, not raw CSV; re-check against the CSV.",
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD"
   },
-  "street_ceiling": 280000,
-  "last_sale": null
+  "last_sale": {
+   "date": "2018-12-19",
+   "age": "6+ yrs",
+   "price": 190000,
+   "type": "S",
+   "today": 264933,
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HELMTON+DRIVE&town=SHEFFIELD"
+  },
+  "first_listed": "2026-06-17",
+  "days_on_market": 155,
+  "first_price": 300000,
+  "cuts": 2,
+  "cut_pct": 11.7
  },
  "hollythorpe": {
+  "type": "S",
+  "area_m2": 68,
+  "area_m2_high": null,
+  "asking": 280000,
+  "asking_high": null,
+  "asking_ppm2": 4118,
+  "asking_ppm2_alt": null,
   "street": {
-   "n": 5,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 330000,
-   "top_address": "80 Hollythorpe Road, Sheffield"
+   "n": 10,
+   "n_with_area": 6,
+   "thin": false,
+   "median_ppm2": 4061,
+   "spread_ppm2": [
+    3523,
+    4250
+   ],
+   "top_ppm2": 4250,
+   "median_price_today": 296397,
+   "top_price_today": 335753,
+   "top_address": "15 Hollythorpe Road, Sheffield",
+   "sales": [
+    {
+     "address": "13 Hollythorpe Road, Sheffield",
+     "date": "2025-10-28",
+     "age": "1–2 yrs",
+     "price": 295000,
+     "indexed": 299888,
+     "tenure": "F",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "49 Hollythorpe Road, Sheffield",
+     "date": "2025-06-30",
+     "age": "1–2 yrs",
+     "price": 315000,
+     "indexed": 332535,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "30 Hollythorpe Road, Sheffield",
+     "date": "2025-03-27",
+     "age": "1–2 yrs",
+     "price": 241000,
+     "indexed": 243098,
+     "tenure": "L",
+     "floor_area_m2": 69,
+     "ppm2": 3523,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "80 Hollythorpe Road, Sheffield",
+     "date": "2025-03-14",
+     "age": "1–2 yrs",
+     "price": 330000,
+     "indexed": 332872,
+     "tenure": "F",
+     "floor_area_m2": 94,
+     "ppm2": 3541,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "33 Hollythorpe Road, Sheffield",
+     "date": "2025-03-10",
+     "age": "1–2 yrs",
+     "price": 235000,
+     "indexed": 237045,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "72 Hollythorpe Road, Sheffield",
+     "date": "2024-10-04",
+     "age": "2–3 yrs",
+     "price": 287500,
+     "indexed": 296307,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "14 Hollythorpe Road, Sheffield",
+     "date": "2024-09-20",
+     "age": "2–3 yrs",
+     "price": 285000,
+     "indexed": 294312,
+     "tenure": "F",
+     "floor_area_m2": 72,
+     "ppm2": 4088,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "42 Hollythorpe Road, Sheffield",
+     "date": "2024-07-01",
+     "age": "2–3 yrs",
+     "price": 280000,
+     "indexed": 296487,
+     "tenure": "F",
+     "floor_area_m2": 70,
+     "ppm2": 4236,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "25 Hollythorpe Road, Sheffield",
+     "date": "2024-03-01",
+     "age": "2–3 yrs",
+     "price": 252750,
+     "indexed": 274317,
+     "tenure": "L",
+     "floor_area_m2": 68,
+     "ppm2": 4034,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "15 Hollythorpe Road, Sheffield",
+     "date": "2024-02-09",
+     "age": "2–3 yrs",
+     "price": 310000,
+     "indexed": 335753,
+     "tenure": "L",
+     "floor_area_m2": 79,
+     "ppm2": 4250,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    }
+   ]
   },
   "postcode": {
-   "n": 2,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 330000,
-   "top_address": "80 Hollythorpe Road, Sheffield"
+   "n": 4,
+   "n_with_area": 2,
+   "thin": true,
+   "median_ppm2": 3888,
+   "spread_ppm2": [
+    3541,
+    4236
+   ],
+   "top_ppm2": 4236,
+   "median_price_today": 314511,
+   "top_price_today": 332872,
+   "top_address": "80 Hollythorpe Road, Sheffield",
+   "sales": [
+    {
+     "address": "49 Hollythorpe Road, Sheffield",
+     "date": "2025-06-30",
+     "age": "1–2 yrs",
+     "price": 315000,
+     "indexed": 332535,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "80 Hollythorpe Road, Sheffield",
+     "date": "2025-03-14",
+     "age": "1–2 yrs",
+     "price": 330000,
+     "indexed": 332872,
+     "tenure": "F",
+     "floor_area_m2": 94,
+     "ppm2": 3541,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=1+November+2024"
+    },
+    {
+     "address": "72 Hollythorpe Road, Sheffield",
+     "date": "2024-10-04",
+     "age": "2–3 yrs",
+     "price": 287500,
+     "indexed": 296307,
+     "tenure": "L",
+     "floor_area_m2": null,
+     "ppm2": null,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    },
+    {
+     "address": "42 Hollythorpe Road, Sheffield",
+     "date": "2024-07-01",
+     "age": "2–3 yrs",
+     "price": 280000,
+     "indexed": 296487,
+     "tenure": "F",
+     "floor_area_m2": 70,
+     "ppm2": 4236,
+     "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD&min_date=19+November+2023&max_date=18+November+2024"
+    }
+   ]
   },
-  "sector": {
-   "n": 15,
-   "n_with_area": 0,
-   "median_ppm2": null,
-   "spread_ppm2": null,
-   "top_price": 551551,
-   "top_address": "13 Lees Hall Road, Sheffield"
+  "street_ceiling_ever": {
+   "price": 330000,
+   "note": "80 Hollythorpe Road (S8 9NF), semi, freehold, 14 Mar 2025. Medium: full-street extract may have been cut off at No. 85.",
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD"
   },
-  "street_ceiling": 330000,
-  "last_sale": null
+  "last_sale": {
+   "date": "2010-10-01",
+   "age": "6+ yrs",
+   "price": 136500,
+   "type": "S",
+   "today": 249771,
+   "source": "https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&street=HOLLYTHORPE+ROAD&town=SHEFFIELD"
+  },
+  "first_listed": "2026-02-23",
+  "days_on_market": 269,
+  "first_price": 280000,
+  "cuts": 0,
+  "cut_pct": 0.0
  }
 }

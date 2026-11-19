@@ -88,8 +88,21 @@ def merge():
                 clashes.append(f"- **{h} / {k}**: " + "; ".join(
                     f"{json.dumps(f['value'], ensure_ascii=False)[:120]} ({f['task']}, {f['source']})" for f in fs if f["value"] is not None))
     clashes += cross_clashes(out)
-    (ROOT / "out/clashes.md").write_text("# Clashes\n\n" + ("\n".join(clashes) or "None.") + "\n")
-    print(f"merged {n} facts, skipped {skipped} bad, {len(clashes)} clashes -> facts.json, out/clashes.md")
+    import yaml
+    sp = ROOT / "settled.yaml"
+    rules = {r["key"]: r for r in (yaml.safe_load(sp.read_text()) or [])} if sp.exists() else {}
+    marked, open_ = [], 0
+    for c in clashes:
+        key = re.match(r"- \*\*(.+?)\*\*", c).group(1)
+        r = rules.get(key)
+        if r: marked.append(c + f"\n  - **SETTLED:** {r['winner']}. {r['why']}")
+        else: marked.append(c + "\n  - **OPEN**"); open_ += 1
+    found = {re.match(r"- \*\*(.+?)\*\*", c).group(1) for c in clashes}
+    by_hand = [f"- **{k}** (found by hand)\n  - **SETTLED:** {r['winner']}. {r['why']}" if r["winner"] != "Unsettled"
+               else f"- **{k}** (found by hand)\n  - **OPEN:** {r['why']}" for k, r in rules.items() if k not in found]
+    (ROOT / "out/clashes.md").write_text("# Clashes\n\n" + ("\n".join(marked) or "None.") +
+                                         ("\n\n## Other rulings\n\n" + "\n".join(by_hand) if by_hand else "") + "\n")
+    print(f"merged {n} facts, skipped {skipped} bad, {len(clashes)} clashes ({open_} open) -> facts.json, out/clashes.md")
 
 if __name__ == "__main__":
     a = sys.argv[1:]

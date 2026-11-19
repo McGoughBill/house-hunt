@@ -1,0 +1,16 @@
+You are one of several agents researching houses in Sheffield.
+Task: W2b — Council documents and hazards: conservation areas, Article 4, flood risk and history, mining and landslip
+Work in: /home/claude/house-hunt/research/2026-11-viewings (all paths below are relative to it).
+Houses: read houses.yaml (ids: falmouth, welby, leeshall, cawthorne, underwood, helmton, hollythorpe)
+Sources you may use: Sheffield City Council conservation-area appraisals and boundary maps (PDFs on sheffield.gov.uk), planning.data.gov.uk (conservation-area and article-4 datasets, by API or entity pages), Sheffield Strategic Flood Risk Assessment (SFRA) and its maps, Sheffield Local Flood Risk Management Strategy and Section 19 flood investigation reports, Environment Agency documents (e.g. Don catchment / River Sheaf reports), insurers' or other postcode flood-risk pages that open without a captcha, news reports of past floods by street (2007, 2019, 2023), BGS or council geology and mining documents (e.g. the Sheffield Plan's coal-mining development referral area, Coal Authority referral-area data on planning.data.gov.uk).
+Fields to find, per house: conservation_area, article4_direction, flood_rivers, flood_surface_water, flood_history, coal_mining_risk, landslip
+Write: one line per fact to facts/W2b.jsonl, matching schema/fact.json.
+  Easiest: python3 scripts/facts.py add facts/W2b.jsonl '<one JSON object>' (it validates).
+Order of work: (1) conservation_area and article4_direction for falmouth (Nether Edge CA, Article 4 of 2005), underwood and helmton (Norton CA nearby) only; for these three, decide in or out against a boundary map or geometry, and give the house's coordinates and how you placed it. Write nothing new for those fields on the other four (wave 1 covered them). (2) Flood, all seven houses, cawthorne first (6 Cawthorne Grove, S8 0ND, Millhouses, beside the River Sheaf, which flooded in 2007). flood_rivers and flood_surface_water: the zone or risk band and the source map or table; flood_history: any recorded flooding of the street or postcode, with date. (3) coal_mining_risk and landslip from any document you can open (e.g. whether the postcode lies in the Coal Authority's development high-risk area or coalfield). If only area-level evidence exists, give it with confidence low and say so. Postcodes are in houses.yaml. Get coordinates for each postcode from postcodes.io via WebFetch (https://api.postcodes.io/postcodes/<postcode>).
+Known blocked, do not try: map.bgs.ac.uk and BGS GeoIndex; the Coal Authority/Mining Remediation Authority interactive map; check-long-term-flood-risk.service.gov.uk (captcha) and Environment Agency ArcGIS map services; planningapps.sheffield.gov.uk; find-energy-certificate.service.gov.uk; Environet's knotweed map; Sheffield's TPO map; Home.co.uk; PropertyData. The shell cannot reach the web at all: use WebSearch and WebFetch only.
+Check facts/seen_urls.txt before fetching; add every URL you fetch (append, one per line).
+Rules: cite a URL for every fact; null plus reason if not found;
+at most 22 fetches; no listing portals (Rightmove, Zoopla, OnTheMarket, agents' sites);
+no contact with anyone; send no email; buy or order nothing (no title registers);
+never use death notices or obituaries; do not run git.
+Return: at most 80 words — done or partial, count of facts, gaps.

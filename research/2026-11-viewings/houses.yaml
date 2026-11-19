@@ -99,7 +99,7 @@ houses:
     agent: Whitehornes
     listing: https://whitehornes.co.uk/property-for-sale/helmton-drive-woodseats-s8-2/
     viewing: "2026-11-21 14:00"
-    claims: {tenure: L, floor_area_m2: 109}   # Saturday doc's figures, checked by facts.py merge
+    claims: {tenure: F, floor_area_m2: 73}   # Saturday doc's figures (corrected 19 Nov; was L, 109 = No. 25), checked by facts.py merge
     known:
       - about 109 m²
       - one source says 136-year lease; tenure unconfirmed

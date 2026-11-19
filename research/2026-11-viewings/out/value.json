@@ -1,0 +1,120 @@
+{
+ "falmouth": {
+  "area_m2": 94,
+  "ring": null,
+  "thin": true,
+  "single": []
+ },
+ "welby": {
+  "area_m2": 60,
+  "ring": null,
+  "thin": true,
+  "single": []
+ },
+ "leeshall": {
+  "area_m2": 69,
+  "ring": "street",
+  "n": 13,
+  "ppm2": [
+   3426,
+   3644,
+   4019
+  ],
+  "value": [
+   236394,
+   251436,
+   277311
+  ]
+ },
+ "cawthorne": {
+  "area_m2": 80,
+  "ring": "street",
+  "n": 8,
+  "ppm2": [
+   3377,
+   3644,
+   3821
+  ],
+  "value": [
+   270160,
+   291520,
+   305680
+  ]
+ },
+ "underwood": {
+  "area_m2": 85,
+  "ring": null,
+  "thin": true,
+  "single": []
+ },
+ "helmton": {
+  "area_m2": 73,
+  "ring": null,
+  "thin": true,
+  "single": [
+   {
+    "address": "1 Helmton Drive, Sheffield",
+    "ppm2": 3382,
+    "value": 246886
+   },
+   {
+    "address": "1 Helmton Drive, Sheffield",
+    "ppm2": 3382,
+    "value": 246886
+   }
+  ],
+  "doneup": {
+   "V": [
+    246886,
+    264933
+   ],
+   "W": [
+    0,
+    5000
+   ],
+   "why": "already done up per listing (modern and stylish), so W is cosmetic only; V low = 73 m\u00b2 \u00d7 \u00a33,382/m\u00b2, the one same-type comparable (1 Helmton Dr, 86 m\u00b2, leasehold, thin); V high = the seller's 2018 \u00a3190k brought to today (\u00a3264,933)"
+  },
+  "margin": [
+   -51553,
+   -29560
+  ],
+  "most_to_offer": [
+   213447,
+   235440
+  ]
+ },
+ "hollythorpe": {
+  "area_m2": 68,
+  "ring": "street",
+  "n": 6,
+  "ppm2": [
+   3664,
+   4061,
+   4199
+  ],
+  "value": [
+   249152,
+   276148,
+   285532
+  ],
+  "doneup": {
+   "V": [
+    276148,
+    285532
+   ],
+   "W": [
+    0,
+    5000
+   ],
+   "why": "already done up per listing (immaculate, no expense spared), so W is cosmetic only and V sits in the top half of the street range: 68 m\u00b2 \u00d7 median \u00a34,061 to upper quartile \u00a34,199/m\u00b2, 6 semis with floor areas"
+  },
+  "margin": [
+   -40217,
+   -26021
+  ],
+  "most_to_offer": [
+   239783,
+   253979
+  ]
+ }
+}

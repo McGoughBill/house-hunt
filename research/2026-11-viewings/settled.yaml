@@ -1,0 +1,41 @@
+# Rulings on clashes between sources (wave 2, 20 Nov 2026). facts.py merge marks a clash SETTLED when its key is here.
+# key = "<house> / <field>" as printed in out/clashes.md. Clashes found by hand (wave1-status.md) are listed too.
+- key: falmouth / article4_direction
+  winner: "Probably outside Nether Edge conservation area, so the 2005 Article 4 direction probably does not apply (W2b)"
+  why: "W2b tested the postcode centre against the conservation-area boundary on planning.data.gov.uk, with a control point that does hit Nether Edge. P's line was conditional ('applies IF inside'), not a contrary finding. Medium only: the boundary is within about 400 m and No. 34's place on the street is unknown. Ask on Saturday."
+- key: cawthorne / flood_rivers
+  winner: "Outside river Flood Zones 2 and 3 (W2main)"
+  why: "Environment Agency flood zones on planning.data.gov.uk, with a control box over the Sheaf that does return Zone 2. W2b's line says 'not found', which agrees. Surface water is still unknown."
+- key: underwood / listing_facts
+  winner: "L2 (Zoopla 74619438, opened directly)"
+  why: "L2 read the listing itself; L's line cites a PrimeLocation search page for Hackthorn Road. The shared fields agree; L2 adds band A, EPC D, £0 ground rent and 'needs renovation'."
+- key: helmton / listing_facts
+  winner: "Both: same listing"
+  why: "L2 is the viewing listing (whitehornes s8-2: 3-bed semi, offers over £265k, freehold, B, C); L's Rightmove 89812113 is the same 3-bed listing and supplies the 786 sq ft (73 m²). No field disagrees."
+- key: helmton / tenure
+  winner: "Freehold"
+  why: "Land Registry (2018 sale of No. 17, estate F) and both listings agree. The Saturday doc's leasehold claim came from No. 25, a different house."
+- key: helmton / floor_area_m2
+  winner: "73 m²"
+  why: "From the 3-bed listing for No. 17. The 109 m² belonged to No. 25. Measure on Saturday."
+- key: hollythorpe / tenure
+  winner: "Freehold (owner appears to hold both titles)"
+  why: "Land Registry filed the 2010 sale twice at one price, once leasehold and once freehold, so the buyer took the house and its freehold together; both listings say freehold. Ask that the freehold title is in the sale; the conveyancer confirms the titles."
+- key: leeshall / tenure
+  winner: "Leasehold (medium)"
+  why: "The only source on No. 57 itself is Zoopla's card for the Staves listing (leasehold). Land Registry is silent (no sale since 1995). 8 of 9 recent street semis were leasehold. Ask years left, ground rent and consent clauses."
+- key: welby / for_sale_or_let
+  winner: "For sale only"
+  why: "Every portal shows it for sale; no advert to let was found; the 'for-rent' web address is Staves' page slug. The SpareRoom bungalow is a different house (garage and drive)."
+- key: market / uk_trend
+  winner: "No winner on direction; use the Sheffield UK HPI by type"
+  why: "Nationwide +0.5%, Halifax −1.2%, ONS +1.2%: all flat. Valuations index with the official Sheffield series by house type, which is local and by type."
+- key: falmouth / floor_area_m2
+  winner: "Working figure 94 m², with 108 m² shown as the upper case"
+  why: "No third source: the energy-certificate register blocks fetching and HouseMetric refused the street. The method (price-evidence-plan §1c) takes the smallest supportable area. Measure on Saturday and ask for the EPC."
+- key: helmton / which_listing
+  winner: "The 3-bed semi at offers over £265k (whitehornes s8-2)"
+  why: "The viewing link in the Saturday doc opens the 3-bed listing; the 2-bed 1,026 sq ft Helmton Drive listing is another house."
+- key: underwood / second_listing
+  winner: "Unsettled"
+  why: "A Hunters listing on Underwood Road at the same price (30 Oct) may be this house with a second agent. Agents' pages can't settle it without contact: ask on Saturday."

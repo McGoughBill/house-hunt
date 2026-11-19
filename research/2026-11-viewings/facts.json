@@ -76,6 +76,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
     "task": "C"
+   },
+   {
+    "house": "falmouth",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.fensa.org.uk/check-a-certificate",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but the FENSA checker refuses automated fetching (robots disallowed). Ask the agent for FENSA certificates; the conveyancer gets them with the TA6 form.",
+    "task": "L2"
    }
   ],
   "gas_safe_record": [
@@ -89,6 +100,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
     "task": "C"
+   },
+   {
+    "house": "falmouth",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.gassaferegister.co.uk/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but Gas Safe has no free public address lookup: a copy of a building-regulation certificate needs the requester details and a fee (see checkatrade.com/blog/expert-advice/replacement-boiler-certificate). Buying is ruled out; ask the agent and seller.",
+    "task": "L2"
    }
   ],
   "coal_mining_risk": [
@@ -102,6 +124,17 @@
     "confidence": "low",
     "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
     "task": "H"
+   },
+   {
+    "house": "falmouth",
+    "field": "coal_mining_risk",
+    "value": "area-level only: on the Sheffield coalfield (Coal Measures); whether in a Development High Risk Area unknown",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/id/eprint/11049/1/IR05045.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL, not postcode. BGS IR/05/045 (2005): Coal Measures outcrop over >70% of the Sheffield district; the city lies on Coal Measures; suburbs 'extend southwards and eastwards over former mining areas'; old adits and bell pits seldom >10 m deep. The council's coal-mining risk page (https://www.sheffield.gov.uk/planning-development/local-planning-guidance/coal-mining-risk-assessment) names no areas. A CON29M coal mining search in conveyancing will settle it.",
+    "task": "W2b"
    }
   ],
   "landslip": [
@@ -115,6 +148,17 @@
     "confidence": "low",
     "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
     "task": "H"
+   },
+   {
+    "house": "falmouth",
+    "field": "landslip",
+    "value": "area-level only: no landslide recorded nearby in a 2008 BGS survey of the Sheffield sheet",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/537607/1/OR08020.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL. BGS OR/08/020 (Foster 2008) names slides at Rivelin, Bradfield, Crowhole Reservoir etc.; none in Nether Edge, Millhouses, Woodseats, Meersbrook, Norton Lees or the Sheaf/Meers Brook valleys. 88% of slides were on mudstone slopes, often at sandstone-mudstone junctions, so sloping plots on Coal Measures mudstone still merit a surveyor's look. GeoSure point data not reachable.",
+    "task": "W2b"
    }
   ],
   "made_ground": [
@@ -154,6 +198,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "falmouth",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S7 2DG, 53.35284,-1.487909). Fetch budget spent on Cawthorne first; flood-map-for-planning returned client error; EA long-term-risk service captcha'd. Check flood-map-for-planning.service.gov.uk by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "falmouth",
+    "field": "flood_rivers",
+    "value": "postcode centre outside Flood Zones 2 and 3; a small Zone 2 patch lies about 150-200 m south",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4886%2053.3524,-1.4872%2053.3524,-1.4872%2053.3533,-1.4886%2053.3533,-1.4886%2053.3524))&geometry_relation=intersects&limit=20",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "A 100 x 100 m box round the S7 2DG centre (53.35284,-1.487909) returns no zone. A 330 x 300 m box (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4904%2053.3515,-1.4854%2053.3515,-1.4854%2053.3542,-1.4904%2053.3542,-1.4904%2053.3515))&geometry_relation=intersects&limit=20) returns one Zone 2 (fluvial) polygon, entity 65391699 (https://www.planning.data.gov.uk/entity/65391699.json), bounds lat 53.3498-53.3516, lon -1.4878 to -1.4857: south of the postcode centre. Where No. 34 sits on the street is not known, so ask. Control: a box over the Sheaf at Millhouses Park returns Zone 2 polygons (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.5000%2053.3400,-1.4920%2053.3400,-1.4920%2053.3460,-1.5000%2053.3460,-1.5000%2053.3400))&geometry_relation=intersects&limit=20), so the query works. Dataset = Environment Agency Flood Zones 2 and 3 (rivers and sea) as used for planning; it says nothing on surface water. Placed by postcode centre (postcodes.io), not the house.",
+    "task": "W2main"
    }
   ],
   "flood_surface_water": [
@@ -167,6 +233,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "falmouth",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S7 2DG, 53.35284,-1.487909). No open postcode-level surface-water source loaded. Check by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "falmouth",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-20",
+    "confidence": "low",
+    "note": "No open source: surface-water risk sits only on the Environment Agency long-term flood-risk service (captcha) and its blocked map services; planning.data.gov.uk flood zones cover rivers and sea only. Saturday question; the conveyancer's environmental search covers it after an offer.",
+    "task": "W2main"
    }
   ],
   "knotweed_nearby": [
@@ -340,6 +428,17 @@
     "unit": null,
     "retrieved": "2026-11-19",
     "task": "P"
+   },
+   {
+    "house": "falmouth",
+    "field": "conservation_area",
+    "value": "outside Nether Edge CA (just)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.487909%2053.35284)&geometry_relation=intersects&limit=10",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Placed by postcode centroid of S7 2DG, 53.35284,-1.487909 (https://api.postcodes.io/postcodes/S72DG), not the house itself. Point-in-polygon on planning.data.gov.uk CA geometry returned 0 areas. Control: a point at the CA centroid returns Nether Edge (ref 5459) (https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.4922%2053.3618)&geometry_relation=intersects&limit=10), so the query works. A box of about +/-400 m E-W and +/-330 m N-S round the house does hit Nether Edge (https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POLYGON((-1.4939%2053.3498,-1.4819%2053.3498,-1.4819%2053.3558,-1.4939%2053.3558,-1.4939%2053.3498))&geometry_relation=intersects&limit=10), so the boundary is within ~400 m. Dataset may lag the council's map; confirm on the council map or in the local search.",
+    "task": "W2b"
    }
   ],
   "article4_direction": [
@@ -353,6 +452,17 @@
     "unit": null,
     "retrieved": "2026-11-19",
     "task": "P"
+   },
+   {
+    "house": "falmouth",
+    "field": "article4_direction",
+    "value": "Nether Edge 2005 direction probably does not apply (house outside the CA it covers)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.487909%2053.35284)&geometry_relation=intersects&limit=10",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Wave 1 found the 2005 direction tied to Nether Edge CA (https://www.sheffield.gov.uk/planning-development/nether-edge-conservation-area). The house falls outside the CA on planning.data.gov.uk geometry, so the direction likely does not bite; but the direction's own boundary map was not seen, and Sheffield's HMO (C3 to C4) Article 4 area was not checked (council page https://www.sheffield.gov.uk/planning-development/planning-permission-hmo, not fetched). Local search will settle it.",
+    "task": "W2b"
    }
   ],
   "own_past_sales": [
@@ -454,6 +564,32 @@
     "note": "S7 2DG since 19 Nov 2024: same single sale (33 Falmouth Road £240,000, 31 Jul 2026).",
     "task": "S1"
    }
+  ],
+  "flood_history": [
+   {
+    "house": "falmouth",
+    "field": "flood_history",
+    "value": "none found for the street",
+    "unit": null,
+    "source": "https://www.sheffield.gov.uk/sites/default/files/2024-03/flood-investigation-report-sheffield-october-2023.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Street not named among flooded locations in the council's Section 19 report on the 19-22 Oct 2023 floods. Nov 2019 report failed to load; 2007 sources name no streets here. Weak evidence; ask seller and insurer.",
+    "task": "W2b"
+   }
+  ],
+  "comps_floor_areas_added": [
+   {
+    "house": "falmouth",
+    "field": "comps_floor_areas_added",
+    "value": 0,
+    "unit": "sales",
+    "source": "https://resi.co.uk/house-prices/falmouth-road-s7",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Only same-type (T) sale on the street since 19 Nov 2023 is 33 Falmouth Rd, 31 Jul 2026, £240,000 (Land Registry); no floor area found. HouseMetric street page blocked by robots; Resi (updated Oct 2024) shows no Falmouth Rd sales from Jun 2023 to Oct 2024.",
+    "task": "W2c"
+   }
   ]
  },
  "welby": {
@@ -533,6 +669,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
     "task": "C"
+   },
+   {
+    "house": "welby",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.fensa.org.uk/check-a-certificate",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but the FENSA checker refuses automated fetching (robots disallowed). Ask the agent for FENSA certificates; the conveyancer gets them with the TA6 form.",
+    "task": "L2"
    }
   ],
   "gas_safe_record": [
@@ -546,6 +693,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
     "task": "C"
+   },
+   {
+    "house": "welby",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.gassaferegister.co.uk/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but Gas Safe has no free public address lookup: a copy of a building-regulation certificate needs the requester details and a fee (see checkatrade.com/blog/expert-advice/replacement-boiler-certificate). Buying is ruled out; ask the agent and seller.",
+    "task": "L2"
    }
   ],
   "coal_mining_risk": [
@@ -559,6 +717,17 @@
     "confidence": "low",
     "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
     "task": "H"
+   },
+   {
+    "house": "welby",
+    "field": "coal_mining_risk",
+    "value": "area-level only: on the Sheffield coalfield (Coal Measures); whether in a Development High Risk Area unknown",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/id/eprint/11049/1/IR05045.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL, not postcode. BGS IR/05/045 (2005): Coal Measures outcrop over >70% of the Sheffield district; the city lies on Coal Measures; suburbs 'extend southwards and eastwards over former mining areas'; old adits and bell pits seldom >10 m deep. The council's coal-mining risk page (https://www.sheffield.gov.uk/planning-development/local-planning-guidance/coal-mining-risk-assessment) names no areas. A CON29M coal mining search in conveyancing will settle it.",
+    "task": "W2b"
    }
   ],
   "landslip": [
@@ -572,6 +741,17 @@
     "confidence": "low",
     "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
     "task": "H"
+   },
+   {
+    "house": "welby",
+    "field": "landslip",
+    "value": "area-level only: no landslide recorded nearby in a 2008 BGS survey of the Sheffield sheet",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/537607/1/OR08020.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL. BGS OR/08/020 (Foster 2008) names slides at Rivelin, Bradfield, Crowhole Reservoir etc.; none in Nether Edge, Millhouses, Woodseats, Meersbrook, Norton Lees or the Sheaf/Meers Brook valleys. 88% of slides were on mudstone slopes, often at sandstone-mudstone junctions, so sloping plots on Coal Measures mudstone still merit a surveyor's look. GeoSure point data not reachable.",
+    "task": "W2b"
    }
   ],
   "made_ground": [
@@ -611,6 +791,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "welby",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 9DB). Fetch budget spent on Cawthorne first; flood-map-for-planning returned client error; EA long-term-risk service captcha'd. Check flood-map-for-planning.service.gov.uk by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "welby",
+    "field": "flood_rivers",
+    "value": "outside Flood Zones 2 and 3 (river flood zone 1, low)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4788%2053.3500,-1.4738%2053.3500,-1.4738%2053.3527,-1.4788%2053.3527,-1.4788%2053.3500))&geometry_relation=intersects&limit=20",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "No flood-zone polygon intersects a box round the postcode centre: S8 9DB (53.351333,-1.4763, https://api.postcodes.io/postcodes/S89DB); box about 330 x 300 m. Control: a box over the Sheaf at Millhouses Park returns Zone 2 polygons (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.5000%2053.3400,-1.4920%2053.3400,-1.4920%2053.3460,-1.5000%2053.3460,-1.5000%2053.3400))&geometry_relation=intersects&limit=20), so the query works. Dataset = Environment Agency Flood Zones 2 and 3 (rivers and sea) as used for planning; it says nothing on surface water. Placed by postcode centre (postcodes.io), not the house.",
+    "task": "W2main"
    }
   ],
   "flood_surface_water": [
@@ -624,6 +826,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "welby",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 9DB). No open postcode-level surface-water source loaded. Check by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "welby",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-20",
+    "confidence": "low",
+    "note": "No open source: surface-water risk sits only on the Environment Agency long-term flood-risk service (captcha) and its blocked map services; planning.data.gov.uk flood zones cover rivers and sea only. Saturday question; the conveyancer's environmental search covers it after an offer.",
+    "task": "W2main"
    }
   ],
   "knotweed_nearby": [
@@ -976,6 +1200,32 @@
     "note": "Sector S8 9 not fetched: price-paid CSV ignores partial postcodes (0 rows) and the SPARQL query URL was too long for the fetch proxy. Run scripts/fetch_lr.py-style SPARQL from an unblocked machine.",
     "task": "S4"
    }
+  ],
+  "flood_history": [
+   {
+    "house": "welby",
+    "field": "flood_history",
+    "value": "none found for the street",
+    "unit": null,
+    "source": "https://www.sheffield.gov.uk/sites/default/files/2024-03/flood-investigation-report-sheffield-october-2023.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Street not named among flooded locations in the council's Section 19 report on the 19-22 Oct 2023 floods. Nearest named flooding: Meers Brook overtopped at Blackstock Road HWRC (Gleadless), not residential. Nov 2019 report failed to load; 2007 sources name no streets here. Weak evidence; ask seller and insurer.",
+    "task": "W2b"
+   }
+  ],
+  "comps_floor_areas_added": [
+   {
+    "house": "welby",
+    "field": "comps_floor_areas_added",
+    "value": 0,
+    "unit": "sales",
+    "source": "https://housemetric.co.uk/house-prices/Welby-Place/S8-9D",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "No detached sale on Welby Place since 19 Nov 2023 (last: No. 50 itself, Nov 2021, £242,000, 60 m²; No. 45, Apr 2021, £235,000, 80 m²; No. 47, Dec 2020, £195,000, 70 m²). HouseMetric confirms 50 Welby Place = 60 m².",
+    "task": "W2c"
+   }
   ]
  },
  "leeshall": {
@@ -1055,6 +1305,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
     "task": "C"
+   },
+   {
+    "house": "leeshall",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.fensa.org.uk/check-a-certificate",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but the FENSA checker refuses automated fetching (robots disallowed). Ask the agent for FENSA certificates; the conveyancer gets them with the TA6 form.",
+    "task": "L2"
    }
   ],
   "gas_safe_record": [
@@ -1068,6 +1329,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
     "task": "C"
+   },
+   {
+    "house": "leeshall",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.gassaferegister.co.uk/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but Gas Safe has no free public address lookup: a copy of a building-regulation certificate needs the requester details and a fee (see checkatrade.com/blog/expert-advice/replacement-boiler-certificate). Buying is ruled out; ask the agent and seller.",
+    "task": "L2"
    }
   ],
   "coal_mining_risk": [
@@ -1081,6 +1353,17 @@
     "confidence": "low",
     "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
     "task": "H"
+   },
+   {
+    "house": "leeshall",
+    "field": "coal_mining_risk",
+    "value": "area-level only: on the Sheffield coalfield (Coal Measures); whether in a Development High Risk Area unknown",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/id/eprint/11049/1/IR05045.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL, not postcode. BGS IR/05/045 (2005): Coal Measures outcrop over >70% of the Sheffield district; the city lies on Coal Measures; suburbs 'extend southwards and eastwards over former mining areas'; old adits and bell pits seldom >10 m deep. The council's coal-mining risk page (https://www.sheffield.gov.uk/planning-development/local-planning-guidance/coal-mining-risk-assessment) names no areas. A CON29M coal mining search in conveyancing will settle it.",
+    "task": "W2b"
    }
   ],
   "landslip": [
@@ -1094,6 +1377,17 @@
     "confidence": "low",
     "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
     "task": "H"
+   },
+   {
+    "house": "leeshall",
+    "field": "landslip",
+    "value": "area-level only: no landslide recorded nearby in a 2008 BGS survey of the Sheffield sheet",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/537607/1/OR08020.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL. BGS OR/08/020 (Foster 2008) names slides at Rivelin, Bradfield, Crowhole Reservoir etc.; none in Nether Edge, Millhouses, Woodseats, Meersbrook, Norton Lees or the Sheaf/Meers Brook valleys. 88% of slides were on mudstone slopes, often at sandstone-mudstone junctions, so sloping plots on Coal Measures mudstone still merit a surveyor's look. GeoSure point data not reachable.",
+    "task": "W2b"
    }
   ],
   "made_ground": [
@@ -1133,6 +1427,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "leeshall",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 9JJ). Fetch budget spent on Cawthorne first; flood-map-for-planning returned client error; EA long-term-risk service captcha'd. Check flood-map-for-planning.service.gov.uk by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "leeshall",
+    "field": "flood_rivers",
+    "value": "outside Flood Zones 2 and 3 (river flood zone 1, low)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4655%2053.3494,-1.4605%2053.3494,-1.4605%2053.3521,-1.4655%2053.3521,-1.4655%2053.3494))&geometry_relation=intersects&limit=20",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "No flood-zone polygon intersects a box round the postcode centre: S8 9JJ (53.350328,-1.464519, https://api.postcodes.io/postcodes/S89JJ) lies inside the Hollythorpe box. Control: a box over the Sheaf at Millhouses Park returns Zone 2 polygons (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.5000%2053.3400,-1.4920%2053.3400,-1.4920%2053.3460,-1.5000%2053.3460,-1.5000%2053.3400))&geometry_relation=intersects&limit=20), so the query works. Dataset = Environment Agency Flood Zones 2 and 3 (rivers and sea) as used for planning; it says nothing on surface water. Placed by postcode centre (postcodes.io), not the house.",
+    "task": "W2main"
    }
   ],
   "flood_surface_water": [
@@ -1146,6 +1462,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "leeshall",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 9JJ). No open postcode-level surface-water source loaded. Check by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "leeshall",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-20",
+    "confidence": "low",
+    "note": "No open source: surface-water risk sits only on the Environment Agency long-term flood-risk service (captcha) and its blocked map services; planning.data.gov.uk flood zones cover rivers and sea only. Saturday question; the conveyancer's environmental search covers it after an offer.",
+    "task": "W2main"
    }
   ],
   "knotweed_nearby": [
@@ -1560,6 +1898,32 @@
     "note": "Sector S8 9 not fetched: price-paid CSV ignores partial postcodes (0 rows) and the SPARQL query URL was too long for the fetch proxy. Run scripts/fetch_lr.py-style SPARQL from an unblocked machine.",
     "task": "S4"
    }
+  ],
+  "flood_history": [
+   {
+    "house": "leeshall",
+    "field": "flood_history",
+    "value": "none found for the street",
+    "unit": null,
+    "source": "https://www.sheffield.gov.uk/sites/default/files/2024-03/flood-investigation-report-sheffield-october-2023.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Street not named among flooded locations in the council's Section 19 report on the 19-22 Oct 2023 floods. Nearest named flooding: Meers Brook overtopped at Blackstock Road HWRC (Gleadless), not residential. Nov 2019 report failed to load; 2007 sources name no streets here. Weak evidence; ask seller and insurer.",
+    "task": "W2b"
+   }
+  ],
+  "comps_floor_areas_added": [
+   {
+    "house": "leeshall",
+    "field": "comps_floor_areas_added",
+    "value": 13,
+    "unit": "sales",
+    "source": "https://housemetric.co.uk/house-prices/Lees-Hall-Road/S8-9J",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "13 of 16 semi sales since 19 Nov 2023 have an area (67-161 m²). Gaps: Nos. 50 (May 2025), 101 (Sep 2025), 115 (Feb 2026), which HouseMetric does not list. No. 26 Jan 2024 sale takes the area shown for its May 2025 sale.",
+    "task": "W2c"
+   }
   ]
  },
  "cawthorne": {
@@ -1639,6 +2003,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
     "task": "C"
+   },
+   {
+    "house": "cawthorne",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.fensa.org.uk/check-a-certificate",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but the FENSA checker refuses automated fetching (robots disallowed). Ask the agent for FENSA certificates; the conveyancer gets them with the TA6 form.",
+    "task": "L2"
    }
   ],
   "gas_safe_record": [
@@ -1652,6 +2027,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
     "task": "C"
+   },
+   {
+    "house": "cawthorne",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.gassaferegister.co.uk/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but Gas Safe has no free public address lookup: a copy of a building-regulation certificate needs the requester details and a fee (see checkatrade.com/blog/expert-advice/replacement-boiler-certificate). Buying is ruled out; ask the agent and seller.",
+    "task": "L2"
    }
   ],
   "coal_mining_risk": [
@@ -1665,6 +2051,17 @@
     "confidence": "low",
     "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
     "task": "H"
+   },
+   {
+    "house": "cawthorne",
+    "field": "coal_mining_risk",
+    "value": "area-level only: on the Sheffield coalfield (Coal Measures); whether in a Development High Risk Area unknown",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/id/eprint/11049/1/IR05045.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL, not postcode. BGS IR/05/045 (2005): Coal Measures outcrop over >70% of the Sheffield district; the city lies on Coal Measures; suburbs 'extend southwards and eastwards over former mining areas'; old adits and bell pits seldom >10 m deep. The council's coal-mining risk page (https://www.sheffield.gov.uk/planning-development/local-planning-guidance/coal-mining-risk-assessment) names no areas. A CON29M coal mining search in conveyancing will settle it.",
+    "task": "W2b"
    }
   ],
   "landslip": [
@@ -1678,6 +2075,17 @@
     "confidence": "low",
     "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
     "task": "H"
+   },
+   {
+    "house": "cawthorne",
+    "field": "landslip",
+    "value": "area-level only: no landslide recorded nearby in a 2008 BGS survey of the Sheffield sheet",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/537607/1/OR08020.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL. BGS OR/08/020 (Foster 2008) names slides at Rivelin, Bradfield, Crowhole Reservoir etc.; none in Nether Edge, Millhouses, Woodseats, Meersbrook, Norton Lees or the Sheaf/Meers Brook valleys. 88% of slides were on mudstone slopes, often at sandstone-mudstone junctions, so sloping plots on Coal Measures mudstone still merit a surveyor's look. GeoSure point data not reachable.",
+    "task": "W2b"
    }
   ],
   "made_ground": [
@@ -1717,6 +2125,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "cawthorne",
+    "field": "flood_rivers",
+    "value": "flood zone not found; street not named in the two EA River Sheaf flood warning areas nearby",
+    "unit": null,
+    "source": "https://riverlevels.uk/flood-warning-river-sheaf-from-west-view-lane-abbeydale-to-archer-road-norton-hammer-including-beauchief-hotel",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Postcode centroid S8 0ND 53.346218,-1.486546 (https://api.postcodes.io/postcodes/S80ND), about 200-300 m east of the Sheaf by my reading of the map - check. EA warning area 'River Sheaf from West View Lane Abbeydale to Archer Road, Norton Hammer' lists Abbeydale Road, Brinkburn Drive, Five Trees Avenue/Close/Drive, Troutbeck Road, Archer Road; 'Norton Hammer' area (https://check-for-flooding.service.gov.uk/target-area/123FWF572) lists Rydal, Langdale, Arnside, Coniston, Little London and Abbeydale Roads. Cawthorne Grove is in neither - a hint it sits outside Flood Zone 3, not proof. Flood-zone sources failed: flood-map-for-planning (client error), floodradar.co.uk/flood-risk/s8-0nd and postcodearea.co.uk s80nd pages (client error). Check flood-map-for-planning.service.gov.uk by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "cawthorne",
+    "field": "flood_rivers",
+    "value": "outside Flood Zones 2 and 3 (river flood zone 1, low)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4890%2053.3450,-1.4840%2053.3450,-1.4840%2053.3475,-1.4890%2053.3475,-1.4890%2053.3450))&geometry_relation=intersects&limit=20",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "No flood-zone polygon intersects a box round the postcode centre: S8 0ND (53.346218,-1.486546); box about 330 x 280 m. Control: a box over the Sheaf at Millhouses Park returns Zone 2 polygons (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.5000%2053.3400,-1.4920%2053.3400,-1.4920%2053.3460,-1.5000%2053.3460,-1.5000%2053.3400))&geometry_relation=intersects&limit=20), so the query works. Dataset = Environment Agency Flood Zones 2 and 3 (rivers and sea) as used for planning; it says nothing on surface water. Placed by postcode centre (postcodes.io), not the house.",
+    "task": "W2main"
    }
   ],
   "flood_surface_water": [
@@ -1730,6 +2160,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "cawthorne",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found. Postcode-level surface-water bands sit on captcha'd/blocked EA services; floodradar and postcodearea pages for S8 0ND gave client errors. Check by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "cawthorne",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-20",
+    "confidence": "low",
+    "note": "No open source: surface-water risk sits only on the Environment Agency long-term flood-risk service (captcha) and its blocked map services; planning.data.gov.uk flood zones cover rivers and sea only. Saturday question; the conveyancer's environmental search covers it after an offer.",
+    "task": "W2main"
    }
   ],
   "knotweed_nearby": [
@@ -2098,6 +2550,32 @@
     "retrieved": "2026-11-19",
     "task": "S2"
    }
+  ],
+  "flood_history": [
+   {
+    "house": "cawthorne",
+    "field": "flood_history",
+    "value": "no recorded flooding of Cawthorne Grove found; River Sheaf flooded Millhouses Park in Oct 2023 (Storm Babet)",
+    "unit": null,
+    "source": "https://www.sheffield.gov.uk/sites/default/files/2024-03/flood-investigation-report-sheffield-october-2023.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Council Section 19 report on 19-22 Oct 2023 names Millhouses Park (Sheaf out of bank) and Little London Road highway flooding, not Cawthorne Grove. 2007: Wikipedia list notes only that the Sheaf was swollen (a boy drowned), no Millhouses streets (https://en.wikipedia.org/wiki/List_of_floods_in_Sheffield). Nov 2019 council report PDF failed to load (client error). Absence in these sources is weak evidence; ask the seller and insurer.",
+    "task": "W2b"
+   }
+  ],
+  "comps_floor_areas_added": [
+   {
+    "house": "cawthorne",
+    "field": "comps_floor_areas_added",
+    "value": 8,
+    "unit": "sales",
+    "source": "https://housemetric.co.uk/house-prices/Cawthorne-Grove/S8-0N",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "8 of 11 semi sales since 19 Nov 2023 have an area (75-93 m²). Gaps: Nos. 27B (Apr 2025), 12 (Oct 2025), 8 (Dec 2025). No. 45 Jun 2025 sale takes the area shown for its Nov 2023 sale. Same page: No. 6 itself, 3-bed semi, 80 m², sold 3 Apr 2023 for £253,000.",
+    "task": "W2c"
+   }
   ]
  },
  "underwood": {
@@ -2177,6 +2655,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
     "task": "C"
+   },
+   {
+    "house": "underwood",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.fensa.org.uk/check-a-certificate",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but the FENSA checker refuses automated fetching (robots disallowed). Ask the agent for FENSA certificates; the conveyancer gets them with the TA6 form.",
+    "task": "L2"
    }
   ],
   "gas_safe_record": [
@@ -2190,6 +2679,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
     "task": "C"
+   },
+   {
+    "house": "underwood",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.gassaferegister.co.uk/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but Gas Safe has no free public address lookup: a copy of a building-regulation certificate needs the requester details and a fee (see checkatrade.com/blog/expert-advice/replacement-boiler-certificate). Buying is ruled out; ask the agent and seller.",
+    "task": "L2"
    }
   ],
   "coal_mining_risk": [
@@ -2203,6 +2703,17 @@
     "confidence": "low",
     "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
     "task": "H"
+   },
+   {
+    "house": "underwood",
+    "field": "coal_mining_risk",
+    "value": "area-level only: on the Sheffield coalfield (Coal Measures); whether in a Development High Risk Area unknown",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/id/eprint/11049/1/IR05045.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL, not postcode. BGS IR/05/045 (2005): Coal Measures outcrop over >70% of the Sheffield district; the city lies on Coal Measures; suburbs 'extend southwards and eastwards over former mining areas'; old adits and bell pits seldom >10 m deep. The council's coal-mining risk page (https://www.sheffield.gov.uk/planning-development/local-planning-guidance/coal-mining-risk-assessment) names no areas. A CON29M coal mining search in conveyancing will settle it.",
+    "task": "W2b"
    }
   ],
   "landslip": [
@@ -2216,6 +2727,17 @@
     "confidence": "low",
     "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
     "task": "H"
+   },
+   {
+    "house": "underwood",
+    "field": "landslip",
+    "value": "area-level only: no landslide recorded nearby in a 2008 BGS survey of the Sheffield sheet",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/537607/1/OR08020.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL. BGS OR/08/020 (Foster 2008) names slides at Rivelin, Bradfield, Crowhole Reservoir etc.; none in Nether Edge, Millhouses, Woodseats, Meersbrook, Norton Lees or the Sheaf/Meers Brook valleys. 88% of slides were on mudstone slopes, often at sandstone-mudstone junctions, so sloping plots on Coal Measures mudstone still merit a surveyor's look. GeoSure point data not reachable.",
+    "task": "W2b"
    }
   ],
   "made_ground": [
@@ -2255,6 +2777,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "underwood",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 8TH, 53.347639,-1.478493). Fetch budget spent on Cawthorne first; flood-map-for-planning returned client error; EA long-term-risk service captcha'd. Check flood-map-for-planning.service.gov.uk by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "underwood",
+    "field": "flood_rivers",
+    "value": "outside Flood Zones 2 and 3 (river flood zone 1, low)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4810%2053.3463,-1.4760%2053.3463,-1.4760%2053.3490,-1.4810%2053.3490,-1.4810%2053.3463))&geometry_relation=intersects&limit=20",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "No flood-zone polygon intersects a box round the postcode centre: S8 8TH (53.347639,-1.478493); box about 330 x 300 m. Control: a box over the Sheaf at Millhouses Park returns Zone 2 polygons (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.5000%2053.3400,-1.4920%2053.3400,-1.4920%2053.3460,-1.5000%2053.3460,-1.5000%2053.3400))&geometry_relation=intersects&limit=20), so the query works. Dataset = Environment Agency Flood Zones 2 and 3 (rivers and sea) as used for planning; it says nothing on surface water. Placed by postcode centre (postcodes.io), not the house.",
+    "task": "W2main"
    }
   ],
   "flood_surface_water": [
@@ -2268,6 +2812,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "underwood",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 8TH, 53.347639,-1.478493). No open postcode-level surface-water source loaded. Check by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "underwood",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-20",
+    "confidence": "low",
+    "note": "No open source: surface-water risk sits only on the Environment Agency long-term flood-risk service (captcha) and its blocked map services; planning.data.gov.uk flood zones cover rivers and sea only. Saturday question; the conveyancer's environmental search covers it after an offer.",
+    "task": "W2main"
    }
   ],
   "knotweed_nearby": [
@@ -2324,6 +2890,23 @@
     "confidence": "medium",
     "note": "Zoopla nearby-results card; no house number shown",
     "task": "L"
+   },
+   {
+    "house": "underwood",
+    "field": "listing_history",
+    "value": {
+     "first_listed": "2026-10-28",
+     "price": 220000,
+     "qualifier": "OIRO",
+     "reduced": false,
+     "agent": "Whitehorn"
+    },
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/74619438/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Listing page: added 28/10/2026, no price history shown, no Sold STC or Under offer label.",
+    "task": "L2"
    }
   ],
   "rival_listings": [
@@ -2392,6 +2975,30 @@
     "confidence": "medium",
     "note": "Results card: OIRO £220,000, 3 beds, 915 sq ft, listed 28 Oct 2026, Whitehorn. Tenure 'Leasehold' from https://housesforsaletorent.co.uk/houses/for-sale/south-yorkshire/woodseats.html and Land Registry (2020). Asking £220k / 85 m² = £2,588/m²",
     "task": "L"
+   },
+   {
+    "house": "underwood",
+    "field": "listing_facts",
+    "value": {
+     "type": "mid-terrace",
+     "beds": 3,
+     "receptions": 1,
+     "baths": 1,
+     "area_sqft": 915,
+     "area_m2": 85.0,
+     "tenure": "L",
+     "ground_rent_gbp": 0,
+     "council_tax": "A",
+     "epc": "D",
+     "condition": "in need of some renovation",
+     "extras": "occasional attic room; on-street parking"
+    },
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/74619438/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Zoopla listing 74619438 (Whitehorn), opened with approval 19 Nov. Tenure field itself says Ask agent; description says leasehold. Lease length and service charge not stated.",
+    "task": "L2"
    }
   ],
   "second_listing_same_street": [
@@ -2418,6 +3025,19 @@
     "confidence": "medium",
     "note": "",
     "task": "L"
+   }
+  ],
+  "hall": [
+   {
+    "house": "underwood",
+    "field": "hall",
+    "value": null,
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/74619438/",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Listing text does not say whether the front door opens into a hall. Check at the viewing.",
+    "task": "L2"
    }
   ],
   "planning_history": [
@@ -2470,6 +3090,17 @@
     "unit": null,
     "retrieved": "2026-11-19",
     "task": "P"
+   },
+   {
+    "house": "underwood",
+    "field": "conservation_area",
+    "value": "not in a conservation area",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.478493%2053.347639)&geometry_relation=intersects&limit=10",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Placed by postcode centroid 53.347639,-1.478493 (https://api.postcodes.io/postcodes/S88TH). Point-in-polygon on planning.data.gov.uk CA geometry returned 0 areas; same query at a point inside Nether Edge CA returns it (https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.4922%2053.3618)&geometry_relation=intersects&limit=10). Norton CA (ref 5442) centroid -1.4631,53.3363 lies ~1.4 km to the SE. Postcode centroid, not the house; dataset may lag council map.",
+    "task": "W2b"
    }
   ],
   "article4_direction": [
@@ -2483,6 +3114,17 @@
     "unit": null,
     "retrieved": "2026-11-19",
     "task": "P"
+   },
+   {
+    "house": "underwood",
+    "field": "article4_direction",
+    "value": "none known",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.478493%2053.347639)&geometry_relation=intersects&limit=10",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Outside any CA on planning.data.gov.uk geometry, so no CA-linked direction applies; council names Article 4 directions only for Nether Edge and Broomhill (https://www.sheffield.gov.uk/planning-development/conservation-areas). Sheffield's HMO Article 4 area not checked. Local search will confirm.",
+    "task": "W2b"
    }
   ],
   "own_past_sales": [
@@ -2582,6 +3224,32 @@
     "note": "All five street sales are in S8 8TH; LR returned 5 rows for S8 8TH since 1 Nov 2024. LR price-paid lags registration by 1-3 months; latest deed dates seen Sep 2026, so late-2026 sales may be missing.",
     "task": "S3"
    }
+  ],
+  "flood_history": [
+   {
+    "house": "underwood",
+    "field": "flood_history",
+    "value": "none found for the street",
+    "unit": null,
+    "source": "https://www.sheffield.gov.uk/sites/default/files/2024-03/flood-investigation-report-sheffield-october-2023.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Street not named among flooded locations in the council's Section 19 report on the 19-22 Oct 2023 floods. Nov 2019 report failed to load; 2007 sources name no streets here. Weak evidence; ask seller and insurer.",
+    "task": "W2b"
+   }
+  ],
+  "comps_floor_areas_added": [
+   {
+    "house": "underwood",
+    "field": "comps_floor_areas_added",
+    "value": 0,
+    "unit": "sales",
+    "source": "https://propertyengine.co.uk/area-overview/s8-8th/house-prices",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Two terraced sales since 19 Nov 2023: No. 56, Jul 2025, £200,000; No. 18, Dec 2025, £87,500 (looks non-market). No floor area: HouseMetric street page robots-blocked, Resi failed, PropertyEngine and Propbar show none.",
+    "task": "W2c"
+   }
   ]
  },
  "helmton": {
@@ -2661,6 +3329,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
     "task": "C"
+   },
+   {
+    "house": "helmton",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.fensa.org.uk/check-a-certificate",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but the FENSA checker refuses automated fetching (robots disallowed). Ask the agent for FENSA certificates; the conveyancer gets them with the TA6 form.",
+    "task": "L2"
    }
   ],
   "gas_safe_record": [
@@ -2674,6 +3353,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
     "task": "C"
+   },
+   {
+    "house": "helmton",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.gassaferegister.co.uk/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but Gas Safe has no free public address lookup: a copy of a building-regulation certificate needs the requester details and a fee (see checkatrade.com/blog/expert-advice/replacement-boiler-certificate). Buying is ruled out; ask the agent and seller.",
+    "task": "L2"
    }
   ],
   "coal_mining_risk": [
@@ -2687,6 +3377,17 @@
     "confidence": "low",
     "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
     "task": "H"
+   },
+   {
+    "house": "helmton",
+    "field": "coal_mining_risk",
+    "value": "area-level only: on the Sheffield coalfield (Coal Measures); whether in a Development High Risk Area unknown",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/id/eprint/11049/1/IR05045.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL, not postcode. BGS IR/05/045 (2005): Coal Measures outcrop over >70% of the Sheffield district; the city lies on Coal Measures; suburbs 'extend southwards and eastwards over former mining areas'; old adits and bell pits seldom >10 m deep. The council's coal-mining risk page (https://www.sheffield.gov.uk/planning-development/local-planning-guidance/coal-mining-risk-assessment) names no areas. A CON29M coal mining search in conveyancing will settle it.",
+    "task": "W2b"
    }
   ],
   "landslip": [
@@ -2700,6 +3401,17 @@
     "confidence": "low",
     "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
     "task": "H"
+   },
+   {
+    "house": "helmton",
+    "field": "landslip",
+    "value": "area-level only: no landslide recorded nearby in a 2008 BGS survey of the Sheffield sheet",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/537607/1/OR08020.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL. BGS OR/08/020 (Foster 2008) names slides at Rivelin, Bradfield, Crowhole Reservoir etc.; none in Nether Edge, Millhouses, Woodseats, Meersbrook, Norton Lees or the Sheaf/Meers Brook valleys. 88% of slides were on mudstone slopes, often at sandstone-mudstone junctions, so sloping plots on Coal Measures mudstone still merit a surveyor's look. GeoSure point data not reachable.",
+    "task": "W2b"
    }
   ],
   "made_ground": [
@@ -2739,6 +3451,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "helmton",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 8QN, 53.342622,-1.474048). Fetch budget spent on Cawthorne first; flood-map-for-planning returned client error; EA long-term-risk service captcha'd. Check flood-map-for-planning.service.gov.uk by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "helmton",
+    "field": "flood_rivers",
+    "value": "outside Flood Zones 2 and 3 (river flood zone 1, low)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4765%2053.3413,-1.4715%2053.3413,-1.4715%2053.3440,-1.4765%2053.3440,-1.4765%2053.3413))&geometry_relation=intersects&limit=20",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "No flood-zone polygon intersects a box round the postcode centre: S8 8QN (53.342622,-1.474048); box about 330 x 300 m. Control: a box over the Sheaf at Millhouses Park returns Zone 2 polygons (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.5000%2053.3400,-1.4920%2053.3400,-1.4920%2053.3460,-1.5000%2053.3460,-1.5000%2053.3400))&geometry_relation=intersects&limit=20), so the query works. Dataset = Environment Agency Flood Zones 2 and 3 (rivers and sea) as used for planning; it says nothing on surface water. Placed by postcode centre (postcodes.io), not the house.",
+    "task": "W2main"
    }
   ],
   "flood_surface_water": [
@@ -2752,6 +3486,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "helmton",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 8QN, 53.342622,-1.474048). No open postcode-level surface-water source loaded. Check by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "helmton",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-20",
+    "confidence": "low",
+    "note": "No open source: surface-water risk sits only on the Environment Agency long-term flood-risk service (captcha) and its blocked map services; planning.data.gov.uk flood zones cover rivers and sea only. Saturday question; the conveyancer's environmental search covers it after an offer.",
+    "task": "W2main"
    }
   ],
   "knotweed_nearby": [
@@ -2829,6 +3585,29 @@
     "confidence": "medium",
     "note": "Matches 'offers over £265k' Whitehorn listing; house number not shown",
     "task": "L"
+   },
+   {
+    "house": "helmton",
+    "field": "listing_facts",
+    "value": {
+     "type": "semi-detached",
+     "beds": 3,
+     "receptions": 1,
+     "baths": 1,
+     "tenure": "F",
+     "council_tax": "B",
+     "epc": "C",
+     "price": 265000,
+     "qualifier": "offers over",
+     "condition": "modern and stylish finish throughout; contemporary kitchen; sleek bathroom",
+     "hall": "entrance hall"
+    },
+    "unit": null,
+    "source": "https://whitehornes.co.uk/property-for-sale/helmton-drive-woodseats-s8-2/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "The viewing listing (link in the Saturday doc). 3-bed, so it is the 786 sq ft Rightmove 89812113 listing, not the 2-bed 1,026 sq ft Helmton Drive listing. No floor area on this page. Already done up: little left to add by refurbishment.",
+    "task": "L2"
    }
   ],
   "days_on_market": [
@@ -2920,6 +3699,17 @@
     "unit": null,
     "retrieved": "2026-11-19",
     "task": "P"
+   },
+   {
+    "house": "helmton",
+    "field": "conservation_area",
+    "value": "not in a conservation area",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.474048%2053.342622)&geometry_relation=intersects&limit=10",
+    "retrieved": "2026-11-19",
+    "confidence": "medium",
+    "note": "Placed by postcode centroid 53.342622,-1.474048 (https://api.postcodes.io/postcodes/S88QN). Point-in-polygon on planning.data.gov.uk CA geometry returned 0 areas; same query at a point inside Nether Edge CA returns it (https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.4922%2053.3618)&geometry_relation=intersects&limit=10). Norton CA (ref 5442) centroid -1.4631,53.3363 lies ~1.0 km to the SE. Postcode centroid, not the house; dataset may lag council map.",
+    "task": "W2b"
    }
   ],
   "article4_direction": [
@@ -2933,6 +3723,17 @@
     "unit": null,
     "retrieved": "2026-11-19",
     "task": "P"
+   },
+   {
+    "house": "helmton",
+    "field": "article4_direction",
+    "value": "none known",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=conservation-area&geometry=POINT(-1.474048%2053.342622)&geometry_relation=intersects&limit=10",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Outside any CA on planning.data.gov.uk geometry, so no CA-linked direction applies; council names Article 4 directions only for Nether Edge and Broomhill (https://www.sheffield.gov.uk/planning-development/conservation-areas). Sheffield's HMO Article 4 area not checked. Local search will confirm.",
+    "task": "W2b"
    }
   ],
   "own_past_sales": [
@@ -3032,6 +3833,32 @@
     "note": "Every Helmton Drive row is S8 8QN, so postcode count equals street count; no separate postcode query run. LR price-paid lags registration by 1-3 months; latest deed dates seen Sep 2026, so late-2026 sales may be missing.",
     "task": "S3"
    }
+  ],
+  "flood_history": [
+   {
+    "house": "helmton",
+    "field": "flood_history",
+    "value": "none found for the street",
+    "unit": null,
+    "source": "https://www.sheffield.gov.uk/sites/default/files/2024-03/flood-investigation-report-sheffield-october-2023.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Street not named among flooded locations in the council's Section 19 report on the 19-22 Oct 2023 floods. Nov 2019 report failed to load; 2007 sources name no streets here. Weak evidence; ask seller and insurer.",
+    "task": "W2b"
+   }
+  ],
+  "comps_floor_areas_added": [
+   {
+    "house": "helmton",
+    "field": "comps_floor_areas_added",
+    "value": 1,
+    "unit": "sales",
+    "source": "https://housemetric.co.uk/house-prices/Helmton-Drive/S8-8Q",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Only semi sale since 19 Nov 2023: No. 1, 15 May 2025, £280,000, 86 m². Rest of street sold are terraced (Nos. 9, 12 in 2024 at 72 m²).",
+    "task": "W2c"
+   }
   ]
  },
  "hollythorpe": {
@@ -3111,6 +3938,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.fensa.org.uk/check-a-certificate was blocked (permission request not answered). The FENSA check needs a postcode and house number entered by hand.",
     "task": "C"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "fensa_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.fensa.org.uk/check-a-certificate",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but the FENSA checker refuses automated fetching (robots disallowed). Ask the agent for FENSA certificates; the conveyancer gets them with the TA6 form.",
+    "task": "L2"
    }
   ],
   "gas_safe_record": [
@@ -3124,6 +3962,17 @@
     "confidence": "low",
     "note": "Not found: fetch of https://www.gassaferegister.co.uk/ was blocked (permission request not answered). The register has no public per-address record of gas work as far as known; ask the seller for certificates.",
     "task": "C"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "gas_safe_record",
+    "value": null,
+    "unit": null,
+    "source": "https://www.gassaferegister.co.uk/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Approved by Bill 19 Nov, but Gas Safe has no free public address lookup: a copy of a building-regulation certificate needs the requester details and a fee (see checkatrade.com/blog/expert-advice/replacement-boiler-certificate). Buying is ruled out; ask the agent and seller.",
+    "task": "L2"
    }
   ],
   "postcode": [
@@ -3161,6 +4010,17 @@
     "confidence": "low",
     "note": "Coal Authority map is a JS app; its ArcGIS service (map.bgs.ac.uk) got 403 via curl and WebFetch was refused; no coordinates for most houses (postcodes.io 403).",
     "task": "H"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "coal_mining_risk",
+    "value": "area-level only: on the Sheffield coalfield (Coal Measures); whether in a Development High Risk Area unknown",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/id/eprint/11049/1/IR05045.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL, not postcode. BGS IR/05/045 (2005): Coal Measures outcrop over >70% of the Sheffield district; the city lies on Coal Measures; suburbs 'extend southwards and eastwards over former mining areas'; old adits and bell pits seldom >10 m deep. The council's coal-mining risk page (https://www.sheffield.gov.uk/planning-development/local-planning-guidance/coal-mining-risk-assessment) names no areas. A CON29M coal mining search in conveyancing will settle it.",
+    "task": "W2b"
    }
   ],
   "landslip": [
@@ -3174,6 +4034,17 @@
     "confidence": "low",
     "note": "BGS GeoIndex is a JS map; map.bgs.ac.uk blocked (403 curl, WebFetch refused). GeoSure point data is licensed.",
     "task": "H"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "landslip",
+    "value": "area-level only: no landslide recorded nearby in a 2008 BGS survey of the Sheffield sheet",
+    "unit": null,
+    "source": "https://nora.nerc.ac.uk/537607/1/OR08020.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "AREA-LEVEL. BGS OR/08/020 (Foster 2008) names slides at Rivelin, Bradfield, Crowhole Reservoir etc.; none in Nether Edge, Millhouses, Woodseats, Meersbrook, Norton Lees or the Sheaf/Meers Brook valleys. 88% of slides were on mudstone slopes, often at sandstone-mudstone junctions, so sloping plots on Coal Measures mudstone still merit a surveyor's look. GeoSure point data not reachable.",
+    "task": "W2b"
    }
   ],
   "made_ground": [
@@ -3213,6 +4084,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "flood_rivers",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 9NF, 53.3507,-1.4630 (wave 1)). Fetch budget spent on Cawthorne first; flood-map-for-planning returned client error; EA long-term-risk service captcha'd. Check flood-map-for-planning.service.gov.uk by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "flood_rivers",
+    "value": "outside Flood Zones 2 and 3 (river flood zone 1, low)",
+    "unit": null,
+    "source": "https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.4655%2053.3494,-1.4605%2053.3494,-1.4605%2053.3521,-1.4655%2053.3521,-1.4655%2053.3494))&geometry_relation=intersects&limit=20",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "No flood-zone polygon intersects a box round the postcode centre: S8 9NF (53.3507,-1.4630); box about 330 x 300 m. Control: a box over the Sheaf at Millhouses Park returns Zone 2 polygons (https://www.planning.data.gov.uk/entity.json?dataset=flood-risk-zone&geometry=POLYGON((-1.5000%2053.3400,-1.4920%2053.3400,-1.4920%2053.3460,-1.5000%2053.3460,-1.5000%2053.3400))&geometry_relation=intersects&limit=20), so the query works. Dataset = Environment Agency Flood Zones 2 and 3 (rivers and sea) as used for planning; it says nothing on surface water. Placed by postcode centre (postcodes.io), not the house.",
+    "task": "W2main"
    }
   ],
   "flood_surface_water": [
@@ -3226,6 +4119,28 @@
     "confidence": "low",
     "note": "check-long-term-flood-risk.service.gov.uk needs JavaScript and a Friendly Captcha; EA ArcGIS (environment.data.gov.uk) got 403.",
     "task": "H"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found (S8 9NF, 53.3507,-1.4630 (wave 1)). No open postcode-level surface-water source loaded. Check by hand.",
+    "task": "W2b"
+   },
+   {
+    "house": "hollythorpe",
+    "field": "flood_surface_water",
+    "value": null,
+    "unit": null,
+    "source": null,
+    "retrieved": "2026-11-20",
+    "confidence": "low",
+    "note": "No open source: surface-water risk sits only on the Environment Agency long-term flood-risk service (captcha) and its blocked map services; planning.data.gov.uk flood zones cover rivers and sea only. Saturday question; the conveyancer's environmental search covers it after an offer.",
+    "task": "W2main"
    }
   ],
   "knotweed_nearby": [
@@ -3382,6 +4297,31 @@
     "confidence": "high",
     "note": "No. 49, next door, sold £315k in Jun 2025: above No. 51's £280k asking. Sizes unknown. Spot-checked 19 Nov",
     "task": "L"
+   }
+  ],
+  "listing_facts": [
+   {
+    "house": "hollythorpe",
+    "field": "listing_facts",
+    "value": {
+     "type": "semi-detached",
+     "beds": 3,
+     "receptions": 1,
+     "baths": 1,
+     "tenure": "F",
+     "council_tax": "B",
+     "price": 280000,
+     "qualifier": "OIRO",
+     "condition": "immaculately presented; modern and stylish throughout; no expense spared",
+     "parking": "off-road at front",
+     "garden": "stunning rear gardens"
+    },
+    "unit": null,
+    "source": "https://whitehornes.co.uk/property-for-sale/hollythorpe-road-norton-lees-s8/",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "Viewing listing. No floor area, EPC band or hall wording on the page. Already done up: the done-up value is close to the value as it stands.",
+    "task": "L2"
    }
   ],
   "planning_history": [
@@ -3566,6 +4506,32 @@
     "confidence": "high",
     "note": "Sector S8 9 not fetched: price-paid CSV ignores partial postcodes (0 rows) and the SPARQL query URL was too long for the fetch proxy. Run scripts/fetch_lr.py-style SPARQL from an unblocked machine.",
     "task": "S4"
+   }
+  ],
+  "flood_history": [
+   {
+    "house": "hollythorpe",
+    "field": "flood_history",
+    "value": "none found for the street",
+    "unit": null,
+    "source": "https://www.sheffield.gov.uk/sites/default/files/2024-03/flood-investigation-report-sheffield-october-2023.pdf",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Street not named among flooded locations in the council's Section 19 report on the 19-22 Oct 2023 floods. Nearest named flooding: Meers Brook overtopped at Blackstock Road HWRC (Gleadless), not residential. Nov 2019 report failed to load; 2007 sources name no streets here. Weak evidence; ask seller and insurer.",
+    "task": "W2b"
+   }
+  ],
+  "comps_floor_areas_added": [
+   {
+    "house": "hollythorpe",
+    "field": "comps_floor_areas_added",
+    "value": 6,
+    "unit": "sales",
+    "source": "https://housemetric.co.uk/house-prices/Hollythorpe-Road/S8-9N",
+    "retrieved": "2026-11-19",
+    "confidence": "high",
+    "note": "6 of 10 semi sales since 19 Nov 2023 have an area (68-94 m²). Gaps: Nos. 72 (Oct 2024), 33 (Mar 2025), 49 (Jun 2025), 13 (Oct 2025), not on HouseMetric.",
+    "task": "W2c"
    }
   ]
  },
@@ -3763,6 +4729,17 @@
     "confidence": "low",
     "note": "No current figure found. Zoopla Oct 2026 HPI (business.zoopla.co.uk/zoopla-house-price-index) gives no average discount; the only figure found, 5.5% (£18,000), is from Nov 2023 (zoopla.co.uk press release) - too stale to use.",
     "task": "M1"
+   },
+   {
+    "house": "market",
+    "field": "sale_vs_asking_gap_pct",
+    "value": null,
+    "unit": "%",
+    "source": "https://www.propertymark.co.uk/resource/housing-insight-report-september-2026.html",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "No current % gap found for UK, Yorkshire, Sheffield or S8. Nearest: Propertymark Housing Insight Report for Sep 2026 (pub 18 Nov 2026), UK: 81% of member agents reported sales below asking; no size of gap given. Zoopla Oct 2026 HPI (https://www.mortgagesolutions.co.uk/mortgage-news/2026/10/27/higher-rates-make-home-buyers-more-selective/) gives no discount figure. Reeds Rains Sheffield city centre (S1/2/3/6/10/11) 2026 YTD: avg asking £272,300 vs avg sold £289,500, which they call -5.9% (sold above asking), but it compares different sets of homes, so not a true gap (https://www.reedsrains.co.uk/blog/sheffield-asking-price-vs-selling-price, 31 Aug 2026).",
+    "task": "W2a"
    }
   ],
   "s8_sales_per_month": [
@@ -3789,6 +4766,17 @@
     "confidence": "low",
     "note": "Not found. Home.co.uk pages (current_prices for S8, market_reports) returned client errors; curl blocked by proxy (403). PropertyData S8 draw page hit its free monthly search limit; postcode-district page errored. Listing portals barred.",
     "task": "M2"
+   },
+   {
+    "house": "market",
+    "field": "s8_listings_for_sale",
+    "value": null,
+    "unit": "listings",
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found. Only nearby count: Reeds Rains, Sheffield city centre postcodes S1/2/3/6/10/11 combined (not S8), 1,566 homes for sale in Apr 2026 vs 1,266 in Apr 2024, 311 sold STC that month (https://www.reedsrains.co.uk/blog/more-sheffield-homes-for-sale, 20 May 2026). Portals barred.",
+    "task": "W2a"
    }
   ],
   "s8_months_of_stock": [
@@ -3802,6 +4790,17 @@
     "confidence": "low",
     "note": "Not computed: needs S8 listings count, which was not found. Sales side is 45.3/month (Mar-May 2026, Land Registry); months of stock = listings / 45.3 once listings are known.",
     "task": "M2"
+   },
+   {
+    "house": "market",
+    "field": "s8_months_of_stock",
+    "value": null,
+    "unit": "months",
+    "source": "https://housemetric.co.uk/analysis/district/S8/Sheffield",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not computed: S8 listings count not found. Sales side: 45.3/month (Land Registry, Mar-May 2026, facts/M2.jsonl); Housemetric gives 1,260 S8 sales in 24 months to 4 Mar 2026 = 1,260/24 = 52.5/month. Months of stock = S8 listings / 45-52. Sheffield city-centre proxy (not S8): 1,566 for sale / 311 sold STC = 5.0 months (Apr 2026, Reeds Rains), agreed sales not completions.",
+    "task": "W2a"
    }
   ],
   "s8_median_days_on_market": [
@@ -3815,6 +4814,17 @@
     "confidence": "low",
     "note": "Not found. Home.co.uk (source of time-on-market) blocked; PropertyData free page hit search limit. Portals barred.",
     "task": "M2"
+   },
+   {
+    "house": "market",
+    "field": "s8_median_days_on_market",
+    "value": null,
+    "unit": "days",
+    "source": "https://www.hunters.com/guides/woodseats/is-now-a-good-time-to-sell-your-home-in-sheffield-s8/",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "No measured S8 figure found. Only a Hunters Woodseats marketing guide (10 Nov 2025) saying well-priced S8 homes sell in just over three months - a rough claim, not a median. Home.co.uk and PropertyData (usual sources) are blocked.",
+    "task": "W2a"
    }
   ],
   "s8_share_listings_price_cut": [
@@ -3828,6 +4838,43 @@
     "confidence": "low",
     "note": "Not found. Home.co.uk and PropertyData pages unavailable (client error / free search limit). Portals barred.",
     "task": "M2"
+   },
+   {
+    "house": "market",
+    "field": "s8_share_listings_price_cut",
+    "value": null,
+    "unit": "%",
+    "source": null,
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "Not found. No published S8 or Sheffield share of reduced listings for Oct/Nov 2026 in press or agent reports searched (Rightmove, Zoopla, Reeds Rains, Hunters, Housemetric). Usual sources (Home.co.uk, PropertyData) blocked; portals barred.",
+    "task": "W2a"
+   }
+  ],
+  "sheffield_days_to_sell": [
+   {
+    "house": "market",
+    "field": "sheffield_days_to_sell",
+    "value": 44,
+    "unit": "days",
+    "source": "https://www.mpamag.com/uk/mortgage-types/residential/uk-house-prices-rise-08-as-mortgage-rates-split-north-from-south/595053",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "UK figure, not Sheffield or Yorkshire: none found for either. Zoopla HPI Oct 2026 (Sep 2026 data): UK median listing to sale agreed 44 days, same as a year earlier; Scotland 19, London 56. Also https://www.mortgagesolutions.co.uk/mortgage-news/2026/10/27/higher-rates-make-home-buyers-more-selective/ . Zoopla stock +7% y/y, sales agreed -7% y/y. Sheffield avg price £179,900 (+1.5% y/y) in same release.",
+    "task": "W2a"
+   }
+  ],
+  "sheffield_share_listings_cut": [
+   {
+    "house": "market",
+    "field": "sheffield_share_listings_cut",
+    "value": null,
+    "unit": "%",
+    "source": "https://www.rightmove.co.uk/news/?p=109661",
+    "retrieved": "2026-11-19",
+    "confidence": "low",
+    "note": "No Sheffield or Yorkshire figure found for Oct/Nov 2026. Rightmove Nov 2026 HPI (16 Nov 2026) reports: asking prices -1.8% m/m to £364,270, stock at 12-year high, sales agreed -7% y/y (https://thenegotiator.co.uk/?p=208639) but no share-cut figure in coverage; PDF not reachable. Last found UK share: 34% of listings cut, avg cut 7%, Rightmove Nov 2025 (the page above) - a year stale. Zoopla Oct 2026: only 19% of reduced homes sold within 90 days vs 41% unreduced (UK).",
+    "task": "W2a"
    }
   ]
  }

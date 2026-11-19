@@ -1,16 +1,16 @@
-address,postcode,date,age,price,indexed,type,tenure,new_build,floor_area_m2,ppm2,source
-"41 Plymouth Road, Sheffield",S7 2DE,2025-02-28,1–2 yrs,274000,279614,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
-"11 Plymouth Road, Sheffield",S7 2DE,2025-03-05,1–2 yrs,155000,155446,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
-"65 Buttermere Road, Sheffield",S7 2AX,2025-03-28,1–2 yrs,195000,195561,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2AX&min_date=19+November+2024
-"41 Buttermere Road, Sheffield",S7 2AX,2025-06-20,1–2 yrs,225500,239222,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2AX&min_date=19+November+2024
-"36 Plymouth Road, Sheffield",S7 2DE,2025-07-31,1–2 yrs,165000,170543,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
-"16 Lynmouth Road, Sheffield",S7 2DF,2025-08-29,1–2 yrs,162500,165668,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
-"26 Plymouth Road, Sheffield",S7 2DE,2025-08-29,1–2 yrs,220000,224288,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
-"6 Lynmouth Road, Sheffield",S7 2DF,2025-09-24,1–2 yrs,239500,242984,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
-"194 Carter Knowle Road, Sheffield",S7 2EA,2025-11-07,1–2 yrs,294000,297700,T,F,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2EA&min_date=19+November+2024
-"35 Lynmouth Road, Sheffield",S7 2DF,2025-11-27,<1 yr,277100,280587,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
-"46 Plymouth Road, Sheffield",S7 2DE,2026-01-22,<1 yr,238000,238228,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
-"52 Plymouth Road, Sheffield",S7 2DE,2026-02-13,<1 yr,186000,184764,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
-"44 Plymouth Road, Sheffield",S7 2DE,2026-04-02,<1 yr,220000,218745,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
-"46 Lynmouth Road, Sheffield",S7 2DF,2026-06-26,<1 yr,175560,175896,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
-"33 Falmouth Road, Sheffield",S7 2DG,2026-07-31,<1 yr,240000,239314,T,L,False,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG&min_date=19+November+2024
+address,postcode,date,age,price,indexed,type,tenure,lr_category,new_build,floor_area_m2,ppm2,area_source,source
+"41 Plymouth Road, Sheffield",S7 2DE,2025-02-28,1–2 yrs,274000,279614,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
+"11 Plymouth Road, Sheffield",S7 2DE,2025-03-05,1–2 yrs,155000,155446,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
+"65 Buttermere Road, Sheffield",S7 2AX,2025-03-28,1–2 yrs,195000,195561,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2AX&min_date=19+November+2024
+"41 Buttermere Road, Sheffield",S7 2AX,2025-06-20,1–2 yrs,225500,239222,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2AX&min_date=19+November+2024
+"36 Plymouth Road, Sheffield",S7 2DE,2025-07-31,1–2 yrs,165000,170543,T,L,B,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
+"16 Lynmouth Road, Sheffield",S7 2DF,2025-08-29,1–2 yrs,162500,165668,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
+"26 Plymouth Road, Sheffield",S7 2DE,2025-08-29,1–2 yrs,220000,224288,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
+"6 Lynmouth Road, Sheffield",S7 2DF,2025-09-24,1–2 yrs,239500,242984,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
+"194 Carter Knowle Road, Sheffield",S7 2EA,2025-11-07,1–2 yrs,294000,297700,T,F,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2EA&min_date=19+November+2024
+"35 Lynmouth Road, Sheffield",S7 2DF,2025-11-27,<1 yr,277100,280587,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
+"46 Plymouth Road, Sheffield",S7 2DE,2026-01-22,<1 yr,238000,238228,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
+"52 Plymouth Road, Sheffield",S7 2DE,2026-02-13,<1 yr,186000,184764,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
+"44 Plymouth Road, Sheffield",S7 2DE,2026-04-02,<1 yr,220000,218745,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DE&min_date=19+November+2024
+"46 Lynmouth Road, Sheffield",S7 2DF,2026-06-26,<1 yr,175560,175896,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DF&min_date=19+November+2024
+"33 Falmouth Road, Sheffield",S7 2DG,2026-07-31,<1 yr,240000,239314,T,L,A,False,,,,https://landregistry.data.gov.uk/app/ppd/ppd_data.csv?header=true&limit=all&postcode=S7+2DG&min_date=19+November+2024
