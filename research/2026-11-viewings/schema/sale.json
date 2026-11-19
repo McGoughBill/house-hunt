@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sale",
+  "type": "object",
+  "required": ["address", "postcode", "date", "price", "type", "tenure", "new_build", "source"],
+  "properties": {
+    "address": {"type": "string"},
+    "postcode": {"type": "string"},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "price": {"type": "integer"},
+    "type": {"enum": ["D", "S", "T", "F", "O"], "description": "Land Registry: detached, semi, terraced, flat, other"},
+    "tenure": {"enum": ["F", "L"]},
+    "new_build": {"type": "boolean"},
+    "floor_area_m2": {"type": ["number", "null"]},
+    "epc": {"type": ["string", "null"], "description": "energy-certificate link"},
+    "source": {"type": "string", "description": "URL of the sale record"}
+  }
+}

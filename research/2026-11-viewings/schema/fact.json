@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "fact",
+  "type": "object",
+  "required": ["house", "field", "value", "source", "retrieved", "confidence"],
+  "properties": {
+    "house": {"type": "string", "description": "id from houses.yaml, or 'market' for shared facts"},
+    "field": {"type": "string"},
+    "value": {"description": "null if not found; then note says why"},
+    "unit": {"type": ["string", "null"]},
+    "source": {"type": ["string", "null"], "description": "URL; null only when value is null"},
+    "retrieved": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "confidence": {"enum": ["high", "medium", "low"]},
+    "note": {"type": "string"}
+  },
+  "example": {"house": "welby", "field": "flood_risk_surface_water", "value": "low",
+              "unit": null, "source": "https://…", "retrieved": "2026-11-20",
+              "confidence": "high", "note": ""}
+}

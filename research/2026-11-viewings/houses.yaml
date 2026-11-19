@@ -1,0 +1,113 @@
+# The seven houses for Saturday 21 Nov 2026.
+# Source: project doc claude/house-hunt/saturday-viewings-2026-11-21.md (19 Nov 2026, 20:16).
+# "known" lines are what that doc says; they are claims to check, not facts.
+houses:
+  - id: falmouth
+    address: 34 Falmouth Road, Nether Edge, Sheffield
+    postcode: S7 2DG
+    sector: S7 2
+    type: house (3 bed)
+    asking: 210000
+    price_text: "£210,000"
+    agent: Hunters, Hunters Bar
+    listing: https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-falmouth-road-sheffield-s7/34891232/
+    viewing: "2026-11-21 10:15"
+    known:
+      - 3 beds; bay-windowed living room; dining room at the back
+      - 1,163 sq ft (108 m²) per listing; Hunters said 1,007 sq ft (94 m²) on the phone
+      - leasehold, 672 years left
+      - no offers yet, per Hunters on 19 Nov
+      - listing says front door opens into living room, lobby only to the stairs
+
+  - id: welby
+    address: 50 Welby Place, Meersbrook, Sheffield
+    postcode: S8 9DB
+    sector: S8 9
+    type: detached bungalow
+    asking: 265000
+    price_text: "£265,000"
+    agent: Staves, Woodseats
+    listing: https://www.stavesestateagents.co.uk/property-for-rent-2-bedroom-detached-bungalow-in-sheffield
+    viewing: "2026-11-21 11:30"
+    known:
+      - built about 1989-90; about 60 m²; 2 beds plus a box room
+      - side porch into L-shaped hall; open-plan kitchen and living room
+      - freehold, title SYK299194
+      - bought for £242,000 in Nov 2021; NatWest charge May 2026; not probate
+      - on the market since about 2 Sep 2026; no chain
+      - brick workshop; parking for one small car; neighbours' drains run under the plot
+      - listing URL reads "for-rent"
+
+  - id: leeshall
+    address: 57 Lees Hall Road, Norton Lees, Sheffield
+    postcode: S8 9JJ
+    sector: S8 9
+    type: semi-detached house (1930s style)
+    asking: 290000
+    price_text: "£290,000"
+    agent: Staves, Woodseats
+    listing: https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-semi-in-sheffield-25
+    viewing: "2026-11-21 12:00"
+    known:
+      - 3 bed semi with hall and bay lounge; extended dining room open to kitchen
+      - drive, detached garage and store; garden falls away at the back
+      - about 69 m² by EPC, which may exclude the extension; EPC band D; council tax band B
+      - listed 8 Sep 2026, no price cut, no chain
+      - tenure unclear; most of the street is leasehold
+      - nearby sales claimed - No. 26 £275k (May 2025), No. 117 £268k (Jul 2025), No. 105 £255k (Jan 2025)
+      - a rival semi on the same road went sold STC at about £250k
+
+  - id: cawthorne
+    address: 6 Cawthorne Grove, Millhouses, Sheffield
+    postcode: S8 0ND
+    sector: S8 0
+    type: unknown
+    asking: 300000
+    price_text: "Guide £300,000–£325,000"
+    agent: Saxton Mee, Banner Cross
+    listing: https://www.saxtonmee.co.uk/properties-for-sale/property/3201-cawthorne-grove-millhouses-sheffield
+    viewing: "2026-11-21 12:45"
+    known:
+      - little known; guide range tops out at the buyer's £325k ceiling
+      - Millhouses lies along the River Sheaf
+
+  - id: underwood
+    address: 38 Underwood Road, Woodseats, Sheffield
+    postcode: S8 8TH
+    sector: S8 8
+    type: unknown
+    asking: 220000
+    price_text: "Offers around £220,000"
+    agent: Whitehornes
+    listing: https://www.zoopla.co.uk/for-sale/details/74619438/
+    viewing: "2026-11-21 13:30"
+    known:
+      - cheapest of the seven; agent meets buyer there
+
+  - id: helmton
+    address: 17 Helmton Drive, Woodseats, Sheffield
+    postcode: S8 8QN
+    sector: S8 8
+    type: unknown
+    asking: 265000
+    price_text: "Offers over £265,000"
+    agent: Whitehornes
+    listing: https://whitehornes.co.uk/property-for-sale/helmton-drive-woodseats-s8-2/
+    viewing: "2026-11-21 14:00"
+    known:
+      - about 109 m²
+      - one source says 136-year lease; tenure unconfirmed
+      - the seller shows it
+
+  - id: hollythorpe
+    address: 51 Hollythorpe Road, Norton Lees, Sheffield
+    postcode: null   # not in the Saturday doc; find it
+    sector: S8 9     # assumed from Norton Lees; confirm
+    type: unknown
+    asking: 280000
+    price_text: "Offers around £280,000"
+    agent: Whitehornes
+    listing: https://whitehornes.co.uk/property-for-sale/hollythorpe-road-norton-lees-s8/
+    viewing: "2026-11-21 14:45 (not yet confirmed by agent)"
+    known:
+      - hall, whether empty and structure unconfirmed
