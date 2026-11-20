@@ -1,18 +1,26 @@
-# {address} ({postcode})
+## {n}. {address} · {time}
 
-*{price_text} · {agent} · viewing {viewing}*
+*{price_text} · {agent} · {postcode}*
 
-## Facts
-{facts_table}
+**Verdict:** {verdict}
 
-## Comparables
-{comps}
+**Numbers**
+{numbers}
 
-## Levers
-<!-- agent writes: each true point that argues the price down, with its fact line -->
+**Price** (before faults)
+{price}
 
-## Questions for the viewing
-<!-- agent writes -->
+**Levers**
+{levers}
 
-## Red flags
-<!-- agent writes -->
+**Ask**
+{questions}
+
+**Check**
+{checks}
+
+**Red flags: walk away if**
+{red_flags}
+
+**Never say**
+{never_say}
