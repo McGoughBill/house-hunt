@@ -1,5 +1,7 @@
 # Saturday 21 November 2026: viewing day
 
+**Briefs, one per house (wave 3): [saturday-briefs-2026-11-21.md](saturday-briefs-2026-11-21.md)**
+
 *Everything for the day in one place. Updated 20 Nov 2026, 00:30, with the wave-1 research, and again with wave 2 (`wave1-status.md`; sources for every figure are in the repo, `research/2026-11-viewings/facts.json`). Drive times are rough estimates. Sunset is about 16:00.*
 
 *Wave 2 (20 Nov): every figure that moved, and every hazard question added, is marked **[W2]**. Working and sources: `wave2-status.md`.*
