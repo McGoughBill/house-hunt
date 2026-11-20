@@ -1,6 +1,8 @@
 # Saturday 21 November 2026: viewing day
 
-*Everything for the day in one place. Updated 20 Nov 2026, 00:30, with the wave-1 research (`wave1-status.md`; sources for every figure are in the repo, `research/2026-11-viewings/facts.json`). Drive times are rough estimates. Sunset is about 16:00.*
+*Everything for the day in one place. Updated 20 Nov 2026, 00:30, with the wave-1 research, and again with wave 2 (`wave1-status.md`; sources for every figure are in the repo, `research/2026-11-viewings/facts.json`). Drive times are rough estimates. Sunset is about 16:00.*
+
+*Wave 2 (20 Nov): every figure that moved, and every hazard question added, is marked **[W2]**. Working and sources: `wave2-status.md`.*
 
 **How old each price is.** Every past sale below carries its age in years, counted back from 19 Nov 2026: <1, 1–2, 2–3, 3–4, 4–5, 5–6 or 6+. "≈ £X today" brings a sale up to Sep 2026 with the official Sheffield house price index for that house type (Land Registry). Asking prices of houses for sale now carry no age.
 
@@ -39,13 +41,14 @@
   - Could you email the floorplan?
 - **Ask (what I couldn't check online; the sites block automated checks).** Ask the agent for these in writing; they're "material information" the agent should hold:
   - **Energy certificate:** a copy, with its floor area and date.
-  - **Flood:** any flooding, and any flood-related insurance claim or excess.
-  - **Ground:** any mining report, subsidence, movement or heave claim.
-  - **Knotweed:** any on or next to the plot, and any treatment plan.
-  - **Trees:** any tree preservation orders on or beside the plot.
-  - **Planning:** any applications, refusals or extensions, and building-control completion certificates for any work.
-  - **Area rules:** is it in a conservation area or under an Article 4 direction?
-  - **Certificates:** FENSA for windows, Gas Safe registration for the boiler, and the last electrical report.
+  - **Flood** **[W2]** (no house sits in a river flood zone, but surface-water risk is unknown for all seven): "Has the house, garden or garage ever flooded, from the river, the drains or rain running off the road? Has the owner ever claimed on insurance for flood, or been refused cover or charged a flood excess?"
+  - **Ground** **[W2]** (Sheffield sits on old coal workings; this street can't be checked online): "Has a coal-mining or ground report ever been done? Any subsidence, cracking, movement or heave claim, or a mining-damage claim to the Mining Remediation Authority?"
+  - **Knotweed:** "Is there any Japanese knotweed on the plot or next to it, now or in the past, and is there a treatment plan with a guarantee?"
+  - **Trees:** "Are any trees on or beside the plot under a tree preservation order?"
+  - **Planning:** "What planning applications, refusals or extensions has the house had, and is there a building-control completion certificate for each piece of work?"
+  - **Area rules:** "Is the house in a conservation area or under an Article 4 direction?"
+  - **Certificates** **[W2]** (FENSA's checker blocks lookups; Gas Safe gives copies only to the owner): "Please send the FENSA certificates for the windows, the Gas Safe building-regulations certificate for the boiler, and the last electrical report (EICR)."
+  - **[W2]** **After an offer**, the conveyancer's searches cover all of these: environmental (flood, ground), coal mining (CON29M) and local authority (planning, building control, conservation, Article 4). The answers on Saturday are for pricing, not proof.
 - **Look at:** whether the front door opens into a hall, the room to extend, the slope, damp, cracks and fresh paint. Measure every room.
 - **Decline the agent's mortgage broker.** Staves' broker, Onn Financial (Fiona), has texted you. You're using L&C.
 
@@ -59,22 +62,23 @@
 
 **Facts**
 - 3-bed mid-terrace, with a bay-windowed living room and a dining room at the back.
-- 1,163 sq ft by the listing. Hunters quoted 1,007 sq ft on the phone. No energy certificate figure yet.
+- 1,163 sq ft by the listing. Hunters quoted 1,007 sq ft on the phone. No energy certificate figure yet. **[W2]** Work on 94 m² (the smaller figure) until you measure: £2,234/m² asking.
 - Leasehold, with 672 years left. Every sale on the street since 1995 is leasehold.
 - No offers yet, per Hunters on 19 Nov.
 
 **Research (your levers, keep quiet)**
 - Listed 27 Aug at £215k; cut to £210k on 9 Oct. Unsold about 12 weeks.
-- Last sold for £119,950 in Jan 2012 (6+ yrs; too old for the index, which starts in 2016).
+- Last sold for £119,950 in Jan 2012 (6+ yrs; **[W2]** ≈ £228k today: the index now reaches back to 2010).
 - Street's highest sale ever: £290k (No. 7, Jun 2023 · 3–4 yrs; ≈ £324k today). Only recent sale: No. 33, £240k (Jul 2026 · <1 yr).
 - Rival terraces within 1 km, asking now: Tavistock Rd £200k; Abbeydale Rd £210k (back on the market); Vincent Rd £215k; Wath Rd £240k; South View Rd £250k.
 
 **Main risk:** the listing says the front door opens straight into the living room, with a lobby only to the stairs. That breaks your hall rule.
 
-**Value:** my rough estimate of its value once done up is £290,000. The street's best sale is now worth about £324k, so that ceiling is less tight than I first said. The margin after works still looks thin or negative.
+**Value:** **[W2]** too few comparables for a £/m² value: one terrace sold on the street in 3 years (No. 33, £240k), and no floor areas could be found. My rough estimate of its value once done up is £290,000. The street's best sale is now worth about £324k, so that ceiling is less tight than I first said. The margin after works still looks thin or negative.
 
 **Ask**
-- Is it inside the Nether Edge conservation area? If so, the 2005 Article 4 direction limits outside changes.
+- Is it inside the Nether Edge conservation area? **[W2]** The postcode tests just outside it (boundary within about 400 m), so the 2005 Article 4 direction probably doesn't apply. Ask to confirm.
+- **[W2]** **Flood:** the postcode is outside the river flood zones, but a small Zone 2 patch lies 150–200 m south. Ask: "Has the house or the street ever flooded?"
 - Ground rent, and how it rises.
 - The energy certificate's floor area: settles 1,163 vs 1,007 sq ft.
 
@@ -101,6 +105,7 @@
 - NatWest loan secured on it in May 2026.
 - Brick workshop (2.55 × 2.45 m). Parking for one small car.
 - Neighbours' drains run under the plot.
+- **[W2]** Outside the river flood zones (postcode check). Surface water unknown: ask the flood question.
 
 **Research (your levers, keep quiet)**
 - Listed 2 Sep at £265k, no cut. Unsold 11 weeks.
@@ -157,6 +162,7 @@
 
 **Value**
 - As-is value about £245–260k. Open at about £245,000 and walk away above about £262,000. Today's-money comps (£255–286k for 69–84 m²) sit at or a little above the top of that range, so £262k is tight but defensible.
+- **[W2]** With 13 street semis now carrying floor areas (since Nov 2023, today's money): median £3,644/m², quartiles £3,426–4,019. At 69 m²: **£236k / £251k / £277k**. The median backs your £245–260k; the upper quartile is above your walk-away, so expect the agent to argue up. Asking is £4,203/m², 15% above the median. If the extension isn't in the 69 m², every 10 m² adds about £36k.
 
 **Extension:** a loft conversion to 4 beds is usually permitted development, for about £55–70k plus a £35–50k refurb. End value about £350–375k. A lease can carry covenants that need the freeholder's consent: ask.
 
@@ -188,12 +194,13 @@
 **Research (your levers, keep quiet)**
 - The seller bought it for £253,000 on 3 Apr 2023 (3–4 yrs; ≈ £277k today). The guide is 19–28% above the price paid, or 8–17% above it in today's money. Whatever work they did has to explain the rest.
 - Neighbours back the guide: No. 12, same agent and same guide, sold for £315k (Oct 2025 · 1–2 yrs; ≈ £320k); No. 8 sold for £320k (Dec 2025 · <1 yr). No. 26 £270k (Jun 2025 · 1–2 yrs; ≈ £285k) and No. 22 £248k (Jun 2025 · 1–2 yrs; ≈ £262k).
+- **[W2]** **Value as it stands:** 8 street semis with floor areas (since Nov 2023, today's money): median £3,644/m², quartiles £3,377–3,821. At 80 m²: **£270k / £292k / £306k**. The guide's bottom (£300k, £3,750/m²) is 3% above the median; its top (£325k) is 11% above, and above the upper quartile.
 - Rival 3-bed semis within 1 km, asking now: Periwood Drive, Millhouses, guide £285–300k, chain free; Camping Lane £300k, chain free; Tadcaster Crescent £300k; Perigree Road £325k; Fraser Road £250–260k (leasehold).
 
 **Ask**
 - Has it had any offers? Would the seller take less than the guide?
 - What work has been done since 2023, by whom, with what certificates and sign-off? (The step from £253k depends on it.)
-- **Flood:** any flooding or flood insurance issues? Millhouses lies along the River Sheaf, which flooded in 2007, and I couldn't read the flood map.
+- **Flood:** **[W2]** the postcode is outside the Sheaf's flood zones 2 and 3, and the council's report on the Oct 2023 floods names Millhouses Park, not this street. Surface water is unknown. Ask: "Has the house, garden or road ever flooded, in 2007, 2023 or since? Any flood claim, refusal or excess on the insurance?"
 - Could you email the floorplan?
 
 **Check**
@@ -209,18 +216,19 @@
 
 **Facts**
 - 3-bed mid-terrace, one reception room, 915 sq ft (85 m²) by the listing. About £2,600/m².
-- Leasehold (Land Registry and listing).
+- Leasehold (Land Registry and listing). **[W2]** Ground rent £0; council tax band A; EPC D; "in need of some renovation"; an occasional attic room (Zoopla listing).
 - Listed 28 Oct 2026: new, three weeks on the market.
 - Whitehornes will meet you there. The cheapest of the seven.
 
 **Research (your levers, keep quiet)**
 - Last sold for £140,000 on 7 Dec 2020 (5–6 yrs; ≈ £180k today). The asking price is £40k above that.
 - Highest terrace sale ever on the street: £200k (No. 56, Jul 2025 · 1–2 yrs; ≈ £207k). The asking price is above it. A semi, No. 36, sold for £246k (Jun 2026 · <1 yr).
+- **[W2]** Too few comparables for a £/m² value: one terrace sold on the street in 3 years (No. 56, ≈ £207k today), no floor areas found.
 - Rival 3-bed terraces near Woodseats at about £220k, asking now: Woodseats Road (Whitehornes, 1,393 sq ft, leasehold), Holmhirst Drive (Whitehornes), Hackthorn Road (freehold).
 
 **Ask**
 - Rightmove also shows an Underwood Road terrace at offers around £220k, listed by Hunters on 30 Oct. Is that this house with a second agent?
-- Ground rent and lease length.
+- Lease length **[W2]** (the listing gives ground rent as £0).
 - Why are the owners selling, and what's been done since 2020?
 - Could you email the floorplan?
 
@@ -243,11 +251,13 @@
 - Land Registry also records No. 17 as a freehold semi.
 - Entrance hall, which passes your hall rule.
 - Listed 17 Jun 2026. Unsold 22 weeks.
+- **[W2]** Not in a conservation area (postcode check); outside the river flood zones.
 
 **Research (your levers, keep quiet)**
 - Price cut twice: offers around £300k (17 Jun), then £270k (by 14 Oct), now offers over £265k. That's 12% off.
 - The seller bought it for £190,000 on 19 Dec 2018 (6+ yrs; ≈ £265k today). "Offers over £265k" is almost exactly what they paid, brought up to date. So the asking price builds in nothing for any work they've done since.
-- About £3,600/m² at 73 m². That isn't cheap, so the old margin of −£28k needs redoing.
+- About £3,600/m² at 73 m². **[W2]** Only one same-type comparable with a floor area (No. 1, 86 m², leasehold, £3,382/m² today): too thin to value it on. At that rate it's worth £247k.
+- **[W2]** **Already done up** (listing: "modern and stylish finish throughout"), so there's little to add by refurbishing. Done-up value £247–265k (the one comparable, up to the seller's 2018 price today). **Margin −£52k to −£30k** (was −£28k). Your buy test's most to offer: £213–235k.
 - Street sales since Nov 2024: No. 1 £280k (semi, leasehold; May 2025 · 1–2 yrs; ≈ £291k), No. 39 £240k (Jun 2025 · 1–2 yrs) and No. 5 £228k (Aug 2025 · 1–2 yrs), both terraces.
 
 **Ask (the seller is there: ask open questions, say little)**
@@ -267,11 +277,13 @@
 **Facts**
 - 3-bed semi, 731 sq ft (68 m²) by the listing, freehold, about £4,100/m².
 - Listed 23 Feb 2026. Unsold almost 9 months.
-- Land Registry filed its 2010 sale (£136,500; 6+ yrs, too old for the index) twice, once leasehold and once freehold. The owner probably bought the freehold too.
+- Land Registry filed its 2010 sale (£136,500; 6+ yrs; **[W2]** ≈ £250k today) twice, once leasehold and once freehold. The owner probably bought the freehold too.
 
 **Research (your levers, keep quiet)**
 - Nine months unsold is the strongest sign of a seller who needs to move.
-- **But the neighbours sold high:** No. 49 next door sold for £315k (Jun 2025 · 1–2 yrs; ≈ £333k, leasehold); No. 80 £330k (Mar 2025 · 1–2 yrs; ≈ £333k); No. 13 £295k (Oct 2025 · 1–2 yrs; ≈ £300k). Lower down: No. 30 £241k and No. 33 £235k (both Mar 2025 · 1–2 yrs, leasehold). Sizes unknown. Your done-up estimate of £241k looks too low against the top three. Measure, and compare room by room.
+- **But the neighbours sold high:** No. 49 next door sold for £315k (Jun 2025 · 1–2 yrs; ≈ £333k, leasehold); No. 80 £330k (Mar 2025 · 1–2 yrs; ≈ £333k); No. 13 £295k (Oct 2025 · 1–2 yrs; ≈ £300k). Lower down: No. 30 £241k and No. 33 £235k (both Mar 2025 · 1–2 yrs, leasehold).
+- **[W2]** With floor areas for 6 street semis (since Nov 2023, today's money): median £4,061/m², quartiles £3,664–4,199. At 68 m²: **£249k / £276k / £286k**. Asking (£4,118/m²) sits at the median.
+- **[W2]** **Already done up** (listing: "immaculately presented … no expense spared"). Done-up value **£276–286k** (was £241k). **Margin −£40k to −£26k** (was −£95k). Your buy test's most to offer: £240–254k. Measure: at this price, each 5 m² is worth about £20k.
 - Rivals: Hunters' Hollythorpe Road semi at £280k went Sold STC; Hollythorpe Crescent £240k (807 sq ft) went STC.
 
 **Ask**
