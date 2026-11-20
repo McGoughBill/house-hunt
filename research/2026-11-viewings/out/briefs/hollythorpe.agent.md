@@ -1,10 +1,3 @@
-### Verdict
-Pursue only at a deep cut: done up, so no rework gain; at £280k the buy test fails by £26k–£40k.
-
-### Price
-- **Open £240k**: buy test's low (£239,783).
-- **Walk away £254k**: buy test's top (£253,979).
-
 ### Levers
 - 269 days unsold, never cut [L].
 - Done up: margin −£40k to −£26k at £280k [value].
@@ -33,11 +26,9 @@ Pursue only at a deep cut: done up, so no rework gain; at £280k the buy test fa
 - Structure: cracks over 3 mm, bulging walls, marble rolls, doors cut to fit.
 
 ### Never say
-Open, walk-away or budget; the 2010 price; days unsold; that Underwood and Helmton are on your list; your favourite.
+Budget; the 2010 price; days unsold; that Underwood and Helmton are on your list; your favourite.
 
 ### Working
-- £240k = most_to_offer low £239,783, rounded (comps.md value.json).
-- £254k = most_to_offer high £253,979, rounded (comps.md value.json).
 - £26k–£40k = margin −£26,021 to −£40,217, rounded (comps.md).
 - £241k = No. 30 sale £241,000, 2025-03-27 (comps.md); £235k = No. 33 sale £235,000, 2025-03-10 (comps.md).
 - £240k (Hollythorpe Crescent) = rival_listings price 240000 (facts.md).

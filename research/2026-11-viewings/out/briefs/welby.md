@@ -2,8 +2,6 @@
 
 *£265,000 · Staves, Woodseats · S8 9DB*
 
-**Verdict:** Pursue only at a deep cut: your extension plan pays only up to £220k; the model says £245k; they paid £242k.
-
 **Numbers**
 - Area: **60 m²** · asking £4,417/m²
 - Comparables **thin**: no detached sale on the street since Nov 2021
@@ -12,10 +10,6 @@
 - Street's top price ever: £292,500 (42 Welby Place, terraced, freehold, 3 Nov 2025)
 - Listed 2 Sep 2026 at £265,000: 78 days by 19 Nov, no cut
 - Tenure: freehold (Land Registry)
-
-**Price** (before faults)
-- **Open £210k**: comparables thin; no bungalow sale on the street since 2021; 78 days, no cut. Rise £216k, £219k.
-- **Walk away £220k**: where the extension stops paying; the old £235k loses money.
 
 **Levers**
 - Unsold 78 days, no cut [L].
@@ -41,10 +35,10 @@
 - Drive: one small car only? Shared with No. 52?
 - Measure every room against 60 m².
 
-**Red flags: walk away if**
+**Rule checks: hall, lease, structure**
 - Hall: you enter straight into a room. Notes say porch into hall; see.
 - Lease: anything but freehold; get it in writing.
 - Structure: cracks over 3 mm, walls leaning in, the marble rolls.
 
 **Never say**
-£220k, their £242k or 2026 loan, the 78 days, Lees Hall (also Staves), or your favourite.
+Their £242k or 2026 loan, the 78 days, Lees Hall (also Staves), or your favourite.

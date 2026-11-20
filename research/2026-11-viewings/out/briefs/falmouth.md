@@ -2,8 +2,6 @@
 
 *£210,000 · Hunters, Hunters Bar · S7 2DG*
 
-**Verdict:** Drop: the front door opens into the living room, and the margin after works looks negative. Revisit if a lobby fits.
-
 **Numbers**
 - Area: **94 m²** (listing says 108 m²; work on the smaller) · asking £2,234/m²
 - Comparables **thin**: 1 terrace sale on the street since Nov 2023, 0 with area. No £/m² value
@@ -11,10 +9,6 @@
 - Street's top price ever: £290,000 (7 Falmouth Road, terraced, leasehold, 13 Jun 2023)
 - Listed 27 Aug 2026 at £215,000: 84 days by 19 Nov, 1 cut (2.3% in all)
 - Tenure: leasehold (Land Registry)
-
-**Price** (before faults)
-- **Open £185k**: Comparables thin; asking less 12% after 84 days, one cut.
-- **Walk away £200k**: leaves about £50k for works if done up it's worth £290k (rough estimate); below its last sale today (£228k).
 
 **Levers**
 - Hunters' phone figure, 1,007 sq ft (94 m²), is 13% under the listing [W2 ruling].
@@ -39,10 +33,10 @@
 - Electrics, boiler: wire fuses, no RCDs, no service book.
 - Stopcock: dull grey lead pipe.
 
-**Red flags: walk away if**
+**Rule checks: hall, lease, structure**
 - Hall: no lobby fits inside the front door; pace it.
 - Lease: under 150 years, or a live covenant dispute; get it in writing.
 - Structure: 3 mm+ or stepped cracks, bulging walls, marble rolls.
 
 **Never say**
-The walk-away, 2012 price, days unsold, No. 33's price, budget, other houses.
+The 2012 price, days unsold, No. 33's price, budget, other houses.

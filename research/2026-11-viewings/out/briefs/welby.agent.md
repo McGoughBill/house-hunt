@@ -1,10 +1,3 @@
-### Verdict
-Pursue only at a deep cut: your extension plan pays only up to £220k; the model says £245k; they paid £242k.
-
-### Price
-- **Open £210k**: comparables thin; no bungalow sale on the street since 2021; 78 days, no cut. Rise £216k, £219k.
-- **Walk away £220k**: where the extension stops paying; the old £235k loses money.
-
 ### Levers
 - Unsold 78 days, no cut [L].
 - Model: £245k–£251k, £14–20k under asking [value].
@@ -35,11 +28,9 @@ Pursue only at a deep cut: your extension plan pays only up to £220k; the model
 - Structure: cracks over 3 mm, walls leaning in, the marble rolls.
 
 ### Never say
-£220k, their £242k or 2026 loan, the 78 days, Lees Hall (also Staves), or your favourite.
+Their £242k or 2026 loan, the 78 days, Lees Hall (also Staves), or your favourite.
 
 ### Working
-- £220k = the purchase price above which the extension plan loses money (ref/saturday/welby.md, "Extension" and "Value" lines). Old notes' £235k walk-away and £225k open from the same file; both sit above £220k, so dropped.
-- £210k = my choice: £220k walk-away less £10k room to rise (§4: open below value, rise in shrinking steps). Steps £210k → £216k → £219k → £220k (+£6k, +£3k, +£1k) are my estimate.
 - £245k–£251k = bungalow_model_value central_all_data £245,378 and central_welby_place_only £250,699, rounded (welby.md, welby.facts.md L).
 - £14–20k = £265,000 − £250,699 = £14,301; £265,000 − £245,378 = £19,622.
 - £242k = last_sale_price 242000 (S4); "2021" = last_sale_date 2021-11-19.

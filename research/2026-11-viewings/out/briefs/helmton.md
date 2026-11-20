@@ -2,8 +2,6 @@
 
 *Offers over £265,000 · Whitehornes · S8 8QN*
 
-**Verdict:** Pursue only at a deep cut: done up, nothing to add; asking tops its value; buy test stops at £235k.
-
 **Numbers**
 - Area: **73 m²** · asking £3,630/m²
 - Comparables **thin**: 1 semi sale on the street since Nov 2023, 1 with area. No £/m² value
@@ -11,12 +9,8 @@
 - Last sold £190,000 (Dec 2018) → **£264,933 today**
 - Street's top price ever: £300,000 (1A Helmton Drive, semi, leasehold, 1 Jul 2022)
 - Listed 17 Jun 2026 at £300,000: 155 days by 19 Nov, 2 cuts (11.7% in all)
-- Done-up value £247k–£265k; margin −£51,553 to −£29,560; buy test's most to offer **£213k–£235k**
+- Done-up value £247k–£265k; buy-test margin at asking −£51,553 to −£29,560
 - Tenure: freehold (ruled in wave 2)
-
-**Price** (before faults)
-- **Open £213k**: comparables thin; buy test's low end, £34k under the one sale's £247k.
-- **Walk away £235k**: buy test's top; under last sale today (£265k) and street top (£300k), after 155 days.
 
 **Levers**
 - Unsold 155 days, cut twice, 11.7% off £300k [L].
@@ -39,7 +33,7 @@
 - Loft: 2.2 m joist to ridge; W-shaped trusses.
 - Side and rear: room to extend; measure every room.
 
-**Red flags: walk away if**
+**Rule checks: hall, lease, structure**
 - Hall: front door opens straight into a room.
 - Lease: title shows leasehold under 150 years, or consent needed for works.
 - Structure: cracks over 3 mm, bulging walls, marble rolls.

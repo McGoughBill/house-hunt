@@ -1,10 +1,3 @@
-### Verdict
-Pursue only at a deep cut: already done up, so little to add; guide above street median; 111 days unsold.
-
-### Price
-- **Open £270k**: street lower quartile £3,377/m² × 80 m².
-- **Walk away £284k**: street median £292k, less 2.5% for unproven recent work.
-
 ### Levers
 - 111 days at £300k, no cut [L].
 - Guide bottom £3,750/m² beats street median £3,644/m² [value].
@@ -33,13 +26,11 @@ Pursue only at a deep cut: already done up, so little to add; guide above street
 - Structure: cracks over 3 mm, bulging walls, doors cut to fit, marble rolls.
 
 ### Never say
-The £284k walk-away, the £253k paid, the 111 days, which house you prefer.
+The £253k paid, the 111 days, which house you prefer.
 
 ### Working
 - £3,377/m², £3,644/m², £3,750/m² and 80 m² are printed in out/briefs/cawthorne.md.
-- £270k = £3,377 × 80 = £270,160, rounded (value.json 270160).
 - £292k (street median) = £3,644 × 80 = £291,520, rounded (value.json 291520).
-- £284k = £291,520 − 2.5% = £284,232, rounded. The 2.5% is my estimate of a risk discount (§4) for unproven recent work and unknown surface-water risk.
 - £277k = £277,475 (comps last_sale.today), rounded.
 - 8–17% = £300,000 / £277,475 = 1.081; £325,000 / £277,475 = 1.171.
 - Apr 2023 = last_sale_date 2023-04-03 (facts S2).

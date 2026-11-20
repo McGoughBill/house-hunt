@@ -124,7 +124,7 @@
 - The owners' 2021 price, brought forward, is about £279k: 11–14% above the model. In 2021 they paid the highest cash £/m² ever recorded on the street.
 - **Weaknesses:** the fit uses only 6 bungalow sales, and only 1 of them is under 4 years old. EPCs or listings confirm only Nos 45 and 50 as bungalows; the rest are probable. Derbyshire Lane's bungalows are 1930s ones on bigger plots. The index covers all detached houses in Sheffield, not bungalows alone. Condition is unknown for every sale.
 
-**Value:** the model puts it at about £245–250k as it stands, versus the £265k asking. Your earlier fair value of £215–235k sits below the model's middle, though inside its range. That's market value, not your price. Your extension plan loses money above about a £220k purchase, so your walk-away should come from the plan: £235k still stands, and the seller has firmer ground to refuse it than the old notes implied. Open at £225,000. Expect the seller to point to what they paid in 2021, brought up to date (≈ £279k). The answer: in cash terms they paid more per m² than any other bungalow on the street ever has. Only tiny No. 52 (49 m²) beats them once prices are brought up to date. Don't tell the agent any of these figures.
+**Value:** the model puts it at about £245–250k as it stands, versus the £265k asking. Your earlier fair value of £215–235k sits below the model's middle, though inside its range. Your extension plan loses money above about a £220k purchase. Expect the seller to point to what they paid in 2021, brought up to date (≈ £279k). The answer: in cash terms they paid more per m² than any other bungalow on the street ever has. Only tiny No. 52 (49 m²) beats them once prices are brought up to date. Don't tell the agent any of these figures.
 
 **Extension:** building upward (Class AA permitted development, or full planning) tops out at about £325–360k, and loses money above about a £220k purchase.
 
@@ -163,8 +163,8 @@
 - Rivals on the same road, asking now: Yopa, offers around £250k, leasehold, unsold since 20 Mar after a cut; Blundells, offers around £250k, leasehold, just listed. Three others went Sold STC at guides of £260k, £280–290k and £290k.
 
 **Value**
-- As-is value about £245–260k. Open at about £245,000 and walk away above about £262,000. Today's-money comps (£255–286k for 69–84 m²) sit at or a little above the top of that range, so £262k is tight but defensible.
-- **[W2]** With 13 street semis now carrying floor areas (since Nov 2023, today's money): median £3,644/m², quartiles £3,426–4,019. At 69 m²: **£236k / £251k / £277k**. The median backs your £245–260k; the upper quartile is above your walk-away, so expect the agent to argue up. Asking is £4,203/m², 15% above the median. If the extension isn't in the 69 m², every 10 m² adds about £36k.
+- As-is value about £245–260k. Today's-money comps (£255–286k for 69–84 m²) sit at or a little above the top of that range.
+- **[W2]** With 13 street semis now carrying floor areas (since Nov 2023, today's money): median £3,644/m², quartiles £3,426–4,019. At 69 m²: **£236k / £251k / £277k**. The median backs £245–260k; expect the agent to argue up to the upper quartile. Asking is £4,203/m², 15% above the median. If the extension isn't in the 69 m², every 10 m² adds about £36k.
 
 **Extension:** a loft conversion to 4 beds is usually permitted development, for about £55–70k plus a £35–50k refurb. End value about £350–375k. A lease can carry covenants that need the freeholder's consent: ask.
 
@@ -259,7 +259,7 @@
 - Price cut twice: offers around £300k (17 Jun), then £270k (by 14 Oct), now offers over £265k. That's 12% off.
 - The seller bought it for £190,000 on 19 Dec 2018 (6+ yrs; ≈ £265k today). "Offers over £265k" is almost exactly what they paid, brought up to date. So the asking price builds in nothing for any work they've done since.
 - About £3,600/m² at 73 m². **[W2]** Only one same-type comparable with a floor area (No. 1, 86 m², leasehold, £3,382/m² today): too thin to value it on. At that rate it's worth £247k.
-- **[W2]** **Already done up** (listing: "modern and stylish finish throughout"), so there's little to add by refurbishing. Done-up value £247–265k (the one comparable, up to the seller's 2018 price today). **Margin −£52k to −£30k** (was −£28k). Your buy test's most to offer: £213–235k.
+- **[W2]** **Already done up** (listing: "modern and stylish finish throughout"), so there's little to add by refurbishing. Done-up value £247–265k (the one comparable, up to the seller's 2018 price today). **Margin −£52k to −£30k** (was −£28k).
 - Street sales since Nov 2024: No. 1 £280k (semi, leasehold; May 2025 · 1–2 yrs; ≈ £291k), No. 39 £240k (Jun 2025 · 1–2 yrs) and No. 5 £228k (Aug 2025 · 1–2 yrs), both terraces.
 
 **Ask (the seller is there: ask open questions, say little)**
@@ -285,7 +285,7 @@
 - Nine months unsold is the strongest sign of a seller who needs to move.
 - **But the neighbours sold high:** No. 49 next door sold for £315k (Jun 2025 · 1–2 yrs; ≈ £333k, leasehold); No. 80 £330k (Mar 2025 · 1–2 yrs; ≈ £333k); No. 13 £295k (Oct 2025 · 1–2 yrs; ≈ £300k). Lower down: No. 30 £241k and No. 33 £235k (both Mar 2025 · 1–2 yrs, leasehold).
 - **[W2]** With floor areas for 6 street semis (since Nov 2023, today's money): median £4,061/m², quartiles £3,664–4,199. At 68 m²: **£249k / £276k / £286k**. Asking (£4,118/m²) sits at the median.
-- **[W2]** **Already done up** (listing: "immaculately presented … no expense spared"). Done-up value **£276–286k** (was £241k). **Margin −£40k to −£26k** (was −£95k). Your buy test's most to offer: £240–254k. Measure: at this price, each 5 m² is worth about £20k.
+- **[W2]** **Already done up** (listing: "immaculately presented … no expense spared"). Done-up value **£276–286k** (was £241k). **Margin −£40k to −£26k** (was −£95k). Measure: at this price, each 5 m² is worth about £20k.
 - Rivals: Hunters' Hollythorpe Road semi at £280k went Sold STC; Hollythorpe Crescent £240k (807 sq ft) went STC.
 
 **Ask**

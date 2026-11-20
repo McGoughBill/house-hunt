@@ -1,10 +1,3 @@
-### Verdict
-Pursue only at a deep cut: done up, nothing to add; asking tops its value; buy test stops at £235k.
-
-### Price
-- **Open £213k**: comparables thin; buy test's low end, £34k under the one sale's £247k.
-- **Walk away £235k**: buy test's top; under last sale today (£265k) and street top (£300k), after 155 days.
-
 ### Levers
 - Unsold 155 days, cut twice, 11.7% off £300k [L].
 - The one same-type sale, No. 1 (86 m²), gives £3,382/m²: £247k at 73 m² [W2c] [value].
@@ -35,10 +28,7 @@ Pursue only at a deep cut: done up, nothing to add; asking tops its value; buy t
 Any figure; the 2018 £190k; days unsold or cuts; that Underwood and Hollythorpe (Whitehornes too) are on your list.
 
 ### Working
-- £213k = £213,447 (buy test's most to offer, low end, comps.md most_to_offer), rounded.
-- £235k = £235,440 (buy test's most to offer, high end), rounded down; walk-away does not exceed it.
 - £247k = £246,886 (73 m² × £3,382/m², comps.md value.json), rounded.
-- £34k = £246,886 − £213,447 = £33,439, rounded.
 - £265k (last sale today) = £264,933 (comps.md last_sale.today), rounded.
 - £300k = £300,000 street top (facts street_highest_price).
 - £190k = £190,000 last sale, 19 Dec 2018 (facts last_sale_price).

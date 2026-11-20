@@ -13,12 +13,6 @@ The buyer: first-time buyer, no chain, agreement in principle. He buys cheap hou
 
 Write one file: out/briefs/{id}.agent.md, with exactly these headings, in this order:
 
-### Verdict
-One line: "Pursue", "Pursue only at a deep cut" or "Drop", then why, in under 25 words.
-
-### Price
-Two bullets: **Open £X** and **Walk away £Y**, each with its working in one short clause (e.g. "street median £3,644/m² × 69 m² = £251k, less 3%"). Both are before any faults: Saturday's faults come off these. Where the comparables are thin ({thin}), say "Comparables thin" and anchor on the street's top price, the last sale in today's money and the days on the market. Never stretch the comparables: don't borrow other streets or types to fake a £/m² value. Follow §4: open below the value, leave room to rise in shrinking steps. Where wave 2 gives a buy-test "most to offer", the walk-away must not exceed it.
-
 ### Levers
 3–5 bullets, strongest first. Each is a true fact that argues the price down, with its source in brackets: the fact line's task id (e.g. [S3], [L], [W2c]) or [comps] or [value]. No bluffs, no guesses.
 
@@ -28,11 +22,11 @@ At most 6 questions for the agent or seller, most valuable first, each one line.
 ### Check
 5–8 things to look at in this house most likely to cut the price, from §2 and §6. One line each, with the sign to look for.
 
-### Red flags
-Walk away if… One line each, only for: the hall rule, the lease rule, structure. Say how to tell on the day.
+### Rule checks
+One line each, only for: the hall rule, the lease rule, structure. Say what to look for on the day. No verdicts: Bill decides.
 
 ### Never say
-One or two lines: the figures and preferences to keep from the agent at this house (e.g. the walk-away, what the seller paid, the days unsold, which house he prefers, that Staves/Whitehornes' other houses are on his list).
+One or two lines: the figures and preferences to keep from the agent at this house (e.g. his budget, what the seller paid, the days unsold, which house he prefers, that Staves/Whitehornes' other houses are on his list).
 
 ### Working
 Not shown to Bill; the check script reads it. For every £ figure, m² figure and date you used above that is not printed verbatim in out/briefs/{id}.md, out/briefs/{id}.facts.md or out/briefs/{id}.comps.md, write one line showing where it came from or the sum that makes it, e.g. "£245k = £251,436 − 2.5%, rounded" or "£4,061 × 68 = £276,148". Mark estimates as estimates.
@@ -43,4 +37,5 @@ Rules:
 - Style: plain English, short words, active voice, no stock phrases, every word earning its place. Numbers, units and names checked. Use £ and m²; round prices to £1k (e.g. £245k).
 - No web browsing, no contact with anyone, no email, buy nothing. Never use death notices or obituaries. Don't run git. Don't edit any file but out/briefs/{id}.agent.md.
 - When done, run: python3 scripts/brief.py — and read out/briefs/{id}.md to see your parts in place. Fix anything that reads badly.
-Return: at most 60 words — the verdict, open and walk-away figures, and anything you could not support.
+Return: at most 60 words — the strongest lever, and anything you could not support.
+Never write a verdict, an opening offer or a walk-away figure: this is due diligence, not advice.

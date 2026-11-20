@@ -28,7 +28,7 @@ RULINGS = yaml.safe_load((ROOT / "settled.yaml").read_text())
 HOUSES = yaml.safe_load((ROOT / "houses.yaml").read_text())["houses"]
 TYPE = {"D": "detached", "S": "semi", "T": "terrace"}
 MON = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
-AGENT_PARTS = {"Verdict": "verdict", "Price": "price", "Levers": "levers", "Ask": "questions",
+AGENT_PARTS = {"Levers": "levers", "Ask": "questions",
                "Check": "checks", "Red flags": "red_flags", "Never say": "never_say"}
 
 
@@ -106,8 +106,7 @@ def numbers(h):
                  f"{c['days_on_market']} days by 19 Nov, {cut}")
     if v.get("doneup"):
         V, m, mo = v["doneup"]["V"], v["margin"], v["most_to_offer"]
-        lines.append(f"- Done-up value {k(V[0])}–{k(V[1])}; margin {gbp(m[0])} to {gbp(m[1])}; "
-                     f"buy test's most to offer **{k(mo[0])}–{k(mo[1])}**")
+        lines.append(f"- Done-up value {k(V[0])}–{k(V[1])}; buy-test margin at asking {gbp(m[0])} to {gbp(m[1])}")
     tr = [r for r in RULINGS if r["key"].replace(" ", "") == f"{hid}/tenure"]
     if tr:
         w = first_sentence(tr[0]["winner"]).lower()
@@ -210,7 +209,7 @@ def render():
         head = ("# Saturday briefs: 21 Nov 2026\n\n"
                 "*Wave 3, written 20 Nov 2026. One brief per house, in viewing order. Numbers: wave 2 scripts "
                 "(repo `McGoughBill/house-hunt`, branch `research-nov-viewings`, `research/2026-11-viewings/`). "
-                "Prices are before faults: measure, then cut. Keep every figure here from the agent.*\n")
+                "Due diligence only: facts, levers, questions and checks; no verdicts or offer figures. Keep every figure here from the agent.*\n")
         (OUT / "all.md").write_text(head + "\n---\n\n" + "\n---\n\n".join(briefs))
         print("wrote all.md")
 

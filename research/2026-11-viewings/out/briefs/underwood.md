@@ -2,8 +2,6 @@
 
 *Offers around £220,000 · Whitehornes · S8 8TH*
 
-**Verdict:** Pursue only at a deep cut: asks £13k over the street's best terrace sale, and it's leasehold and needs work.
-
 **Numbers**
 - Area: **85 m²** · asking £2,588/m²
 - Comparables **thin**: 1 terrace sale on the street since Nov 2023, 0 with area. No £/m² value
@@ -11,11 +9,6 @@
 - Street's top price ever: £246,000 (36 Underwood Road, semi, freehold, 16 Jun 2026)
 - Listed 28 Oct 2026 at £220,000: 22 days by 19 Nov, no cut
 - Tenure: leasehold (Land Registry)
-
-**Price** (before faults)
-Comparables thin.
-- **Open £180k**: own last sale in today's money; 22 days listed.
-- **Walk away £200k**: No. 56, top terrace, £207k today, less 3% for the lease.
 
 **Levers**
 - £13k over the street's top terrace sale, No. 56, freehold, £207k today [comps].
@@ -41,10 +34,10 @@ Comparables thin.
 - Roof and chimney: slipped tiles, sagging ridge.
 - Rear: yard depth; neighbours' extensions.
 
-**Red flags: walk away if**
+**Rule checks: hall, lease, structure**
 - Hall: door opens into a room, no space for a lobby.
 - Lease: under 150 years, consent needed to alter, or a covenant dispute; unanswered: offer subject to lease.
 - Structure: stepped cracks over 3 mm, bulging walls, rolling marble.
 
 **Never say**
-Walk-away, budget, the £140k sale, No. 56, the 22 days; that you're viewing Helmton and Hollythorpe.
+Budget, the £140k sale, No. 56, the 22 days; that you're viewing Helmton and Hollythorpe.

@@ -2,20 +2,14 @@
 
 *Offers around £280,000 · Whitehornes · S8 9NF*
 
-**Verdict:** Pursue only at a deep cut: done up, so no rework gain; at £280k the buy test fails by £26k–£40k.
-
 **Numbers**
 - Area: **68 m²** · asking £4,118/m²
 - Value as it stands: **£249k / £276k / £286k** (6 street semi sales with area; £3,664 / £4,061 / £4,199 per m²)
 - Last sold £136,500 (Oct 2010) → **£249,771 today**
 - Street's top price ever: £330,000 (80 Hollythorpe Road, semi, freehold, 14 Mar 2025)
 - Listed 23 Feb 2026 at £280,000: 269 days by 19 Nov, no cut
-- Done-up value £276k–£286k; margin −£40,217 to −£26,021; buy test's most to offer **£240k–£254k**
+- Done-up value £276k–£286k; buy-test margin at asking −£40,217 to −£26,021
 - Tenure: freehold (ruled in wave 2; owner appears to hold both titles)
-
-**Price** (before faults)
-- **Open £240k**: buy test's low (£239,783).
-- **Walk away £254k**: buy test's top (£253,979).
 
 **Levers**
 - 269 days unsold, never cut [L].
@@ -39,10 +33,10 @@
 - Consumer unit without RCDs; boiler age, service book.
 - Loft under 2.2 m joist to ridge, or W-shaped trusses.
 
-**Red flags: walk away if**
+**Rule checks: hall, lease, structure**
 - Hall: front door opens straight into a room. See it on entry.
 - Lease: freehold not in the sale and lease under 150 years or needing consent. Ask the agent.
 - Structure: cracks over 3 mm, bulging walls, marble rolls, doors cut to fit.
 
 **Never say**
-Open, walk-away or budget; the 2010 price; days unsold; that Underwood and Helmton are on your list; your favourite.
+Budget; the 2010 price; days unsold; that Underwood and Helmton are on your list; your favourite.

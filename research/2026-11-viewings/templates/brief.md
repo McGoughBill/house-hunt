@@ -2,13 +2,8 @@
 
 *{price_text} · {agent} · {postcode}*
 
-**Verdict:** {verdict}
-
 **Numbers**
 {numbers}
-
-**Price** (before faults)
-{price}
 
 **Levers**
 {levers}
@@ -19,7 +14,7 @@
 **Check**
 {checks}
 
-**Red flags: walk away if**
+**Rule checks: hall, lease, structure**
 {red_flags}
 
 **Never say**

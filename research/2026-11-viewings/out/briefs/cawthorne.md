@@ -2,8 +2,6 @@
 
 *Guide £300,000–£325,000 · Saxton Mee, Banner Cross · S8 0ND*
 
-**Verdict:** Pursue only at a deep cut: already done up, so little to add; guide above street median; 111 days unsold.
-
 **Numbers**
 - Area: **80 m²** · asking £3,750/m² (£4,062/m² at £325k)
 - Value as it stands: **£270k / £292k / £306k** (8 street semi sales with area; £3,377 / £3,644 / £3,821 per m²)
@@ -11,10 +9,6 @@
 - Street's top price ever: £435,000 (27C Cawthorne Grove, detached, 14 May 2025)
 - Listed 31 Jul 2026 at £300,000: 111 days by 19 Nov, no cut
 - Tenure: freehold (Land Registry)
-
-**Price** (before faults)
-- **Open £270k**: street lower quartile £3,377/m² × 80 m².
-- **Walk away £284k**: street median £292k, less 2.5% for unproven recent work.
 
 **Levers**
 - 111 days at £300k, no cut [L].
@@ -38,10 +32,10 @@
 - Consumer unit RCDs; boiler age, service book.
 - Measure every room against 80 m².
 
-**Red flags: walk away if**
+**Rule checks: hall, lease, structure**
 - Hall: front door opens into a room. Listing says hall; see on entry.
 - Lease: under 150 years, or covenant dispute. Get tenure in writing.
 - Structure: cracks over 3 mm, bulging walls, doors cut to fit, marble rolls.
 
 **Never say**
-The £284k walk-away, the £253k paid, the 111 days, which house you prefer.
+The £253k paid, the 111 days, which house you prefer.
