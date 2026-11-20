@@ -10,9 +10,17 @@
 - Listed 31 Jul 2026 at £300,000: 111 days by 19 Nov, no cut
 - Tenure: freehold (Land Registry)
 
+**Local prices [W4]** (Land Registry; ≈ = in today's money, Sheffield index by type to Sep 2026; all same-street sales, step 1)
+- No. 8, Cawthorne Gr · Dec 2025 · £320,000 (≈ £322k) · <1 yr · semi, freehold · area unknown · same postcode · –
+- No. 12, Cawthorne Gr · Oct 2025 · £315,000 (≈ £320k) · 1–2 yrs · semi, freehold · area unknown · same postcode · –
+- No. 26, Cawthorne Gr · Jun 2025 · £270,000 (≈ £285k) · 1–2 yrs · semi, freehold · 78 m² · same postcode · 2 m² smaller
+- No. 22, Cawthorne Gr · Jun 2025 · £248,000 (≈ £262k) · 1–2 yrs · semi, freehold · 78 m² · same postcode · 2 m² smaller
+- Street top: £435,000, No. 27C, Cawthorne Gr (detached, freehold), May 2025 (≈ £447k)
+- Area top, S8 0 semis: £710,000, No. 261, Abbey Lane, Aug 2025 (≈ £725k; medium)
+
 **Levers**
 - 111 days at £300k, no cut [L].
-- Guide bottom £3,750/m² beats street median £3,644/m² [value].
+- Guide bottom £3,750/m² is 3% above the street median £3,644/m²; the top is 11% above [value] [W4].
 - Bought £253,000 Apr 2023, £277k today; guide asks 8–17% more [S2] [comps].
 - Rivals nearby: Periwood Drive guide £285–300k, Camping Lane £300k, both chain free [L].
 

@@ -3,15 +3,23 @@
 *£290,000 · Staves, Woodseats · S8 9JJ*
 
 **Numbers**
-- Area: **69 m²** · asking £4,203/m²
+- Area: **69 m²** (EPC figure from your notes, not re-found: unconfirmed [W4]; may leave out the extension) · asking £4,203/m²
 - Value as it stands: **£236k / £251k / £277k** (13 street semi sales with area; £3,426 / £3,644 / £4,019 per m²)
 - Last sold: none on Land Registry since 1995
 - Street's top price ever: £551,551 (13 Lees Hall Road, semi, freehold, 24 Jan 2025; an outlier)
 - Listed 8 Sep 2026 at £290,000: 72 days by 19 Nov, no cut
 - Tenure: leasehold (ruled in wave 2; medium)
 
+**Local prices [W4]** (Land Registry; ≈ = in today's money, Sheffield index by type to Sep 2026; all same-street sales, step 1)
+- No. 117, Lees Hall Rd · Jul 2025 · £268,000 (≈ £277k) · 1–2 yrs · semi, leasehold · 69 m² · 300 m · –
+- No. 26, Lees Hall Rd · May 2025 · £275,000 (≈ £286k) · 1–2 yrs · semi, leasehold · 84 m² · same postcode · 15 m² larger
+- No. 105, Lees Hall Rd · Jan 2025 · £255,000 (≈ £259k) · 1–2 yrs · semi, leasehold · 71 m² · 300 m · 2 m² larger
+- No. 58, Lees Hall Rd · Feb 2024 · £265,000 (≈ £287k) · 2–3 yrs · semi, leasehold · 71 m² · same postcode · 2 m² larger
+- Street top: £551,551, No. 13, Lees Hall Rd (semi, freehold), Jan 2025 (≈ £560k)
+- Area top, S8 9 semis: £605,000, No. 220, Shirebrook Rd, Aug 2025 (≈ £618k; medium)
+
 **Levers**
-- Asking £4,203/m², 15% over street median [value].
+- Asking £4,203/m², 15% over street median, if 69 m² is the whole house; the rear extension may be extra [value] [W4].
 - Two leasehold semis here offer around £250k; Yopa's unsold since 20 Mar despite a cut [L].
 - 72 days listed [L].
 - No. 26 sold £275k in May 2025, £5k below its Jan 2024 price [L].

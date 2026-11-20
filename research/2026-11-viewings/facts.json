@@ -3980,6 +3980,50 @@
     "note": "Step 1 gave 2+ comparables, so no widening. Only three usable same-street terraced sales; two are 5 years old. No floor areas (HouseMetric blocked). Excluded No. 18 £87,500 (category B) and No. 38's own 2020 sale.",
     "task": "W4C"
    }
+  ],
+  "rival_listings_w4": [
+   {
+    "house": "underwood",
+    "field": "rival_listings_w4",
+    "value": [
+     {
+      "street": "Woodseats Road",
+      "guide": "£220,000–£230,000",
+      "area_sqft": 1216,
+      "tenure": "F",
+      "agent": "Redbrik"
+     },
+     {
+      "street": "Hackthorn Road",
+      "guide": "£220,000–£240,000",
+      "type": "end terrace",
+      "tenure": "F"
+     },
+     {
+      "street": "Holmhirst Drive",
+      "status": "no listing found"
+     }
+    ],
+    "unit": null,
+    "source": "https://www.zoopla.co.uk/for-sale/details/73333235/",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "Checker B, wave 4: corrects rival_listings (Woodseats Rd was given as Whitehorn, 1,393 sq ft, leasehold). Hackthorn per https://www.primelocation.com/for-sale/details/73386162/. Holmhirst link https://www.zoopla.co.uk/for-sale/details/71797135 showed 0 results.",
+    "task": "W4V"
+   }
+  ],
+  "second_listing_same_street_w4": [
+   {
+    "house": "underwood",
+    "field": "second_listing_same_street_w4",
+    "value": "Hunters' Underwood Road listing no longer shown on 20 Nov; only Whitehornes' (added 28/10/2026)",
+    "unit": null,
+    "source": "https://www.rightmove.co.uk/property-for-sale/Norton-Lees/terraced.html",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "Checker B, wave 4",
+    "task": "W4V"
+   }
   ]
  },
  "helmton": {
@@ -4724,6 +4768,19 @@
     "confidence": "medium",
     "note": "Step 1 gave 2+ comparables, so no widening. All leasehold semis; 17 is freehold per Saturday doc. 1A size unknown; same-day £1,800 cat-B transfer may mean 1A sold with extra land. Excluded No. 17's own 2018 sale.",
     "task": "W4C"
+   }
+  ],
+  "whitehornes_branch_w4": [
+   {
+    "house": "helmton",
+    "field": "whitehornes_branch_w4",
+    "value": "Whitehornes sales branch: 952 Ecclesall Road, S11 8TR (listing and Rightmove)",
+    "unit": null,
+    "source": "https://whitehornes.co.uk/property-for-sale/helmton-drive-woodseats-s8-2/",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "Checker B, wave 4. The Saturday doc's Unit 2 Acorn Business Park, S8 0TB has no source in the pack.",
+    "task": "W4V"
    }
   ]
  },
@@ -5559,6 +5616,26 @@
     "confidence": "medium",
     "note": "Step 1 gave 2+ comparables, so no widening. Picked from existing W2c rows; mix of freehold and leasehold; sizes 68-72 m² near 51's 68 m².",
     "task": "W4C"
+   }
+  ],
+  "rival_crescent_w4": [
+   {
+    "house": "hollythorpe",
+    "field": "rival_crescent_w4",
+    "value": {
+     "street": "Hollythorpe Crescent",
+     "guide": "£240,000–£250,000",
+     "area_sqft": 807,
+     "tenure": "F",
+     "status": "Just added; no STC shown",
+     "agent": "Redbrik"
+    },
+    "unit": null,
+    "source": "https://app.zoopla.co.uk/for-sale/details/73286215/",
+    "retrieved": "2026-11-20",
+    "confidence": "medium",
+    "note": "Checker B, wave 4: corrects 'went STC'",
+    "task": "W4V"
    }
   ]
  },

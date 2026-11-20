@@ -6,6 +6,8 @@
 
 *Wave 2 (20 Nov): every figure that moved, and every hazard question added, is marked **[W2]**. Working and sources: `wave2-status.md`.*
 
+*Wave 4 (20 Nov): two fresh agents checked every figure; fixes and cuts are marked **[W4]**. Three or four same-street comparables per house are in each brief's Local prices block. Results: `wave4-check.md`.*
+
 **How old each price is.** Every past sale below carries its age in years, counted back from 19 Nov 2026: <1, 1–2, 2–3, 3–4, 4–5, 5–6 or 6+. "≈ £X today" brings a sale up to Sep 2026 with the official Sheffield house price index for that house type (Land Registry). Asking prices of houses for sale now carry no age.
 
 ## Timetable
@@ -29,8 +31,8 @@
 |---|---|---|---|
 | Hunters, Hunters Bar | Grainne Fogarty | 0114 267 2080 | sheffield@hunters.com |
 | Staves, Woodseats | – | 0114 274 6400 | info@stavesea.co.uk |
-| Saxton Mee, Banner Cross (949–951 Ecclesall Road, S11 8TN) | Abi Lenihan | 0114 268 3241 | bannercross@saxtonmee.co.uk |
-| Whitehornes (Unit 2 Acorn Business Park, Woodseats Close, S8 0TB) | Kerry Sanderson, sales branch manager | 0114 268 8533 | hello@whitehornes.com; kerry.sanderson@whitehornes.com |
+| Saxton Mee, Banner Cross (949–951 Ecclesall Road, S11 8TN) | Abi Lenihan (from your emails; not on their site **[W4]**) | 0114 268 3241 | bannercross@saxtonmee.co.uk |
+| Whitehornes (Unit 2 Acorn Business Park, Woodseats Close, S8 0TB, per your notes; listings give 952 Ecclesall Road, S11 8TR **[W4]**) | Kerry Sanderson, sales branch manager | 0114 268 8533 | hello@whitehornes.com; kerry.sanderson@whitehornes.com |
 
 ## At every house
 
@@ -64,19 +66,19 @@
 
 **Facts**
 - 3-bed mid-terrace, with a bay-windowed living room and a dining room at the back.
-- 1,163 sq ft by the listing. Hunters quoted 1,007 sq ft on the phone. No energy certificate figure yet. **[W2]** Work on 94 m² (the smaller figure) until you measure: £2,234/m² asking.
+- 1,163 sq ft by the listing. Hunters quoted 1,007 sq ft on the phone (not in writing yet **[W4]**). No energy certificate figure yet. **[W2]** Work on 94 m² (the smaller figure) until you measure: £2,234/m² asking.
 - Leasehold, with 672 years left. Every sale on the street since 1995 is leasehold.
 - No offers yet, per Hunters on 19 Nov.
 
 **Research (your levers, keep quiet)**
-- Listed 27 Aug at £215k; cut to £210k on 9 Oct. Unsold about 12 weeks.
+- Listed 27 Aug at £215k; cut to £210k on 9 Oct. Unsold about 12 weeks. (Unconfirmed: source page blocked **[W4]**.)
 - Last sold for £119,950 in Jan 2012 (6+ yrs; **[W2]** ≈ £228k today: the index now reaches back to 2010).
 - Street's highest sale ever: £290k (No. 7, Jun 2023 · 3–4 yrs; ≈ £324k today). Only recent sale: No. 33, £240k (Jul 2026 · <1 yr).
-- Rival terraces within 1 km, asking now: Tavistock Rd £200k; Abbeydale Rd £210k (back on the market); Vincent Rd £215k; Wath Rd £240k; South View Rd £250k.
+- Rival terraces within 1 km, asking now: Abbeydale Rd £210k (back on the market; unconfirmed, page blocked **[W4]**); Vincent Rd £215k; Wath Rd £240k; South View Rd £250k.
 
-**Main risk:** the listing says the front door opens straight into the living room, with a lobby only to the stairs. That breaks your hall rule.
+**Main risk:** the listing says the front door opens straight into the living room, with a lobby only to the stairs. Check it against your hall rule **[W4]**.
 
-**Value:** **[W2]** too few comparables for a £/m² value: one terrace sold on the street in 3 years (No. 33, £240k), and no floor areas could be found. My rough estimate of its value once done up is £290,000. The street's best sale is now worth about £324k, so that ceiling is less tight than I first said. The margin after works still looks thin or negative.
+**Value:** **[W2]** too few comparables for a £/m² value: one terrace sold on the street in 3 years (No. 33, £240k), and no floor areas could be found. The street's best sale is now worth about £324k. **[W4]** Done-up estimate and margin cut; three same-street sales are in the brief's Local prices block.
 
 **Ask**
 - Is it inside the Nether Edge conservation area? **[W2]** The postcode tests just outside it (boundary within about 400 m), so the 2005 Article 4 direction probably doesn't apply. Ask to confirm.
@@ -100,7 +102,7 @@
 **Facts**
 - Detached bungalow, built about 1989–90, about 60 m² (645 sq ft on OnTheMarket).
 - 2 beds plus a box room.
-- Side porch into a large L-shaped hall, which passes your hall rule.
+- Side porch into a large L-shaped hall (listing: entrance porch, hallway) **[W4]**.
 - Open-plan kitchen and living room.
 - Freehold, title SYK299194.
 - Owners Andrew and Helen Cameron, who bought it for £242,000 on 19 Nov 2021 (5 yrs, in the 4–5 band by one day; ≈ £279k today). Not a probate sale.
@@ -120,13 +122,13 @@
 - Method: 31 sales with floor areas on Welby Place and on Derbyshire Lane (which has a row of 1930s bungalows), 2016–2026, each brought to today's money. A model priced each home from its street, its size and whether it's a bungalow. No. 50 was left out, then priced at 60 m².
 - **Bungalows sell for about 1.33 times a house of the same size on the same street** (95% range 1.09–1.61). Using Welby Place alone, it's 1.17 times (1.02–1.33).
 - Size matters as well: a home 10% smaller sells for about 7% less, not 10%. Small homes cost more per m², so some of Welby's high £/m² is just its size.
-- **Result for No. 50: about £245–250k today.** The likely range for one sale is wide: about £205–305k on the Welby Place data.
+- **Result for No. 50: about £245–250k today.** The likely range for one sale is wide: about £207–304k on the Welby Place data **[W4]**.
 - The owners' 2021 price, brought forward, is about £279k: 11–14% above the model. In 2021 they paid the highest cash £/m² ever recorded on the street.
 - **Weaknesses:** the fit uses only 6 bungalow sales, and only 1 of them is under 4 years old. EPCs or listings confirm only Nos 45 and 50 as bungalows; the rest are probable. Derbyshire Lane's bungalows are 1930s ones on bigger plots. The index covers all detached houses in Sheffield, not bungalows alone. Condition is unknown for every sale.
 
-**Value:** the model puts it at about £245–250k as it stands, versus the £265k asking. Your earlier fair value of £215–235k sits below the model's middle, though inside its range. Your extension plan loses money above about a £220k purchase. Expect the seller to point to what they paid in 2021, brought up to date (≈ £279k). The answer: in cash terms they paid more per m² than any other bungalow on the street ever has. Only tiny No. 52 (49 m²) beats them once prices are brought up to date. Don't tell the agent any of these figures.
+**Value:** the model puts it at about £245–250k as it stands, versus the £265k asking. **[W4]** Earlier price views cut. Expect the seller to point to what they paid in 2021, brought up to date (≈ £279k). The answer: in cash terms they paid more per m² than any other bungalow on the street ever has. Only tiny No. 52 (49 m²) beats them once prices are brought up to date. Don't tell the agent any of these figures.
 
-**Extension:** building upward (Class AA permitted development, or full planning) tops out at about £325–360k, and loses money above about a £220k purchase.
+**Extension:** building upward (Class AA permitted development, or full planning) tops out at about £325–360k. **[W4]** Break-even purchase figure cut.
 
 **Ask**
 - Is it also being marketed to let? (The web address says "for rent".)
@@ -151,7 +153,7 @@
 - 2 doubles and a single upstairs.
 - Drive, detached garage and store.
 - The garden falls away at the back, with views.
-- About 69 m² by the EPC, which may not include the extension. EPC band D, council tax band B.
+- About 69 m² by the EPC (figure from your notes, not re-found **[W4]**), which may not include the extension. EPC band D, council tax band B.
 - Listed 8 Sep 2026, no price cut, no chain.
 - **Probably leasehold:** Zoopla's card for this listing says leasehold, and 8 of the 9 semis sold on the street since Nov 2024 were leasehold.
 
@@ -163,8 +165,8 @@
 - Rivals on the same road, asking now: Yopa, offers around £250k, leasehold, unsold since 20 Mar after a cut; Blundells, offers around £250k, leasehold, just listed. Three others went Sold STC at guides of £260k, £280–290k and £290k.
 
 **Value**
-- As-is value about £245–260k. Today's-money comps (£255–286k for 69–84 m²) sit at or a little above the top of that range.
-- **[W2]** With 13 street semis now carrying floor areas (since Nov 2023, today's money): median £3,644/m², quartiles £3,426–4,019. At 69 m²: **£236k / £251k / £277k**. The median backs £245–260k; expect the agent to argue up to the upper quartile. Asking is £4,203/m², 15% above the median. If the extension isn't in the 69 m², every 10 m² adds about £36k.
+- **[W4]** Earlier as-is band cut. Today's-money comps: £255–286k for 69–84 m².
+- **[W2]** With 13 street semis now carrying floor areas (since Nov 2023, today's money): median £3,644/m², quartiles £3,426–4,019. At 69 m²: **£236k / £251k / £277k**. Asking is £4,203/m², 15% above the median. If the extension isn't in the 69 m², every 10 m² adds about £36k.
 
 **Extension:** a loft conversion to 4 beds is usually permitted development, for about £55–70k plus a £35–50k refurb. End value about £350–375k. A lease can carry covenants that need the freeholder's consent: ask.
 
@@ -195,7 +197,7 @@
 
 **Research (your levers, keep quiet)**
 - The seller bought it for £253,000 on 3 Apr 2023 (3–4 yrs; ≈ £277k today). The guide is 19–28% above the price paid, or 8–17% above it in today's money. Whatever work they did has to explain the rest.
-- Neighbours back the guide: No. 12, same agent and same guide, sold for £315k (Oct 2025 · 1–2 yrs; ≈ £320k); No. 8 sold for £320k (Dec 2025 · <1 yr). No. 26 £270k (Jun 2025 · 1–2 yrs; ≈ £285k) and No. 22 £248k (Jun 2025 · 1–2 yrs; ≈ £262k).
+- Neighbours sold near the guide **[W4]**: No. 12, same guide, sold for £315k (Oct 2025 · 1–2 yrs; ≈ £320k); No. 8 sold for £320k (Dec 2025 · <1 yr). No. 26 £270k (Jun 2025 · 1–2 yrs; ≈ £285k) and No. 22 £248k (Jun 2025 · 1–2 yrs; ≈ £262k).
 - **[W2]** **Value as it stands:** 8 street semis with floor areas (since Nov 2023, today's money): median £3,644/m², quartiles £3,377–3,821. At 80 m²: **£270k / £292k / £306k**. The guide's bottom (£300k, £3,750/m²) is 3% above the median; its top (£325k) is 11% above, and above the upper quartile.
 - Rival 3-bed semis within 1 km, asking now: Periwood Drive, Millhouses, guide £285–300k, chain free; Camping Lane £300k, chain free; Tadcaster Crescent £300k; Perigree Road £325k; Fraser Road £250–260k (leasehold).
 
@@ -226,10 +228,10 @@
 - Last sold for £140,000 on 7 Dec 2020 (5–6 yrs; ≈ £180k today). The asking price is £40k above that.
 - Highest terrace sale ever on the street: £200k (No. 56, Jul 2025 · 1–2 yrs; ≈ £207k). The asking price is above it. A semi, No. 36, sold for £246k (Jun 2026 · <1 yr).
 - **[W2]** Too few comparables for a £/m² value: one terrace sold on the street in 3 years (No. 56, ≈ £207k today), no floor areas found.
-- Rival 3-bed terraces near Woodseats at about £220k, asking now: Woodseats Road (Whitehornes, 1,393 sq ft, leasehold), Holmhirst Drive (Whitehornes), Hackthorn Road (freehold).
+- **[W4]** Rival 3-bed terraces near Woodseats, asking now: Woodseats Road (Redbrik, guide £220–230k, 1,216 sq ft, freehold); Hackthorn Road (guide £220–240k, end terrace, freehold). Holmhirst Drive: no listing found.
 
 **Ask**
-- Rightmove also shows an Underwood Road terrace at offers around £220k, listed by Hunters on 30 Oct. Is that this house with a second agent?
+- Rightmove showed an Underwood Road terrace at offers around £220k, listed by Hunters on 30 Oct; gone by 20 Nov **[W4]**. Was that this house with a second agent?
 - Lease length **[W2]** (the listing gives ground rent as £0).
 - Why are the owners selling, and what's been done since 2020?
 - Could you email the floorplan?
@@ -257,9 +259,9 @@
 
 **Research (your levers, keep quiet)**
 - Price cut twice: offers around £300k (17 Jun), then £270k (by 14 Oct), now offers over £265k. That's 12% off.
-- The seller bought it for £190,000 on 19 Dec 2018 (6+ yrs; ≈ £265k today). "Offers over £265k" is almost exactly what they paid, brought up to date. So the asking price builds in nothing for any work they've done since.
+- The seller bought it for £190,000 on 19 Dec 2018 (6+ yrs; ≈ £265k today). "Offers over £265k" is almost exactly what they paid, brought up to date. **[W4]** Judgement on their works cut.
 - About £3,600/m² at 73 m². **[W2]** Only one same-type comparable with a floor area (No. 1, 86 m², leasehold, £3,382/m² today): too thin to value it on. At that rate it's worth £247k.
-- **[W2]** **Already done up** (listing: "modern and stylish finish throughout"), so there's little to add by refurbishing. Done-up value £247–265k (the one comparable, up to the seller's 2018 price today). **Margin −£52k to −£30k** (was −£28k).
+- **[W2]** **Already done up** (listing: "modern and stylish finish throughout"), so there's little to add by refurbishing. Done-up value £247–265k (the one comparable, up to the seller's 2018 price today). **[W4]** Margin cut.
 - Street sales since Nov 2024: No. 1 £280k (semi, leasehold; May 2025 · 1–2 yrs; ≈ £291k), No. 39 £240k (Jun 2025 · 1–2 yrs) and No. 5 £228k (Aug 2025 · 1–2 yrs), both terraces.
 
 **Ask (the seller is there: ask open questions, say little)**
@@ -282,11 +284,11 @@
 - Land Registry filed its 2010 sale (£136,500; 6+ yrs; **[W2]** ≈ £250k today) twice, once leasehold and once freehold. The owner probably bought the freehold too.
 
 **Research (your levers, keep quiet)**
-- Nine months unsold is the strongest sign of a seller who needs to move.
+- Nine months unsold **[W4]**.
 - **But the neighbours sold high:** No. 49 next door sold for £315k (Jun 2025 · 1–2 yrs; ≈ £333k, leasehold); No. 80 £330k (Mar 2025 · 1–2 yrs; ≈ £333k); No. 13 £295k (Oct 2025 · 1–2 yrs; ≈ £300k). Lower down: No. 30 £241k and No. 33 £235k (both Mar 2025 · 1–2 yrs, leasehold).
 - **[W2]** With floor areas for 6 street semis (since Nov 2023, today's money): median £4,061/m², quartiles £3,664–4,199. At 68 m²: **£249k / £276k / £286k**. Asking (£4,118/m²) sits at the median.
-- **[W2]** **Already done up** (listing: "immaculately presented … no expense spared"). Done-up value **£276–286k** (was £241k). **Margin −£40k to −£26k** (was −£95k). Measure: at this price, each 5 m² is worth about £20k.
-- Rivals: Hunters' Hollythorpe Road semi at £280k went Sold STC; Hollythorpe Crescent £240k (807 sq ft) went STC.
+- **[W2]** **Already done up** (listing: "immaculately presented … no expense spared"). Done-up value **£276–286k** (was £241k). **[W4]** Margin cut. Measure: at this price, each 5 m² is worth about £20k.
+- Rivals: Hunters' Hollythorpe Road semi at £280k went Sold STC; Hollythorpe Crescent guide £240–250k (807 sq ft, freehold), not shown as STC on 20 Nov **[W4]**.
 
 **Ask**
 - Why hasn't it sold since February? Any offers, any sale fallen through?

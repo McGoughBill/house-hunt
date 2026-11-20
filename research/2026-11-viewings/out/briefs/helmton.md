@@ -9,8 +9,15 @@
 - Last sold £190,000 (Dec 2018) → **£264,933 today**
 - Street's top price ever: £300,000 (1A Helmton Drive, semi, leasehold, 1 Jul 2022)
 - Listed 17 Jun 2026 at £300,000: 155 days by 19 Nov, 2 cuts (11.7% in all)
-- Done-up value £247k–£265k; buy-test margin at asking −£51,553 to −£29,560
+- Done-up value £247k–£265k (the one comparable, up to the seller's 2018 price today); buy-test margin cut [W4]
 - Tenure: freehold (ruled in wave 2)
+
+**Local prices [W4]** (Land Registry; ≈ = in today's money, Sheffield index by type to Sep 2026; all same-street sales, step 1)
+- No. 1, Helmton Dr · May 2025 · £280,000 (≈ £291k) · 1–2 yrs · semi, leasehold · 86 m² · same postcode · 13 m² larger
+- No. 3, Helmton Dr · Feb 2023 · £195,000 (≈ £209k) · 3–4 yrs · semi, leasehold · 79 m² · same postcode · 6 m² larger
+- No. 1A, Helmton Dr · Jul 2022 · £300,000 (≈ £334k) · 4–5 yrs · semi, leasehold · area unknown · same postcode · same day, a £1,800 non-market transfer of 1A: treat with care
+- Street top: £300,000, No. 1A, Helmton Dr (semi, leasehold), Jul 2022 (≈ £334k)
+- Area top, S8 8 semis: £560,000, No. 200, Norton Lane, Aug 2023 (≈ £594k; medium)
 
 **Levers**
 - Unsold 155 days, cut twice, 11.7% off £300k [L].
