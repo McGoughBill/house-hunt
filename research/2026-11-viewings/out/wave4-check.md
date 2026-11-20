@@ -2,7 +2,7 @@
 
 *One comparables agent (W4C), then two fresh checkers (A: Falmouth, Welby, Lees Hall and market lines; B: Cawthorne, Underwood, Helmton, Hollythorpe). The checkers saw only the two docs, facts.json, settled.yaml and raw data. Their tables: repo `research/2026-11-viewings/out/verify/A.md`, `B.md`; their own sums: `A_calc.py`, `B_calc.py`. Fixes are marked [W4] in both docs. `brief_check.py`: 0 unmatched figures in all seven briefs.*
 
-**Not pushed.** The session wasn't granted push rights to `McGoughBill/house-hunt`, so the commits sit in this session's clone (branch `research-nov-viewings`). A patch file was sent with the summary.
+**Pushed** to `McGoughBill/house-hunt`, branch `research-nov-viewings`, on 20 Nov.
 
 ## Verdicts per house
 
