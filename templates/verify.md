@@ -10,13 +10,11 @@ Your only job is to check whether this house is still for sale, and to find a li
 - Other links seen: {{other_links}}
 
 ## Steps
-1. **Open the saved link** with WebFetch.
-   - It counts only if it is this one house's own listing page.
-   - A search-results page, an agent's home page, or a page listing many houses does not count.
-2. **If it fails or doesn't count, look elsewhere.** Find the same house (street, agent, price) on:
-   - the agent's own site;
-   - then Rightmove, Zoopla, OnTheMarket or PrimeLocation.
-   Start with WebSearch, then fetch the result URLs. WebFetch accepts URLs that appeared in a search result, but often refuses URLs you build yourself.
+Runs are unattended: nobody can approve a permission prompt. WebFetch opens a URL without asking only if a WebSearch in this same run returned it. So:
+1. **Search first.** Run WebSearch for this house: street, area or postcode, agent, and "for sale". Try two or three wordings (with and without the agent, with the price) before giving up. The saved link above is a hint for what to look for, not a URL to fetch.
+2. **Fetch only URLs that a search returned.** Never fetch a URL you typed, built or copied from this prompt unless a search result gave exactly that URL. Prefer, in order: the agent's own single-house page, then Rightmove, Zoopla, OnTheMarket or PrimeLocation.
+   - It counts only if it is this one house's own listing page (same street, agent and roughly the price). A search-results page, an agent's home page, or a page listing many houses does not count.
+   - If a fetch fails, is refused, or asks for permission, don't stop: move to the next search result or search again. Never retry the same URL.
 3. **Read the status on the page that opened.** Quote every status word you see, word for word, in `evidence`. Look for: Sold STC, SSTC, Sale agreed, Under offer, Sold, Reserved, "No longer on the market", "Property not found", "no records were found". A "Sold" board image (for example a file named `*Board_Sold*`) counts as a sold status.
    - Ignore status words that belong to other houses on the page, such as "similar properties" cards.
    - Ignore words in navigation links, such as "Sold house prices".
