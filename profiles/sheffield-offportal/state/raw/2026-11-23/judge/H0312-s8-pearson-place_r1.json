@@ -1,0 +1,33 @@
+{"id": "H0312-s8-pearson-place", "run": "1", "live": true, "listing_url": "https://whitehornes.co.uk/property-for-sale/pearson-place-meersbrook-s8/", "asking": 220000, "floor_area_m2": 92,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Pearson Place, Meersbrook S8 is inside the search area."},
+  "budget": {"pass": true, "reason": "Asking 220000 is at most 325000; asking + 1.15W + C = 351800 (est.) is at most 425000."},
+  "tenure": {"pass": true, "reason": "unconfirmed: leasehold per Street listing snippet; lease length and covenants not seen for this house."},
+  "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed or dry rot mentioned in any source seen; listing text not opened."},
+  "vacant": {"pass": true, "reason": "unconfirmed: vacancy status not stated in any source seen."},
+  "hall": {"pass": true, "reason": "unconfirmed: floorplan and front door position not seen; the door may open into a room."}
+ },
+ "V": 249000, "v_basis": "3 sales: 40 Pearson Place S8 9DE 15 Sep 2025 GBP278,500 (Housemetric, terrace); 73 Pearson Place S8 9DE Mar 2025 GBP249,000 (Rightmove); 48 Pearson Place S8 9DE Feb 2025 GBP230,000 (Rightmove). Median 249000 (est.): done-up status not verified for any sale, and type not verified for 73 or 48.",
+ "W": 112000, "w_basis": "All est., no floorplan seen: rear single-storey kitchen-diner extension ~20 m2 45000; kitchen 12000; two bathrooms 10000; rewire 6000; heating 5000; steel and knock-through 4000; plaster, joinery, windows, floors, decor 18000; damp, roof and drainage allowance 6000; fees and building regs 6000. Excludes contingency. C = 3000 (fees 3000; stamp duty nil as first-time buyer under 300000). ", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "Asking 2391/m2 is about 86-88% of done-up street 2767/m2 (V 249000 over 90-92 m2, est.), which is above 85%"},
+  {"n": 3, "score": 4, "est": true, "evidence": "V 249000 is 89% of street max 278500 (40 Pearson Place, Sep 2025); done-up basis not verified"},
+  {"n": 4, "score": 4, "est": true, "evidence": "Sector max sales not searched; guess of 350000 gives 71% (est.)"},
+  {"n": 5, "score": 4, "est": false, "evidence": "992 sq ft = 92 m2 per Street listing snippet (listing not opened)"},
+  {"n": 6, "score": 4, "est": true, "evidence": "3 bedrooms listed; room sizes not seen, so one is probably small (est.)"},
+  {"n": 7, "score": 3, "est": true, "evidence": "Kitchen position not confirmed; 25 m2 kitchen-diner would need a single-storey rear extension (est.)"},
+  {"n": 8, "score": 3, "est": true, "evidence": "Private rear garden listed; length, loft and neighbour extensions not seen, so one of three (est.)"},
+  {"n": 9, "score": 2, "est": true, "evidence": "Single-storey rear extension plus knock-through, rewire and heating (est.)"},
+  {"n": 10, "score": 3, "est": true, "evidence": "Extension, rewire, kitchen and bathrooms: est. 7-12 months before it is liveable"},
+  {"n": 11, "score": 3, "est": true, "evidence": "No survey or flags seen; minor issues of unclear cause assumed (est.)"},
+  {"n": 12, "score": 4, "est": true, "evidence": "No letting boards or main road seen in sources; plain residential street (est.)"},
+  {"n": 13, "score": 4, "est": true, "evidence": "Meersbrook Park est. 5-10 min walk"},
+  {"n": 14, "score": 3, "est": true, "evidence": "Big supermarket est. 15-20 min walk"},
+  {"n": 15, "score": 4, "est": true, "evidence": "On-road parking per listing snippet; slope not seen (est. easy on-street)"},
+  {"n": 16, "score": 4, "est": true, "evidence": "Bay-windowed Victorian terrace per listing snippet; ceiling height and light not seen"},
+  {"n": 17, "score": 4, "est": true, "evidence": "Bay window and tidy terrace per listing snippet; stone or brick not confirmed"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 25 min by bus; est. 55 min on foot"},
+ "verdict": "PASS", "biggest_risk": "Buy test is negative: 0.9V - 1.15W - C is about 92000 against 220000 asking (est.); hall, lease and vacancy are unconfirmed; a snippet shows a 230000 guide, not 220000.",
+ "sources": ["https://whitehornes.co.uk/property-for-sale/pearson-place-meersbrook-s8/", "https://street.co.uk/platform/properties/1c2d0d94-2c24-4ad4-ae96-e463acfea220", "https://housemetric.co.uk/30955438/S8-9DE/40+Pearson+Place", "https://www.rightmove.co.uk/house-prices/S8-9DE.html", "https://www.rightmove.co.uk/house-prices/S8-9DD.html", "https://housemetric.co.uk/26778930/S8-9DD/2+Pearson+Place", "https://resi.co.uk/house-prices/pearson-place-s8"]}

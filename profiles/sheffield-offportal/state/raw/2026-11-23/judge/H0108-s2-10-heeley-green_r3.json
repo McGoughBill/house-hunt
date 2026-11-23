@@ -1,0 +1,50 @@
+{
+  "id": "H0108-s2-10-heeley-green",
+  "run": "3",
+  "live": true,
+  "listing_url": "https://www.stavesestateagents.co.uk/property-for-sale-3-bedroom-end-terrace-in-sheffield-22",
+  "asking": 200000,
+  "floor_area_m2": null,
+  "house_type": "end-terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Heeley Green, S2 3DY, next to Heeley and Meersbrook in south Sheffield (est. neighbour of the Meersbrook search area). Location per OnTheMarket listing snippet."},
+    "budget": {"pass": true, "reason": "Asking £200,000 is under £325,000. Asking + 1.15W + C = est. £352,500, under £425,000 (W est. £130,000, C £3,000)."},
+    "tenure": {"pass": true, "reason": "Freehold per OnTheMarket listing snippet. Not checked on the listing itself."},
+    "structure": {"pass": true, "reason": "unconfirmed: listing, survey and floorplan not readable; no structural issue seen in any snippet."},
+    "vacant": {"pass": true, "reason": "unconfirmed: vacancy status not seen in any source read."},
+    "hall": {"pass": true, "reason": "unconfirmed: entrance arrangement not seen; floorplan not readable. Risk: front door may open straight into a room."}
+  },
+  "V": 220000,
+  "v_basis": "est. Only 1 same-street sale in the last 2 years found: 17 Heeley Green, terraced freehold, £178,000, 19 Dec 2024 (condition not checked). Fewer than 3, so nearest similar streets used: 87 Northcote Road, S2 3AT, £252,000, 29 May 2026 (type and condition not checked); 3-bed end-terrace on Alexandra Road, asking £220,000 (asking, not sold). Median of the three = £220,000. Not verified as done-up sales.",
+  "W": 130000,
+  "w_basis": "est. No floorplan or photos could be read (listing fetch refused by proxy), so this is a guess aimed at the finished spec. Rear single-storey extension shell £65,000; kitchen fit-out £12,000; rewire £6,000; heating £4,000; bathroom £7,000; plaster and decor £15,000; windows £8,000; flooring £5,000; design, Building Regs and fees £8,000. Contingency excluded. The state field reads 'good / done', unverified; if the house is already done up, W is far lower.",
+  "C": 3000,
+  "scores": [
+    {"n": 1, "score": 1, "est": true, "evidence": "est. asking £200,000 ÷ est. done-up V £220,000 = 91%, over 85%. Floor area unknown, so the price ratio stands in for £/m²."},
+    {"n": 3, "score": 1, "est": true, "evidence": "V £220,000 ÷ £178,000 (17 Heeley Green, Dec 2024) = 124%, over 100%. Only street sale found in 2 years."},
+    {"n": 4, "score": 3, "est": true, "evidence": "V £220,000 ÷ £252,000 (87 Northcote Road, May 2026) = 87%. Sector taken as nearby S2 streets; est."},
+    {"n": 5, "score": 3, "est": true, "evidence": "Floor area not given; est. 85 m² for a 3-bed end-terrace."},
+    {"n": 6, "score": 4, "est": true, "evidence": "Listed as 3 beds. Room sizes not seen; est. one bedroom small."},
+    {"n": 7, "score": 3, "est": true, "evidence": "Kitchen-diner route est. as a single-storey rear extension; current layout not seen."},
+    {"n": 8, "score": 2, "est": true, "evidence": "Garden length, loft and neighbour extensions not checked; est. one weak route."},
+    {"n": 9, "score": 2, "est": true, "evidence": "Scope est.: single-storey extension plus rewire, heating, kitchen and bathroom."},
+    {"n": 10, "score": 3, "est": true, "evidence": "Est. 9 to 12 months for extension plus full refurb."},
+    {"n": 11, "score": 3, "est": true, "evidence": "No survey or listing text read; cause of any defects unknown."},
+    {"n": 12, "score": 3, "est": true, "evidence": "Quiet-street wording seen only for a different Heeley Green listing; fronts, lettings and through-traffic not checked."},
+    {"n": 13, "score": 2, "est": true, "evidence": "Est. 17 min walk to Meersbrook Park; not measured."},
+    {"n": 14, "score": 3, "est": true, "evidence": "No supermarket walk checked; est. 15 to 20 min."},
+    {"n": 15, "score": 3, "est": true, "evidence": "Parking and slope not seen; est. hard on-street parking, moderate slope."},
+    {"n": 16, "score": 3, "est": true, "evidence": "Interior not seen; est. average bones."},
+    {"n": 17, "score": 3, "est": true, "evidence": "Exterior not seen; est. plain and tidy."}
+  ],
+  "anchors": {"Sheffield railway station": "est. 40 min walk; est. 20 min by bus (not checked)"},
+  "verdict": "PASS",
+  "biggest_risk": "Buy test looks negative on est. figures (0.9V − 1.15W − C − asking ≈ −£155,000 at V £220,000, W £130,000), and the listing, floorplan and photos could not be read, so number 10, entrance and condition are unconfirmed.",
+  "sources": [
+    "https://www.onthemarket.com/for-sale/3-bed-property/heeley/",
+    "https://www.rightmove.co.uk/house-prices/s2-3dy.html",
+    "https://www.rightmove.co.uk/house-prices/heeley-green.html",
+    "https://www.rightmove.co.uk/properties/169682492",
+    "https://www.reedsrains.co.uk/property/end-terrace-house-for-sale-heeley-green-sheffield-s2-id-woo230467"
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "street": "777 Ecclesall Road",
+    "area": "Endcliffe",
+    "postcode_district": "S11",
+    "price_gbp": 185000,
+    "price_text": "Guide price £185,000",
+    "property_type": "terraced",
+    "beds": 3,
+    "baths": null,
+    "receptions": null,
+    "floor_area_m2": null,
+    "floor_area_source": null,
+    "tenure": "leasehold (per search snippet; lease length not seen)",
+    "condition": "needs full refurb",
+    "features": "3-bed inner terrace; needs full modernisation; EPC F; near Endcliffe Park and Ecclesall Road",
+    "flags": ["auction", "leasehold"],
+    "agent": "BTG Eddisons Property Auctions",
+    "url": "https://www.btgeddisonspropertyauctions.com/properties/202608031350sq_gb9q-101126/for-auction-sheffield",
+    "date_listed": null,
+    "status": "Unsold lot per BTG unsold lots page; auction ended 11 Nov 2026 (status label not read)",
+    "verified": false,
+    "known": false,
+    "source": "BTG Eddisons auctions",
+    "notes": "Listing page could not be opened (WebFetch proxy refused); facts from search snippets only. Also on unsold lots page at £185k. Confirm status and floor area with BTG Sheffield office."
+  }
+]

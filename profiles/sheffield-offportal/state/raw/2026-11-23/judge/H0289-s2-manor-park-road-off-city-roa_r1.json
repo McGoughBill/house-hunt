@@ -1,0 +1,51 @@
+{
+  "id": "H0289-s2-manor-park-road-off-city-roa",
+  "run": "1",
+  "live": true,
+  "listing_url": "https://www.northwooduk.com/sheffield-rotherham-estate-agents/property/semi-detached-house-for-sale-sheffield-s2-P320-137/",
+  "asking": 160000,
+  "floor_area_m2": null,
+  "house_type": "semi",
+  "gates": {
+    "area": {"pass": true, "reason": "unconfirmed: Heeley boundary not confirmed; S2 Manor Park, off City Road, treated as a Meersbrook neighbour"},
+    "budget": {"pass": true, "reason": "asking 160000 + 1.15 x W 130000 (est.) + C 3000 = 312500, at most 425000"},
+    "tenure": {"pass": true, "reason": "freehold per the listing record; the live listing page could not be reopened to re-check"},
+    "structure": {"pass": true, "reason": "unconfirmed: no structural or survey information found"},
+    "vacant": {"pass": true, "reason": "unconfirmed: Northwood search snippet says pitched at investors; no tenancy evidence, so not a fail, but check"},
+    "hall": {"pass": true, "reason": "unconfirmed: listing text and floorplan not reachable; position of front door unknown"}
+  },
+  "V": 249995,
+  "v_basis": "3 sales, none verified done-up, so nearest similar street used: 71 Manor Park Road 2024-10-30 249995; 73 Manor Park Road 2024-10-30 249995; 175 Manor Park Crescent 2025-01-31 259995; median 249995 (est.). 71 and 73 fall about 3 weeks outside the 2-year window.",
+  "W": 130000,
+  "w_basis": "est. itemised: rewire 9000; heating 5000; single-storey rear extension about 25 m2 at 60000; kitchen 12000; bathroom 7000; decor, flooring, plaster 13000; windows 8000; hall and layout 10000; fees 6000. No floorplan or survey seen. Excludes contingency.",
+  "C": 3000,
+  "scores": [
+    {"n": 1, "score": 4, "est": true, "evidence": "floor area est. 90 m2 (No. 28 Manor Park Road implies about 90 m2); bought about 1778 per m2 vs done-up about 2778 per m2 on V = 64%"},
+    {"n": 3, "score": 2, "est": true, "evidence": "no street sale found inside 2 years; 249995 (71 and 73 Manor Park Road, Oct 2024) used as street max, so V / max = 100%"},
+    {"n": 4, "score": 2, "est": true, "evidence": "highest in-window S2 sale found is 259995 (175 Manor Park Crescent, Jan 2025), so V / max = 96%; wider S2 maximum not searched"},
+    {"n": 5, "score": 3, "est": true, "evidence": "floor area not given; No. 28 Manor Park Road implies about 90 m2 (est.), so 80-90 band"},
+    {"n": 6, "score": 4, "est": true, "evidence": "3 bedrooms listed; room sizes not given; assumed one small (est.)"},
+    {"n": 7, "score": 3, "est": true, "evidence": "no layout given; single-storey rear extension is the likely kitchen-diner route (est.)"},
+    {"n": 8, "score": 3, "est": true, "evidence": "Primelocation snippet mentions a large plot with generous front and rear gardens; loft fit and neighbour extensions not checked (est.)"},
+    {"n": 9, "score": 2, "est": true, "evidence": "needs a single-storey rear extension plus rewire and heating; no loft or structural work seen (est.)"},
+    {"n": 10, "score": 3, "est": true, "evidence": "extension plus full refurb, est. 7-12 months"},
+    {"n": 11, "score": 3, "est": true, "evidence": "no survey, damp, roof or cellar information found; minor unknowns, cause unclear (est.)"},
+    {"n": 12, "score": 3, "est": true, "evidence": "sits off City Road, a main road, so one likely fail; letting status unknown after pitched at investors (est.)"},
+    {"n": 13, "score": 2, "est": true, "evidence": "walk to a big park not measured; Meersbrook Park est. 15-20 min walk"},
+    {"n": 14, "score": 3, "est": true, "evidence": "nearest big supermarket not checked; est. 15-20 min walk"},
+    {"n": 15, "score": 4, "est": true, "evidence": "driveway and garage per Primelocation snippet; slope not confirmed (est.)"},
+    {"n": 16, "score": 3, "est": true, "evidence": "dated, cosmetic state; no room, light or period detail seen; average (est.)"},
+    {"n": 17, "score": 3, "est": true, "evidence": "semi with front and rear gardens, driveway and garage; brick and bay not confirmed; plain and tidy (est.)"}
+  ],
+  "anchors": {"Sheffield railway station": "est. 25 min by bus; est. 50 min walk"},
+  "verdict": "PASS",
+  "biggest_risk": "Buy test fails on est. numbers: 0.9V - 1.15W - C - asking = 224996 - 149500 - 3000 - 160000, about -87500, and V rests on plain sales rather than verified done-up ones.",
+  "sources": [
+    "https://www.northwooduk.com/sheffield-rotherham-estate-agents/property/semi-detached-house-for-sale-sheffield-s2-P320-137",
+    "https://primelocation.com/for-sale/details/67173793",
+    "https://www.rightmove.co.uk/house-prices/S2-1WT.html",
+    "https://housemetric.co.uk/27601257/S2-1WT/28+Manor+Park+Road",
+    "https://www.rightmove.co.uk/house-prices/S2-1WZ.html",
+    "https://housemetric.co.uk/house-prices/Manor-Park-Crescent/S2-1W"
+  ]
+}

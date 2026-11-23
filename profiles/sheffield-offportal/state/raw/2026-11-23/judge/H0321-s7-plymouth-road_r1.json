@@ -1,0 +1,31 @@
+{"id": "H0321-s7-plymouth-road", "run": "1", "live": true, "listing_url": "https://www.zoopla.co.uk/for-sale/details/71080225/", "asking": 245000, "floor_area_m2": 92,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Plymouth Road S7 2DE, Abbeydale; one site files S7 2DE under Nether Edge (https://housesforsaletorent.co.uk/houses/england/sheffield/sheffield/nether-edge/s7-2de.html), a neighbour of Meersbrook near Endcliffe; judged inside the area"},
+  "budget": {"pass": true, "reason": "Asking 245000 is under 325000; asking + 1.15W + C = 357250, under 425000 (W and C est.)"},
+  "tenure": {"pass": true, "reason": "unconfirmed: leasehold; one search summary gives 663 years left and a 2 ground rent, not seen on the page; no covenant dispute seen"},
+  "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed, spray foam or dry rot evidence found; no survey seen"},
+  "vacant": {"pass": true, "reason": "unconfirmed: search summary says chain free; vacant possession not stated"},
+  "hall": {"pass": true, "reason": "unconfirmed: no source says where the front door opens; summary mentions an open-plan kitchen-diner and a separate lounge but not the entrance"}
+ },
+ "V": 220000, "v_basis": "est. median of the 3 most recent terraced sales on Plymouth Road in the last 2 years; done-up status not verified: 46 Plymouth Road 238000 2026-01-22 (https://nethouseprices.com/house-prices/street-details-sale/4C1B673FA405D8EAE0634704A8C0BF7D/46%20PLYMOUTH%20ROAD,%20SHEFFIELD,%20S7%202DE/2026); 44 Plymouth Road 220000 2026-04 (est., no URL found); 52 Plymouth Road 186000 2026-02-13 (est., no URL found). Other in-window sales: 26 Plymouth Road 220000 2025-08-29 (https://nethouseprices.com/house-prices/street-details-sale/42C129E5219E60A9E0634804A8C0C25D/26%20PLYMOUTH%20ROAD,%20SHEFFIELD,%20S7%202DE/2025/), 36 Plymouth Road 165000 2025-07 (conflicting, est.), 11 Plymouth Road 155000 2025-03 (est.)", "W": 95000, "w_basis": "est.; no floorplan or photos reached. Rewire 8000, heating 6000, kitchen-diner incl. knock-through and steel 30000, bathroom 9000, plaster/decor/floors 17000, windows/doors/repairs 10000, roof/damp/minor structural 8000, fees/skip/scaffold 7000. No rear extension; a 25 m2 kitchen-diner may need one (est. extra 60000-90000). C 3000 = nil SDLT (first-time buyer, up to 300000) plus 3000 fees", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "As bought 2663/m2 (245000/92) vs done-up comps about 2391/m2 (V/92, est.) or street average 2695/m2 (https://housemetric.co.uk/graphs/Plymouth-Road/S7-2DE): ratio 99-111%"},
+  {"n": 3, "score": 3, "est": true, "evidence": "V 220000 against street max 2 yrs 274000 (41 Plymouth Road, Feb 2025, unconfirmed, https://streetscan.co.uk/property/41-plymouth-road-sheffield-s7-2de) is 80%; against 238000 (46 Plymouth Road) it is 92%; both score 3"},
+  {"n": 4, "score": 5, "est": true, "evidence": "Sector max sale not sourced; est. far above V, so V is under 70% of sector max (est.)"},
+  {"n": 5, "score": 4, "est": false, "evidence": "996 sq ft, about 92 m2, per Zoopla listing (https://www.zoopla.co.uk/for-sale/details/71080225/)"},
+  {"n": 6, "score": 4, "est": true, "evidence": "3 bedrooms listed; room sizes not seen, so assumed one small"},
+  {"n": 7, "score": 4, "est": true, "evidence": "Open-plan kitchen-diner mentioned in listing summary; size and rear position unverified against the 25 m2 target"},
+  {"n": 8, "score": 3, "est": true, "evidence": "Private rear garden mentioned; length, loft and neighbour extensions unknown"},
+  {"n": 9, "score": 3, "est": true, "evidence": "Est. opening-up needs a steel beam; EPC E suggests rewire or heating work"},
+  {"n": 10, "score": 4, "est": true, "evidence": "Est. 4-6 months for a full refurb without an extension"},
+  {"n": 11, "score": 3, "est": true, "evidence": "No survey, damp, roof or cellar information; EPC E; cause unclear"},
+  {"n": 12, "score": 3, "est": true, "evidence": "No street check; letting and tenure mix unknown; est. one fail"},
+  {"n": 13, "score": 3, "est": true, "evidence": "Est. 10-15 min walk to Millhouses Park on Abbeydale Road South (https://www.sheffield.gov.uk/parks-sport-recreation/millhouses-park); no route found"},
+  {"n": 14, "score": 3, "est": true, "evidence": "Est. 15-20 min walk to a big supermarket; not found"},
+  {"n": 15, "score": 3, "est": true, "evidence": "Parking and slope not seen; est. hard parking, level"},
+  {"n": 16, "score": 3, "est": true, "evidence": "No interior photos seen; light, ceiling height and period features unknown"},
+  {"n": 17, "score": 3, "est": true, "evidence": "Front elevation not seen; est. plain, tidy terrace"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 45 min walk or est. 20 min bus; no route source found"},
+ "verdict": "PASS", "biggest_risk": "Done-up value est. 220000 is below asking 245000 plus about 95000 works, so the buy test is negative (about -159000 est.); listing not opened, so status is unverified; comps' done-up status and hall layout are unconfirmed", "sources": ["https://www.zoopla.co.uk/for-sale/details/71080225/", "https://nethouseprices.com/house-prices/street-details-sale/4C1B673FA405D8EAE0634704A8C0BF7D/46%20PLYMOUTH%20ROAD,%20SHEFFIELD,%20S7%202DE/2026", "https://nethouseprices.com/house-prices/street-details-sale/42C129E5219E60A9E0634804A8C0C25D/26%20PLYMOUTH%20ROAD,%20SHEFFIELD,%20S7%202DE/2025/", "https://streetscan.co.uk/property/41-plymouth-road-sheffield-s7-2de", "https://primelocation.com/house-prices/sheffield/plymouth-road", "https://housemetric.co.uk/graphs/Plymouth-Road/S7-2DE", "https://housesforsaletorent.co.uk/houses/england/sheffield/sheffield/nether-edge/s7-2de.html", "https://www.sheffield.gov.uk/parks-sport-recreation/millhouses-park"]}

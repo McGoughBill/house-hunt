@@ -1,0 +1,42 @@
+{"id": "H0267-s11-34-onslow-road", "run": "1", "live": true, "listing_url": "https://www.elr.co.uk/properties/16467444/sales", "asking": 300000, "floor_area_m2": 96,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "Endcliffe Park, S11, per the listing address; inside the search area."},
+  "budget": {"pass": true, "reason": "Asking £300,000 is at most £325,000. 300,000 + 1.15 x 95,000 + 3,000 = £412,250, at most £425,000. W is est.; a new rear extension (about £50k est.) would take it over £425,000."},
+  "tenure": {"pass": true, "reason": "unconfirmed: leasehold, 800-year lease with 675 years left and nominal ground rent per the brief; no covenant dispute stated, but the listing text could not be opened."},
+  "structure": {"pass": true, "reason": "unconfirmed: no movement, subsidence, knotweed or non-standard build stated; listing text could not be opened."},
+  "vacant": {"pass": true, "reason": "unconfirmed: occupation status not stated (state unknown)."},
+  "hall": {"pass": true, "reason": "unconfirmed: listing text and floorplan not readable, so where the front door opens is unknown."}
+ },
+ "V": 440000, "v_basis": "3 sales: 96 Onslow Road £450,000 Feb 2026; 88 Onslow Road £430,000 Nov 2025; 86 Onslow Road £440,000 Aug 2025 (median £440,000). Done-up status not checked.",
+ "W": 95000, "w_basis": "est. with no floorplan: rewire 8k, heating 6k, two bathrooms 16k, kitchen with knock-through 24k, plaster/decor/floors/doors 20k, roof/damp/structure 12k, design/regs/skips 9k. Excludes a new rear extension (about 50k est.) and contingency.",
+ "C": 3000,
+ "scores": [
+  {"n": 1, "score": 4, "est": true, "evidence": "As bought £3,125/m² (£300k ÷ 96 m², est.) against done-up street £4,583/m² (V £440k ÷ 96 m²) = 68%."},
+  {"n": 3, "score": 2, "est": true, "evidence": "V £440k ÷ street max £450k (96 Onslow Road, Feb 2026) = 98%."},
+  {"n": 4, "score": 4, "est": true, "evidence": "V £440k ÷ sector max est. £500k = 88%; no S11 sector max found."},
+  {"n": 5, "score": 4, "est": true, "evidence": "96 m² from a Resi estimate, not an EPC figure; floor area not given in the listing."},
+  {"n": 6, "score": 4, "est": true, "evidence": "Listing snippet says three doubles (unconfirmed match to this house); room sizes unknown."},
+  {"n": 7, "score": 4, "est": true, "evidence": "No floorplan; kitchen-diner assumed by knock-through; 25 m² not verified."},
+  {"n": 8, "score": 3, "est": true, "evidence": "Long rear garden likely for a Victorian terrace; no survey; neighbours' extensions not checked."},
+  {"n": 9, "score": 4, "est": true, "evidence": "Likely rewire and heating plus kitchen and baths; no structural work assumed."},
+  {"n": 10, "score": 3, "est": true, "evidence": "Estimate 7 to 12 months for a full refurb while renting."},
+  {"n": 11, "score": 3, "est": true, "evidence": "No survey or listing text; damp and roof cause unclear."},
+  {"n": 12, "score": 4, "est": true, "evidence": "Residential terrace; letting boards and tidiness not checked."},
+  {"n": 13, "score": 5, "est": true, "evidence": "Endcliffe Park adjacent; est. 5 min or less."},
+  {"n": 14, "score": 3, "est": true, "evidence": "Big supermarket est. 15 to 20 min walk."},
+  {"n": 15, "score": 3, "est": true, "evidence": "Parking and slope not checked; est. hard on-street parking, level."},
+  {"n": 16, "score": 3, "est": true, "evidence": "Period features and light unseen; Victorian terrace assumed."},
+  {"n": 17, "score": 3, "est": true, "evidence": "Terrace; uPVC double glazing noted, so plain rather than handsome."}
+ ],
+ "anchors": {"Sheffield railway station": "32 min walk, est."},
+ "verdict": "PASS",
+ "biggest_risk": "Floorplan, state and front-door position unseen (ELR page refused); on est. V £440k the buy test is about −£16k.",
+ "sources": [
+  "https://www.rightmove.co.uk/house-prices/s11/onslow-road.html",
+  "https://nethouseprices.com/house-prices/s117af",
+  "https://resi.co.uk/house-prices/onslow-road-s11",
+  "https://www.bricksandlogic.co.uk/place/street/onslow-road-sheffield-s11",
+  "https://nethouseprices.com/house-prices/onslow%20road,%20sheffield,%20s11",
+  "https://www.placebuzz.com/property-for-sale/south-yorkshire/3-bed-houses.fulwood"
+ ]}

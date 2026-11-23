@@ -1,0 +1,52 @@
+{
+  "id": "H0311-s8-cyprus-road",
+  "run": "1",
+  "live": true,
+  "listing_url": "https://whitehornes.co.uk/property-for-sale/cyprus-road-meersbook-s8/",
+  "asking": 270000,
+  "floor_area_m2": 98,
+  "house_type": "end-terrace",
+  "gates": {
+    "area": {"pass": true, "reason": "Cyprus Road, Meersbrook S8, is inside the search area (Zoopla and Street listings). Whitehornes page would not open, so listing status is not confirmed."},
+    "budget": {"pass": true, "reason": "Asking 270000 <= 325000. Asking + 1.15W + C = 270000 + 126500 + 3000 = 399500 <= 425000 (W est. 110000; C = 3000 fees; stamp duty nil at 270000 for a first-time buyer)."},
+    "tenure": {"pass": true, "reason": "unconfirmed: listing tenure not seen. Neighbour 2 Cyprus Road is recorded as freehold (Rightmove Meersbrook sold prices, Domovita)."},
+    "structure": {"pass": true, "reason": "unconfirmed: no structural, movement or survey information seen."},
+    "vacant": {"pass": true, "reason": "unconfirmed: listing does not state occupancy."},
+    "hall": {"pass": true, "reason": "unconfirmed: listing shows two reception rooms and a rear off-shot kitchen but does not say where the front door opens. No floorplan seen."}
+  },
+  "V": 235000,
+  "v_basis": "3 sales (nearest similar street; fewer than 3 usable on Cyprus Rd): 2 Cyprus Road, 23 Mar 2026, 275000; 48 Meersbrook Avenue, 19 Dec 2025, 235000; 76 Meersbrook Avenue, Sep 2025, 218920. Median 235000. Done-up status of all three unconfirmed, so est.",
+  "W": 110000,
+  "w_basis": "est., no floorplan or photos seen: single-storey rear extension and knock-through with steel 45000; kitchen 15000; bathroom 8000; rewire 8000; heating 6000; windows and doors 7000; roof and damp allowance 6000; plaster, floors and decor 10000; fees, skips and prelims 5000. Excludes contingency.",
+  "C": 3000,
+  "scores": [
+    {"n": 1, "score": 1, "est": true, "evidence": "As bought 2761/m2 (270000 / 98 m2) vs est. done-up street 2403/m2 (V 235000 / 98 m2): about 115%, above the 85% line."},
+    {"n": 3, "score": 4, "est": true, "evidence": "V est. 235000 / street max 275000 (2 Cyprus Road, 23 Mar 2026) = about 85%."},
+    {"n": 4, "score": 4, "est": true, "evidence": "V est. 235000 / sector max est. 300000 (not verified) = about 78%."},
+    {"n": 5, "score": 4, "est": false, "evidence": "1,053 sq ft = 98 m2 per Zoopla listing (portal figure, measurement basis not stated)."},
+    {"n": 6, "score": 4, "est": true, "evidence": "3 bedrooms listed; room sizes not given, so one may be small (est.)."},
+    {"n": 7, "score": 5, "est": true, "evidence": "Rear off-shot kitchen exists per Street listing; one knock-through into back reception likely; size unknown (est.)."},
+    {"n": 8, "score": 3, "est": true, "evidence": "End-of-terrace gives side-extension potential; garden length, loft and neighbour extensions unknown (est.)."},
+    {"n": 9, "score": 3, "est": true, "evidence": "Knock-through needing steel, plus rewire and heating, likely (est.)."},
+    {"n": 10, "score": 3, "est": true, "evidence": "Est. 7 to 12 months of works while renting elsewhere."},
+    {"n": 11, "score": 3, "est": true, "evidence": "Condition unknown; no survey or defect flags seen; cause unclear."},
+    {"n": 12, "score": 4, "est": true, "evidence": "Listing calls it a quiet residential road; letting boards, tidy fronts and rat-run not checked."},
+    {"n": 13, "score": 4, "est": true, "evidence": "Listing says the park is close by; walk time not measured (est. 5 to 10 min)."},
+    {"n": 14, "score": 3, "est": true, "evidence": "Route to big supermarket not checked (est. 15 to 20 min walk)."},
+    {"n": 15, "score": 3, "est": true, "evidence": "On-street parking likely; slope unknown, and Meersbrook is hilly (est.)."},
+    {"n": 16, "score": 3, "est": true, "evidence": "Log-burner in reception per listing; ceiling height, light and period features not seen."},
+    {"n": 17, "score": 3, "est": true, "evidence": "End-terrace; stone or brick, bay and front garden not seen in any source."}
+  ],
+  "anchors": {"Sheffield railway station": "est. 20 min by bus; est. 55 min walk"},
+  "verdict": "PASS",
+  "biggest_risk": "Buy test fails on est. figures (0.9V - 1.15W - C - asking = about -188000, with V est. 235000 and W est. 110000), so the works would not be recovered at the street's sold prices.",
+  "sources": [
+    "https://www.zoopla.co.uk/for-sale/details/71235510",
+    "https://street.co.uk/platform/properties/98f6aa0d-0b23-4079-8205-a81f1f8c36ca",
+    "https://whitehornes.co.uk/property-for-sale/cyprus-road-meersbook-s8/",
+    "https://www.rightmove.co.uk/house-prices/meersbrook.html",
+    "https://domovita.co.uk/sold-prices/town/sheffield?start=250",
+    "https://www.rightmove.co.uk/house-prices/s8/meersbrook-avenue.html",
+    "https://www.bricksandlogic.co.uk/place/street/meersbrook-avenue-sheffield-s8"
+  ]
+}

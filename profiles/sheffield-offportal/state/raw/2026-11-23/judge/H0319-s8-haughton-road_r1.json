@@ -1,0 +1,33 @@
+{"id": "H0319-s8-haughton-road", "run": "1", "live": true, "listing_url": "https://www.zoopla.co.uk/for-sale/details/62122419/", "asking": 220000, "floor_area_m2": null,
+ "house_type": "terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "pass: S8 8QH, Woodseats; the postcode is labelled Graves Park, so judged a neighbour of Meersbrook (est., not checked on a map)"},
+  "budget": {"pass": true, "reason": "pass: asking £220k is under £325k; asking + 1.15W + C is about £349.5k, under £425k (W est.)"},
+  "tenure": {"pass": true, "reason": "pass: portal snippets conflict (freehold at primelocation 67357416; 800-year lease from 1956 at Hunters 33933921); both pass; neither read on the listing page"},
+  "structure": {"pass": true, "reason": "unconfirmed: listing text could not be read"},
+  "vacant": {"pass": true, "reason": "unconfirmed: state unknown; vacant possession not seen"},
+  "hall": {"pass": true, "reason": "unconfirmed: floorplan and entrance not seen; front door position unknown"}
+ },
+ "V": 210000, "v_basis": "est.: 3 most recent sales, not confirmed done-up or terrace: 13 Haughton Rd £210k Nov 2025; 59 Haughton Rd £215k Sep 2025; 9 Haughton Rd £185k Jul 2025 (propbar). Street max: 52 Haughton Rd £225k Mar 2025 (propbar, rightmove)",
+ "W": 110000, "w_basis": "est., no floorplan or photos seen: single-storey rear ext to kitchen-diner £45k; rewire + heating £14k; kitchen + bath £18k; decor and floors £10k; roof, damp, structure and drainage £15k; fees and building control £8k; excludes contingency", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 1, "est": true, "evidence": "est.: asking £220k ÷ V est. £210k ≈ 105%; floor area not given"},
+  {"n": 3, "score": 3, "est": true, "evidence": "V est. £210k ÷ street max £225k (52 Haughton Rd, Mar 2025) ≈ 93%"},
+  {"n": 4, "score": 4, "est": true, "evidence": "est.: sector max not found; assumed about £250k in S8, so V ≈ 84%"},
+  {"n": 5, "score": 3, "est": true, "evidence": "est.: floor area not given; 80-90 m² assumed for a 3-bed terrace"},
+  {"n": 6, "score": 4, "est": true, "evidence": "est.: 3 bedrooms listed; room sizes not seen, one assumed small"},
+  {"n": 7, "score": 3, "est": true, "evidence": "est.: no kitchen-diner seen; single-storey rear extension assumed needed"},
+  {"n": 8, "score": 3, "est": true, "evidence": "est.: garden length and neighbouring extensions not seen"},
+  {"n": 9, "score": 2, "est": true, "evidence": "est.: single-storey extension for the kitchen-diner route, plus rewire and heating assumed"},
+  {"n": 10, "score": 3, "est": true, "evidence": "est.: 7-12 months to finish extension and refit"},
+  {"n": 11, "score": 3, "est": true, "evidence": "est.: no survey, damp or roof information seen; minor issues with unclear cause assumed"},
+  {"n": 12, "score": 3, "est": true, "evidence": "est.: street not seen; main-road, rat-run and letting-board checks not done"},
+  {"n": 13, "score": 3, "est": true, "evidence": "est.: S8 8QH is labelled Graves Park area (housesforsaletorent); walk to park est. 10-15 min"},
+  {"n": 14, "score": 3, "est": true, "evidence": "est.: supermarket walk not checked; 15-20 min assumed"},
+  {"n": 15, "score": 3, "est": true, "evidence": "est.: on-street parking assumed; slope not checked"},
+  {"n": 16, "score": 3, "est": true, "evidence": "est.: no photos or floorplan seen; average inside bones assumed"},
+  {"n": 17, "score": 3, "est": true, "evidence": "est.: no photos seen; plain terrace assumed"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 25 min by bus; est. 65 min walk"},
+ "verdict": "PASS", "biggest_risk": "Finished value est. £210k sits below the £220k asking, so the refurb cannot pay back on the buy test; the Zoopla page could not be opened, so live status comes from other portals.",
+ "sources": ["https://www.zoopla.co.uk/for-sale/details/62122419/", "https://www.hunters.com/properties-for-sale/3-bedrooms-house-in-haughton-road-woodseats-sheffield-s8-8qh-s8/33933921", "https://primelocation.com/for-sale/details/67357416", "https://homesearch.co.uk/property/for-sale/547628", "https://propbar.co.uk/areas/england/yorkshire-humber/s8-8qh", "https://www.rightmove.co.uk/house-prices/s8-8qh.html", "https://housesforsaletorent.co.uk/houses/england/sheffield/sheffield/graves-park/s8-8qh.html"]}

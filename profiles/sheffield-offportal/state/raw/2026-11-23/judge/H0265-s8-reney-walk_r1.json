@@ -1,0 +1,32 @@
+{"id": "H0265-s8-reney-walk", "run": "1", "live": true, "listing_url": "https://www.blundells.com/properties/16132493/sales/WDS220306", "asking": 190000, "floor_area_m2": null,
+ "house_type": "end-terrace",
+ "gates": {
+  "area": {"pass": true, "reason": "S8 7FU, Beauchief and Greenhill, in the S8 district that also holds Meersbrook; judged a neighbour (judgement, not a listing fact). https://housesforsaletorent.co.uk/houses/england/sheffield/sheffield/beauchief-and-greenhill/s8-7fu.html"},
+  "budget": {"pass": true, "reason": "Asking 190000 per job; agent now guides 200000-210000 (https://www.blundells.com/properties/21611107/sales/WDS260091). Asking + 1.15W + C = 325250 at 190000 and 345250 at 210000 (W est.), both under 425000."},
+  "tenure": {"pass": true, "reason": "Freehold per Zoopla listing (https://app.zoopla.co.uk/for-sale/details/72894361/)"},
+  "structure": {"pass": true, "reason": "unconfirmed: listing text reached says nothing on structure; no survey seen."},
+  "vacant": {"pass": true, "reason": "unconfirmed: no statement on vacant possession seen."},
+  "hall": {"pass": true, "reason": "unconfirmed: current listing text does not say where the front door opens. An older 2021 DealSourcing listing (https://www.dealsourcing.co/deal/1114757, same house not confirmed) mentions an entrance hall."}
+ },
+ "V": 270000, "v_basis": "est. 270000 (guess, not sales-based): 0 qualifying sales found (no done-up same-street sale in last 2 years). Out-of-window street sales for reference: 14 Reney Walk 198000 Aug 2023 (https://www.streetcheck.co.uk/houseprices/s87fu); 40 Reney Walk 182000 Aug 2022 (https://www.homipi.co.uk/house-prices/sheffield/reney-walk/)", "W": 115000, "w_basis": "est. 115000, excludes contingency: rear/side kitchen-diner extension 55000; conservatory rebuild as solid roof plus structural knock-through 11000; rewire 7000; heating 5000; bathroom 8000; windows and doors 9000; decor, plaster, floors 12000; design, building control, skips, scaffold 8000; kitchen 0 (modern fitted kitchen per listing text)", "C": 3000,
+ "scores": [
+  {"n": 1, "score": 3, "est": true, "evidence": "est. as bought 2262/m2 (190000 / est. 84 m2) vs done-up est. 3214/m2 (270000 / 84) = 70%; floor area and V both est."},
+  {"n": 3, "score": 1, "est": true, "evidence": "no street sale in last 2 years found; highest street sale found 198000 (14 Reney Walk, Aug 2023, out of window), so est. V = 136% of it"},
+  {"n": 4, "score": 4, "est": true, "evidence": "sector max sale in 2 years not found; est. 360000 so V = est. 75%"},
+  {"n": 5, "score": 3, "est": true, "evidence": "floor area not given; est. 84 m2 from a 904 sq ft 3-bed terrace on Reney Avenue (different street, https://www.primelocation.com/for-sale/details/73907270/)"},
+  {"n": 6, "score": 4, "est": true, "evidence": "3 beds per Zoopla listing (https://app.zoopla.co.uk/for-sale/details/72894361/); room sizes not given, est. one bedroom small"},
+  {"n": 7, "score": 4, "est": true, "evidence": "current listing has a fitted kitchen and UPVC conservatory used as dining space (https://www.blundells.com/properties/21611107/sales/WDS260091); a knock-through plus rebuilt conservatory needed to reach 25 m2 (est.)"},
+  {"n": 8, "score": 2, "est": true, "evidence": "front and rear gardens listed; rear garden length, loft and neighbour extensions not seen, est. one weak route"},
+  {"n": 9, "score": 2, "est": true, "evidence": "est. single-storey extension is the main work; rewire or heating not known, so est. band 2"},
+  {"n": 10, "score": 3, "est": true, "evidence": "est. 7-12 months of extension and refurb"},
+  {"n": 11, "score": 3, "est": true, "evidence": "no survey or damp/roof info seen; est. minor issues with cause unclear"},
+  {"n": 12, "score": 3, "est": true, "evidence": "est.; low turnover on the street (10 sales 1995-2023, https://www.streetcheck.co.uk/houseprices/s87fu); tidy fronts and letting boards not seen"},
+  {"n": 13, "score": 3, "est": true, "evidence": "est. 10-15 min walk to a park; Reney Walk to Graves Park distance not found"},
+  {"n": 14, "score": 3, "est": true, "evidence": "est. 15-20 min walk to a big supermarket; not checked"},
+  {"n": 15, "score": 3, "est": true, "evidence": "parking and slope not stated; est. hard on-street parking, level"},
+  {"n": 16, "score": 3, "est": true, "evidence": "described as well proportioned and spacious (https://www.blundells.com/properties/21611107/sales/WDS260091); light, ceiling height and period features not seen, est. average"},
+  {"n": 17, "score": 3, "est": true, "evidence": "front garden listed; brick, bay and terrace appearance not seen, est. plain, tidy"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 35 min by bus into the centre (est.; route not checked)"},
+ "verdict": "PASS", "biggest_risk": "Front door position unconfirmed and V is a guess with no done-up sales in the window; on these estimates the buy test is negative (0.9V 243000 less 1.15W 132250, C 3000 and asking 190000 leaves about -82000).",
+ "sources": ["https://www.blundells.com/properties/16132493/sales/WDS220306", "https://www.blundells.com/properties/21611107/sales/WDS260091", "https://app.zoopla.co.uk/for-sale/details/72894361/", "https://www.streetcheck.co.uk/houseprices/s87fu", "https://www.homipi.co.uk/house-prices/sheffield/reney-walk/", "https://www.zoopla.co.uk/house-prices/sheffield/reney-walk/s8-7fu/", "https://housesforsaletorent.co.uk/houses/england/sheffield/sheffield/beauchief-and-greenhill/s8-7fu.html", "https://www.primelocation.com/for-sale/details/73907270/", "https://www.dealsourcing.co/deal/1114757"]}

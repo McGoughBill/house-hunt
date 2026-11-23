@@ -1,0 +1,43 @@
+{"id": "H0060-s8-hollythorpe-road", "run": "3", "live": null, "listing_url": "https://whitehornes.co.uk/property-for-sale/hollythorpe-road-norton-lees-s8/", "asking": 270000, "floor_area_m2": null,
+ "house_type": "semi",
+ "gates": {
+  "area": {"pass": true, "reason": "S8 Norton Lees, same postcode as Meersbrook; judged a neighbour of Meersbrook (est.), not checked on a map of the brief's areas"},
+  "budget": {"pass": true, "reason": "unconfirmed: asking 270000 is under 325000; asking + 1.15W + C not checkable because W is unpriced"},
+  "tenure": {"pass": true, "reason": "unconfirmed: freehold per the ranker record; not seen on the listing itself"},
+  "structure": {"pass": true, "reason": "unconfirmed: listing not opened, no survey seen"},
+  "vacant": {"pass": true, "reason": "unconfirmed: listing not opened"},
+  "hall": {"pass": true, "reason": "unconfirmed: listing and floorplan not opened, so where the front door opens is unknown"}
+ },
+ "V": 315000, "v_basis": "est. (done-up and house type not checked): 49 Hollythorpe Road (S8 9NF) 315000 on 30 Jun 2025; 30 Hollythorpe Road (S8 9NE) 241000 on 27 Mar 2025; 80 Hollythorpe Road (S8 9NF) 330000 on 14 Mar 2025; median 315000. Also 33 Hollythorpe Road (S8 9NE) 235000 on 10 Mar 2025, not used. No 2026 sales on the road found.",
+ "W": null, "w_basis": "not priced: the listing, photos and floorplan could not be opened. C = nil stamp duty at 270000 (first-time buyer) plus 3000 fees, no auction premium.", "C": 3000,
+ "scores": [
+  {"n": 1, "score": null, "est": null, "evidence": "not scored: no floor area or listing price per m2 seen"},
+  {"n": 3, "score": null, "est": null, "evidence": "not scored: V 315000 against street max 2 yrs 330000 (est.), about 95%"},
+  {"n": 4, "score": null, "est": null, "evidence": "not scored: sector max not checked"},
+  {"n": 5, "score": null, "est": null, "evidence": "not scored: floor area not given; a Whitehornes Rightmove snippet for another Hollythorpe Road listing at 280000 says 731 sq ft (about 68 m2)"},
+  {"n": 6, "score": null, "est": null, "evidence": "not scored: 3 beds per ranker record; room sizes not seen"},
+  {"n": 7, "score": null, "est": null, "evidence": "not scored: no floorplan, kitchen-diner route unknown"},
+  {"n": 8, "score": null, "est": null, "evidence": "not scored: garden length and neighbours' extensions not seen"},
+  {"n": 9, "score": null, "est": null, "evidence": "not scored: works not priced"},
+  {"n": 10, "score": null, "est": null, "evidence": "not scored: works not priced"},
+  {"n": 11, "score": null, "est": null, "evidence": "not scored: no survey or listing detail"},
+  {"n": 12, "score": null, "est": null, "evidence": "not scored: street fronts not seen"},
+  {"n": 13, "score": null, "est": null, "evidence": "not scored: walk to park not measured"},
+  {"n": 14, "score": null, "est": null, "evidence": "not scored: walk to supermarket not measured"},
+  {"n": 15, "score": null, "est": null, "evidence": "not scored: parking not seen"},
+  {"n": 16, "score": null, "est": null, "evidence": "not scored: no photos seen"},
+  {"n": 17, "score": null, "est": null, "evidence": "not scored: no photos seen"}
+ ],
+ "anchors": {"Sheffield railway station": "est. 25 min bus; est. 15 min drive; est. 60 min walk"},
+ "verdict": "PASS",
+ "biggest_risk": "Listing could not be opened and no listing at 270000 was found; Whitehornes listings on Hollythorpe Road were seen at 280000 and 285000 with unclear status. All gates pass only as unconfirmed, so the verdict is provisional. Hall entry, condition, works cost and house type (assumed semi, est.) are unknown.",
+ "sources": [
+  "https://www.primelocation.com/house-prices/sheffield/hollythorpe-road/s8-9nf/",
+  "https://primelocation.com/house-prices/sheffield/hollythorpe-road/s8-9ne",
+  "https://nethouseprices.com/house-prices/South%20Yorkshire/SHEFFIELD/Hollythorpe%20Road",
+  "https://www.rightmove.co.uk/house-prices/s8-9nf.html",
+  "https://housemetric.co.uk/house-prices/Hollythorpe-Road/S8-9N",
+  "https://whitehornes.estate-track.co.uk/wp-content/uploads/2026/02/18360474-hollythorpe-road-norton-lees-s8_W4YrhFkEbTN1_2025-09-10-15-16-11.pdf",
+  "https://www.rightmove.co.uk/properties/172506335",
+  "https://street.co.uk/platform/properties/98f6ab40-c789-4d42-affb-591b150b793a"
+ ]}
