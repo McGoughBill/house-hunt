@@ -1,6 +1,6 @@
 # Shortlist (sheffield-offportal), top 20
 
-Updated 2026-11-23. New this run: 6. Dropped: 6.
+Updated 2026-11-23. New this run: 0. Dropped: 0.
 
 | # | Total | House | Asking | V | Margin | Uplift | m² | Risk |
 |---|---|---|---|---|---|---|---|---|
@@ -18,12 +18,12 @@ Updated 2026-11-23. New this run: 6. Dropped: 6.
 | 12 | 55.2 | [Hollythorpe Road, Norton Lees S8](https://whitehornes.co.uk/property-for-sale/hollythorpe-road-norton-lees-s8/) | £270k | £286k | £-65k | 1.06 | – | Listing could not be opened and no listing at 270000 was found; Whitehornes listings on Hollythorpe Road were seen at 280000 and 285000 with |
 | 13 | 54.0 | [Abbeydale Road, Nether Edge S7](https://www.haybrook.com/buying/3-bedroom-house-for-sale/nether-edge-sheffield-s7/hay030769017/) | £240k | £225k | £-121k | 0.94 | – | Tenure, vacancy, structure and hall are unconfirmed; the road is a main road and V rests on weak mixed-stock comparables with no done-up sta |
 | 14 | 53.2 | [Ulverston Road, Woodseats S8](https://www.rightmove.co.uk/properties/155424092) | £205k | £250k | £-132k | 1.22 | – | Est. margin about -132500 (works ~130000 vs ~45000 value gap); hall, tenure, status and condition unconfirmed as listing unreadable |
-| 15 | 53.0 | [Delf Street, Heeley S2](https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1220710) **NEW** | £190k | £200k | £-30k | 1.05 | – | V rests on three sales whose condition and floor areas are unverified, and the listing gives no room sizes, survey or extension details. |
-| 16 | 53.0 | [Cockayne Place, Meersbrook S8](https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-cockayne-place-sheffield-s8-id-woo240265) **NEW** | £270k | £168k | £-203k | 0.62 | – | V (167500) is not credible for a done-up house: the sales used are undone and 2017-2022, so the margin (0.9V - 1.15W - C - asking about -203 |
-| 17 | 53.0 | [Cartmell Road, Woodseats S8](https://app.zoopla.co.uk/for-sale/details/73323954/) **NEW** | £190k | £250k | £-152k | 1.32 | 61 | Status unverified: a Rightmove listing for a 655 sq ft Redbrik Cartmell Rd house shows sold/under offer; est. margin about -152000 (0.9 x 25 |
-| 18 | 52.4 | [2 Rushdale Road, Sheffield S8 Meersbrook S8](https://www.stavesestateagents.co.uk/property-for-sale-4-bedroom-end-terrace-in-sheffield-3) **NEW** | £270k | £260k | £-79k | 0.96 | – | Already done to a good standard and priced at the street's done-up level, so little margin; kitchen-diner spec needs an unpriced build; no s |
-| 19 | 52.4 | [Richards Road, Heeley S2](https://www.rightmove.co.uk/properties/173771870) **NEW** | £220k | £260k | £-127k | 1.18 | 109 | Listing page could not be opened (proxy refused every fetch); asking, size and status come from search snippets, and an agent index snippet  |
-| 20 | 52.0 | [Fraser Road, Woodseats S8](https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-fraser-road-sheffield-s8-id-woo250110) **NEW** | £260k | £290k | £-100k | 1.12 | 98 | Listing unverified: the Reeds Rains page would not open, snippets show 270000-280000 not 260000, and a Reeds Rains Fraser Road semi on Right |
+| 15 | 53.0 | [Delf Street, Heeley S2](https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-sheffield-1220710) | £190k | £200k | £-30k | 1.05 | – | V rests on three sales whose condition and floor areas are unverified, and the listing gives no room sizes, survey or extension details. |
+| 16 | 53.0 | [Cockayne Place, Meersbrook S8](https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-cockayne-place-sheffield-s8-id-woo240265) | £270k | £168k | £-203k | 0.62 | – | V (167500) is not credible for a done-up house: the sales used are undone and 2017-2022, so the margin (0.9V - 1.15W - C - asking about -203 |
+| 17 | 53.0 | [Cartmell Road, Woodseats S8](https://app.zoopla.co.uk/for-sale/details/73323954/) | £190k | £250k | £-152k | 1.32 | 61 | Status unverified: a Rightmove listing for a 655 sq ft Redbrik Cartmell Rd house shows sold/under offer; est. margin about -152000 (0.9 x 25 |
+| 18 | 52.4 | [2 Rushdale Road, Sheffield S8 Meersbrook S8](https://www.stavesestateagents.co.uk/property-for-sale-4-bedroom-end-terrace-in-sheffield-3) | £270k | £260k | £-79k | 0.96 | – | Already done to a good standard and priced at the street's done-up level, so little margin; kitchen-diner spec needs an unpriced build; no s |
+| 19 | 52.4 | [Richards Road, Heeley S2](https://www.rightmove.co.uk/properties/173771870) | £220k | £260k | £-127k | 1.18 | 109 | Listing page could not be opened (proxy refused every fetch); asking, size and status come from search snippets, and an agent index snippet  |
+| 20 | 52.0 | [Fraser Road, Woodseats S8](https://www.reedsrains.co.uk/property/semi-detached-house-for-sale-fraser-road-sheffield-s8-id-woo250110) | £260k | £290k | £-100k | 1.12 | 98 | Listing unverified: the Reeds Rains page would not open, snippets show 270000-280000 not 260000, and a Reeds Rains Fraser Road semi on Right |
 
 ## Not confirmed live (6)
 

@@ -22432,7 +22432,13 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "check": {
+    "date": "2026-11-23",
+    "status": "unknown",
+    "url": null,
+    "evidence": "No listing page for this house opened. Eight WebSearch queries (street, S2 and S2 3AW, Yopa, price, Yopa listing number) returned no single-house page for Northcote Avenue. The saved Yopa link was not among any search result, so it was not fetched. 21 search-returned listing pages were opened and no"
+   }
   },
   "H0287-s8-helmton-road": {
    "street": "Helmton Road",
@@ -23207,7 +23213,8 @@
      }
     }
    ],
-   "retries": {}
+   "retries": {},
+   "parked": "Bill: withdrawn from market (23 Nov 2026)"
   },
   "H0298-s2-spurr-street-no-32": {
    "street": "Spurr Street (no. 32)",
