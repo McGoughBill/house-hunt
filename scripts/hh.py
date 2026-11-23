@@ -135,6 +135,8 @@ def render_brief(c, write=True):
     L = [f"# Scoring brief: {p['name']}", "", p.get("intent", ""), "",
          f"**Vibe:** {p['vibe']['summary']}", "",
          f"**Finished spec:** {p['finished_spec']}", "",
+         *([f"**Bill liked:** {'; '.join(p['examples']['liked'])}.", "",
+            f"**Bill rejected:** {'; '.join(p['examples']['rejected'])}.", ""] if p.get("examples") else []),
          "V = finished value: median of 3 done-up same-street, same-type sales in the last 2 years. "
          "W = works before contingency. C = buying costs.", "",
          "## Gates (pass/fail; any fail = REJECT)", ""]

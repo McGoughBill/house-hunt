@@ -10,7 +10,7 @@ Judge this house for a buyer who will refurbish it and then live in it. Be scept
 - Listing: {{link}}
 {{context}}
 ## Steps
-1. Open the listing, photos and floorplan. If the page fails, find the house by street, agent and price on another portal or on the agent's site. If it has gone or is sold, set `"live": false`, fill in what you can, and stop. If you cannot open it or find it anywhere, set `"live": null` and every score to null, and still write the file.
+1. Find the listing by searching, not by typing URLs. Runs are unattended and WebFetch asks for approval for any URL that a WebSearch in this run did not return, so: WebSearch the street, area, agent and "for sale" (two or three wordings), then fetch only result URLs: the listing, photos and floorplan, preferring the agent's own page, then Rightmove, Zoopla, OnTheMarket or PrimeLocation. The listing link above is a hint, not a URL to fetch unless a search returns it. If a fetch fails or is refused, try the next result; never retry the same URL. If it has gone or is sold, set `"live": false`, fill in what you can, and stop. If you cannot open it or find it anywhere, set `"live": null` and every score to null, and still write the file.
 2. Find V: the median of 3 done-up sales of the same type on the same street in the last 2 years. Use {{comps_sources}}. If there are fewer than 3, use the nearest similar street and say so in `v_basis`.
 3. Price the works W from the floorplan and photos, aiming at the finished spec: {{finished_spec}} W excludes contingency.
 4. Buying costs C: {{tax_note}} Add {{fees}} fees, and any auction reservation fee or buyer's premium.

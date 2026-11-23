@@ -1,10 +1,14 @@
 # Scoring brief: sheffield-offportal
 
-Off-portal sweep (3 beds, ≤ £325k; Meersbrook and neighbours, or near Endcliffe Park): Buy the best-value house in south Sheffield: cheap against its fundamentals (space, layout, 3 beds), front door into a hall, room to extend out or up. Refurb it fully while renting elsewhere, then live in it. Works budget up to about £250k from family loans.
+Off-portal sweep (2-3 beds, ≤ £325k; Norton Lees, Meersbrook and neighbours, or near Endcliffe Park): Buy the best-value semi in south Sheffield: cheap against its fundamentals (space, layout), front door into a hall, open-plan living-dining or one knock-through away, room to extend out or up. Dated interior is welcome: it gets ripped out. Refurb it fully while renting elsewhere, then live in it. Works budget up to about £250k from family loans.
 
-**Vibe:** Young-professional, characterful period house (Victorian/Edwardian bay terrace or 1930s semi), walkable to a big park and an independent high street, owner-occupied streets. Not a suburban estate, not a student area.
+**Vibe:** Semi-detached house (detached if affordable): a hallway, open-plan living-dining (or one knock-through away), garage or drive, dated interior to rip out, room to go up or out. Best areas: Norton Lees and the Meersbrook Park side of Meersbrook; Heeley, Nether Edge and the Endcliffe Park side of S11 are fine; Woodseats proper and steep, icy hills score lower. Owner-occupied streets, not a student area.
 
-**Finished spec:** 3 real bedrooms (two of 11.5 m2+), kitchen-diner of 25 m2+ at the back, separate sitting room, front door into a hall, 90-110 m2 inside.
+**Finished spec:** 3 bedrooms (2 accepted if spacious, 75 m²+ inside), open-plan living-dining with kitchen, front door into a hall, garage or drive, 85-110 m² inside.
+
+**Bill liked:** 57 Lees Hall Road S8 (1930s semi, hall, drive + garage, big roof space); 6 Cawthorne Grove S8 (semi, hall, long garden, neighbour went up); 17 Helmton Drive S8 (semi, garage; marked down for hill and Woodseats); 50 Welby Place S8 (detached bungalow, Meersbrook, near friends); Northcote Avenue S2; Cyprus Road S8; Thorpe House Rise S8 (Norton Lees).
+
+**Bill rejected:** 38 Underwood Road (terrace, floors move, damp); 34 Falmouth Road (terrace, wonky, half-done DIY); Abbey Lane S8 (Modern Method of Auction); Lismore Road S8; Pearson Place S8; Alexandra Road S2; Neill Road S11; Meadow Head S8.
 
 V = finished value: median of 3 done-up same-street, same-type sales in the last 2 years. W = works before contingency. C = buying costs.
 
@@ -21,23 +25,23 @@ V = finished value: median of 3 done-up same-street, same-type sales in the last
 
 | # | Criterion | Wt | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|---|---|
-| 1 | £/m² as bought ÷ done-up street £/m² | 15 | > 85% | 78-85% | 70-78% | 60-70% | < 60% |
+| 1 | £/m² as bought ÷ done-up street £/m² | 14 | > 85% | 78-85% | 70-78% | 60-70% | < 60% |
 | 2 | Margin: 0.9V − 1.15W − C − asking *(computed by the ranker — do not score)* | 10 | < 0 | 0-10k | 10-25k | 25-40k | > 40k |
-| 3 | V ÷ street max sale (2 yrs) | 5 | > 100% | 95-100% | 90-95% | 80-90% | < 80% |
-| 4 | V ÷ sector max sale (2 yrs) | 4 | > 100% | 90-100% | 80-90% | 70-80% | < 70% |
-| 5 | Floor area now | 8 | < 70 m² | 70-80 | 80-90 | 90-100 | > 100 m² |
-| 6 | Bedrooms | 5 | 3rd needs extension | 3rd needs loft | 3rd needs attic sign-off | 3 now, one small | 3 now, two ≥ 11.5 m² |
-| 7 | Kitchen-diner route | 6 | none | 2-storey or large ext. | single-storey rear ext. | side-return infill | exists or one knock-through |
+| 3 | V ÷ street max sale (2 yrs) | 4 | > 100% | 95-100% | 90-95% | 80-90% | < 80% |
+| 4 | V ÷ sector max sale (2 yrs) | 2 | > 100% | 90-100% | 80-90% | 70-80% | < 70% |
+| 5 | Floor area now | 10 | < 70 m² | 70-80 | 80-90 | 90-100 | > 100 m² |
+| 6 | Bedrooms | 4 | 2, small rooms | 2 spacious, no 3rd route | 2 spacious + easy loft, or 3rd needs loft | 3 now, one small | 3 now, two ≥ 11.5 m² |
+| 7 | Open-plan living-dining route | 9 | none | 2-storey or large ext. | single-storey rear ext. | one knock-through | already open-plan living-dining |
 | 8 | Extension headroom (garden ≥ 10 m; loft fits; neighbours extended) | 6 | none | 1 weak | 1 | 2 | all 3 |
-| 9 | Work complexity | 4 | loft + extension | single-storey ext. | steel beam / structural | rewire or heating | decor, kitchen, bath only |
-| 10 | Months to happily live there | 3 | > 18 | 13-18 | 7-12 | 4-6 | ≤ 3 |
+| 9 | Work complexity | 3 | loft + extension | single-storey ext. | steel beam / structural | rewire or heating | decor, kitchen, bath only |
+| 10 | Months to happily live there | 2 | > 18 | 13-18 | 7-12 | 4-6 | ≤ 3 |
 | 11 | Unknowns (damp, roof, cellar, survey flags) | 3 | several serious | one serious | minor, cause unclear | minor, cause clear | none |
-| 12 | Street quality (owner-occupied, tidy fronts, few letting boards, no main road or rat-run) | 6 | most fail | 2 fail | 1 fails | all pass, plain | all pass, sought after |
-| 13 | Walk to park | 4 | > 20 min | 15-20 | 10-15 | 5-10 | ≤ 5 min |
-| 14 | Walk to big supermarket | 2 | drive only | 20-25 min | 15-20 | 10-15 | ≤ 10 min |
-| 15 | Parking and slope | 1 | no parking, steep | one bad | hard parking, level | easy on-street | drive, level |
-| 16 | Inside bones (light, ceiling height, period features, scope to open up) | 5 | poor | below average | average | good | excellent |
-| 17 | Outside (stone or good brick, bay, front garden, terrace hangs together) | 5 | ugly or tired street | plain, worn | plain, tidy | attractive | handsome |
+| 12 | Street and area (owner-occupied, tidy, no main road; Norton Lees and Meersbrook Park side best; Woodseats proper lower) | 6 | most fail | 2 fail | 1 fails | all pass, plain | all pass, sought after |
+| 13 | Walk to park | 3 | > 20 min | 15-20 | 10-15 | 5-10 | ≤ 5 min |
+| 14 | Walk to big supermarket | 1 | drive only | 20-25 min | 15-20 | 10-15 | ≤ 10 min |
+| 15 | Parking, garage and slope | 5 | no parking, steep or icy | street parking, steep | street parking, level | drive or garage | drive and garage, level |
+| 16 | Inside bones (light, ceiling height, scope to open up; dated decor is no penalty) | 5 | poor | below average | average | good | excellent |
+| 17 | Outside (semi or detached, good brick or stone, front garden, pair hangs together) | 5 | ugly or tired street | plain, worn | plain, tidy | attractive | handsome |
 | 18 | Uplift: V ÷ asking *(computed by the ranker — do not score)* | 8 | < 1.10 | 1.10-1.20 | 1.20-1.30 | 1.30-1.45 | > 1.45 |
 
 Weights total 100.
