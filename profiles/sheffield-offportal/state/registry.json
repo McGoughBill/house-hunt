@@ -13772,7 +13772,8 @@
     "status": "live",
     "url": "https://www.primelocation.com/for-sale/details/73429708/",
     "evidence": "Single-house page opened. Agent shown as 'Redbrik Estate Agents - West Sheffield'; address 'Neill Road, Sheffield S11' (no house number). Status words on the page (as extracted by WebFetch, not verified verbatim): 'Just added' is the only listing status label; heading says 'for sale'. No Sold STC, S"
-   }
+   },
+   "parked": "Bill: not for me (23 Nov 2026 review)"
   },
   "H0172-s7-wath-road": {
    "street": "Wath Road",
@@ -15330,7 +15331,8 @@
     "status": "live",
     "url": "https://www.rightmove.co.uk/properties/168022958",
     "evidence": "Rightmove 168022958 opened (single-house page, summarised fetch): end-of-terrace, Alexandra Road, Heeley, S2, 3 bedrooms, agent Spencer The Estate Agent, 469 Ecclesall Road, 'Property reference 34228003'. No sale status label shown. Only status-style wording was 'Recently sold & under offer' beside "
-   }
+   },
+   "parked": "Bill: not for me (23 Nov 2026 review)"
   },
   "H0193-s7-carter-knowle-road": {
    "street": "Carter Knowle Road",
@@ -16566,7 +16568,8 @@
     "status": "live",
     "url": "https://propertytorenovate.co.uk/property/czgtMzI1MDAwLTQtMTI5MDAzMjE2MDI5MjkzMjk3OTY",
     "evidence": "Page opened and is a single-house listing: 'Meadow Head, Sheffield, S8 7UD', 4 bed terraced, price £325,000. Title quoted as 'Meadow Head, Sheffield, S8 7UD 4 bed terraced house for sale'. No sold, STC, under offer, reserved or reduced wording on the page. Agent not shown. Confidence is moderate: ex"
-   }
+   },
+   "parked": "Bill: not for me (23 Nov 2026 review)"
   },
   "H0210-s8-thorpe-house-rise": {
    "street": "Thorpe House Rise",
@@ -20910,7 +20913,8 @@
     "status": "live",
     "url": "https://www.blundells.com/properties/21658528/sales/WDS240246",
     "evidence": "Blundells listing page opened and is a single-house listing (three-bedroom semi-detached; Woodseats branch, 794-796 Chesterfield Road, S8 0SF). Address shown as 'Abbey Lane, Sheffield, South Yorkshire, S8 3' (postcode truncated). No Sold STC, SSTC, Sale agreed, Under offer, Reserved, Sold or 'no lon"
-   }
+   },
+   "parked": "Bill: not for me (23 Nov 2026 review)"
   },
   "H0265-s8-reney-walk": {
    "street": "Reney Walk",
@@ -24187,7 +24191,8 @@
     "status": "live",
     "url": "https://www.zoopla.co.uk/for-sale/details/71692716",
     "evidence": "Zoopla page opened. Fetch summaries only, not verbatim page text. Shows Lismore Road, Meersbrook S8 (no house number), agent 'Whitehorn Estate Agents', 'Guide price £325,000-£350,000', 3 bedrooms, 1 bathroom, 865 sq ft, listed 17th Nov 2026. No status label shown; no Sold, SSTC, Sold subject to cont"
-   }
+   },
+   "parked": "Bill: not for me (23 Nov 2026 review)"
   },
   "H0310-s8-moor-view-road": {
    "street": "Moor View Road",
@@ -24444,7 +24449,8 @@
     "status": "live",
     "url": "https://street.co.uk/platform/properties/98f6aa1d-fb98-4d9c-b3f1-432dc5e271e6",
     "evidence": "Page opened (street.co.uk listing, agent shown as Whitehornes, heading '3 Bedroom Mid-Terraced House, Pearson Place, Meersbrook, S8', no house number shown). Only status label on the page: 'For Sale'. No 'Sold', 'Sold STC', 'SSTC', 'Under offer', 'Sale agreed', 'Reserved' or 'Let agreed' label found"
-   }
+   },
+   "parked": "Bill: not for me (23 Nov 2026 review)"
   },
   "H0313-s11-blair-athol-road": {
    "street": "Blair Athol Road",
